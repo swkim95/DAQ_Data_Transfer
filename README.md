@@ -1,7 +1,7 @@
 # DAQ_Data_Transfer
 DAQ PC data transfer to HDD &amp; Validation &amp; Remove code
 
-##Copy data
+## Copy data
   
   [Usage] : ./FileTransfer.sh <src_dir> <dest_dir>
   
