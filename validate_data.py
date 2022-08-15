@@ -299,14 +299,14 @@ if __name__ == "__main__" :
     for SSD_ROOT_DIR, _, SSD_files in os.walk(SSD_DIR) :
         for SSD_file_name in SSD_files :
             SSD_FILE_LIST.append(os.path.join(SSD_ROOT_DIR,SSD_file_name))
-    SSD_DATA_LIST = list(filter(lambda x : x.find("Log") , SSD_FILE_LIST ))
+    SSD_DATA_LIST = [x for x in SSD_FILE_LIST if not "log" in x]
     SSD_DATA_LIST.sort()
 
     HDD_FILE_LIST = []
     for HDD_ROOT_DIR, _, HDD_files in os.walk(HDD_DIR) :
         for HDD_file_name in HDD_files :
             HDD_FILE_LIST.append(os.path.join(HDD_ROOT_DIR,HDD_file_name))
-    HDD_DATA_LIST = list(filter(lambda x : x.find("Log") , HDD_FILE_LIST ))
+    HDD_DATA_LIST = [x for x in HDD_FILE_LIST if not "log" in x]
     HDD_DATA_LIST.sort()
 
     check_file_size(SSD_DATA_LIST, HDD_DATA_LIST)
