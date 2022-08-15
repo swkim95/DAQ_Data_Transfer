@@ -188,10 +188,9 @@ def decode_meta_data(meta_data_bits) :
 
 def print_meta_data(HDD_SORTED_DIR, fraction=0.1, metadata_size=64) :
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Printing out random file's metadata...", end="\n\n")
-    HDD_DATA_DIR = list(filter(lambda x : x.find("Log") , HDD_SORTED_DIR ))
-    total_number_of_files = len(HDD_DATA_DIR)
+    total_number_of_files = len(HDD_SORTED_DIR)
     files_to_investigate = int(total_number_of_files * fraction) if total_number_of_files >= 10 else total_number_of_files
-    file_num_list = random.sample(HDD_DATA_DIR, files_to_investigate)
+    file_num_list = random.sample(HDD_SORTED_DIR, files_to_investigate)
     for hdd_file in file_num_list :
         meta_data_bits = []
 
@@ -300,15 +299,17 @@ if __name__ == "__main__" :
     for SSD_ROOT_DIR, _, SSD_files in os.walk(SSD_DIR) :
         for SSD_file_name in SSD_files :
             SSD_FILE_LIST.append(os.path.join(SSD_ROOT_DIR,SSD_file_name))
-    SSD_FILE_LIST.sort()
+    SSD_DATA_LIST = list(filter(lambda x : x.find("Log") , SSD_FILE_LIST ))
+    SSD_DATA_LIST.sort()
 
     HDD_FILE_LIST = []
     for HDD_ROOT_DIR, _, HDD_files in os.walk(HDD_DIR) :
         for HDD_file_name in HDD_files :
             HDD_FILE_LIST.append(os.path.join(HDD_ROOT_DIR,HDD_file_name))
-    HDD_FILE_LIST.sort()
+    HDD_DATA_LIST = list(filter(lambda x : x.find("Log") , HDD_FILE_LIST ))
+    HDD_DATA_LIST.sort()
 
-    check_file_size(SSD_FILE_LIST, HDD_FILE_LIST)
-    valid_with_checksum_sha256(SSD_FILE_LIST, HDD_FILE_LIST)
-    print_meta_data(HDD_FILE_LIST, fraction=0.1)
+    check_file_size(SSD_DATA_LIST, HDD_DATA_LIST)
+    valid_with_checksum_sha256(SSD_DATA_LIST, HDD_DATA_LIST)
+    print_meta_data(HDD_DATA_LIST, fraction=0.1)
     action_after_valid(SSD_DIR)
