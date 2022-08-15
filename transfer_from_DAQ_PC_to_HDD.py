@@ -77,7 +77,7 @@ def check_transfer_location(source_path, destination_path) :
         print(f"{bcolors.ERRORBLOCK}##########################################################################{bcolors.ENDC}")
         sys.exit()
     
-    elif( Left_storage_fraction_after_transfer >= 0.8 ) :
+    elif( Left_storage_fraction_after_transfer <= 0.2 ) :
         print(f"{bcolors.WARNING}#####################################################################################################{bcolors.ENDC}")
         print(f"{bcolors.WARNING}[WARNING] HDD usage exceeds {bcolors.BOLD}", round((100*Left_storage_fraction_after_transfer), 2), f"%{bcolors.ENDC}{bcolors.WARNING} after transferring the source folder, BE CAREFUL WHEN TRANSFER!!{bcolors.ENDC}" )
         print(f"{bcolors.WARNING}#####################################################################################################{bcolors.ENDC}")
