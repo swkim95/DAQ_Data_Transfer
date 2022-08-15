@@ -188,9 +188,10 @@ def decode_meta_data(meta_data_bits) :
 
 def print_meta_data(HDD_SORTED_DIR, fraction=0.1, metadata_size=64) :
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Printing out random file's metadata...", end="\n\n")
-    total_number_of_files = len(HDD_SORTED_DIR)
+    HDD_DATA_DIR = list(filter(lambda x : x.find("Log") : HDD_SORTED_DIR ))
+    total_number_of_files = len(HDD_DATA_DIR)
     files_to_investigate = int(total_number_of_files * fraction) if total_number_of_files >= 10 else total_number_of_files
-    file_num_list = random.sample(HDD_SORTED_DIR, files_to_investigate)
+    file_num_list = random.sample(HDD_DATA_DIR, files_to_investigate)
     for hdd_file in file_num_list :
         meta_data_bits = []
 
