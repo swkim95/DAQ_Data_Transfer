@@ -100,19 +100,19 @@ def decode_meta_data(meta_data_bits) :
     fine_time = fine_time * 11     ## actually * (1000 / 90)
     coarse_time = int(bin(int(meta_data_bits[12].hex(), base=16) & 0b11111111), base=2)
     ltmp = int(bin(int(meta_data_bits[13].hex(), base=16) & 0b11111111), base=2)
-    ltmp = itmp = int(bin(itmp << 8), base=2)
+    ltmp = int(bin(ltmp << 8), base=2)
     coarse_time = coarse_time + ltmp
     ltmp = int(bin(int(meta_data_bits[14].hex(), base=16) & 0b11111111), base=2)
-    ltmp = itmp = int(bin(itmp << 16), base=2)
+    ltmp = int(bin(ltmp << 16), base=2)
     coarse_time = coarse_time + ltmp
     ltmp = int(bin(int(meta_data_bits[15].hex(), base=16) & 0b11111111), base=2)
-    ltmp = itmp = int(bin(itmp << 24), base=2)
+    ltmp = int(bin(ltmp << 24), base=2)
     coarse_time = coarse_time + ltmp
     ltmp = int(bin(int(meta_data_bits[16].hex(), base=16) & 0b11111111), base=2)
-    ltmp = itmp = int(bin(itmp << 32), base=2)
+    ltmp = int(bin(ltmp << 32), base=2)
     coarse_time = coarse_time + ltmp
     ltmp = int(bin(int(meta_data_bits[17].hex(), base=16) & 0b11111111), base=2)
-    ltmp = itmp = int(bin(itmp << 40), base=2)
+    ltmp = int(bin(ltmp << 40), base=2)
     coarse_time = coarse_time + ltmp
     coarse_time = coarse_time * 1000   ## get ns
     tcb_trig_time = fine_time + coarse_time
@@ -135,7 +135,7 @@ def decode_meta_data(meta_data_bits) :
     local_trig_number = local_trig_number + itmp
     data.append(local_trig_number)
 
-    ## local trigger #
+    ## local trigger pattern
     local_trigger_pattern = int(bin(int(meta_data_bits[23].hex(), base=16) & 0b11111111), base=2)
     itmp = int(bin(int(meta_data_bits[24].hex(), base=16) & 0b11111111), base=2)
     itmp = int(bin(itmp << 8), base=2)
@@ -153,19 +153,19 @@ def decode_meta_data(meta_data_bits) :
     fine_time = fine_time * 11     ## actually * (1000 / 90)
     coarse_time = int(bin(int(meta_data_bits[28].hex(), base=16) & 0b11111111), base=2)
     ltmp = int(bin(int(meta_data_bits[29].hex(), base=16) & 0b11111111), base=2)
-    ltmp = int(bin(itmp << 8), base=2)
+    ltmp = int(bin(ltmp << 8), base=2)
     coarse_time = coarse_time + ltmp
     ltmp = int(bin(int(meta_data_bits[30].hex(), base=16) & 0b11111111), base=2)
-    ltmp = int(bin(itmp << 16), base=2)
+    ltmp = int(bin(ltmp << 16), base=2)
     coarse_time = coarse_time + ltmp
     ltmp = int(bin(int(meta_data_bits[31].hex(), base=16) & 0b11111111), base=2)
-    ltmp = int(bin(itmp << 24), base=2)
+    ltmp = int(bin(ltmp << 24), base=2)
     coarse_time = coarse_time + ltmp
     ltmp = int(bin(int(meta_data_bits[32].hex(), base=16) & 0b11111111), base=2)
-    ltmp = int(bin(itmp << 32), base=2)
+    ltmp = int(bin(ltmp << 32), base=2)
     coarse_time = coarse_time + ltmp
     ltmp = int(bin(int(meta_data_bits[33].hex(), base=16) & 0b11111111), base=2)
-    ltmp = int(bin(itmp << 40), base=2)
+    ltmp = int(bin(ltmp << 40), base=2)
     coarse_time = coarse_time + ltmp
     coarse_time = coarse_time * 1000   ## get ns
     local_trig_time = fine_time + coarse_time
@@ -198,7 +198,7 @@ def print_meta_data(HDD_SORTED_DIR, fraction=0.1, metadata_size=64) :
         if hdd_file_size == 0 : continue
         base_size = 65536 if "Wave" in hdd_file else 256
         evt_number = (hdd_file_size//base_size)
-        random_evt_num = random.randint(0, evt_number)
+        random_evt_num = random.randint(0, evt_number-1)
         print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Checking metadata of HDD file : {bcolors.OKCYAN}{bcolors.BOLD}%s{bcolors.ENDC}" %(hdd_file))
         with open(hdd_file, "rb") as f :
             f.seek(random_evt_num * base_size)
