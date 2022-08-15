@@ -46,6 +46,7 @@ def check_file_size(SSD_SORTED_DIR, HDD_SORTED_DIR) :
         ssd_file_size = os.stat(ssd_file).st_size
         hdd_file_size = os.stat(hdd_file).st_size
         base_size = 65536
+        if ( (ssd_file_size == 0) and (hdd_file_size == 0) ) : continue
         if "Fast" in ssd_file : base_size = 256
         if not ( ( (ssd_file_size%base_size) == 0) or ( (hdd_file_size%base_size) == 0) ) :
             print(f"{bcolors.ERRORBLOCK}[ERROR]{bcolors.ENDC} Event number check failed!!!")
@@ -193,12 +194,11 @@ def print_meta_data(HDD_SORTED_DIR, fraction=0.1, metadata_size=64) :
     file_num_list = random.sample(HDD_SORTED_DIR, files_to_investigate)
     for hdd_file in file_num_list :
         meta_data_bits = []
-
         hdd_file_size = os.stat(hdd_file).st_size
+        if hdd_file_size == 0 : continue
         base_size = 65536 if "Wave" in hdd_file else 256
         evt_number = (hdd_file_size//base_size)
         random_evt_num = random.randint(0, evt_number)
-
         print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Checking metadata of HDD file : {bcolors.OKCYAN}{bcolors.BOLD}%s{bcolors.ENDC}" %(hdd_file))
         with open(hdd_file, "rb") as f :
             f.seek(random_evt_num * base_size)
