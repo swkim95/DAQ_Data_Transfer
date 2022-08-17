@@ -40,7 +40,7 @@ def valid_with_checksum_sha256(SSD_SORTED_DIR, HDD_SORTED_DIR) :
             sys.exit()
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} SHA256 checksum compare {bcolors.OKGREEN}{bcolors.BOLD}successful!{bcolors.ENDC} Proceeding...")
 
-def check_file_size(SSD_SORTED_DIR, HDD_SORTED_DIR) :
+def check_entry(SSD_SORTED_DIR, HDD_SORTED_DIR) :
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Checking number of events stored in SSD & HDD files...")
     for idx, (ssd_file, hdd_file) in enumerate(zip(SSD_SORTED_DIR, HDD_SORTED_DIR)) :
         ssd_file_size = os.stat(ssd_file).st_size
@@ -213,31 +213,47 @@ def print_meta_data(HDD_SORTED_DIR, fraction=0.1, metadata_size=64) :
     if not confirmed : sys.exit()
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Metadata check all clear. Proceeding...")
 
-# def check_meta_data(HDD_SORTED_DIR, fraction=0.1, metadata_size=64) :
-#     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Printing out random file's metadata...", end="\n\n")
-#     total_number_of_files = len(HDD_SORTED_DIR)
-#     files_to_investigate = int(total_number_of_files * fraction) if total_number_of_files >= 10 else total_number_of_files
-#     file_num_list = random.sample(HDD_SORTED_DIR, files_to_investigate)
-#     for hdd_file in file_num_list :
-#         hdd_file_base_name = hdd_file.split("/")[-1]
-#         hdd_file_RunNum = hdd_file_base_name.split("_")[1]
-#         hdd_wave_or_fast = hdd_file_base_name.split("_")[2]
-#         hdd_file_MID = hdd_file_base_name.split("_")[4]
-
-#         meta_data_bits = []
-#         hdd_file_size = os.stat(hdd_file).st_size
-#         base_size = 65536 if "Wave" in hdd_wave_or_fast else 256
-#         evt_number = (hdd_file_size//base_size)
-#         random_evt_num = random.randint(0, evt_number)
-
-#         print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Matching metadata with actual HDD file : {bcolors.OKCYAN}{bcolors.BOLD}%s{bcolors.ENDC}" %(hdd_file))
-#         with open(hdd_file, "rb") as f :
-#             f.seek(random_evt_num * base_size)
-#             for i in range(metadata_size) :
-#                 meta_data_bits.append(f.read(1))
-#         meta_data = decode_meta_data(meta_data_bits)
-#         if not ( () ) :
-#     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Metadata check all clear. Proceeding...")
+def compare_meta_data(HDD_SORTED_DIR, SSD_SORTED_DIR, metadata_size=64) :
+    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Comparing HDD & SSD file's metadata...", end="\n\n")
+    for hdd_file, ssd_file in zip(HDD_SORTED_DIR, SSD_SORTED_DIR) :
+        hdd_first_meta_data_bits = []
+        hdd_last_meta_data_bits  = []
+        ssd_first_meta_data_bits = []
+        ssd_last_meta_data_bits  = []
+        hdd_file_size = os.stat(hdd_file).st_size
+        ssd_file_size = os.stat(ssd_file).st_size
+        if hdd_file_size == 0 : continue
+        base_size = 65536 if "Wave" in hdd_file else 256
+        evt_number = (hdd_file_size//base_size)
+        with open(hdd_file, "rb") as f :
+            for i in range(metadata_size) :
+                hdd_first_meta_data_bits.append(f.read(1))
+        with open(ssd_file, "rb") as f :
+            for i in range(metadata_size) :
+                ssd_first_meta_data_bits.append(f.read(1))
+        hdd_first_meta_data = decode_meta_data(hdd_first_meta_data_bits)
+        ssd_first_meta_data = decode_meta_data(ssd_first_meta_data_bits)
+        with open(hdd_file, "rb") as f :
+            f.seek((evt_number-1) * base_size)
+            for i in range(metadata_size) :
+                hdd_last_meta_data_bits.append(f.read(1))
+        with open(ssd_file, "rb") as f :
+            f.seek((evt_number-1) * base_size)
+            for i in range(metadata_size) :
+                ssd_last_meta_data_bits.append(f.read(1))
+        hdd_last_meta_data = decode_meta_data(hdd_last_meta_data_bits)
+        ssd_last_meta_data = decode_meta_data(ssd_last_meta_data_bits)
+        if not ( (hdd_first_meta_data == ssd_first_meta_data) ) :
+            print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Mismatch in HDD and SSD 1st event's metadata, please check")
+            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} HDD file : %s" %(hdd_file))
+            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} SSD file : %s" %(ssd_file))
+            sys.exit()
+        if not ( (hdd_last_meta_data == ssd_last_meta_data) ) :
+            print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Mismatch in HDD and SSD last event's metadata, please check")
+            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} HDD file : %s" %(hdd_file))
+            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} SSD file : %s" %(ssd_file))
+            sys.exit()
+    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Metadata check {bcolors.OKGREEN}successful{bcolors.ENDC}. Proceeding...")
 
 def ask_if_sure() :
     answer = input(f"{bcolors.ERRORBLOCK}{bcolors.BOLD}[CONFIRMATION]{bcolors.ENDC} Are you sure the meta data is correct? [y/n] ")
@@ -254,6 +270,23 @@ def action_after_valid(source_path) :
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Source folder {bcolors.OKCYAN}{bcolors.BOLD}%s{bcolors.ENDC} will be renamed to {bcolors.OKCYAN}{bcolors.BOLD}%s{bcolors.ENDC}" %( source_path, new_source_path ))
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} {bcolors.BOLD}{bcolors.OKGREEN}Validation of the data completed. PLEASE WRITE LOG & PROCEED TO REMOVE STEP{bcolors.ENDC}")
     os.rename(source_path, new_source_path)
+
+def get_data_dir(SSD_DIR, HDD_DIR) :
+    SSD_FILE_LIST = []
+    for SSD_ROOT_DIR, _, SSD_files in os.walk(SSD_DIR) :
+        for SSD_file_name in SSD_files :
+            SSD_FILE_LIST.append(os.path.join(SSD_ROOT_DIR,SSD_file_name))
+    SSD_DATA_LIST = [x for x in SSD_FILE_LIST if not "log" in x]
+    SSD_DATA_LIST.sort()
+
+    HDD_FILE_LIST = []
+    for HDD_ROOT_DIR, _, HDD_files in os.walk(HDD_DIR) :
+        for HDD_file_name in HDD_files :
+            HDD_FILE_LIST.append(os.path.join(HDD_ROOT_DIR,HDD_file_name))
+    HDD_DATA_LIST = [x for x in HDD_FILE_LIST if not "log" in x]
+    HDD_DATA_LIST.sort()
+
+    return SSD_DATA_LIST, HDD_DATA_LIST
     
 #############################################################################################################
 if __name__ == "__main__" :
@@ -295,21 +328,10 @@ if __name__ == "__main__" :
 
     check_if_exists_in_HDD(SSD_DIR, HDD_DIR)
 
-    SSD_FILE_LIST = []
-    for SSD_ROOT_DIR, _, SSD_files in os.walk(SSD_DIR) :
-        for SSD_file_name in SSD_files :
-            SSD_FILE_LIST.append(os.path.join(SSD_ROOT_DIR,SSD_file_name))
-    SSD_DATA_LIST = [x for x in SSD_FILE_LIST if not "log" in x]
-    SSD_DATA_LIST.sort()
+    SSD_DATA_LIST, HDD_DATA_LIST = get_data_dir(SSD_DIR, HDD_DIR)
 
-    HDD_FILE_LIST = []
-    for HDD_ROOT_DIR, _, HDD_files in os.walk(HDD_DIR) :
-        for HDD_file_name in HDD_files :
-            HDD_FILE_LIST.append(os.path.join(HDD_ROOT_DIR,HDD_file_name))
-    HDD_DATA_LIST = [x for x in HDD_FILE_LIST if not "log" in x]
-    HDD_DATA_LIST.sort()
-
-    check_file_size(SSD_DATA_LIST, HDD_DATA_LIST)
+    check_entry(SSD_DATA_LIST, HDD_DATA_LIST)
     valid_with_checksum_sha256(SSD_DATA_LIST, HDD_DATA_LIST)
     print_meta_data(HDD_DATA_LIST, fraction=0.1)
+    compare_meta_data(SSD_DATA_LIST, HDD_DATA_LIST)
     action_after_valid(SSD_DIR)
