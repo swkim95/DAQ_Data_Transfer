@@ -214,7 +214,7 @@ def print_meta_data(HDD_SORTED_DIR, fraction=0.1, metadata_size=64) :
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Metadata check all clear. Proceeding...")
 
 def compare_meta_data(HDD_SORTED_DIR, SSD_SORTED_DIR, metadata_size=64) :
-    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Comparing HDD & SSD file's metadata...", end="\n\n")
+    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Comparing HDD & SSD file's metadata...")
     for hdd_file, ssd_file in zip(HDD_SORTED_DIR, SSD_SORTED_DIR) :
         hdd_first_meta_data_bits = []
         hdd_last_meta_data_bits  = []
@@ -253,7 +253,7 @@ def compare_meta_data(HDD_SORTED_DIR, SSD_SORTED_DIR, metadata_size=64) :
             print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} HDD file : %s" %(hdd_file))
             print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} SSD file : %s" %(ssd_file))
             sys.exit()
-    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Metadata check {bcolors.OKGREEN}successful{bcolors.ENDC}. Proceeding...")
+    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Metadata check {bcolors.OKGREEN}{bcolors.BOLD}successful!{bcolors.ENDC}. Proceeding...")
 
 def ask_if_sure() :
     answer = input(f"{bcolors.ERRORBLOCK}{bcolors.BOLD}[CONFIRMATION]{bcolors.ENDC} Are you sure the meta data is correct? [y/n] ")
@@ -293,11 +293,13 @@ if __name__ == "__main__" :
 
     if not len(sys.argv) == 3 : 
         print(f"{bcolors.ERROR}[ERROR] Invalid command line argument. Require 2 arguments to validate copied data {bcolors.ENDC}")
-        print(f"{bcolors.INFO}[Usage]{bcolors.ENDC} ./Valid_Data.sh {bcolors.UNDERLINE}<source_path>{bcolors.ENDC} {bcolors.UNDERLINE}<destination_path>{bcolors.ENDC}")
-        print(f"{bcolors.INFO}[Example]{bcolors.ENDC} ./Valid_Data.sh  ~/scratch/202208TB/SSD/SSD_Run_999/ /Volumes/HDD_16TB_1/HDD_Run_999/")
+        print(f"{bcolors.INFO}[Usage]{bcolors.ENDC} ./Valid_Data.sh {bcolors.UNDERLINE}<run_num>{bcolors.ENDC} {bcolors.UNDERLINE}<destination_path>{bcolors.ENDC}")
+        print(f"{bcolors.INFO}[Example]{bcolors.ENDC} ./Valid_Data.sh  999 /Volumes/HDD_16TB_1/HDD_Run_999/")
         sys.exit()
     
-    SSD_DIR = sys.argv[1]
+    SSD_DIR_PREFIX = "/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_"
+
+    SSD_DIR = SSD_DIR_PREFIX + sys.argv[1] +"_copied"
     HDD_DIR = sys.argv[2]
 
     if not SSD_DIR.endswith("/") : SSD_DIR += "/"
@@ -310,17 +312,17 @@ if __name__ == "__main__" :
         print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Copied HDD data with path {bcolors.BOLD}\"%s\"{bcolors.ENDC} {bcolors.ERROR}does not exist{bcolors.ENDC}, please check" % (HDD_DIR) )
         sys.exit()
 
-    if not ("SSD" and "Run") in sys.argv[1] :
-        print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
-        print(f"{bcolors.ERRORBLOCK}[ERROR] DAQ data must be stored under {bcolors.BOLD}{bcolors.UNDERLINE}SSD{bcolors.ENDC}{bcolors.ERRORBLOCK} with proper {bcolors.BOLD}{bcolors.UNDERLINE}Run number{bcolors.ENDC}{bcolors.ERRORBLOCK}. PLEASE CHECK ARGUMENTS!!!{bcolors.ENDC}")
-        print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
-        sys.exit()
-    if not ("_copied") in sys.argv[1] :
-        print(f"{bcolors.ERRORBLOCK}#############################################################################{bcolors.ENDC}")
-        print(f"{bcolors.ERRORBLOCK}[ERROR] DAQ data must be {bcolors.BOLD}{bcolors.UNDERLINE}COPIED{bcolors.ENDC}{bcolors.ERRORBLOCK} before deleting. PLEASE CHECK ARGUMENTS!!!{bcolors.ENDC}")
-        print(f"{bcolors.ERRORBLOCK}#############################################################################{bcolors.ENDC}")
-        sys.exit()
-    if not ("HDD" and "Run") in sys.argv[2] :
+    # if not ("SSD" and "Run") in SSD_DIR :
+    #     print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
+    #     print(f"{bcolors.ERRORBLOCK}[ERROR] DAQ data must be stored under {bcolors.BOLD}{bcolors.UNDERLINE}SSD{bcolors.ENDC}{bcolors.ERRORBLOCK} with proper {bcolors.BOLD}{bcolors.UNDERLINE}Run number{bcolors.ENDC}{bcolors.ERRORBLOCK}. PLEASE CHECK ARGUMENTS!!!{bcolors.ENDC}")
+    #     print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
+    #     sys.exit()
+    # if not ("_copied") in SSD_DIR :
+    #     print(f"{bcolors.ERRORBLOCK}#############################################################################{bcolors.ENDC}")
+    #     print(f"{bcolors.ERRORBLOCK}[ERROR] DAQ data must be {bcolors.BOLD}{bcolors.UNDERLINE}COPIED{bcolors.ENDC}{bcolors.ERRORBLOCK} before deleting. PLEASE CHECK ARGUMENTS!!!{bcolors.ENDC}")
+    #     print(f"{bcolors.ERRORBLOCK}#############################################################################{bcolors.ENDC}")
+    #     sys.exit()
+    if not ("HDD" and "Run") in HDD_DIR :
         print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
         print(f"{bcolors.ERRORBLOCK}[ERROR] DAQ data must be copied under {bcolors.BOLD}{bcolors.UNDERLINE}HDD{bcolors.ENDC}{bcolors.ERRORBLOCK} with proper {bcolors.BOLD}{bcolors.UNDERLINE}Run number{bcolors.ENDC}{bcolors.ERRORBLOCK}. PLEASE CHECK ARGUMENTS!!!{bcolors.ENDC}")
         print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
@@ -332,6 +334,6 @@ if __name__ == "__main__" :
 
     check_entry(SSD_DATA_LIST, HDD_DATA_LIST)
     valid_with_checksum_sha256(SSD_DATA_LIST, HDD_DATA_LIST)
-    print_meta_data(HDD_DATA_LIST, fraction=0.1)
+    #print_meta_data(HDD_DATA_LIST, fraction=0.1)
     compare_meta_data(SSD_DATA_LIST, HDD_DATA_LIST)
     action_after_valid(SSD_DIR)
