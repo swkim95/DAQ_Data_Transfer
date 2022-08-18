@@ -2,7 +2,7 @@ import os
 import sys
 from glob import glob
 import shutil
-from transfer_from_DAQ_PC_to_HDD import get_directory_size, ask_if_sure
+from transfer_from_DAQ_PC_to_HDD import get_directory_size, ask_if_sure, storage_usage_bar
 
 class bcolors:
     HEADER     = '\033[95m'
@@ -87,16 +87,18 @@ def remove_folder(SSD_DIR) :
         except OSError as e :
             print(e)
         print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Directory {bcolors.OKCYAN}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} deleted successfully." %(SSD_DIR))
-
+    
 if __name__ == "__main__" :
+
+    SSD_DIR_PREFIX = "/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_"
 
     if not len(sys.argv) == 3 :
         print(f"{bcolors.ERROR} [ERROR] {bcolors.ENDC}Need {bcolors.BOLD}{bcolors.UNDERLINE}{bcolors.ERROR}2 arguments{bcolors.ENDC} to remove data from DAQ PC, please check your arguments")
-        print(f"{bcolors.INFO} [Usage] {bcolors.ENDC} ./Remove_Data.sh {bcolors.UNDERLINE}<source_path>{bcolors.ENDC} {bcolors.UNDERLINE}<destination_path>{bcolors.ENDC}")
-        print(f"{bcolors.INFO} [Example] {bcolors.ENDC}./Remove_Data.sh ~/scratch/202208TB/SSD/SSD_Run_999/ /Volumes/HDD_16TB_1/HDD_Run_999/")
+        print(f"{bcolors.INFO} [Usage] {bcolors.ENDC} ./Remove_Data.sh {bcolors.UNDERLINE}<run_num>{bcolors.ENDC} {bcolors.UNDERLINE}<destination_path>{bcolors.ENDC}")
+        print(f"{bcolors.INFO} [Example] {bcolors.ENDC}./Remove_Data.sh 999 /Volumes/HDD_16TB_1/HDD_Run_999/")
         sys.exit()
     
-    SSD_DIR = sys.argv[1]
+    SSD_DIR = SSD_DIR_PREFIX + sys.argv[1] + "_validated"
     HDD_DIR = sys.argv[2]
 
     if not SSD_DIR.endswith('/'): SSD_DIR += '/'
@@ -109,17 +111,17 @@ if __name__ == "__main__" :
         print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Copied HDD data with path {bcolors.BOLD}\"%s\"{bcolors.ENDC} {bcolors.ERROR}does not exist{bcolors.ENDC}, please check" % (HDD_DIR) )
         sys.exit()
 
-    if not ("SSD" and "Run") in sys.argv[1] :
-        print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
-        print(f"{bcolors.ERRORBLOCK}[ERROR] DAQ data must be stored under {bcolors.BOLD}{bcolors.UNDERLINE}SSD{bcolors.ENDC}{bcolors.ERRORBLOCK} with proper {bcolors.BOLD}{bcolors.UNDERLINE}Run number{bcolors.ENDC}{bcolors.ERRORBLOCK}. PLEASE CHECK ARGUMENTS!!!{bcolors.ENDC}")
-        print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
-        sys.exit()
-    if not ("_validated") in sys.argv[1] :
-        print(f"{bcolors.ERRORBLOCK}#############################################################################{bcolors.ENDC}")
-        print(f"{bcolors.ERRORBLOCK}[ERROR] DAQ data must be {bcolors.BOLD}{bcolors.UNDERLINE}VALIDATED{bcolors.ENDC}{bcolors.ERRORBLOCK} before deleting. PLEASE CHECK ARGUMENTS!!!{bcolors.ENDC}")
-        print(f"{bcolors.ERRORBLOCK}#############################################################################{bcolors.ENDC}")
-        sys.exit()
-    if not ("HDD" and "Run") in sys.argv[2] :
+    # if not ("SSD" and "Run") in SSD_DIR :
+    #     print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
+    #     print(f"{bcolors.ERRORBLOCK}[ERROR] DAQ data must be stored under {bcolors.BOLD}{bcolors.UNDERLINE}SSD{bcolors.ENDC}{bcolors.ERRORBLOCK} with proper {bcolors.BOLD}{bcolors.UNDERLINE}Run number{bcolors.ENDC}{bcolors.ERRORBLOCK}. PLEASE CHECK ARGUMENTS!!!{bcolors.ENDC}")
+    #     print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
+    #     sys.exit()
+    # if not ("_validated") in SSD_DIR :
+    #     print(f"{bcolors.ERRORBLOCK}#############################################################################{bcolors.ENDC}")
+    #     print(f"{bcolors.ERRORBLOCK}[ERROR] DAQ data must be {bcolors.BOLD}{bcolors.UNDERLINE}VALIDATED{bcolors.ENDC}{bcolors.ERRORBLOCK} before deleting. PLEASE CHECK ARGUMENTS!!!{bcolors.ENDC}")
+    #     print(f"{bcolors.ERRORBLOCK}#############################################################################{bcolors.ENDC}")
+    #     sys.exit()
+    if not ("HDD" and "Run") in HDD_DIR :
         print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
         print(f"{bcolors.ERRORBLOCK}[ERROR] DAQ data must be copied under {bcolors.BOLD}{bcolors.UNDERLINE}HDD{bcolors.ENDC}{bcolors.ERRORBLOCK} with proper {bcolors.BOLD}{bcolors.UNDERLINE}Run number{bcolors.ENDC}{bcolors.ERRORBLOCK}. PLEASE CHECK ARGUMENTS!!!{bcolors.ENDC}")
         print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
@@ -132,3 +134,7 @@ if __name__ == "__main__" :
     print(f"{bcolors.WARNING}############################################################################{bcolors.ENDC}")
 
     remove_folder(SSD_DIR)
+
+    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Checking SSD storage usage...")
+    total, used, free = shutil.disk_usage("/Users/drc_daq/scratch/Aug2022TB/SSD/")
+    storage_usage_bar(total, used, free)
