@@ -1,1 +1,0 @@
-[91m[ERROR][0m Source folder [1m"/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_{5031.560}/"[0m [91mdoes not exist[0m, please check

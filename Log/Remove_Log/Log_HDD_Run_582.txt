@@ -1,3 +1,0 @@
-[91m [ERROR] [0mNeed [1m[4m[91m2 arguments[0m to remove data from DAQ PC, please check your arguments
-[94m [Usage] [0m ./Remove_Data.sh [4m<run_num>[0m [4m<destination_path>[0m
-[94m [Example] [0m./Remove_Data.sh 999 /Volumes/HDD_16TB_1/HDD_Run_999/
