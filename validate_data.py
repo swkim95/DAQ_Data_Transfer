@@ -2,7 +2,7 @@ import os
 import sys
 import hashlib
 import random
-from transfer_data import check_if_proper_step
+from transfer_data import check_if_proper_step, get_directory_size
 
 class bcolors:
     HEADER     = '\033[95m'
@@ -282,7 +282,7 @@ def ask_if_sure() :
 
 def check_if_exists_in_DST(SRC_DIR, DST_DIR) :
     SRC_BASE_DIR = SRC_DIR.split('/')[-2]
-    SRC_RUN_NUM = SRC_BASE_DIR.split('_')[-2]
+    SRC_RUN_NUM = SRC_BASE_DIR.split('_')[-1]
 
     DST_BASE_DIR = DST_DIR.split('/')[-2]
     DST_RUN_NUM = DST_BASE_DIR.split('_')[-1]
@@ -333,7 +333,7 @@ def check_if_exists_in_DST(SRC_DIR, DST_DIR) :
             if ( (idx + 1) == len(DST_FILE_LIST)) : print(f"Content of DST file list with Index {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} = {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC}" %(idx, dst_file))
             sys.exit()
             
-    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} File list & size check between SRC folder and DST folder {bcolors.OKGREEN}{bcolors.BOLD}successful!{bcolors.ENDC} Proceeding...")`
+    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} File list & size check between SRC folder and DST folder {bcolors.OKGREEN}{bcolors.BOLD}successful!{bcolors.ENDC} Proceeding...")
 
 def action_after_valid(SRC_DIR) :
     f = open(SRC_DIR + "validated_directory.flag", "w")
@@ -349,7 +349,7 @@ if __name__ == "__main__" :
         print(f"{bcolors.INFO}[Example]{bcolors.ENDC} ./Valid_Data.sh  999 /Volumes/HDD_16TB_1/HDD_Run_999/")
         sys.exit()
     
-    SRC_DIR_PREFIX = "/Users/drc_daq/scratch/Aug2022TB/SSD/Run_"
+    SRC_DIR_PREFIX = "/Users/swkim/DRC/2022_TB_at_CERN/DAQ_data_transfer_for_Kor_TB/Run_"
 
     # SRC_DIR will be "/Path/to/DAQPC/data/dir/Run_X"
     SRC_DIR = SRC_DIR_PREFIX + sys.argv[1]

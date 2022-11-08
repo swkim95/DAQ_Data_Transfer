@@ -153,17 +153,13 @@ if __name__ == "__main__" :
         print(f"{bcolors.INFO} [Example] {bcolors.ENDC}./Transfer_Data.sh 999 /Volumes/DST_16TB_1/")
         sys.exit()
     
-    SRC_DIR_PREFIX = "/Users/drc_daq/scratch/Aug2022TB/SRC/SRC_Run_"
+    SRC_DIR_PREFIX = "/Users/swkim/DRC/2022_TB_at_CERN/DAQ_data_transfer_for_Kor_TB/Run_"
 
     SRC_DIR = SRC_DIR_PREFIX + sys.argv[1]
     DST_DIR = sys.argv[2]
 
     if not SRC_DIR.endswith("/") : SRC_DIR += "/"
     if not DST_DIR.endswith("/") : DST_DIR += "/"
-
-    if not "Run" in SRC_DIR :
-        print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} SRC folder is not {bcolors.ERROR}{bcolors.BOLD}Run folder{bcolors.ENDC}, CAN'T TRANSFER")
-        sys.exit()
 
     if not os.path.exists(SRC_DIR) :
         print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} SRC folder {bcolors.BOLD}\"%s\"{bcolors.ENDC} {bcolors.ERROR}does not exist{bcolors.ENDC}, please check" % (SRC_DIR) )

@@ -34,7 +34,7 @@ def remove_folder(SRC_DIR) :
     
 if __name__ == "__main__" :
 
-    SRC_DIR_PREFIX = "/Users/drc_daq/scratch/Aug2022TB/SRC/SRC_Run_"
+    SRC_DIR_PREFIX = "/Users/swkim/DRC/2022_TB_at_CERN/DAQ_data_transfer_for_Kor_TB/Run_"
 
     if not len(sys.argv) == 3 :
         print(f"{bcolors.ERROR} [ERROR] {bcolors.ENDC}Need {bcolors.BOLD}{bcolors.UNDERLINE}{bcolors.ERROR}2 arguments{bcolors.ENDC} to remove data from DAQ PC, please check your arguments")
@@ -72,5 +72,5 @@ if __name__ == "__main__" :
     remove_folder(SRC_DIR)
 
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Checking SRC storage usage...")
-    total, used, free = shutil.disk_usage(SRC_DIR_PREFIX)
+    total, used, free = shutil.disk_usage("/Users/swkim")
     storage_usage_bar(total, used, free)
