@@ -276,16 +276,14 @@ def get_data_dir(SSD_DIR, HDD_DIR) :
     for SSD_ROOT_DIR, _, SSD_files in os.walk(SSD_DIR) :
         for SSD_file_name in SSD_files :
             SSD_FILE_LIST.append(os.path.join(SSD_ROOT_DIR,SSD_file_name))
-    SSD_DATA_LIST = [x for x in SSD_FILE_LIST if not "log" in x and not "png" in x and not "root" in x]
-    #SSD_DATA_LIST = [x for x in SSD_FILE_LIST if "dat" in x]
+    SSD_DATA_LIST = [x for x in SSD_FILE_LIST if not "log" in x]
     SSD_DATA_LIST.sort()
 
     HDD_FILE_LIST = []
     for HDD_ROOT_DIR, _, HDD_files in os.walk(HDD_DIR) :
         for HDD_file_name in HDD_files :
             HDD_FILE_LIST.append(os.path.join(HDD_ROOT_DIR,HDD_file_name))
-    HDD_DATA_LIST = [x for x in HDD_FILE_LIST if not "log" in x and not "png" in x and not "root" in x]
-    #HDD_DATA_LIST = [x for x in HDD_FILE_LIST if "dat" in x]
+    HDD_DATA_LIST = [x for x in HDD_FILE_LIST if not "log" in x]
     HDD_DATA_LIST.sort()
 
     return SSD_DATA_LIST, HDD_DATA_LIST
@@ -299,7 +297,7 @@ if __name__ == "__main__" :
         print(f"{bcolors.INFO}[Example]{bcolors.ENDC} ./Valid_Data.sh  999 /Volumes/HDD_16TB_1/HDD_Run_999/")
         sys.exit()
     
-    SSD_DIR_PREFIX = "/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_"
+    SSD_DIR_PREFIX = "/Volumes/HDD_16TB_1/HDD_Run_"
 
     SSD_DIR = SSD_DIR_PREFIX + sys.argv[1] +"_copied"
     HDD_DIR = sys.argv[2]
@@ -308,7 +306,7 @@ if __name__ == "__main__" :
     if not HDD_DIR.endswith("/") : HDD_DIR += "/"
 
     if not os.path.exists(SSD_DIR) :
-        print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Original SSD data with path {bcolors.BOLD}\"%s\"{bcolors.ENDC} {bcolors.ERROR}does not exist{bcolors.ENDC}, please check" % (SSD_DIR) )
+        print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Original HDD data with path {bcolors.BOLD}\"%s\"{bcolors.ENDC} {bcolors.ERROR}does not exist{bcolors.ENDC}, please check" % (SSD_DIR) )
         sys.exit()
     if not os.path.exists(HDD_DIR) :
         print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Copied HDD data with path {bcolors.BOLD}\"%s\"{bcolors.ENDC} {bcolors.ERROR}does not exist{bcolors.ENDC}, please check" % (HDD_DIR) )

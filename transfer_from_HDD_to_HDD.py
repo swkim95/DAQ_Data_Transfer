@@ -98,24 +98,14 @@ def check_transfer_location(source_path, destination_path) :
 
 def transfer_dirs_to_hdd(source_path, destination_path) :
     source_name = source_path.split("/")[-2]
-    copy_folder_name = source_name.replace("SSD", "HDD")
+    copy_folder_name = source_name
     destination_path = destination_path + copy_folder_name + "/"
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Copying folder {bcolors.BOLD}{bcolors.OKCYAN}%s{bcolors.ENDC} to {bcolors.BOLD}{bcolors.OKCYAN}%s{bcolors.ENDC}" % (source_path, destination_path))
-    #copy_cmd = ("rsync -ahv --progress %s %s" %(source_path, destination_path))
-    copy_cmd_org = ("rsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log%s.txt --progress %s %s" %(source_name.replace("SSD", ""), source_path, destination_path))
-    copy_cmd = ["rsync", "-avh", "--itemize-changes", "--log-file=./Log/Copy_Log/rsync_log%s.txt" %(source_name.replace("SSD", "")), "--progress", "%s" %(source_path), "%s" %(destination_path)]
-    #execute = ask_command_execution(copy_cmd)
-<<<<<<< HEAD
+    copy_cmd_org = ("rsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_log%s.txt --progress %s %s" %(source_name, source_path, destination_path))
+    copy_cmd = ["rsync", "-avh", "--itemize-changes", "--log-file=./Log/Copy_Log_HDD_to_HDD/rsync_log%s.txt" %(source_name), "--progress", "%s" %(source_path), "%s" %(destination_path)]
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Will you execute command `{bcolors.BOLD}{bcolors.CMD}%s{bcolors.ENDC}`? [y/n] " % copy_cmd_org)
     execute = True
     #execute = ask_command_execution(copy_cmd_org)
-=======
-    execute = ask_command_execution(copy_cmd_org)
->>>>>>> main
-    # if execute :
-    #     stream = os.popen(copy_cmd_org)
-    #     output = f"{bcolors.CMD}[EXECUTING]{bcolors.ENDC} : " + stream.read()
-    #     print(output)
     if execute :
         stream = subprocess.Popen(shlex.split(copy_cmd_org), stdout=subprocess.PIPE, encoding='utf-8')
         while True :
@@ -160,7 +150,7 @@ if __name__ == "__main__" :
         print(f"{bcolors.INFO} [Example] {bcolors.ENDC}./Transfer_Data.sh  999 /Volumes/HDD_16TB_1/")
         sys.exit()
     
-    SSD_DIR_PREFIX = "/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_"
+    SSD_DIR_PREFIX = "/Volumes/HDD_16TB_1/HDD_Run_"
 
     SSD_DIR = SSD_DIR_PREFIX + sys.argv[1]
     HDD_DIR = sys.argv[2]
@@ -192,7 +182,7 @@ if __name__ == "__main__" :
         confirmed = ask_if_sure()
         if not confirmed : sys.exit()
 
-    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Transferring SSD folder : {bcolors.BOLD}{bcolors.OKCYAN}%s{bcolors.ENDC} to HDD dir : {bcolors.BOLD}{bcolors.OKCYAN}%s{bcolors.ENDC}" %(SSD_DIR, HDD_DIR))
+    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Transferring HDD folder : {bcolors.BOLD}{bcolors.OKCYAN}%s{bcolors.ENDC} to HDD dir : {bcolors.BOLD}{bcolors.OKCYAN}%s{bcolors.ENDC}" %(SSD_DIR, HDD_DIR))
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Checking folder size...{bcolors.ENDC}")
 
     status = check_transfer_location(SSD_DIR, HDD_DIR)

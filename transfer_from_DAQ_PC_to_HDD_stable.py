@@ -2,9 +2,6 @@ import sys
 import os
 import shutil
 import subprocess
-import shlex
-
-os.environ["PYTHONUNBUFFERED"] = "1"
 ######################### FILE COPY LOG 만들기!!!!! ##########################
 
 class bcolors:
@@ -105,26 +102,11 @@ def transfer_dirs_to_hdd(source_path, destination_path) :
     copy_cmd_org = ("rsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log%s.txt --progress %s %s" %(source_name.replace("SSD", ""), source_path, destination_path))
     copy_cmd = ["rsync", "-avh", "--itemize-changes", "--log-file=./Log/Copy_Log/rsync_log%s.txt" %(source_name.replace("SSD", "")), "--progress", "%s" %(source_path), "%s" %(destination_path)]
     #execute = ask_command_execution(copy_cmd)
-<<<<<<< HEAD
-    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Will you execute command `{bcolors.BOLD}{bcolors.CMD}%s{bcolors.ENDC}`? [y/n] " % copy_cmd_org)
-    execute = True
-    #execute = ask_command_execution(copy_cmd_org)
-=======
     execute = ask_command_execution(copy_cmd_org)
->>>>>>> main
-    # if execute :
-    #     stream = os.popen(copy_cmd_org)
-    #     output = f"{bcolors.CMD}[EXECUTING]{bcolors.ENDC} : " + stream.read()
-    #     print(output)
     if execute :
-        stream = subprocess.Popen(shlex.split(copy_cmd_org), stdout=subprocess.PIPE, encoding='utf-8')
-        while True :
-            out = stream.stdout.readline()
-            if not stream.poll() == None:
-                break
-            if not out == "" :
-                sys.stdout.write(out)
-                sys.stdout.flush()
+        stream = os.popen(copy_cmd_org)
+        output = f"{bcolors.CMD}[EXECUTING]{bcolors.ENDC} : " + stream.read()
+        print(output)
   
 def ask_command_execution(cmd_line) :
     execute = input(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Will you execute command `{bcolors.BOLD}{bcolors.CMD}%s{bcolors.ENDC}`? [y/n] " % cmd_line)
@@ -138,11 +120,11 @@ def ask_command_execution(cmd_line) :
         sys.exit()
 
 def ask_if_sure() :
-    answer = input(f"{bcolors.ERRORBLOCK}{bcolors.BOLD}[CONFIRMATION]{bcolors.ENDC} Trying to take action which is {bcolors.ERROR}{bcolors.BOLD}NOT RECOMMENDED{bcolors.ENDC}. Are you sure? [yes/n] ")
-    while not ( (answer == 'yes') or (answer == 'n') ) :
-        print(f"{bcolors.WARNING}[WARNING]{bcolors.ENDC} Only available options are `{bcolors.OKGREEN}{bcolors.BOLD}yes{bcolors.ENDC}` or `{bcolors.OKGREEN}{bcolors.BOLD}n{bcolors.ENDC}`, please check your reply")
-        answer = input(f"{bcolors.ERRORBLOCK}{bcolors.BOLD}[CONFIRMATION]{bcolors.ENDC} Trying to take action which is {bcolors.ERROR}{bcolors.BOLD}NOT RECOMMENDED{bcolors.ENDC}. Are you sure? [yes/n] ")
-    if answer == 'yes' : return True
+    answer = input(f"{bcolors.ERRORBLOCK}{bcolors.BOLD}[CONFIRMATION]{bcolors.ENDC} Trying to take action which is {bcolors.ERROR}{bcolors.BOLD}NOT RECOMMENDED{bcolors.ENDC}. Are you sure? [y/n] ")
+    while not ( (answer == 'y') or (answer == 'n') ) :
+        print(f"{bcolors.WARNING}[WARNING]{bcolors.ENDC} Only available options are `{bcolors.OKGREEN}{bcolors.BOLD}y{bcolors.ENDC}` or `{bcolors.OKGREEN}{bcolors.BOLD}n{bcolors.ENDC}`, please check your reply")
+        answer = input(f"{bcolors.ERRORBLOCK}{bcolors.BOLD}[CONFIRMATION]{bcolors.ENDC} Trying to take action which is {bcolors.ERROR}{bcolors.BOLD}NOT RECOMMENDED{bcolors.ENDC}. Are you sure? [y/n] ")
+    if answer == 'y' : return True
     elif answer == 'n' : return False
 
 def action_after_transfer(source_path) :
@@ -168,12 +150,12 @@ if __name__ == "__main__" :
     if not SSD_DIR.endswith("/") : SSD_DIR += "/"
     if not HDD_DIR.endswith("/") : HDD_DIR += "/"
 
-    # if not "SSD" in SSD_DIR :
-    #     print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Source folder must be a SSD folder, please check your {bcolors.ERROR}1st argument{bcolors.ENDC}")
-    #     sys.exit()
-    # if not "Run" in SSD_DIR :
-    #     print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Source folder is not {bcolors.ERROR}{bcolors.BOLD}Run folder{bcolors.ENDC}, CAN'T TRANSFER")
-    #     sys.exit()
+    if not "SSD" in SSD_DIR :
+        print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Source folder must be a SSD folder, please check your {bcolors.ERROR}1st argument{bcolors.ENDC}")
+        sys.exit()
+    if not "Run" in SSD_DIR :
+        print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Source folder is not {bcolors.ERROR}{bcolors.BOLD}Run folder{bcolors.ENDC}, CAN'T TRANSFER")
+        sys.exit()
     if not "HDD" in HDD_DIR :
         print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Destination folder must be a HDD folder, please check your {bcolors.ERROR}2nd argument{bcolors.ENDC}")
         sys.exit()
