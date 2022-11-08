@@ -1,10 +1,8 @@
 import os
 import sys
-from glob import glob
-import shutil
 import hashlib
-from remove_data_from_DAQ_PC import check_if_exists_in_HDD
 import random
+from transfer_data import check_if_proper_step
 
 class bcolors:
     HEADER     = '\033[95m'
@@ -20,6 +18,25 @@ class bcolors:
     INFOBLOCK  = '\033[44m'
     CMD        = '\033[35m'
 
+def get_data_dir(SRC_DIR, DST_DIR) :
+    SRC_FILE_LIST = []
+    for SRC_ROOT_DIR, _, SRC_files in os.walk(SRC_DIR) :
+        for SRC_file_name in SRC_files :
+            SRC_FILE_LIST.append(os.path.join(SRC_ROOT_DIR,SRC_file_name))
+    # SRC_DATA_LIST = [x for x in SRC_FILE_LIST if not "log" in x and not "png" in x and not "root" in x]
+    SRC_DATA_LIST = [x for x in SRC_FILE_LIST if ".dat" in x]
+    SRC_DATA_LIST.sort()
+
+    DST_FILE_LIST = []
+    for DST_ROOT_DIR, _, DST_files in os.walk(DST_DIR) :
+        for DST_file_name in DST_files :
+            DST_FILE_LIST.append(os.path.join(DST_ROOT_DIR,DST_file_name))
+    # DST_DATA_LIST = [x for x in DST_FILE_LIST if not "log" in x and not "png" in x and not "root" in x]
+    DST_DATA_LIST = [x for x in DST_FILE_LIST if ".dat" in x]
+    DST_DATA_LIST.sort()
+
+    return SRC_DATA_LIST, DST_DATA_LIST
+
 def cksum_sha256(file_name) :
     sha256 = hashlib.sha256()
     with open(file_name, 'rb') as f :
@@ -27,32 +44,32 @@ def cksum_sha256(file_name) :
             sha256.update(chunk)
     return sha256.hexdigest()
 
-def valid_with_checksum_sha256(SSD_SORTED_DIR, HDD_SORTED_DIR) :
-    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Comparing SHA256 checksum values for SSD & HDD files...")
-    for idx, (ssd_file, hdd_file) in enumerate(zip(SSD_SORTED_DIR, HDD_SORTED_DIR)) :
-        sha256_ssd_file = cksum_sha256(ssd_file)
-        sha256_hdd_file = cksum_sha256(hdd_file)
-        if not (sha256_ssd_file == sha256_hdd_file) :
+def valid_with_checksum_sha256(SRC_SORTED_DIR, DST_SORTED_DIR) :
+    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Comparing SHA256 checksum values for SRC & DST files...")
+    for idx, (src_file, dst_file) in enumerate(zip(SRC_SORTED_DIR, DST_SORTED_DIR)) :
+        sha256_src_file = cksum_sha256(src_file)
+        sha256_dst_file = cksum_sha256(dst_file)
+        if not (sha256_src_file == sha256_dst_file) :
             print(f"{bcolors.ERRORBLOCK}[ERROR]{bcolors.ENDC} SHA256 checksum failed!!!")
-            print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} SHA256 checksum of SSD file : {bcolors.OKCYAN}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} and HDD file {bcolors.OKCYAN}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} does not match. PLEASE CHECK!!" %(ssd_file, hdd_file) )
-            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} SHA256 decimal checksum of SSD file {bcolors.OKCYAN}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} : {bcolors.ERROR}{bcolors.BOLD}%s{bcolors.ENDC}" %(ssd_file, int(sha256_ssd_file, base=16)))
-            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} SHA256 decimal checksum of HDD file {bcolors.OKCYAN}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} : {bcolors.ERROR}{bcolors.BOLD}%s{bcolors.ENDC}" %(hdd_file, int(sha256_hdd_file, base=16)))
+            print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} SHA256 checksum of SRC file : {bcolors.OKCYAN}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} and DST file {bcolors.OKCYAN}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} does not match. PLEASE CHECK!!" %(src_file, dst_file) )
+            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} SHA256 decimal checksum of SRC file {bcolors.OKCYAN}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} : {bcolors.ERROR}{bcolors.BOLD}%s{bcolors.ENDC}" %(src_file, int(sha256_src_file, base=16)))
+            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} SHA256 decimal checksum of DST file {bcolors.OKCYAN}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} : {bcolors.ERROR}{bcolors.BOLD}%s{bcolors.ENDC}" %(dst_file, int(sha256_dst_file, base=16)))
             sys.exit()
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} SHA256 checksum compare {bcolors.OKGREEN}{bcolors.BOLD}successful!{bcolors.ENDC} Proceeding...")
 
-def check_entry(SSD_SORTED_DIR, HDD_SORTED_DIR) :
-    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Checking number of events stored in SSD & HDD files...")
-    for idx, (ssd_file, hdd_file) in enumerate(zip(SSD_SORTED_DIR, HDD_SORTED_DIR)) :
-        ssd_file_size = os.stat(ssd_file).st_size
-        hdd_file_size = os.stat(hdd_file).st_size
+def check_entry(SRC_SORTED_DIR, DST_SORTED_DIR) :
+    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Checking number of events stored in SRC & DST files...")
+    for idx, (src_file, dst_file) in enumerate(zip(SRC_SORTED_DIR, DST_SORTED_DIR)) :
+        src_file_size = os.stat(src_file).st_size
+        dst_file_size = os.stat(dst_file).st_size
         base_size = 65536
-        if ( (ssd_file_size == 0) and (hdd_file_size == 0) ) : continue
-        if "Fast" in ssd_file : base_size = 256
-        if not ( ( (ssd_file_size%base_size) == 0) or ( (hdd_file_size%base_size) == 0) ) :
+        if ( (src_file_size == 0) and (dst_file_size == 0) ) : continue
+        if "Fast" in src_file : base_size = 256
+        if not ( ( (src_file_size%base_size) == 0) or ( (dst_file_size%base_size) == 0) ) :
             print(f"{bcolors.ERRORBLOCK}[ERROR]{bcolors.ENDC} Event number check failed!!!")
             print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Some file does not contain proper number of evt. Please check")
-            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} # of event in SSD file : {bcolors.OKCYAN}{bcolors.BOLD}%s{bcolors.ENDC} == {bcolors.ERROR}{bcolors.BOLD}%s{bcolors.ENDC}" %(ssd_file, (ssd_file_size//base_size)))
-            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} # of event in HDD file : {bcolors.OKCYAN}{bcolors.BOLD}%s{bcolors.ENDC} == {bcolors.ERROR}{bcolors.BOLD}%s{bcolors.ENDC}" %(hdd_file, (hdd_file_size//base_size)))
+            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} # of event in SRC file : {bcolors.OKCYAN}{bcolors.BOLD}%s{bcolors.ENDC} == {bcolors.ERROR}{bcolors.BOLD}%s{bcolors.ENDC}" %(src_file, (src_file_size//base_size)))
+            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} # of event in DST file : {bcolors.OKCYAN}{bcolors.BOLD}%s{bcolors.ENDC} == {bcolors.ERROR}{bcolors.BOLD}%s{bcolors.ENDC}" %(dst_file, (dst_file_size//base_size)))
             sys.exit()
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Checking event number {bcolors.OKGREEN}{bcolors.BOLD}successful!{bcolors.ENDC} Proceeding...")
 
@@ -187,20 +204,20 @@ def decode_meta_data(meta_data_bits) :
 ## data[8] = local_trig_time
 ## data[9] = diff_time
 
-def print_meta_data(HDD_SORTED_DIR, fraction=0.1, metadata_size=64) :
+def print_meta_data(DST_SORTED_DIR, fraction=0.1, metadata_size=64) :
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Printing out random file's metadata...", end="\n\n")
-    total_number_of_files = len(HDD_SORTED_DIR)
+    total_number_of_files = len(DST_SORTED_DIR)
     files_to_investigate = int(total_number_of_files * fraction) if total_number_of_files >= 10 else total_number_of_files
-    file_num_list = random.sample(HDD_SORTED_DIR, files_to_investigate)
-    for hdd_file in file_num_list :
+    file_num_list = random.sample(DST_SORTED_DIR, files_to_investigate)
+    for dst_file in file_num_list :
         meta_data_bits = []
-        hdd_file_size = os.stat(hdd_file).st_size
-        if hdd_file_size == 0 : continue
-        base_size = 65536 if "Wave" in hdd_file else 256
-        evt_number = (hdd_file_size//base_size)
+        dst_file_size = os.stat(dst_file).st_size
+        if dst_file_size == 0 : continue
+        base_size = 65536 if "Wave" in dst_file else 256
+        evt_number = (dst_file_size//base_size)
         random_evt_num = random.randint(0, evt_number-1)
-        print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Checking metadata of HDD file : {bcolors.OKCYAN}{bcolors.BOLD}%s{bcolors.ENDC}" %(hdd_file))
-        with open(hdd_file, "rb") as f :
+        print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Checking metadata of DST file : {bcolors.OKCYAN}{bcolors.BOLD}%s{bcolors.ENDC}" %(dst_file))
+        with open(dst_file, "rb") as f :
             f.seek(random_evt_num * base_size)
             for i in range(metadata_size) :
                 meta_data_bits.append(f.read(1))
@@ -213,45 +230,45 @@ def print_meta_data(HDD_SORTED_DIR, fraction=0.1, metadata_size=64) :
     if not confirmed : sys.exit()
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Metadata check all clear. Proceeding...")
 
-def compare_meta_data(HDD_SORTED_DIR, SSD_SORTED_DIR, metadata_size=64) :
-    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Comparing HDD & SSD file's metadata...")
-    for hdd_file, ssd_file in zip(HDD_SORTED_DIR, SSD_SORTED_DIR) :
-        hdd_first_meta_data_bits = []
-        hdd_last_meta_data_bits  = []
-        ssd_first_meta_data_bits = []
-        ssd_last_meta_data_bits  = []
-        hdd_file_size = os.stat(hdd_file).st_size
-        ssd_file_size = os.stat(ssd_file).st_size
-        if hdd_file_size == 0 : continue
-        base_size = 65536 if "Wave" in hdd_file else 256
-        evt_number = (hdd_file_size//base_size)
-        with open(hdd_file, "rb") as f :
+def compare_meta_data(DST_SORTED_DIR, SRC_SORTED_DIR, metadata_size=64) :
+    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Comparing DST & SRC file's metadata...")
+    for dst_file, src_file in zip(DST_SORTED_DIR, SRC_SORTED_DIR) :
+        dst_first_meta_data_bits = []
+        dst_last_meta_data_bits  = []
+        src_first_meta_data_bits = []
+        src_last_meta_data_bits  = []
+        dst_file_size = os.stat(dst_file).st_size
+        src_file_size = os.stat(src_file).st_size
+        if dst_file_size == 0 : continue
+        base_size = 65536 if "Wave" in dst_file else 256
+        evt_number = (dst_file_size//base_size)
+        with open(dst_file, "rb") as f :
             for i in range(metadata_size) :
-                hdd_first_meta_data_bits.append(f.read(1))
-        with open(ssd_file, "rb") as f :
+                dst_first_meta_data_bits.append(f.read(1))
+        with open(src_file, "rb") as f :
             for i in range(metadata_size) :
-                ssd_first_meta_data_bits.append(f.read(1))
-        hdd_first_meta_data = decode_meta_data(hdd_first_meta_data_bits)
-        ssd_first_meta_data = decode_meta_data(ssd_first_meta_data_bits)
-        with open(hdd_file, "rb") as f :
+                src_first_meta_data_bits.append(f.read(1))
+        dst_first_meta_data = decode_meta_data(dst_first_meta_data_bits)
+        src_first_meta_data = decode_meta_data(src_first_meta_data_bits)
+        with open(dst_file, "rb") as f :
             f.seek((evt_number-1) * base_size)
             for i in range(metadata_size) :
-                hdd_last_meta_data_bits.append(f.read(1))
-        with open(ssd_file, "rb") as f :
+                dst_last_meta_data_bits.append(f.read(1))
+        with open(src_file, "rb") as f :
             f.seek((evt_number-1) * base_size)
             for i in range(metadata_size) :
-                ssd_last_meta_data_bits.append(f.read(1))
-        hdd_last_meta_data = decode_meta_data(hdd_last_meta_data_bits)
-        ssd_last_meta_data = decode_meta_data(ssd_last_meta_data_bits)
-        if not ( (hdd_first_meta_data == ssd_first_meta_data) ) :
-            print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Mismatch in HDD and SSD 1st event's metadata, please check")
-            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} HDD file : %s" %(hdd_file))
-            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} SSD file : %s" %(ssd_file))
+                src_last_meta_data_bits.append(f.read(1))
+        dst_last_meta_data = decode_meta_data(dst_last_meta_data_bits)
+        src_last_meta_data = decode_meta_data(src_last_meta_data_bits)
+        if not ( (dst_first_meta_data == src_first_meta_data) ) :
+            print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Mismatch in DST and SRC 1st event's metadata, please check")
+            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} DST file : %s" %(dst_file))
+            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} SRC file : %s" %(src_file))
             sys.exit()
-        if not ( (hdd_last_meta_data == ssd_last_meta_data) ) :
-            print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Mismatch in HDD and SSD last event's metadata, please check")
-            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} HDD file : %s" %(hdd_file))
-            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} SSD file : %s" %(ssd_file))
+        if not ( (dst_last_meta_data == src_last_meta_data) ) :
+            print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Mismatch in DST and SRC last event's metadata, please check")
+            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} DST file : %s" %(dst_file))
+            print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} SRC file : %s" %(src_file))
             sys.exit()
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Metadata check {bcolors.OKGREEN}{bcolors.BOLD}successful!{bcolors.ENDC}. Proceeding...")
 
@@ -263,33 +280,66 @@ def ask_if_sure() :
     if answer == 'y' : return True
     elif answer == 'n' : return False
 
-def action_after_valid(source_path) :
-    base_source_path = source_path.split('/')[-2]
-    new_base_source_path = base_source_path.replace( "_copied", "_validated" )
-    new_source_path = source_path.replace(base_source_path, new_base_source_path)
-    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Source folder {bcolors.OKCYAN}{bcolors.BOLD}%s{bcolors.ENDC} will be renamed to {bcolors.OKCYAN}{bcolors.BOLD}%s{bcolors.ENDC}" %( source_path, new_source_path ))
+def check_if_exists_in_DST(SRC_DIR, DST_DIR) :
+    SRC_BASE_DIR = SRC_DIR.split('/')[-2]
+    SRC_RUN_NUM = SRC_BASE_DIR.split('_')[-2]
+
+    DST_BASE_DIR = DST_DIR.split('/')[-2]
+    DST_RUN_NUM = DST_BASE_DIR.split('_')[-1]
+
+    if not (SRC_RUN_NUM == DST_RUN_NUM) :
+        print(f"{bcolors.ERRORBLOCK}###############################################################################################{bcolors.ENDC}")
+        print(f"{bcolors.ERRORBLOCK}[ERROR] The {bcolors.BOLD}{bcolors.UNDERLINE}RUN NUMBER{bcolors.ENDC}{bcolors.ERRORBLOCK} of both DAQ DATA and DST DATA {bcolors.BOLD}{bcolors.UNDERLINE}MUST BE MATCHED{bcolors.ENDC}{bcolors.ERRORBLOCK}. PLEASE CHECK ARGUMENTS!!!{bcolors.ENDC}")
+        print(f"{bcolors.ERRORBLOCK}###############################################################################################{bcolors.ENDC}")
+        print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Your DAQ PC data run number : {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC}   Your DST data run number : {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC}" %(SRC_RUN_NUM, DST_RUN_NUM) )
+        sys.exit()
+
+    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Checking if SRC directory properly copied to DST")
+    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Checking SRC directory : {bcolors.OKCYAN}{bcolors.BOLD}%s{bcolors.ENDC}" %(SRC_DIR))
+    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Checking DST directory : {bcolors.OKCYAN}{bcolors.BOLD}%s{bcolors.ENDC}" %(DST_DIR))
+
+    SRC_FILE_LIST = []
+    for _, _, SRC_files in os.walk(SRC_DIR) :
+        for SRC_file_name in SRC_files :
+            SRC_FILE_LIST.append(SRC_file_name)
+    SRC_FILE_LIST.sort()
+    SRC_DATA_SIZE = get_directory_size(SRC_DIR)
+
+    DST_FILE_LIST = []
+    for _, _, DST_files in os.walk(DST_DIR) :
+        for DST_file_name in DST_files :
+            DST_FILE_LIST.append(DST_file_name)
+    DST_FILE_LIST.sort()
+    DST_DATA_SIZE = get_directory_size(DST_DIR)
+
+    if not (SRC_DATA_SIZE == DST_DATA_SIZE) :
+        print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Data size in SRC and DST mismatch. Please check!")
+        print(f"Data size in SRC : {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} (Bytes) in DST : {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} (Bytes)" %(SRC_DATA_SIZE, DST_DATA_SIZE))
+        sys.exit()
+    for idx, (src_file, dst_file) in enumerate(zip(SRC_FILE_LIST, DST_FILE_LIST)) :
+        try : 
+            if not (SRC_FILE_LIST[idx] == DST_FILE_LIST[idx]) :
+                print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Mismatch between SRC file list & DST file list. Please check!")
+                print(f"Length of SRC file list : {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} " %(len(SRC_FILE_LIST)) )
+                print(f"Length of DST file list : {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} " %(len(DST_FILE_LIST)) )
+                print(f"Content of SRC file list with Index {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} = {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC}" %(idx, src_file))
+                print(f"Content of DST file list with Index {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} = {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC}" %(idx, dst_file))
+                sys.exit()
+        except IndexError as e :
+            print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Mismatch between SRC file list & DST file list. Please check!")
+            print(f"Length of SRC file list : {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} " %(len(SRC_FILE_LIST)) )
+            print(f"Length of DST file list : {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} " %(len(DST_FILE_LIST)) )
+            if ( (idx + 1) == len(SRC_FILE_LIST)) : print(f"Content of SRC file list with Index {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} = {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC}" %(idx, src_file))
+            if ( (idx + 1) == len(DST_FILE_LIST)) : print(f"Content of DST file list with Index {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC} = {bcolors.ERROR}{bcolors.BOLD}{bcolors.UNDERLINE}%s{bcolors.ENDC}" %(idx, dst_file))
+            sys.exit()
+            
+    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} File list & size check between SRC folder and DST folder {bcolors.OKGREEN}{bcolors.BOLD}successful!{bcolors.ENDC} Proceeding...")`
+
+def action_after_valid(SRC_DIR) :
+    f = open(SRC_DIR + "validated_directory.flag", "w")
+    f.close()
+    print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Validate flag will be created under {bcolors.OKCYAN}{bcolors.BOLD}%s{bcolors.ENDC}" %( SRC_DIR ))
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} {bcolors.BOLD}{bcolors.OKGREEN}Validation of the data completed. PLEASE WRITE LOG & PROCEED TO REMOVE STEP{bcolors.ENDC}")
-    os.rename(source_path, new_source_path)
-
-def get_data_dir(SSD_DIR, HDD_DIR) :
-    SSD_FILE_LIST = []
-    for SSD_ROOT_DIR, _, SSD_files in os.walk(SSD_DIR) :
-        for SSD_file_name in SSD_files :
-            SSD_FILE_LIST.append(os.path.join(SSD_ROOT_DIR,SSD_file_name))
-    SSD_DATA_LIST = [x for x in SSD_FILE_LIST if not "log" in x and not "png" in x and not "root" in x]
-    #SSD_DATA_LIST = [x for x in SSD_FILE_LIST if "dat" in x]
-    SSD_DATA_LIST.sort()
-
-    HDD_FILE_LIST = []
-    for HDD_ROOT_DIR, _, HDD_files in os.walk(HDD_DIR) :
-        for HDD_file_name in HDD_files :
-            HDD_FILE_LIST.append(os.path.join(HDD_ROOT_DIR,HDD_file_name))
-    HDD_DATA_LIST = [x for x in HDD_FILE_LIST if not "log" in x and not "png" in x and not "root" in x]
-    #HDD_DATA_LIST = [x for x in HDD_FILE_LIST if "dat" in x]
-    HDD_DATA_LIST.sort()
-
-    return SSD_DATA_LIST, HDD_DATA_LIST
-    
 #############################################################################################################
 if __name__ == "__main__" :
 
@@ -299,43 +349,35 @@ if __name__ == "__main__" :
         print(f"{bcolors.INFO}[Example]{bcolors.ENDC} ./Valid_Data.sh  999 /Volumes/HDD_16TB_1/HDD_Run_999/")
         sys.exit()
     
-    SSD_DIR_PREFIX = "/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_"
+    SRC_DIR_PREFIX = "/Users/drc_daq/scratch/Aug2022TB/SSD/Run_"
 
-    SSD_DIR = SSD_DIR_PREFIX + sys.argv[1] +"_copied"
-    HDD_DIR = sys.argv[2]
+    # SRC_DIR will be "/Path/to/DAQPC/data/dir/Run_X"
+    SRC_DIR = SRC_DIR_PREFIX + sys.argv[1]
+    DST_DIR = sys.argv[2]
 
-    if not SSD_DIR.endswith("/") : SSD_DIR += "/"
-    if not HDD_DIR.endswith("/") : HDD_DIR += "/"
+    if not SRC_DIR.endswith("/") : SRC_DIR += "/"
+    if not DST_DIR.endswith("/") : DST_DIR += "/"
 
-    if not os.path.exists(SSD_DIR) :
-        print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Original SSD data with path {bcolors.BOLD}\"%s\"{bcolors.ENDC} {bcolors.ERROR}does not exist{bcolors.ENDC}, please check" % (SSD_DIR) )
+    if not os.path.exists(SRC_DIR) :
+        print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Original SRC data with path {bcolors.BOLD}\"%s\"{bcolors.ENDC} {bcolors.ERROR}does not exist{bcolors.ENDC}, please check" % (SRC_DIR) )
         sys.exit()
-    if not os.path.exists(HDD_DIR) :
-        print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Copied HDD data with path {bcolors.BOLD}\"%s\"{bcolors.ENDC} {bcolors.ERROR}does not exist{bcolors.ENDC}, please check" % (HDD_DIR) )
+    if not os.path.exists(DST_DIR) :
+        print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Copied DST data with path {bcolors.BOLD}\"%s\"{bcolors.ENDC} {bcolors.ERROR}does not exist{bcolors.ENDC}, please check" % (DST_DIR) )
         sys.exit()
-
-    # if not ("SSD" and "Run") in SSD_DIR :
-    #     print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
-    #     print(f"{bcolors.ERRORBLOCK}[ERROR] DAQ data must be stored under {bcolors.BOLD}{bcolors.UNDERLINE}SSD{bcolors.ENDC}{bcolors.ERRORBLOCK} with proper {bcolors.BOLD}{bcolors.UNDERLINE}Run number{bcolors.ENDC}{bcolors.ERRORBLOCK}. PLEASE CHECK ARGUMENTS!!!{bcolors.ENDC}")
-    #     print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
-    #     sys.exit()
-    # if not ("_copied") in SSD_DIR :
-    #     print(f"{bcolors.ERRORBLOCK}#############################################################################{bcolors.ENDC}")
-    #     print(f"{bcolors.ERRORBLOCK}[ERROR] DAQ data must be {bcolors.BOLD}{bcolors.UNDERLINE}COPIED{bcolors.ENDC}{bcolors.ERRORBLOCK} before deleting. PLEASE CHECK ARGUMENTS!!!{bcolors.ENDC}")
-    #     print(f"{bcolors.ERRORBLOCK}#############################################################################{bcolors.ENDC}")
-    #     sys.exit()
-    if not ("HDD" and "Run") in HDD_DIR :
-        print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
-        print(f"{bcolors.ERRORBLOCK}[ERROR] DAQ data must be copied under {bcolors.BOLD}{bcolors.UNDERLINE}HDD{bcolors.ENDC}{bcolors.ERRORBLOCK} with proper {bcolors.BOLD}{bcolors.UNDERLINE}Run number{bcolors.ENDC}{bcolors.ERRORBLOCK}. PLEASE CHECK ARGUMENTS!!!{bcolors.ENDC}")
-        print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
+    
+    ## Check if the data in DAQ PC is already copied by checking copy flag file
+    copied, validated = check_if_proper_step(SRC_DIR)
+    if not copied :
+        print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} SRC directory not yet copied, please check!")
         sys.exit()
-
-    check_if_exists_in_HDD(SSD_DIR, HDD_DIR)
-
-    SSD_DATA_LIST, HDD_DATA_LIST = get_data_dir(SSD_DIR, HDD_DIR)
-
-    check_entry(SSD_DATA_LIST, HDD_DATA_LIST)
-    valid_with_checksum_sha256(SSD_DATA_LIST, HDD_DATA_LIST)
-    #print_meta_data(HDD_DATA_LIST, fraction=0.1)
-    compare_meta_data(SSD_DATA_LIST, HDD_DATA_LIST)
-    action_after_valid(SSD_DIR)
+    if validated :
+        print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} SRC directory already validated, please check!")
+        sys.exit()
+        
+    check_if_exists_in_DST(SRC_DIR, DST_DIR)
+    SRC_DATA_LIST, DST_DATA_LIST = get_data_dir(SRC_DIR, DST_DIR)
+    check_entry(SRC_DATA_LIST, DST_DATA_LIST)
+    valid_with_checksum_sha256(SRC_DATA_LIST, DST_DATA_LIST)
+    #print_meta_data(DST_DATA_LIST, fraction=0.1)
+    compare_meta_data(SRC_DATA_LIST, DST_DATA_LIST)
+    action_after_valid(SRC_DIR)

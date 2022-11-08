@@ -1,7 +1,7 @@
 import os
 import sys
 import shutil
-from transfer_from_DAQ_PC_to_HDD import get_directory_size, ask_if_sure, storage_usage_bar
+from transfer_data import ask_if_sure, storage_usage_bar, check_if_proper_step
 from validate_data import check_if_exists_in_DST
 
 class bcolors:
@@ -42,7 +42,7 @@ if __name__ == "__main__" :
         print(f"{bcolors.INFO} [Example] {bcolors.ENDC}./Remove_Data.sh 999 /Volumes/DST_16TB_1/DST_Run_999/")
         sys.exit()
     
-    SRC_DIR = SRC_DIR_PREFIX + sys.argv[1] + "_validated"
+    SRC_DIR = SRC_DIR_PREFIX + sys.argv[1]
     DST_DIR = sys.argv[2]
 
     if not SRC_DIR.endswith('/'): SRC_DIR += '/'
@@ -55,20 +55,12 @@ if __name__ == "__main__" :
         print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} Copied DST data with path {bcolors.BOLD}\"%s\"{bcolors.ENDC} {bcolors.ERROR}does not exist{bcolors.ENDC}, please check" % (DST_DIR) )
         sys.exit()
 
-    # if not ("SRC" and "Run") in SRC_DIR :
-    #     print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
-    #     print(f"{bcolors.ERRORBLOCK}[ERROR] DAQ data must be stored under {bcolors.BOLD}{bcolors.UNDERLINE}SRC{bcolors.ENDC}{bcolors.ERRORBLOCK} with proper {bcolors.BOLD}{bcolors.UNDERLINE}Run number{bcolors.ENDC}{bcolors.ERRORBLOCK}. PLEASE CHECK ARGUMENTS!!!{bcolors.ENDC}")
-    #     print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
-    #     sys.exit()
-    # if not ("_validated") in SRC_DIR :
-    #     print(f"{bcolors.ERRORBLOCK}#############################################################################{bcolors.ENDC}")
-    #     print(f"{bcolors.ERRORBLOCK}[ERROR] DAQ data must be {bcolors.BOLD}{bcolors.UNDERLINE}VALIDATED{bcolors.ENDC}{bcolors.ERRORBLOCK} before deleting. PLEASE CHECK ARGUMENTS!!!{bcolors.ENDC}")
-    #     print(f"{bcolors.ERRORBLOCK}#############################################################################{bcolors.ENDC}")
-    #     sys.exit()
-    if not ("DST" and "Run") in DST_DIR :
-        print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
-        print(f"{bcolors.ERRORBLOCK}[ERROR] DAQ data must be copied under {bcolors.BOLD}{bcolors.UNDERLINE}DST{bcolors.ENDC}{bcolors.ERRORBLOCK} with proper {bcolors.BOLD}{bcolors.UNDERLINE}Run number{bcolors.ENDC}{bcolors.ERRORBLOCK}. PLEASE CHECK ARGUMENTS!!!{bcolors.ENDC}")
-        print(f"{bcolors.ERRORBLOCK}###########################################################################################{bcolors.ENDC}")
+    copied , validated = check_if_proper_step(SRC_DIR)
+    if not copied :
+        print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} SRC directory not yet copied, please check!")
+        sys.exit()
+    if not validated :
+        print(f"{bcolors.ERROR}[ERROR]{bcolors.ENDC} SRC directory not yet validated, please check!")
         sys.exit()
 
     check_if_exists_in_DST(SRC_DIR, DST_DIR)
@@ -80,5 +72,5 @@ if __name__ == "__main__" :
     remove_folder(SRC_DIR)
 
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Checking SRC storage usage...")
-    total, used, free = shutil.disk_usage("/Users/drc_daq/scratch/Aug2022TB/SRC/")
+    total, used, free = shutil.disk_usage(SRC_DIR_PREFIX)
     storage_usage_bar(total, used, free)
