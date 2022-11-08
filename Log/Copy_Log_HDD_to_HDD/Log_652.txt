@@ -1,0 +1,320 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_652/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_652[0m
+[94m[INFO][0m SSD data folder size = [96m[1m9.228 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [#######-------------------------------------------][0m [92m[1m13.153 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 1959.988 GB / Free : [4m12941.565 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_652/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_652/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_652.txt --progress /Volumes/HDD_16TB_1/HDD_Run_652/ /Volumes/HDD_16TB_2/HDD_Run_652/[0m`? [y/n] 
+building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_652
+cd+++++++ ./
+cd+++++++ Run_652_Fast/
+cd+++++++ Run_652_Fast/Run_652_Fast_MID_1/
+>f+++++++ Run_652_Fast/Run_652_Fast_MID_1/Run_652_Fast_MID_1_FILE_0.dat
+      32.77K   1%    0.00kB/s    0:00:00
+       2.56M 100%   38.19MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_652_Fast/Run_652_Fast_MID_10/
+>f+++++++ Run_652_Fast/Run_652_Fast_MID_10/Run_652_Fast_MID_10_FILE_0.dat
+      32.77K   1%  299.07kB/s    0:00:08
+       2.56M 100%   14.09MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_652_Fast/Run_652_Fast_MID_11/
+>f+++++++ Run_652_Fast/Run_652_Fast_MID_11/Run_652_Fast_MID_11_FILE_0.dat
+      32.77K   1%  174.86kB/s    0:00:14
+       2.56M 100%   10.83MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_652_Fast/Run_652_Fast_MID_12/
+>f+++++++ Run_652_Fast/Run_652_Fast_MID_12/Run_652_Fast_MID_12_FILE_0.dat
+      32.77K   1%  140.97kB/s    0:00:17
+       2.56M 100%    9.38MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_652_Fast/Run_652_Fast_MID_13/
+>f+++++++ Run_652_Fast/Run_652_Fast_MID_13/Run_652_Fast_MID_13_FILE_0.dat
+      32.77K   1%  122.14kB/s    0:00:20
+       2.56M 100%    8.29MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_652_Fast/Run_652_Fast_MID_14/
+>f+++++++ Run_652_Fast/Run_652_Fast_MID_14/Run_652_Fast_MID_14_FILE_0.dat
+      32.77K   1%  108.11kB/s    0:00:23
+       2.56M 100%    7.21MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_652_Fast/Run_652_Fast_MID_15/
+>f+++++++ Run_652_Fast/Run_652_Fast_MID_15/Run_652_Fast_MID_15_FILE_0.dat
+      32.77K   1%   94.40kB/s    0:00:26
+       2.56M 100%    6.35MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_652_Fast/Run_652_Fast_MID_2/
+>f+++++++ Run_652_Fast/Run_652_Fast_MID_2/Run_652_Fast_MID_2_FILE_0.dat
+      32.77K   1%   82.90kB/s    0:00:30
+       2.56M 100%    5.75MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_652_Fast/Run_652_Fast_MID_3/
+>f+++++++ Run_652_Fast/Run_652_Fast_MID_3/Run_652_Fast_MID_3_FILE_0.dat
+      32.77K   1%   75.12kB/s    0:00:33
+       2.56M 100%    5.31MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_652_Fast/Run_652_Fast_MID_4/
+>f+++++++ Run_652_Fast/Run_652_Fast_MID_4/Run_652_Fast_MID_4_FILE_0.dat
+      32.77K   1%   68.82kB/s    0:00:36
+       2.56M 100%    4.90MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_652_Fast/Run_652_Fast_MID_5/
+>f+++++++ Run_652_Fast/Run_652_Fast_MID_5/Run_652_Fast_MID_5_FILE_0.dat
+      32.77K   1%   64.13kB/s    0:00:39
+       2.56M 100%    4.54MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_652_Fast/Run_652_Fast_MID_6/
+>f+++++++ Run_652_Fast/Run_652_Fast_MID_6/Run_652_Fast_MID_6_FILE_0.dat
+      32.77K   1%   59.48kB/s    0:00:42
+       2.56M 100%    4.21MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_652_Fast/Run_652_Fast_MID_7/
+>f+++++++ Run_652_Fast/Run_652_Fast_MID_7/Run_652_Fast_MID_7_FILE_0.dat
+      32.77K   1%   55.08kB/s    0:00:45
+       2.56M 100%    3.92MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_652_Fast/Run_652_Fast_MID_8/
+>f+++++++ Run_652_Fast/Run_652_Fast_MID_8/Run_652_Fast_MID_8_FILE_0.dat
+      32.77K   1%   51.20kB/s    0:00:49
+       2.56M 100%    3.74MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_652_Fast/Run_652_Fast_MID_9/
+>f+++++++ Run_652_Fast/Run_652_Fast_MID_9/Run_652_Fast_MID_9_FILE_0.dat
+      32.77K   1%   48.93kB/s    0:00:51
+       2.56M 100%    3.53MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_652_Fast/Run_652_Fast_log/
+>f+++++++ Run_652_Fast/Run_652_Fast_log/Run_652_Fast_MID_10_buffer.txt
+       2.47K 100%    3.50kB/s    0:00:00
+       2.47K 100%    3.50kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_652_Fast/Run_652_Fast_log/Run_652_Fast_MID_11_buffer.txt
+       2.47K 100%    3.47kB/s    0:00:00
+       2.47K 100%    3.47kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_652_Fast/Run_652_Fast_log/Run_652_Fast_MID_12_buffer.txt
+       2.47K 100%    3.47kB/s    0:00:00
+       2.47K 100%    3.47kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_652_Fast/Run_652_Fast_log/Run_652_Fast_MID_13_buffer.txt
+       2.47K 100%    3.42kB/s    0:00:00
+       2.47K 100%    3.42kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_652_Fast/Run_652_Fast_log/Run_652_Fast_MID_14_buffer.txt
+       2.47K 100%    3.42kB/s    0:00:00
+       2.47K 100%    3.42kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_652_Fast/Run_652_Fast_log/Run_652_Fast_MID_15_buffer.txt
+       2.47K 100%    3.40kB/s    0:00:00
+       2.47K 100%    3.40kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_652_Fast/Run_652_Fast_log/Run_652_Fast_MID_1_buffer.txt
+       2.47K 100%    3.36kB/s    0:00:00
+       2.47K 100%    3.36kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_652_Fast/Run_652_Fast_log/Run_652_Fast_MID_2_buffer.txt
+       2.47K 100%    3.30kB/s    0:00:00
+       2.47K 100%    3.30kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_652_Fast/Run_652_Fast_log/Run_652_Fast_MID_3_buffer.txt
+       2.47K 100%    3.30kB/s    0:00:00
+       2.47K 100%    3.30kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_652_Fast/Run_652_Fast_log/Run_652_Fast_MID_4_buffer.txt
+       2.47K 100%    3.27kB/s    0:00:00
+       2.47K 100%    3.27kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_652_Fast/Run_652_Fast_log/Run_652_Fast_MID_5_buffer.txt
+       2.47K 100%    3.27kB/s    0:00:00
+       2.47K 100%    3.27kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_652_Fast/Run_652_Fast_log/Run_652_Fast_MID_6_buffer.txt
+       2.47K 100%    3.27kB/s    0:00:00
+       2.47K 100%    3.27kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_652_Fast/Run_652_Fast_log/Run_652_Fast_MID_7_buffer.txt
+       2.47K 100%    3.19kB/s    0:00:00
+       2.47K 100%    3.19kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_652_Fast/Run_652_Fast_log/Run_652_Fast_MID_8_buffer.txt
+       2.47K 100%    3.18kB/s    0:00:00
+       2.47K 100%    3.18kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_652_Fast/Run_652_Fast_log/Run_652_Fast_MID_9_buffer.txt
+       2.47K 100%    3.18kB/s    0:00:00
+       2.47K 100%    3.18kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_652_Wave/
+cd+++++++ Run_652_Wave/Run_652_Wave_MID_1/
+>f+++++++ Run_652_Wave/Run_652_Wave_MID_1/Run_652_Wave_MID_1_FILE_0.dat
+      32.77K   0%   40.00kB/s    4:34:05
+      16.55M   2%   15.78MB/s    0:00:39
+     126.39M  19%   60.30MB/s    0:00:08
+     234.13M  35%   74.45MB/s    0:00:05
+     328.24M  49%   78.30MB/s    0:00:04
+     413.70M  62%   94.71MB/s    0:00:02
+     508.33M  77%   91.09MB/s    0:00:01
+     597.20M  90%   86.56MB/s    0:00:00
+     657.85M 100%   81.81MB/s    0:00:07 (xfer#31, to-check=44/95)
+cd+++++++ Run_652_Wave/Run_652_Wave_MID_10/
+>f+++++++ Run_652_Wave/Run_652_Wave_MID_10/Run_652_Wave_MID_10_FILE_0.dat
+      32.77K   0%   47.55kB/s    3:50:34
+      27.82M   4%   26.01MB/s    0:00:23
+     141.16M  21%   66.68MB/s    0:00:07
+     266.63M  40%   84.23MB/s    0:00:04
+     377.65M  57%   89.64MB/s    0:00:03
+     507.28M  77%  114.34MB/s    0:00:01
+     634.26M  96%  117.59MB/s    0:00:00
+     657.85M 100%  101.21MB/s    0:00:06 (xfer#32, to-check=42/95)
+cd+++++++ Run_652_Wave/Run_652_Wave_MID_11/
+>f+++++++ Run_652_Wave/Run_652_Wave_MID_11/Run_652_Wave_MID_11_FILE_0.dat
+      32.77K   0%  174.86kB/s    1:02:41
+      96.04M  14%   91.59MB/s    0:00:05
+     210.34M  31%  100.35MB/s    0:00:04
+     340.30M  51%  108.25MB/s    0:00:02
+     467.70M  71%  111.56MB/s    0:00:01
+     583.76M  88%  116.34MB/s    0:00:00
+     657.85M 100%  109.38MB/s    0:00:05 (xfer#33, to-check=40/95)
+cd+++++++ Run_652_Wave/Run_652_Wave_MID_12/
+>f+++++++ Run_652_Wave/Run_652_Wave_MID_12/Run_652_Wave_MID_12_FILE_0.dat
+      32.77K   0%   43.13kB/s    4:14:13
+      20.15M   3%   19.22MB/s    0:00:32
+     117.74M  17%   56.17MB/s    0:00:09
+     212.63M  32%   67.62MB/s    0:00:06
+     315.52M  47%   75.25MB/s    0:00:04
+     434.93M  66%   98.92MB/s    0:00:02
+     564.20M  85%  106.47MB/s    0:00:00
+     657.85M 100%   93.43MB/s    0:00:06 (xfer#34, to-check=38/95)
+cd+++++++ Run_652_Wave/Run_652_Wave_MID_13/
+>f+++++++ Run_652_Wave/Run_652_Wave_MID_13/Run_652_Wave_MID_13_FILE_0.dat
+      32.77K   0%   44.44kB/s    4:06:40
+      31.10M   4%   29.66MB/s    0:00:20
+     159.97M  24%   76.32MB/s    0:00:06
+     285.51M  43%   90.82MB/s    0:00:04
+     402.95M  61%   96.14MB/s    0:00:02
+     525.89M  79%  118.03MB/s    0:00:01
+     655.92M  99%  118.27MB/s    0:00:00
+     657.85M 100%  104.39MB/s    0:00:06 (xfer#35, to-check=36/95)
+cd+++++++ Run_652_Wave/Run_652_Wave_MID_14/
+>f+++++++ Run_652_Wave/Run_652_Wave_MID_14/Run_652_Wave_MID_14_FILE_0.dat
+      32.77K   0%    1.95MB/s    0:05:28
+     118.52M  18%  113.03MB/s    0:00:04
+     241.30M  36%  115.12MB/s    0:00:03
+     347.37M  52%  110.46MB/s    0:00:02
+     448.56M  68%  107.00MB/s    0:00:01
+     548.18M  83%  102.46MB/s    0:00:01
+     647.79M  98%   96.94MB/s    0:00:00
+     657.85M 100%  103.22MB/s    0:00:06 (xfer#36, to-check=34/95)
+cd+++++++ Run_652_Wave/Run_652_Wave_MID_15/
+>f+++++++ Run_652_Wave/Run_652_Wave_MID_15/Run_652_Wave_MID_15_FILE_0.dat
+      32.77K   0%  359.55kB/s    0:30:29
+      91.26M  13%   87.03MB/s    0:00:06
+     211.06M  32%  100.64MB/s    0:00:04
+     329.55M  50%  104.76MB/s    0:00:03
+     455.87M  69%  108.71MB/s    0:00:01
+     574.52M  87%  115.25MB/s    0:00:00
+     657.85M 100%  110.45MB/s    0:00:05 (xfer#37, to-check=32/95)
+cd+++++++ Run_652_Wave/Run_652_Wave_MID_2/
+>f+++++++ Run_652_Wave/Run_652_Wave_MID_2/Run_652_Wave_MID_2_FILE_0.dat
+      32.77K   0%   46.78kB/s    3:54:20
+      27.03M   4%   25.78MB/s    0:00:23
+     155.75M  23%   74.27MB/s    0:00:06
+     280.13M  42%   89.08MB/s    0:00:04
+     403.70M  61%   96.27MB/s    0:00:02
+     533.50M  81%  120.78MB/s    0:00:01
+     648.35M  98%  117.53MB/s    0:00:00
+     657.85M 100%  102.97MB/s    0:00:06 (xfer#38, to-check=30/95)
+cd+++++++ Run_652_Wave/Run_652_Wave_MID_3/
+>f+++++++ Run_652_Wave/Run_652_Wave_MID_3/Run_652_Wave_MID_3_FILE_0.dat
+      32.77K   0%  256.00kB/s    0:42:49
+      89.95M  13%   85.78MB/s    0:00:06
+     183.27M  27%   87.39MB/s    0:00:05
+     281.84M  42%   89.59MB/s    0:00:04
+     382.24M  58%   91.13MB/s    0:00:02
+     474.94M  72%   91.81MB/s    0:00:01
+     603.23M  91%  100.15MB/s    0:00:00
+     657.85M 100%   97.24MB/s    0:00:06 (xfer#39, to-check=28/95)
+cd+++++++ Run_652_Wave/Run_652_Wave_MID_4/
+>f+++++++ Run_652_Wave/Run_652_Wave_MID_4/Run_652_Wave_MID_4_FILE_0.dat
+      32.77K   0%   70.33kB/s    2:35:53
+      59.02M   8%   56.28MB/s    0:00:10
+     177.27M  26%   84.57MB/s    0:00:05
+     307.27M  46%   97.74MB/s    0:00:03
+     431.26M  65%  102.90MB/s    0:00:02
+     561.22M  85%  119.82MB/s    0:00:00
+     657.85M 100%  109.32MB/s    0:00:05 (xfer#40, to-check=26/95)
+cd+++++++ Run_652_Wave/Run_652_Wave_MID_5/
+>f+++++++ Run_652_Wave/Run_652_Wave_MID_5/Run_652_Wave_MID_5_FILE_0.dat
+      32.77K   0%   42.95kB/s    4:15:14
+      25.36M   3%   24.19MB/s    0:00:25
+     151.55M  23%   72.16MB/s    0:00:06
+     277.38M  42%   88.09MB/s    0:00:04
+     374.87M  56%   89.33MB/s    0:00:03
+     477.92M  72%  107.84MB/s    0:00:01
+     579.83M  88%  102.16MB/s    0:00:00
+     657.85M 100%   92.77MB/s    0:00:06 (xfer#41, to-check=24/95)
+cd+++++++ Run_652_Wave/Run_652_Wave_MID_6/
+>f+++++++ Run_652_Wave/Run_652_Wave_MID_6/Run_652_Wave_MID_6_FILE_0.dat
+      32.77K   0%   41.56kB/s    4:23:48
+      21.00M   3%   20.03MB/s    0:00:31
+     133.20M  20%   63.52MB/s    0:00:08
+     241.47M  36%   76.79MB/s    0:00:05
+     371.33M  56%   88.58MB/s    0:00:03
+     495.75M  75%  113.27MB/s    0:00:01
+     624.72M  94%  117.25MB/s    0:00:00
+     657.85M 100%   99.57MB/s    0:00:06 (xfer#42, to-check=22/95)
+cd+++++++ Run_652_Wave/Run_652_Wave_MID_7/
+>f+++++++ Run_652_Wave/Run_652_Wave_MID_7/Run_652_Wave_MID_7_FILE_0.dat
+      32.77K   0%  104.92kB/s    1:44:29
+      71.07M  10%   67.78MB/s    0:00:08
+     195.33M  29%   93.14MB/s    0:00:04
+     324.04M  49%  103.01MB/s    0:00:03
+     453.02M  68%  108.01MB/s    0:00:01
+     581.73M  88%  121.75MB/s    0:00:00
+     657.85M 100%  110.92MB/s    0:00:05 (xfer#43, to-check=20/95)
+cd+++++++ Run_652_Wave/Run_652_Wave_MID_8/
+>f+++++++ Run_652_Wave/Run_652_Wave_MID_8/Run_652_Wave_MID_8_FILE_0.dat
+      32.77K   0%   48.05kB/s    3:48:10
+      28.31M   4%   27.00MB/s    0:00:22
+     125.86M  19%   59.96MB/s    0:00:08
+     225.31M  34%   71.60MB/s    0:00:05
+     329.25M  50%   78.50MB/s    0:00:04
+     430.51M  65%   95.89MB/s    0:00:02
+     532.71M  80%   97.07MB/s    0:00:01
+     657.85M 100%   90.05MB/s    0:00:06 (xfer#44, to-check=18/95)
+cd+++++++ Run_652_Wave/Run_652_Wave_MID_9/
+>f+++++++ Run_652_Wave/Run_652_Wave_MID_9/Run_652_Wave_MID_9_FILE_0.dat
+      32.77K   0%   32.99kB/s    5:32:20
+       1.61M   0%    1.53MB/s    0:06:58
+     120.29M  18%   57.36MB/s    0:00:09
+     240.12M  36%   76.33MB/s    0:00:05
+     364.02M  55%   86.81MB/s    0:00:03
+     487.46M  74%  115.92MB/s    0:00:01
+     617.48M  93%  118.63MB/s    0:00:00
+     657.85M 100%   99.27MB/s    0:00:06 (xfer#45, to-check=16/95)
+cd+++++++ Run_652_Wave/Run_652_Wave_log/
+>f+++++++ Run_652_Wave/Run_652_Wave_log/Run_652_Wave_MID_10_buffer.txt
+      32.77K  21%   98.46kB/s    0:00:01
+     153.61K 100%  461.57kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_652_Wave/Run_652_Wave_log/Run_652_Wave_MID_11_buffer.txt
+      32.77K  21%   96.39kB/s    0:00:01
+     153.43K 100%  449.95kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_652_Wave/Run_652_Wave_log/Run_652_Wave_MID_12_buffer.txt
+      32.77K  21%   94.12kB/s    0:00:01
+     152.57K 100%  436.93kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_652_Wave/Run_652_Wave_log/Run_652_Wave_MID_13_buffer.txt
+      32.77K  21%   91.95kB/s    0:00:01
+     153.44K 100%  429.34kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_652_Wave/Run_652_Wave_log/Run_652_Wave_MID_14_buffer.txt
+      32.77K  21%   89.89kB/s    0:00:01
+     153.55K 100%  420.03kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_652_Wave/Run_652_Wave_log/Run_652_Wave_MID_15_buffer.txt
+      32.77K  21%   87.91kB/s    0:00:01
+     152.53K 100%  408.09kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_652_Wave/Run_652_Wave_log/Run_652_Wave_MID_1_buffer.txt
+      32.77K  21%   84.43kB/s    0:00:01
+     152.45K 100%  391.78kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_652_Wave/Run_652_Wave_log/Run_652_Wave_MID_2_buffer.txt
+      32.77K  21%   82.47kB/s    0:00:01
+     153.81K 100%  387.14kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_652_Wave/Run_652_Wave_log/Run_652_Wave_MID_3_buffer.txt
+      32.77K  21%   80.81kB/s    0:00:01
+     152.77K 100%  375.80kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_652_Wave/Run_652_Wave_log/Run_652_Wave_MID_4_buffer.txt
+      32.77K  21%   79.21kB/s    0:00:01
+     152.50K 100%  368.63kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_652_Wave/Run_652_Wave_log/Run_652_Wave_MID_5_buffer.txt
+      32.77K  21%   77.67kB/s    0:00:01
+     153.68K 100%  364.26kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_652_Wave/Run_652_Wave_log/Run_652_Wave_MID_6_buffer.txt
+      32.77K  21%   75.29kB/s    0:00:01
+     152.56K 100%  349.73kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_652_Wave/Run_652_Wave_log/Run_652_Wave_MID_7_buffer.txt
+      32.77K  21%   72.56kB/s    0:00:01
+     152.76K 100%  337.50kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_652_Wave/Run_652_Wave_log/Run_652_Wave_MID_8_buffer.txt
+      32.77K  21%   71.27kB/s    0:00:01
+     153.59K 100%  333.32kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_652_Wave/Run_652_Wave_log/Run_652_Wave_MID_9_buffer.txt
+      32.77K  21%   70.02kB/s    0:00:01
+     152.43K 100%  325.02kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 9.91G bytes  received 1.55K bytes  111.97M bytes/sec
+total size is 9.91G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_652/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_652_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

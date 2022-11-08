@@ -1,0 +1,294 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_461/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_461[0m
+[94m[INFO][0m SSD data folder size = [96m[1m0.928 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [--------------------------------------------------][0m [92m[1m0.523 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 77.979 GB / Free : [4m14823.574 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_461/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_461/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_461.txt --progress /Volumes/HDD_16TB_1/HDD_Run_461/ /Volumes/HDD_16TB_2/HDD_Run_461/[0m`? [y/n] building file list ... 
+ 0 files...
+ 100 files...
+110 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_461
+cd+++++++ ./
+cd+++++++ Run_461_Fast/
+cd+++++++ Run_461_Fast/Run_461_Fast_MID_1/
+>f+++++++ Run_461_Fast/Run_461_Fast_MID_1/Run_461_Fast_MID_1_FILE_0.dat
+      32.77K  13%    0.00kB/s    0:00:00
+     245.76K 100%  203.12MB/s    0:00:00 (xfer#1, to-check=106/110)
+cd+++++++ Run_461_Fast/Run_461_Fast_MID_10/
+>f+++++++ Run_461_Fast/Run_461_Fast_MID_10/Run_461_Fast_MID_10_FILE_0.dat
+      32.77K  13%    4.46MB/s    0:00:00
+     245.76K 100%   29.30MB/s    0:00:00 (xfer#2, to-check=104/110)
+cd+++++++ Run_461_Fast/Run_461_Fast_MID_11/
+>f+++++++ Run_461_Fast/Run_461_Fast_MID_11/Run_461_Fast_MID_11_FILE_0.dat
+      32.77K  13%    3.12MB/s    0:00:00
+     245.76K 100%   23.44MB/s    0:00:00 (xfer#3, to-check=102/110)
+cd+++++++ Run_461_Fast/Run_461_Fast_MID_12/
+>f+++++++ Run_461_Fast/Run_461_Fast_MID_12/Run_461_Fast_MID_12_FILE_0.dat
+      32.77K  13%    2.60MB/s    0:00:00
+     245.76K 100%   18.03MB/s    0:00:00 (xfer#4, to-check=100/110)
+cd+++++++ Run_461_Fast/Run_461_Fast_MID_13/
+>f+++++++ Run_461_Fast/Run_461_Fast_MID_13/Run_461_Fast_MID_13_FILE_0.dat
+      32.77K  13%    1.36MB/s    0:00:00
+     245.76K 100%    9.77MB/s    0:00:00 (xfer#5, to-check=98/110)
+cd+++++++ Run_461_Fast/Run_461_Fast_MID_14/
+>f+++++++ Run_461_Fast/Run_461_Fast_MID_14/Run_461_Fast_MID_14_FILE_0.dat
+      32.77K  13%    1.20MB/s    0:00:00
+     245.76K 100%    8.68MB/s    0:00:00 (xfer#6, to-check=96/110)
+cd+++++++ Run_461_Fast/Run_461_Fast_MID_15/
+>f+++++++ Run_461_Fast/Run_461_Fast_MID_15/Run_461_Fast_MID_15_FILE_0.dat
+      32.77K  13%    1.08MB/s    0:00:00
+     245.76K 100%    8.08MB/s    0:00:00 (xfer#7, to-check=94/110)
+cd+++++++ Run_461_Fast/Run_461_Fast_MID_2/
+>f+++++++ Run_461_Fast/Run_461_Fast_MID_2/Run_461_Fast_MID_2_FILE_0.dat
+      32.77K  13% 1000.00kB/s    0:00:00
+     245.76K 100%    7.32MB/s    0:00:00 (xfer#8, to-check=92/110)
+cd+++++++ Run_461_Fast/Run_461_Fast_MID_3/
+>f+++++++ Run_461_Fast/Run_461_Fast_MID_3/Run_461_Fast_MID_3_FILE_0.dat
+      32.77K  13%   52.37kB/s    0:00:04
+     245.76K 100%  390.88kB/s    0:00:00 (xfer#9, to-check=90/110)
+cd+++++++ Run_461_Fast/Run_461_Fast_MID_4/
+>f+++++++ Run_461_Fast/Run_461_Fast_MID_4/Run_461_Fast_MID_4_FILE_0.dat
+      32.77K  13%   50.08kB/s    0:00:04
+     245.76K 100%  374.41kB/s    0:00:00 (xfer#10, to-check=88/110)
+cd+++++++ Run_461_Fast/Run_461_Fast_MID_5/
+>f+++++++ Run_461_Fast/Run_461_Fast_MID_5/Run_461_Fast_MID_5_FILE_0.dat
+      32.77K  13%   47.83kB/s    0:00:04
+     245.76K 100%  357.14kB/s    0:00:00 (xfer#11, to-check=86/110)
+cd+++++++ Run_461_Fast/Run_461_Fast_MID_6/
+>f+++++++ Run_461_Fast/Run_461_Fast_MID_6/Run_461_Fast_MID_6_FILE_0.dat
+      32.77K  13%   47.41kB/s    0:00:04
+     245.76K 100%  355.03kB/s    0:00:00 (xfer#12, to-check=84/110)
+cd+++++++ Run_461_Fast/Run_461_Fast_MID_7/
+>f+++++++ Run_461_Fast/Run_461_Fast_MID_7/Run_461_Fast_MID_7_FILE_0.dat
+      32.77K  13%   47.13kB/s    0:00:04
+     245.76K 100%  352.42kB/s    0:00:00 (xfer#13, to-check=82/110)
+cd+++++++ Run_461_Fast/Run_461_Fast_MID_8/
+>f+++++++ Run_461_Fast/Run_461_Fast_MID_8/Run_461_Fast_MID_8_FILE_0.dat
+      32.77K  13%   46.85kB/s    0:00:04
+     245.76K 100%  350.36kB/s    0:00:00 (xfer#14, to-check=80/110)
+cd+++++++ Run_461_Fast/Run_461_Fast_MID_9/
+>f+++++++ Run_461_Fast/Run_461_Fast_MID_9/Run_461_Fast_MID_9_FILE_0.dat
+      32.77K  13%   46.58kB/s    0:00:04
+     245.76K 100%  348.84kB/s    0:00:00 (xfer#15, to-check=78/110)
+cd+++++++ Run_461_Fast/Run_461_Fast_log/
+>f+++++++ Run_461_Fast/Run_461_Fast_log/Run_461_Fast_MID_10_buffer.txt
+         226 100%    0.32kB/s    0:00:00
+         226 100%    0.32kB/s    0:00:00 (xfer#16, to-check=76/110)
+>f+++++++ Run_461_Fast/Run_461_Fast_log/Run_461_Fast_MID_11_buffer.txt
+         226 100%    0.32kB/s    0:00:00
+         226 100%    0.32kB/s    0:00:00 (xfer#17, to-check=75/110)
+>f+++++++ Run_461_Fast/Run_461_Fast_log/Run_461_Fast_MID_12_buffer.txt
+         226 100%    0.32kB/s    0:00:00
+         226 100%    0.32kB/s    0:00:00 (xfer#18, to-check=74/110)
+>f+++++++ Run_461_Fast/Run_461_Fast_log/Run_461_Fast_MID_13_buffer.txt
+         226 100%    0.32kB/s    0:00:00
+         226 100%    0.32kB/s    0:00:00 (xfer#19, to-check=73/110)
+>f+++++++ Run_461_Fast/Run_461_Fast_log/Run_461_Fast_MID_14_buffer.txt
+         226 100%    0.31kB/s    0:00:00
+         226 100%    0.31kB/s    0:00:00 (xfer#20, to-check=72/110)
+>f+++++++ Run_461_Fast/Run_461_Fast_log/Run_461_Fast_MID_15_buffer.txt
+         226 100%    0.31kB/s    0:00:00
+         226 100%    0.31kB/s    0:00:00 (xfer#21, to-check=71/110)
+>f+++++++ Run_461_Fast/Run_461_Fast_log/Run_461_Fast_MID_1_buffer.txt
+         226 100%    0.31kB/s    0:00:00
+         226 100%    0.31kB/s    0:00:00 (xfer#22, to-check=70/110)
+>f+++++++ Run_461_Fast/Run_461_Fast_log/Run_461_Fast_MID_2_buffer.txt
+         226 100%    0.31kB/s    0:00:00
+         226 100%    0.31kB/s    0:00:00 (xfer#23, to-check=69/110)
+>f+++++++ Run_461_Fast/Run_461_Fast_log/Run_461_Fast_MID_3_buffer.txt
+         226 100%    0.31kB/s    0:00:00
+         226 100%    0.31kB/s    0:00:00 (xfer#24, to-check=68/110)
+>f+++++++ Run_461_Fast/Run_461_Fast_log/Run_461_Fast_MID_4_buffer.txt
+         226 100%    0.31kB/s    0:00:00
+         226 100%    0.31kB/s    0:00:00 (xfer#25, to-check=67/110)
+>f+++++++ Run_461_Fast/Run_461_Fast_log/Run_461_Fast_MID_5_buffer.txt
+         226 100%    0.31kB/s    0:00:00
+         226 100%    0.31kB/s    0:00:00 (xfer#26, to-check=66/110)
+>f+++++++ Run_461_Fast/Run_461_Fast_log/Run_461_Fast_MID_6_buffer.txt
+         226 100%    0.31kB/s    0:00:00
+         226 100%    0.31kB/s    0:00:00 (xfer#27, to-check=65/110)
+>f+++++++ Run_461_Fast/Run_461_Fast_log/Run_461_Fast_MID_7_buffer.txt
+         226 100%    0.31kB/s    0:00:00
+         226 100%    0.31kB/s    0:00:00 (xfer#28, to-check=64/110)
+>f+++++++ Run_461_Fast/Run_461_Fast_log/Run_461_Fast_MID_8_buffer.txt
+         226 100%    0.31kB/s    0:00:00
+         226 100%    0.31kB/s    0:00:00 (xfer#29, to-check=63/110)
+>f+++++++ Run_461_Fast/Run_461_Fast_log/Run_461_Fast_MID_9_buffer.txt
+         226 100%    0.31kB/s    0:00:00
+         226 100%    0.31kB/s    0:00:00 (xfer#30, to-check=62/110)
+cd+++++++ Run_461_Wave/
+cd+++++++ Run_461_Wave/Run_461_Wave_MID_1/
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_1/Run_461_Wave_MID_1_FILE_0.dat
+      32.77K   0%   44.88kB/s    0:24:20
+      16.55M  25%   15.77MB/s    0:00:03
+      65.60M 100%   36.37MB/s    0:00:01 (xfer#31, to-check=59/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_1/Run_461_Wave_MID_1_FILE_1.dat
+      32.77K   5%   44.38kB/s    0:00:12
+     589.82K 100%  792.30kB/s    0:00:00 (xfer#32, to-check=58/110)
+cd+++++++ Run_461_Wave/Run_461_Wave_MID_10/
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_10/Run_461_Wave_MID_10_FILE_0.dat
+      32.77K   0%   43.90kB/s    0:24:53
+      19.96M  30%   19.03MB/s    0:00:02
+      65.60M 100%   33.69MB/s    0:00:01 (xfer#33, to-check=56/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_10/Run_461_Wave_MID_10_FILE_1.dat
+      32.77K   5%   37.21kB/s    0:00:14
+     589.82K 100%  665.90kB/s    0:00:00 (xfer#34, to-check=55/110)
+cd+++++++ Run_461_Wave/Run_461_Wave_MID_11/
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_11/Run_461_Wave_MID_11_FILE_0.dat
+      32.77K   0%   36.87kB/s    0:29:38
+      11.04M  16%   10.53MB/s    0:00:05
+      65.60M 100%   35.03MB/s    0:00:01 (xfer#35, to-check=53/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_11/Run_461_Wave_MID_11_FILE_1.dat
+      32.77K   5%   40.56kB/s    0:00:13
+     589.82K 100%  725.44kB/s    0:00:00 (xfer#36, to-check=52/110)
+cd+++++++ Run_461_Wave/Run_461_Wave_MID_12/
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_12/Run_461_Wave_MID_12_FILE_0.dat
+      32.77K   0%   40.15kB/s    0:27:13
+      16.29M  24%   15.52MB/s    0:00:03
+      65.60M 100%   35.61MB/s    0:00:01 (xfer#37, to-check=50/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_12/Run_461_Wave_MID_12_FILE_1.dat
+      32.77K   5%   42.22kB/s    0:00:13
+     589.82K 100%  754.91kB/s    0:00:00 (xfer#38, to-check=49/110)
+cd+++++++ Run_461_Wave/Run_461_Wave_MID_13/
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_13/Run_461_Wave_MID_13_FILE_0.dat
+      32.77K   0%   41.78kB/s    0:26:09
+      14.71M  22%   14.03MB/s    0:00:03
+      65.60M 100%   34.93MB/s    0:00:01 (xfer#39, to-check=47/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_13/Run_461_Wave_MID_13_FILE_1.dat
+      32.77K   5%   40.35kB/s    0:00:13
+     589.82K 100%  721.80kB/s    0:00:00 (xfer#40, to-check=46/110)
+cd+++++++ Run_461_Wave/Run_461_Wave_MID_14/
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_14/Run_461_Wave_MID_14_FILE_0.dat
+      32.77K   0%   39.46kB/s    0:27:41
+       8.06M  12%    7.69MB/s    0:00:07
+      65.60M 100%   33.62MB/s    0:00:01 (xfer#41, to-check=44/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_14/Run_461_Wave_MID_14_FILE_1.dat
+      32.77K   5%   37.04kB/s    0:00:15
+     589.82K 100%  649.38kB/s    0:00:00 (xfer#42, to-check=43/110)
+cd+++++++ Run_461_Wave/Run_461_Wave_MID_15/
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_15/Run_461_Wave_MID_15_FILE_0.dat
+      32.77K   0%   35.96kB/s    0:30:23
+       5.28M   8%    5.03MB/s    0:00:11
+      65.60M 100%   31.41MB/s    0:00:01 (xfer#43, to-check=41/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_15/Run_461_Wave_MID_15_FILE_1.dat
+      32.77K   5%   32.16kB/s    0:00:17
+     557.06K  94%  544.00kB/s    0:00:00
+     589.82K 100%  576.00kB/s    0:00:01 (xfer#44, to-check=40/110)
+cd+++++++ Run_461_Wave/Run_461_Wave_MID_2/
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_2/Run_461_Wave_MID_2_FILE_0.dat
+      32.77K   0%   15.62MB/s    0:00:04
+      60.29M  91%   57.50MB/s    0:00:00
+      65.60M 100%   58.91MB/s    0:00:01 (xfer#45, to-check=38/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_2/Run_461_Wave_MID_2_FILE_1.dat
+      32.77K   5%  484.85kB/s    0:00:01
+     589.82K 100%    7.92MB/s    0:00:00 (xfer#46, to-check=37/110)
+cd+++++++ Run_461_Wave/Run_461_Wave_MID_3/
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_3/Run_461_Wave_MID_3_FILE_0.dat
+      32.77K   0%  432.43kB/s    0:02:31
+      65.60M 100%   62.88MB/s    0:00:00 (xfer#47, to-check=35/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_3/Run_461_Wave_MID_3_FILE_1.dat
+      32.77K   5%   32.06kB/s    0:00:17
+     294.91K  50%  288.00kB/s    0:00:01
+     589.82K 100%  574.85kB/s    0:00:01 (xfer#48, to-check=34/110)
+cd+++++++ Run_461_Wave/Run_461_Wave_MID_4/
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_4/Run_461_Wave_MID_4_FILE_0.dat
+      32.77K   0%    7.81MB/s    0:00:08
+      62.69M  95%   57.48MB/s    0:00:00
+      65.60M 100%   58.31MB/s    0:00:01 (xfer#49, to-check=32/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_4/Run_461_Wave_MID_4_FILE_1.dat
+      32.77K   5%  888.89kB/s    0:00:00
+     589.82K 100%   13.72MB/s    0:00:00 (xfer#50, to-check=31/110)
+cd+++++++ Run_461_Wave/Run_461_Wave_MID_5/
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_5/Run_461_Wave_MID_5_FILE_0.dat
+      32.77K   0%  727.27kB/s    0:01:30
+      51.68M  78%   49.28MB/s    0:00:00
+      65.60M 100%   50.41MB/s    0:00:01 (xfer#51, to-check=29/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_5/Run_461_Wave_MID_5_FILE_1.dat
+      32.77K   5%  131.69kB/s    0:00:04
+     589.82K 100%    2.26MB/s    0:00:00 (xfer#52, to-check=28/110)
+cd+++++++ Run_461_Wave/Run_461_Wave_MID_6/
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_6/Run_461_Wave_MID_6_FILE_0.dat
+      32.77K   0%  127.49kB/s    0:08:34
+      39.35M  59%   37.49MB/s    0:00:00
+      65.60M 100%   40.00MB/s    0:00:01 (xfer#53, to-check=26/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_6/Run_461_Wave_MID_6_FILE_1.dat
+      32.77K   5%   56.54kB/s    0:00:09
+     589.82K 100% 1008.76kB/s    0:00:00 (xfer#54, to-check=25/110)
+cd+++++++ Run_461_Wave/Run_461_Wave_MID_7/
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_7/Run_461_Wave_MID_7_FILE_0.dat
+      32.77K   0%   55.75kB/s    0:19:36
+      24.94M  38%   23.64MB/s    0:00:01
+      65.60M 100%   39.60MB/s    0:00:01 (xfer#55, to-check=23/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_7/Run_461_Wave_MID_7_FILE_1.dat
+      32.77K   5%   55.46kB/s    0:00:10
+     589.82K 100%  982.94kB/s    0:00:00 (xfer#56, to-check=22/110)
+cd+++++++ Run_461_Wave/Run_461_Wave_MID_8/
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_8/Run_461_Wave_MID_8_FILE_0.dat
+      32.77K   0%   54.33kB/s    0:20:06
+      25.46M  38%   23.71MB/s    0:00:01
+      65.60M 100%   35.53MB/s    0:00:01 (xfer#57, to-check=20/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_8/Run_461_Wave_MID_8_FILE_1.dat
+      32.77K   5%   43.24kB/s    0:00:12
+     589.82K 100%  771.08kB/s    0:00:00 (xfer#58, to-check=19/110)
+cd+++++++ Run_461_Wave/Run_461_Wave_MID_9/
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_9/Run_461_Wave_MID_9_FILE_0.dat
+      32.77K   0%   42.72kB/s    0:25:34
+      17.33M  26%   16.42MB/s    0:00:02
+      65.60M 100%   37.78MB/s    0:00:01 (xfer#59, to-check=17/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_MID_9/Run_461_Wave_MID_9_FILE_1.dat
+      32.77K   5%   49.08kB/s    0:00:11
+     589.82K 100%  876.71kB/s    0:00:00 (xfer#60, to-check=16/110)
+cd+++++++ Run_461_Wave/Run_461_Wave_log/
+>f+++++++ Run_461_Wave/Run_461_Wave_log/Run_461_Wave_MID_10_buffer.txt
+      14.98K 100%   22.20kB/s    0:00:00
+      14.98K 100%   22.20kB/s    0:00:00 (xfer#61, to-check=14/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_log/Run_461_Wave_MID_11_buffer.txt
+      15.05K 100%   22.17kB/s    0:00:00
+      15.05K 100%   22.17kB/s    0:00:00 (xfer#62, to-check=13/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_log/Run_461_Wave_MID_12_buffer.txt
+      14.95K 100%   21.73kB/s    0:00:00
+      14.95K 100%   21.73kB/s    0:00:00 (xfer#63, to-check=12/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_log/Run_461_Wave_MID_13_buffer.txt
+      15.00K 100%   21.10kB/s    0:00:00
+      15.00K 100%   21.10kB/s    0:00:00 (xfer#64, to-check=11/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_log/Run_461_Wave_MID_14_buffer.txt
+      15.07K 100%   21.14kB/s    0:00:00
+      15.07K 100%   21.14kB/s    0:00:00 (xfer#65, to-check=10/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_log/Run_461_Wave_MID_15_buffer.txt
+      15.04K 100%   21.04kB/s    0:00:00
+      15.04K 100%   21.04kB/s    0:00:00 (xfer#66, to-check=9/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_log/Run_461_Wave_MID_1_buffer.txt
+      15.00K 100%   20.92kB/s    0:00:00
+      15.00K 100%   20.92kB/s    0:00:00 (xfer#67, to-check=8/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_log/Run_461_Wave_MID_2_buffer.txt
+      14.97K 100%   20.62kB/s    0:00:00
+      14.97K 100%   20.62kB/s    0:00:00 (xfer#68, to-check=7/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_log/Run_461_Wave_MID_3_buffer.txt
+      14.91K 100%   20.51kB/s    0:00:00
+      14.91K 100%   20.51kB/s    0:00:00 (xfer#69, to-check=6/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_log/Run_461_Wave_MID_4_buffer.txt
+      14.95K 100%   19.70kB/s    0:00:00
+      14.95K 100%   19.70kB/s    0:00:00 (xfer#70, to-check=5/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_log/Run_461_Wave_MID_5_buffer.txt
+      15.01K 100%   19.75kB/s    0:00:00
+      15.01K 100%   19.75kB/s    0:00:00 (xfer#71, to-check=4/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_log/Run_461_Wave_MID_6_buffer.txt
+      15.00K 100%   19.71kB/s    0:00:00
+      15.00K 100%   19.71kB/s    0:00:00 (xfer#72, to-check=3/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_log/Run_461_Wave_MID_7_buffer.txt
+      14.97K 100%   19.65kB/s    0:00:00
+      14.97K 100%   19.65kB/s    0:00:00 (xfer#73, to-check=2/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_log/Run_461_Wave_MID_8_buffer.txt
+      14.98K 100%   19.64kB/s    0:00:00
+      14.98K 100%   19.64kB/s    0:00:00 (xfer#74, to-check=1/110)
+>f+++++++ Run_461_Wave/Run_461_Wave_log/Run_461_Wave_MID_9_buffer.txt
+      15.04K 100%   19.66kB/s    0:00:00
+      15.04K 100%   19.66kB/s    0:00:00 (xfer#75, to-check=0/110)
+
+sent 996.91M bytes  received 1.88K bytes  56.97M bytes/sec
+total size is 996.79M  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_461/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_461_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

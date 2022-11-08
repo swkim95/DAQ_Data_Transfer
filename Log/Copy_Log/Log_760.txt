@@ -1,0 +1,558 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_760/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_760[0m
+[94m[INFO][0m SSD data folder size = [96m[1m18.419 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [###############-----------------------------------][0m [92m[1m29.029 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 4325.747 GB / Free : [4m10575.806 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_760/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_760/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_760.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_760/ /Volumes/HDD_16TB_1/HDD_Run_760/[0m`? [y/n] 
+building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_760
+cd+++++++ ./
+cd+++++++ Run_760_Fast/
+cd+++++++ Run_760_Fast/Run_760_Fast_MID_1/
+>f+++++++ Run_760_Fast/Run_760_Fast_MID_1/Run_760_Fast_MID_1_FILE_0.dat
+      32.77K   0%    0.00kB/s    0:00:00
+       5.13M 100%   52.82MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_760_Fast/Run_760_Fast_MID_10/
+>f+++++++ Run_760_Fast/Run_760_Fast_MID_10/Run_760_Fast_MID_10_FILE_0.dat
+      32.77K   0%  333.33kB/s    0:00:15
+       5.13M 100%   20.46MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_760_Fast/Run_760_Fast_MID_11/
+>f+++++++ Run_760_Fast/Run_760_Fast_MID_11/Run_760_Fast_MID_11_FILE_0.dat
+      32.77K   0%  132.23kB/s    0:00:38
+       5.13M 100%   15.33MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_760_Fast/Run_760_Fast_MID_12/
+>f+++++++ Run_760_Fast/Run_760_Fast_MID_12/Run_760_Fast_MID_12_FILE_0.dat
+      32.77K   0%   99.38kB/s    0:00:51
+       5.13M 100%   12.29MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_760_Fast/Run_760_Fast_MID_13/
+>f+++++++ Run_760_Fast/Run_760_Fast_MID_13/Run_760_Fast_MID_13_FILE_0.dat
+      32.77K   0%   79.60kB/s    0:01:04
+       5.13M 100%    9.48MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_760_Fast/Run_760_Fast_MID_14/
+>f+++++++ Run_760_Fast/Run_760_Fast_MID_14/Run_760_Fast_MID_14_FILE_0.dat
+      32.77K   0%   61.54kB/s    0:01:22
+       5.13M 100%    7.88MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_760_Fast/Run_760_Fast_MID_15/
+>f+++++++ Run_760_Fast/Run_760_Fast_MID_15/Run_760_Fast_MID_15_FILE_0.dat
+      32.77K   0%   51.20kB/s    0:01:39
+       5.13M 100%    6.62MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_760_Fast/Run_760_Fast_MID_2/
+>f+++++++ Run_760_Fast/Run_760_Fast_MID_2/Run_760_Fast_MID_2_FILE_0.dat
+      32.77K   0%   43.13kB/s    0:01:58
+       5.13M 100%    5.63MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_760_Fast/Run_760_Fast_MID_3/
+>f+++++++ Run_760_Fast/Run_760_Fast_MID_3/Run_760_Fast_MID_3_FILE_0.dat
+      32.77K   0%   36.66kB/s    0:02:19
+       5.13M 100%    4.94MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_760_Fast/Run_760_Fast_MID_4/
+>f+++++++ Run_760_Fast/Run_760_Fast_MID_4/Run_760_Fast_MID_4_FILE_0.dat
+      32.77K   0%   32.16kB/s    0:02:38
+     294.91K   5%  278.53kB/s    0:00:17
+       5.13M 100%    4.35MB/s    0:00:01 (xfer#10, to-check=73/95)
+cd+++++++ Run_760_Fast/Run_760_Fast_MID_5/
+>f+++++++ Run_760_Fast/Run_760_Fast_MID_5/Run_760_Fast_MID_5_FILE_0.dat
+      32.77K   0%  293.58kB/s    0:00:17
+       5.13M 100%   25.21MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_760_Fast/Run_760_Fast_MID_6/
+>f+++++++ Run_760_Fast/Run_760_Fast_MID_6/Run_760_Fast_MID_6_FILE_0.dat
+      32.77K   0%  161.62kB/s    0:00:31
+       5.13M 100%   16.09MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_760_Fast/Run_760_Fast_MID_7/
+>f+++++++ Run_760_Fast/Run_760_Fast_MID_7/Run_760_Fast_MID_7_FILE_0.dat
+      32.77K   0%  103.23kB/s    0:00:49
+       5.13M 100%   11.76MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_760_Fast/Run_760_Fast_MID_8/
+>f+++++++ Run_760_Fast/Run_760_Fast_MID_8/Run_760_Fast_MID_8_FILE_0.dat
+      32.77K   0%   76.37kB/s    0:01:06
+       5.13M 100%    9.74MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_760_Fast/Run_760_Fast_MID_9/
+>f+++++++ Run_760_Fast/Run_760_Fast_MID_9/Run_760_Fast_MID_9_FILE_0.dat
+      32.77K   0%   62.26kB/s    0:01:21
+       5.13M 100%    7.91MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_760_Fast/Run_760_Fast_log/
+>f+++++++ Run_760_Fast/Run_760_Fast_log/Run_760_Fast_MID_10_buffer.txt
+       4.99K 100%    7.88kB/s    0:00:00
+       4.99K 100%    7.88kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_760_Fast/Run_760_Fast_log/Run_760_Fast_MID_11_buffer.txt
+       4.99K 100%    7.86kB/s    0:00:00
+       4.99K 100%    7.86kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_760_Fast/Run_760_Fast_log/Run_760_Fast_MID_12_buffer.txt
+       4.99K 100%    7.68kB/s    0:00:00
+       4.99K 100%    7.68kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_760_Fast/Run_760_Fast_log/Run_760_Fast_MID_13_buffer.txt
+       4.99K 100%    7.68kB/s    0:00:00
+       4.99K 100%    7.68kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_760_Fast/Run_760_Fast_log/Run_760_Fast_MID_14_buffer.txt
+       4.99K 100%    7.53kB/s    0:00:00
+       4.99K 100%    7.53kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_760_Fast/Run_760_Fast_log/Run_760_Fast_MID_15_buffer.txt
+       4.99K 100%    7.21kB/s    0:00:00
+       4.99K 100%    7.21kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_760_Fast/Run_760_Fast_log/Run_760_Fast_MID_1_buffer.txt
+       4.99K 100%    7.21kB/s    0:00:00
+       4.99K 100%    7.21kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_760_Fast/Run_760_Fast_log/Run_760_Fast_MID_2_buffer.txt
+       4.99K 100%    7.07kB/s    0:00:00
+       4.99K 100%    7.07kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_760_Fast/Run_760_Fast_log/Run_760_Fast_MID_3_buffer.txt
+       4.99K 100%    6.81kB/s    0:00:00
+       4.99K 100%    6.81kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_760_Fast/Run_760_Fast_log/Run_760_Fast_MID_4_buffer.txt
+       4.99K 100%    6.81kB/s    0:00:00
+       4.99K 100%    6.81kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_760_Fast/Run_760_Fast_log/Run_760_Fast_MID_5_buffer.txt
+       4.99K 100%    6.67kB/s    0:00:00
+       4.99K 100%    6.67kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_760_Fast/Run_760_Fast_log/Run_760_Fast_MID_6_buffer.txt
+       4.99K 100%    6.43kB/s    0:00:00
+       4.99K 100%    6.43kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_760_Fast/Run_760_Fast_log/Run_760_Fast_MID_7_buffer.txt
+       4.99K 100%    6.43kB/s    0:00:00
+       4.99K 100%    6.43kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_760_Fast/Run_760_Fast_log/Run_760_Fast_MID_8_buffer.txt
+       4.99K 100%    6.31kB/s    0:00:00
+       4.99K 100%    6.31kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_760_Fast/Run_760_Fast_log/Run_760_Fast_MID_9_buffer.txt
+       4.99K 100%    6.07kB/s    0:00:00
+       4.99K 100%    6.07kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_760_Wave/
+cd+++++++ Run_760_Wave/Run_760_Wave_MID_1/
+>f+++++++ Run_760_Wave/Run_760_Wave_MID_1/Run_760_Wave_MID_1_FILE_0.dat
+      32.77K   0%   37.74kB/s    9:39:53
+       8.16M   0%    7.77MB/s    0:02:43
+      59.80M   4%   27.79MB/s    0:00:44
+     128.48M   9%   40.13MB/s    0:00:28
+     187.47M  14%   44.11MB/s    0:00:24
+     249.07M  18%   56.69MB/s    0:00:18
+     302.28M  23%   57.77MB/s    0:00:17
+     380.83M  29%   60.15MB/s    0:00:15
+     431.26M  32%   58.11MB/s    0:00:14
+     489.98M  37%   57.44MB/s    0:00:13
+     553.42M  42%   59.90MB/s    0:00:12
+     610.60M  46%   54.81MB/s    0:00:12
+     681.35M  51%   59.64MB/s    0:00:10
+     726.70M  55%   56.45MB/s    0:00:10
+     800.10M  60%   58.04MB/s    0:00:08
+     864.32M  65%   59.66MB/s    0:00:07
+     924.09M  70%   56.92MB/s    0:00:06
+     974.68M  74%   58.15MB/s    0:00:05
+       1.03G  78%   55.02MB/s    0:00:04
+       1.10G  83%   56.52MB/s    0:00:03
+       1.15G  87%   52.70MB/s    0:00:03
+       1.20G  91%   53.89MB/s    0:00:02
+       1.25G  95%   51.70MB/s    0:00:01
+       1.29G  98%   44.21MB/s    0:00:00
+       1.31G 100%   52.81MB/s    0:00:23 (xfer#31, to-check=44/95)
+cd+++++++ Run_760_Wave/Run_760_Wave_MID_10/
+>f+++++++ Run_760_Wave/Run_760_Wave_MID_10/Run_760_Wave_MID_10_FILE_0.dat
+      32.77K   0%   53.24kB/s    6:50:59
+      18.12M   1%   17.01MB/s    0:01:14
+      54.56M   4%   25.81MB/s    0:00:47
+     107.25M   8%   33.53MB/s    0:00:35
+     148.41M  11%   34.82MB/s    0:00:32
+     205.82M  15%   44.09MB/s    0:00:24
+     230.46M  17%   41.31MB/s    0:00:25
+     271.61M  20%   38.92MB/s    0:00:26
+     321.42M  24%   40.47MB/s    0:00:23
+     400.06M  30%   45.56MB/s    0:00:19
+     468.84M  35%   55.94MB/s    0:00:14
+     525.37M  40%   59.27MB/s    0:00:12
+     580.94M  44%   61.28MB/s    0:00:11
+     646.48M  49%   58.18MB/s    0:00:11
+     708.44M  53%   56.57MB/s    0:00:10
+     763.40M  58%   56.45MB/s    0:00:09
+     823.16M  62%   57.72MB/s    0:00:08
+     879.53M  66%   55.34MB/s    0:00:07
+     936.41M  71%   54.11MB/s    0:00:06
+     997.52M  75%   55.60MB/s    0:00:05
+       1.06G  80%   54.24MB/s    0:00:04
+       1.12G  85%   55.73MB/s    0:00:03
+       1.17G  89%   55.01MB/s    0:00:02
+       1.24G  94%   56.11MB/s    0:00:01
+       1.29G  98%   56.04MB/s    0:00:00
+       1.31G 100%   50.85MB/s    0:00:24 (xfer#32, to-check=42/95)
+cd+++++++ Run_760_Wave/Run_760_Wave_MID_11/
+>f+++++++ Run_760_Wave/Run_760_Wave_MID_11/Run_760_Wave_MID_11_FILE_0.dat
+      32.77K   0%   87.43kB/s    4:10:17
+      35.68M   2%   34.03MB/s    0:00:36
+      89.95M   6%   42.87MB/s    0:00:27
+     147.10M  11%   45.77MB/s    0:00:24
+     206.86M  15%   48.52MB/s    0:00:22
+     266.37M  20%   53.08MB/s    0:00:19
+     332.43M  25%   55.05MB/s    0:00:17
+     392.99M  29%   56.68MB/s    0:00:15
+     449.61M  34%   55.99MB/s    0:00:15
+     508.33M  38%   56.85MB/s    0:00:13
+     562.59M  42%   54.83MB/s    0:00:13
+     617.61M  47%   53.53MB/s    0:00:12
+     678.99M  51%   54.63MB/s    0:00:11
+     741.05M  56%   55.48MB/s    0:00:10
+     792.76M  60%   54.35MB/s    0:00:09
+     853.57M  65%   55.69MB/s    0:00:08
+     914.72M  69%   55.66MB/s    0:00:06
+     974.68M  74%   55.12MB/s    0:00:05
+       1.03G  78%   55.75MB/s    0:00:05
+       1.09G  83%   56.16MB/s    0:00:03
+       1.15G  87%   56.17MB/s    0:00:02
+       1.21G  91%   55.02MB/s    0:00:01
+       1.27G  96%   57.17MB/s    0:00:00
+       1.31G 100%   54.19MB/s    0:00:23 (xfer#33, to-check=40/95)
+cd+++++++ Run_760_Wave/Run_760_Wave_MID_12/
+>f+++++++ Run_760_Wave/Run_760_Wave_MID_12/Run_760_Wave_MID_12_FILE_0.dat
+      32.77K   0%   37.43kB/s    9:44:41
+       1.34M   0%    1.26MB/s    0:16:55
+      65.57M   4%   31.00MB/s    0:00:39
+     126.12M   9%   39.88MB/s    0:00:29
+     194.25M  14%   46.14MB/s    0:00:23
+     253.00M  19%   60.00MB/s    0:00:17
+     309.10M  23%   57.19MB/s    0:00:17
+     369.92M  28%   57.24MB/s    0:00:16
+     426.54M  32%   54.52MB/s    0:00:15
+     489.72M  37%   55.56MB/s    0:00:14
+     542.41M  41%   55.24MB/s    0:00:13
+     599.03M  45%   54.23MB/s    0:00:12
+     660.90M  50%   55.38MB/s    0:00:11
+     712.80M  54%   52.58MB/s    0:00:11
+     779.49M  59%   56.27MB/s    0:00:09
+     834.44M  63%   55.89MB/s    0:00:08
+     895.52M  68%   55.48MB/s    0:00:07
+     951.09M  72%   56.49MB/s    0:00:06
+       1.01G  77%   55.42MB/s    0:00:05
+       1.07G  81%   55.55MB/s    0:00:04
+       1.13G  86%   56.29MB/s    0:00:03
+       1.19G  90%   57.55MB/s    0:00:02
+       1.25G  95%   55.88MB/s    0:00:01
+       1.31G  99%   56.48MB/s    0:00:00
+       1.31G 100%   53.87MB/s    0:00:23 (xfer#34, to-check=38/95)
+cd+++++++ Run_760_Wave/Run_760_Wave_MID_13/
+>f+++++++ Run_760_Wave/Run_760_Wave_MID_13/Run_760_Wave_MID_13_FILE_0.dat
+      32.77K   0%  347.83kB/s    1:02:54
+      53.77M   4%   50.47MB/s    0:00:24
+     106.30M   8%   50.31MB/s    0:00:23
+     166.79M  12%   52.77MB/s    0:00:21
+     211.52M  16%   50.27MB/s    0:00:21
+     255.10M  19%   46.74MB/s    0:00:22
+     296.26M  22%   44.03MB/s    0:00:22
+     330.60M  25%   37.03MB/s    0:00:25
+     391.94M  29%   40.77MB/s    0:00:22
+     450.66M  34%   45.39MB/s    0:00:18
+     499.94M  38%   47.33MB/s    0:00:16
+     564.95M  43%   55.31MB/s    0:00:13
+     616.86M  46%   53.07MB/s    0:00:12
+     673.74M  51%   52.65MB/s    0:00:11
+     752.98M  57%   59.73MB/s    0:00:09
+     808.75M  61%   58.12MB/s    0:00:08
+     878.74M  66%   62.45MB/s    0:00:06
+     962.10M  73%   68.78MB/s    0:00:04
+       1.03G  78%   65.55MB/s    0:00:04
+       1.11G  84%   71.75MB/s    0:00:02
+       1.17G  89%   69.80MB/s    0:00:01
+       1.23G  93%   63.16MB/s    0:00:01
+       1.29G  98%   62.52MB/s    0:00:00
+       1.31G 100%   55.15MB/s    0:00:22 (xfer#35, to-check=36/95)
+cd+++++++ Run_760_Wave/Run_760_Wave_MID_14/
+>f+++++++ Run_760_Wave/Run_760_Wave_MID_14/Run_760_Wave_MID_14_FILE_0.dat
+      32.77K   0%   74.07kB/s    4:55:25
+      21.53M   1%   20.35MB/s    0:01:01
+      70.55M   5%   32.58MB/s    0:00:37
+     142.38M  10%   43.76MB/s    0:00:26
+     199.79M  15%   42.25MB/s    0:00:25
+     246.38M  18%   47.65MB/s    0:00:21
+     293.37M  22%   47.81MB/s    0:00:20
+     375.95M  28%   50.56MB/s    0:00:18
+     437.55M  33%   56.00MB/s    0:00:15
+     498.66M  37%   59.42MB/s    0:00:13
+     553.68M  42%   61.34MB/s    0:00:12
+     612.93M  46%   55.80MB/s    0:00:12
+     676.36M  51%   56.94MB/s    0:00:10
+     736.82M  56%   56.78MB/s    0:00:09
+     791.18M  60%   56.61MB/s    0:00:09
+     850.95M  64%   56.75MB/s    0:00:07
+     906.56M  69%   54.88MB/s    0:00:07
+     961.05M  73%   53.45MB/s    0:00:06
+       1.02G  78%   54.57MB/s    0:00:05
+       1.09G  82%   54.92MB/s    0:00:04
+       1.14G  86%   54.63MB/s    0:00:03
+       1.19G  90%   54.21MB/s    0:00:02
+       1.26G  96%   56.42MB/s    0:00:00
+       1.31G 100%   53.51MB/s    0:00:23 (xfer#36, to-check=34/95)
+cd+++++++ Run_760_Wave/Run_760_Wave_MID_15/
+>f+++++++ Run_760_Wave/Run_760_Wave_MID_15/Run_760_Wave_MID_15_FILE_0.dat
+      32.77K   0%   41.45kB/s    8:47:55
+       7.90M   0%    7.53MB/s    0:02:49
+      83.92M   6%   39.10MB/s    0:00:30
+     151.03M  11%   47.25MB/s    0:00:24
+     209.49M  15%   49.35MB/s    0:00:21
+     267.94M  20%   61.25MB/s    0:00:16
+     322.99M  24%   56.99MB/s    0:00:16
+     384.60M  29%   55.69MB/s    0:00:16
+     439.65M  33%   54.88MB/s    0:00:15
+     502.30M  38%   55.86MB/s    0:00:14
+     568.10M  43%   57.35MB/s    0:00:12
+     630.49M  48%   56.70MB/s    0:00:11
+     700.22M  53%   59.54MB/s    0:00:10
+     766.28M  58%   59.14MB/s    0:00:09
+     832.34M  63%   59.55MB/s    0:00:07
+     898.14M  68%   60.24MB/s    0:00:06
+     962.10M  73%   59.49MB/s    0:00:05
+       1.03G  78%   61.39MB/s    0:00:04
+       1.09G  83%   61.46MB/s    0:00:03
+       1.15G  87%   60.78MB/s    0:00:02
+       1.22G  92%   60.20MB/s    0:00:01
+       1.28G  97%   59.40MB/s    0:00:00
+       1.31G 100%   57.03MB/s    0:00:21 (xfer#37, to-check=32/95)
+cd+++++++ Run_760_Wave/Run_760_Wave_MID_2/
+>f+++++++ Run_760_Wave/Run_760_Wave_MID_2/Run_760_Wave_MID_2_FILE_0.dat
+      32.77K   0%   60.38kB/s    6:02:26
+      23.36M   1%   22.28MB/s    0:00:56
+      77.89M   5%   37.08MB/s    0:00:32
+     147.36M  11%   46.80MB/s    0:00:24
+     209.19M  15%   49.85MB/s    0:00:21
+     274.24M  20%   58.77MB/s    0:00:17
+     340.30M  25%   60.53MB/s    0:00:15
+     406.36M  30%   58.82MB/s    0:00:15
+     472.42M  35%   59.08MB/s    0:00:13
+     538.48M  41%   60.27MB/s    0:00:12
+     604.54M  46%   60.26MB/s    0:00:11
+     669.81M  51%   61.03MB/s    0:00:10
+     730.01M  55%   60.40MB/s    0:00:09
+     791.97M  60%   58.98MB/s    0:00:08
+     855.70M  65%   59.41MB/s    0:00:07
+     916.75M  69%   58.41MB/s    0:00:06
+     980.19M  74%   59.16MB/s    0:00:05
+       1.04G  79%   59.29MB/s    0:00:04
+       1.10G  83%   58.16MB/s    0:00:03
+       1.16G  88%   58.69MB/s    0:00:02
+       1.23G  93%   58.31MB/s    0:00:01
+       1.29G  98%   58.77MB/s    0:00:00
+       1.31G 100%   57.57MB/s    0:00:21 (xfer#38, to-check=30/95)
+cd+++++++ Run_760_Wave/Run_760_Wave_MID_3/
+>f+++++++ Run_760_Wave/Run_760_Wave_MID_3/Run_760_Wave_MID_3_FILE_0.dat
+      32.77K   0%  101.27kB/s    3:36:05
+      43.02M   3%   41.03MB/s    0:00:30
+     102.53M   7%   48.57MB/s    0:00:24
+     158.63M  12%   50.23MB/s    0:00:22
+     222.07M  16%   52.77MB/s    0:00:20
+     287.08M  21%   57.45MB/s    0:00:17
+     353.14M  26%   58.49MB/s    0:00:16
+     413.70M  31%   59.53MB/s    0:00:14
+     482.12M  36%   60.71MB/s    0:00:13
+     541.36M  41%   59.89MB/s    0:00:12
+     603.75M  45%   59.48MB/s    0:00:11
+     669.81M  51%   59.94MB/s    0:00:10
+     735.87M  56%   58.68MB/s    0:00:09
+     801.93M  61%   59.74MB/s    0:00:08
+     867.99M  66%   60.01MB/s    0:00:07
+     934.05M  71%   59.79MB/s    0:00:06
+     993.82M  75%   58.84MB/s    0:00:05
+       1.06G  80%   59.94MB/s    0:00:04
+       1.12G  85%   59.47MB/s    0:00:03
+       1.19G  90%   59.98MB/s    0:00:02
+       1.25G  95%   60.62MB/s    0:00:01
+       1.31G  99%   58.79MB/s    0:00:00
+       1.31G 100%   58.38MB/s    0:00:21 (xfer#39, to-check=28/95)
+cd+++++++ Run_760_Wave/Run_760_Wave_MID_4/
+>f+++++++ Run_760_Wave/Run_760_Wave_MID_4/Run_760_Wave_MID_4_FILE_0.dat
+      32.77K   0%  470.59kB/s    0:46:30
+      56.13M   4%   52.28MB/s    0:00:23
+     117.21M   8%   55.23MB/s    0:00:21
+     185.11M  14%   56.76MB/s    0:00:19
+     251.43M  19%   58.36MB/s    0:00:17
+     309.89M  23%   59.23MB/s    0:00:16
+     374.80M  28%   60.15MB/s    0:00:15
+     437.29M  33%   60.12MB/s    0:00:14
+     499.15M  38%   59.06MB/s    0:00:13
+     561.41M  42%   59.97MB/s    0:00:12
+     626.82M  47%   60.09MB/s    0:00:11
+     682.13M  51%   58.23MB/s    0:00:10
+     747.93M  56%   59.11MB/s    0:00:09
+     811.07M  61%   59.32MB/s    0:00:08
+     871.69M  66%   58.21MB/s    0:00:07
+     933.27M  71%   59.85MB/s    0:00:06
+     998.80M  76%   58.77MB/s    0:00:05
+       1.06G  81%   58.62MB/s    0:00:04
+       1.13G  86%   59.44MB/s    0:00:02
+       1.20G  91%   60.59MB/s    0:00:01
+       1.26G  95%   60.70MB/s    0:00:00
+       1.31G 100%   59.27MB/s    0:00:21 (xfer#40, to-check=26/95)
+cd+++++++ Run_760_Wave/Run_760_Wave_MID_5/
+>f+++++++ Run_760_Wave/Run_760_Wave_MID_5/Run_760_Wave_MID_5_FILE_0.dat
+      32.77K   0%   37.30kB/s    9:46:44
+       4.10M   0%    3.91MB/s    0:05:27
+      70.03M   5%   33.41MB/s    0:00:36
+     129.27M   9%   40.20MB/s    0:00:28
+     195.33M  14%   45.17MB/s    0:00:24
+     258.51M  19%   58.83MB/s    0:00:17
+     320.90M  24%   58.00MB/s    0:00:16
+     383.03M  29%   58.95MB/s    0:00:15
+     445.94M  33%   59.06MB/s    0:00:14
+     506.92M  38%   58.54MB/s    0:00:13
+     570.46M  43%   58.29MB/s    0:00:12
+     639.40M  48%   60.59MB/s    0:00:10
+     702.58M  53%   60.08MB/s    0:00:09
+     768.90M  58%   61.31MB/s    0:00:08
+     830.50M  63%   61.42MB/s    0:00:07
+     890.01M  67%   58.97MB/s    0:00:07
+     952.14M  72%   59.28MB/s    0:00:05
+       1.02G  77%   59.84MB/s    0:00:04
+       1.08G  82%   59.70MB/s    0:00:03
+       1.14G  86%   60.12MB/s    0:00:02
+       1.20G  91%   60.08MB/s    0:00:01
+       1.27G  96%   59.44MB/s    0:00:00
+       1.31G 100%   57.28MB/s    0:00:21 (xfer#41, to-check=24/95)
+cd+++++++ Run_760_Wave/Run_760_Wave_MID_6/
+>f+++++++ Run_760_Wave/Run_760_Wave_MID_6/Run_760_Wave_MID_6_FILE_0.dat
+      32.77K   0%   50.96kB/s    7:09:27
+      22.84M   1%   20.22MB/s    0:01:02
+      80.51M   6%   36.20MB/s    0:00:33
+     154.96M  11%   46.94MB/s    0:00:24
+     221.12M  16%   50.85MB/s    0:00:20
+     280.53M  21%   60.40MB/s    0:00:16
+     342.88M  26%   62.18MB/s    0:00:15
+     406.75M  30%   60.06MB/s    0:00:14
+     471.63M  35%   59.21MB/s    0:00:13
+     535.86M  40%   60.33MB/s    0:00:12
+     600.60M  45%   60.88MB/s    0:00:11
+     661.42M  50%   60.15MB/s    0:00:10
+     724.99M  55%   60.41MB/s    0:00:09
+     781.22M  59%   58.50MB/s    0:00:08
+     846.50M  64%   57.97MB/s    0:00:07
+     906.56M  69%   57.81MB/s    0:00:06
+     973.37M  74%   58.53MB/s    0:00:05
+       1.03G  78%   59.30MB/s    0:00:04
+       1.10G  83%   58.58MB/s    0:00:03
+       1.16G  88%   59.72MB/s    0:00:02
+       1.23G  93%   59.08MB/s    0:00:01
+       1.30G  98%   60.51MB/s    0:00:00
+       1.31G 100%   57.87MB/s    0:00:21 (xfer#42, to-check=22/95)
+cd+++++++ Run_760_Wave/Run_760_Wave_MID_7/
+>f+++++++ Run_760_Wave/Run_760_Wave_MID_7/Run_760_Wave_MID_7_FILE_0.dat
+      32.77K   0%  116.79kB/s    3:07:22
+      48.79M   3%   43.57MB/s    0:00:28
+     104.89M   7%   48.37MB/s    0:00:24
+     180.65M  13%   56.14MB/s    0:00:19
+     237.01M  18%   55.54MB/s    0:00:18
+     304.97M  23%   61.06MB/s    0:00:16
+     364.41M  27%   61.86MB/s    0:00:14
+     432.31M  32%   60.00MB/s    0:00:14
+     491.55M  37%   60.70MB/s    0:00:13
+     553.48M  42%   59.26MB/s    0:00:12
+     617.32M  47%   60.33MB/s    0:00:11
+     674.53M  51%   57.75MB/s    0:00:10
+     719.09M  54%   54.25MB/s    0:00:10
+     779.35M  59%   53.85MB/s    0:00:09
+     815.04M  62%   45.97MB/s    0:00:10
+     868.06M  66%   45.04MB/s    0:00:09
+     936.97M  71%   50.70MB/s    0:00:07
+       1.01G  76%   52.92MB/s    0:00:05
+       1.05G  80%   53.22MB/s    0:00:04
+       1.10G  84%   52.70MB/s    0:00:03
+       1.19G  90%   57.73MB/s    0:00:02
+       1.27G  97%   59.96MB/s    0:00:00
+       1.31G 100%   57.38MB/s    0:00:21 (xfer#43, to-check=20/95)
+cd+++++++ Run_760_Wave/Run_760_Wave_MID_8/
+>f+++++++ Run_760_Wave/Run_760_Wave_MID_8/Run_760_Wave_MID_8_FILE_0.dat
+      32.77K   0%   76.92kB/s    4:44:28
+      28.34M   2%   26.45MB/s    0:00:47
+      86.28M   6%   40.49MB/s    0:00:29
+     132.06M  10%   41.55MB/s    0:00:27
+     222.86M  16%   52.72MB/s    0:00:20
+     299.93M  22%   64.51MB/s    0:00:15
+     361.79M  27%   65.59MB/s    0:00:14
+     423.66M  32%   69.42MB/s    0:00:12
+     486.83M  37%   62.87MB/s    0:00:12
+     548.44M  41%   59.26MB/s    0:00:12
+     610.04M  46%   58.92MB/s    0:00:11
+     676.79M  51%   60.08MB/s    0:00:10
+     732.73M  55%   58.35MB/s    0:00:09
+     797.74M  60%   58.73MB/s    0:00:08
+     863.01M  65%   59.91MB/s    0:00:07
+     924.09M  70%   58.18MB/s    0:00:06
+     990.15M  75%   60.54MB/s    0:00:05
+       1.05G  79%   59.80MB/s    0:00:04
+       1.12G  85%   59.99MB/s    0:00:03
+       1.18G  89%   60.57MB/s    0:00:02
+       1.25G  94%   60.88MB/s    0:00:01
+       1.31G  99%   61.13MB/s    0:00:00
+       1.31G 100%   59.10MB/s    0:00:21 (xfer#44, to-check=18/95)
+cd+++++++ Run_760_Wave/Run_760_Wave_MID_9/
+>f+++++++ Run_760_Wave/Run_760_Wave_MID_9/Run_760_Wave_MID_9_FILE_0.dat
+      32.77K   0%  457.14kB/s    0:47:52
+      50.89M   3%   48.05MB/s    0:00:25
+     116.69M   8%   54.02MB/s    0:00:21
+     182.75M  13%   56.04MB/s    0:00:19
+     249.07M  18%   57.79MB/s    0:00:17
+     302.55M  23%   58.38MB/s    0:00:16
+     370.44M  28%   59.59MB/s    0:00:15
+     432.05M  32%   59.08MB/s    0:00:14
+     500.33M  38%   59.56MB/s    0:00:13
+     563.54M  42%   62.07MB/s    0:00:11
+     624.72M  47%   60.46MB/s    0:00:11
+     685.02M  52%   60.01MB/s    0:00:10
+     751.08M  57%   58.71MB/s    0:00:09
+     817.14M  62%   58.61MB/s    0:00:08
+     883.20M  67%   59.37MB/s    0:00:07
+     949.26M  72%   60.11MB/s    0:00:05
+       1.02G  77%   60.24MB/s    0:00:04
+       1.08G  82%   61.06MB/s    0:00:03
+       1.14G  86%   58.55MB/s    0:00:02
+       1.21G  91%   60.22MB/s    0:00:01
+       1.27G  96%   59.87MB/s    0:00:00
+       1.31G 100%   59.15MB/s    0:00:21 (xfer#45, to-check=16/95)
+cd+++++++ Run_760_Wave/Run_760_Wave_log/
+>f+++++++ Run_760_Wave/Run_760_Wave_log/Run_760_Wave_MID_10_buffer.txt
+      32.77K  10%   42.27kB/s    0:00:06
+     304.07K 100%  376.83kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_760_Wave/Run_760_Wave_log/Run_760_Wave_MID_11_buffer.txt
+      32.77K  10%   40.51kB/s    0:00:06
+     304.46K 100%  336.34kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_760_Wave/Run_760_Wave_log/Run_760_Wave_MID_12_buffer.txt
+      32.77K  10%   36.08kB/s    0:00:07
+     300.96K 100%  325.48kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_760_Wave/Run_760_Wave_log/Run_760_Wave_MID_13_buffer.txt
+      32.77K  10%   35.36kB/s    0:00:07
+     304.14K 100%  322.14kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_760_Wave/Run_760_Wave_log/Run_760_Wave_MID_14_buffer.txt
+      32.77K  10%   34.59kB/s    0:00:07
+     304.05K 100%  314.88kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_760_Wave/Run_760_Wave_log/Run_760_Wave_MID_15_buffer.txt
+      32.77K  10%   33.86kB/s    0:00:07
+     300.89K 100%  305.76kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_760_Wave/Run_760_Wave_log/Run_760_Wave_MID_1_buffer.txt
+      32.77K  10%   33.23kB/s    0:00:08
+     300.91K 100%  295.34kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_760_Wave/Run_760_Wave_log/Run_760_Wave_MID_2_buffer.txt
+      32.77K  10%   32.03kB/s    0:00:08
+     163.84K  53%  160.00kB/s    0:00:00
+     304.51K 100%  272.32kB/s    0:00:01 (xfer#53, to-check=7/95)
+>f+++++++ Run_760_Wave/Run_760_Wave_log/Run_760_Wave_MID_3_buffer.txt
+      32.77K  10%  340.43kB/s    0:00:00
+     301.10K 100%    2.32MB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_760_Wave/Run_760_Wave_log/Run_760_Wave_MID_4_buffer.txt
+      32.77K  10%  250.00kB/s    0:00:01
+     300.87K 100%    1.97MB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_760_Wave/Run_760_Wave_log/Run_760_Wave_MID_5_buffer.txt
+      32.77K  10%  211.92kB/s    0:00:01
+     304.31K 100%    1.75MB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_760_Wave/Run_760_Wave_log/Run_760_Wave_MID_6_buffer.txt
+      32.77K  10%  190.48kB/s    0:00:01
+     300.81K 100%    1.57MB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_760_Wave/Run_760_Wave_log/Run_760_Wave_MID_7_buffer.txt
+      32.77K  10%  172.97kB/s    0:00:01
+     301.13K 100%    1.42MB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_760_Wave/Run_760_Wave_log/Run_760_Wave_MID_8_buffer.txt
+      32.77K  10%  156.10kB/s    0:00:01
+     304.26K 100%    1.31MB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_760_Wave/Run_760_Wave_log/Run_760_Wave_MID_9_buffer.txt
+      32.77K  10%  140.97kB/s    0:00:01
+     300.95K 100%    1.19MB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 19.78G bytes  received 1.55K bytes  59.49M bytes/sec
+total size is 19.78G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_760/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_760_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

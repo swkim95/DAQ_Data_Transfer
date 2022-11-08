@@ -1,0 +1,2168 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_674/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_674[0m
+[94m[INFO][0m SSD data folder size = [96m[1m94.491 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [########------------------------------------------][0m [92m[1m15.909 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 2370.669 GB / Free : [4m12530.884 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_674/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_674/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_674.txt --progress /Volumes/HDD_16TB_1/HDD_Run_674/ /Volumes/HDD_16TB_2/HDD_Run_674/[0m`? [y/n] 
+building file list ... 
+ 0 files...
+ 100 files...
+ 200 files...
+230 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_674
+cd+++++++ ./
+cd+++++++ Run_674_Fast/
+cd+++++++ Run_674_Fast/Run_674_Fast_MID_1/
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_1/Run_674_Fast_MID_1_FILE_0.dat
+      32.77K   0%    0.00kB/s    0:00:00
+      25.61M 100%   75.51MB/s    0:00:00 (xfer#1, to-check=226/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_1/Run_674_Fast_MID_1_FILE_1.dat
+      32.77K   0%   92.22kB/s    0:04:37
+      25.61M 100%   43.77MB/s    0:00:00 (xfer#2, to-check=225/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_1/Run_674_Fast_MID_1_FILE_2.dat
+      32.77K   0%   57.14kB/s    0:07:27
+      25.61M 100%   30.45MB/s    0:00:00 (xfer#3, to-check=224/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_1/Run_674_Fast_MID_1_FILE_3.dat
+      32.77K   0%   39.85kB/s    0:10:41
+      17.92M  69%   17.09MB/s    0:00:00
+      25.61M 100%   23.08MB/s    0:00:01 (xfer#4, to-check=223/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_1/Run_674_Fast_MID_1_FILE_4.dat
+      32.77K   0%  533.33kB/s    0:00:47
+      25.61M 100%   82.51MB/s    0:00:00 (xfer#5, to-check=222/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_1/Run_674_Fast_MID_1_FILE_5.dat
+      32.77K   0%  107.74kB/s    0:03:57
+      25.61M 100%   44.65MB/s    0:00:00 (xfer#6, to-check=221/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_1/Run_674_Fast_MID_1_FILE_6.dat
+      32.77K   0%   58.39kB/s    0:07:17
+      25.61M 100%   30.15MB/s    0:00:00 (xfer#7, to-check=220/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_1/Run_674_Fast_MID_1_FILE_7.dat
+      32.77K   0%   39.41kB/s    0:10:48
+      18.12M  70%   17.28MB/s    0:00:00
+      25.61M 100%   23.13MB/s    0:00:01 (xfer#8, to-check=219/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_1/Run_674_Fast_MID_1_FILE_8.dat
+      32.77K 100%  561.40kB/s    0:00:00
+      32.77K 100%  561.40kB/s    0:00:00 (xfer#9, to-check=218/230)
+cd+++++++ Run_674_Fast/Run_674_Fast_MID_10/
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_10/Run_674_Fast_MID_10_FILE_0.dat
+      32.77K   0%  492.31kB/s    0:00:51
+      25.61M 100%   76.80MB/s    0:00:00 (xfer#10, to-check=216/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_10/Run_674_Fast_MID_10_FILE_1.dat
+      32.77K   0%   98.77kB/s    0:04:18
+      25.61M 100%   40.37MB/s    0:00:00 (xfer#11, to-check=215/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_10/Run_674_Fast_MID_10_FILE_2.dat
+      32.77K   0%   52.81kB/s    0:08:04
+      25.61M 100%   28.17MB/s    0:00:00 (xfer#12, to-check=214/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_10/Run_674_Fast_MID_10_FILE_3.dat
+      32.77K   0%   36.82kB/s    0:11:34
+      10.78M  42%   10.28MB/s    0:00:01
+      25.61M 100%   21.69MB/s    0:00:01 (xfer#13, to-check=213/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_10/Run_674_Fast_MID_10_FILE_4.dat
+      32.77K   0%  248.06kB/s    0:01:43
+      25.61M 100%   64.78MB/s    0:00:00 (xfer#14, to-check=212/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_10/Run_674_Fast_MID_10_FILE_5.dat
+      32.77K   0%   84.66kB/s    0:05:02
+      25.61M 100%   39.33MB/s    0:00:00 (xfer#15, to-check=211/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_10/Run_674_Fast_MID_10_FILE_6.dat
+      32.77K   0%   51.45kB/s    0:08:17
+      25.61M 100%   26.26MB/s    0:00:00 (xfer#16, to-check=210/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_10/Run_674_Fast_MID_10_FILE_7.dat
+      32.77K   0%   34.33kB/s    0:12:24
+       6.06M  23%    5.70MB/s    0:00:03
+      25.61M 100%   21.00MB/s    0:00:01 (xfer#17, to-check=209/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_10/Run_674_Fast_MID_10_FILE_8.dat
+      32.77K 100%  213.33kB/s    0:00:00
+      32.77K 100%  213.33kB/s    0:00:00 (xfer#18, to-check=208/230)
+cd+++++++ Run_674_Fast/Run_674_Fast_MID_11/
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_11/Run_674_Fast_MID_11_FILE_0.dat
+      32.77K   0%  186.05kB/s    0:02:17
+      25.61M 100%   62.78MB/s    0:00:00 (xfer#19, to-check=206/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_11/Run_674_Fast_MID_11_FILE_1.dat
+      32.77K   0%   81.84kB/s    0:05:12
+      25.61M 100%   37.23MB/s    0:00:00 (xfer#20, to-check=205/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_11/Run_674_Fast_MID_11_FILE_2.dat
+      32.77K   0%   48.63kB/s    0:08:45
+      23.49M  91%   22.41MB/s    0:00:00
+      25.61M 100%   24.06MB/s    0:00:01 (xfer#21, to-check=204/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_11/Run_674_Fast_MID_11_FILE_3.dat
+      32.77K   0%    1.74MB/s    0:00:14
+      25.61M 100%   93.21MB/s    0:00:00 (xfer#22, to-check=203/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_11/Run_674_Fast_MID_11_FILE_4.dat
+      32.77K   0%  121.67kB/s    0:03:30
+      25.61M 100%   43.69MB/s    0:00:00 (xfer#23, to-check=202/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_11/Run_674_Fast_MID_11_FILE_5.dat
+      32.77K   0%   57.14kB/s    0:07:27
+      25.61M 100%   29.89MB/s    0:00:00 (xfer#24, to-check=201/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_11/Run_674_Fast_MID_11_FILE_6.dat
+      32.77K   0%   39.12kB/s    0:10:53
+      14.71M  57%   14.03MB/s    0:00:00
+      25.61M 100%   21.54MB/s    0:00:01 (xfer#25, to-check=200/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_11/Run_674_Fast_MID_11_FILE_7.dat
+      32.77K   0%  237.04kB/s    0:01:47
+      25.61M 100%   65.12MB/s    0:00:00 (xfer#26, to-check=199/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_11/Run_674_Fast_MID_11_FILE_8.dat
+      32.77K 100%   84.88kB/s    0:00:00
+      32.77K 100%   84.88kB/s    0:00:00 (xfer#27, to-check=198/230)
+cd+++++++ Run_674_Fast/Run_674_Fast_MID_12/
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_12/Run_674_Fast_MID_12_FILE_0.dat
+      32.77K   0%   81.22kB/s    0:05:14
+      25.61M 100%   37.92MB/s    0:00:00 (xfer#28, to-check=196/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_12/Run_674_Fast_MID_12_FILE_1.dat
+      32.77K   0%   49.54kB/s    0:08:36
+      25.61M 100%   26.57MB/s    0:00:00 (xfer#29, to-check=195/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_12/Run_674_Fast_MID_12_FILE_2.dat
+      32.77K   0%   34.63kB/s    0:12:18
+       2.13M   8%    2.01MB/s    0:00:11
+      25.61M 100%   19.79MB/s    0:00:01 (xfer#30, to-check=194/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_12/Run_674_Fast_MID_12_FILE_3.dat
+      32.77K   0%  143.50kB/s    0:02:58
+      25.61M 100%   48.84MB/s    0:00:00 (xfer#31, to-check=193/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_12/Run_674_Fast_MID_12_FILE_4.dat
+      32.77K   0%   63.75kB/s    0:06:41
+      25.61M 100%   30.84MB/s    0:00:00 (xfer#32, to-check=192/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_12/Run_674_Fast_MID_12_FILE_5.dat
+      32.77K   0%   40.35kB/s    0:10:33
+      19.17M  74%   18.12MB/s    0:00:00
+      25.61M 100%   23.10MB/s    0:00:01 (xfer#33, to-check=191/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_12/Run_674_Fast_MID_12_FILE_6.dat
+      32.77K   0%  653.06kB/s    0:00:39
+      25.61M 100%   78.53MB/s    0:00:00 (xfer#34, to-check=190/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_12/Run_674_Fast_MID_12_FILE_7.dat
+      32.77K   0%  102.24kB/s    0:04:10
+      25.61M 100%   44.16MB/s    0:00:00 (xfer#35, to-check=189/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_12/Run_674_Fast_MID_12_FILE_8.dat
+      32.77K 100%   57.76kB/s    0:00:00
+      32.77K 100%   57.76kB/s    0:00:00 (xfer#36, to-check=188/230)
+cd+++++++ Run_674_Fast/Run_674_Fast_MID_13/
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_13/Run_674_Fast_MID_13_FILE_0.dat
+      32.77K   0%   56.24kB/s    0:07:34
+      25.61M 100%   30.84MB/s    0:00:00 (xfer#37, to-check=186/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_13/Run_674_Fast_MID_13_FILE_1.dat
+      32.77K   0%   40.30kB/s    0:10:34
+      21.27M  83%   20.28MB/s    0:00:00
+      25.61M 100%   23.69MB/s    0:00:01 (xfer#38, to-check=185/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_13/Run_674_Fast_MID_13_FILE_2.dat
+      32.77K   0%  969.70kB/s    0:00:26
+      25.61M 100%   76.80MB/s    0:00:00 (xfer#39, to-check=184/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_13/Run_674_Fast_MID_13_FILE_3.dat
+      32.77K   0%  100.31kB/s    0:04:14
+      25.61M 100%   40.57MB/s    0:00:00 (xfer#40, to-check=183/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_13/Run_674_Fast_MID_13_FILE_4.dat
+      32.77K   0%   52.98kB/s    0:08:02
+      25.61M 100%   29.04MB/s    0:00:00 (xfer#41, to-check=182/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_13/Run_674_Fast_MID_13_FILE_5.dat
+      32.77K   0%   38.00kB/s    0:11:12
+      14.97M  58%   14.28MB/s    0:00:00
+      25.61M 100%   22.20MB/s    0:00:01 (xfer#42, to-check=181/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_13/Run_674_Fast_MID_13_FILE_6.dat
+      32.77K   0%  310.68kB/s    0:01:22
+      25.61M 100%   63.76MB/s    0:00:00 (xfer#43, to-check=180/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_13/Run_674_Fast_MID_13_FILE_7.dat
+      32.77K   0%   83.12kB/s    0:05:07
+      25.61M 100%   38.95MB/s    0:00:00 (xfer#44, to-check=179/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_13/Run_674_Fast_MID_13_FILE_8.dat
+      32.77K 100%   50.96kB/s    0:00:00
+      32.77K 100%   50.96kB/s    0:00:00 (xfer#45, to-check=178/230)
+cd+++++++ Run_674_Fast/Run_674_Fast_MID_14/
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_14/Run_674_Fast_MID_14_FILE_0.dat
+      32.77K   0%   49.54kB/s    0:08:36
+      25.61M 100%   27.72MB/s    0:00:00 (xfer#46, to-check=176/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_14/Run_674_Fast_MID_14_FILE_1.dat
+      32.77K   0%   36.28kB/s    0:11:44
+       9.21M  35%    8.75MB/s    0:00:01
+      25.61M 100%   21.59MB/s    0:00:01 (xfer#47, to-check=175/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_14/Run_674_Fast_MID_14_FILE_2.dat
+      32.77K   0%  250.00kB/s    0:01:42
+      25.61M 100%   67.09MB/s    0:00:00 (xfer#48, to-check=174/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_14/Run_674_Fast_MID_14_FILE_3.dat
+      32.77K   0%   87.43kB/s    0:04:52
+      25.61M 100%   43.07MB/s    0:00:00 (xfer#49, to-check=173/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_14/Run_674_Fast_MID_14_FILE_4.dat
+      32.77K   0%   56.24kB/s    0:07:34
+      25.61M 100%   28.33MB/s    0:00:00 (xfer#50, to-check=172/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_14/Run_674_Fast_MID_14_FILE_5.dat
+      32.77K   0%   37.08kB/s    0:11:29
+      11.04M  43%   10.53MB/s    0:00:01
+      25.61M 100%   21.42MB/s    0:00:01 (xfer#51, to-check=171/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_14/Run_674_Fast_MID_14_FILE_6.dat
+      32.77K   0%  226.95kB/s    0:01:52
+      25.61M 100%   62.78MB/s    0:00:00 (xfer#52, to-check=170/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_14/Run_674_Fast_MID_14_FILE_7.dat
+      32.77K   0%   81.84kB/s    0:05:12
+      25.61M 100%   38.34MB/s    0:00:00 (xfer#53, to-check=169/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_14/Run_674_Fast_MID_14_FILE_8.dat
+      32.77K 100%   50.16kB/s    0:00:00
+      32.77K 100%   50.16kB/s    0:00:00 (xfer#54, to-check=168/230)
+cd+++++++ Run_674_Fast/Run_674_Fast_MID_15/
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_15/Run_674_Fast_MID_15_FILE_0.dat
+      32.77K   0%   48.71kB/s    0:08:45
+      25.61M 100%   27.56MB/s    0:00:00 (xfer#55, to-check=166/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_15/Run_674_Fast_MID_15_FILE_1.dat
+      32.77K   0%   36.04kB/s    0:11:49
+      10.39M  40%    9.91MB/s    0:00:01
+      25.61M 100%   21.25MB/s    0:00:01 (xfer#56, to-check=165/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_15/Run_674_Fast_MID_15_FILE_2.dat
+      32.77K   0%  210.53kB/s    0:02:01
+      25.61M 100%   58.57MB/s    0:00:00 (xfer#57, to-check=164/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_15/Run_674_Fast_MID_15_FILE_3.dat
+      32.77K   0%   76.37kB/s    0:05:34
+      25.61M 100%   36.95MB/s    0:00:00 (xfer#58, to-check=163/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_15/Run_674_Fast_MID_15_FILE_4.dat
+      32.77K   0%   48.27kB/s    0:08:49
+      25.61M 100%   27.35MB/s    0:00:00 (xfer#59, to-check=162/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_15/Run_674_Fast_MID_15_FILE_5.dat
+      32.77K   0%   35.79kB/s    0:11:54
+       6.85M  26%    6.53MB/s    0:00:02
+      25.61M 100%   20.98MB/s    0:00:01 (xfer#60, to-check=161/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_15/Run_674_Fast_MID_15_FILE_6.dat
+      32.77K   0%  192.77kB/s    0:02:12
+      25.61M 100%   57.06MB/s    0:00:00 (xfer#61, to-check=160/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_15/Run_674_Fast_MID_15_FILE_7.dat
+      32.77K   0%   74.59kB/s    0:05:42
+      25.61M 100%   35.45MB/s    0:00:00 (xfer#62, to-check=159/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_15/Run_674_Fast_MID_15_FILE_8.dat
+      32.77K 100%   46.38kB/s    0:00:00
+      32.77K 100%   46.38kB/s    0:00:00 (xfer#63, to-check=158/230)
+cd+++++++ Run_674_Fast/Run_674_Fast_MID_2/
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_2/Run_674_Fast_MID_2_FILE_0.dat
+      32.77K   0%   45.01kB/s    0:09:28
+      25.61M 100%   25.90MB/s    0:00:00 (xfer#64, to-check=156/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_2/Run_674_Fast_MID_2_FILE_1.dat
+      32.77K   0%   33.86kB/s    0:12:35
+       3.96M  15%    3.78MB/s    0:00:05
+      25.61M 100%   19.84MB/s    0:00:01 (xfer#65, to-check=155/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_2/Run_674_Fast_MID_2_FILE_2.dat
+      32.77K   0%  137.93kB/s    0:03:05
+      25.61M 100%   48.46MB/s    0:00:00 (xfer#66, to-check=154/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_2/Run_674_Fast_MID_2_FILE_3.dat
+      32.77K   0%   63.12kB/s    0:06:45
+      25.61M 100%   33.64MB/s    0:00:00 (xfer#67, to-check=153/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_2/Run_674_Fast_MID_2_FILE_4.dat
+      32.77K   0%   44.02kB/s    0:09:41
+      25.61M 100%   25.65MB/s    0:00:00 (xfer#68, to-check=152/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_2/Run_674_Fast_MID_2_FILE_5.dat
+      32.77K   0%   33.54kB/s    0:12:42
+       2.92M  11%    2.78MB/s    0:00:07
+      25.61M 100%   19.81MB/s    0:00:01 (xfer#69, to-check=151/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_2/Run_674_Fast_MID_2_FILE_6.dat
+      32.77K   0%  136.75kB/s    0:03:07
+      25.61M 100%   49.64MB/s    0:00:00 (xfer#70, to-check=150/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_2/Run_674_Fast_MID_2_FILE_7.dat
+      32.77K   0%   64.78kB/s    0:06:34
+      25.61M 100%   32.18MB/s    0:00:00 (xfer#71, to-check=149/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_2/Run_674_Fast_MID_2_FILE_8.dat
+      32.77K 100%   42.11kB/s    0:00:00
+      32.77K 100%   42.11kB/s    0:00:00 (xfer#72, to-check=148/230)
+cd+++++++ Run_674_Fast/Run_674_Fast_MID_3/
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_3/Run_674_Fast_MID_3_FILE_0.dat
+      32.77K   0%   41.61kB/s    0:10:14
+      24.15M  94%   23.03MB/s    0:00:00
+      25.61M 100%   24.18MB/s    0:00:01 (xfer#73, to-check=146/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_3/Run_674_Fast_MID_3_FILE_1.dat
+      32.77K   0%    2.23MB/s    0:00:11
+      25.61M 100%   86.30MB/s    0:00:00 (xfer#74, to-check=145/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_3/Run_674_Fast_MID_3_FILE_2.dat
+      32.77K   0%  112.68kB/s    0:03:46
+      25.61M 100%   42.33MB/s    0:00:00 (xfer#75, to-check=144/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_3/Run_674_Fast_MID_3_FILE_3.dat
+      32.77K   0%   55.36kB/s    0:07:41
+      25.61M 100%   30.91MB/s    0:00:00 (xfer#76, to-check=143/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_3/Run_674_Fast_MID_3_FILE_4.dat
+      32.77K   0%   40.40kB/s    0:10:32
+      17.33M  67%   16.53MB/s    0:00:00
+      25.61M 100%   22.87MB/s    0:00:01 (xfer#77, to-check=142/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_3/Run_674_Fast_MID_3_FILE_5.dat
+      32.77K   0%  463.77kB/s    0:00:55
+      25.61M 100%   76.56MB/s    0:00:00 (xfer#78, to-check=141/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_3/Run_674_Fast_MID_3_FILE_6.dat
+      32.77K   0%  100.00kB/s    0:04:15
+      25.61M 100%   42.47MB/s    0:00:00 (xfer#79, to-check=140/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_3/Run_674_Fast_MID_3_FILE_7.dat
+      32.77K   0%   55.46kB/s    0:07:41
+      25.61M 100%   29.21MB/s    0:00:00 (xfer#80, to-check=139/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_3/Run_674_Fast_MID_3_FILE_8.dat
+      32.77K 100%   38.23kB/s    0:00:00
+      32.77K 100%   38.23kB/s    0:00:00 (xfer#81, to-check=138/230)
+cd+++++++ Run_674_Fast/Run_674_Fast_MID_4/
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_4/Run_674_Fast_MID_4_FILE_0.dat
+      32.77K   0%   37.08kB/s    0:11:29
+      12.35M  48%   11.78MB/s    0:00:01
+      25.61M 100%   21.39MB/s    0:00:01 (xfer#82, to-check=136/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_4/Run_674_Fast_MID_4_FILE_1.dat
+      32.77K   0%  222.22kB/s    0:01:55
+      25.61M 100%   58.01MB/s    0:00:00 (xfer#83, to-check=135/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_4/Run_674_Fast_MID_4_FILE_2.dat
+      32.77K   0%   73.56kB/s    0:05:47
+      25.61M 100%   36.45MB/s    0:00:00 (xfer#84, to-check=134/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_4/Run_674_Fast_MID_4_FILE_3.dat
+      32.77K   0%   47.69kB/s    0:08:56
+      25.61M 100%   27.44MB/s    0:00:00 (xfer#85, to-check=133/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_4/Run_674_Fast_MID_4_FILE_4.dat
+      32.77K   0%   35.91kB/s    0:11:52
+       9.21M  35%    8.53MB/s    0:00:01
+      25.61M 100%   20.52MB/s    0:00:01 (xfer#86, to-check=132/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_4/Run_674_Fast_MID_4_FILE_5.dat
+      32.77K   0%  198.76kB/s    0:02:08
+      25.61M 100%   56.53MB/s    0:00:00 (xfer#87, to-check=131/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_4/Run_674_Fast_MID_4_FILE_6.dat
+      32.77K   0%   73.73kB/s    0:05:46
+      25.61M 100%   34.49MB/s    0:00:00 (xfer#88, to-check=130/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_4/Run_674_Fast_MID_4_FILE_7.dat
+      32.77K   0%   45.13kB/s    0:09:26
+      25.61M 100%   25.55MB/s    0:00:00 (xfer#89, to-check=129/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_4/Run_674_Fast_MID_4_FILE_8.dat
+      32.77K 100%   33.44kB/s    0:00:00
+      32.77K 100%   33.44kB/s    0:00:00 (xfer#90, to-check=128/230)
+cd+++++++ Run_674_Fast/Run_674_Fast_MID_5/
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_5/Run_674_Fast_MID_5_FILE_0.dat
+      32.77K   0%   33.13kB/s    0:12:52
+       2.49M   9%    2.38MB/s    0:00:09
+      25.61M 100%   20.27MB/s    0:00:01 (xfer#91, to-check=126/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_5/Run_674_Fast_MID_5_FILE_1.dat
+      32.77K   0%  153.85kB/s    0:02:46
+      25.61M 100%   51.63MB/s    0:00:00 (xfer#92, to-check=125/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_5/Run_674_Fast_MID_5_FILE_2.dat
+      32.77K   0%   67.51kB/s    0:06:18
+      25.61M 100%   33.83MB/s    0:00:00 (xfer#93, to-check=124/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_5/Run_674_Fast_MID_5_FILE_3.dat
+      32.77K   0%   44.20kB/s    0:09:38
+      25.46M  99%   24.28MB/s    0:00:00
+      25.61M 100%   24.42MB/s    0:00:01 (xfer#94, to-check=123/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_5/Run_674_Fast_MID_5_FILE_4.dat
+      32.77K   0%   31.25MB/s    0:00:00
+      25.61M 100%   96.91MB/s    0:00:00 (xfer#95, to-check=122/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_5/Run_674_Fast_MID_5_FILE_5.dat
+      32.77K   0%  125.98kB/s    0:03:23
+      25.61M 100%   49.34MB/s    0:00:00 (xfer#96, to-check=121/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_5/Run_674_Fast_MID_5_FILE_6.dat
+      32.77K   0%   64.39kB/s    0:06:37
+      25.61M 100%   33.27MB/s    0:00:00 (xfer#97, to-check=120/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_5/Run_674_Fast_MID_5_FILE_7.dat
+      32.77K   0%   43.54kB/s    0:09:47
+      25.61M 100%   24.47MB/s    0:00:00 (xfer#98, to-check=119/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_5/Run_674_Fast_MID_5_FILE_8.dat
+      32.77K 100%   32.03kB/s    0:00:00
+      32.77K 100%   32.03kB/s    0:00:00 (xfer#99, to-check=118/230)
+cd+++++++ Run_674_Fast/Run_674_Fast_MID_6/
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_6/Run_674_Fast_MID_6_FILE_0.dat
+      32.77K   0%   31.53kB/s    0:13:31
+      65.54K   0%   63.05kB/s    0:06:45
+      25.61M 100%   19.58MB/s    0:00:01 (xfer#100, to-check=116/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_6/Run_674_Fast_MID_6_FILE_1.dat
+      32.77K   0%  137.34kB/s    0:03:06
+      25.61M 100%   49.34MB/s    0:00:00 (xfer#101, to-check=115/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_6/Run_674_Fast_MID_6_FILE_2.dat
+      32.77K   0%   64.39kB/s    0:06:37
+      25.61M 100%   32.05MB/s    0:00:00 (xfer#102, to-check=114/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_6/Run_674_Fast_MID_6_FILE_3.dat
+      32.77K   0%   41.88kB/s    0:10:10
+      25.20M  98%   24.03MB/s    0:00:00
+      25.61M 100%   24.37MB/s    0:00:01 (xfer#103, to-check=113/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_6/Run_674_Fast_MID_6_FILE_4.dat
+      32.77K   0%    1.84MB/s    0:00:13
+      25.61M 100%   99.28MB/s    0:00:00 (xfer#104, to-check=112/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_6/Run_674_Fast_MID_6_FILE_5.dat
+      32.77K   0%  129.03kB/s    0:03:18
+      25.61M 100%   50.35MB/s    0:00:00 (xfer#105, to-check=111/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_6/Run_674_Fast_MID_6_FILE_6.dat
+      32.77K   0%   65.71kB/s    0:06:29
+      25.61M 100%   32.78MB/s    0:00:00 (xfer#106, to-check=110/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_6/Run_674_Fast_MID_6_FILE_7.dat
+      32.77K   0%   42.84kB/s    0:09:57
+      25.61M 100%   24.77MB/s    0:00:00 (xfer#107, to-check=109/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_6/Run_674_Fast_MID_6_FILE_8.dat
+      32.77K 100%   32.42kB/s    0:00:00
+      32.77K 100%   32.42kB/s    0:00:00 (xfer#108, to-check=108/230)
+cd+++++++ Run_674_Fast/Run_674_Fast_MID_7/
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_7/Run_674_Fast_MID_7_FILE_0.dat
+      32.77K   0%   32.16kB/s    0:13:15
+     294.91K   1%  287.14kB/s    0:01:28
+      25.61M 100%   20.12MB/s    0:00:01 (xfer#109, to-check=106/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_7/Run_674_Fast_MID_7_FILE_1.dat
+      32.77K   0%  150.94kB/s    0:02:49
+      25.61M 100%   54.39MB/s    0:00:00 (xfer#110, to-check=105/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_7/Run_674_Fast_MID_7_FILE_2.dat
+      32.77K   0%   70.95kB/s    0:06:00
+      25.61M 100%   34.59MB/s    0:00:00 (xfer#111, to-check=104/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_7/Run_674_Fast_MID_7_FILE_3.dat
+      32.77K   0%   45.20kB/s    0:09:25
+      25.61M 100%   25.90MB/s    0:00:00 (xfer#112, to-check=103/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_7/Run_674_Fast_MID_7_FILE_4.dat
+      32.77K   0%   33.86kB/s    0:12:35
+       6.06M  23%    5.78MB/s    0:00:03
+      25.61M 100%   20.80MB/s    0:00:01 (xfer#113, to-check=102/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_7/Run_674_Fast_MID_7_FILE_5.dat
+      32.77K   0%  167.54kB/s    0:02:32
+      25.61M 100%   42.11MB/s    0:00:00 (xfer#114, to-check=101/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_7/Run_674_Fast_MID_7_FILE_6.dat
+      32.77K   0%   55.08kB/s    0:07:44
+      25.61M 100%   26.90MB/s    0:00:00 (xfer#115, to-check=100/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_7/Run_674_Fast_MID_7_FILE_7.dat
+      32.77K   0%   35.20kB/s    0:12:06
+       7.11M  27%    6.72MB/s    0:00:02
+      25.61M 100%   19.24MB/s    0:00:01 (xfer#116, to-check=99/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_7/Run_674_Fast_MID_7_FILE_8.dat
+      32.77K 100%  122.61kB/s    0:00:00
+      32.77K 100%  122.61kB/s    0:00:00 (xfer#117, to-check=98/230)
+cd+++++++ Run_674_Fast/Run_674_Fast_MID_8/
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_8/Run_674_Fast_MID_8_FILE_0.dat
+      32.77K   0%  117.65kB/s    0:03:37
+      25.61M 100%   44.73MB/s    0:00:00 (xfer#118, to-check=96/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_8/Run_674_Fast_MID_8_FILE_1.dat
+      32.77K   0%   58.39kB/s    0:07:17
+      25.61M 100%   30.72MB/s    0:00:00 (xfer#119, to-check=95/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_8/Run_674_Fast_MID_8_FILE_2.dat
+      32.77K   0%   40.15kB/s    0:10:36
+      18.64M  72%   17.78MB/s    0:00:00
+      25.61M 100%   23.19MB/s    0:00:01 (xfer#120, to-check=94/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_8/Run_674_Fast_MID_8_FILE_3.dat
+      32.77K   0%  571.43kB/s    0:00:44
+      25.61M 100%   82.23MB/s    0:00:00 (xfer#121, to-check=93/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_8/Run_674_Fast_MID_8_FILE_4.dat
+      32.77K   0%  107.38kB/s    0:03:58
+      25.61M 100%   42.18MB/s    0:00:00 (xfer#122, to-check=92/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_8/Run_674_Fast_MID_8_FILE_5.dat
+      32.77K   0%   55.17kB/s    0:07:43
+      25.61M 100%   29.78MB/s    0:00:00 (xfer#123, to-check=91/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_8/Run_674_Fast_MID_8_FILE_6.dat
+      32.77K   0%   38.93kB/s    0:10:56
+      18.91M  73%   18.03MB/s    0:00:00
+      25.61M 100%   23.28MB/s    0:00:01 (xfer#124, to-check=90/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_8/Run_674_Fast_MID_8_FILE_7.dat
+      32.77K   0%  627.45kB/s    0:00:40
+      25.61M 100%   78.03MB/s    0:00:00 (xfer#125, to-check=89/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_8/Run_674_Fast_MID_8_FILE_8.dat
+      32.77K 100%  101.91kB/s    0:00:00
+      32.77K 100%  101.91kB/s    0:00:00 (xfer#126, to-check=88/230)
+cd+++++++ Run_674_Fast/Run_674_Fast_MID_9/
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_9/Run_674_Fast_MID_9_FILE_0.dat
+      32.77K   0%   99.07kB/s    0:04:18
+      25.61M 100%   43.07MB/s    0:00:00 (xfer#127, to-check=86/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_9/Run_674_Fast_MID_9_FILE_1.dat
+      32.77K   0%   55.46kB/s    0:07:41
+      25.61M 100%   29.35MB/s    0:00:00 (xfer#128, to-check=85/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_9/Run_674_Fast_MID_9_FILE_2.dat
+      32.77K   0%   38.42kB/s    0:11:05
+      12.88M  50%   12.28MB/s    0:00:01
+      25.61M 100%   22.10MB/s    0:00:01 (xfer#129, to-check=84/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_9/Run_674_Fast_MID_9_FILE_3.dat
+      32.77K   0%  301.89kB/s    0:01:24
+      25.61M 100%   63.11MB/s    0:00:00 (xfer#130, to-check=83/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_9/Run_674_Fast_MID_9_FILE_4.dat
+      32.77K   0%   82.47kB/s    0:05:10
+      25.61M 100%   38.34MB/s    0:00:00 (xfer#131, to-check=82/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_9/Run_674_Fast_MID_9_FILE_5.dat
+      32.77K   0%   50.16kB/s    0:08:29
+      25.61M 100%   27.05MB/s    0:00:00 (xfer#132, to-check=81/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_9/Run_674_Fast_MID_9_FILE_6.dat
+      32.77K   0%   35.36kB/s    0:12:03
+       7.37M  28%    7.00MB/s    0:00:02
+      25.61M 100%   20.75MB/s    0:00:01 (xfer#133, to-check=80/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_9/Run_674_Fast_MID_9_FILE_7.dat
+      32.77K   0%  184.97kB/s    0:02:18
+      25.61M 100%   53.67MB/s    0:00:00 (xfer#134, to-check=79/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_MID_9/Run_674_Fast_MID_9_FILE_8.dat
+      32.77K 100%   70.18kB/s    0:00:00
+      32.77K 100%   70.18kB/s    0:00:00 (xfer#135, to-check=78/230)
+cd+++++++ Run_674_Fast/Run_674_Fast_log/
+>f+++++++ Run_674_Fast/Run_674_Fast_log/Run_674_Fast_MID_10_buffer.txt
+      32.77K  15%   68.82kB/s    0:00:02
+     210.06K 100%  441.15kB/s    0:00:00 (xfer#136, to-check=76/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_log/Run_674_Fast_MID_11_buffer.txt
+      32.77K  15%   66.12kB/s    0:00:02
+     210.06K 100%  422.96kB/s    0:00:00 (xfer#137, to-check=75/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_log/Run_674_Fast_MID_12_buffer.txt
+      32.77K  15%   64.91kB/s    0:00:02
+     210.06K 100%  416.10kB/s    0:00:00 (xfer#138, to-check=74/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_log/Run_674_Fast_MID_13_buffer.txt
+      32.77K  15%   63.62kB/s    0:00:02
+     210.06K 100%  407.83kB/s    0:00:00 (xfer#139, to-check=73/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_log/Run_674_Fast_MID_14_buffer.txt
+      32.77K  15%   62.50kB/s    0:00:02
+     210.06K 100%  399.88kB/s    0:00:00 (xfer#140, to-check=72/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_log/Run_674_Fast_MID_15_buffer.txt
+      32.77K  15%   61.42kB/s    0:00:02
+     210.06K 100%  393.74kB/s    0:00:00 (xfer#141, to-check=71/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_log/Run_674_Fast_MID_1_buffer.txt
+      32.77K  15%   60.38kB/s    0:00:02
+     210.06K 100%  387.05kB/s    0:00:00 (xfer#142, to-check=70/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_log/Run_674_Fast_MID_2_buffer.txt
+      32.77K  15%   59.37kB/s    0:00:02
+     210.06K 100%  380.59kB/s    0:00:00 (xfer#143, to-check=69/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_log/Run_674_Fast_MID_3_buffer.txt
+      32.77K  15%   58.50kB/s    0:00:03
+     210.06K 100%  374.34kB/s    0:00:00 (xfer#144, to-check=68/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_log/Run_674_Fast_MID_4_buffer.txt
+      32.77K  15%   57.55kB/s    0:00:03
+     210.06K 100%  368.95kB/s    0:00:00 (xfer#145, to-check=67/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_log/Run_674_Fast_MID_5_buffer.txt
+      32.77K  15%   56.64kB/s    0:00:03
+     210.06K 100%  362.43kB/s    0:00:00 (xfer#146, to-check=66/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_log/Run_674_Fast_MID_6_buffer.txt
+      32.77K  15%   55.75kB/s    0:00:03
+     210.06K 100%  356.76kB/s    0:00:00 (xfer#147, to-check=65/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_log/Run_674_Fast_MID_7_buffer.txt
+      32.77K  15%   53.60kB/s    0:00:03
+     210.06K 100%  343.61kB/s    0:00:00 (xfer#148, to-check=64/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_log/Run_674_Fast_MID_8_buffer.txt
+      32.77K  15%   52.89kB/s    0:00:03
+     210.06K 100%  338.51kB/s    0:00:00 (xfer#149, to-check=63/230)
+>f+++++++ Run_674_Fast/Run_674_Fast_log/Run_674_Fast_MID_9_buffer.txt
+      32.77K  15%   52.12kB/s    0:00:03
+     210.06K 100%  333.56kB/s    0:00:00 (xfer#150, to-check=62/230)
+cd+++++++ Run_674_Wave/
+cd+++++++ Run_674_Wave/Run_674_Wave_MID_1/
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_1/Run_674_Wave_MID_1_FILE_0.dat
+      32.77K   0%   50.63kB/s   35:57:14
+      37.26M   0%   35.53MB/s    0:02:59
+     146.31M   2%   69.25MB/s    0:01:30
+     195.59M   2%   61.81MB/s    0:01:40
+     259.56M   3%   61.48MB/s    0:01:39
+     273.19M   4%   55.72MB/s    0:01:50
+     286.56M   4%   33.17MB/s    0:03:04
+     300.19M   4%   24.64MB/s    0:04:07
+     314.08M   4%   12.83MB/s    0:07:54
+     324.83M   4%   12.15MB/s    0:08:20
+     336.10M   5%   11.70MB/s    0:08:39
+     350.00M   5%   11.74MB/s    0:08:35
+     364.68M   5%   11.95MB/s    0:08:25
+     438.34M   6%   26.83MB/s    0:03:42
+     451.44M   6%   27.18MB/s    0:03:39
+     463.50M   7%   26.77MB/s    0:03:42
+     474.25M   7%   25.83MB/s    0:03:49
+     485.79M   7%   11.14MB/s    0:08:51
+     497.06M   7%   10.71MB/s    0:09:12
+     509.12M   7%   10.72MB/s    0:09:10
+     520.13M   7%   10.77MB/s    0:09:07
+     532.71M   8%   11.02MB/s    0:08:53
+     546.87M   8%   11.73MB/s    0:08:19
+     614.24M   9%   24.74MB/s    0:03:54
+     624.98M   9%   24.68MB/s    0:03:54
+     637.57M   9%   24.67MB/s    0:03:54
+     649.89M   9%   24.22MB/s    0:03:58
+     662.99M  10%   11.48MB/s    0:08:20
+     675.32M  10%   11.86MB/s    0:08:03
+     688.19M  10%   12.00MB/s    0:07:57
+     701.53M  10%   12.22MB/s    0:07:47
+     715.23M  10%   12.40MB/s    0:07:39
+     802.62M  12%   30.29MB/s    0:03:05
+     833.65M  12%   34.50MB/s    0:02:41
+     847.28M  12%   34.49MB/s    0:02:41
+     860.75M  13%   34.44MB/s    0:02:41
+     874.28M  13%   16.95MB/s    0:05:27
+     887.65M  13%   12.80MB/s    0:07:12
+     900.76M  13%   12.68MB/s    0:07:15
+     914.39M  13%   12.69MB/s    0:07:14
+     928.02M  14%   12.66MB/s    0:07:13
+       1.03G  15%   32.91MB/s    0:02:43
+       1.04G  15%   33.82MB/s    0:02:39
+       1.06G  16%   33.82MB/s    0:02:38
+       1.07G  16%   33.76MB/s    0:02:38
+       1.08G  16%   13.50MB/s    0:06:35
+       1.10G  16%   12.76MB/s    0:06:57
+       1.11G  16%   12.73MB/s    0:06:57
+       1.12G  17%   12.69MB/s    0:06:57
+       1.14G  17%   12.69MB/s    0:06:56
+       1.24G  18%   33.86MB/s    0:02:33
+       1.25G  19%   33.83MB/s    0:02:32
+       1.27G  19%   33.89MB/s    0:02:32
+       1.28G  19%   33.78MB/s    0:02:32
+       1.29G  19%   12.81MB/s    0:06:41
+       1.31G  19%   12.81MB/s    0:06:39
+       1.32G  20%   12.82MB/s    0:06:38
+       1.34G  20%   12.81MB/s    0:06:37
+       1.35G  20%   12.66MB/s    0:06:41
+       1.45G  22%   34.29MB/s    0:02:25
+       1.47G  22%   34.34MB/s    0:02:24
+       1.48G  22%   34.38MB/s    0:02:24
+       1.49G  22%   34.56MB/s    0:02:22
+       1.51G  23%   12.81MB/s    0:06:24
+       1.52G  23%   12.81MB/s    0:06:23
+       1.54G  23%   12.80MB/s    0:06:22
+       1.55G  23%   12.78MB/s    0:06:22
+       1.56G  23%   13.35MB/s    0:06:04
+       1.66G  25%   33.21MB/s    0:02:23
+       1.68G  25%   33.26MB/s    0:02:23
+       1.69G  25%   33.20MB/s    0:02:23
+       1.70G  25%   32.69MB/s    0:02:24
+       1.72G  26%   12.93MB/s    0:06:05
+       1.73G  26%   12.86MB/s    0:06:06
+       1.74G  26%   12.89MB/s    0:06:04
+       1.76G  26%   12.85MB/s    0:06:04
+       1.79G  27%   17.21MB/s    0:04:30
+       1.88G  28%   34.30MB/s    0:02:13
+       1.89G  28%   34.12MB/s    0:02:13
+       1.90G  29%   34.14MB/s    0:02:13
+       1.92G  29%   29.70MB/s    0:02:32
+       1.93G  29%   12.69MB/s    0:05:55
+       1.94G  29%   12.88MB/s    0:05:49
+       1.96G  29%   12.88MB/s    0:05:48
+       1.97G  30%   12.90MB/s    0:05:46
+       2.01G  30%   19.47MB/s    0:03:47
+       2.09G  31%   34.50MB/s    0:02:06
+       2.10G  32%   34.56MB/s    0:02:05
+       2.11G  32%   34.11MB/s    0:02:07
+       2.13G  32%   27.57MB/s    0:02:36
+       2.14G  32%   12.59MB/s    0:05:42
+       2.15G  32%   11.90MB/s    0:06:01
+       2.17G  33%   12.08MB/s    0:05:54
+       2.18G  33%   12.00MB/s    0:05:55
+       2.20G  33%   13.28MB/s    0:05:20
+       2.30G  35%   33.97MB/s    0:02:02
+       2.31G  35%   33.75MB/s    0:02:02
+       2.32G  35%   33.01MB/s    0:02:05
+       2.33G  35%   31.41MB/s    0:02:11
+       2.34G  35%   11.10MB/s    0:06:10
+       2.35G  35%   10.85MB/s    0:06:18
+       2.37G  36%   11.29MB/s    0:06:02
+       2.38G  36%   11.01MB/s    0:06:10
+       2.39G  36%   10.85MB/s    0:06:14
+       2.40G  36%   11.03MB/s    0:06:07
+       2.48G  37%   27.22MB/s    0:02:26
+       2.49G  38%   27.47MB/s    0:02:24
+       2.51G  38%   27.88MB/s    0:02:21
+       2.52G  38%   28.08MB/s    0:02:20
+       2.53G  38%   12.10MB/s    0:05:24
+       2.54G  38%   11.58MB/s    0:05:38
+       2.56G  38%   11.33MB/s    0:05:44
+       2.57G  39%   11.57MB/s    0:05:36
+       2.58G  39%   11.66MB/s    0:05:32
+       2.62G  39%   17.62MB/s    0:03:38
+       2.66G  40%   23.79MB/s    0:02:40
+       2.67G  40%   23.14MB/s    0:02:43
+       2.68G  40%   22.84MB/s    0:02:45
+       2.69G  41%   17.64MB/s    0:03:33
+       2.71G  41%   11.56MB/s    0:05:25
+       2.72G  41%   11.95MB/s    0:05:13
+       2.73G  41%   12.03MB/s    0:05:10
+       2.74G  41%   11.78MB/s    0:05:15
+       2.75G  42%   11.76MB/s    0:05:15
+       2.81G  42%   22.60MB/s    0:02:41
+       2.86G  43%   30.81MB/s    0:01:57
+       2.87G  43%   31.11MB/s    0:01:55
+       2.89G  44%   31.21MB/s    0:01:54
+       2.90G  44%   20.55MB/s    0:02:53
+       2.91G  44%   12.55MB/s    0:04:43
+       2.93G  44%   12.03MB/s    0:04:54
+       2.94G  44%   12.00MB/s    0:04:54
+       2.95G  45%   11.85MB/s    0:04:56
+       2.96G  45%   11.70MB/s    0:04:59
+       3.05G  46%   30.23MB/s    0:01:53
+       3.07G  46%   30.40MB/s    0:01:52
+       3.08G  46%   29.99MB/s    0:01:53
+       3.09G  47%   30.34MB/s    0:01:51
+       3.11G  47%   12.24MB/s    0:04:35
+       3.12G  47%   12.26MB/s    0:04:33
+       3.13G  47%   12.64MB/s    0:04:24
+       3.14G  47%   12.24MB/s    0:04:31
+       3.16G  48%   12.27MB/s    0:04:30
+       3.18G  48%   13.40MB/s    0:04:06
+       3.26G  49%   29.67MB/s    0:01:48
+       3.38G  51%   54.97MB/s    0:00:56
+       3.50G  53%   81.82MB/s    0:00:36
+       3.63G  55%  107.22MB/s    0:00:26
+       3.75G  57%  117.47MB/s    0:00:23
+       3.88G  59%  120.84MB/s    0:00:21
+       4.01G  61%  120.75MB/s    0:00:20
+       4.14G  63%  122.62MB/s    0:00:19
+       4.26G  65%  121.84MB/s    0:00:18
+       4.39G  67%  121.75MB/s    0:00:17
+       4.51G  68%  119.50MB/s    0:00:16
+       4.63G  70%  116.88MB/s    0:00:16
+       4.76G  72%  118.91MB/s    0:00:14
+       4.89G  74%  118.88MB/s    0:00:13
+       5.01G  76%  119.10MB/s    0:00:12
+       5.12G  78%  115.97MB/s    0:00:12
+       5.23G  79%  113.09MB/s    0:00:11
+       5.36G  81%  111.36MB/s    0:00:10
+       5.49G  83%  114.18MB/s    0:00:09
+       5.61G  85%  117.59MB/s    0:00:07
+       5.71G  87%  114.53MB/s    0:00:07
+       5.84G  89%  115.20MB/s    0:00:06
+       5.97G  91%  114.34MB/s    0:00:05
+       6.08G  92%  112.47MB/s    0:00:04
+       6.21G  94%  119.14MB/s    0:00:02
+       6.32G  96%  113.43MB/s    0:00:02
+       6.38G  97%   98.17MB/s    0:00:01
+       6.45G  98%   85.54MB/s    0:00:01
+       6.52G  99%   71.55MB/s    0:00:00
+       6.55G 100%   35.90MB/s    0:02:54 (xfer#151, to-check=59/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_1/Run_674_Wave_MID_1_FILE_1.dat
+      32.77K   0%   44.26kB/s    0:01:17
+       3.47M 100%    3.58MB/s    0:00:00 (xfer#152, to-check=58/230)
+cd+++++++ Run_674_Wave/Run_674_Wave_MID_10/
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_10/Run_674_Wave_MID_10_FILE_0.dat
+      32.77K   0%   34.30kB/s   53:04:39
+       3.70M   0%    3.53MB/s    0:30:11
+      56.98M   0%   27.17MB/s    0:03:53
+     107.12M   1%   34.06MB/s    0:03:04
+     169.38M   2%   40.38MB/s    0:02:34
+     235.96M   3%   54.95MB/s    0:01:52
+     284.98M   4%   53.29MB/s    0:01:54
+     364.94M   5%   59.71MB/s    0:01:41
+     428.11M   6%   59.92MB/s    0:01:39
+     494.44M   7%   60.33MB/s    0:01:38
+     520.91M   7%   55.71MB/s    0:01:45
+     572.29M   8%   49.24MB/s    0:01:58
+     630.23M   9%   47.84MB/s    0:02:00
+     702.32M  10%   49.21MB/s    0:01:56
+     764.67M  11%   57.73MB/s    0:01:37
+     817.66M  12%   57.58MB/s    0:01:37
+     887.65M  13%   59.86MB/s    0:01:32
+     948.73M  14%   57.33MB/s    0:01:35
+       1.01G  15%   56.42MB/s    0:01:36
+       1.05G  16%   55.04MB/s    0:01:37
+       1.11G  16%   52.61MB/s    0:01:41
+       1.16G  17%   50.54MB/s    0:01:44
+       1.22G  18%   49.58MB/s    0:01:45
+       1.27G  19%   51.88MB/s    0:01:39
+       1.33G  20%   51.54MB/s    0:01:39
+       1.37G  20%   49.41MB/s    0:01:42
+       1.41G  21%   46.25MB/s    0:01:48
+       1.45G  22%   43.49MB/s    0:01:54
+       1.50G  22%   42.29MB/s    0:01:56
+       1.56G  23%   45.88MB/s    0:01:46
+       1.62G  24%   49.37MB/s    0:01:37
+       1.68G  25%   52.65MB/s    0:01:30
+       1.73G  26%   52.88MB/s    0:01:29
+       1.78G  27%   52.19MB/s    0:01:29
+       1.84G  28%   52.53MB/s    0:01:27
+       1.91G  29%   54.70MB/s    0:01:22
+       1.97G  30%   57.10MB/s    0:01:18
+       2.03G  30%   57.02MB/s    0:01:17
+       2.08G  31%   55.60MB/s    0:01:18
+       2.13G  32%   53.23MB/s    0:01:21
+       2.19G  33%   52.23MB/s    0:01:21
+       2.25G  34%   52.18MB/s    0:01:20
+       2.30G  35%   52.67MB/s    0:01:18
+       2.35G  35%   50.53MB/s    0:01:21
+       2.40G  36%   50.32MB/s    0:01:20
+       2.47G  37%   52.89MB/s    0:01:15
+       2.53G  38%   54.50MB/s    0:01:12
+       2.58G  39%   54.73MB/s    0:01:10
+       2.63G  40%   54.67MB/s    0:01:10
+       2.69G  41%   53.35MB/s    0:01:10
+       2.75G  41%   52.15MB/s    0:01:11
+       2.81G  42%   55.47MB/s    0:01:05
+       2.87G  43%   55.23MB/s    0:01:05
+       2.93G  44%   56.21MB/s    0:01:02
+       2.99G  45%   55.58MB/s    0:01:02
+       3.04G  46%   52.50MB/s    0:01:05
+       3.08G  47%   50.35MB/s    0:01:07
+       3.14G  47%   48.17MB/s    0:01:09
+       3.19G  48%   48.95MB/s    0:01:07
+       3.25G  49%   51.01MB/s    0:01:03
+       3.31G  50%   53.20MB/s    0:00:59
+       3.37G  51%   54.38MB/s    0:00:57
+       3.42G  52%   54.12MB/s    0:00:56
+       3.47G  53%   53.25MB/s    0:00:56
+       3.53G  53%   53.53MB/s    0:00:55
+       3.59G  54%   54.30MB/s    0:00:53
+       3.66G  55%   57.48MB/s    0:00:49
+       3.71G  56%   56.82MB/s    0:00:48
+       3.77G  57%   56.67MB/s    0:00:47
+       3.82G  58%   53.68MB/s    0:00:49
+       3.88G  59%   51.27MB/s    0:00:50
+       3.95G  60%   54.62MB/s    0:00:46
+       4.01G  61%   55.60MB/s    0:00:44
+       4.06G  62%   56.87MB/s    0:00:42
+       4.13G  62%   57.75MB/s    0:00:41
+       4.18G  63%   54.11MB/s    0:00:42
+       4.24G  64%   55.49MB/s    0:00:40
+       4.30G  65%   56.11MB/s    0:00:39
+       4.36G  66%   55.71MB/s    0:00:38
+       4.41G  67%   55.28MB/s    0:00:37
+       4.47G  68%   54.05MB/s    0:00:37
+       4.52G  69%   52.48MB/s    0:00:37
+       4.58G  69%   52.15MB/s    0:00:36
+       4.64G  70%   54.58MB/s    0:00:34
+       4.70G  71%   53.86MB/s    0:00:33
+       4.76G  72%   54.76MB/s    0:00:32
+       4.81G  73%   54.17MB/s    0:00:31
+       4.87G  74%   54.50MB/s    0:00:30
+       4.93G  75%   54.29MB/s    0:00:29
+       4.99G  76%   54.18MB/s    0:00:28
+       5.04G  76%   54.15MB/s    0:00:27
+       5.10G  77%   54.19MB/s    0:00:26
+       5.17G  78%   56.50MB/s    0:00:23
+       5.22G  79%   56.67MB/s    0:00:22
+       5.28G  80%   56.40MB/s    0:00:22
+       5.34G  81%   56.56MB/s    0:00:20
+       5.39G  82%   53.20MB/s    0:00:21
+       5.44G  83%   52.09MB/s    0:00:20
+       5.50G  83%   51.60MB/s    0:00:20
+       5.55G  84%   49.36MB/s    0:00:19
+       5.60G  85%   49.26MB/s    0:00:18
+       5.65G  86%   49.51MB/s    0:00:17
+       5.71G  87%   49.21MB/s    0:00:16
+       5.74G  87%   44.83MB/s    0:00:17
+       5.77G  87%   38.98MB/s    0:00:19
+       5.83G  89%   42.59MB/s    0:00:16
+       5.89G  89%   42.80MB/s    0:00:15
+       5.94G  90%   48.39MB/s    0:00:12
+       5.98G  91%   50.39MB/s    0:00:11
+       6.03G  92%   47.48MB/s    0:00:10
+       6.07G  92%   42.79MB/s    0:00:11
+       6.11G  93%   38.88MB/s    0:00:11
+       6.18G  94%   47.74MB/s    0:00:07
+       6.25G  95%   51.20MB/s    0:00:05
+       6.30G  96%   56.28MB/s    0:00:04
+       6.36G  97%   61.31MB/s    0:00:03
+       6.42G  97%   57.91MB/s    0:00:02
+       6.49G  98%   57.20MB/s    0:00:01
+       6.54G  99%   57.27MB/s    0:00:00
+       6.55G 100%   52.47MB/s    0:01:59 (xfer#153, to-check=56/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_10/Run_674_Wave_MID_10_FILE_1.dat
+      32.77K   0%  222.22kB/s    0:00:15
+       3.47M 100%    9.20MB/s    0:00:00 (xfer#154, to-check=55/230)
+cd+++++++ Run_674_Wave/Run_674_Wave_MID_11/
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_11/Run_674_Wave_MID_11_FILE_0.dat
+      32.77K   0%   86.49kB/s   21:02:56
+      33.06M   0%   31.07MB/s    0:03:24
+      82.35M   1%   38.72MB/s    0:02:43
+     125.86M   1%   39.63MB/s    0:02:38
+     207.62M   3%   49.16MB/s    0:02:06
+     257.98M   3%   53.44MB/s    0:01:55
+     325.88M   4%   57.86MB/s    0:01:45
+     386.43M   5%   61.92MB/s    0:01:37
+     445.15M   6%   56.32MB/s    0:01:45
+     502.56M   7%   58.01MB/s    0:01:41
+     556.83M   8%   54.98MB/s    0:01:46
+     620.27M   9%   55.08MB/s    0:01:45
+     678.72M  10%   55.10MB/s    0:01:44
+     735.15M  11%   54.89MB/s    0:01:43
+     795.90M  12%   56.06MB/s    0:01:40
+     863.54M  13%   57.65MB/s    0:01:36
+     921.21M  14%   57.47MB/s    0:01:35
+     979.40M  14%   57.87MB/s    0:01:34
+       1.04G  15%   57.12MB/s    0:01:34
+       1.09G  16%   53.55MB/s    0:01:39
+       1.13G  17%   50.00MB/s    0:01:45
+       1.18G  18%   48.01MB/s    0:01:49
+       1.24G  18%   48.82MB/s    0:01:46
+       1.32G  20%   55.42MB/s    0:01:32
+       1.39G  21%   60.36MB/s    0:01:23
+       1.44G  22%   61.75MB/s    0:01:20
+       1.50G  22%   62.27MB/s    0:01:19
+       1.56G  23%   55.60MB/s    0:01:27
+       1.62G  24%   55.52MB/s    0:01:26
+       1.68G  25%   55.28MB/s    0:01:26
+       1.74G  26%   55.72MB/s    0:01:24
+       1.80G  27%   56.89MB/s    0:01:21
+       1.86G  28%   55.37MB/s    0:01:22
+       1.92G  29%   56.84MB/s    0:01:19
+       1.98G  30%   54.42MB/s    0:01:22
+       2.03G  31%   54.67MB/s    0:01:20
+       2.09G  31%   55.00MB/s    0:01:19
+       2.15G  32%   54.36MB/s    0:01:19
+       2.21G  33%   55.28MB/s    0:01:16
+       2.27G  34%   54.61MB/s    0:01:16
+       2.33G  35%   55.41MB/s    0:01:14
+       2.39G  36%   55.24MB/s    0:01:13
+       2.45G  37%   56.42MB/s    0:01:11
+       2.51G  38%   55.87MB/s    0:01:10
+       2.57G  39%   56.37MB/s    0:01:09
+       2.62G  40%   55.49MB/s    0:01:09
+       2.68G  40%   55.18MB/s    0:01:08
+       2.74G  41%   56.31MB/s    0:01:06
+       2.80G  42%   54.75MB/s    0:01:06
+       2.86G  43%   55.73MB/s    0:01:04
+       2.92G  44%   55.25MB/s    0:01:04
+       2.99G  45%   56.82MB/s    0:01:01
+       3.04G  46%   57.12MB/s    0:01:00
+       3.10G  47%   56.49MB/s    0:00:59
+       3.16G  48%   57.25MB/s    0:00:57
+       3.22G  49%   55.58MB/s    0:00:58
+       3.27G  49%   55.06MB/s    0:00:58
+       3.34G  50%   55.74MB/s    0:00:56
+       3.40G  51%   55.93MB/s    0:00:55
+       3.46G  52%   56.06MB/s    0:00:53
+       3.51G  53%   56.21MB/s    0:00:52
+       3.57G  54%   56.42MB/s    0:00:51
+       3.63G  55%   55.13MB/s    0:00:51
+       3.69G  56%   55.38MB/s    0:00:50
+       3.75G  57%   54.89MB/s    0:00:49
+       3.81G  58%   55.47MB/s    0:00:48
+       3.86G  58%   55.08MB/s    0:00:47
+       3.92G  59%   55.55MB/s    0:00:46
+       3.98G  60%   55.53MB/s    0:00:45
+       4.04G  61%   55.19MB/s    0:00:44
+       4.09G  62%   55.16MB/s    0:00:43
+       4.16G  63%   55.27MB/s    0:00:42
+       4.21G  64%   54.93MB/s    0:00:41
+       4.27G  65%   55.86MB/s    0:00:39
+       4.33G  66%   55.86MB/s    0:00:38
+       4.39G  66%   55.06MB/s    0:00:38
+       4.45G  67%   57.60MB/s    0:00:35
+       4.51G  68%   56.07MB/s    0:00:35
+       4.57G  69%   56.43MB/s    0:00:34
+       4.63G  70%   56.94MB/s    0:00:33
+       4.68G  71%   54.00MB/s    0:00:33
+       4.75G  72%   55.45MB/s    0:00:31
+       4.81G  73%   56.77MB/s    0:00:30
+       4.86G  74%   55.45MB/s    0:00:29
+       4.92G  75%   57.99MB/s    0:00:27
+       4.98G  75%   56.20MB/s    0:00:27
+       5.04G  76%   54.98MB/s    0:00:26
+       5.10G  77%   56.56MB/s    0:00:25
+       5.16G  78%   54.79MB/s    0:00:24
+       5.22G  79%   55.78MB/s    0:00:23
+       5.26G  80%   52.31MB/s    0:00:24
+       5.34G  81%   55.48MB/s    0:00:21
+       5.40G  82%   56.45MB/s    0:00:19
+       5.46G  83%   55.27MB/s    0:00:19
+       5.52G  84%   59.39MB/s    0:00:17
+       5.58G  85%   54.38MB/s    0:00:17
+       5.63G  85%   54.00MB/s    0:00:16
+       5.69G  86%   54.11MB/s    0:00:15
+       5.75G  87%   54.77MB/s    0:00:14
+       5.81G  88%   55.86MB/s    0:00:12
+       5.88G  89%   57.28MB/s    0:00:11
+       5.93G  90%   57.65MB/s    0:00:10
+       5.99G  91%   56.02MB/s    0:00:09
+       6.05G  92%   56.19MB/s    0:00:08
+       6.11G  93%   55.22MB/s    0:00:07
+       6.16G  94%   54.67MB/s    0:00:06
+       6.22G  94%   54.63MB/s    0:00:05
+       6.28G  95%   55.44MB/s    0:00:04
+       6.34G  96%   54.36MB/s    0:00:03
+       6.40G  97%   55.94MB/s    0:00:02
+       6.46G  98%   56.30MB/s    0:00:01
+       6.52G  99%   54.74MB/s    0:00:00
+       6.55G 100%   55.44MB/s    0:01:52 (xfer#155, to-check=53/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_11/Run_674_Wave_MID_11_FILE_1.dat
+      32.77K   0%   47.20kB/s    0:01:12
+       3.47M 100%    4.27MB/s    0:00:00 (xfer#156, to-check=52/230)
+cd+++++++ Run_674_Wave/Run_674_Wave_MID_12/
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_12/Run_674_Wave_MID_12_FILE_0.dat
+      32.77K   0%   40.30kB/s   45:10:12
+      12.88M   0%   12.28MB/s    0:08:40
+      76.32M   1%   36.39MB/s    0:02:53
+     133.53M   2%   42.45MB/s    0:02:27
+     190.35M   2%   45.38MB/s    0:02:16
+     246.19M   3%   55.50MB/s    0:01:50
+     308.35M   4%   55.22MB/s    0:01:50
+     364.22M   5%   54.90MB/s    0:01:50
+     427.33M   6%   56.05MB/s    0:01:46
+     484.11M   7%   56.42MB/s    0:01:45
+     544.77M   8%   56.04MB/s    0:01:44
+     595.89M   9%   54.90MB/s    0:01:45
+     660.11M  10%   55.13MB/s    0:01:44
+     715.95M  10%   54.89MB/s    0:01:43
+     775.29M  11%   54.58MB/s    0:01:43
+     836.01M  12%   56.85MB/s    0:01:38
+     886.34M  13%   53.91MB/s    0:01:42
+     946.90M  14%   54.76MB/s    0:01:39
+       1.00G  15%   54.29MB/s    0:01:39
+       1.07G  16%   54.82MB/s    0:01:37
+       1.12G  17%   55.75MB/s    0:01:35
+       1.19G  18%   56.68MB/s    0:01:32
+       1.24G  18%   56.50MB/s    0:01:31
+       1.31G  19%   56.24MB/s    0:01:31
+       1.35G  20%   55.01MB/s    0:01:32
+       1.43G  21%   56.15MB/s    0:01:29
+       1.49G  22%   57.80MB/s    0:01:25
+       1.55G  23%   56.86MB/s    0:01:26
+       1.60G  24%   57.48MB/s    0:01:24
+       1.66G  25%   56.34MB/s    0:01:24
+       1.72G  26%   55.42MB/s    0:01:25
+       1.78G  27%   55.28MB/s    0:01:24
+       1.84G  28%   56.20MB/s    0:01:21
+       1.90G  28%   55.74MB/s    0:01:21
+       1.96G  29%   54.51MB/s    0:01:22
+       2.02G  30%   55.02MB/s    0:01:20
+       2.08G  31%   55.27MB/s    0:01:19
+       2.14G  32%   55.67MB/s    0:01:17
+       2.20G  33%   56.23MB/s    0:01:15
+       2.25G  34%   54.58MB/s    0:01:16
+       2.31G  35%   56.29MB/s    0:01:13
+       2.38G  36%   55.44MB/s    0:01:13
+       2.44G  37%   56.66MB/s    0:01:10
+       2.49G  38%   56.30MB/s    0:01:10
+       2.55G  38%   55.44MB/s    0:01:10
+       2.61G  39%   54.85MB/s    0:01:10
+       2.67G  40%   53.99MB/s    0:01:10
+       2.74G  41%   58.93MB/s    0:01:03
+       2.79G  42%   51.67MB/s    0:01:11
+       2.84G  43%   52.15MB/s    0:01:09
+       2.93G  44%   57.98MB/s    0:01:01
+       2.99G  45%   50.50MB/s    0:01:08
+       3.04G  46%   55.12MB/s    0:01:02
+       3.12G  47%   60.15MB/s    0:00:55
+       3.19G  48%   56.22MB/s    0:00:58
+       3.23G  49%   58.18MB/s    0:00:55
+       3.29G  50%   60.75MB/s    0:00:52
+       3.34G  50%   51.58MB/s    0:01:00
+       3.39G  51%   47.16MB/s    0:01:05
+       3.44G  52%   49.01MB/s    0:01:02
+       3.52G  53%   52.91MB/s    0:00:56
+       3.59G  54%   59.15MB/s    0:00:48
+       3.65G  55%   61.77MB/s    0:00:45
+       3.71G  56%   63.31MB/s    0:00:43
+       3.76G  57%   58.17MB/s    0:00:46
+       3.82G  58%   56.24MB/s    0:00:47
+       3.89G  59%   57.13MB/s    0:00:45
+       3.93G  59%   50.53MB/s    0:00:50
+       4.00G  61%   53.13MB/s    0:00:46
+       4.08G  62%   56.45MB/s    0:00:42
+       4.14G  63%   55.54MB/s    0:00:42
+       4.20G  64%   61.51MB/s    0:00:37
+       4.25G  64%   59.04MB/s    0:00:38
+       4.32G  65%   55.77MB/s    0:00:39
+       4.37G  66%   55.11MB/s    0:00:38
+       4.43G  67%   56.16MB/s    0:00:36
+       4.49G  68%   55.94MB/s    0:00:36
+       4.55G  69%   56.05MB/s    0:00:34
+       4.61G  70%   56.05MB/s    0:00:33
+       4.67G  71%   56.05MB/s    0:00:32
+       4.73G  72%   56.61MB/s    0:00:31
+       4.78G  72%   54.94MB/s    0:00:31
+       4.84G  73%   55.81MB/s    0:00:29
+       4.90G  74%   55.38MB/s    0:00:29
+       4.96G  75%   55.05MB/s    0:00:28
+       5.02G  76%   55.76MB/s    0:00:26
+       5.07G  77%   54.61MB/s    0:00:26
+       5.13G  78%   55.47MB/s    0:00:25
+       5.21G  79%   59.99MB/s    0:00:21
+       5.31G  81%   70.35MB/s    0:00:17
+       5.45G  83%   89.06MB/s    0:00:12
+       5.58G  85%  105.84MB/s    0:00:09
+       5.71G  87%  118.97MB/s    0:00:06
+       5.84G  89%  126.03MB/s    0:00:05
+       5.97G  91%  126.09MB/s    0:00:04
+       6.11G  93%  125.85MB/s    0:00:03
+       6.24G  95%  125.77MB/s    0:00:02
+       6.37G  97%  125.75MB/s    0:00:01
+       6.50G  99%  125.60MB/s    0:00:00
+       6.55G 100%   62.50MB/s    0:01:40 (xfer#157, to-check=50/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_12/Run_674_Wave_MID_12_FILE_1.dat
+      32.77K   0%   74.07kB/s    0:00:46
+       3.47M 100%    6.08MB/s    0:00:00 (xfer#158, to-check=49/230)
+cd+++++++ Run_674_Wave/Run_674_Wave_MID_13/
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_13/Run_674_Wave_MID_13_FILE_0.dat
+      32.77K   0%   57.87kB/s   31:27:34
+      44.60M   0%   42.15MB/s    0:02:30
+     150.77M   2%   70.24MB/s    0:01:29
+     229.15M   3%   71.74MB/s    0:01:26
+     361.79M   5%   85.28MB/s    0:01:10
+     494.44M   7%  106.29MB/s    0:00:55
+     627.02M   9%  113.60MB/s    0:00:50
+     759.46M  11%  126.47MB/s    0:00:44
+     892.11M  13%  126.47MB/s    0:00:43
+       1.02G  15%  126.47MB/s    0:00:42
+       1.15G  17%  125.80MB/s    0:00:41
+       1.29G  19%  125.84MB/s    0:00:40
+       1.42G  21%  125.86MB/s    0:00:39
+       1.55G  23%  125.84MB/s    0:00:38
+       1.69G  25%  126.58MB/s    0:00:37
+       1.82G  27%  126.50MB/s    0:00:36
+       1.95G  29%  126.52MB/s    0:00:35
+       2.03G  30%  113.39MB/s    0:00:38
+       2.13G  32%  105.82MB/s    0:00:40
+       2.15G  32%   78.18MB/s    0:00:55
+       2.16G  32%   49.93MB/s    0:01:25
+       2.17G  33%   34.71MB/s    0:02:03
+       2.19G  33%   13.95MB/s    0:05:05
+       2.20G  33%   12.89MB/s    0:05:29
+       2.22G  33%   12.91MB/s    0:05:28
+       2.23G  34%   12.93MB/s    0:05:26
+       2.24G  34%   12.88MB/s    0:05:26
+       2.35G  35%   34.09MB/s    0:02:00
+       2.36G  36%   34.08MB/s    0:02:00
+       2.37G  36%   34.18MB/s    0:01:59
+       2.39G  36%   34.19MB/s    0:01:59
+       2.40G  36%   13.25MB/s    0:05:05
+       2.42G  36%   13.12MB/s    0:05:07
+       2.43G  37%   13.03MB/s    0:05:09
+       2.44G  37%   13.03MB/s    0:05:08
+       2.46G  37%   12.73MB/s    0:05:14
+       2.56G  39%   33.70MB/s    0:01:55
+       2.57G  39%   33.81MB/s    0:01:55
+       2.58G  39%   33.82MB/s    0:01:54
+       2.60G  39%   33.80MB/s    0:01:54
+       2.61G  39%   12.84MB/s    0:04:59
+       2.63G  40%   12.78MB/s    0:05:00
+       2.64G  40%   12.77MB/s    0:04:59
+       2.65G  40%   12.76MB/s    0:04:58
+       2.67G  40%   14.86MB/s    0:04:14
+       2.77G  42%   33.70MB/s    0:01:49
+       2.78G  42%   33.70MB/s    0:01:49
+       2.79G  42%   33.69MB/s    0:01:48
+       2.81G  42%   31.54MB/s    0:01:55
+       2.82G  43%   12.74MB/s    0:04:46
+       2.84G  43%   12.80MB/s    0:04:43
+       2.85G  43%   12.74MB/s    0:04:44
+       2.86G  43%   12.79MB/s    0:04:41
+       2.90G  44%   19.17MB/s    0:03:05
+       2.98G  45%   33.25MB/s    0:01:45
+       2.99G  45%   33.33MB/s    0:01:44
+       3.00G  45%   33.35MB/s    0:01:43
+       3.02G  46%   26.93MB/s    0:02:08
+       3.03G  46%   12.82MB/s    0:04:28
+       3.04G  46%   12.75MB/s    0:04:28
+       3.06G  46%   12.74MB/s    0:04:28
+       3.07G  46%   12.75MB/s    0:04:26
+       3.12G  47%   22.18MB/s    0:02:31
+       3.19G  48%   33.76MB/s    0:01:37
+       3.20G  48%   33.82MB/s    0:01:36
+       3.21G  49%   33.80MB/s    0:01:36
+       3.23G  49%   24.38MB/s    0:02:13
+       3.24G  49%   12.84MB/s    0:04:11
+       3.25G  49%   12.79MB/s    0:04:11
+       3.27G  49%   12.87MB/s    0:04:09
+       3.28G  50%   12.97MB/s    0:04:06
+       3.36G  51%   28.11MB/s    0:01:50
+       3.40G  51%   33.23MB/s    0:01:32
+       3.41G  52%   33.20MB/s    0:01:32
+       3.42G  52%   33.14MB/s    0:01:32
+       3.44G  52%   18.12MB/s    0:02:47
+       3.45G  52%   13.04MB/s    0:03:52
+       3.46G  52%   13.05MB/s    0:03:51
+       3.48G  53%   13.00MB/s    0:03:51
+       3.49G  53%   12.96MB/s    0:03:50
+       3.59G  54%   33.58MB/s    0:01:26
+       3.61G  55%   33.53MB/s    0:01:25
+       3.62G  55%   33.34MB/s    0:01:25
+       3.63G  55%   33.34MB/s    0:01:25
+       3.65G  55%   12.80MB/s    0:03:41
+       3.66G  55%   12.76MB/s    0:03:41
+       3.67G  56%   12.80MB/s    0:03:39
+       3.69G  56%   12.80MB/s    0:03:38
+       3.70G  56%   12.84MB/s    0:03:36
+       3.80G  57%   33.27MB/s    0:01:20
+       3.81G  58%   33.26MB/s    0:01:20
+       3.83G  58%   33.17MB/s    0:01:20
+       3.84G  58%   33.22MB/s    0:01:19
+       3.85G  58%   12.61MB/s    0:03:29
+       3.87G  59%   12.71MB/s    0:03:26
+       3.88G  59%   12.72MB/s    0:03:25
+       3.89G  59%   12.79MB/s    0:03:22
+       3.91G  59%   12.82MB/s    0:03:21
+       4.01G  61%   33.86MB/s    0:01:13
+       4.02G  61%   33.98MB/s    0:01:12
+       4.04G  61%   33.94MB/s    0:01:12
+       4.05G  61%   33.93MB/s    0:01:12
+       4.07G  62%   12.76MB/s    0:03:10
+       4.08G  62%   12.75MB/s    0:03:09
+       4.09G  62%   12.74MB/s    0:03:08
+       4.11G  62%   12.79MB/s    0:03:06
+       4.13G  63%   15.27MB/s    0:02:34
+       4.22G  64%   33.60MB/s    0:01:07
+       4.23G  64%   33.55MB/s    0:01:07
+       4.25G  64%   33.57MB/s    0:01:07
+       4.26G  65%   31.16MB/s    0:01:11
+       4.28G  65%   12.98MB/s    0:02:51
+       4.29G  65%   13.05MB/s    0:02:49
+       4.30G  65%   12.96MB/s    0:02:49
+       4.32G  65%   12.83MB/s    0:02:50
+       4.36G  66%   20.85MB/s    0:01:42
+       4.43G  67%   33.24MB/s    0:01:02
+       4.44G  67%   33.34MB/s    0:01:01
+       4.46G  68%   33.41MB/s    0:01:01
+       4.47G  68%   25.40MB/s    0:01:20
+       4.48G  68%   13.01MB/s    0:02:35
+       4.50G  68%   12.97MB/s    0:02:34
+       4.51G  68%   12.89MB/s    0:02:34
+       4.53G  69%   12.99MB/s    0:02:32
+       4.60G  70%   27.85MB/s    0:01:08
+       4.64G  70%   33.98MB/s    0:00:54
+       4.66G  71%   34.04MB/s    0:00:54
+       4.67G  71%   33.72MB/s    0:00:54
+       4.68G  71%   18.96MB/s    0:01:36
+       4.70G  71%   12.84MB/s    0:02:21
+       4.71G  71%   12.82MB/s    0:02:20
+       4.72G  72%   13.12MB/s    0:02:16
+       4.73G  72%   12.51MB/s    0:02:22
+       4.78G  72%   19.56MB/s    0:01:28
+       4.84G  73%   30.36MB/s    0:00:55
+       4.85G  74%   29.92MB/s    0:00:55
+       4.86G  74%   29.93MB/s    0:00:55
+       4.87G  74%   22.45MB/s    0:01:13
+       4.88G  74%    9.69MB/s    0:02:48
+       4.89G  74%    9.63MB/s    0:02:48
+       4.91G  74%   10.24MB/s    0:02:37
+       4.92G  75%   10.45MB/s    0:02:32
+       4.93G  75%   12.21MB/s    0:02:09
+       4.98G  75%   19.94MB/s    0:01:17
+       5.04G  76%   32.44MB/s    0:00:45
+       5.06G  77%   32.72MB/s    0:00:44
+       5.07G  77%   32.82MB/s    0:00:44
+       5.08G  77%   25.26MB/s    0:00:56
+       5.09G  77%   11.83MB/s    0:02:00
+       5.10G  77%   11.33MB/s    0:02:04
+       5.12G  78%   11.23MB/s    0:02:04
+       5.13G  78%   10.83MB/s    0:02:08
+       5.14G  78%   10.85MB/s    0:02:07
+       5.16G  78%   12.45MB/s    0:01:49
+       5.22G  79%   23.82MB/s    0:00:54
+       5.32G  81%   44.14MB/s    0:00:27
+       5.41G  82%   64.83MB/s    0:00:17
+       5.51G  84%   83.35MB/s    0:00:12
+       5.61G  85%   92.67MB/s    0:00:09
+       5.70G  87%   92.08MB/s    0:00:09
+       5.80G  88%   91.50MB/s    0:00:08
+       5.89G  89%   90.10MB/s    0:00:07
+       5.98G  91%   88.09MB/s    0:00:06
+       6.06G  92%   85.75MB/s    0:00:05
+       6.16G  94%   86.93MB/s    0:00:04
+       6.28G  95%   93.52MB/s    0:00:02
+       6.37G  97%   94.02MB/s    0:00:01
+       6.48G  98%   98.80MB/s    0:00:00
+       6.55G 100%   36.99MB/s    0:02:48 (xfer#159, to-check=47/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_13/Run_674_Wave_MID_13_FILE_1.dat
+      32.77K   0%   43.24kB/s    0:01:19
+       3.47M 100%    3.80MB/s    0:00:00 (xfer#160, to-check=46/230)
+cd+++++++ Run_674_Wave/Run_674_Wave_MID_14/
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_14/Run_674_Wave_MID_14_FILE_0.dat
+      32.77K   0%   35.48kB/s   51:18:50
+       7.37M   0%    7.03MB/s    0:15:09
+     130.84M   1%   62.39MB/s    0:01:40
+     209.26M   3%   66.54MB/s    0:01:33
+     327.19M   4%   78.03MB/s    0:01:17
+     458.52M   6%  107.56MB/s    0:00:55
+     587.50M   8%  108.88MB/s    0:00:53
+     719.26M  10%  121.59MB/s    0:00:46
+     847.54M  12%  124.09MB/s    0:00:44
+     975.21M  14%  123.25MB/s    0:00:44
+       1.11G  16%  123.84MB/s    0:00:42
+       1.24G  18%  123.62MB/s    0:00:41
+       1.36G  20%  121.97MB/s    0:00:41
+       1.47G  22%  118.20MB/s    0:00:41
+       1.60G  24%  116.68MB/s    0:00:41
+       1.73G  26%  116.32MB/s    0:00:40
+       1.86G  28%  118.71MB/s    0:00:38
+       1.98G  30%  121.34MB/s    0:00:36
+       2.11G  32%  121.27MB/s    0:00:35
+       2.23G  34%  121.33MB/s    0:00:34
+       2.36G  35%  119.60MB/s    0:00:34
+       2.49G  38%  121.66MB/s    0:00:32
+       2.62G  39%  122.44MB/s    0:00:31
+       2.75G  41%  121.75MB/s    0:00:30
+       2.87G  43%  122.53MB/s    0:00:29
+       3.00G  45%  121.66MB/s    0:00:28
+       3.13G  47%  121.72MB/s    0:00:27
+       3.26G  49%  122.08MB/s    0:00:26
+       3.39G  51%  122.34MB/s    0:00:25
+       3.51G  53%  121.53MB/s    0:00:24
+       3.64G  55%  122.12MB/s    0:00:23
+       3.77G  57%  123.00MB/s    0:00:22
+       3.90G  59%  123.56MB/s    0:00:20
+       4.03G  61%  124.03MB/s    0:00:19
+       4.16G  63%  124.12MB/s    0:00:18
+       4.29G  65%  123.87MB/s    0:00:17
+       4.42G  67%  123.87MB/s    0:00:16
+       4.55G  69%  125.03MB/s    0:00:15
+       4.69G  71%  125.03MB/s    0:00:14
+       4.82G  73%  125.20MB/s    0:00:13
+       4.95G  75%  125.22MB/s    0:00:12
+       5.04G  76%  114.78MB/s    0:00:12
+       5.10G  77%   99.66MB/s    0:00:14
+       5.16G  78%   80.98MB/s    0:00:16
+       5.23G  79%   66.58MB/s    0:00:19
+       5.28G  80%   57.78MB/s    0:00:21
+       5.36G  81%   60.18MB/s    0:00:19
+       5.40G  82%   59.03MB/s    0:00:19
+       5.47G  83%   57.22MB/s    0:00:18
+       5.53G  84%   60.21MB/s    0:00:16
+       5.59G  85%   55.02MB/s    0:00:17
+       5.67G  86%   61.35MB/s    0:00:14
+       5.72G  87%   58.66MB/s    0:00:13
+       5.78G  88%   56.88MB/s    0:00:13
+       5.84G  89%   58.94MB/s    0:00:11
+       5.90G  89%   53.08MB/s    0:00:12
+       5.97G  91%   57.77MB/s    0:00:09
+       6.02G  91%   57.77MB/s    0:00:08
+       6.09G  92%   57.66MB/s    0:00:07
+       6.15G  93%   59.36MB/s    0:00:06
+       6.21G  94%   57.26MB/s    0:00:05
+       6.26G  95%   56.36MB/s    0:00:05
+       6.32G  96%   56.08MB/s    0:00:04
+       6.40G  97%   59.95MB/s    0:00:02
+       6.47G  98%   63.35MB/s    0:00:01
+       6.55G 100%   96.03MB/s    0:01:05 (xfer#161, to-check=44/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_14/Run_674_Wave_MID_14_FILE_1.dat
+      32.77K   0%   35.71kB/s    0:01:36
+       3.47M 100%    3.52MB/s    0:00:00 (xfer#162, to-check=43/230)
+cd+++++++ Run_674_Wave/Run_674_Wave_MID_15/
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_15/Run_674_Wave_MID_15_FILE_0.dat
+      32.77K   0%   32.96kB/s   55:14:21
+       1.34M   0%    1.27MB/s    1:23:54
+      74.74M   1%   35.52MB/s    0:02:58
+     157.58M   2%   49.88MB/s    0:02:05
+     224.43M   3%   53.31MB/s    0:01:55
+     294.16M   4%   69.69MB/s    0:01:27
+     339.51M   5%   62.98MB/s    0:01:36
+     379.88M   5%   51.20MB/s    0:01:57
+     433.88M   6%   48.24MB/s    0:02:03
+     482.64M   7%   43.40MB/s    0:02:16
+     544.24M   8%   47.15MB/s    0:02:04
+     626.79M   9%   58.84MB/s    0:01:38
+     681.61M  10%   59.03MB/s    0:01:37
+     742.69M  11%   62.00MB/s    0:01:31
+     796.66M  12%   60.18MB/s    0:01:33
+     860.39M  13%   54.67MB/s    0:01:41
+     922.26M  14%   56.33MB/s    0:01:37
+     977.31M  14%   54.91MB/s    0:01:39
+       1.04G  15%   56.24MB/s    0:01:35
+       1.10G  16%   56.08MB/s    0:01:35
+       1.15G  17%   54.16MB/s    0:01:37
+       1.21G  18%   55.78MB/s    0:01:33
+       1.27G  19%   54.38MB/s    0:01:34
+       1.33G  20%   55.14MB/s    0:01:32
+       1.39G  21%   55.00MB/s    0:01:31
+       1.45G  22%   54.81MB/s    0:01:30
+       1.50G  22%   55.35MB/s    0:01:29
+       1.57G  23%   55.33MB/s    0:01:28
+       1.62G  24%   55.42MB/s    0:01:26
+       1.68G  25%   54.36MB/s    0:01:27
+       1.73G  26%   53.78MB/s    0:01:27
+       1.79G  27%   54.14MB/s    0:01:25
+       1.85G  28%   54.81MB/s    0:01:23
+       1.91G  29%   55.03MB/s    0:01:22
+       1.96G  29%   55.23MB/s    0:01:21
+       2.02G  30%   54.22MB/s    0:01:21
+       2.08G  31%   55.04MB/s    0:01:19
+       2.14G  32%   54.33MB/s    0:01:19
+       2.20G  33%   55.90MB/s    0:01:16
+       2.25G  34%   54.11MB/s    0:01:17
+       2.31G  35%   54.27MB/s    0:01:16
+       2.37G  36%   54.23MB/s    0:01:15
+       2.43G  37%   53.50MB/s    0:01:15
+       2.49G  37%   55.62MB/s    0:01:11
+       2.55G  38%   54.72MB/s    0:01:11
+       2.61G  39%   56.37MB/s    0:01:08
+       2.66G  40%   55.66MB/s    0:01:08
+       2.72G  41%   55.97MB/s    0:01:06
+       2.78G  42%   54.78MB/s    0:01:07
+       2.84G  43%   55.45MB/s    0:01:05
+       2.88G  44%   52.18MB/s    0:01:08
+       2.96G  45%   54.90MB/s    0:01:03
+       3.02G  46%   56.81MB/s    0:01:00
+       3.08G  46%   55.63MB/s    0:01:01
+       3.13G  47%   59.58MB/s    0:00:56
+       3.19G  48%   54.62MB/s    0:01:00
+       3.25G  49%   54.86MB/s    0:00:58
+       3.31G  50%   54.56MB/s    0:00:58
+       3.37G  51%   54.45MB/s    0:00:57
+       3.42G  52%   54.72MB/s    0:00:55
+       3.48G  53%   54.52MB/s    0:00:55
+       3.54G  53%   53.70MB/s    0:00:54
+       3.60G  54%   54.42MB/s    0:00:53
+       3.65G  55%   54.76MB/s    0:00:51
+       3.71G  56%   54.70MB/s    0:00:50
+       3.77G  57%   55.07MB/s    0:00:49
+       3.83G  58%   55.35MB/s    0:00:48
+       3.89G  59%   56.48MB/s    0:00:46
+       3.94G  60%   54.80MB/s    0:00:46
+       4.00G  61%   55.69MB/s    0:00:44
+       4.06G  61%   55.81MB/s    0:00:43
+       4.12G  62%   54.22MB/s    0:00:43
+       4.17G  63%   52.75MB/s    0:00:44
+       4.24G  64%   54.42MB/s    0:00:41
+       4.29G  65%   52.36MB/s    0:00:42
+       4.34G  66%   51.19MB/s    0:00:42
+       4.40G  67%   53.29MB/s    0:00:39
+       4.43G  67%   44.66MB/s    0:00:46
+       4.48G  68%   44.62MB/s    0:00:45
+       4.55G  69%   48.10MB/s    0:00:40
+       4.61G  70%   49.40MB/s    0:00:38
+       4.68G  71%   59.46MB/s    0:00:30
+       4.75G  72%   63.89MB/s    0:00:27
+       4.80G  73%   59.48MB/s    0:00:28
+       4.86G  74%   59.23MB/s    0:00:27
+       4.90G  74%   51.93MB/s    0:00:31
+       4.95G  75%   46.29MB/s    0:00:33
+       5.00G  76%   47.16MB/s    0:00:32
+       5.04G  76%   42.96MB/s    0:00:34
+       5.11G  78%   50.73MB/s    0:00:27
+       5.18G  79%   55.88MB/s    0:00:23
+       5.24G  79%   58.16MB/s    0:00:22
+       5.30G  80%   62.77MB/s    0:00:19
+       5.37G  81%   59.86MB/s    0:00:19
+       5.42G  82%   55.29MB/s    0:00:20
+       5.47G  83%   53.74MB/s    0:00:19
+       5.54G  84%   55.13MB/s    0:00:18
+       5.57G  84%   47.41MB/s    0:00:20
+       5.61G  85%   46.94MB/s    0:00:19
+       5.67G  86%   48.37MB/s    0:00:17
+       5.75G  87%   52.02MB/s    0:00:15
+       5.81G  88%   58.50MB/s    0:00:12
+       5.87G  89%   61.55MB/s    0:00:10
+       5.93G  90%   61.17MB/s    0:00:09
+       5.99G  91%   55.57MB/s    0:00:09
+       6.05G  92%   55.81MB/s    0:00:08
+       6.11G  93%   55.63MB/s    0:00:07
+       6.16G  94%   55.49MB/s    0:00:06
+       6.22G  94%   55.59MB/s    0:00:05
+       6.28G  95%   54.88MB/s    0:00:04
+       6.33G  96%   53.43MB/s    0:00:04
+       6.39G  97%   54.49MB/s    0:00:02
+       6.46G  98%   54.88MB/s    0:00:01
+       6.51G  99%   54.55MB/s    0:00:00
+       6.55G 100%   54.42MB/s    0:01:54 (xfer#163, to-check=41/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_15/Run_674_Wave_MID_15_FILE_1.dat
+      32.77K   0%   41.94kB/s    0:01:22
+       3.47M 100%    3.63MB/s    0:00:00 (xfer#164, to-check=40/230)
+cd+++++++ Run_674_Wave/Run_674_Wave_MID_2/
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_2/Run_674_Wave_MID_2_FILE_0.dat
+      32.77K   0%   34.52kB/s   52:44:10
+       1.87M   0%    1.77MB/s    1:00:17
+      64.00M   0%   30.23MB/s    0:03:29
+      98.34M   1%   31.06MB/s    0:03:22
+     172.26M   2%   40.36MB/s    0:02:34
+     239.37M   3%   55.75MB/s    0:01:50
+     297.83M   4%   55.03MB/s    0:01:51
+     356.29M   5%   60.71MB/s    0:01:39
+     411.34M   6%   56.99MB/s    0:01:45
+     472.94M   7%   55.69MB/s    0:01:46
+     521.96M   7%   53.44MB/s    0:01:50
+     584.61M   8%   54.42MB/s    0:01:47
+     646.48M   9%   55.06MB/s    0:01:44
+     705.72M  10%   53.71MB/s    0:01:46
+     775.45M  11%   57.96MB/s    0:01:37
+     841.52M  12%   57.59MB/s    0:01:36
+     907.58M  13%   58.84MB/s    0:01:33
+     973.37M  14%   60.24MB/s    0:01:30
+       1.03G  15%   58.42MB/s    0:01:32
+       1.10G  16%   60.05MB/s    0:01:28
+       1.16G  17%   59.54MB/s    0:01:28
+       1.22G  18%   58.84MB/s    0:01:28
+       1.28G  19%   58.70MB/s    0:01:27
+       1.35G  20%   58.16MB/s    0:01:27
+       1.40G  21%   56.97MB/s    0:01:28
+       1.46G  22%   55.91MB/s    0:01:29
+       1.52G  23%   58.45MB/s    0:01:24
+       1.59G  24%   57.52MB/s    0:01:24
+       1.65G  25%   58.77MB/s    0:01:21
+       1.72G  26%   60.52MB/s    0:01:18
+       1.78G  27%   58.85MB/s    0:01:19
+       1.85G  28%   59.13MB/s    0:01:17
+       1.91G  29%   59.44MB/s    0:01:16
+       1.98G  30%   59.97MB/s    0:01:14
+       2.05G  31%   60.72MB/s    0:01:12
+       2.11G  32%   60.20MB/s    0:01:12
+       2.17G  33%   59.65MB/s    0:01:11
+       2.23G  34%   59.52MB/s    0:01:10
+       2.29G  35%   58.53MB/s    0:01:11
+       2.36G  35%   59.11MB/s    0:01:09
+       2.42G  36%   59.23MB/s    0:01:08
+       2.47G  37%   57.72MB/s    0:01:09
+       2.54G  38%   58.27MB/s    0:01:07
+       2.60G  39%   57.95MB/s    0:01:06
+       2.67G  40%   58.39MB/s    0:01:04
+       2.73G  41%   59.60MB/s    0:01:02
+       2.79G  42%   58.54MB/s    0:01:02
+       2.85G  43%   57.29MB/s    0:01:03
+       2.91G  44%   57.48MB/s    0:01:01
+       2.98G  45%   57.52MB/s    0:01:00
+       3.04G  46%   58.54MB/s    0:00:58
+       3.10G  47%   59.40MB/s    0:00:56
+       3.17G  48%   60.60MB/s    0:00:54
+       3.23G  49%   59.77MB/s    0:00:54
+       3.29G  50%   59.36MB/s    0:00:53
+       3.36G  51%   59.95MB/s    0:00:52
+       3.42G  52%   58.68MB/s    0:00:52
+       3.49G  53%   59.51MB/s    0:00:50
+       3.56G  54%   59.78MB/s    0:00:48
+       3.62G  55%   60.02MB/s    0:00:47
+       3.68G  56%   59.44MB/s    0:00:47
+       3.75G  57%   60.50MB/s    0:00:45
+       3.81G  58%   60.02MB/s    0:00:44
+       3.88G  59%   60.04MB/s    0:00:43
+       3.94G  60%   60.31MB/s    0:00:42
+       4.00G  61%   58.77MB/s    0:00:42
+       4.06G  61%   58.70MB/s    0:00:41
+       4.12G  62%   58.09MB/s    0:00:40
+       4.19G  63%   58.33MB/s    0:00:39
+       4.26G  64%   59.63MB/s    0:00:37
+       4.31G  65%   59.29MB/s    0:00:36
+       4.38G  66%   59.68MB/s    0:00:35
+       4.44G  67%   59.46MB/s    0:00:34
+       4.50G  68%   57.90MB/s    0:00:34
+       4.56G  69%   58.86MB/s    0:00:33
+       4.63G  70%   59.50MB/s    0:00:31
+       4.68G  71%   57.85MB/s    0:00:31
+       4.75G  72%   59.26MB/s    0:00:29
+       4.81G  73%   59.14MB/s    0:00:28
+       4.87G  74%   58.07MB/s    0:00:28
+       4.93G  75%   59.69MB/s    0:00:26
+       5.00G  76%   58.57MB/s    0:00:25
+       5.06G  77%   58.67MB/s    0:00:24
+       5.13G  78%   59.27MB/s    0:00:23
+       5.20G  79%   60.41MB/s    0:00:21
+       5.26G  80%   60.51MB/s    0:00:20
+       5.32G  81%   59.63MB/s    0:00:20
+       5.38G  82%   59.11MB/s    0:00:19
+       5.44G  83%   57.56MB/s    0:00:18
+       5.51G  84%   57.77MB/s    0:00:17
+       5.57G  85%   59.24MB/s    0:00:16
+       5.63G  85%   59.50MB/s    0:00:15
+       5.70G  86%   59.31MB/s    0:00:14
+       5.76G  87%   59.49MB/s    0:00:13
+       5.82G  88%   58.55MB/s    0:00:12
+       5.88G  89%   57.94MB/s    0:00:11
+       5.95G  90%   60.22MB/s    0:00:09
+       6.01G  91%   59.71MB/s    0:00:08
+       6.08G  92%   60.93MB/s    0:00:07
+       6.14G  93%   61.40MB/s    0:00:06
+       6.20G  94%   58.97MB/s    0:00:05
+       6.27G  95%   59.46MB/s    0:00:04
+       6.33G  96%   60.02MB/s    0:00:03
+       6.39G  97%   59.65MB/s    0:00:02
+       6.45G  98%   60.06MB/s    0:00:01
+       6.52G  99%   59.75MB/s    0:00:00
+       6.55G 100%   58.16MB/s    0:01:47 (xfer#165, to-check=38/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_2/Run_674_Wave_MID_2_FILE_1.dat
+      32.77K   0%   53.60kB/s    0:01:04
+       3.47M 100%    4.76MB/s    0:00:00 (xfer#166, to-check=37/230)
+cd+++++++ Run_674_Wave/Run_674_Wave_MID_3/
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_3/Run_674_Wave_MID_3_FILE_0.dat
+      32.77K   0%   45.33kB/s   40:09:49
+      21.00M   0%   20.03MB/s    0:05:18
+      87.06M   1%   39.98MB/s    0:02:37
+     139.76M   2%   42.69MB/s    0:02:26
+     214.20M   3%   49.25MB/s    0:02:05
+     280.36M   4%   59.64MB/s    0:01:42
+     339.77M   5%   59.23MB/s    0:01:42
+     402.03M   6%   62.16MB/s    0:01:36
+     465.70M   7%   59.99MB/s    0:01:39
+     530.61M   8%   59.15MB/s    0:01:39
+     594.05M   9%   60.08MB/s    0:01:36
+     658.80M  10%   60.64MB/s    0:01:34
+     719.62M  10%   59.95MB/s    0:01:35
+     783.19M  11%   60.22MB/s    0:01:33
+     839.94M  12%   58.62MB/s    0:01:35
+     905.22M  13%   58.10MB/s    0:01:34
+     965.41M  14%   57.96MB/s    0:01:34
+       1.03G  15%   57.61MB/s    0:01:33
+       1.10G  16%   59.83MB/s    0:01:29
+       1.16G  17%   58.81MB/s    0:01:29
+       1.22G  18%   58.90MB/s    0:01:28
+       1.28G  19%   59.23MB/s    0:01:26
+       1.35G  20%   58.82MB/s    0:01:26
+       1.42G  21%   60.01MB/s    0:01:23
+       1.47G  22%   58.96MB/s    0:01:24
+       1.55G  23%   60.91MB/s    0:01:20
+       1.60G  24%   59.28MB/s    0:01:21
+       1.67G  25%   60.25MB/s    0:01:19
+       1.73G  26%   60.11MB/s    0:01:18
+       1.79G  27%   59.19MB/s    0:01:18
+       1.85G  28%   59.58MB/s    0:01:17
+       1.91G  29%   58.31MB/s    0:01:17
+       1.98G  30%   60.33MB/s    0:01:14
+       2.04G  31%   57.75MB/s    0:01:16
+       2.09G  31%   56.69MB/s    0:01:16
+       2.15G  32%   55.30MB/s    0:01:17
+       2.19G  33%   48.44MB/s    0:01:28
+       2.24G  34%   48.06MB/s    0:01:27
+       2.32G  35%   52.51MB/s    0:01:18
+       2.39G  36%   56.47MB/s    0:01:12
+       2.44G  37%   57.03MB/s    0:01:10
+       2.49G  38%   56.63MB/s    0:01:10
+       2.59G  39%   60.42MB/s    0:01:04
+       2.65G  40%   58.46MB/s    0:01:05
+       2.71G  41%   63.03MB/s    0:00:59
+       2.75G  41%   60.95MB/s    0:01:00
+       2.79G  42%   48.21MB/s    0:01:16
+       2.87G  43%   52.48MB/s    0:01:08
+       2.95G  44%   57.52MB/s    0:01:01
+       3.01G  45%   61.43MB/s    0:00:56
+       3.07G  46%   67.34MB/s    0:00:50
+       3.13G  47%   62.73MB/s    0:00:53
+       3.20G  48%   59.05MB/s    0:00:55
+       3.26G  49%   59.20MB/s    0:00:54
+       3.33G  50%   60.35MB/s    0:00:52
+       3.38G  51%   58.96MB/s    0:00:52
+       3.45G  52%   59.15MB/s    0:00:51
+       3.51G  53%   58.36MB/s    0:00:50
+       3.57G  54%   56.70MB/s    0:00:51
+       3.63G  55%   58.80MB/s    0:00:48
+       3.69G  56%   58.25MB/s    0:00:47
+       3.76G  57%   59.29MB/s    0:00:46
+       3.82G  58%   59.83MB/s    0:00:44
+       3.89G  59%   60.15MB/s    0:00:43
+       3.95G  60%   60.39MB/s    0:00:42
+       4.00G  61%   58.77MB/s    0:00:42
+       4.07G  62%   58.34MB/s    0:00:41
+       4.13G  63%   57.14MB/s    0:00:41
+       4.20G  64%   58.12MB/s    0:00:39
+       4.25G  64%   57.81MB/s    0:00:38
+       4.32G  65%   59.66MB/s    0:00:36
+       4.38G  66%   59.27MB/s    0:00:35
+       4.45G  67%   60.24MB/s    0:00:34
+       4.51G  68%   61.63MB/s    0:00:32
+       4.57G  69%   60.04MB/s    0:00:32
+       4.63G  70%   59.64MB/s    0:00:31
+       4.70G  71%   58.10MB/s    0:00:31
+       4.77G  72%   58.63MB/s    0:00:29
+       4.83G  73%   59.30MB/s    0:00:28
+       4.90G  74%   60.05MB/s    0:00:26
+       4.96G  75%   60.18MB/s    0:00:25
+       5.03G  76%   61.02MB/s    0:00:24
+       5.09G  77%   58.43MB/s    0:00:24
+       5.16G  78%   60.27MB/s    0:00:22
+       5.22G  79%   59.93MB/s    0:00:21
+       5.27G  80%   56.42MB/s    0:00:22
+       5.37G  81%   66.99MB/s    0:00:17
+       5.46G  83%   69.98MB/s    0:00:15
+       5.58G  85%   83.91MB/s    0:00:11
+       5.70G  86%  101.09MB/s    0:00:08
+       5.81G  88%  104.59MB/s    0:00:06
+       5.92G  90%  111.62MB/s    0:00:05
+       6.04G  92%  109.55MB/s    0:00:04
+       6.16G  93%  109.57MB/s    0:00:03
+       6.28G  95%  110.47MB/s    0:00:02
+       6.38G  97%  109.19MB/s    0:00:01
+       6.50G  99%  109.86MB/s    0:00:00
+       6.55G 100%   63.80MB/s    0:01:37 (xfer#167, to-check=35/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_3/Run_674_Wave_MID_3_FILE_1.dat
+      32.77K   0%   62.14kB/s    0:00:55
+       3.47M 100%    5.16MB/s    0:00:00 (xfer#168, to-check=34/230)
+cd+++++++ Run_674_Wave/Run_674_Wave_MID_4/
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_4/Run_674_Wave_MID_4_FILE_0.dat
+      32.77K   0%   49.23kB/s   36:58:40
+      33.85M   0%   32.28MB/s    0:03:17
+     142.11M   2%   67.53MB/s    0:01:32
+     205.52M   3%   65.20MB/s    0:01:35
+     316.77M   4%   75.43MB/s    0:01:20
+     438.08M   6%   96.25MB/s    0:01:02
+     553.39M   8%   98.10MB/s    0:00:59
+     670.92M  10%  111.02MB/s    0:00:51
+     768.44M  11%  107.74MB/s    0:00:52
+     868.78M  13%  102.76MB/s    0:00:54
+     964.46M  14%   98.06MB/s    0:00:55
+       1.06G  16%   92.32MB/s    0:00:58
+       1.15G  17%   90.44MB/s    0:00:58
+       1.23G  18%   87.26MB/s    0:00:59
+       1.34G  20%   90.05MB/s    0:00:56
+       1.45G  22%   93.56MB/s    0:00:53
+       1.57G  23%  100.00MB/s    0:00:48
+       1.63G  24%   95.05MB/s    0:00:50
+       1.70G  26%   86.38MB/s    0:00:54
+       1.79G  27%   80.46MB/s    0:00:57
+       1.80G  27%   55.81MB/s    0:01:23
+       1.81G  27%   43.08MB/s    0:01:47
+       1.83G  27%   29.29MB/s    0:02:37
+       1.84G  28%   12.37MB/s    0:06:12
+       1.85G  28%   12.03MB/s    0:06:21
+       1.87G  28%   12.07MB/s    0:06:19
+       1.88G  28%   12.04MB/s    0:06:19
+       1.89G  28%   11.84MB/s    0:06:24
+       1.96G  29%   24.72MB/s    0:03:01
+       2.02G  30%   36.40MB/s    0:02:01
+       2.03G  31%   36.32MB/s    0:02:01
+       2.05G  31%   36.61MB/s    0:02:00
+       2.06G  31%   23.99MB/s    0:03:02
+       2.07G  31%   12.43MB/s    0:05:52
+       2.09G  31%   12.65MB/s    0:05:44
+       2.10G  32%   12.86MB/s    0:05:38
+       2.11G  32%   12.88MB/s    0:05:36
+       2.16G  32%   19.54MB/s    0:03:39
+       2.26G  34%   40.87MB/s    0:01:42
+       2.27G  34%   40.85MB/s    0:01:42
+       2.29G  34%   40.94MB/s    0:01:41
+       2.30G  35%   34.28MB/s    0:02:01
+       2.31G  35%   13.00MB/s    0:05:18
+       2.33G  35%   12.93MB/s    0:05:19
+       2.34G  35%   12.87MB/s    0:05:19
+       2.36G  35%   12.89MB/s    0:05:18
+       2.37G  36%   13.06MB/s    0:05:12
+       2.48G  37%   35.94MB/s    0:01:50
+       2.51G  38%   40.76MB/s    0:01:36
+       2.53G  38%   40.68MB/s    0:01:36
+       2.54G  38%   40.55MB/s    0:01:36
+       2.55G  38%   17.65MB/s    0:03:41
+       2.57G  39%   12.84MB/s    0:05:03
+       2.58G  39%   12.87MB/s    0:05:01
+       2.59G  39%   12.81MB/s    0:05:01
+       2.61G  39%   12.93MB/s    0:04:58
+       2.69G  41%   28.60MB/s    0:02:11
+       2.75G  41%   39.41MB/s    0:01:34
+       2.76G  42%   39.44MB/s    0:01:33
+       2.78G  42%   39.44MB/s    0:01:33
+       2.79G  42%   23.63MB/s    0:02:35
+       2.80G  42%   12.97MB/s    0:04:42
+       2.82G  42%   12.95MB/s    0:04:41
+       2.83G  43%   12.86MB/s    0:04:42
+       2.84G  43%   12.97MB/s    0:04:39
+       2.90G  44%   22.58MB/s    0:02:38
+       2.98G  45%   39.67MB/s    0:01:27
+       3.00G  45%   39.49MB/s    0:01:27
+       3.01G  45%   39.47MB/s    0:01:27
+       3.02G  46%   29.75MB/s    0:01:55
+       3.04G  46%   12.77MB/s    0:04:28
+       3.05G  46%   12.78MB/s    0:04:27
+       3.07G  46%   12.78MB/s    0:04:26
+       3.08G  46%   12.81MB/s    0:04:25
+       3.10G  47%   14.44MB/s    0:03:53
+       3.20G  48%   35.14MB/s    0:01:33
+       3.24G  49%   40.89MB/s    0:01:19
+       3.25G  49%   40.83MB/s    0:01:18
+       3.26G  49%   39.19MB/s    0:01:21
+       3.28G  50%   18.61MB/s    0:02:51
+       3.29G  50%   12.85MB/s    0:04:07
+       3.31G  50%   12.88MB/s    0:04:06
+       3.32G  50%   12.82MB/s    0:04:06
+       3.33G  50%   12.78MB/s    0:04:06
+       3.39G  51%   24.26MB/s    0:02:07
+       3.48G  53%   40.83MB/s    0:01:13
+       3.49G  53%   40.90MB/s    0:01:13
+       3.50G  53%   41.04MB/s    0:01:12
+       3.52G  53%   29.34MB/s    0:01:41
+       3.53G  53%   12.76MB/s    0:03:51
+       3.55G  54%   12.79MB/s    0:03:49
+       3.56G  54%   12.81MB/s    0:03:48
+       3.57G  54%   12.79MB/s    0:03:47
+       3.60G  54%   16.52MB/s    0:02:54
+       3.71G  56%   39.96MB/s    0:01:09
+       3.73G  56%   41.26MB/s    0:01:06
+       3.75G  57%   41.28MB/s    0:01:06
+       3.76G  57%   37.55MB/s    0:01:12
+       3.77G  57%   14.21MB/s    0:03:11
+       3.79G  57%   12.81MB/s    0:03:30
+       3.80G  57%   12.79MB/s    0:03:30
+       3.81G  58%   12.76MB/s    0:03:29
+       3.83G  58%   12.81MB/s    0:03:27
+       3.91G  59%   28.74MB/s    0:01:29
+       3.98G  60%   42.04MB/s    0:00:59
+       3.99G  60%   41.92MB/s    0:00:59
+       4.00G  61%   41.82MB/s    0:00:59
+       4.02G  61%   25.85MB/s    0:01:35
+       4.03G  61%   12.70MB/s    0:03:14
+       4.04G  61%   12.86MB/s    0:03:10
+       4.06G  61%   12.88MB/s    0:03:09
+       4.07G  62%   12.87MB/s    0:03:08
+       4.11G  62%   19.10MB/s    0:02:04
+       4.22G  64%   41.18MB/s    0:00:55
+       4.23G  64%   41.04MB/s    0:00:55
+       4.24G  64%   41.09MB/s    0:00:54
+       4.26G  64%   34.56MB/s    0:01:04
+       4.27G  65%   12.50MB/s    0:02:58
+       4.28G  65%   12.57MB/s    0:02:56
+       4.30G  65%   12.46MB/s    0:02:56
+       4.31G  65%   12.32MB/s    0:02:57
+       4.32G  65%   12.41MB/s    0:02:55
+       4.39G  66%   24.58MB/s    0:01:26
+       4.44G  67%   33.24MB/s    0:01:02
+       4.45G  67%   33.37MB/s    0:01:01
+       4.46G  68%   32.42MB/s    0:01:03
+       4.47G  68%   19.69MB/s    0:01:43
+       4.48G  68%   10.91MB/s    0:03:05
+       4.50G  68%   11.11MB/s    0:03:00
+       4.51G  68%   11.76MB/s    0:02:49
+       4.52G  69%   12.20MB/s    0:02:42
+       4.54G  69%   12.26MB/s    0:02:40
+       4.60G  70%   23.41MB/s    0:01:21
+       4.67G  71%   38.13MB/s    0:00:48
+       4.68G  71%   38.12MB/s    0:00:47
+       4.70G  71%   37.94MB/s    0:00:47
+       4.71G  71%   26.67MB/s    0:01:07
+       4.72G  72%   12.30MB/s    0:02:25
+       4.73G  72%   12.23MB/s    0:02:25
+       4.75G  72%   12.34MB/s    0:02:22
+       4.76G  72%   12.16MB/s    0:02:24
+       4.77G  72%   11.89MB/s    0:02:26
+       4.82G  73%   19.72MB/s    0:01:25
+       4.87G  74%   28.60MB/s    0:00:57
+       4.88G  74%   28.17MB/s    0:00:58
+       4.89G  74%   28.33MB/s    0:00:57
+       4.90G  74%   20.26MB/s    0:01:19
+       4.92G  75%   11.32MB/s    0:02:21
+       4.93G  75%   12.00MB/s    0:02:12
+       4.94G  75%   12.00MB/s    0:02:11
+       4.96G  75%   12.31MB/s    0:02:06
+       4.97G  75%   12.32MB/s    0:02:05
+       5.01G  76%   19.76MB/s    0:01:16
+       5.10G  77%   37.68MB/s    0:00:37
+       5.12G  78%   37.74MB/s    0:00:37
+       5.13G  78%   37.57MB/s    0:00:37
+       5.14G  78%   30.01MB/s    0:00:46
+       5.15G  78%   11.93MB/s    0:01:54
+       5.17G  78%   11.78MB/s    0:01:55
+       5.18G  79%   11.92MB/s    0:01:52
+       5.19G  79%   11.94MB/s    0:01:51
+       5.20G  79%   11.95MB/s    0:01:50
+       5.22G  79%   12.70MB/s    0:01:42
+       5.29G  80%   26.25MB/s    0:00:47
+       5.40G  82%   49.50MB/s    0:00:22
+       5.52G  84%   74.63MB/s    0:00:13
+       5.63G  85%   97.83MB/s    0:00:09
+       5.75G  87%  109.34MB/s    0:00:07
+       5.87G  89%  112.00MB/s    0:00:05
+       5.98G  91%  109.36MB/s    0:00:05
+       6.10G  93%  111.33MB/s    0:00:04
+       6.22G  94%  112.41MB/s    0:00:02
+       6.33G  96%  110.52MB/s    0:00:01
+       6.45G  98%  112.79MB/s    0:00:00
+       6.55G 100%   35.72MB/s    0:02:54 (xfer#169, to-check=32/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_4/Run_674_Wave_MID_4_FILE_1.dat
+      32.77K   0%   37.21kB/s    0:01:32
+       2.95M  84%    2.81MB/s    0:00:00
+       3.47M 100%    3.30MB/s    0:00:01 (xfer#170, to-check=31/230)
+cd+++++++ Run_674_Wave/Run_674_Wave_MID_5/
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_5/Run_674_Wave_MID_5_FILE_0.dat
+      32.77K   0% 1000.00kB/s    1:49:13
+     106.20M   1%  101.28MB/s    0:01:02
+     190.61M   2%   90.89MB/s    0:01:08
+     292.32M   4%   92.93MB/s    0:01:05
+     412.91M   6%   98.47MB/s    0:01:00
+     533.89M   8%  101.99MB/s    0:00:57
+     654.64M   9%  110.69MB/s    0:00:52
+     775.72M  11%  115.34MB/s    0:00:48
+     896.17M  13%  115.28MB/s    0:00:47
+       1.02G  15%  115.31MB/s    0:00:46
+       1.14G  17%  115.37MB/s    0:00:45
+       1.26G  19%  115.41MB/s    0:00:44
+       1.36G  20%  109.97MB/s    0:00:46
+       1.47G  22%  108.65MB/s    0:00:45
+       1.59G  24%  106.59MB/s    0:00:45
+       1.70G  25%  104.70MB/s    0:00:45
+       1.82G  27%  110.50MB/s    0:00:41
+       1.94G  29%  111.70MB/s    0:00:40
+       2.06G  31%  113.95MB/s    0:00:38
+       2.19G  33%  115.89MB/s    0:00:36
+       2.31G  35%  115.69MB/s    0:00:35
+       2.40G  36%  108.19MB/s    0:00:37
+       2.50G  38%  103.44MB/s    0:00:38
+       2.62G  39%  103.56MB/s    0:00:37
+       2.74G  41%  103.75MB/s    0:00:35
+       2.85G  43%  109.20MB/s    0:00:33
+       2.96G  45%  110.94MB/s    0:00:31
+       3.07G  46%  108.33MB/s    0:00:31
+       3.18G  48%  103.82MB/s    0:00:31
+       3.30G  50%  106.53MB/s    0:00:29
+       3.40G  51%  104.00MB/s    0:00:29
+       3.52G  53%  106.67MB/s    0:00:27
+       3.64G  55%  109.77MB/s    0:00:25
+       3.76G  57%  109.34MB/s    0:00:24
+       3.88G  59%  114.90MB/s    0:00:22
+       4.00G  61%  114.81MB/s    0:00:21
+       4.12G  62%  116.33MB/s    0:00:20
+       4.25G  64%  116.38MB/s    0:00:19
+       4.37G  66%  116.46MB/s    0:00:18
+       4.49G  68%  116.53MB/s    0:00:17
+       4.61G  70%  115.58MB/s    0:00:16
+       4.73G  72%  114.74MB/s    0:00:15
+       4.84G  73%  111.46MB/s    0:00:15
+       4.96G  75%  110.88MB/s    0:00:14
+       5.07G  77%  110.53MB/s    0:00:13
+       5.19G  79%  110.05MB/s    0:00:12
+       5.31G  81%  113.40MB/s    0:00:10
+       5.43G  82%  113.90MB/s    0:00:09
+       5.56G  84%  115.12MB/s    0:00:08
+       5.68G  86%  116.45MB/s    0:00:07
+       5.80G  88%  116.38MB/s    0:00:06
+       5.92G  90%  116.48MB/s    0:00:05
+       6.04G  92%  114.73MB/s    0:00:04
+       6.16G  93%  114.69MB/s    0:00:03
+       6.28G  95%  114.28MB/s    0:00:02
+       6.39G  97%  111.75MB/s    0:00:01
+       6.51G  99%  113.46MB/s    0:00:00
+       6.55G 100%  110.96MB/s    0:00:56 (xfer#171, to-check=29/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_5/Run_674_Wave_MID_5_FILE_1.dat
+      32.77K   0%   92.22kB/s    0:00:37
+       3.47M 100%    8.20MB/s    0:00:00 (xfer#172, to-check=28/230)
+cd+++++++ Run_674_Wave/Run_674_Wave_MID_6/
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_6/Run_674_Wave_MID_6_FILE_0.dat
+      32.77K   0%   78.82kB/s   23:05:49
+      54.13M   0%   51.62MB/s    0:02:02
+     167.54M   2%   79.02MB/s    0:01:18
+     284.72M   4%   89.85MB/s    0:01:08
+     407.14M   6%   96.56MB/s    0:01:02
+     529.30M   8%  112.67MB/s    0:00:52
+     644.74M   9%  113.83MB/s    0:00:50
+     766.54M  11%  114.90MB/s    0:00:49
+     888.44M  13%  114.75MB/s    0:00:48
+       1.01G  15%  114.75MB/s    0:00:47
+       1.13G  17%  116.41MB/s    0:00:45
+       1.25G  19%  116.38MB/s    0:00:44
+       1.38G  20%  116.36MB/s    0:00:43
+       1.49G  22%  115.52MB/s    0:00:42
+       1.61G  24%  113.96MB/s    0:00:42
+       1.72G  26%  112.14MB/s    0:00:42
+       1.83G  27%  108.42MB/s    0:00:42
+       1.94G  29%  105.63MB/s    0:00:42
+       2.06G  31%  107.15MB/s    0:00:40
+       2.18G  33%  109.05MB/s    0:00:39
+       2.30G  35%  112.78MB/s    0:00:36
+       2.43G  37%  116.40MB/s    0:00:34
+       2.55G  38%  116.34MB/s    0:00:33
+       2.67G  40%  116.31MB/s    0:00:32
+       2.79G  42%  116.38MB/s    0:00:31
+       2.91G  44%  116.40MB/s    0:00:30
+       3.03G  46%  114.25MB/s    0:00:30
+       3.15G  48%  114.34MB/s    0:00:29
+       3.26G  49%  111.27MB/s    0:00:28
+       3.37G  51%  108.96MB/s    0:00:28
+       3.49G  53%  110.08MB/s    0:00:27
+       3.60G  54%  106.92MB/s    0:00:27
+       3.71G  56%  108.72MB/s    0:00:25
+       3.84G  58%  110.91MB/s    0:00:23
+       3.96G  60%  111.86MB/s    0:00:22
+       4.08G  62%  114.93MB/s    0:00:21
+       4.19G  63%  114.23MB/s    0:00:20
+       4.31G  65%  114.36MB/s    0:00:19
+       4.44G  67%  114.34MB/s    0:00:18
+       4.56G  69%  114.30MB/s    0:00:17
+       4.68G  71%  115.33MB/s    0:00:15
+       4.80G  73%  115.31MB/s    0:00:14
+       4.91G  74%  113.09MB/s    0:00:14
+       5.02G  76%  109.99MB/s    0:00:13
+       5.13G  78%  109.31MB/s    0:00:12
+       5.25G  80%  108.87MB/s    0:00:11
+       5.37G  81%  109.50MB/s    0:00:10
+       5.49G  83%  112.72MB/s    0:00:09
+       5.61G  85%  114.25MB/s    0:00:08
+       5.74G  87%  114.67MB/s    0:00:06
+       5.86G  89%  116.38MB/s    0:00:05
+       5.98G  91%  116.35MB/s    0:00:04
+       6.10G  93%  116.41MB/s    0:00:03
+       6.22G  94%  116.46MB/s    0:00:02
+       6.35G  96%  116.48MB/s    0:00:01
+       6.47G  98%  116.21MB/s    0:00:00
+       6.55G 100%  112.19MB/s    0:00:55 (xfer#173, to-check=26/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_6/Run_674_Wave_MID_6_FILE_1.dat
+      32.77K   0%   45.13kB/s    0:01:16
+       3.47M 100%    4.42MB/s    0:00:00 (xfer#174, to-check=25/230)
+cd+++++++ Run_674_Wave/Run_674_Wave_MID_7/
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_7/Run_674_Wave_MID_7_FILE_0.dat
+      32.77K   0%   41.83kB/s   43:31:12
+      24.41M   0%   23.26MB/s    0:04:34
+     140.02M   2%   66.73MB/s    0:01:33
+     243.56M   3%   77.40MB/s    0:01:19
+     351.31M   5%   83.74MB/s    0:01:12
+     469.14M   7%  106.03MB/s    0:00:56
+     582.84M   8%  105.60MB/s    0:00:55
+     705.46M  10%  110.18MB/s    0:00:51
+     828.15M  12%  113.74MB/s    0:00:49
+     950.83M  14%  114.84MB/s    0:00:47
+       1.07G  16%  116.80MB/s    0:00:45
+       1.19G  18%  116.59MB/s    0:00:44
+       1.31G  20%  115.16MB/s    0:00:44
+       1.43G  21%  115.19MB/s    0:00:43
+       1.55G  23%  114.75MB/s    0:00:42
+       1.68G  25%  114.91MB/s    0:00:41
+       1.80G  27%  115.62MB/s    0:00:40
+       1.92G  29%  114.75MB/s    0:00:39
+       2.03G  31%  114.12MB/s    0:00:38
+       2.16G  32%  114.38MB/s    0:00:37
+       2.23G  34%  103.12MB/s    0:00:40
+       2.28G  34%   86.44MB/s    0:00:48
+       2.36G  36%   78.50MB/s    0:00:52
+       2.46G  37%   73.38MB/s    0:00:54
+       2.55G  38%   76.25MB/s    0:00:51
+       2.61G  39%   78.24MB/s    0:00:49
+       2.71G  41%   81.70MB/s    0:00:45
+       2.83G  43%   86.56MB/s    0:00:42
+       2.95G  45%   95.43MB/s    0:00:36
+       3.07G  46%  110.56MB/s    0:00:30
+       3.19G  48%  115.52MB/s    0:00:28
+       3.31G  50%  115.50MB/s    0:00:27
+       3.43G  52%  113.87MB/s    0:00:26
+       3.54G  54%  112.61MB/s    0:00:26
+       3.65G  55%  109.46MB/s    0:00:25
+       3.77G  57%  109.30MB/s    0:00:24
+       3.89G  59%  110.97MB/s    0:00:23
+       4.01G  61%  112.56MB/s    0:00:22
+       4.14G  63%  116.35MB/s    0:00:20
+       4.26G  64%  116.39MB/s    0:00:19
+       4.38G  66%  116.39MB/s    0:00:18
+       4.50G  68%  116.05MB/s    0:00:17
+       4.62G  70%  114.96MB/s    0:00:16
+       4.74G  72%  114.43MB/s    0:00:15
+       4.86G  74%  114.56MB/s    0:00:14
+       4.98G  76%  115.27MB/s    0:00:13
+       5.11G  77%  116.21MB/s    0:00:12
+       5.22G  79%  114.18MB/s    0:00:11
+       5.34G  81%  114.27MB/s    0:00:10
+       5.46G  83%  113.73MB/s    0:00:09
+       5.58G  85%  113.88MB/s    0:00:08
+       5.71G  87%  116.40MB/s    0:00:07
+       5.82G  88%  114.71MB/s    0:00:06
+       5.94G  90%  115.02MB/s    0:00:05
+       6.07G  92%  114.94MB/s    0:00:04
+       6.19G  94%  115.02MB/s    0:00:03
+       6.31G  96%  116.50MB/s    0:00:02
+       6.43G  98%  116.36MB/s    0:00:01
+       6.55G  99%  115.34MB/s    0:00:00
+       6.55G 100%  107.69MB/s    0:00:58 (xfer#175, to-check=23/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_7/Run_674_Wave_MID_7_FILE_1.dat
+      32.77K   0%  842.11kB/s    0:00:04
+       3.47M 100%   24.00MB/s    0:00:00 (xfer#176, to-check=22/230)
+cd+++++++ Run_674_Wave/Run_674_Wave_MID_8/
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_8/Run_674_Wave_MID_8_FILE_0.dat
+      32.77K   0%  205.13kB/s    8:52:28
+      93.26M   1%   88.94MB/s    0:01:10
+     191.40M   2%   89.83MB/s    0:01:09
+     295.80M   4%   93.07MB/s    0:01:05
+     406.36M   6%   96.14MB/s    0:01:02
+     522.22M   7%  101.51MB/s    0:00:58
+     631.28M   9%  104.95MB/s    0:00:55
+     753.43M  11%  109.16MB/s    0:00:51
+     875.07M  13%  111.81MB/s    0:00:49
+     997.06M  15%  113.27MB/s    0:00:47
+       1.12G  17%  116.40MB/s    0:00:45
+       1.24G  18%  116.39MB/s    0:00:44
+       1.36G  20%  116.40MB/s    0:00:43
+       1.49G  22%  116.40MB/s    0:00:42
+       1.60G  24%  113.92MB/s    0:00:42
+       1.72G  26%  113.41MB/s    0:00:41
+       1.83G  27%  110.67MB/s    0:00:41
+       1.95G  29%  110.20MB/s    0:00:40
+       2.07G  31%  113.13MB/s    0:00:38
+       2.19G  33%  113.88MB/s    0:00:37
+       2.31G  35%  115.22MB/s    0:00:35
+       2.43G  37%  115.80MB/s    0:00:34
+       2.55G  38%  115.28MB/s    0:00:33
+       2.68G  40%  115.09MB/s    0:00:32
+       2.79G  42%  115.45MB/s    0:00:31
+       2.92G  44%  115.34MB/s    0:00:30
+       3.04G  46%  115.33MB/s    0:00:29
+       3.16G  48%  115.24MB/s    0:00:28
+       3.28G  50%  116.42MB/s    0:00:27
+       3.40G  51%  116.12MB/s    0:00:26
+       3.53G  53%  116.29MB/s    0:00:25
+       3.65G  55%  116.78MB/s    0:00:24
+       3.77G  57%  115.38MB/s    0:00:23
+       3.87G  59%  111.63MB/s    0:00:23
+       3.99G  60%  109.71MB/s    0:00:22
+       4.11G  62%  108.89MB/s    0:00:21
+       4.22G  64%  108.68MB/s    0:00:20
+       4.34G  66%  112.64MB/s    0:00:19
+       4.47G  68%  114.34MB/s    0:00:17
+       4.59G  69%  114.72MB/s    0:00:16
+       4.71G  71%  115.68MB/s    0:00:15
+       4.82G  73%  113.67MB/s    0:00:14
+       4.94G  75%  113.77MB/s    0:00:13
+       5.06G  77%  112.64MB/s    0:00:12
+       5.18G  78%  112.19MB/s    0:00:11
+       5.30G  80%  113.72MB/s    0:00:10
+       5.41G  82%  110.84MB/s    0:00:10
+       5.53G  84%  111.75MB/s    0:00:08
+       5.65G  86%  113.25MB/s    0:00:07
+       5.77G  88%  113.18MB/s    0:00:06
+       5.89G  89%  116.09MB/s    0:00:05
+       6.02G  91%  116.34MB/s    0:00:04
+       6.14G  93%  115.95MB/s    0:00:03
+       6.26G  95%  116.57MB/s    0:00:02
+       6.38G  97%  115.21MB/s    0:00:01
+       6.50G  99%  115.20MB/s    0:00:00
+       6.55G 100%  112.71MB/s    0:00:55 (xfer#177, to-check=20/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_8/Run_674_Wave_MID_8_FILE_1.dat
+      32.77K   0%   69.87kB/s    0:00:49
+       3.47M 100%    6.33MB/s    0:00:00 (xfer#178, to-check=19/230)
+cd+++++++ Run_674_Wave/Run_674_Wave_MID_9/
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_9/Run_674_Wave_MID_9_FILE_0.dat
+      32.77K   0%   59.93kB/s   30:22:43
+      51.74M   0%   49.34MB/s    0:02:08
+     168.33M   2%   80.31MB/s    0:01:17
+     280.53M   4%   89.24MB/s    0:01:08
+     402.88M   6%   96.10MB/s    0:01:02
+     516.26M   7%  110.78MB/s    0:00:53
+     634.78M   9%  111.21MB/s    0:00:51
+     757.89M  11%  113.81MB/s    0:00:49
+     879.46M  13%  113.62MB/s    0:00:48
+     995.52M  15%  114.27MB/s    0:00:47
+       1.12G  17%  115.10MB/s    0:00:46
+       1.23G  18%  113.56MB/s    0:00:45
+       1.35G  20%  112.10MB/s    0:00:45
+       1.47G  22%  113.59MB/s    0:00:43
+       1.59G  24%  113.56MB/s    0:00:42
+       1.72G  26%  114.90MB/s    0:00:41
+       1.84G  28%  116.48MB/s    0:00:39
+       1.96G  29%  115.62MB/s    0:00:38
+       2.08G  31%  116.00MB/s    0:00:37
+       2.19G  33%  112.01MB/s    0:00:38
+       2.31G  35%  112.32MB/s    0:00:36
+       2.43G  37%  112.63MB/s    0:00:35
+       2.55G  38%  111.31MB/s    0:00:35
+       2.67G  40%  115.31MB/s    0:00:32
+       2.79G  42%  114.93MB/s    0:00:31
+       2.91G  44%  115.46MB/s    0:00:30
+       3.04G  46%  116.35MB/s    0:00:29
+       3.16G  48%  116.29MB/s    0:00:28
+       3.28G  50%  116.31MB/s    0:00:27
+       3.40G  51%  115.26MB/s    0:00:26
+       3.52G  53%  115.21MB/s    0:00:25
+       3.64G  55%  115.27MB/s    0:00:24
+       3.76G  57%  114.07MB/s    0:00:23
+       3.88G  59%  115.55MB/s    0:00:22
+       3.99G  60%  113.50MB/s    0:00:22
+       4.11G  62%  112.94MB/s    0:00:21
+       4.23G  64%  113.49MB/s    0:00:19
+       4.35G  66%  112.19MB/s    0:00:19
+       4.47G  68%  113.94MB/s    0:00:17
+       4.59G  70%  113.14MB/s    0:00:16
+       4.71G  71%  113.88MB/s    0:00:15
+       4.83G  73%  113.75MB/s    0:00:14
+       4.95G  75%  114.12MB/s    0:00:13
+       5.07G  77%  115.42MB/s    0:00:12
+       5.19G  79%  115.31MB/s    0:00:11
+       5.32G  81%  116.12MB/s    0:00:10
+       5.44G  82%  115.53MB/s    0:00:09
+       5.55G  84%  113.69MB/s    0:00:08
+       5.67G  86%  113.78MB/s    0:00:07
+       5.79G  88%  113.00MB/s    0:00:06
+       5.91G  90%  114.11MB/s    0:00:05
+       6.04G  92%  116.03MB/s    0:00:04
+       6.16G  93%  115.97MB/s    0:00:03
+       6.28G  95%  117.00MB/s    0:00:02
+       6.40G  97%  116.48MB/s    0:00:01
+       6.53G  99%  116.44MB/s    0:00:00
+       6.55G 100%  113.16MB/s    0:00:55 (xfer#179, to-check=17/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_MID_9/Run_674_Wave_MID_9_FILE_1.dat
+      32.77K   0%  137.34kB/s    0:00:25
+       3.47M 100%   10.22MB/s    0:00:00 (xfer#180, to-check=16/230)
+cd+++++++ Run_674_Wave/Run_674_Wave_log/
+>f+++++++ Run_674_Wave/Run_674_Wave_log/Run_674_Wave_MID_10_buffer.txt
+      32.77K   1%   98.16kB/s    0:00:16
+       1.68M 100%    4.49MB/s    0:00:00 (xfer#181, to-check=14/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_log/Run_674_Wave_MID_11_buffer.txt
+      32.77K   1%   89.39kB/s    0:00:18
+       1.68M 100%    3.99MB/s    0:00:00 (xfer#182, to-check=13/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_log/Run_674_Wave_MID_12_buffer.txt
+      32.77K   1%   79.60kB/s    0:00:20
+       1.68M 100%    3.74MB/s    0:00:00 (xfer#183, to-check=12/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_log/Run_674_Wave_MID_13_buffer.txt
+      32.77K   1%   74.42kB/s    0:00:22
+       1.68M 100%    3.52MB/s    0:00:00 (xfer#184, to-check=11/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_log/Run_674_Wave_MID_14_buffer.txt
+      32.77K   1%   70.02kB/s    0:00:23
+       1.68M 100%    3.30MB/s    0:00:00 (xfer#185, to-check=10/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_log/Run_674_Wave_MID_15_buffer.txt
+      32.77K   1%   65.98kB/s    0:00:24
+       1.68M 100%    3.07MB/s    0:00:00 (xfer#186, to-check=9/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_log/Run_674_Wave_MID_1_buffer.txt
+      32.77K   1%   61.07kB/s    0:00:26
+       1.68M 100%    2.91MB/s    0:00:00 (xfer#187, to-check=8/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_log/Run_674_Wave_MID_2_buffer.txt
+      32.77K   1%   58.08kB/s    0:00:28
+       1.68M 100%    2.78MB/s    0:00:00 (xfer#188, to-check=7/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_log/Run_674_Wave_MID_3_buffer.txt
+      32.77K   1%   55.56kB/s    0:00:29
+       1.68M 100%    2.68MB/s    0:00:00 (xfer#189, to-check=6/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_log/Run_674_Wave_MID_4_buffer.txt
+      32.77K   1%   53.16kB/s    0:00:30
+       1.68M 100%    2.55MB/s    0:00:00 (xfer#190, to-check=5/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_log/Run_674_Wave_MID_5_buffer.txt
+      32.77K   1%   50.87kB/s    0:00:32
+       1.68M 100%    2.45MB/s    0:00:00 (xfer#191, to-check=4/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_log/Run_674_Wave_MID_6_buffer.txt
+      32.77K   1%   48.85kB/s    0:00:33
+       1.68M 100%    2.35MB/s    0:00:00 (xfer#192, to-check=3/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_log/Run_674_Wave_MID_7_buffer.txt
+      32.77K   1%   47.06kB/s    0:00:34
+       1.68M 100%    2.25MB/s    0:00:00 (xfer#193, to-check=2/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_log/Run_674_Wave_MID_8_buffer.txt
+      32.77K   1%   44.88kB/s    0:00:36
+       1.68M 100%    2.11MB/s    0:00:00 (xfer#194, to-check=1/230)
+>f+++++++ Run_674_Wave/Run_674_Wave_log/Run_674_Wave_MID_9_buffer.txt
+      32.77K   1%   41.61kB/s    0:00:39
+       1.68M 100%    2.01MB/s    0:00:00 (xfer#195, to-check=0/230)
+
+sent 101.47G bytes  received 4.52K bytes  65.78M bytes/sec
+total size is 101.46G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_674/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_674_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

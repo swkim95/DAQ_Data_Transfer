@@ -1,0 +1,322 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_719/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_719[0m
+[94m[INFO][0m SSD data folder size = [96m[1m9.236 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [#############-------------------------------------][0m [92m[1m25.968 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 3869.704 GB / Free : [4m11031.849 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_719/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_719/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_719.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_719/ /Volumes/HDD_16TB_1/HDD_Run_719/[0m`? [y/n] 
+building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_719
+cd+++++++ ./
+cd+++++++ Run_719_Fast/
+cd+++++++ Run_719_Fast/Run_719_Fast_MID_1/
+>f+++++++ Run_719_Fast/Run_719_Fast_MID_1/Run_719_Fast_MID_1_FILE_0.dat
+      32.77K   1%    0.00kB/s    0:00:00
+       2.56M 100%   61.70MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_719_Fast/Run_719_Fast_MID_10/
+>f+++++++ Run_719_Fast/Run_719_Fast_MID_10/Run_719_Fast_MID_10_FILE_0.dat
+      32.77K   1%  581.82kB/s    0:00:04
+       2.56M 100%   27.08MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_719_Fast/Run_719_Fast_MID_11/
+>f+++++++ Run_719_Fast/Run_719_Fast_MID_11/Run_719_Fast_MID_11_FILE_0.dat
+      32.77K   1%  347.83kB/s    0:00:07
+       2.56M 100%   19.35MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_719_Fast/Run_719_Fast_MID_12/
+>f+++++++ Run_719_Fast/Run_719_Fast_MID_12/Run_719_Fast_MID_12_FILE_0.dat
+      32.77K   1%  250.00kB/s    0:00:10
+       2.56M 100%   14.77MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_719_Fast/Run_719_Fast_MID_13/
+>f+++++++ Run_719_Fast/Run_719_Fast_MID_13/Run_719_Fast_MID_13_FILE_0.dat
+      32.77K   1%  192.77kB/s    0:00:13
+       2.56M 100%   12.13MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_719_Fast/Run_719_Fast_MID_14/
+>f+++++++ Run_719_Fast/Run_719_Fast_MID_14/Run_719_Fast_MID_14_FILE_0.dat
+      32.77K   1%  158.42kB/s    0:00:15
+       2.56M 100%   10.16MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_719_Fast/Run_719_Fast_MID_15/
+>f+++++++ Run_719_Fast/Run_719_Fast_MID_15/Run_719_Fast_MID_15_FILE_0.dat
+      32.77K   1%  132.23kB/s    0:00:19
+       2.56M 100%    8.71MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_719_Fast/Run_719_Fast_MID_2/
+>f+++++++ Run_719_Fast/Run_719_Fast_MID_2/Run_719_Fast_MID_2_FILE_0.dat
+      32.77K   1%  113.88kB/s    0:00:22
+       2.56M 100%    7.30MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_719_Fast/Run_719_Fast_MID_3/
+>f+++++++ Run_719_Fast/Run_719_Fast_MID_3/Run_719_Fast_MID_3_FILE_0.dat
+      32.77K   1%   95.52kB/s    0:00:26
+       2.56M 100%    6.36MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_719_Fast/Run_719_Fast_MID_4/
+>f+++++++ Run_719_Fast/Run_719_Fast_MID_4/Run_719_Fast_MID_4_FILE_0.dat
+      32.77K   1%   83.33kB/s    0:00:30
+       2.56M 100%    5.87MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_719_Fast/Run_719_Fast_MID_5/
+>f+++++++ Run_719_Fast/Run_719_Fast_MID_5/Run_719_Fast_MID_5_FILE_0.dat
+      32.77K   1%   76.74kB/s    0:00:32
+       2.56M 100%    5.42MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_719_Fast/Run_719_Fast_MID_6/
+>f+++++++ Run_719_Fast/Run_719_Fast_MID_6/Run_719_Fast_MID_6_FILE_0.dat
+      32.77K   1%   70.80kB/s    0:00:35
+       2.56M 100%    4.99MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_719_Fast/Run_719_Fast_MID_7/
+>f+++++++ Run_719_Fast/Run_719_Fast_MID_7/Run_719_Fast_MID_7_FILE_0.dat
+      32.77K   1%   65.31kB/s    0:00:38
+       2.56M 100%    4.61MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_719_Fast/Run_719_Fast_MID_8/
+>f+++++++ Run_719_Fast/Run_719_Fast_MID_8/Run_719_Fast_MID_8_FILE_0.dat
+      32.77K   1%   60.38kB/s    0:00:41
+       2.56M 100%    4.33MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_719_Fast/Run_719_Fast_MID_9/
+>f+++++++ Run_719_Fast/Run_719_Fast_MID_9/Run_719_Fast_MID_9_FILE_0.dat
+      32.77K   1%   56.74kB/s    0:00:44
+       2.56M 100%    4.07MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_719_Fast/Run_719_Fast_log/
+>f+++++++ Run_719_Fast/Run_719_Fast_log/Run_719_Fast_MID_10_buffer.txt
+       2.47K 100%    4.02kB/s    0:00:00
+       2.47K 100%    4.02kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_719_Fast/Run_719_Fast_log/Run_719_Fast_MID_11_buffer.txt
+       2.47K 100%    4.01kB/s    0:00:00
+       2.47K 100%    4.01kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_719_Fast/Run_719_Fast_log/Run_719_Fast_MID_12_buffer.txt
+       2.47K 100%    4.01kB/s    0:00:00
+       2.47K 100%    4.01kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_719_Fast/Run_719_Fast_log/Run_719_Fast_MID_13_buffer.txt
+       2.47K 100%    4.01kB/s    0:00:00
+       2.47K 100%    4.01kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_719_Fast/Run_719_Fast_log/Run_719_Fast_MID_14_buffer.txt
+       2.47K 100%    4.01kB/s    0:00:00
+       2.47K 100%    4.01kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_719_Fast/Run_719_Fast_log/Run_719_Fast_MID_15_buffer.txt
+       2.47K 100%    3.85kB/s    0:00:00
+       2.47K 100%    3.85kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_719_Fast/Run_719_Fast_log/Run_719_Fast_MID_1_buffer.txt
+       2.47K 100%    3.85kB/s    0:00:00
+       2.47K 100%    3.85kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_719_Fast/Run_719_Fast_log/Run_719_Fast_MID_2_buffer.txt
+       2.47K 100%    3.85kB/s    0:00:00
+       2.47K 100%    3.85kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_719_Fast/Run_719_Fast_log/Run_719_Fast_MID_3_buffer.txt
+       2.47K 100%    3.61kB/s    0:00:00
+       2.47K 100%    3.61kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_719_Fast/Run_719_Fast_log/Run_719_Fast_MID_4_buffer.txt
+       2.47K 100%    3.61kB/s    0:00:00
+       2.47K 100%    3.61kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_719_Fast/Run_719_Fast_log/Run_719_Fast_MID_5_buffer.txt
+       2.47K 100%    3.61kB/s    0:00:00
+       2.47K 100%    3.61kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_719_Fast/Run_719_Fast_log/Run_719_Fast_MID_6_buffer.txt
+       2.47K 100%    3.43kB/s    0:00:00
+       2.47K 100%    3.43kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_719_Fast/Run_719_Fast_log/Run_719_Fast_MID_7_buffer.txt
+       2.47K 100%    3.43kB/s    0:00:00
+       2.47K 100%    3.43kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_719_Fast/Run_719_Fast_log/Run_719_Fast_MID_8_buffer.txt
+       2.47K 100%    3.43kB/s    0:00:00
+       2.47K 100%    3.43kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_719_Fast/Run_719_Fast_log/Run_719_Fast_MID_9_buffer.txt
+       2.47K 100%    3.26kB/s    0:00:00
+       2.47K 100%    3.26kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_719_Wave/
+cd+++++++ Run_719_Wave/Run_719_Wave_MID_1/
+>f+++++++ Run_719_Wave/Run_719_Wave_MID_1/Run_719_Wave_MID_1_FILE_0.dat
+      32.77K   0%   40.35kB/s    4:31:56
+      16.02M   2%   15.28MB/s    0:00:41
+     131.56M  19%   62.77MB/s    0:00:08
+     235.44M  35%   74.57MB/s    0:00:05
+     329.02M  49%   78.23MB/s    0:00:04
+     423.13M  64%   96.05MB/s    0:00:02
+     507.02M  77%   88.56MB/s    0:00:01
+     605.81M  92%   87.67MB/s    0:00:00
+     658.44M 100%   82.62MB/s    0:00:07 (xfer#31, to-check=44/95)
+cd+++++++ Run_719_Wave/Run_719_Wave_MID_10/
+>f+++++++ Run_719_Wave/Run_719_Wave_MID_10/Run_719_Wave_MID_10_FILE_0.dat
+      32.77K   0%   56.64kB/s    3:13:45
+      41.71M   6%   39.78MB/s    0:00:15
+     146.77M  22%   70.02MB/s    0:00:07
+     248.28M  37%   78.93MB/s    0:00:05
+     338.69M  51%   80.77MB/s    0:00:03
+     446.37M  67%   96.52MB/s    0:00:02
+     563.12M  85%   99.29MB/s    0:00:00
+     658.44M 100%   92.14MB/s    0:00:06 (xfer#32, to-check=42/95)
+cd+++++++ Run_719_Wave/Run_719_Wave_MID_11/
+>f+++++++ Run_719_Wave/Run_719_Wave_MID_11/Run_719_Wave_MID_11_FILE_0.dat
+      32.77K   0%   39.07kB/s    4:40:51
+      20.74M   3%   19.78MB/s    0:00:31
+     145.78M  22%   69.55MB/s    0:00:07
+     253.39M  38%   80.61MB/s    0:00:04
+     381.98M  58%   91.14MB/s    0:00:02
+     516.46M  78%  118.28MB/s    0:00:01
+     642.81M  97%  118.44MB/s    0:00:00
+     658.44M 100%  101.97MB/s    0:00:06 (xfer#33, to-check=40/95)
+cd+++++++ Run_719_Wave/Run_719_Wave_MID_12/
+>f+++++++ Run_719_Wave/Run_719_Wave_MID_12/Run_719_Wave_MID_12_FILE_0.dat
+      32.77K   0%  202.53kB/s    0:54:10
+      91.95M  13%   87.69MB/s    0:00:06
+     210.67M  31%  100.50MB/s    0:00:04
+     335.58M  50%  106.71MB/s    0:00:02
+     442.79M  67%  105.62MB/s    0:00:01
+     553.16M  84%  109.99MB/s    0:00:00
+     658.44M 100%  109.07MB/s    0:00:05 (xfer#34, to-check=38/95)
+cd+++++++ Run_719_Wave/Run_719_Wave_MID_13/
+>f+++++++ Run_719_Wave/Run_719_Wave_MID_13/Run_719_Wave_MID_13_FILE_0.dat
+      32.77K   0%   42.11kB/s    4:20:37
+      25.99M   3%   24.78MB/s    0:00:24
+     156.57M  23%   74.69MB/s    0:00:06
+     250.38M  38%   79.62MB/s    0:00:05
+     349.24M  53%   83.31MB/s    0:00:03
+     475.30M  72%  107.18MB/s    0:00:01
+     588.81M  89%  103.08MB/s    0:00:00
+     658.44M 100%   95.49MB/s    0:00:06 (xfer#35, to-check=36/95)
+cd+++++++ Run_719_Wave/Run_719_Wave_MID_14/
+>f+++++++ Run_719_Wave/Run_719_Wave_MID_14/Run_719_Wave_MID_14_FILE_0.dat
+      32.77K   0%   55.17kB/s    3:18:53
+      49.35M   7%   47.06MB/s    0:00:12
+     153.65M  23%   73.30MB/s    0:00:06
+     250.64M  38%   79.70MB/s    0:00:04
+     354.45M  53%   84.53MB/s    0:00:03
+     458.00M  69%   97.43MB/s    0:00:02
+     553.94M  84%   95.46MB/s    0:00:01
+     658.44M 100%   92.36MB/s    0:00:06 (xfer#36, to-check=34/95)
+cd+++++++ Run_719_Wave/Run_719_Wave_MID_15/
+>f+++++++ Run_719_Wave/Run_719_Wave_MID_15/Run_719_Wave_MID_15_FILE_0.dat
+      32.77K   0%   39.85kB/s    4:35:21
+      12.75M   1%   12.16MB/s    0:00:51
+     145.65M  22%   69.49MB/s    0:00:07
+     256.67M  38%   81.65MB/s    0:00:04
+     386.70M  58%   92.24MB/s    0:00:02
+     523.30M  79%  121.79MB/s    0:00:01
+     641.50M  97%  118.28MB/s    0:00:00
+     658.44M 100%  102.62MB/s    0:00:06 (xfer#37, to-check=32/95)
+cd+++++++ Run_719_Wave/Run_719_Wave_MID_2/
+>f+++++++ Run_719_Wave/Run_719_Wave_MID_2/Run_719_Wave_MID_2_FILE_0.dat
+      32.77K   0%  258.06kB/s    0:42:31
+      87.85M  13%   83.78MB/s    0:00:06
+     195.85M  29%   93.44MB/s    0:00:04
+     324.73M  49%  103.30MB/s    0:00:03
+     453.80M  68%  108.25MB/s    0:00:01
+     582.52M  88%  117.97MB/s    0:00:00
+     658.44M 100%  113.04MB/s    0:00:05 (xfer#38, to-check=30/95)
+cd+++++++ Run_719_Wave/Run_719_Wave_MID_3/
+>f+++++++ Run_719_Wave/Run_719_Wave_MID_3/Run_719_Wave_MID_3_FILE_0.dat
+      32.77K   0%   57.25kB/s    3:11:41
+      46.89M   7%   44.72MB/s    0:00:13
+     162.56M  24%   77.52MB/s    0:00:06
+     265.32M  40%   84.34MB/s    0:00:04
+     395.77M  60%   94.36MB/s    0:00:02
+     513.97M  78%  111.36MB/s    0:00:01
+     623.51M  94%  109.98MB/s    0:00:00
+     658.44M 100%  100.49MB/s    0:00:06 (xfer#39, to-check=28/95)
+cd+++++++ Run_719_Wave/Run_719_Wave_MID_4/
+>f+++++++ Run_719_Wave/Run_719_Wave_MID_4/Run_719_Wave_MID_4_FILE_0.dat
+      32.77K   0%  126.98kB/s    1:26:24
+      94.93M  14%   90.53MB/s    0:00:06
+     210.17M  31%  100.27MB/s    0:00:04
+     320.37M  48%  101.88MB/s    0:00:03
+     403.21M  61%   96.16MB/s    0:00:02
+     490.11M  74%   94.27MB/s    0:00:01
+     600.08M  91%   92.98MB/s    0:00:00
+     658.44M 100%   95.30MB/s    0:00:06 (xfer#40, to-check=26/95)
+cd+++++++ Run_719_Wave/Run_719_Wave_MID_5/
+>f+++++++ Run_719_Wave/Run_719_Wave_MID_5/Run_719_Wave_MID_5_FILE_0.dat
+      32.77K   0%   52.72kB/s    3:28:09
+      38.44M   5%   36.66MB/s    0:00:16
+     130.58M  19%   62.30MB/s    0:00:08
+     254.05M  38%   80.79MB/s    0:00:04
+     379.62M  57%   90.53MB/s    0:00:03
+     518.29M  78%  114.43MB/s    0:00:01
+     645.96M  98%  122.94MB/s    0:00:00
+     658.44M 100%  103.18MB/s    0:00:06 (xfer#41, to-check=24/95)
+cd+++++++ Run_719_Wave/Run_719_Wave_MID_6/
+>f+++++++ Run_719_Wave/Run_719_Wave_MID_6/Run_719_Wave_MID_6_FILE_0.dat
+      32.77K   0%  347.83kB/s    0:31:32
+      91.26M  13%   87.03MB/s    0:00:06
+     195.85M  29%   93.39MB/s    0:00:04
+     329.97M  50%  104.93MB/s    0:00:03
+     444.89M  67%  106.07MB/s    0:00:01
+     539.53M  81%  106.88MB/s    0:00:01
+     649.76M  98%  108.22MB/s    0:00:00
+     658.44M 100%  103.45MB/s    0:00:06 (xfer#42, to-check=22/95)
+cd+++++++ Run_719_Wave/Run_719_Wave_MID_7/
+>f+++++++ Run_719_Wave/Run_719_Wave_MID_7/Run_719_Wave_MID_7_FILE_0.dat
+      32.77K   0%  376.47kB/s    0:29:08
+     100.96M  15%   96.28MB/s    0:00:05
+     193.23M  29%   92.14MB/s    0:00:04
+     297.30M  45%   94.51MB/s    0:00:03
+     424.18M  64%  101.13MB/s    0:00:02
+     548.18M  83%  106.17MB/s    0:00:01
+     643.33M  97%  106.88MB/s    0:00:00
+     658.44M 100%  101.69MB/s    0:00:06 (xfer#43, to-check=20/95)
+cd+++++++ Run_719_Wave/Run_719_Wave_MID_8/
+>f+++++++ Run_719_Wave/Run_719_Wave_MID_8/Run_719_Wave_MID_8_FILE_0.dat
+      32.77K   0%  190.48kB/s    0:57:36
+      68.98M  10%   65.78MB/s    0:00:08
+     160.20M  24%   76.39MB/s    0:00:06
+     252.67M  38%   80.35MB/s    0:00:04
+     347.90M  52%   82.21MB/s    0:00:03
+     473.73M  71%   95.64MB/s    0:00:01
+     603.82M  91%  104.82MB/s    0:00:00
+     658.44M 100%   97.34MB/s    0:00:06 (xfer#44, to-check=18/95)
+cd+++++++ Run_719_Wave/Run_719_Wave_MID_9/
+>f+++++++ Run_719_Wave/Run_719_Wave_MID_9/Run_719_Wave_MID_9_FILE_0.dat
+      32.77K   0%   75.29kB/s    2:25:44
+      68.71M  10%   65.53MB/s    0:00:08
+     176.72M  26%   84.27MB/s    0:00:05
+     287.60M  43%   91.46MB/s    0:00:03
+     396.75M  60%   94.64MB/s    0:00:02
+     496.27M  75%  101.99MB/s    0:00:01
+     620.53M  94%  105.87MB/s    0:00:00
+     658.44M 100%   99.89MB/s    0:00:06 (xfer#45, to-check=16/95)
+cd+++++++ Run_719_Wave/Run_719_Wave_log/
+>f+++++++ Run_719_Wave/Run_719_Wave_log/Run_719_Wave_MID_10_buffer.txt
+      32.77K  21%  109.59kB/s    0:00:01
+     150.27K 100%  502.55kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_719_Wave/Run_719_Wave_log/Run_719_Wave_MID_11_buffer.txt
+      32.77K  21%  104.58kB/s    0:00:01
+     150.16K 100%  477.66kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_719_Wave/Run_719_Wave_log/Run_719_Wave_MID_12_buffer.txt
+      32.77K  22%   99.69kB/s    0:00:01
+     148.59K 100%  452.04kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_719_Wave/Run_719_Wave_log/Run_719_Wave_MID_13_buffer.txt
+      32.77K  21%   95.81kB/s    0:00:01
+     150.29K 100%  438.12kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_719_Wave/Run_719_Wave_log/Run_719_Wave_MID_14_buffer.txt
+      32.77K  21%   91.95kB/s    0:00:01
+     150.47K 100%  422.25kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_719_Wave/Run_719_Wave_log/Run_719_Wave_MID_15_buffer.txt
+      32.77K  22%   88.64kB/s    0:00:01
+     148.62K 100%  400.92kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_719_Wave/Run_719_Wave_log/Run_719_Wave_MID_1_buffer.txt
+      32.77K  22%   85.11kB/s    0:00:01
+     148.37K 100%  385.36kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_719_Wave/Run_719_Wave_log/Run_719_Wave_MID_2_buffer.txt
+      32.77K  21%   82.26kB/s    0:00:01
+     150.68K 100%  378.28kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_719_Wave/Run_719_Wave_log/Run_719_Wave_MID_3_buffer.txt
+      32.77K  22%   79.60kB/s    0:00:01
+     148.64K 100%  360.20kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_719_Wave/Run_719_Wave_log/Run_719_Wave_MID_4_buffer.txt
+      32.77K  22%   77.11kB/s    0:00:01
+     148.38K 100%  348.33kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_719_Wave/Run_719_Wave_log/Run_719_Wave_MID_5_buffer.txt
+      32.77K  21%   74.59kB/s    0:00:01
+     150.42K 100%  341.61kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_719_Wave/Run_719_Wave_log/Run_719_Wave_MID_6_buffer.txt
+      32.77K  22%   71.27kB/s    0:00:01
+     148.65K 100%  323.30kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_719_Wave/Run_719_Wave_log/Run_719_Wave_MID_7_buffer.txt
+      32.77K  22%   66.95kB/s    0:00:01
+     148.68K 100%  303.12kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_719_Wave/Run_719_Wave_log/Run_719_Wave_MID_8_buffer.txt
+      32.77K  21%   63.12kB/s    0:00:01
+     150.21K 100%  289.33kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_719_Wave/Run_719_Wave_log/Run_719_Wave_MID_9_buffer.txt
+      32.77K  22%   61.54kB/s    0:00:01
+     148.89K 100%  279.09kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 9.92G bytes  received 1.55K bytes  108.40M bytes/sec
+total size is 9.92G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_719/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_719_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

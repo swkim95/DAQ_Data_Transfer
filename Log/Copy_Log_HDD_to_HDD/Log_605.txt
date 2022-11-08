@@ -1,0 +1,277 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_605/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_605[0m
+[94m[INFO][0m SSD data folder size = [96m[1m4.614 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [####----------------------------------------------][0m [92m[1m7.955 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 1185.419 GB / Free : [4m13716.134 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_605/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_605/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_605.txt --progress /Volumes/HDD_16TB_1/HDD_Run_605/ /Volumes/HDD_16TB_2/HDD_Run_605/[0m`? [y/n] 
+building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_605
+cd+++++++ ./
+cd+++++++ Run_605_Fast/
+cd+++++++ Run_605_Fast/Run_605_Fast_MID_1/
+>f+++++++ Run_605_Fast/Run_605_Fast_MID_1/Run_605_Fast_MID_1_FILE_0.dat
+      32.77K   2%    0.00kB/s    0:00:00
+       1.28M 100%   59.38MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_605_Fast/Run_605_Fast_MID_10/
+>f+++++++ Run_605_Fast/Run_605_Fast_MID_10/Run_605_Fast_MID_10_FILE_0.dat
+      32.77K   2%    1.01MB/s    0:00:01
+       1.28M 100%   19.04MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_605_Fast/Run_605_Fast_MID_11/
+>f+++++++ Run_605_Fast/Run_605_Fast_MID_11/Run_605_Fast_MID_11_FILE_0.dat
+      32.77K   2%  450.70kB/s    0:00:02
+       1.28M 100%   13.25MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_605_Fast/Run_605_Fast_MID_12/
+>f+++++++ Run_605_Fast/Run_605_Fast_MID_12/Run_605_Fast_MID_12_FILE_0.dat
+      32.77K   2%  340.43kB/s    0:00:03
+       1.28M 100%   11.08MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_605_Fast/Run_605_Fast_MID_13/
+>f+++++++ Run_605_Fast/Run_605_Fast_MID_13/Run_605_Fast_MID_13_FILE_0.dat
+      32.77K   2%  285.71kB/s    0:00:04
+       1.28M 100%    8.90MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_605_Fast/Run_605_Fast_MID_14/
+>f+++++++ Run_605_Fast/Run_605_Fast_MID_14/Run_605_Fast_MID_14_FILE_0.dat
+      32.77K   2%  230.22kB/s    0:00:05
+       1.28M 100%    8.02MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_605_Fast/Run_605_Fast_MID_15/
+>f+++++++ Run_605_Fast/Run_605_Fast_MID_15/Run_605_Fast_MID_15_FILE_0.dat
+      32.77K   2%  209.15kB/s    0:00:05
+       1.28M 100%    7.34MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_605_Fast/Run_605_Fast_MID_2/
+>f+++++++ Run_605_Fast/Run_605_Fast_MID_2/Run_605_Fast_MID_2_FILE_0.dat
+      32.77K   2%  191.62kB/s    0:00:06
+       1.28M 100%    6.77MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_605_Fast/Run_605_Fast_MID_3/
+>f+++++++ Run_605_Fast/Run_605_Fast_MID_3/Run_605_Fast_MID_3_FILE_0.dat
+      32.77K   2%  176.80kB/s    0:00:07
+       1.28M 100%    6.25MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_605_Fast/Run_605_Fast_MID_4/
+>f+++++++ Run_605_Fast/Run_605_Fast_MID_4/Run_605_Fast_MID_4_FILE_0.dat
+      32.77K   2%  163.27kB/s    0:00:07
+       1.28M 100%    5.83MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_605_Fast/Run_605_Fast_MID_5/
+>f+++++++ Run_605_Fast/Run_605_Fast_MID_5/Run_605_Fast_MID_5_FILE_0.dat
+      32.77K   2%  151.66kB/s    0:00:08
+       1.28M 100%    5.39MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_605_Fast/Run_605_Fast_MID_6/
+>f+++++++ Run_605_Fast/Run_605_Fast_MID_6/Run_605_Fast_MID_6_FILE_0.dat
+      32.77K   2%  139.13kB/s    0:00:08
+       1.28M 100%    4.95MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_605_Fast/Run_605_Fast_MID_7/
+>f+++++++ Run_605_Fast/Run_605_Fast_MID_7/Run_605_Fast_MID_7_FILE_0.dat
+      32.77K   2%  124.51kB/s    0:00:10
+       1.28M 100%    4.25MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_605_Fast/Run_605_Fast_MID_8/
+>f+++++++ Run_605_Fast/Run_605_Fast_MID_8/Run_605_Fast_MID_8_FILE_0.dat
+      32.77K   2%  110.73kB/s    0:00:11
+       1.28M 100%    3.92MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_605_Fast/Run_605_Fast_MID_9/
+>f+++++++ Run_605_Fast/Run_605_Fast_MID_9/Run_605_Fast_MID_9_FILE_0.dat
+      32.77K   2%  102.24kB/s    0:00:12
+       1.28M 100%    3.69MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_605_Fast/Run_605_Fast_log/
+>f+++++++ Run_605_Fast/Run_605_Fast_log/Run_605_Fast_MID_10_buffer.txt
+       1.23K 100%    3.65kB/s    0:00:00
+       1.23K 100%    3.65kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_605_Fast/Run_605_Fast_log/Run_605_Fast_MID_11_buffer.txt
+       1.23K 100%    3.63kB/s    0:00:00
+       1.23K 100%    3.63kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_605_Fast/Run_605_Fast_log/Run_605_Fast_MID_12_buffer.txt
+       1.23K 100%    3.56kB/s    0:00:00
+       1.23K 100%    3.56kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_605_Fast/Run_605_Fast_log/Run_605_Fast_MID_13_buffer.txt
+       1.23K 100%    3.55kB/s    0:00:00
+       1.23K 100%    3.55kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_605_Fast/Run_605_Fast_log/Run_605_Fast_MID_14_buffer.txt
+       1.23K 100%    3.54kB/s    0:00:00
+       1.23K 100%    3.54kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_605_Fast/Run_605_Fast_log/Run_605_Fast_MID_15_buffer.txt
+       1.23K 100%    3.53kB/s    0:00:00
+       1.23K 100%    3.53kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_605_Fast/Run_605_Fast_log/Run_605_Fast_MID_1_buffer.txt
+       1.23K 100%    3.52kB/s    0:00:00
+       1.23K 100%    3.52kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_605_Fast/Run_605_Fast_log/Run_605_Fast_MID_2_buffer.txt
+       1.23K 100%    3.51kB/s    0:00:00
+       1.23K 100%    3.51kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_605_Fast/Run_605_Fast_log/Run_605_Fast_MID_3_buffer.txt
+       1.23K 100%    3.45kB/s    0:00:00
+       1.23K 100%    3.45kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_605_Fast/Run_605_Fast_log/Run_605_Fast_MID_4_buffer.txt
+       1.23K 100%    3.45kB/s    0:00:00
+       1.23K 100%    3.45kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_605_Fast/Run_605_Fast_log/Run_605_Fast_MID_5_buffer.txt
+       1.23K 100%    3.44kB/s    0:00:00
+       1.23K 100%    3.44kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_605_Fast/Run_605_Fast_log/Run_605_Fast_MID_6_buffer.txt
+       1.23K 100%    3.44kB/s    0:00:00
+       1.23K 100%    3.44kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_605_Fast/Run_605_Fast_log/Run_605_Fast_MID_7_buffer.txt
+       1.23K 100%    3.44kB/s    0:00:00
+       1.23K 100%    3.44kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_605_Fast/Run_605_Fast_log/Run_605_Fast_MID_8_buffer.txt
+       1.23K 100%    3.30kB/s    0:00:00
+       1.23K 100%    3.30kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_605_Fast/Run_605_Fast_log/Run_605_Fast_MID_9_buffer.txt
+       1.23K 100%    3.30kB/s    0:00:00
+       1.23K 100%    3.30kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_605_Wave/
+cd+++++++ Run_605_Wave/Run_605_Wave_MID_1/
+>f+++++++ Run_605_Wave/Run_605_Wave_MID_1/Run_605_Wave_MID_1_FILE_0.dat
+      32.77K   0%   81.42kB/s    1:07:19
+      42.99M  13%   41.00MB/s    0:00:06
+     134.51M  40%   64.17MB/s    0:00:02
+     219.45M  66%   69.81MB/s    0:00:01
+     312.18M  94%   74.49MB/s    0:00:00
+     328.93M 100%   74.94MB/s    0:00:04 (xfer#31, to-check=44/95)
+cd+++++++ Run_605_Wave/Run_605_Wave_MID_10/
+>f+++++++ Run_605_Wave/Run_605_Wave_MID_10/Run_605_Wave_MID_10_FILE_0.dat
+      32.77K   0%  167.54kB/s    0:32:43
+      74.45M  22%   71.00MB/s    0:00:03
+     169.64M  51%   80.93MB/s    0:00:01
+     269.88M  82%   85.85MB/s    0:00:00
+     328.93M 100%   87.74MB/s    0:00:03 (xfer#32, to-check=42/95)
+cd+++++++ Run_605_Wave/Run_605_Wave_MID_11/
+>f+++++++ Run_605_Wave/Run_605_Wave_MID_11/Run_605_Wave_MID_11_FILE_0.dat
+      32.77K   0%   55.17kB/s    1:39:21
+      45.97M  13%   43.84MB/s    0:00:06
+     154.44M  46%   73.64MB/s    0:00:02
+     281.12M  85%   89.39MB/s    0:00:00
+     328.93M 100%   93.25MB/s    0:00:03 (xfer#33, to-check=40/95)
+cd+++++++ Run_605_Wave/Run_605_Wave_MID_12/
+>f+++++++ Run_605_Wave/Run_605_Wave_MID_12/Run_605_Wave_MID_12_FILE_0.dat
+      32.77K   0%   86.96kB/s    1:03:02
+      72.38M  22%   69.03MB/s    0:00:03
+     188.51M  57%   89.94MB/s    0:00:01
+     318.01M  96%  101.16MB/s    0:00:00
+     328.93M 100%  101.81MB/s    0:00:03 (xfer#34, to-check=38/95)
+cd+++++++ Run_605_Wave/Run_605_Wave_MID_13/
+>f+++++++ Run_605_Wave/Run_605_Wave_MID_13/Run_605_Wave_MID_13_FILE_0.dat
+      32.77K   0%  376.47kB/s    0:14:33
+      90.80M  27%   86.59MB/s    0:00:02
+     202.70M  61%   96.70MB/s    0:00:01
+     328.93M 100%  104.70MB/s    0:00:02 (xfer#35, to-check=36/95)
+cd+++++++ Run_605_Wave/Run_605_Wave_MID_14/
+>f+++++++ Run_605_Wave/Run_605_Wave_MID_14/Run_605_Wave_MID_14_FILE_0.dat
+      32.77K   0%   32.03kB/s    2:51:07
+      98.30K   0%   96.00kB/s    0:57:05
+     117.47M  35%   56.04MB/s    0:00:03
+     239.60M  72%   76.22MB/s    0:00:01
+     328.93M 100%   85.15MB/s    0:00:03 (xfer#36, to-check=34/95)
+cd+++++++ Run_605_Wave/Run_605_Wave_MID_15/
+>f+++++++ Run_605_Wave/Run_605_Wave_MID_15/Run_605_Wave_MID_15_FILE_0.dat
+      32.77K   0%   46.44kB/s    1:58:01
+      25.20M   7%   24.03MB/s    0:00:12
+     149.19M  45%   71.14MB/s    0:00:02
+     273.45M  83%   86.93MB/s    0:00:00
+     328.93M 100%   91.56MB/s    0:00:03 (xfer#37, to-check=32/95)
+cd+++++++ Run_605_Wave/Run_605_Wave_MID_2/
+>f+++++++ Run_605_Wave/Run_605_Wave_MID_2/Run_605_Wave_MID_2_FILE_0.dat
+      32.77K   0%   74.77kB/s    1:13:18
+      66.55M  20%   63.47MB/s    0:00:04
+     193.50M  58%   92.31MB/s    0:00:01
+     322.63M  98%  102.63MB/s    0:00:00
+     328.93M 100%  103.02MB/s    0:00:03 (xfer#38, to-check=30/95)
+cd+++++++ Run_605_Wave/Run_605_Wave_MID_3/
+>f+++++++ Run_605_Wave/Run_605_Wave_MID_3/Run_605_Wave_MID_3_FILE_0.dat
+      32.77K   0%  603.77kB/s    0:09:04
+     112.00M  34%  106.81MB/s    0:00:01
+     224.17M  68%  106.89MB/s    0:00:00
+     328.93M 100%  107.98MB/s    0:00:02 (xfer#39, to-check=28/95)
+cd+++++++ Run_605_Wave/Run_605_Wave_MID_4/
+>f+++++++ Run_605_Wave/Run_605_Wave_MID_4/Run_605_Wave_MID_4_FILE_0.dat
+      32.77K   0%   35.28kB/s    2:35:22
+       3.70M   1%    3.51MB/s    0:01:30
+     127.96M  38%   60.80MB/s    0:00:03
+     246.71M  75%   78.27MB/s    0:00:01
+     328.93M 100%   81.88MB/s    0:00:03 (xfer#40, to-check=26/95)
+cd+++++++ Run_605_Wave/Run_605_Wave_MID_5/
+>f+++++++ Run_605_Wave/Run_605_Wave_MID_5/Run_605_Wave_MID_5_FILE_0.dat
+      32.77K   0%   38.74kB/s    2:21:29
+      12.62M   3%   12.03MB/s    0:00:25
+     112.56M  34%   53.70MB/s    0:00:03
+     206.60M  62%   65.72MB/s    0:00:01
+     310.41M  94%   74.04MB/s    0:00:00
+     328.93M 100%   74.96MB/s    0:00:04 (xfer#41, to-check=24/95)
+cd+++++++ Run_605_Wave/Run_605_Wave_MID_6/
+>f+++++++ Run_605_Wave/Run_605_Wave_MID_6/Run_605_Wave_MID_6_FILE_0.dat
+      32.77K   0%  170.21kB/s    0:32:12
+      87.59M  26%   83.53MB/s    0:00:02
+     212.63M  64%  101.39MB/s    0:00:01
+     328.93M 100%  105.98MB/s    0:00:02 (xfer#42, to-check=22/95)
+cd+++++++ Run_605_Wave/Run_605_Wave_MID_7/
+>f+++++++ Run_605_Wave/Run_605_Wave_MID_7/Run_605_Wave_MID_7_FILE_0.dat
+      32.77K   0%   33.23kB/s    2:44:57
+       1.08M   0%    1.03MB/s    0:05:10
+     105.41M  32%   50.27MB/s    0:00:04
+     212.63M  64%   67.59MB/s    0:00:01
+     328.93M 100%   79.86MB/s    0:00:03 (xfer#43, to-check=20/95)
+cd+++++++ Run_605_Wave/Run_605_Wave_MID_8/
+>f+++++++ Run_605_Wave/Run_605_Wave_MID_8/Run_605_Wave_MID_8_FILE_0.dat
+      32.77K   0%   34.37kB/s    2:39:28
+       6.32M   1%    6.02MB/s    0:00:52
+     124.81M  37%   59.49MB/s    0:00:03
+     249.07M  75%   79.15MB/s    0:00:00
+     328.93M 100%   86.51MB/s    0:00:03 (xfer#44, to-check=18/95)
+cd+++++++ Run_605_Wave/Run_605_Wave_MID_9/
+>f+++++++ Run_605_Wave/Run_605_Wave_MID_9/Run_605_Wave_MID_9_FILE_0.dat
+      32.77K   0%   51.04kB/s    1:47:24
+      39.22M  11%   37.41MB/s    0:00:07
+     139.46M  42%   66.53MB/s    0:00:02
+     250.48M  76%   79.68MB/s    0:00:00
+     328.93M 100%   87.16MB/s    0:00:03 (xfer#45, to-check=16/95)
+cd+++++++ Run_605_Wave/Run_605_Wave_log/
+>f+++++++ Run_605_Wave/Run_605_Wave_log/Run_605_Wave_MID_10_buffer.txt
+      32.77K  42%   53.07kB/s    0:00:00
+      76.67K 100%  124.17kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_605_Wave/Run_605_Wave_log/Run_605_Wave_MID_11_buffer.txt
+      32.77K  42%   52.63kB/s    0:00:00
+      76.77K 100%  123.31kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_605_Wave/Run_605_Wave_log/Run_605_Wave_MID_12_buffer.txt
+      32.77K  42%   52.12kB/s    0:00:00
+      76.25K 100%  121.28kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_605_Wave/Run_605_Wave_log/Run_605_Wave_MID_13_buffer.txt
+      32.77K  42%   51.36kB/s    0:00:00
+      76.70K 100%  120.23kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_605_Wave/Run_605_Wave_log/Run_605_Wave_MID_14_buffer.txt
+      32.77K  42%   50.63kB/s    0:00:00
+      76.74K 100%  118.58kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_605_Wave/Run_605_Wave_log/Run_605_Wave_MID_15_buffer.txt
+      32.77K  42%   49.46kB/s    0:00:00
+      76.29K 100%  115.15kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_605_Wave/Run_605_Wave_log/Run_605_Wave_MID_1_buffer.txt
+      32.77K  42%   49.16kB/s    0:00:00
+      76.28K 100%  114.25kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_605_Wave/Run_605_Wave_log/Run_605_Wave_MID_2_buffer.txt
+      32.77K  42%   48.71kB/s    0:00:00
+      76.71K 100%  114.02kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_605_Wave/Run_605_Wave_log/Run_605_Wave_MID_3_buffer.txt
+      32.77K  42%   48.34kB/s    0:00:00
+      76.22K 100%  112.44kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_605_Wave/Run_605_Wave_log/Run_605_Wave_MID_4_buffer.txt
+      32.77K  42%   47.98kB/s    0:00:00
+      76.22K 100%  111.60kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_605_Wave/Run_605_Wave_log/Run_605_Wave_MID_5_buffer.txt
+      32.77K  42%   47.62kB/s    0:00:00
+      76.66K 100%  111.40kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_605_Wave/Run_605_Wave_log/Run_605_Wave_MID_6_buffer.txt
+      32.77K  42%   47.34kB/s    0:00:00
+      76.23K 100%  109.96kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_605_Wave/Run_605_Wave_log/Run_605_Wave_MID_7_buffer.txt
+      32.77K  42%   46.99kB/s    0:00:00
+      76.29K 100%  109.41kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_605_Wave/Run_605_Wave_log/Run_605_Wave_MID_8_buffer.txt
+      32.77K  42%   46.65kB/s    0:00:00
+      76.67K 100%  109.15kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_605_Wave/Run_605_Wave_log/Run_605_Wave_MID_9_buffer.txt
+      32.77K  42%   45.98kB/s    0:00:00
+      76.34K 100%  107.11kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 4.95G bytes  received 1.55K bytes  108.90M bytes/sec
+total size is 4.95G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_605/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_605_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

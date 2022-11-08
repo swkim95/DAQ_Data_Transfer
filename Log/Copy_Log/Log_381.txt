@@ -1,0 +1,48 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_381/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_381[0m
+[94m[INFO][0m SSD data folder size = [96m[1m0.062 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [##------------------------------------------------][0m [92m[1m3.344 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 498.357 GB / Free : [4m14403.196 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_381/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_381/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_381.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_381/ /Volumes/HDD_16TB_1/HDD_Run_381/[0m`? [y/n] building file list ... 
+ 0 files...
+15 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_381
+cd+++++++ ./
+cd+++++++ Run_381_Fast/
+cd+++++++ Run_381_Fast/Run_381_Fast_MID_9/
+>f+++++++ Run_381_Fast/Run_381_Fast_MID_9/Run_381_Fast_MID_9_FILE_0.dat
+      32.77K  13%    0.00kB/s    0:00:00
+     245.76K 100%  203.12MB/s    0:00:00 (xfer#1, to-check=11/15)
+cd+++++++ Run_381_Fast/Run_381_Fast_log/
+>f+++++++ Run_381_Fast/Run_381_Fast_log/Run_381_Fast_MID_9_buffer.txt
+         209 100%  204.10kB/s    0:00:00
+         209 100%  204.10kB/s    0:00:00 (xfer#2, to-check=9/15)
+cd+++++++ Run_381_Wave/
+cd+++++++ Run_381_Wave/Run_381_Wave_MID_9/
+>f+++++++ Run_381_Wave/Run_381_Wave_MID_9/Run_381_Wave_MID_9_FILE_0.dat
+      32.77K   0%    4.46MB/s    0:00:14
+      65.60M 100%   95.52MB/s    0:00:00 (xfer#3, to-check=6/15)
+>f+++++++ Run_381_Wave/Run_381_Wave_MID_9/Run_381_Wave_MID_9_FILE_0.dat_AllchSpectrum.png
+      32.77K  32%   48.78kB/s    0:00:01
+     102.21K 100%  152.15kB/s    0:00:00 (xfer#4, to-check=5/15)
+>f+++++++ Run_381_Wave/Run_381_Wave_MID_9/Run_381_Wave_MID_9_FILE_0.dat_Allch_noiseLevel.png
+      31.77K 100%   46.94kB/s    0:00:00
+      31.77K 100%   46.94kB/s    0:00:00 (xfer#5, to-check=4/15)
+>f+++++++ Run_381_Wave/Run_381_Wave_MID_9/Run_381_Wave_MID_9_FILE_0.dat_SpectrumAllCh_.root
+      23.95K 100%   35.23kB/s    0:00:00
+      23.95K 100%   35.18kB/s    0:00:00 (xfer#6, to-check=3/15)
+>f+++++++ Run_381_Wave/Run_381_Wave_MID_9/Run_381_Wave_MID_9_FILE_1.dat
+      32.77K  10%   47.62kB/s    0:00:06
+     327.68K 100%  463.77kB/s    0:00:00 (xfer#7, to-check=2/15)
+cd+++++++ Run_381_Wave/Run_381_Wave_log/
+>f+++++++ Run_381_Wave/Run_381_Wave_log/Run_381_Wave_MID_9_buffer.txt
+      13.98K 100%   19.76kB/s    0:00:00
+      13.98K 100%   19.76kB/s    0:00:00 (xfer#8, to-check=0/15)
+
+sent 66.36M bytes  received 238 bytes  132.71M bytes/sec
+total size is 66.35M  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_381/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_381_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

@@ -1,0 +1,271 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_538/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_538[0m
+[94m[INFO][0m SSD data folder size = [96m[1m4.617 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [#-------------------------------------------------][0m [92m[1m2.692 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 401.121 GB / Free : [4m14500.432 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_538/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_538/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_538.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_538/ /Volumes/HDD_16TB_1/HDD_Run_538/[0m`? [y/n] building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_538
+cd+++++++ ./
+cd+++++++ Run_538_Fast/
+cd+++++++ Run_538_Fast/Run_538_Fast_MID_1/
+>f+++++++ Run_538_Fast/Run_538_Fast_MID_1/Run_538_Fast_MID_1_FILE_0.dat
+      32.77K   2%    0.00kB/s    0:00:00
+       1.28M 100%   91.35MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_538_Fast/Run_538_Fast_MID_10/
+>f+++++++ Run_538_Fast/Run_538_Fast_MID_10/Run_538_Fast_MID_10_FILE_0.dat
+      32.77K   2%    2.08MB/s    0:00:00
+       1.28M 100%   38.09MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_538_Fast/Run_538_Fast_MID_11/
+>f+++++++ Run_538_Fast/Run_538_Fast_MID_11/Run_538_Fast_MID_11_FILE_0.dat
+      32.77K   2%  238.81kB/s    0:00:05
+       1.28M 100%    8.29MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_538_Fast/Run_538_Fast_MID_12/
+>f+++++++ Run_538_Fast/Run_538_Fast_MID_12/Run_538_Fast_MID_12_FILE_0.dat
+      32.77K   2%  214.77kB/s    0:00:05
+       1.28M 100%    7.67MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_538_Fast/Run_538_Fast_MID_13/
+>f+++++++ Run_538_Fast/Run_538_Fast_MID_13/Run_538_Fast_MID_13_FILE_0.dat
+      32.77K   2%  198.76kB/s    0:00:06
+       1.28M 100%    7.17MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_538_Fast/Run_538_Fast_MID_14/
+>f+++++++ Run_538_Fast/Run_538_Fast_MID_14/Run_538_Fast_MID_14_FILE_0.dat
+      32.77K   2%  186.05kB/s    0:00:06
+       1.28M 100%    6.73MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_538_Fast/Run_538_Fast_MID_15/
+>f+++++++ Run_538_Fast/Run_538_Fast_MID_15/Run_538_Fast_MID_15_FILE_0.dat
+      32.77K   2%  172.97kB/s    0:00:07
+       1.28M 100%    6.28MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_538_Fast/Run_538_Fast_MID_2/
+>f+++++++ Run_538_Fast/Run_538_Fast_MID_2/Run_538_Fast_MID_2_FILE_0.dat
+      32.77K   2%  163.27kB/s    0:00:07
+       1.28M 100%    5.92MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_538_Fast/Run_538_Fast_MID_3/
+>f+++++++ Run_538_Fast/Run_538_Fast_MID_3/Run_538_Fast_MID_3_FILE_0.dat
+      32.77K   2%  154.59kB/s    0:00:08
+       1.28M 100%    5.62MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_538_Fast/Run_538_Fast_MID_4/
+>f+++++++ Run_538_Fast/Run_538_Fast_MID_4/Run_538_Fast_MID_4_FILE_0.dat
+      32.77K   2%  146.79kB/s    0:00:08
+       1.28M 100%    5.37MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_538_Fast/Run_538_Fast_MID_5/
+>f+++++++ Run_538_Fast/Run_538_Fast_MID_5/Run_538_Fast_MID_5_FILE_0.dat
+      32.77K   2%  140.35kB/s    0:00:08
+       1.28M 100%    5.14MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_538_Fast/Run_538_Fast_MID_6/
+>f+++++++ Run_538_Fast/Run_538_Fast_MID_6/Run_538_Fast_MID_6_FILE_0.dat
+      32.77K   2%  133.89kB/s    0:00:09
+       1.28M 100%    4.91MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_538_Fast/Run_538_Fast_MID_7/
+>f+++++++ Run_538_Fast/Run_538_Fast_MID_7/Run_538_Fast_MID_7_FILE_0.dat
+      32.77K   2%  128.51kB/s    0:00:09
+       1.28M 100%    4.71MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_538_Fast/Run_538_Fast_MID_8/
+>f+++++++ Run_538_Fast/Run_538_Fast_MID_8/Run_538_Fast_MID_8_FILE_0.dat
+      32.77K   2%  123.08kB/s    0:00:10
+       1.28M 100%    4.53MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_538_Fast/Run_538_Fast_MID_9/
+>f+++++++ Run_538_Fast/Run_538_Fast_MID_9/Run_538_Fast_MID_9_FILE_0.dat
+      32.77K   2%  118.52kB/s    0:00:10
+       1.28M 100%    4.35MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_538_Fast/Run_538_Fast_log/
+>f+++++++ Run_538_Fast/Run_538_Fast_log/Run_538_Fast_MID_10_buffer.txt
+       1.21K 100%    4.21kB/s    0:00:00
+       1.21K 100%    4.21kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_538_Fast/Run_538_Fast_log/Run_538_Fast_MID_11_buffer.txt
+       1.21K 100%    4.21kB/s    0:00:00
+       1.21K 100%    4.21kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_538_Fast/Run_538_Fast_log/Run_538_Fast_MID_12_buffer.txt
+       1.21K 100%    4.21kB/s    0:00:00
+       1.21K 100%    4.21kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_538_Fast/Run_538_Fast_log/Run_538_Fast_MID_13_buffer.txt
+       1.21K 100%    4.21kB/s    0:00:00
+       1.21K 100%    4.21kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_538_Fast/Run_538_Fast_log/Run_538_Fast_MID_14_buffer.txt
+       1.21K 100%    4.20kB/s    0:00:00
+       1.21K 100%    4.20kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_538_Fast/Run_538_Fast_log/Run_538_Fast_MID_15_buffer.txt
+       1.21K 100%    4.20kB/s    0:00:00
+       1.21K 100%    4.20kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_538_Fast/Run_538_Fast_log/Run_538_Fast_MID_1_buffer.txt
+       1.21K 100%    4.20kB/s    0:00:00
+       1.21K 100%    4.20kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_538_Fast/Run_538_Fast_log/Run_538_Fast_MID_2_buffer.txt
+       1.21K 100%    4.20kB/s    0:00:00
+       1.21K 100%    4.20kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_538_Fast/Run_538_Fast_log/Run_538_Fast_MID_3_buffer.txt
+       1.21K 100%    4.20kB/s    0:00:00
+       1.21K 100%    4.20kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_538_Fast/Run_538_Fast_log/Run_538_Fast_MID_4_buffer.txt
+       1.21K 100%    4.11kB/s    0:00:00
+       1.21K 100%    4.11kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_538_Fast/Run_538_Fast_log/Run_538_Fast_MID_5_buffer.txt
+       1.21K 100%    4.11kB/s    0:00:00
+       1.21K 100%    4.11kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_538_Fast/Run_538_Fast_log/Run_538_Fast_MID_6_buffer.txt
+       1.21K 100%    4.11kB/s    0:00:00
+       1.21K 100%    4.11kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_538_Fast/Run_538_Fast_log/Run_538_Fast_MID_7_buffer.txt
+       1.21K 100%    4.11kB/s    0:00:00
+       1.21K 100%    4.11kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_538_Fast/Run_538_Fast_log/Run_538_Fast_MID_8_buffer.txt
+       1.21K 100%    4.11kB/s    0:00:00
+       1.21K 100%    4.11kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_538_Fast/Run_538_Fast_log/Run_538_Fast_MID_9_buffer.txt
+       1.21K 100%    4.00kB/s    0:00:00
+       1.21K 100%    4.00kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_538_Wave/
+cd+++++++ Run_538_Wave/Run_538_Wave_MID_1/
+>f+++++++ Run_538_Wave/Run_538_Wave_MID_1/Run_538_Wave_MID_1_FILE_0.dat
+      32.77K   0%  105.26kB/s    0:52:06
+      82.35M  25%   77.45MB/s    0:00:03
+     194.54M  59%   92.17MB/s    0:00:01
+     303.07M  92%   95.36MB/s    0:00:00
+     329.12M 100%   94.46MB/s    0:00:03 (xfer#31, to-check=44/95)
+cd+++++++ Run_538_Wave/Run_538_Wave_MID_10/
+>f+++++++ Run_538_Wave/Run_538_Wave_MID_10/Run_538_Wave_MID_10_FILE_0.dat
+      32.77K   0%  109.22kB/s    0:50:13
+      81.82M  24%   77.95MB/s    0:00:03
+     190.61M  57%   90.44MB/s    0:00:01
+     300.97M  91%   95.39MB/s    0:00:00
+     329.12M 100%   95.43MB/s    0:00:03 (xfer#32, to-check=42/95)
+cd+++++++ Run_538_Wave/Run_538_Wave_MID_11/
+>f+++++++ Run_538_Wave/Run_538_Wave_MID_11/Run_538_Wave_MID_11_FILE_0.dat
+      32.77K   0%  114.29kB/s    0:47:59
+      81.30M  24%   77.53MB/s    0:00:03
+     195.59M  59%   93.27MB/s    0:00:01
+     322.21M  97%  102.43MB/s    0:00:00
+     329.12M 100%  102.94MB/s    0:00:03 (xfer#33, to-check=40/95)
+cd+++++++ Run_538_Wave/Run_538_Wave_MID_12/
+>f+++++++ Run_538_Wave/Run_538_Wave_MID_12/Run_538_Wave_MID_12_FILE_0.dat
+      32.77K   0%  640.00kB/s    0:08:34
+     120.36M  36%  114.78MB/s    0:00:01
+     251.43M  76%  119.89MB/s    0:00:00
+     329.12M 100%  122.61MB/s    0:00:02 (xfer#34, to-check=38/95)
+cd+++++++ Run_538_Wave/Run_538_Wave_MID_13/
+>f+++++++ Run_538_Wave/Run_538_Wave_MID_13/Run_538_Wave_MID_13_FILE_0.dat
+      32.77K   0%   57.04kB/s    1:36:09
+      53.77M  16%   51.28MB/s    0:00:05
+     187.47M  56%   89.39MB/s    0:00:01
+     315.65M  95%  100.38MB/s    0:00:00
+     329.12M 100%  101.38MB/s    0:00:03 (xfer#35, to-check=36/95)
+cd+++++++ Run_538_Wave/Run_538_Wave_MID_14/
+>f+++++++ Run_538_Wave/Run_538_Wave_MID_14/Run_538_Wave_MID_14_FILE_0.dat
+      32.77K   0%  326.53kB/s    0:16:47
+     118.78M  36%  113.28MB/s    0:00:01
+     249.27M  75%  118.86MB/s    0:00:00
+     329.12M 100%  121.75MB/s    0:00:02 (xfer#36, to-check=34/95)
+cd+++++++ Run_538_Wave/Run_538_Wave_MID_15/
+>f+++++++ Run_538_Wave/Run_538_Wave_MID_15/Run_538_Wave_MID_15_FILE_0.dat
+      32.77K   0%   55.27kB/s    1:39:14
+      52.59M  15%   50.16MB/s    0:00:05
+     181.17M  55%   86.43MB/s    0:00:01
+     315.13M  95%  100.21MB/s    0:00:00
+     329.12M 100%  101.28MB/s    0:00:03 (xfer#37, to-check=32/95)
+cd+++++++ Run_538_Wave/Run_538_Wave_MID_2/
+>f+++++++ Run_538_Wave/Run_538_Wave_MID_2/Run_538_Wave_MID_2_FILE_0.dat
+      32.77K   0%  316.83kB/s    0:17:18
+     118.78M  36%  113.28MB/s    0:00:01
+     251.95M  76%  120.20MB/s    0:00:00
+     329.12M 100%  122.75MB/s    0:00:02 (xfer#38, to-check=30/95)
+cd+++++++ Run_538_Wave/Run_538_Wave_MID_3/
+>f+++++++ Run_538_Wave/Run_538_Wave_MID_3/Run_538_Wave_MID_3_FILE_0.dat
+      32.77K   0%   57.25kB/s    1:35:48
+      54.30M  16%   51.78MB/s    0:00:05
+     182.32M  55%   86.98MB/s    0:00:01
+     315.20M  95%  100.26MB/s    0:00:00
+     329.12M 100%  101.35MB/s    0:00:03 (xfer#39, to-check=28/95)
+cd+++++++ Run_538_Wave/Run_538_Wave_MID_4/
+>f+++++++ Run_538_Wave/Run_538_Wave_MID_4/Run_538_Wave_MID_4_FILE_0.dat
+      32.77K   0%  316.83kB/s    0:17:18
+     117.60M  35%  112.16MB/s    0:00:01
+     229.67M  69%  109.57MB/s    0:00:00
+     329.12M 100%  115.48MB/s    0:00:02 (xfer#40, to-check=26/95)
+cd+++++++ Run_538_Wave/Run_538_Wave_MID_5/
+>f+++++++ Run_538_Wave/Run_538_Wave_MID_5/Run_538_Wave_MID_5_FILE_0.dat
+      32.77K   0%   44.44kB/s    2:03:24
+      34.11M  10%   32.53MB/s    0:00:08
+     169.12M  51%   80.44MB/s    0:00:01
+     299.93M  91%   95.22MB/s    0:00:00
+     329.12M 100%   97.66MB/s    0:00:03 (xfer#41, to-check=24/95)
+cd+++++++ Run_538_Wave/Run_538_Wave_MID_6/
+>f+++++++ Run_538_Wave/Run_538_Wave_MID_6/Run_538_Wave_MID_6_FILE_0.dat
+      32.77K   0%  151.66kB/s    0:36:09
+     104.63M  31%   99.78MB/s    0:00:02
+     237.08M  72%  113.10MB/s    0:00:00
+     329.12M 100%  117.73MB/s    0:00:02 (xfer#42, to-check=22/95)
+cd+++++++ Run_538_Wave/Run_538_Wave_MID_7/
+>f+++++++ Run_538_Wave/Run_538_Wave_MID_7/Run_538_Wave_MID_7_FILE_0.dat
+      32.77K   0%   47.90kB/s    1:54:29
+      41.45M  12%   39.53MB/s    0:00:07
+     175.67M  53%   83.77MB/s    0:00:01
+     309.10M  93%   98.26MB/s    0:00:00
+     329.12M 100%   99.83MB/s    0:00:03 (xfer#43, to-check=20/95)
+cd+++++++ Run_538_Wave/Run_538_Wave_MID_8/
+>f+++++++ Run_538_Wave/Run_538_Wave_MID_8/Run_538_Wave_MID_8_FILE_0.dat
+      32.77K   0%  220.69kB/s    0:24:51
+     113.54M  34%  108.28MB/s    0:00:01
+     244.09M  74%  116.39MB/s    0:00:00
+     329.12M 100%  120.07MB/s    0:00:02 (xfer#44, to-check=18/95)
+cd+++++++ Run_538_Wave/Run_538_Wave_MID_9/
+>f+++++++ Run_538_Wave/Run_538_Wave_MID_9/Run_538_Wave_MID_9_FILE_0.dat
+      32.77K   0%   51.95kB/s    1:45:34
+      48.01M  14%   45.78MB/s    0:00:05
+     179.86M  54%   85.77MB/s    0:00:01
+     314.87M  95%  100.09MB/s    0:00:00
+     329.12M 100%  101.18MB/s    0:00:03 (xfer#45, to-check=16/95)
+cd+++++++ Run_538_Wave/Run_538_Wave_log/
+>f+++++++ Run_538_Wave/Run_538_Wave_log/Run_538_Wave_MID_10_buffer.txt
+      32.77K  44%  310.68kB/s    0:00:00
+      73.79K 100%  699.59kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_538_Wave/Run_538_Wave_log/Run_538_Wave_MID_11_buffer.txt
+      32.77K  44%  299.07kB/s    0:00:00
+      73.40K 100%  669.93kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_538_Wave/Run_538_Wave_log/Run_538_Wave_MID_12_buffer.txt
+      32.77K  44%  275.86kB/s    0:00:00
+      72.84K 100%  613.20kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_538_Wave/Run_538_Wave_log/Run_538_Wave_MID_13_buffer.txt
+      32.77K  44%  256.00kB/s    0:00:00
+      73.39K 100%  573.37kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_538_Wave/Run_538_Wave_log/Run_538_Wave_MID_14_buffer.txt
+      32.77K  44%  209.15kB/s    0:00:00
+      73.32K 100%  468.00kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_538_Wave/Run_538_Wave_log/Run_538_Wave_MID_15_buffer.txt
+      32.77K  45%  206.45kB/s    0:00:00
+      72.81K 100%  458.76kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_538_Wave/Run_538_Wave_log/Run_538_Wave_MID_1_buffer.txt
+      32.77K  44%  202.53kB/s    0:00:00
+      72.84K 100%  450.21kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_538_Wave/Run_538_Wave_log/Run_538_Wave_MID_2_buffer.txt
+      32.77K  44%  200.00kB/s    0:00:00
+      73.61K 100%  449.29kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_538_Wave/Run_538_Wave_log/Run_538_Wave_MID_3_buffer.txt
+      32.77K  45%  196.32kB/s    0:00:00
+      72.78K 100%  436.02kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_538_Wave/Run_538_Wave_log/Run_538_Wave_MID_4_buffer.txt
+      32.77K  44%  193.94kB/s    0:00:00
+      72.83K 100%  431.04kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_538_Wave/Run_538_Wave_log/Run_538_Wave_MID_5_buffer.txt
+      32.77K  44%  191.62kB/s    0:00:00
+      73.63K 100%  430.55kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_538_Wave/Run_538_Wave_log/Run_538_Wave_MID_6_buffer.txt
+      32.77K  44%  188.24kB/s    0:00:00
+      72.92K 100%  418.89kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_538_Wave/Run_538_Wave_log/Run_538_Wave_MID_7_buffer.txt
+      32.77K  45%  186.05kB/s    0:00:00
+      72.68K 100%  412.63kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_538_Wave/Run_538_Wave_log/Run_538_Wave_MID_8_buffer.txt
+      32.77K  44%  183.91kB/s    0:00:00
+      73.36K 100%  411.73kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_538_Wave/Run_538_Wave_log/Run_538_Wave_MID_9_buffer.txt
+      32.77K  45%  180.79kB/s    0:00:00
+      72.74K 100%  401.31kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 4.96G bytes  received 1.55K bytes  122.41M bytes/sec
+total size is 4.96G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_538/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_538_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

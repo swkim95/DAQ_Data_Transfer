@@ -1,0 +1,270 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_512/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_512[0m
+[94m[INFO][0m SSD data folder size = [96m[1m2.844 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [#-------------------------------------------------][0m [92m[1m1.354 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 201.788 GB / Free : [4m14699.764 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_512/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_512/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_512.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_512/ /Volumes/HDD_16TB_1/HDD_Run_512/[0m`? [y/n] building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_512
+cd+++++++ ./
+cd+++++++ Run_512_Fast/
+cd+++++++ Run_512_Fast/Run_512_Fast_MID_1/
+>f+++++++ Run_512_Fast/Run_512_Fast_MID_1/Run_512_Fast_MID_1_FILE_0.dat
+      32.77K   4%    0.00kB/s    0:00:00
+     786.43K 100%   59.90MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_512_Fast/Run_512_Fast_MID_10/
+>f+++++++ Run_512_Fast/Run_512_Fast_MID_10/Run_512_Fast_MID_10_FILE_0.dat
+      32.77K   4%   50.87kB/s    0:00:14
+     786.43K 100%    1.17MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_512_Fast/Run_512_Fast_MID_11/
+>f+++++++ Run_512_Fast/Run_512_Fast_MID_11/Run_512_Fast_MID_11_FILE_0.dat
+      32.77K   4%   49.69kB/s    0:00:15
+     786.43K 100%    1.13MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_512_Fast/Run_512_Fast_MID_12/
+>f+++++++ Run_512_Fast/Run_512_Fast_MID_12/Run_512_Fast_MID_12_FILE_0.dat
+      32.77K   4%   47.98kB/s    0:00:15
+     786.43K 100%    1.11MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_512_Fast/Run_512_Fast_MID_13/
+>f+++++++ Run_512_Fast/Run_512_Fast_MID_13/Run_512_Fast_MID_13_FILE_0.dat
+      32.77K   4%   47.27kB/s    0:00:15
+     786.43K 100%    1.09MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_512_Fast/Run_512_Fast_MID_14/
+>f+++++++ Run_512_Fast/Run_512_Fast_MID_14/Run_512_Fast_MID_14_FILE_0.dat
+      32.77K   4%   46.58kB/s    0:00:16
+     786.43K 100%    1.08MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_512_Fast/Run_512_Fast_MID_15/
+>f+++++++ Run_512_Fast/Run_512_Fast_MID_15/Run_512_Fast_MID_15_FILE_0.dat
+      32.77K   4%   45.98kB/s    0:00:16
+     786.43K 100%    1.07MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_512_Fast/Run_512_Fast_MID_2/
+>f+++++++ Run_512_Fast/Run_512_Fast_MID_2/Run_512_Fast_MID_2_FILE_0.dat
+      32.77K   4%   45.45kB/s    0:00:16
+     786.43K 100%    1.06MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_512_Fast/Run_512_Fast_MID_3/
+>f+++++++ Run_512_Fast/Run_512_Fast_MID_3/Run_512_Fast_MID_3_FILE_0.dat
+      32.77K   4%   44.94kB/s    0:00:16
+     786.43K 100%    1.04MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_512_Fast/Run_512_Fast_MID_4/
+>f+++++++ Run_512_Fast/Run_512_Fast_MID_4/Run_512_Fast_MID_4_FILE_0.dat
+      32.77K   4%   44.38kB/s    0:00:16
+     786.43K 100%    1.03MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_512_Fast/Run_512_Fast_MID_5/
+>f+++++++ Run_512_Fast/Run_512_Fast_MID_5/Run_512_Fast_MID_5_FILE_0.dat
+      32.77K   4%   43.90kB/s    0:00:17
+     786.43K 100%    1.02MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_512_Fast/Run_512_Fast_MID_6/
+>f+++++++ Run_512_Fast/Run_512_Fast_MID_6/Run_512_Fast_MID_6_FILE_0.dat
+      32.77K   4%   43.36kB/s    0:00:17
+     786.43K 100%    1.01MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_512_Fast/Run_512_Fast_MID_7/
+>f+++++++ Run_512_Fast/Run_512_Fast_MID_7/Run_512_Fast_MID_7_FILE_0.dat
+      32.77K   4%   42.78kB/s    0:00:17
+     786.43K 100% 1017.22kB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_512_Fast/Run_512_Fast_MID_8/
+>f+++++++ Run_512_Fast/Run_512_Fast_MID_8/Run_512_Fast_MID_8_FILE_0.dat
+      32.77K   4%   42.27kB/s    0:00:17
+     786.43K 100% 1006.55kB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_512_Fast/Run_512_Fast_MID_9/
+>f+++++++ Run_512_Fast/Run_512_Fast_MID_9/Run_512_Fast_MID_9_FILE_0.dat
+      32.77K   4%   41.88kB/s    0:00:17
+     786.43K 100%  997.40kB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_512_Fast/Run_512_Fast_log/
+>f+++++++ Run_512_Fast/Run_512_Fast_log/Run_512_Fast_MID_10_buffer.txt
+         719 100%    0.91kB/s    0:00:00
+         719 100%    0.91kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_512_Fast/Run_512_Fast_log/Run_512_Fast_MID_11_buffer.txt
+         719 100%    0.91kB/s    0:00:00
+         719 100%    0.91kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_512_Fast/Run_512_Fast_log/Run_512_Fast_MID_12_buffer.txt
+         719 100%    0.91kB/s    0:00:00
+         719 100%    0.91kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_512_Fast/Run_512_Fast_log/Run_512_Fast_MID_13_buffer.txt
+         719 100%    0.91kB/s    0:00:00
+         719 100%    0.91kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_512_Fast/Run_512_Fast_log/Run_512_Fast_MID_14_buffer.txt
+         719 100%    0.91kB/s    0:00:00
+         719 100%    0.91kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_512_Fast/Run_512_Fast_log/Run_512_Fast_MID_15_buffer.txt
+         719 100%    0.91kB/s    0:00:00
+         719 100%    0.91kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_512_Fast/Run_512_Fast_log/Run_512_Fast_MID_1_buffer.txt
+         719 100%    0.91kB/s    0:00:00
+         719 100%    0.91kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_512_Fast/Run_512_Fast_log/Run_512_Fast_MID_2_buffer.txt
+         719 100%    0.91kB/s    0:00:00
+         719 100%    0.91kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_512_Fast/Run_512_Fast_log/Run_512_Fast_MID_3_buffer.txt
+         719 100%    0.91kB/s    0:00:00
+         719 100%    0.91kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_512_Fast/Run_512_Fast_log/Run_512_Fast_MID_4_buffer.txt
+         719 100%    0.91kB/s    0:00:00
+         719 100%    0.91kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_512_Fast/Run_512_Fast_log/Run_512_Fast_MID_5_buffer.txt
+         719 100%    0.91kB/s    0:00:00
+         719 100%    0.91kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_512_Fast/Run_512_Fast_log/Run_512_Fast_MID_6_buffer.txt
+         719 100%    0.91kB/s    0:00:00
+         719 100%    0.91kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_512_Fast/Run_512_Fast_log/Run_512_Fast_MID_7_buffer.txt
+         719 100%    0.91kB/s    0:00:00
+         719 100%    0.91kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_512_Fast/Run_512_Fast_log/Run_512_Fast_MID_8_buffer.txt
+         719 100%    0.91kB/s    0:00:00
+         719 100%    0.91kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_512_Fast/Run_512_Fast_log/Run_512_Fast_MID_9_buffer.txt
+         719 100%    0.85kB/s    0:00:00
+         719 100%    0.85kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_512_Wave/
+cd+++++++ Run_512_Wave/Run_512_Wave_MID_1/
+>f+++++++ Run_512_Wave/Run_512_Wave_MID_1/Run_512_Wave_MID_1_FILE_0.dat
+      32.77K   0%   37.65kB/s    1:29:45
+      12.32M   6%   11.75MB/s    0:00:15
+      82.08M  40%   38.64MB/s    0:00:03
+     150.77M  74%   47.50MB/s    0:00:01
+     202.77M 100%   51.75MB/s    0:00:03 (xfer#31, to-check=44/95)
+cd+++++++ Run_512_Wave/Run_512_Wave_MID_10/
+>f+++++++ Run_512_Wave/Run_512_Wave_MID_10/Run_512_Wave_MID_10_FILE_0.dat
+      32.77K   0%   44.94kB/s    1:15:10
+      22.05M  10%   21.03MB/s    0:00:08
+      97.03M  47%   45.83MB/s    0:00:02
+     176.72M  87%   55.20MB/s    0:00:00
+     202.77M 100%   56.56MB/s    0:00:03 (xfer#32, to-check=42/95)
+cd+++++++ Run_512_Wave/Run_512_Wave_MID_11/
+>f+++++++ Run_512_Wave/Run_512_Wave_MID_11/Run_512_Wave_MID_11_FILE_0.dat
+      32.77K   0%   86.02kB/s    0:39:16
+      35.26M  17%   33.62MB/s    0:00:04
+     105.32M  51%   50.24MB/s    0:00:01
+     168.59M  83%   53.61MB/s    0:00:00
+     202.77M 100%   50.79MB/s    0:00:03 (xfer#33, to-check=40/95)
+cd+++++++ Run_512_Wave/Run_512_Wave_MID_12/
+>f+++++++ Run_512_Wave/Run_512_Wave_MID_12/Run_512_Wave_MID_12_FILE_0.dat
+      32.77K   0%   39.56kB/s    1:25:25
+       4.23M   2%    3.99MB/s    0:00:48
+      50.36M  24%   23.91MB/s    0:00:06
+     105.94M  52%   33.57MB/s    0:00:02
+     158.11M  77%   37.60MB/s    0:00:01
+     202.77M 100%   41.20MB/s    0:00:04 (xfer#34, to-check=38/95)
+cd+++++++ Run_512_Wave/Run_512_Wave_MID_13/
+>f+++++++ Run_512_Wave/Run_512_Wave_MID_13/Run_512_Wave_MID_13_FILE_0.dat
+      32.77K   0%   46.85kB/s    1:12:07
+       8.68M   4%    8.25MB/s    0:00:22
+      67.14M  33%   31.95MB/s    0:00:04
+     117.74M  58%   37.32MB/s    0:00:02
+     174.62M  86%   41.54MB/s    0:00:00
+     202.77M 100%   42.60MB/s    0:00:04 (xfer#35, to-check=36/95)
+cd+++++++ Run_512_Wave/Run_512_Wave_MID_14/
+>f+++++++ Run_512_Wave/Run_512_Wave_MID_14/Run_512_Wave_MID_14_FILE_0.dat
+      32.77K   0%   60.38kB/s    0:55:57
+      24.15M  11%   22.99MB/s    0:00:07
+      91.10M  44%   43.42MB/s    0:00:02
+     183.27M  90%   58.24MB/s    0:00:00
+     202.77M 100%   61.37MB/s    0:00:03 (xfer#36, to-check=34/95)
+cd+++++++ Run_512_Wave/Run_512_Wave_MID_15/
+>f+++++++ Run_512_Wave/Run_512_Wave_MID_15/Run_512_Wave_MID_15_FILE_0.dat
+      32.77K   0%  213.33kB/s    0:15:50
+      98.73M  48%   94.16MB/s    0:00:01
+     202.77M 100%  101.14MB/s    0:00:01 (xfer#37, to-check=32/95)
+cd+++++++ Run_512_Wave/Run_512_Wave_MID_2/
+>f+++++++ Run_512_Wave/Run_512_Wave_MID_2/Run_512_Wave_MID_2_FILE_0.dat
+      32.77K   0%   35.01kB/s    1:36:30
+       7.11M   3%    6.78MB/s    0:00:28
+     133.46M  65%   63.67MB/s    0:00:01
+     202.77M 100%   74.06MB/s    0:00:02 (xfer#38, to-check=30/95)
+cd+++++++ Run_512_Wave/Run_512_Wave_MID_3/
+>f+++++++ Run_512_Wave/Run_512_Wave_MID_3/Run_512_Wave_MID_3_FILE_0.dat
+      32.77K   0%   52.20kB/s    1:04:43
+      43.29M  21%   40.51MB/s    0:00:03
+     160.73M  79%   75.92MB/s    0:00:00
+     202.77M 100%   80.21MB/s    0:00:02 (xfer#39, to-check=28/95)
+cd+++++++ Run_512_Wave/Run_512_Wave_MID_4/
+>f+++++++ Run_512_Wave/Run_512_Wave_MID_4/Run_512_Wave_MID_4_FILE_0.dat
+      32.77K   0%   81.42kB/s    0:41:29
+      72.81M  35%   69.44MB/s    0:00:01
+     174.36M  85%   83.18MB/s    0:00:00
+     202.77M 100%   85.98MB/s    0:00:02 (xfer#40, to-check=26/95)
+cd+++++++ Run_512_Wave/Run_512_Wave_MID_5/
+>f+++++++ Run_512_Wave/Run_512_Wave_MID_5/Run_512_Wave_MID_5_FILE_0.dat
+      32.77K   0%  127.49kB/s    0:26:30
+      79.46M  39%   75.78MB/s    0:00:01
+     194.02M  95%   92.52MB/s    0:00:00
+     202.77M 100%   92.52MB/s    0:00:02 (xfer#41, to-check=24/95)
+cd+++++++ Run_512_Wave/Run_512_Wave_MID_6/
+>f+++++++ Run_512_Wave/Run_512_Wave_MID_6/Run_512_Wave_MID_6_FILE_0.dat
+      32.77K   0%  351.65kB/s    0:09:36
+     101.74M  50%   97.03MB/s    0:00:01
+     202.77M 100%   98.76MB/s    0:00:01 (xfer#42, to-check=22/95)
+cd+++++++ Run_512_Wave/Run_512_Wave_MID_7/
+>f+++++++ Run_512_Wave/Run_512_Wave_MID_7/Run_512_Wave_MID_7_FILE_0.dat
+      32.77K   0%   33.33kB/s    1:41:22
+       4.36M   2%    4.16MB/s    0:00:46
+     110.66M  54%   52.79MB/s    0:00:01
+     195.59M  96%   62.22MB/s    0:00:00
+     202.77M 100%   62.91MB/s    0:00:03 (xfer#43, to-check=20/95)
+cd+++++++ Run_512_Wave/Run_512_Wave_MID_8/
+>f+++++++ Run_512_Wave/Run_512_Wave_MID_8/Run_512_Wave_MID_8_FILE_0.dat
+      32.77K   0%  410.26kB/s    0:08:14
+      67.34M  33%   64.22MB/s    0:00:02
+     146.57M  72%   69.89MB/s    0:00:00
+     202.77M 100%   69.68MB/s    0:00:02 (xfer#44, to-check=18/95)
+cd+++++++ Run_512_Wave/Run_512_Wave_MID_9/
+>f+++++++ Run_512_Wave/Run_512_Wave_MID_9/Run_512_Wave_MID_9_FILE_0.dat
+      32.77K   0%   41.18kB/s    1:22:02
+      13.93M   6%   13.28MB/s    0:00:13
+      95.98M  47%   45.77MB/s    0:00:02
+     154.21M  76%   49.02MB/s    0:00:00
+     202.77M 100%   53.60MB/s    0:00:03 (xfer#45, to-check=16/95)
+cd+++++++ Run_512_Wave/Run_512_Wave_log/
+>f+++++++ Run_512_Wave/Run_512_Wave_log/Run_512_Wave_MID_10_buffer.txt
+      32.77K  83%   52.46kB/s    0:00:00
+      39.44K 100%   63.15kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_512_Wave/Run_512_Wave_log/Run_512_Wave_MID_11_buffer.txt
+      32.77K  83%   52.29kB/s    0:00:00
+      39.45K 100%   62.96kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_512_Wave/Run_512_Wave_log/Run_512_Wave_MID_12_buffer.txt
+      32.77K  87%   52.12kB/s    0:00:00
+      37.30K 100%   59.32kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_512_Wave/Run_512_Wave_log/Run_512_Wave_MID_13_buffer.txt
+      32.77K  82%   51.95kB/s    0:00:00
+      39.51K 100%   62.63kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_512_Wave/Run_512_Wave_log/Run_512_Wave_MID_14_buffer.txt
+      32.77K  82%   51.70kB/s    0:00:00
+      39.58K 100%   62.44kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_512_Wave/Run_512_Wave_log/Run_512_Wave_MID_15_buffer.txt
+      32.77K  87%   51.53kB/s    0:00:00
+      37.58K 100%   59.09kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_512_Wave/Run_512_Wave_log/Run_512_Wave_MID_1_buffer.txt
+      32.77K  87%   51.36kB/s    0:00:00
+      37.55K 100%   58.86kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_512_Wave/Run_512_Wave_log/Run_512_Wave_MID_2_buffer.txt
+      32.77K  83%   51.20kB/s    0:00:00
+      39.12K 100%   61.12kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_512_Wave/Run_512_Wave_log/Run_512_Wave_MID_3_buffer.txt
+      32.77K  87%   51.04kB/s    0:00:00
+      37.52K 100%   58.44kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_512_Wave/Run_512_Wave_log/Run_512_Wave_MID_4_buffer.txt
+      32.77K  87%   50.79kB/s    0:00:00
+      37.49K 100%   58.12kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_512_Wave/Run_512_Wave_log/Run_512_Wave_MID_5_buffer.txt
+      32.77K  83%   50.63kB/s    0:00:00
+      39.25K 100%   60.65kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_512_Wave/Run_512_Wave_log/Run_512_Wave_MID_6_buffer.txt
+      32.77K  87%   50.47kB/s    0:00:00
+      37.59K 100%   57.90kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_512_Wave/Run_512_Wave_log/Run_512_Wave_MID_7_buffer.txt
+      32.77K  87%   50.31kB/s    0:00:00
+      37.59K 100%   57.72kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_512_Wave/Run_512_Wave_log/Run_512_Wave_MID_8_buffer.txt
+      32.77K  83%   50.16kB/s    0:00:00
+      39.43K 100%   60.35kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_512_Wave/Run_512_Wave_log/Run_512_Wave_MID_9_buffer.txt
+      32.77K  87%   50.00kB/s    0:00:00
+      37.65K 100%   57.45kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 3.05G bytes  received 1.55K bytes  77.32M bytes/sec
+total size is 3.05G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_512/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_512_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

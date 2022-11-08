@@ -1,0 +1,237 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_400/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_400[0m
+[94m[INFO][0m SSD data folder size = [96m[1m0.475 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [--------------------------------------------------][0m [92m[1m0.024 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 3.565 GB / Free : [4m14897.987 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_400/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_400/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_400.txt --progress /Volumes/HDD_16TB_1/HDD_Run_400/ /Volumes/HDD_16TB_2/HDD_Run_400/[0m`? [y/n] building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_400
+cd+++++++ ./
+cd+++++++ Run_400_Fast/
+cd+++++++ Run_400_Fast/Run_400_Fast_MID_1/
+>f+++++++ Run_400_Fast/Run_400_Fast_MID_1/Run_400_Fast_MID_1_FILE_0.dat
+      32.77K   3%    0.00kB/s    0:00:00
+       1.02M 100%   44.64MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_400_Fast/Run_400_Fast_MID_10/
+>f+++++++ Run_400_Fast/Run_400_Fast_MID_10/Run_400_Fast_MID_10_FILE_0.dat
+      32.77K   3%    1.36MB/s    0:00:00
+       1.02M 100%   21.06MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_400_Fast/Run_400_Fast_MID_11/
+>f+++++++ Run_400_Fast/Run_400_Fast_MID_11/Run_400_Fast_MID_11_FILE_0.dat
+      32.77K   3%   57.87kB/s    0:00:16
+       1.02M 100%    1.72MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_400_Fast/Run_400_Fast_MID_12/
+>f+++++++ Run_400_Fast/Run_400_Fast_MID_12/Run_400_Fast_MID_12_FILE_0.dat
+      32.77K   3%   56.64kB/s    0:00:17
+       1.02M 100%    1.66MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_400_Fast/Run_400_Fast_MID_13/
+>f+++++++ Run_400_Fast/Run_400_Fast_MID_13/Run_400_Fast_MID_13_FILE_0.dat
+      32.77K   3%   53.96kB/s    0:00:18
+       1.02M 100%    1.61MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_400_Fast/Run_400_Fast_MID_14/
+>f+++++++ Run_400_Fast/Run_400_Fast_MID_14/Run_400_Fast_MID_14_FILE_0.dat
+      32.77K   3%   52.98kB/s    0:00:18
+       1.02M 100%    1.58MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_400_Fast/Run_400_Fast_MID_15/
+>f+++++++ Run_400_Fast/Run_400_Fast_MID_15/Run_400_Fast_MID_15_FILE_0.dat
+      32.77K   3%   52.03kB/s    0:00:18
+       1.02M 100%    1.55MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_400_Fast/Run_400_Fast_MID_2/
+>f+++++++ Run_400_Fast/Run_400_Fast_MID_2/Run_400_Fast_MID_2_FILE_0.dat
+      32.77K   3%   51.28kB/s    0:00:19
+       1.02M 100%    1.53MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_400_Fast/Run_400_Fast_MID_3/
+>f+++++++ Run_400_Fast/Run_400_Fast_MID_3/Run_400_Fast_MID_3_FILE_0.dat
+      32.77K   3%   50.55kB/s    0:00:19
+       1.02M 100%    1.51MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_400_Fast/Run_400_Fast_MID_4/
+>f+++++++ Run_400_Fast/Run_400_Fast_MID_4/Run_400_Fast_MID_4_FILE_0.dat
+      32.77K   3%   49.84kB/s    0:00:19
+       1.02M 100%    1.49MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_400_Fast/Run_400_Fast_MID_5/
+>f+++++++ Run_400_Fast/Run_400_Fast_MID_5/Run_400_Fast_MID_5_FILE_0.dat
+      32.77K   3%   49.23kB/s    0:00:19
+       1.02M 100%    1.47MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_400_Fast/Run_400_Fast_MID_6/
+>f+++++++ Run_400_Fast/Run_400_Fast_MID_6/Run_400_Fast_MID_6_FILE_0.dat
+      32.77K   3%   48.48kB/s    0:00:20
+       1.02M 100%    1.45MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_400_Fast/Run_400_Fast_MID_7/
+>f+++++++ Run_400_Fast/Run_400_Fast_MID_7/Run_400_Fast_MID_7_FILE_0.dat
+      32.77K   3%   47.90kB/s    0:00:20
+       1.02M 100%    1.44MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_400_Fast/Run_400_Fast_MID_8/
+>f+++++++ Run_400_Fast/Run_400_Fast_MID_8/Run_400_Fast_MID_8_FILE_0.dat
+      32.77K   3%   47.20kB/s    0:00:20
+       1.02M 100%    1.41MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_400_Fast/Run_400_Fast_MID_9/
+>f+++++++ Run_400_Fast/Run_400_Fast_MID_9/Run_400_Fast_MID_9_FILE_0.dat
+      32.77K   3%   46.58kB/s    0:00:21
+       1.02M 100%    1.40MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_400_Fast/Run_400_Fast_log/
+>f+++++++ Run_400_Fast/Run_400_Fast_log/Run_400_Fast_MID_10_buffer.txt
+         980 100%    1.38kB/s    0:00:00
+         980 100%    1.38kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_400_Fast/Run_400_Fast_log/Run_400_Fast_MID_11_buffer.txt
+         980 100%    1.38kB/s    0:00:00
+         980 100%    1.38kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_400_Fast/Run_400_Fast_log/Run_400_Fast_MID_12_buffer.txt
+         980 100%    1.38kB/s    0:00:00
+         980 100%    1.38kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_400_Fast/Run_400_Fast_log/Run_400_Fast_MID_13_buffer.txt
+         980 100%    1.38kB/s    0:00:00
+         980 100%    1.38kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_400_Fast/Run_400_Fast_log/Run_400_Fast_MID_14_buffer.txt
+         980 100%    1.38kB/s    0:00:00
+         980 100%    1.38kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_400_Fast/Run_400_Fast_log/Run_400_Fast_MID_15_buffer.txt
+         980 100%    1.38kB/s    0:00:00
+         980 100%    1.38kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_400_Fast/Run_400_Fast_log/Run_400_Fast_MID_1_buffer.txt
+         980 100%    1.37kB/s    0:00:00
+         980 100%    1.37kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_400_Fast/Run_400_Fast_log/Run_400_Fast_MID_2_buffer.txt
+         980 100%    1.37kB/s    0:00:00
+         980 100%    1.37kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_400_Fast/Run_400_Fast_log/Run_400_Fast_MID_3_buffer.txt
+         980 100%    1.37kB/s    0:00:00
+         980 100%    1.37kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_400_Fast/Run_400_Fast_log/Run_400_Fast_MID_4_buffer.txt
+         980 100%    1.37kB/s    0:00:00
+         980 100%    1.37kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_400_Fast/Run_400_Fast_log/Run_400_Fast_MID_5_buffer.txt
+         980 100%    1.37kB/s    0:00:00
+         980 100%    1.37kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_400_Fast/Run_400_Fast_log/Run_400_Fast_MID_6_buffer.txt
+         980 100%    1.36kB/s    0:00:00
+         980 100%    1.36kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_400_Fast/Run_400_Fast_log/Run_400_Fast_MID_7_buffer.txt
+         980 100%    1.36kB/s    0:00:00
+         980 100%    1.36kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_400_Fast/Run_400_Fast_log/Run_400_Fast_MID_8_buffer.txt
+         980 100%    1.36kB/s    0:00:00
+         980 100%    1.36kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_400_Fast/Run_400_Fast_log/Run_400_Fast_MID_9_buffer.txt
+         980 100%    1.36kB/s    0:00:00
+         980 100%    1.36kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_400_Wave/
+cd+++++++ Run_400_Wave/Run_400_Wave_MID_1/
+>f+++++++ Run_400_Wave/Run_400_Wave_MID_1/Run_400_Wave_MID_1_FILE_0.dat
+      32.77K   0%   44.82kB/s    0:12:14
+      25.46M  77%   24.16MB/s    0:00:00
+      32.96M 100%   29.44MB/s    0:00:01 (xfer#31, to-check=44/95)
+cd+++++++ Run_400_Wave/Run_400_Wave_MID_10/
+>f+++++++ Run_400_Wave/Run_400_Wave_MID_10/Run_400_Wave_MID_10_FILE_0.dat
+      32.77K   0%  500.00kB/s    0:01:05
+      32.96M 100%   80.20MB/s    0:00:00 (xfer#32, to-check=42/95)
+cd+++++++ Run_400_Wave/Run_400_Wave_MID_11/
+>f+++++++ Run_400_Wave/Run_400_Wave_MID_11/Run_400_Wave_MID_11_FILE_0.dat
+      32.77K   0%   81.22kB/s    0:06:45
+      32.96M 100%   41.81MB/s    0:00:00 (xfer#33, to-check=40/95)
+cd+++++++ Run_400_Wave/Run_400_Wave_MID_12/
+>f+++++++ Run_400_Wave/Run_400_Wave_MID_12/Run_400_Wave_MID_12_FILE_0.dat
+      32.77K   0%   42.44kB/s    0:12:55
+      20.48M  62%   19.53MB/s    0:00:00
+      32.96M 100%   27.94MB/s    0:00:01 (xfer#34, to-check=38/95)
+cd+++++++ Run_400_Wave/Run_400_Wave_MID_13/
+>f+++++++ Run_400_Wave/Run_400_Wave_MID_13/Run_400_Wave_MID_13_FILE_0.dat
+      32.77K   0%  251.97kB/s    0:02:10
+      32.96M 100%   72.60MB/s    0:00:00 (xfer#35, to-check=36/95)
+cd+++++++ Run_400_Wave/Run_400_Wave_MID_14/
+>f+++++++ Run_400_Wave/Run_400_Wave_MID_14/Run_400_Wave_MID_14_FILE_0.dat
+      32.77K   0%   73.73kB/s    0:07:26
+      32.96M 100%   40.88MB/s    0:00:00 (xfer#36, to-check=34/95)
+cd+++++++ Run_400_Wave/Run_400_Wave_MID_15/
+>f+++++++ Run_400_Wave/Run_400_Wave_MID_15/Run_400_Wave_MID_15_FILE_0.dat
+      32.77K   0%   41.50kB/s    0:13:13
+      22.77M  69%   21.72MB/s    0:00:00
+      32.96M 100%   28.95MB/s    0:00:01 (xfer#37, to-check=32/95)
+cd+++++++ Run_400_Wave/Run_400_Wave_MID_2/
+>f+++++++ Run_400_Wave/Run_400_Wave_MID_2/Run_400_Wave_MID_2_FILE_0.dat
+      32.77K   0%  363.64kB/s    0:01:30
+      32.96M 100%   78.59MB/s    0:00:00 (xfer#38, to-check=30/95)
+cd+++++++ Run_400_Wave/Run_400_Wave_MID_3/
+>f+++++++ Run_400_Wave/Run_400_Wave_MID_3/Run_400_Wave_MID_3_FILE_0.dat
+      32.77K   0%   79.60kB/s    0:06:53
+      32.96M 100%   42.14MB/s    0:00:00 (xfer#39, to-check=28/95)
+cd+++++++ Run_400_Wave/Run_400_Wave_MID_4/
+>f+++++++ Run_400_Wave/Run_400_Wave_MID_4/Run_400_Wave_MID_4_FILE_0.dat
+      32.77K   0%   42.78kB/s    0:12:49
+      23.36M  70%   22.17MB/s    0:00:00
+      32.96M 100%   28.76MB/s    0:00:01 (xfer#40, to-check=26/95)
+cd+++++++ Run_400_Wave/Run_400_Wave_MID_5/
+>f+++++++ Run_400_Wave/Run_400_Wave_MID_5/Run_400_Wave_MID_5_FILE_0.dat
+      32.77K   0%  359.55kB/s    0:01:31
+      32.96M 100%   79.19MB/s    0:00:00 (xfer#41, to-check=24/95)
+cd+++++++ Run_400_Wave/Run_400_Wave_MID_6/
+>f+++++++ Run_400_Wave/Run_400_Wave_MID_6/Run_400_Wave_MID_6_FILE_0.dat
+      32.77K   0%   80.40kB/s    0:06:49
+      32.96M 100%   41.42MB/s    0:00:00 (xfer#42, to-check=22/95)
+cd+++++++ Run_400_Wave/Run_400_Wave_MID_7/
+>f+++++++ Run_400_Wave/Run_400_Wave_MID_7/Run_400_Wave_MID_7_FILE_0.dat
+      32.77K   0%   42.11kB/s    0:13:02
+      17.79M  53%   16.97MB/s    0:00:00
+      32.96M 100%   27.70MB/s    0:00:01 (xfer#43, to-check=20/95)
+cd+++++++ Run_400_Wave/Run_400_Wave_MID_8/
+>f+++++++ Run_400_Wave/Run_400_Wave_MID_8/Run_400_Wave_MID_8_FILE_0.dat
+      32.77K   0%  233.58kB/s    0:02:20
+      32.96M 100%   61.64MB/s    0:00:00 (xfer#44, to-check=18/95)
+cd+++++++ Run_400_Wave/Run_400_Wave_MID_9/
+>f+++++++ Run_400_Wave/Run_400_Wave_MID_9/Run_400_Wave_MID_9_FILE_0.dat
+      32.77K   0%   62.50kB/s    0:08:46
+      32.96M 100%   35.93MB/s    0:00:00 (xfer#45, to-check=16/95)
+cd+++++++ Run_400_Wave/Run_400_Wave_log/
+>f+++++++ Run_400_Wave/Run_400_Wave_log/Run_400_Wave_MID_10_buffer.txt
+       7.94K 100%    8.75kB/s    0:00:00
+       7.94K 100%    8.75kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_400_Wave/Run_400_Wave_log/Run_400_Wave_MID_11_buffer.txt
+       7.94K 100%    8.67kB/s    0:00:00
+       7.94K 100%    8.67kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_400_Wave/Run_400_Wave_log/Run_400_Wave_MID_12_buffer.txt
+       7.94K 100%    8.65kB/s    0:00:00
+       7.94K 100%    8.65kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_400_Wave/Run_400_Wave_log/Run_400_Wave_MID_13_buffer.txt
+       7.94K 100%    8.55kB/s    0:00:00
+       7.94K 100%    8.55kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_400_Wave/Run_400_Wave_log/Run_400_Wave_MID_14_buffer.txt
+       7.94K 100%    8.40kB/s    0:00:00
+       7.94K 100%    8.40kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_400_Wave/Run_400_Wave_log/Run_400_Wave_MID_15_buffer.txt
+       7.94K 100%    8.40kB/s    0:00:00
+       7.94K 100%    8.40kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_400_Wave/Run_400_Wave_log/Run_400_Wave_MID_1_buffer.txt
+       7.94K 100%    8.39kB/s    0:00:00
+       7.94K 100%    8.39kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_400_Wave/Run_400_Wave_log/Run_400_Wave_MID_2_buffer.txt
+       7.94K 100%    8.39kB/s    0:00:00
+       7.94K 100%    8.39kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_400_Wave/Run_400_Wave_log/Run_400_Wave_MID_3_buffer.txt
+       7.94K 100%    8.39kB/s    0:00:00
+       7.94K 100%    8.39kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_400_Wave/Run_400_Wave_log/Run_400_Wave_MID_4_buffer.txt
+       7.94K 100%    8.39kB/s    0:00:00
+       7.94K 100%    8.39kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_400_Wave/Run_400_Wave_log/Run_400_Wave_MID_5_buffer.txt
+       7.94K 100%    8.39kB/s    0:00:00
+       7.94K 100%    8.39kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_400_Wave/Run_400_Wave_log/Run_400_Wave_MID_6_buffer.txt
+       7.94K 100%    8.34kB/s    0:00:00
+       7.94K 100%    8.34kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_400_Wave/Run_400_Wave_log/Run_400_Wave_MID_7_buffer.txt
+       7.94K 100%    8.33kB/s    0:00:00
+       7.94K 100%    8.33kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_400_Wave/Run_400_Wave_log/Run_400_Wave_MID_8_buffer.txt
+       7.94K 100%    8.32kB/s    0:00:00
+       7.94K 100%    8.32kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_400_Wave/Run_400_Wave_log/Run_400_Wave_MID_9_buffer.txt
+       7.94K 100%    8.31kB/s    0:00:00
+       7.94K 100%    8.31kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 509.91M bytes  received 1.55K bytes  78.45M bytes/sec
+total size is 509.84M  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_400/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_400_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

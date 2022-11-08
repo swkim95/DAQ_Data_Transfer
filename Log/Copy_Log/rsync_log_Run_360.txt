@@ -1,0 +1,18 @@
+2022/09/05 07:58:45 [2067] receiving file list
+2022/09/05 07:58:45 [2067] created directory /Volumes/HDD_16TB_1/HDD_Run_360
+2022/09/05 07:58:45 [2067] cd+++++++ ./
+2022/09/05 07:58:45 [2067] cd+++++++ Run_360_Fast/
+2022/09/05 07:58:45 [2067] cd+++++++ Run_360_Fast/Run_360_Fast_MID_1/
+2022/09/05 07:58:45 [2067] >f+++++++ Run_360_Fast/Run_360_Fast_MID_1/Run_360_Fast_MID_1_FILE_0.dat
+2022/09/05 07:58:45 [2067] >f+++++++ Run_360_Fast/Run_360_Fast_MID_1/Run_360_Fast_MID_1_FILE_1.dat
+2022/09/05 07:58:45 [2067] >f+++++++ Run_360_Fast/Run_360_Fast_MID_1/Run_360_Fast_MID_1_FILE_2.dat
+2022/09/05 07:58:45 [2067] cd+++++++ Run_360_Fast/Run_360_Fast_log/
+2022/09/05 07:58:45 [2067] >f+++++++ Run_360_Fast/Run_360_Fast_log/Run_360_Fast_MID_1_buffer.txt
+2022/09/05 07:58:45 [2067] cd+++++++ Run_360_Wave/
+2022/09/05 07:58:45 [2067] cd+++++++ Run_360_Wave/Run_360_Wave_MID_1/
+2022/09/05 07:58:45 [2067] >f+++++++ Run_360_Wave/Run_360_Wave_MID_1/Run_360_Wave_MID_1_FILE_0.dat
+2022/09/05 07:58:46 [2067] >f+++++++ Run_360_Wave/Run_360_Wave_MID_1/Run_360_Wave_MID_1_FILE_1.dat
+2022/09/05 07:58:46 [2067] >f+++++++ Run_360_Wave/Run_360_Wave_MID_1/Run_360_Wave_MID_1_FILE_2.dat
+2022/09/05 07:58:46 [2067] cd+++++++ Run_360_Wave/Run_360_Wave_log/
+2022/09/05 07:58:46 [2067] >f+++++++ Run_360_Wave/Run_360_Wave_log/Run_360_Wave_MID_1_buffer.txt
+2022/09/05 07:58:46 [2067] sent 296 bytes  received 427 bytes  total size 140872808

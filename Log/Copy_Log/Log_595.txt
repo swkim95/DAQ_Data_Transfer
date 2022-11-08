@@ -1,0 +1,271 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_595/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_595[0m
+[94m[INFO][0m SSD data folder size = [96m[1m4.637 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [####----------------------------------------------][0m [92m[1m7.685 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 1145.151 GB / Free : [4m13756.402 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_595/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_595/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_595.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_595/ /Volumes/HDD_16TB_1/HDD_Run_595/[0m`? [y/n] building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_595
+cd+++++++ ./
+cd+++++++ Run_595_Fast/
+cd+++++++ Run_595_Fast/Run_595_Fast_MID_1/
+>f+++++++ Run_595_Fast/Run_595_Fast_MID_1/Run_595_Fast_MID_1_FILE_0.dat
+      32.77K   2%    0.00kB/s    0:00:00
+       1.28M 100%   62.50MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_595_Fast/Run_595_Fast_MID_10/
+>f+++++++ Run_595_Fast/Run_595_Fast_MID_10/Run_595_Fast_MID_10_FILE_0.dat
+      32.77K   2%  524.59kB/s    0:00:02
+       1.28M 100%   16.25MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_595_Fast/Run_595_Fast_MID_11/
+>f+++++++ Run_595_Fast/Run_595_Fast_MID_11/Run_595_Fast_MID_11_FILE_0.dat
+      32.77K   2%  415.58kB/s    0:00:02
+       1.28M 100%   13.10MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_595_Fast/Run_595_Fast_MID_12/
+>f+++++++ Run_595_Fast/Run_595_Fast_MID_12/Run_595_Fast_MID_12_FILE_0.dat
+      32.77K   2%  336.84kB/s    0:00:03
+       1.28M 100%   11.28MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_595_Fast/Run_595_Fast_MID_13/
+>f+++++++ Run_595_Fast/Run_595_Fast_MID_13/Run_595_Fast_MID_13_FILE_0.dat
+      32.77K   2%  290.91kB/s    0:00:04
+       1.28M 100%    9.91MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_595_Fast/Run_595_Fast_MID_14/
+>f+++++++ Run_595_Fast/Run_595_Fast_MID_14/Run_595_Fast_MID_14_FILE_0.dat
+      32.77K   2%  256.00kB/s    0:00:04
+       1.28M 100%    8.96MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_595_Fast/Run_595_Fast_MID_15/
+>f+++++++ Run_595_Fast/Run_595_Fast_MID_15/Run_595_Fast_MID_15_FILE_0.dat
+      32.77K   2%  233.58kB/s    0:00:05
+       1.28M 100%    8.23MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_595_Fast/Run_595_Fast_MID_2/
+>f+++++++ Run_595_Fast/Run_595_Fast_MID_2/Run_595_Fast_MID_2_FILE_0.dat
+      32.77K   2%  213.33kB/s    0:00:05
+       1.28M 100%    7.57MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_595_Fast/Run_595_Fast_MID_3/
+>f+++++++ Run_595_Fast/Run_595_Fast_MID_3/Run_595_Fast_MID_3_FILE_0.dat
+      32.77K   2%  197.53kB/s    0:00:06
+       1.28M 100%    7.04MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_595_Fast/Run_595_Fast_MID_4/
+>f+++++++ Run_595_Fast/Run_595_Fast_MID_4/Run_595_Fast_MID_4_FILE_0.dat
+      32.77K   2%  183.91kB/s    0:00:06
+       1.28M 100%    6.55MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_595_Fast/Run_595_Fast_MID_5/
+>f+++++++ Run_595_Fast/Run_595_Fast_MID_5/Run_595_Fast_MID_5_FILE_0.dat
+      32.77K   2%  170.21kB/s    0:00:07
+       1.28M 100%    6.12MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_595_Fast/Run_595_Fast_MID_6/
+>f+++++++ Run_595_Fast/Run_595_Fast_MID_6/Run_595_Fast_MID_6_FILE_0.dat
+      32.77K   2%  159.20kB/s    0:00:07
+       1.28M 100%    5.75MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_595_Fast/Run_595_Fast_MID_7/
+>f+++++++ Run_595_Fast/Run_595_Fast_MID_7/Run_595_Fast_MID_7_FILE_0.dat
+      32.77K   2%  149.53kB/s    0:00:08
+       1.28M 100%    5.42MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_595_Fast/Run_595_Fast_MID_8/
+>f+++++++ Run_595_Fast/Run_595_Fast_MID_8/Run_595_Fast_MID_8_FILE_0.dat
+      32.77K   2%  140.97kB/s    0:00:08
+       1.28M 100%    5.12MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_595_Fast/Run_595_Fast_MID_9/
+>f+++++++ Run_595_Fast/Run_595_Fast_MID_9/Run_595_Fast_MID_9_FILE_0.dat
+      32.77K   2%  133.33kB/s    0:00:09
+       1.28M 100%    4.86MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_595_Fast/Run_595_Fast_log/
+>f+++++++ Run_595_Fast/Run_595_Fast_log/Run_595_Fast_MID_10_buffer.txt
+       1.22K 100%    4.74kB/s    0:00:00
+       1.22K 100%    4.74kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_595_Fast/Run_595_Fast_log/Run_595_Fast_MID_11_buffer.txt
+       1.22K 100%    4.74kB/s    0:00:00
+       1.22K 100%    4.74kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_595_Fast/Run_595_Fast_log/Run_595_Fast_MID_12_buffer.txt
+       1.22K 100%    4.74kB/s    0:00:00
+       1.22K 100%    4.74kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_595_Fast/Run_595_Fast_log/Run_595_Fast_MID_13_buffer.txt
+       1.22K 100%    4.74kB/s    0:00:00
+       1.22K 100%    4.74kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_595_Fast/Run_595_Fast_log/Run_595_Fast_MID_14_buffer.txt
+       1.22K 100%    4.72kB/s    0:00:00
+       1.22K 100%    4.72kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_595_Fast/Run_595_Fast_log/Run_595_Fast_MID_15_buffer.txt
+       1.22K 100%    4.72kB/s    0:00:00
+       1.22K 100%    4.72kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_595_Fast/Run_595_Fast_log/Run_595_Fast_MID_1_buffer.txt
+       1.22K 100%    4.72kB/s    0:00:00
+       1.22K 100%    4.72kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_595_Fast/Run_595_Fast_log/Run_595_Fast_MID_2_buffer.txt
+       1.22K 100%    4.72kB/s    0:00:00
+       1.22K 100%    4.72kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_595_Fast/Run_595_Fast_log/Run_595_Fast_MID_3_buffer.txt
+       1.22K 100%    4.72kB/s    0:00:00
+       1.22K 100%    4.72kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_595_Fast/Run_595_Fast_log/Run_595_Fast_MID_4_buffer.txt
+       1.22K 100%    4.48kB/s    0:00:00
+       1.22K 100%    4.48kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_595_Fast/Run_595_Fast_log/Run_595_Fast_MID_5_buffer.txt
+       1.22K 100%    4.48kB/s    0:00:00
+       1.22K 100%    4.48kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_595_Fast/Run_595_Fast_log/Run_595_Fast_MID_6_buffer.txt
+       1.22K 100%    4.48kB/s    0:00:00
+       1.22K 100%    4.48kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_595_Fast/Run_595_Fast_log/Run_595_Fast_MID_7_buffer.txt
+       1.22K 100%    4.48kB/s    0:00:00
+       1.22K 100%    4.48kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_595_Fast/Run_595_Fast_log/Run_595_Fast_MID_8_buffer.txt
+       1.22K 100%    4.48kB/s    0:00:00
+       1.22K 100%    4.48kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_595_Fast/Run_595_Fast_log/Run_595_Fast_MID_9_buffer.txt
+       1.22K 100%    4.19kB/s    0:00:00
+       1.22K 100%    4.19kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_595_Wave/
+cd+++++++ Run_595_Wave/Run_595_Wave_MID_1/
+>f+++++++ Run_595_Wave/Run_595_Wave_MID_1/Run_595_Wave_MID_1_FILE_0.dat
+      32.77K   0%  104.23kB/s    0:52:51
+      79.46M  24%   75.78MB/s    0:00:03
+     195.07M  59%   93.02MB/s    0:00:01
+     303.07M  91%   96.06MB/s    0:00:00
+     330.56M 100%   97.42MB/s    0:00:03 (xfer#31, to-check=44/95)
+cd+++++++ Run_595_Wave/Run_595_Wave_MID_10/
+>f+++++++ Run_595_Wave/Run_595_Wave_MID_10/Run_595_Wave_MID_10_FILE_0.dat
+      32.77K   0%  140.35kB/s    0:39:15
+      74.74M  22%   71.28MB/s    0:00:03
+     168.85M  51%   80.52MB/s    0:00:01
+     294.68M  89%   93.68MB/s    0:00:00
+     330.56M 100%   96.61MB/s    0:00:03 (xfer#32, to-check=42/95)
+cd+++++++ Run_595_Wave/Run_595_Wave_MID_11/
+>f+++++++ Run_595_Wave/Run_595_Wave_MID_11/Run_595_Wave_MID_11_FILE_0.dat
+      32.77K   0%  120.75kB/s    0:45:37
+      78.41M  23%   74.63MB/s    0:00:03
+     186.94M  56%   89.10MB/s    0:00:01
+     316.74M  95%  100.69MB/s    0:00:00
+     330.56M 100%  101.69MB/s    0:00:03 (xfer#33, to-check=40/95)
+cd+++++++ Run_595_Wave/Run_595_Wave_MID_12/
+>f+++++++ Run_595_Wave/Run_595_Wave_MID_12/Run_595_Wave_MID_12_FILE_0.dat
+      32.77K   0%  316.83kB/s    0:17:23
+     118.42M  35%  112.94MB/s    0:00:01
+     252.48M  76%  120.45MB/s    0:00:00
+     330.56M 100%  123.05MB/s    0:00:02 (xfer#34, to-check=38/95)
+cd+++++++ Run_595_Wave/Run_595_Wave_MID_13/
+>f+++++++ Run_595_Wave/Run_595_Wave_MID_13/Run_595_Wave_MID_13_FILE_0.dat
+      32.77K   0%   56.64kB/s    1:37:15
+      52.66M  15%   50.22MB/s    0:00:05
+     185.63M  56%   88.56MB/s    0:00:01
+     323.58M  97%  102.93MB/s    0:00:00
+     330.56M 100%  103.46MB/s    0:00:03 (xfer#35, to-check=36/95)
+cd+++++++ Run_595_Wave/Run_595_Wave_MID_14/
+>f+++++++ Run_595_Wave/Run_595_Wave_MID_14/Run_595_Wave_MID_14_FILE_0.dat
+      32.77K   0%  627.45kB/s    0:08:46
+     124.81M  37%  119.03MB/s    0:00:01
+     256.15M  77%  122.14MB/s    0:00:00
+     330.56M 100%  124.26MB/s    0:00:02 (xfer#36, to-check=34/95)
+cd+++++++ Run_595_Wave/Run_595_Wave_MID_15/
+>f+++++++ Run_595_Wave/Run_595_Wave_MID_15/Run_595_Wave_MID_15_FILE_0.dat
+      32.77K   0%   59.48kB/s    1:32:37
+      58.75M  17%   56.03MB/s    0:00:04
+     190.35M  57%   90.81MB/s    0:00:01
+     324.83M  98%  103.26MB/s    0:00:00
+     330.56M 100%  103.73MB/s    0:00:03 (xfer#37, to-check=32/95)
+cd+++++++ Run_595_Wave/Run_595_Wave_MID_2/
+>f+++++++ Run_595_Wave/Run_595_Wave_MID_2/Run_595_Wave_MID_2_FILE_0.dat
+      32.77K   0%  780.49kB/s    0:07:03
+     126.91M  38%  121.03MB/s    0:00:01
+     257.20M  77%  122.64MB/s    0:00:00
+     330.56M 100%  124.60MB/s    0:00:02 (xfer#38, to-check=30/95)
+cd+++++++ Run_595_Wave/Run_595_Wave_MID_3/
+>f+++++++ Run_595_Wave/Run_595_Wave_MID_3/Run_595_Wave_MID_3_FILE_0.dat
+      32.77K   0%   60.15kB/s    1:31:35
+      60.03M  18%   57.25MB/s    0:00:04
+     190.94M  57%   91.09MB/s    0:00:01
+     329.02M  99%  104.66MB/s    0:00:00
+     330.56M 100%  104.84MB/s    0:00:03 (xfer#39, to-check=28/95)
+cd+++++++ Run_595_Wave/Run_595_Wave_MID_4/
+>f+++++++ Run_595_Wave/Run_595_Wave_MID_4/Run_595_Wave_MID_4_FILE_0.dat
+      32.77K   0%    2.84MB/s    0:01:53
+     125.86M  38%  120.03MB/s    0:00:01
+     253.00M  76%  120.70MB/s    0:00:00
+     330.56M 100%  123.19MB/s    0:00:02 (xfer#40, to-check=26/95)
+cd+++++++ Run_595_Wave/Run_595_Wave_MID_5/
+>f+++++++ Run_595_Wave/Run_595_Wave_MID_5/Run_595_Wave_MID_5_FILE_0.dat
+      32.77K   0%   56.94kB/s    1:36:44
+      59.28M  17%   56.53MB/s    0:00:04
+     189.04M  57%   89.87MB/s    0:00:01
+     324.83M  98%  103.09MB/s    0:00:00
+     330.56M 100%  103.50MB/s    0:00:03 (xfer#41, to-check=24/95)
+cd+++++++ Run_595_Wave/Run_595_Wave_MID_6/
+>f+++++++ Run_595_Wave/Run_595_Wave_MID_6/Run_595_Wave_MID_6_FILE_0.dat
+      32.77K   0%  780.49kB/s    0:07:03
+     125.60M  37%  119.78MB/s    0:00:01
+     255.13M  77%  121.66MB/s    0:00:00
+     330.56M 100%  123.92MB/s    0:00:02 (xfer#42, to-check=22/95)
+cd+++++++ Run_595_Wave/Run_595_Wave_MID_7/
+>f+++++++ Run_595_Wave/Run_595_Wave_MID_7/Run_595_Wave_MID_7_FILE_0.dat
+      32.77K   0%   58.61kB/s    1:33:59
+      57.48M  17%   54.81MB/s    0:00:04
+     190.94M  57%   91.09MB/s    0:00:01
+     319.32M  96%  101.34MB/s    0:00:00
+     330.56M 100%   99.32MB/s    0:00:03 (xfer#43, to-check=20/95)
+cd+++++++ Run_595_Wave/Run_595_Wave_MID_8/
+>f+++++++ Run_595_Wave/Run_595_Wave_MID_8/Run_595_Wave_MID_8_FILE_0.dat
+      32.77K   0%  188.24kB/s    0:29:15
+     108.56M  32%  103.53MB/s    0:00:02
+     238.06M  72%  113.52MB/s    0:00:00
+     330.56M 100%  118.20MB/s    0:00:02 (xfer#44, to-check=18/95)
+cd+++++++ Run_595_Wave/Run_595_Wave_MID_9/
+>f+++++++ Run_595_Wave/Run_595_Wave_MID_9/Run_595_Wave_MID_9_FILE_0.dat
+      32.77K   0%   47.76kB/s    1:55:20
+      38.31M  11%   36.53MB/s    0:00:07
+     173.31M  52%   82.27MB/s    0:00:01
+     306.22M  92%   97.08MB/s    0:00:00
+     330.56M 100%   99.04MB/s    0:00:03 (xfer#45, to-check=16/95)
+cd+++++++ Run_595_Wave/Run_595_Wave_log/
+>f+++++++ Run_595_Wave/Run_595_Wave_log/Run_595_Wave_MID_10_buffer.txt
+      32.77K  42%  180.79kB/s    0:00:00
+      76.70K 100%  423.17kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_595_Wave/Run_595_Wave_log/Run_595_Wave_MID_11_buffer.txt
+      32.77K  42%  176.80kB/s    0:00:00
+      76.87K 100%  414.75kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_595_Wave/Run_595_Wave_log/Run_595_Wave_MID_12_buffer.txt
+      32.77K  42%  171.12kB/s    0:00:00
+      76.63K 100%  400.20kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_595_Wave/Run_595_Wave_log/Run_595_Wave_MID_13_buffer.txt
+      32.77K  42%  146.12kB/s    0:00:00
+      76.76K 100%  342.27kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_595_Wave/Run_595_Wave_log/Run_595_Wave_MID_14_buffer.txt
+      32.77K  42%  131.15kB/s    0:00:00
+      76.77K 100%  307.25kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_595_Wave/Run_595_Wave_log/Run_595_Wave_MID_15_buffer.txt
+      32.77K  42%  119.85kB/s    0:00:00
+      76.55K 100%  279.97kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_595_Wave/Run_595_Wave_log/Run_595_Wave_MID_1_buffer.txt
+      32.77K  42%  117.65kB/s    0:00:00
+      76.52K 100%  274.73kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_595_Wave/Run_595_Wave_log/Run_595_Wave_MID_2_buffer.txt
+      32.77K  42%  115.94kB/s    0:00:00
+      76.88K 100%  272.01kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_595_Wave/Run_595_Wave_log/Run_595_Wave_MID_3_buffer.txt
+      32.77K  42%  113.88kB/s    0:00:00
+      76.58K 100%  266.13kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_595_Wave/Run_595_Wave_log/Run_595_Wave_MID_4_buffer.txt
+      32.77K  42%  112.28kB/s    0:00:00
+      76.54K 100%  261.35kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_595_Wave/Run_595_Wave_log/Run_595_Wave_MID_5_buffer.txt
+      32.77K  42%  110.34kB/s    0:00:00
+      76.90K 100%  258.96kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_595_Wave/Run_595_Wave_log/Run_595_Wave_MID_6_buffer.txt
+      32.77K  42%  108.84kB/s    0:00:00
+      76.54K 100%  254.25kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_595_Wave/Run_595_Wave_log/Run_595_Wave_MID_7_buffer.txt
+      32.77K  42%  107.38kB/s    0:00:00
+      76.46K 100%  250.57kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_595_Wave/Run_595_Wave_log/Run_595_Wave_MID_8_buffer.txt
+      32.77K  42%  105.61kB/s    0:00:00
+      76.88K 100%  247.78kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_595_Wave/Run_595_Wave_log/Run_595_Wave_MID_9_buffer.txt
+      32.77K  42%  104.23kB/s    0:00:00
+      76.45K 100%  243.17kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 4.98G bytes  received 1.55K bytes  122.95M bytes/sec
+total size is 4.98G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_595/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_595_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

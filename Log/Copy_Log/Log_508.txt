@@ -1,0 +1,334 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_508/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_508[0m
+[94m[INFO][0m SSD data folder size = [96m[1m7.605 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [#-------------------------------------------------][0m [92m[1m1.265 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 188.458 GB / Free : [4m14713.095 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_508/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_508/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_508.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_508/ /Volumes/HDD_16TB_1/HDD_Run_508/[0m`? [y/n] building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_508
+cd+++++++ ./
+cd+++++++ Run_508_Fast/
+cd+++++++ Run_508_Fast/Run_508_Fast_MID_1/
+>f+++++++ Run_508_Fast/Run_508_Fast_MID_1/Run_508_Fast_MID_1_FILE_0.dat
+      32.77K   1%    0.00kB/s    0:00:00
+       2.11M 100%   44.10MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_508_Fast/Run_508_Fast_MID_10/
+>f+++++++ Run_508_Fast/Run_508_Fast_MID_10/Run_508_Fast_MID_10_FILE_0.dat
+      32.77K   1%   61.90kB/s    0:00:33
+       2.11M 100%    3.63MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_508_Fast/Run_508_Fast_MID_11/
+>f+++++++ Run_508_Fast/Run_508_Fast_MID_11/Run_508_Fast_MID_11_FILE_0.dat
+      32.77K   1%   57.45kB/s    0:00:36
+       2.11M 100%    3.48MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_508_Fast/Run_508_Fast_MID_12/
+>f+++++++ Run_508_Fast/Run_508_Fast_MID_12/Run_508_Fast_MID_12_FILE_0.dat
+      32.77K   1%   55.08kB/s    0:00:37
+       2.11M 100%    3.34MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_508_Fast/Run_508_Fast_MID_13/
+>f+++++++ Run_508_Fast/Run_508_Fast_MID_13/Run_508_Fast_MID_13_FILE_0.dat
+      32.77K   1%   52.98kB/s    0:00:39
+       2.11M 100%    3.23MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_508_Fast/Run_508_Fast_MID_14/
+>f+++++++ Run_508_Fast/Run_508_Fast_MID_14/Run_508_Fast_MID_14_FILE_0.dat
+      32.77K   1%   51.12kB/s    0:00:40
+       2.11M 100%    3.10MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_508_Fast/Run_508_Fast_MID_15/
+>f+++++++ Run_508_Fast/Run_508_Fast_MID_15/Run_508_Fast_MID_15_FILE_0.dat
+      32.77K   1%   49.08kB/s    0:00:42
+       2.11M 100%    2.99MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_508_Fast/Run_508_Fast_MID_2/
+>f+++++++ Run_508_Fast/Run_508_Fast_MID_2/Run_508_Fast_MID_2_FILE_0.dat
+      32.77K   1%   47.41kB/s    0:00:43
+       2.11M 100%    2.89MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_508_Fast/Run_508_Fast_MID_3/
+>f+++++++ Run_508_Fast/Run_508_Fast_MID_3/Run_508_Fast_MID_3_FILE_0.dat
+      32.77K   1%   45.78kB/s    0:00:45
+       2.11M 100%    2.80MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_508_Fast/Run_508_Fast_MID_4/
+>f+++++++ Run_508_Fast/Run_508_Fast_MID_4/Run_508_Fast_MID_4_FILE_0.dat
+      32.77K   1%   44.14kB/s    0:00:47
+       2.11M 100%    2.67MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_508_Fast/Run_508_Fast_MID_5/
+>f+++++++ Run_508_Fast/Run_508_Fast_MID_5/Run_508_Fast_MID_5_FILE_0.dat
+      32.77K   1%   42.33kB/s    0:00:49
+       2.11M 100%    2.59MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_508_Fast/Run_508_Fast_MID_6/
+>f+++++++ Run_508_Fast/Run_508_Fast_MID_6/Run_508_Fast_MID_6_FILE_0.dat
+      32.77K   1%   41.03kB/s    0:00:50
+       2.11M 100%    2.52MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_508_Fast/Run_508_Fast_MID_7/
+>f+++++++ Run_508_Fast/Run_508_Fast_MID_7/Run_508_Fast_MID_7_FILE_0.dat
+      32.77K   1%   39.95kB/s    0:00:52
+       2.11M 100%    2.43MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_508_Fast/Run_508_Fast_MID_8/
+>f+++++++ Run_508_Fast/Run_508_Fast_MID_8/Run_508_Fast_MID_8_FILE_0.dat
+      32.77K   1%   38.37kB/s    0:00:54
+       2.11M 100%    2.33MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_508_Fast/Run_508_Fast_MID_9/
+>f+++++++ Run_508_Fast/Run_508_Fast_MID_9/Run_508_Fast_MID_9_FILE_0.dat
+      32.77K   1%   36.99kB/s    0:00:56
+       2.11M 100%    2.22MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_508_Fast/Run_508_Fast_log/
+>f+++++++ Run_508_Fast/Run_508_Fast_log/Run_508_Fast_MID_10_buffer.txt
+       2.07K 100%    2.24kB/s    0:00:00
+       2.07K 100%    2.24kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_508_Fast/Run_508_Fast_log/Run_508_Fast_MID_11_buffer.txt
+       2.07K 100%    2.24kB/s    0:00:00
+       2.07K 100%    2.24kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_508_Fast/Run_508_Fast_log/Run_508_Fast_MID_12_buffer.txt
+       2.07K 100%    2.23kB/s    0:00:00
+       2.07K 100%    2.23kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_508_Fast/Run_508_Fast_log/Run_508_Fast_MID_13_buffer.txt
+       2.07K 100%    2.23kB/s    0:00:00
+       2.07K 100%    2.23kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_508_Fast/Run_508_Fast_log/Run_508_Fast_MID_14_buffer.txt
+       2.07K 100%    2.23kB/s    0:00:00
+       2.07K 100%    2.23kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_508_Fast/Run_508_Fast_log/Run_508_Fast_MID_15_buffer.txt
+       2.07K 100%    2.22kB/s    0:00:00
+       2.07K 100%    2.22kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_508_Fast/Run_508_Fast_log/Run_508_Fast_MID_1_buffer.txt
+       2.07K 100%    2.22kB/s    0:00:00
+       2.07K 100%    2.22kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_508_Fast/Run_508_Fast_log/Run_508_Fast_MID_2_buffer.txt
+       2.07K 100%    2.22kB/s    0:00:00
+       2.07K 100%    2.22kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_508_Fast/Run_508_Fast_log/Run_508_Fast_MID_3_buffer.txt
+       2.07K 100%    2.20kB/s    0:00:00
+       2.07K 100%    2.20kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_508_Fast/Run_508_Fast_log/Run_508_Fast_MID_4_buffer.txt
+       2.07K 100%    2.20kB/s    0:00:00
+       2.07K 100%    2.20kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_508_Fast/Run_508_Fast_log/Run_508_Fast_MID_5_buffer.txt
+       2.07K 100%    2.20kB/s    0:00:00
+       2.07K 100%    2.20kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_508_Fast/Run_508_Fast_log/Run_508_Fast_MID_6_buffer.txt
+       2.07K 100%    2.16kB/s    0:00:00
+       2.07K 100%    2.16kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_508_Fast/Run_508_Fast_log/Run_508_Fast_MID_7_buffer.txt
+       2.07K 100%    2.16kB/s    0:00:00
+       2.07K 100%    2.16kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_508_Fast/Run_508_Fast_log/Run_508_Fast_MID_8_buffer.txt
+       2.07K 100%    2.16kB/s    0:00:00
+       2.07K 100%    2.16kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_508_Fast/Run_508_Fast_log/Run_508_Fast_MID_9_buffer.txt
+       2.07K 100%    2.14kB/s    0:00:00
+       2.07K 100%    2.14kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_508_Wave/
+cd+++++++ Run_508_Wave/Run_508_Wave_MID_1/
+>f+++++++ Run_508_Wave/Run_508_Wave_MID_1/Run_508_Wave_MID_1_FILE_0.dat
+      32.77K   0%   33.40kB/s    4:30:28
+       2.39M   0%    2.28MB/s    0:03:51
+      71.07M  13%   33.71MB/s    0:00:13
+     126.39M  23%   40.03MB/s    0:00:10
+     206.60M  38%   49.00MB/s    0:00:06
+     286.03M  52%   67.29MB/s    0:00:03
+     350.00M  64%   66.09MB/s    0:00:02
+     424.18M  78%   70.23MB/s    0:00:01
+     500.47M  92%   69.45MB/s    0:00:00
+     542.11M 100%   59.98MB/s    0:00:08 (xfer#31, to-check=44/95)
+cd+++++++ Run_508_Wave/Run_508_Wave_MID_10/
+>f+++++++ Run_508_Wave/Run_508_Wave_MID_10/Run_508_Wave_MID_10_FILE_0.dat
+      32.77K   0%   56.64kB/s    2:39:31
+      32.28M   5%   30.78MB/s    0:00:16
+     110.82M  20%   52.84MB/s    0:00:07
+     188.25M  34%   59.72MB/s    0:00:05
+     268.99M  49%   64.04MB/s    0:00:04
+     347.37M  64%   74.84MB/s    0:00:02
+     406.36M  74%   70.02MB/s    0:00:01
+     450.23M  83%   62.21MB/s    0:00:01
+     503.35M  92%   55.54MB/s    0:00:00
+     542.11M 100%   59.85MB/s    0:00:08 (xfer#32, to-check=42/95)
+cd+++++++ Run_508_Wave/Run_508_Wave_MID_11/
+>f+++++++ Run_508_Wave/Run_508_Wave_MID_11/Run_508_Wave_MID_11_FILE_0.dat
+      32.77K   0%   51.45kB/s    2:55:36
+      20.22M   3%   19.28MB/s    0:00:26
+      77.37M  14%   36.73MB/s    0:00:12
+     128.97M  23%   40.89MB/s    0:00:09
+     173.67M  32%   41.33MB/s    0:00:08
+     241.99M  44%   52.73MB/s    0:00:05
+     289.01M  53%   50.46MB/s    0:00:04
+     349.47M  64%   52.45MB/s    0:00:03
+     419.46M  77%   58.46MB/s    0:00:02
+     542.11M 100%   57.69MB/s    0:00:08 (xfer#33, to-check=40/95)
+cd+++++++ Run_508_Wave/Run_508_Wave_MID_12/
+>f+++++++ Run_508_Wave/Run_508_Wave_MID_12/Run_508_Wave_MID_12_FILE_0.dat
+      32.77K   0%   33.90kB/s    4:26:31
+       5.54M   1%    5.26MB/s    0:01:39
+     131.89M  24%   62.80MB/s    0:00:06
+     249.86M  46%   79.35MB/s    0:00:03
+     380.14M  70%   90.59MB/s    0:00:01
+     510.39M  94%  120.46MB/s    0:00:00
+     542.11M 100%   98.59MB/s    0:00:05 (xfer#34, to-check=38/95)
+cd+++++++ Run_508_Wave/Run_508_Wave_MID_13/
+>f+++++++ Run_508_Wave/Run_508_Wave_MID_13/Run_508_Wave_MID_13_FILE_0.dat
+      32.77K   0%  131.15kB/s    1:08:53
+      94.67M  17%   90.28MB/s    0:00:04
+     215.52M  39%  102.77MB/s    0:00:03
+     345.54M  63%  109.84MB/s    0:00:01
+     476.35M  87%  113.57MB/s    0:00:00
+     542.11M 100%  114.79MB/s    0:00:04 (xfer#35, to-check=36/95)
+cd+++++++ Run_508_Wave/Run_508_Wave_MID_14/
+>f+++++++ Run_508_Wave/Run_508_Wave_MID_14/Run_508_Wave_MID_14_FILE_0.dat
+      32.77K   0%   63.37kB/s    2:22:34
+      54.56M  10%   52.03MB/s    0:00:09
+     176.46M  32%   84.14MB/s    0:00:04
+     303.60M  56%   96.54MB/s    0:00:02
+     423.03M  78%  100.91MB/s    0:00:01
+     542.11M 100%  104.34MB/s    0:00:04 (xfer#36, to-check=34/95)
+cd+++++++ Run_508_Wave/Run_508_Wave_MID_15/
+>f+++++++ Run_508_Wave/Run_508_Wave_MID_15/Run_508_Wave_MID_15_FILE_0.dat
+      32.77K   0%   33.40kB/s    4:30:28
+       5.28M   0%    5.03MB/s    0:01:44
+      95.98M  17%   45.77MB/s    0:00:09
+     174.88M  32%   55.59MB/s    0:00:06
+     260.08M  47%   62.01MB/s    0:00:04
+     345.54M  63%   81.12MB/s    0:00:02
+     421.04M  77%   77.42MB/s    0:00:01
+     499.68M  92%   77.36MB/s    0:00:00
+     542.11M 100%   67.82MB/s    0:00:07 (xfer#37, to-check=32/95)
+cd+++++++ Run_508_Wave/Run_508_Wave_MID_2/
+>f+++++++ Run_508_Wave/Run_508_Wave_MID_2/Run_508_Wave_MID_2_FILE_0.dat
+      32.77K   0%   51.53kB/s    2:55:19
+      27.56M   5%   26.28MB/s    0:00:19
+     100.70M  18%   47.03MB/s    0:00:09
+     183.27M  33%   57.46MB/s    0:00:06
+     257.46M  47%   60.74MB/s    0:00:04
+     337.71M  62%   73.20MB/s    0:00:02
+     410.03M  75%   73.77MB/s    0:00:01
+     496.53M  91%   74.69MB/s    0:00:00
+     542.11M 100%   67.95MB/s    0:00:07 (xfer#38, to-check=30/95)
+cd+++++++ Run_508_Wave/Run_508_Wave_MID_3/
+>f+++++++ Run_508_Wave/Run_508_Wave_MID_3/Run_508_Wave_MID_3_FILE_0.dat
+      32.77K   0%   56.34kB/s    2:40:21
+      32.80M   6%   31.28MB/s    0:00:15
+     102.40M  18%   48.85MB/s    0:00:08
+     145.78M  26%   46.33MB/s    0:00:08
+     190.61M  35%   45.41MB/s    0:00:07
+     254.21M  46%   52.76MB/s    0:00:05
+     311.98M  57%   49.93MB/s    0:00:04
+     365.99M  67%   52.33MB/s    0:00:03
+     434.93M  80%   58.00MB/s    0:00:01
+     483.89M  89%   54.53MB/s    0:00:01
+     540.57M  99%   54.09MB/s    0:00:00
+     542.11M 100%   51.12MB/s    0:00:10 (xfer#39, to-check=28/95)
+cd+++++++ Run_508_Wave/Run_508_Wave_MID_4/
+>f+++++++ Run_508_Wave/Run_508_Wave_MID_4/Run_508_Wave_MID_4_FILE_0.dat
+      32.77K   0%  336.84kB/s    0:26:49
+      48.27M   8%   46.03MB/s    0:00:10
+     112.23M  20%   53.52MB/s    0:00:07
+     217.09M  40%   68.94MB/s    0:00:04
+     342.39M  63%   81.57MB/s    0:00:02
+     467.80M  86%   99.97MB/s    0:00:00
+     542.11M 100%   89.17MB/s    0:00:05 (xfer#40, to-check=26/95)
+cd+++++++ Run_508_Wave/Run_508_Wave_MID_5/
+>f+++++++ Run_508_Wave/Run_508_Wave_MID_5/Run_508_Wave_MID_5_FILE_0.dat
+      32.77K   0%   40.15kB/s    3:45:01
+      15.53M   2%   14.81MB/s    0:00:34
+     106.10M  19%   50.62MB/s    0:00:08
+     176.19M  32%   56.05MB/s    0:00:06
+     247.23M  45%   58.80MB/s    0:00:04
+     327.97M  60%   73.39MB/s    0:00:02
+     409.76M  75%   71.31MB/s    0:00:01
+     487.62M  89%   73.10MB/s    0:00:00
+     542.11M 100%   66.98MB/s    0:00:07 (xfer#41, to-check=24/95)
+cd+++++++ Run_508_Wave/Run_508_Wave_MID_6/
+>f+++++++ Run_508_Wave/Run_508_Wave_MID_6/Run_508_Wave_MID_6_FILE_0.dat
+      32.77K   0%   48.41kB/s    3:06:37
+      24.94M   4%   23.78MB/s    0:00:21
+     104.10M  19%   48.43MB/s    0:00:08
+     169.90M  31%   53.12MB/s    0:00:06
+     245.14M  45%   57.67MB/s    0:00:05
+     315.65M  58%   68.39MB/s    0:00:03
+     396.13M  73%   69.57MB/s    0:00:02
+     473.99M  87%   72.46MB/s    0:00:00
+     542.11M 100%   65.41MB/s    0:00:07 (xfer#42, to-check=22/95)
+cd+++++++ Run_508_Wave/Run_508_Wave_MID_7/
+>f+++++++ Run_508_Wave/Run_508_Wave_MID_7/Run_508_Wave_MID_7_FILE_0.dat
+      32.77K   0%   37.51kB/s    4:00:49
+      13.40M   2%   12.78MB/s    0:00:40
+      50.36M   9%   23.99MB/s    0:00:20
+      95.98M  17%   30.48MB/s    0:00:14
+     160.20M  29%   38.13MB/s    0:00:09
+     212.11M  39%   47.28MB/s    0:00:06
+     272.40M  50%   52.71MB/s    0:00:04
+     329.02M  60%   55.35MB/s    0:00:03
+     384.60M  70%   53.26MB/s    0:00:02
+     440.70M  81%   54.27MB/s    0:00:01
+     491.29M  90%   52.12MB/s    0:00:00
+     542.11M 100%   46.91MB/s    0:00:11 (xfer#43, to-check=20/95)
+cd+++++++ Run_508_Wave/Run_508_Wave_MID_8/
+>f+++++++ Run_508_Wave/Run_508_Wave_MID_8/Run_508_Wave_MID_8_FILE_0.dat
+      32.77K   0%   32.06kB/s    4:41:46
+     294.91K   0%  286.28kB/s    0:31:32
+      77.10M  14%   36.66MB/s    0:00:12
+     173.57M  32%   54.85MB/s    0:00:06
+     273.19M  50%   64.84MB/s    0:00:04
+     378.57M  69%   89.92MB/s    0:00:01
+     471.99M  87%   93.89MB/s    0:00:00
+     542.11M 100%   75.00MB/s    0:00:06 (xfer#44, to-check=18/95)
+cd+++++++ Run_508_Wave/Run_508_Wave_MID_9/
+>f+++++++ Run_508_Wave/Run_508_Wave_MID_9/Run_508_Wave_MID_9_FILE_0.dat
+      32.77K   0%   36.49kB/s    4:07:36
+      11.30M   2%   10.78MB/s    0:00:48
+      96.40M  17%   45.97MB/s    0:00:09
+     162.27M  29%   51.60MB/s    0:00:07
+     258.70M  47%   61.71MB/s    0:00:04
+     369.39M  68%   85.40MB/s    0:00:01
+     481.07M  88%   91.73MB/s    0:00:00
+     542.11M 100%   77.91MB/s    0:00:06 (xfer#45, to-check=16/95)
+cd+++++++ Run_508_Wave/Run_508_Wave_log/
+>f+++++++ Run_508_Wave/Run_508_Wave_log/Run_508_Wave_MID_10_buffer.txt
+      32.77K  25%   50.00kB/s    0:00:01
+     130.89K 100%  199.72kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_508_Wave/Run_508_Wave_log/Run_508_Wave_MID_11_buffer.txt
+      32.77K  25%   48.27kB/s    0:00:02
+     130.85K 100%  192.45kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_508_Wave/Run_508_Wave_log/Run_508_Wave_MID_12_buffer.txt
+      32.77K  25%   47.13kB/s    0:00:02
+     130.48K 100%  187.66kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_508_Wave/Run_508_Wave_log/Run_508_Wave_MID_13_buffer.txt
+      32.77K  25%   46.99kB/s    0:00:02
+     130.80K 100%  187.57kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_508_Wave/Run_508_Wave_log/Run_508_Wave_MID_14_buffer.txt
+      32.77K  25%   46.85kB/s    0:00:02
+     130.77K 100%  186.70kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_508_Wave/Run_508_Wave_log/Run_508_Wave_MID_15_buffer.txt
+      32.77K  25%   46.72kB/s    0:00:02
+     130.54K 100%  185.83kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_508_Wave/Run_508_Wave_log/Run_508_Wave_MID_1_buffer.txt
+      32.77K  25%   46.58kB/s    0:00:02
+     130.36K 100%  185.03kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_508_Wave/Run_508_Wave_log/Run_508_Wave_MID_2_buffer.txt
+      32.77K  25%   46.44kB/s    0:00:02
+     130.78K 100%  185.09kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_508_Wave/Run_508_Wave_log/Run_508_Wave_MID_3_buffer.txt
+      32.77K  25%   46.24kB/s    0:00:02
+     130.48K 100%  184.14kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_508_Wave/Run_508_Wave_log/Run_508_Wave_MID_4_buffer.txt
+      32.77K  25%   46.11kB/s    0:00:02
+     130.72K 100%  183.68kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_508_Wave/Run_508_Wave_log/Run_508_Wave_MID_5_buffer.txt
+      32.77K  25%   45.85kB/s    0:00:02
+     130.90K 100%  182.88kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_508_Wave/Run_508_Wave_log/Run_508_Wave_MID_6_buffer.txt
+      32.77K  25%   45.58kB/s    0:00:02
+     130.54K 100%  181.60kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_508_Wave/Run_508_Wave_log/Run_508_Wave_MID_7_buffer.txt
+      32.77K  25%   45.45kB/s    0:00:02
+     130.57K 100%  181.12kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_508_Wave/Run_508_Wave_log/Run_508_Wave_MID_8_buffer.txt
+      32.77K  25%   45.33kB/s    0:00:02
+     130.90K 100%  181.07kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_508_Wave/Run_508_Wave_log/Run_508_Wave_MID_9_buffer.txt
+      32.77K  25%   45.20kB/s    0:00:02
+     130.58K 100%  179.86kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 8.17G bytes  received 1.55K bytes  78.90M bytes/sec
+total size is 8.17G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_508/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_508_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

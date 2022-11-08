@@ -1,0 +1,379 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_668/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_668[0m
+[94m[INFO][0m SSD data folder size = [96m[1m16.508 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [########------------------------------------------][0m [92m[1m15.603 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 2325.046 GB / Free : [4m12576.506 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_668/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_668/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_668.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_668/ /Volumes/HDD_16TB_1/HDD_Run_668/[0m`? [y/n] building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_668
+cd+++++++ ./
+cd+++++++ Run_668_Fast/
+cd+++++++ Run_668_Fast/Run_668_Fast_MID_1/
+>f+++++++ Run_668_Fast/Run_668_Fast_MID_1/Run_668_Fast_MID_1_FILE_0.dat
+      32.77K   0%    0.00kB/s    0:00:00
+       4.59M 100%   80.44MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_668_Fast/Run_668_Fast_MID_10/
+>f+++++++ Run_668_Fast/Run_668_Fast_MID_10/Run_668_Fast_MID_10_FILE_0.dat
+      32.77K   0%  581.82kB/s    0:00:07
+       4.59M 100%   34.45MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_668_Fast/Run_668_Fast_MID_11/
+>f+++++++ Run_668_Fast/Run_668_Fast_MID_11/Run_668_Fast_MID_11_FILE_0.dat
+      32.77K   0%  250.00kB/s    0:00:18
+       4.59M 100%   17.29MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_668_Fast/Run_668_Fast_MID_12/
+>f+++++++ Run_668_Fast/Run_668_Fast_MID_12/Run_668_Fast_MID_12_FILE_0.dat
+      32.77K   0%  125.49kB/s    0:00:36
+       4.59M 100%   13.26MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_668_Fast/Run_668_Fast_MID_13/
+>f+++++++ Run_668_Fast/Run_668_Fast_MID_13/Run_668_Fast_MID_13_FILE_0.dat
+      32.77K   0%   96.68kB/s    0:00:47
+       4.59M 100%   11.70MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_668_Fast/Run_668_Fast_MID_14/
+>f+++++++ Run_668_Fast/Run_668_Fast_MID_14/Run_668_Fast_MID_14_FILE_0.dat
+      32.77K   0%   85.33kB/s    0:00:53
+       4.59M 100%   10.27MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_668_Fast/Run_668_Fast_MID_15/
+>f+++++++ Run_668_Fast/Run_668_Fast_MID_15/Run_668_Fast_MID_15_FILE_0.dat
+      32.77K   0%   74.94kB/s    0:01:00
+       4.59M 100%    9.02MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_668_Fast/Run_668_Fast_MID_2/
+>f+++++++ Run_668_Fast/Run_668_Fast_MID_2/Run_668_Fast_MID_2_FILE_0.dat
+      32.77K   0%   65.71kB/s    0:01:09
+       4.59M 100%    8.19MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_668_Fast/Run_668_Fast_MID_3/
+>f+++++++ Run_668_Fast/Run_668_Fast_MID_3/Run_668_Fast_MID_3_FILE_0.dat
+      32.77K   0%   59.81kB/s    0:01:16
+       4.59M 100%    7.52MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_668_Fast/Run_668_Fast_MID_4/
+>f+++++++ Run_668_Fast/Run_668_Fast_MID_4/Run_668_Fast_MID_4_FILE_0.dat
+      32.77K   0%   54.89kB/s    0:01:22
+       4.59M 100%    6.99MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_668_Fast/Run_668_Fast_MID_5/
+>f+++++++ Run_668_Fast/Run_668_Fast_MID_5/Run_668_Fast_MID_5_FILE_0.dat
+      32.77K   0%   51.04kB/s    0:01:29
+       4.59M 100%    6.48MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_668_Fast/Run_668_Fast_MID_6/
+>f+++++++ Run_668_Fast/Run_668_Fast_MID_6/Run_668_Fast_MID_6_FILE_0.dat
+      32.77K   0%   47.34kB/s    0:01:36
+       4.59M 100%    5.67MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_668_Fast/Run_668_Fast_MID_7/
+>f+++++++ Run_668_Fast/Run_668_Fast_MID_7/Run_668_Fast_MID_7_FILE_0.dat
+      32.77K   0%   41.40kB/s    0:01:50
+       4.59M 100%    5.19MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_668_Fast/Run_668_Fast_MID_8/
+>f+++++++ Run_668_Fast/Run_668_Fast_MID_8/Run_668_Fast_MID_8_FILE_0.dat
+      32.77K   0%   37.91kB/s    0:02:00
+       4.59M 100%    4.89MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_668_Fast/Run_668_Fast_MID_9/
+>f+++++++ Run_668_Fast/Run_668_Fast_MID_9/Run_668_Fast_MID_9_FILE_0.dat
+      32.77K   0%   35.75kB/s    0:02:07
+       3.67M  80%    3.50MB/s    0:00:00
+       4.59M 100%    4.34MB/s    0:00:01 (xfer#15, to-check=63/95)
+cd+++++++ Run_668_Fast/Run_668_Fast_log/
+>f+++++++ Run_668_Fast/Run_668_Fast_log/Run_668_Fast_MID_10_buffer.txt
+       4.50K 100%  399.68kB/s    0:00:00
+       4.50K 100%  399.68kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_668_Fast/Run_668_Fast_log/Run_668_Fast_MID_11_buffer.txt
+       4.50K 100%  399.68kB/s    0:00:00
+       4.50K 100%  399.68kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_668_Fast/Run_668_Fast_log/Run_668_Fast_MID_12_buffer.txt
+       4.50K 100%  399.68kB/s    0:00:00
+       4.50K 100%  399.68kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_668_Fast/Run_668_Fast_log/Run_668_Fast_MID_13_buffer.txt
+       4.50K 100%  244.25kB/s    0:00:00
+       4.50K 100%  244.25kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_668_Fast/Run_668_Fast_log/Run_668_Fast_MID_14_buffer.txt
+       4.50K 100%  146.55kB/s    0:00:00
+       4.50K 100%  146.55kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_668_Fast/Run_668_Fast_log/Run_668_Fast_MID_15_buffer.txt
+       4.50K 100%  146.55kB/s    0:00:00
+       4.50K 100%  141.82kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_668_Fast/Run_668_Fast_log/Run_668_Fast_MID_1_buffer.txt
+       4.50K 100%  118.82kB/s    0:00:00
+       4.50K 100%  118.82kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_668_Fast/Run_668_Fast_log/Run_668_Fast_MID_2_buffer.txt
+       4.50K 100%  118.82kB/s    0:00:00
+       4.50K 100%  118.82kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_668_Fast/Run_668_Fast_log/Run_668_Fast_MID_3_buffer.txt
+       4.50K 100%   79.94kB/s    0:00:00
+       4.50K 100%   79.94kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_668_Fast/Run_668_Fast_log/Run_668_Fast_MID_4_buffer.txt
+       4.50K 100%   64.65kB/s    0:00:00
+       4.50K 100%   64.65kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_668_Fast/Run_668_Fast_log/Run_668_Fast_MID_5_buffer.txt
+       4.50K 100%   64.65kB/s    0:00:00
+       4.50K 100%   64.65kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_668_Fast/Run_668_Fast_log/Run_668_Fast_MID_6_buffer.txt
+       4.50K 100%   59.41kB/s    0:00:00
+       4.50K 100%   59.41kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_668_Fast/Run_668_Fast_log/Run_668_Fast_MID_7_buffer.txt
+       4.50K 100%   58.62kB/s    0:00:00
+       4.50K 100%   58.62kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_668_Fast/Run_668_Fast_log/Run_668_Fast_MID_8_buffer.txt
+       4.50K 100%   48.31kB/s    0:00:00
+       4.50K 100%   48.31kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_668_Fast/Run_668_Fast_log/Run_668_Fast_MID_9_buffer.txt
+       4.50K 100%   41.87kB/s    0:00:00
+       4.50K 100%   41.87kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_668_Wave/
+cd+++++++ Run_668_Wave/Run_668_Wave_MID_1/
+>f+++++++ Run_668_Wave/Run_668_Wave_MID_1/Run_668_Wave_MID_1_FILE_0.dat
+      32.77K   0%  253.97kB/s    1:17:13
+      73.96M   6%   70.53MB/s    0:00:15
+     158.11M  13%   75.39MB/s    0:00:13
+     252.48M  21%   80.18MB/s    0:00:11
+     336.66M  28%   80.23MB/s    0:00:10
+     430.90M  36%   85.08MB/s    0:00:08
+     535.56M  45%   89.97MB/s    0:00:06
+     631.14M  53%   90.35MB/s    0:00:05
+     756.78M  64%  100.24MB/s    0:00:04
+     884.24M  75%  108.09MB/s    0:00:02
+       1.01G  85%  113.13MB/s    0:00:01
+       1.14G  96%  121.30MB/s    0:00:00
+       1.18G 100%   99.45MB/s    0:00:11 (xfer#31, to-check=44/95)
+cd+++++++ Run_668_Wave/Run_668_Wave_MID_10/
+>f+++++++ Run_668_Wave/Run_668_Wave_MID_10/Run_668_Wave_MID_10_FILE_0.dat
+      32.77K   0%  111.89kB/s    2:55:17
+      84.71M   7%   80.78MB/s    0:00:13
+     201.85M  17%   96.30MB/s    0:00:09
+     332.96M  28%  105.91MB/s    0:00:07
+     464.03M  39%  110.72MB/s    0:00:06
+     590.12M  50%  120.56MB/s    0:00:04
+     721.94M  61%  124.06MB/s    0:00:03
+     843.91M  71%  121.88MB/s    0:00:02
+     973.11M  82%  121.41MB/s    0:00:01
+       1.10G  93%  122.37MB/s    0:00:00
+       1.18G 100%  117.35MB/s    0:00:09 (xfer#32, to-check=42/95)
+cd+++++++ Run_668_Wave/Run_668_Wave_MID_11/
+>f+++++++ Run_668_Wave/Run_668_Wave_MID_11/Run_668_Wave_MID_11_FILE_0.dat
+      32.77K   0%   56.14kB/s    5:49:21
+      49.05M   4%   46.78MB/s    0:00:23
+     169.31M  14%   80.77MB/s    0:00:12
+     299.40M  25%   95.24MB/s    0:00:08
+     429.16M  36%  102.40MB/s    0:00:07
+     559.09M  47%  121.69MB/s    0:00:04
+     659.55M  56%  116.97MB/s    0:00:04
+     789.61M  67%  116.93MB/s    0:00:03
+     914.85M  77%  115.85MB/s    0:00:02
+       1.04G  88%  115.82MB/s    0:00:01
+       1.17G  99%  121.45MB/s    0:00:00
+       1.18G 100%  111.63MB/s    0:00:10 (xfer#33, to-check=40/95)
+cd+++++++ Run_668_Wave/Run_668_Wave_MID_12/
+>f+++++++ Run_668_Wave/Run_668_Wave_MID_12/Run_668_Wave_MID_12_FILE_0.dat
+      32.77K   0%  516.13kB/s    0:38:00
+     111.44M   9%  106.28MB/s    0:00:09
+     224.49M  19%  107.10MB/s    0:00:08
+     333.77M  28%  106.17MB/s    0:00:07
+     463.50M  39%  110.59MB/s    0:00:06
+     593.53M  50%  114.99MB/s    0:00:04
+     723.29M  61%  118.98MB/s    0:00:03
+     853.31M  72%  123.90MB/s    0:00:02
+     983.33M  83%  123.97MB/s    0:00:01
+       1.11G  94%  123.91MB/s    0:00:00
+       1.18G 100%  118.30MB/s    0:00:09 (xfer#34, to-check=38/95)
+cd+++++++ Run_668_Wave/Run_668_Wave_MID_13/
+>f+++++++ Run_668_Wave/Run_668_Wave_MID_13/Run_668_Wave_MID_13_FILE_0.dat
+      32.77K   0%   65.04kB/s    5:01:33
+      57.51M   4%   54.84MB/s    0:00:19
+     179.08M  15%   85.39MB/s    0:00:11
+     309.36M  26%   98.38MB/s    0:00:08
+     439.91M  37%  104.94MB/s    0:00:06
+     571.77M  48%  122.61MB/s    0:00:04
+     697.76M  59%  123.66MB/s    0:00:03
+     817.14M  69%  121.06MB/s    0:00:02
+     947.22M  80%  120.98MB/s    0:00:01
+       1.08G  91%  120.47MB/s    0:00:00
+       1.18G 100%  114.94MB/s    0:00:09 (xfer#35, to-check=36/95)
+cd+++++++ Run_668_Wave/Run_668_Wave_MID_14/
+>f+++++++ Run_668_Wave/Run_668_Wave_MID_14/Run_668_Wave_MID_14_FILE_0.dat
+      32.77K   0%   41.61kB/s    7:51:19
+      20.68M   1%   19.72MB/s    0:00:57
+     150.24M  12%   71.68MB/s    0:00:13
+     269.55M  22%   85.74MB/s    0:00:10
+     400.06M  33%   95.43MB/s    0:00:07
+     525.37M  44%  120.39MB/s    0:00:05
+     655.39M  55%  120.47MB/s    0:00:04
+     785.42M  66%  122.99MB/s    0:00:03
+     888.57M  75%  116.50MB/s    0:00:02
+       1.02G  86%  116.81MB/s    0:00:01
+       1.15G  97%  116.92MB/s    0:00:00
+       1.18G 100%  109.23MB/s    0:00:10 (xfer#36, to-check=34/95)
+cd+++++++ Run_668_Wave/Run_668_Wave_MID_15/
+>f+++++++ Run_668_Wave/Run_668_Wave_MID_15/Run_668_Wave_MID_15_FILE_0.dat
+      32.77K   0%  114.29kB/s    2:51:36
+      72.65M   6%   69.28MB/s    0:00:15
+     198.74M  16%   94.77MB/s    0:00:10
+     323.35M  27%  102.83MB/s    0:00:08
+     453.54M  38%  108.16MB/s    0:00:06
+     583.83M  49%  121.91MB/s    0:00:04
+     713.85M  60%  122.84MB/s    0:00:03
+     844.14M  71%  124.16MB/s    0:00:02
+     973.96M  82%  124.08MB/s    0:00:01
+       1.10G  93%  124.03MB/s    0:00:00
+       1.18G 100%  117.42MB/s    0:00:09 (xfer#37, to-check=32/95)
+cd+++++++ Run_668_Wave/Run_668_Wave_MID_2/
+>f+++++++ Run_668_Wave/Run_668_Wave_MID_2/Run_668_Wave_MID_2_FILE_0.dat
+      32.77K   0%   56.94kB/s    5:44:27
+      49.32M   4%   47.03MB/s    0:00:23
+     174.98M  14%   83.48MB/s    0:00:11
+     301.50M  25%   95.91MB/s    0:00:08
+     431.69M  36%  103.00MB/s    0:00:07
+     562.07M  47%  122.34MB/s    0:00:04
+     693.67M  58%  123.76MB/s    0:00:03
+     808.22M  68%  120.90MB/s    0:00:02
+     938.90M  79%  121.02MB/s    0:00:01
+       1.06G  90%  119.63MB/s    0:00:00
+       1.18G 100%  113.77MB/s    0:00:09 (xfer#38, to-check=30/95)
+cd+++++++ Run_668_Wave/Run_668_Wave_MID_3/
+>f+++++++ Run_668_Wave/Run_668_Wave_MID_3/Run_668_Wave_MID_3_FILE_0.dat
+      32.77K   0%   36.66kB/s    8:55:04
+       9.90M   0%    9.44MB/s    0:02:00
+     139.43M  11%   66.52MB/s    0:00:15
+     260.08M  22%   82.73MB/s    0:00:10
+     390.50M  33%   93.17MB/s    0:00:08
+     520.65M  44%  121.83MB/s    0:00:05
+     651.20M  55%  122.08MB/s    0:00:04
+     781.16M  66%  124.30MB/s    0:00:03
+     911.51M  77%  124.25MB/s    0:00:02
+       1.04G  88%  124.16MB/s    0:00:01
+       1.15G  98%  120.03MB/s    0:00:00
+       1.18G 100%  110.41MB/s    0:00:10 (xfer#39, to-check=28/95)
+cd+++++++ Run_668_Wave/Run_668_Wave_MID_4/
+>f+++++++ Run_668_Wave/Run_668_Wave_MID_4/Run_668_Wave_MID_4_FILE_0.dat
+      32.77K   0%  187.13kB/s    1:44:48
+      95.35M   8%   90.94MB/s    0:00:11
+     200.41M  17%   95.61MB/s    0:00:09
+     329.81M  28%  104.91MB/s    0:00:07
+     458.98M  39%  109.51MB/s    0:00:06
+     588.87M  50%  117.75MB/s    0:00:04
+     718.83M  61%  123.66MB/s    0:00:03
+     849.12M  72%  123.87MB/s    0:00:02
+     979.30M  83%  124.12MB/s    0:00:01
+       1.11G  94%  124.05MB/s    0:00:00
+       1.18G 100%  117.91MB/s    0:00:09 (xfer#40, to-check=26/95)
+cd+++++++ Run_668_Wave/Run_668_Wave_MID_5/
+>f+++++++ Run_668_Wave/Run_668_Wave_MID_5/Run_668_Wave_MID_5_FILE_0.dat
+      32.77K   0%   60.95kB/s    5:21:46
+      52.99M   4%   50.53MB/s    0:00:21
+     173.31M  14%   82.68MB/s    0:00:11
+     303.46M  25%   96.53MB/s    0:00:08
+     433.36M  36%  103.37MB/s    0:00:07
+     556.83M  47%  120.19MB/s    0:00:05
+     685.54M  58%  122.19MB/s    0:00:03
+     809.01M  68%  120.56MB/s    0:00:02
+     938.97M  79%  120.61MB/s    0:00:01
+       1.07G  90%  122.28MB/s    0:00:00
+       1.18G 100%  113.78MB/s    0:00:09 (xfer#41, to-check=24/95)
+cd+++++++ Run_668_Wave/Run_668_Wave_MID_6/
+>f+++++++ Run_668_Wave/Run_668_Wave_MID_6/Run_668_Wave_MID_6_FILE_0.dat
+      32.77K   0%   36.82kB/s    8:52:37
+       6.46M   0%    6.16MB/s    0:03:05
+     121.80M  10%   58.11MB/s    0:00:17
+     206.83M  17%   65.79MB/s    0:00:14
+     268.21M  22%   63.93MB/s    0:00:13
+     335.84M  28%   77.85MB/s    0:00:10
+     427.00M  36%   72.13MB/s    0:00:10
+     485.26M  41%   64.84MB/s    0:00:10
+     544.24M  46%   64.29MB/s    0:00:09
+     634.16M  53%   70.06MB/s    0:00:07
+     762.94M  64%   78.89MB/s    0:00:05
+     890.80M  75%   96.66MB/s    0:00:02
+     994.61M  84%  107.43MB/s    0:00:01
+       1.12G  95%  117.09MB/s    0:00:00
+       1.18G 100%   83.10MB/s    0:00:13 (xfer#42, to-check=22/95)
+cd+++++++ Run_668_Wave/Run_668_Wave_MID_7/
+>f+++++++ Run_668_Wave/Run_668_Wave_MID_7/Run_668_Wave_MID_7_FILE_0.dat
+      32.77K   0%   77.48kB/s    4:13:08
+      55.87M   4%   53.28MB/s    0:00:20
+     170.43M  14%   81.27MB/s    0:00:12
+     300.19M  25%   95.43MB/s    0:00:08
+     429.95M  36%  102.51MB/s    0:00:07
+     559.81M  47%  120.18MB/s    0:00:05
+     689.73M  58%  123.87MB/s    0:00:03
+     816.09M  69%  123.06MB/s    0:00:02
+     945.85M  80%  123.06MB/s    0:00:01
+       1.08G  91%  123.12MB/s    0:00:00
+       1.18G 100%  114.90MB/s    0:00:09 (xfer#43, to-check=20/95)
+cd+++++++ Run_668_Wave/Run_668_Wave_MID_8/
+>f+++++++ Run_668_Wave/Run_668_Wave_MID_8/Run_668_Wave_MID_8_FILE_0.dat
+      32.77K   0%   41.40kB/s    7:53:47
+      18.64M   1%   17.78MB/s    0:01:03
+     147.10M  12%   70.07MB/s    0:00:14
+     265.78M  22%   84.46MB/s    0:00:10
+     384.34M  32%   91.61MB/s    0:00:08
+     511.05M  43%  117.40MB/s    0:00:05
+     637.30M  54%  116.93MB/s    0:00:04
+     763.33M  64%  118.68MB/s    0:00:03
+     892.96M  75%  121.36MB/s    0:00:02
+       1.02G  86%  122.10MB/s    0:00:01
+       1.15G  97%  122.92MB/s    0:00:00
+       1.18G 100%  110.19MB/s    0:00:10 (xfer#44, to-check=18/95)
+cd+++++++ Run_668_Wave/Run_668_Wave_MID_9/
+>f+++++++ Run_668_Wave/Run_668_Wave_MID_9/Run_668_Wave_MID_9_FILE_0.dat
+      32.77K   0%  169.31kB/s    1:55:50
+      88.64M   7%   84.53MB/s    0:00:12
+     214.20M  18%  102.14MB/s    0:00:09
+     343.97M  29%  109.38MB/s    0:00:07
+     473.99M  40%  113.04MB/s    0:00:06
+     603.75M  51%  122.84MB/s    0:00:04
+     734.04M  62%  123.97MB/s    0:00:03
+     864.58M  73%  124.12MB/s    0:00:02
+     994.80M  84%  124.20MB/s    0:00:01
+       1.12G  94%  122.45MB/s    0:00:00
+       1.18G 100%  116.45MB/s    0:00:09 (xfer#45, to-check=16/95)
+cd+++++++ Run_668_Wave/Run_668_Wave_log/
+>f+++++++ Run_668_Wave/Run_668_Wave_log/Run_668_Wave_MID_10_buffer.txt
+      32.77K  11%   49.77kB/s    0:00:04
+     278.91K 100%  417.76kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_668_Wave/Run_668_Wave_log/Run_668_Wave_MID_11_buffer.txt
+      32.77K  11%   48.71kB/s    0:00:05
+     278.91K 100%  399.96kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_668_Wave/Run_668_Wave_log/Run_668_Wave_MID_12_buffer.txt
+      32.77K  11%   46.92kB/s    0:00:05
+     277.31K 100%  391.91kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_668_Wave/Run_668_Wave_log/Run_668_Wave_MID_13_buffer.txt
+      32.77K  11%   46.24kB/s    0:00:05
+     278.77K 100%  387.80kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_668_Wave/Run_668_Wave_log/Run_668_Wave_MID_14_buffer.txt
+      32.77K  11%   43.48kB/s    0:00:05
+     278.93K 100%  364.65kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_668_Wave/Run_668_Wave_log/Run_668_Wave_MID_15_buffer.txt
+      32.77K  11%   42.84kB/s    0:00:05
+     277.40K 100%  357.86kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_668_Wave/Run_668_Wave_log/Run_668_Wave_MID_1_buffer.txt
+      32.77K  11%   42.22kB/s    0:00:05
+     277.21K 100%  352.95kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_668_Wave/Run_668_Wave_log/Run_668_Wave_MID_2_buffer.txt
+      32.77K  11%   41.67kB/s    0:00:05
+     278.70K 100%  349.83kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_668_Wave/Run_668_Wave_log/Run_668_Wave_MID_3_buffer.txt
+      32.77K  11%   41.08kB/s    0:00:05
+     277.25K 100%  336.34kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_668_Wave/Run_668_Wave_log/Run_668_Wave_MID_4_buffer.txt
+      32.77K  11%   38.98kB/s    0:00:06
+     277.46K 100%  322.18kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_668_Wave/Run_668_Wave_log/Run_668_Wave_MID_5_buffer.txt
+      32.77K  11%   38.00kB/s    0:00:06
+     278.81K 100%  319.58kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_668_Wave/Run_668_Wave_log/Run_668_Wave_MID_6_buffer.txt
+      32.77K  11%   37.51kB/s    0:00:06
+     277.23K 100%  314.08kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_668_Wave/Run_668_Wave_log/Run_668_Wave_MID_7_buffer.txt
+      32.77K  11%   37.08kB/s    0:00:06
+     277.17K 100%  304.81kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_668_Wave/Run_668_Wave_log/Run_668_Wave_MID_8_buffer.txt
+      32.77K  11%   35.40kB/s    0:00:06
+     278.66K 100%  295.79kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_668_Wave/Run_668_Wave_log/Run_668_Wave_MID_9_buffer.txt
+      32.77K  11%   34.71kB/s    0:00:07
+     277.23K 100%  290.48kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 17.73G bytes  received 1.55K bytes  119.38M bytes/sec
+total size is 17.73G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_668/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_668_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m
+[91m[ERROR][0m Source folder [1m"/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_668/"[0m [91mdoes not exist[0m, please check

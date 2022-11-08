@@ -1,0 +1,287 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_443/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_443[0m
+[94m[INFO][0m SSD data folder size = [96m[1m0.928 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [--------------------------------------------------][0m [92m[1m0.352 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 52.443 GB / Free : [4m14849.11 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_443/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_443/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_443.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_443/ /Volumes/HDD_16TB_1/HDD_Run_443/[0m`? [y/n] building file list ... 
+ 0 files...
+ 100 files...
+110 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_443
+cd+++++++ ./
+cd+++++++ Run_443_Fast/
+cd+++++++ Run_443_Fast/Run_443_Fast_MID_1/
+>f+++++++ Run_443_Fast/Run_443_Fast_MID_1/Run_443_Fast_MID_1_FILE_0.dat
+      32.77K  13%    0.00kB/s    0:00:00
+     245.76K 100%  203.12MB/s    0:00:00 (xfer#1, to-check=106/110)
+cd+++++++ Run_443_Fast/Run_443_Fast_MID_10/
+>f+++++++ Run_443_Fast/Run_443_Fast_MID_10/Run_443_Fast_MID_10_FILE_0.dat
+      32.77K  13%   15.62MB/s    0:00:00
+     245.76K 100%   78.12MB/s    0:00:00 (xfer#2, to-check=104/110)
+cd+++++++ Run_443_Fast/Run_443_Fast_MID_11/
+>f+++++++ Run_443_Fast/Run_443_Fast_MID_11/Run_443_Fast_MID_11_FILE_0.dat
+      32.77K  13%    7.81MB/s    0:00:00
+     245.76K 100%   46.88MB/s    0:00:00 (xfer#3, to-check=102/110)
+cd+++++++ Run_443_Fast/Run_443_Fast_MID_12/
+>f+++++++ Run_443_Fast/Run_443_Fast_MID_12/Run_443_Fast_MID_12_FILE_0.dat
+      32.77K  13%    2.08MB/s    0:00:00
+     245.76K 100%   14.65MB/s    0:00:00 (xfer#4, to-check=100/110)
+cd+++++++ Run_443_Fast/Run_443_Fast_MID_13/
+>f+++++++ Run_443_Fast/Run_443_Fast_MID_13/Run_443_Fast_MID_13_FILE_0.dat
+      32.77K  13%    1.74MB/s    0:00:00
+     245.76K 100%   13.02MB/s    0:00:00 (xfer#5, to-check=98/110)
+cd+++++++ Run_443_Fast/Run_443_Fast_MID_14/
+>f+++++++ Run_443_Fast/Run_443_Fast_MID_14/Run_443_Fast_MID_14_FILE_0.dat
+      32.77K  13%    1.56MB/s    0:00:00
+     245.76K 100%   11.16MB/s    0:00:00 (xfer#6, to-check=96/110)
+cd+++++++ Run_443_Fast/Run_443_Fast_MID_15/
+>f+++++++ Run_443_Fast/Run_443_Fast_MID_15/Run_443_Fast_MID_15_FILE_0.dat
+      32.77K  13%    1.42MB/s    0:00:00
+     245.76K 100%   10.19MB/s    0:00:00 (xfer#7, to-check=94/110)
+cd+++++++ Run_443_Fast/Run_443_Fast_MID_2/
+>f+++++++ Run_443_Fast/Run_443_Fast_MID_2/Run_443_Fast_MID_2_FILE_0.dat
+      32.77K  13%    1.25MB/s    0:00:00
+     245.76K 100%    9.38MB/s    0:00:00 (xfer#8, to-check=92/110)
+cd+++++++ Run_443_Fast/Run_443_Fast_MID_3/
+>f+++++++ Run_443_Fast/Run_443_Fast_MID_3/Run_443_Fast_MID_3_FILE_0.dat
+      32.77K  13%    1.16MB/s    0:00:00
+     245.76K 100%    8.68MB/s    0:00:00 (xfer#9, to-check=90/110)
+cd+++++++ Run_443_Fast/Run_443_Fast_MID_4/
+>f+++++++ Run_443_Fast/Run_443_Fast_MID_4/Run_443_Fast_MID_4_FILE_0.dat
+      32.77K  13%    1.08MB/s    0:00:00
+     245.76K 100%    8.08MB/s    0:00:00 (xfer#10, to-check=88/110)
+cd+++++++ Run_443_Fast/Run_443_Fast_MID_5/
+>f+++++++ Run_443_Fast/Run_443_Fast_MID_5/Run_443_Fast_MID_5_FILE_0.dat
+      32.77K  13%    1.01MB/s    0:00:00
+     245.76K 100%    7.56MB/s    0:00:00 (xfer#11, to-check=86/110)
+cd+++++++ Run_443_Fast/Run_443_Fast_MID_6/
+>f+++++++ Run_443_Fast/Run_443_Fast_MID_6/Run_443_Fast_MID_6_FILE_0.dat
+      32.77K  13%  969.70kB/s    0:00:00
+     245.76K 100%    7.10MB/s    0:00:00 (xfer#12, to-check=84/110)
+cd+++++++ Run_443_Fast/Run_443_Fast_MID_7/
+>f+++++++ Run_443_Fast/Run_443_Fast_MID_7/Run_443_Fast_MID_7_FILE_0.dat
+      32.77K  13%  914.29kB/s    0:00:00
+     245.76K 100%    6.70MB/s    0:00:00 (xfer#13, to-check=82/110)
+cd+++++++ Run_443_Fast/Run_443_Fast_MID_8/
+>f+++++++ Run_443_Fast/Run_443_Fast_MID_8/Run_443_Fast_MID_8_FILE_0.dat
+      32.77K  13%   54.61kB/s    0:00:03
+     245.76K 100%  408.16kB/s    0:00:00 (xfer#14, to-check=80/110)
+cd+++++++ Run_443_Fast/Run_443_Fast_MID_9/
+>f+++++++ Run_443_Fast/Run_443_Fast_MID_9/Run_443_Fast_MID_9_FILE_0.dat
+      32.77K  13%   54.15kB/s    0:00:03
+     245.76K 100%  404.72kB/s    0:00:00 (xfer#15, to-check=78/110)
+cd+++++++ Run_443_Fast/Run_443_Fast_log/
+>f+++++++ Run_443_Fast/Run_443_Fast_log/Run_443_Fast_MID_10_buffer.txt
+         227 100%    0.37kB/s    0:00:00
+         227 100%    0.37kB/s    0:00:00 (xfer#16, to-check=76/110)
+>f+++++++ Run_443_Fast/Run_443_Fast_log/Run_443_Fast_MID_11_buffer.txt
+         227 100%    0.37kB/s    0:00:00
+         227 100%    0.37kB/s    0:00:00 (xfer#17, to-check=75/110)
+>f+++++++ Run_443_Fast/Run_443_Fast_log/Run_443_Fast_MID_12_buffer.txt
+         227 100%    0.37kB/s    0:00:00
+         227 100%    0.37kB/s    0:00:00 (xfer#18, to-check=74/110)
+>f+++++++ Run_443_Fast/Run_443_Fast_log/Run_443_Fast_MID_13_buffer.txt
+         227 100%    0.37kB/s    0:00:00
+         227 100%    0.37kB/s    0:00:00 (xfer#19, to-check=73/110)
+>f+++++++ Run_443_Fast/Run_443_Fast_log/Run_443_Fast_MID_14_buffer.txt
+         227 100%    0.37kB/s    0:00:00
+         227 100%    0.37kB/s    0:00:00 (xfer#20, to-check=72/110)
+>f+++++++ Run_443_Fast/Run_443_Fast_log/Run_443_Fast_MID_15_buffer.txt
+         227 100%    0.37kB/s    0:00:00
+         227 100%    0.37kB/s    0:00:00 (xfer#21, to-check=71/110)
+>f+++++++ Run_443_Fast/Run_443_Fast_log/Run_443_Fast_MID_1_buffer.txt
+         227 100%    0.37kB/s    0:00:00
+         227 100%    0.37kB/s    0:00:00 (xfer#22, to-check=70/110)
+>f+++++++ Run_443_Fast/Run_443_Fast_log/Run_443_Fast_MID_2_buffer.txt
+         227 100%    0.37kB/s    0:00:00
+         227 100%    0.37kB/s    0:00:00 (xfer#23, to-check=69/110)
+>f+++++++ Run_443_Fast/Run_443_Fast_log/Run_443_Fast_MID_3_buffer.txt
+         227 100%    0.37kB/s    0:00:00
+         227 100%    0.37kB/s    0:00:00 (xfer#24, to-check=68/110)
+>f+++++++ Run_443_Fast/Run_443_Fast_log/Run_443_Fast_MID_4_buffer.txt
+         227 100%    0.37kB/s    0:00:00
+         227 100%    0.37kB/s    0:00:00 (xfer#25, to-check=67/110)
+>f+++++++ Run_443_Fast/Run_443_Fast_log/Run_443_Fast_MID_5_buffer.txt
+         227 100%    0.37kB/s    0:00:00
+         227 100%    0.37kB/s    0:00:00 (xfer#26, to-check=66/110)
+>f+++++++ Run_443_Fast/Run_443_Fast_log/Run_443_Fast_MID_6_buffer.txt
+         227 100%    0.37kB/s    0:00:00
+         227 100%    0.37kB/s    0:00:00 (xfer#27, to-check=65/110)
+>f+++++++ Run_443_Fast/Run_443_Fast_log/Run_443_Fast_MID_7_buffer.txt
+         227 100%    0.37kB/s    0:00:00
+         227 100%    0.37kB/s    0:00:00 (xfer#28, to-check=64/110)
+>f+++++++ Run_443_Fast/Run_443_Fast_log/Run_443_Fast_MID_8_buffer.txt
+         227 100%    0.37kB/s    0:00:00
+         227 100%    0.37kB/s    0:00:00 (xfer#29, to-check=63/110)
+>f+++++++ Run_443_Fast/Run_443_Fast_log/Run_443_Fast_MID_9_buffer.txt
+         227 100%    0.37kB/s    0:00:00
+         227 100%    0.37kB/s    0:00:00 (xfer#30, to-check=62/110)
+cd+++++++ Run_443_Wave/
+cd+++++++ Run_443_Wave/Run_443_Wave_MID_1/
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_1/Run_443_Wave_MID_1_FILE_0.dat
+      32.77K   0%   52.20kB/s    0:20:56
+      46.43M  70%   44.28MB/s    0:00:00
+      65.60M 100%   54.64MB/s    0:00:01 (xfer#31, to-check=59/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_1/Run_443_Wave_MID_1_FILE_1.dat
+      32.77K   5%  219.18kB/s    0:00:02
+     589.82K 100%    3.63MB/s    0:00:00 (xfer#32, to-check=58/110)
+cd+++++++ Run_443_Wave/Run_443_Wave_MID_10/
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_10/Run_443_Wave_MID_10_FILE_0.dat
+      32.77K   0%  206.45kB/s    0:05:17
+      65.60M 100%   76.58MB/s    0:00:00 (xfer#33, to-check=56/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_10/Run_443_Wave_MID_10_FILE_1.dat
+      32.77K   5%   39.12kB/s    0:00:14
+     589.82K 100%  688.17kB/s    0:00:00 (xfer#34, to-check=55/110)
+cd+++++++ Run_443_Wave/Run_443_Wave_MID_11/
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_11/Run_443_Wave_MID_11_FILE_0.dat
+      32.77K   0%   38.23kB/s    0:28:35
+      14.45M  22%   13.78MB/s    0:00:03
+      65.60M 100%   42.85MB/s    0:00:01 (xfer#35, to-check=53/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_11/Run_443_Wave_MID_11_FILE_1.dat
+      32.77K   5%   69.26kB/s    0:00:08
+     589.82K 100%    1.19MB/s    0:00:00 (xfer#36, to-check=52/110)
+cd+++++++ Run_443_Wave/Run_443_Wave_MID_12/
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_12/Run_443_Wave_MID_12_FILE_0.dat
+      32.77K   0%   67.51kB/s    0:16:11
+      53.25M  81%   50.78MB/s    0:00:00
+      65.60M 100%   57.56MB/s    0:00:01 (xfer#37, to-check=50/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_12/Run_443_Wave_MID_12_FILE_1.dat
+      32.77K   5%  363.64kB/s    0:00:01
+     589.82K 100%    5.68MB/s    0:00:00 (xfer#38, to-check=49/110)
+cd+++++++ Run_443_Wave/Run_443_Wave_MID_13/
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_13/Run_443_Wave_MID_13_FILE_0.dat
+      32.77K   0%  320.00kB/s    0:03:24
+      65.60M 100%   95.95MB/s    0:00:00 (xfer#39, to-check=47/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_13/Run_443_Wave_MID_13_FILE_1.dat
+      32.77K   5%   49.08kB/s    0:00:11
+     589.82K 100%  872.73kB/s    0:00:00 (xfer#40, to-check=46/110)
+cd+++++++ Run_443_Wave/Run_443_Wave_MID_14/
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_14/Run_443_Wave_MID_14_FILE_0.dat
+      32.77K   0%   48.41kB/s    0:22:34
+      39.68M  60%   37.84MB/s    0:00:00
+      65.60M 100%   51.15MB/s    0:00:01 (xfer#41, to-check=44/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_14/Run_443_Wave_MID_14_FILE_1.dat
+      32.77K   5%  142.22kB/s    0:00:03
+     589.82K 100%    2.39MB/s    0:00:00 (xfer#42, to-check=43/110)
+cd+++++++ Run_443_Wave/Run_443_Wave_MID_15/
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_15/Run_443_Wave_MID_15_FILE_0.dat
+      32.77K   0%  135.59kB/s    0:08:03
+      65.60M 100%   81.78MB/s    0:00:00 (xfer#43, to-check=41/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_15/Run_443_Wave_MID_15_FILE_1.dat
+      32.77K   5%   41.78kB/s    0:00:13
+     589.82K 100%  747.08kB/s    0:00:00 (xfer#44, to-check=40/110)
+cd+++++++ Run_443_Wave/Run_443_Wave_MID_2/
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_2/Run_443_Wave_MID_2_FILE_0.dat
+      32.77K   0%   41.50kB/s    0:26:19
+      27.30M  41%   26.03MB/s    0:00:01
+      65.60M 100%   46.65MB/s    0:00:01 (xfer#45, to-check=38/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_2/Run_443_Wave_MID_2_FILE_1.dat
+      32.77K   5%   93.57kB/s    0:00:05
+     589.82K 100%    1.46MB/s    0:00:00 (xfer#46, to-check=37/110)
+cd+++++++ Run_443_Wave/Run_443_Wave_MID_3/
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_3/Run_443_Wave_MID_3_FILE_0.dat
+      32.77K   0%   82.69kB/s    0:13:12
+      65.60M 100%   66.13MB/s    0:00:00 (xfer#47, to-check=35/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_3/Run_443_Wave_MID_3_FILE_1.dat
+      32.77K   5%   33.83kB/s    0:00:16
+     589.82K 100%  602.51kB/s    0:00:00 (xfer#48, to-check=34/110)
+cd+++++++ Run_443_Wave/Run_443_Wave_MID_4/
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_4/Run_443_Wave_MID_4_FILE_0.dat
+      32.77K   0%   33.44kB/s    0:32:40
+       5.28M   8%    4.97MB/s    0:00:11
+      65.60M 100%   42.91MB/s    0:00:01 (xfer#49, to-check=32/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_4/Run_443_Wave_MID_4_FILE_1.dat
+      32.77K   5%   71.91kB/s    0:00:07
+     589.82K 100%    1.25MB/s    0:00:00 (xfer#50, to-check=31/110)
+cd+++++++ Run_443_Wave/Run_443_Wave_MID_5/
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_5/Run_443_Wave_MID_5_FILE_0.dat
+      32.77K   0%   70.80kB/s    0:15:26
+      57.44M  87%   54.73MB/s    0:00:00
+      65.60M 100%   59.13MB/s    0:00:01 (xfer#51, to-check=29/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_5/Run_443_Wave_MID_5_FILE_1.dat
+      32.77K   5%  551.72kB/s    0:00:01
+     589.82K 100%    8.40MB/s    0:00:00 (xfer#52, to-check=28/110)
+cd+++++++ Run_443_Wave/Run_443_Wave_MID_6/
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_6/Run_443_Wave_MID_6_FILE_0.dat
+      32.77K   0%  470.59kB/s    0:02:19
+      65.60M 100%   94.08MB/s    0:00:00 (xfer#53, to-check=26/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_6/Run_443_Wave_MID_6_FILE_1.dat
+      32.77K   5%   46.85kB/s    0:00:11
+     589.82K 100%  804.47kB/s    0:00:00 (xfer#54, to-check=25/110)
+cd+++++++ Run_443_Wave/Run_443_Wave_MID_7/
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_7/Run_443_Wave_MID_7_FILE_0.dat
+      32.77K   0%   44.63kB/s    0:24:29
+      32.01M  48%   30.53MB/s    0:00:01
+      65.60M 100%   47.72MB/s    0:00:01 (xfer#55, to-check=23/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_7/Run_443_Wave_MID_7_FILE_1.dat
+      32.77K   5%  102.89kB/s    0:00:05
+     589.82K 100%    1.77MB/s    0:00:00 (xfer#56, to-check=22/110)
+cd+++++++ Run_443_Wave/Run_443_Wave_MID_8/
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_8/Run_443_Wave_MID_8_FILE_0.dat
+      32.77K   0%  100.31kB/s    0:10:53
+      65.60M 100%   66.27MB/s    0:00:00 (xfer#57, to-check=20/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_8/Run_443_Wave_MID_8_FILE_1.dat
+      32.77K   5%   33.90kB/s    0:00:16
+     589.82K 100%  603.77kB/s    0:00:00 (xfer#58, to-check=19/110)
+cd+++++++ Run_443_Wave/Run_443_Wave_MID_9/
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_9/Run_443_Wave_MID_9_FILE_0.dat
+      32.77K   0%   33.54kB/s    0:32:34
+       5.28M   8%    4.94MB/s    0:00:11
+      65.60M 100%   39.80MB/s    0:00:01 (xfer#59, to-check=17/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_MID_9/Run_443_Wave_MID_9_FILE_1.dat
+      32.77K   5%   57.87kB/s    0:00:09
+     589.82K 100%    1.01MB/s    0:00:00 (xfer#60, to-check=16/110)
+cd+++++++ Run_443_Wave/Run_443_Wave_log/
+>f+++++++ Run_443_Wave/Run_443_Wave_log/Run_443_Wave_MID_10_buffer.txt
+      15.09K 100%   26.40kB/s    0:00:00
+      15.09K 100%   26.40kB/s    0:00:00 (xfer#61, to-check=14/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_log/Run_443_Wave_MID_11_buffer.txt
+      15.11K 100%   26.45kB/s    0:00:00
+      15.11K 100%   26.45kB/s    0:00:00 (xfer#62, to-check=13/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_log/Run_443_Wave_MID_12_buffer.txt
+      15.07K 100%   26.33kB/s    0:00:00
+      15.07K 100%   26.33kB/s    0:00:00 (xfer#63, to-check=12/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_log/Run_443_Wave_MID_13_buffer.txt
+      15.09K 100%   26.31kB/s    0:00:00
+      15.09K 100%   26.31kB/s    0:00:00 (xfer#64, to-check=11/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_log/Run_443_Wave_MID_14_buffer.txt
+      15.06K 100%   26.26kB/s    0:00:00
+      15.06K 100%   26.26kB/s    0:00:00 (xfer#65, to-check=10/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_log/Run_443_Wave_MID_15_buffer.txt
+      15.09K 100%   26.26kB/s    0:00:00
+      15.09K 100%   26.26kB/s    0:00:00 (xfer#66, to-check=9/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_log/Run_443_Wave_MID_1_buffer.txt
+      15.04K 100%   26.14kB/s    0:00:00
+      15.04K 100%   26.14kB/s    0:00:00 (xfer#67, to-check=8/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_log/Run_443_Wave_MID_2_buffer.txt
+      15.07K 100%   26.19kB/s    0:00:00
+      15.07K 100%   26.19kB/s    0:00:00 (xfer#68, to-check=7/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_log/Run_443_Wave_MID_3_buffer.txt
+      15.06K 100%   26.12kB/s    0:00:00
+      15.06K 100%   26.12kB/s    0:00:00 (xfer#69, to-check=6/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_log/Run_443_Wave_MID_4_buffer.txt
+      15.07K 100%   26.14kB/s    0:00:00
+      15.07K 100%   26.14kB/s    0:00:00 (xfer#70, to-check=5/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_log/Run_443_Wave_MID_5_buffer.txt
+      15.09K 100%   26.12kB/s    0:00:00
+      15.09K 100%   26.12kB/s    0:00:00 (xfer#71, to-check=4/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_log/Run_443_Wave_MID_6_buffer.txt
+      15.07K 100%   26.10kB/s    0:00:00
+      15.07K 100%   26.10kB/s    0:00:00 (xfer#72, to-check=3/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_log/Run_443_Wave_MID_7_buffer.txt
+      15.07K 100%   26.05kB/s    0:00:00
+      15.07K 100%   26.05kB/s    0:00:00 (xfer#73, to-check=2/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_log/Run_443_Wave_MID_8_buffer.txt
+      15.09K 100%   26.08kB/s    0:00:00
+      15.09K 100%   26.08kB/s    0:00:00 (xfer#74, to-check=1/110)
+>f+++++++ Run_443_Wave/Run_443_Wave_log/Run_443_Wave_MID_9_buffer.txt
+      15.07K 100%   26.00kB/s    0:00:00
+      15.07K 100%   26.00kB/s    0:00:00 (xfer#75, to-check=0/110)
+
+sent 996.91M bytes  received 1.88K bytes  104.94M bytes/sec
+total size is 996.79M  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_443/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_443_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

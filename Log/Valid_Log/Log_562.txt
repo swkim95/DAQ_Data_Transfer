@@ -1,0 +1,1 @@
+[91m[ERROR][0m Original SSD data with path [1m"/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_562_copied/"[0m [91mdoes not exist[0m, please check

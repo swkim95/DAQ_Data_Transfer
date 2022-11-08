@@ -1,0 +1,24 @@
+2022/08/20 03:48:33 [95893] receiving file list
+2022/08/20 03:48:34 [95893] created directory /Volumes/HDD_16TB_1/HDD_Run_363
+2022/08/20 03:48:34 [95893] cd+++++++ ./
+2022/08/20 03:48:34 [95893] cd+++++++ Run_363_Fast/
+2022/08/20 03:48:34 [95893] cd+++++++ Run_363_Fast/Run_363_Fast_MID_1/
+2022/08/20 03:48:34 [95893] >f+++++++ Run_363_Fast/Run_363_Fast_MID_1/Run_363_Fast_MID_1_FILE_0.dat
+2022/08/20 03:48:34 [95893] >f+++++++ Run_363_Fast/Run_363_Fast_MID_1/Run_363_Fast_MID_1_FILE_1.dat
+2022/08/20 03:48:34 [95893] cd+++++++ Run_363_Fast/Run_363_Fast_MID_2/
+2022/08/20 03:48:34 [95893] >f+++++++ Run_363_Fast/Run_363_Fast_MID_2/Run_363_Fast_MID_2_FILE_0.dat
+2022/08/20 03:48:34 [95893] >f+++++++ Run_363_Fast/Run_363_Fast_MID_2/Run_363_Fast_MID_2_FILE_1.dat
+2022/08/20 03:48:34 [95893] cd+++++++ Run_363_Fast/Run_363_Fast_log/
+2022/08/20 03:48:34 [95893] >f+++++++ Run_363_Fast/Run_363_Fast_log/Run_363_Fast_MID_1_buffer.txt
+2022/08/20 03:48:34 [95893] >f+++++++ Run_363_Fast/Run_363_Fast_log/Run_363_Fast_MID_2_buffer.txt
+2022/08/20 03:48:34 [95893] cd+++++++ Run_363_Wave/
+2022/08/20 03:48:34 [95893] cd+++++++ Run_363_Wave/Run_363_Wave_MID_1/
+2022/08/20 03:48:34 [95893] >f+++++++ Run_363_Wave/Run_363_Wave_MID_1/Run_363_Wave_MID_1_FILE_0.dat
+2022/08/20 03:48:34 [95893] >f+++++++ Run_363_Wave/Run_363_Wave_MID_1/Run_363_Wave_MID_1_FILE_1.dat
+2022/08/20 03:48:34 [95893] cd+++++++ Run_363_Wave/Run_363_Wave_MID_2/
+2022/08/20 03:48:35 [95893] >f+++++++ Run_363_Wave/Run_363_Wave_MID_2/Run_363_Wave_MID_2_FILE_0.dat
+2022/08/20 03:48:35 [95893] >f+++++++ Run_363_Wave/Run_363_Wave_MID_2/Run_363_Wave_MID_2_FILE_1.dat
+2022/08/20 03:48:35 [95893] cd+++++++ Run_363_Wave/Run_363_Wave_log/
+2022/08/20 03:48:35 [95893] >f+++++++ Run_363_Wave/Run_363_Wave_log/Run_363_Wave_MID_1_buffer.txt
+2022/08/20 03:48:35 [95893] >f+++++++ Run_363_Wave/Run_363_Wave_log/Run_363_Wave_MID_2_buffer.txt
+2022/08/20 03:48:35 [95893] sent 396 bytes  received 537 bytes  total size 136414158

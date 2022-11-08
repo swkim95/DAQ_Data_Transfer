@@ -1,0 +1,524 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_683/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_683[0m
+[94m[INFO][0m SSD data folder size = [96m[1m28.744 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [##########----------------------------------------][0m [92m[1m20.405 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 3040.589 GB / Free : [4m11860.963 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_683/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_683/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_683.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_683/ /Volumes/HDD_16TB_1/HDD_Run_683/[0m`? [y/n] building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_683
+cd+++++++ ./
+cd+++++++ Run_683_Fast/
+cd+++++++ Run_683_Fast/Run_683_Fast_MID_1/
+>f+++++++ Run_683_Fast/Run_683_Fast_MID_1/Run_683_Fast_MID_1_FILE_0.dat
+      32.77K   0%    0.00kB/s    0:00:00
+       8.00M 100%   52.01MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_683_Fast/Run_683_Fast_MID_10/
+>f+++++++ Run_683_Fast/Run_683_Fast_MID_10/Run_683_Fast_MID_10_FILE_0.dat
+      32.77K   0%  217.69kB/s    0:00:36
+       8.00M 100%   25.25MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_683_Fast/Run_683_Fast_MID_11/
+>f+++++++ Run_683_Fast/Run_683_Fast_MID_11/Run_683_Fast_MID_11_FILE_0.dat
+      32.77K   0%  105.26kB/s    0:01:15
+       8.00M 100%   17.65MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_683_Fast/Run_683_Fast_MID_12/
+>f+++++++ Run_683_Fast/Run_683_Fast_MID_12/Run_683_Fast_MID_12_FILE_0.dat
+      32.77K   0%   73.90kB/s    0:01:47
+       8.00M 100%   14.39MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_683_Fast/Run_683_Fast_MID_13/
+>f+++++++ Run_683_Fast/Run_683_Fast_MID_13/Run_683_Fast_MID_13_FILE_0.dat
+      32.77K   0%   60.15kB/s    0:02:12
+       8.00M 100%   12.52MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_683_Fast/Run_683_Fast_MID_14/
+>f+++++++ Run_683_Fast/Run_683_Fast_MID_14/Run_683_Fast_MID_14_FILE_0.dat
+      32.77K   0%   52.37kB/s    0:02:32
+       8.00M 100%   10.85MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_683_Fast/Run_683_Fast_MID_15/
+>f+++++++ Run_683_Fast/Run_683_Fast_MID_15/Run_683_Fast_MID_15_FILE_0.dat
+      32.77K   0%   45.45kB/s    0:02:55
+       8.00M 100%    9.69MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_683_Fast/Run_683_Fast_MID_2/
+>f+++++++ Run_683_Fast/Run_683_Fast_MID_2/Run_683_Fast_MID_2_FILE_0.dat
+      32.77K   0%   40.61kB/s    0:03:16
+       8.00M 100%    8.37MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_683_Fast/Run_683_Fast_MID_3/
+>f+++++++ Run_683_Fast/Run_683_Fast_MID_3/Run_683_Fast_MID_3_FILE_0.dat
+      32.77K   0%   35.09kB/s    0:03:46
+       7.90M  98%    7.53MB/s    0:00:00
+       8.00M 100%    7.62MB/s    0:00:01 (xfer#9, to-check=75/95)
+cd+++++++ Run_683_Fast/Run_683_Fast_MID_4/
+>f+++++++ Run_683_Fast/Run_683_Fast_MID_4/Run_683_Fast_MID_4_FILE_0.dat
+      32.77K   0%   31.25MB/s    0:00:00
+       8.00M 100%   73.32MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_683_Fast/Run_683_Fast_MID_5/
+>f+++++++ Run_683_Fast/Run_683_Fast_MID_5/Run_683_Fast_MID_5_FILE_0.dat
+      32.77K   0%  304.76kB/s    0:00:26
+       8.00M 100%   36.48MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_683_Fast/Run_683_Fast_MID_6/
+>f+++++++ Run_683_Fast/Run_683_Fast_MID_6/Run_683_Fast_MID_6_FILE_0.dat
+      32.77K   0%  152.38kB/s    0:00:52
+       8.00M 100%   23.90MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_683_Fast/Run_683_Fast_MID_7/
+>f+++++++ Run_683_Fast/Run_683_Fast_MID_7/Run_683_Fast_MID_7_FILE_0.dat
+      32.77K   0%   98.46kB/s    0:01:20
+       8.00M 100%   17.90MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_683_Fast/Run_683_Fast_MID_8/
+>f+++++++ Run_683_Fast/Run_683_Fast_MID_8/Run_683_Fast_MID_8_FILE_0.dat
+      32.77K   0%   74.77kB/s    0:01:46
+       8.00M 100%   14.50MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_683_Fast/Run_683_Fast_MID_9/
+>f+++++++ Run_683_Fast/Run_683_Fast_MID_9/Run_683_Fast_MID_9_FILE_0.dat
+      32.77K   0%   60.72kB/s    0:02:11
+       8.00M 100%   12.62MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_683_Fast/Run_683_Fast_log/
+>f+++++++ Run_683_Fast/Run_683_Fast_log/Run_683_Fast_MID_10_buffer.txt
+       2.57K 100%    4.15kB/s    0:00:00
+       2.57K 100%    4.15kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_683_Fast/Run_683_Fast_log/Run_683_Fast_MID_11_buffer.txt
+       2.58K 100%    4.17kB/s    0:00:00
+       2.58K 100%    4.17kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_683_Fast/Run_683_Fast_log/Run_683_Fast_MID_12_buffer.txt
+       2.13K 100%    3.44kB/s    0:00:00
+       2.13K 100%    3.44kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_683_Fast/Run_683_Fast_log/Run_683_Fast_MID_13_buffer.txt
+       2.58K 100%    4.17kB/s    0:00:00
+       2.58K 100%    4.17kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_683_Fast/Run_683_Fast_log/Run_683_Fast_MID_14_buffer.txt
+       2.51K 100%    3.93kB/s    0:00:00
+       2.51K 100%    3.93kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_683_Fast/Run_683_Fast_log/Run_683_Fast_MID_15_buffer.txt
+       2.18K 100%    3.42kB/s    0:00:00
+       2.18K 100%    3.42kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_683_Fast/Run_683_Fast_log/Run_683_Fast_MID_1_buffer.txt
+       2.12K 100%    3.32kB/s    0:00:00
+       2.12K 100%    3.32kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_683_Fast/Run_683_Fast_log/Run_683_Fast_MID_2_buffer.txt
+       2.52K 100%    3.78kB/s    0:00:00
+       2.52K 100%    3.78kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_683_Fast/Run_683_Fast_log/Run_683_Fast_MID_3_buffer.txt
+       2.18K 100%    3.27kB/s    0:00:00
+       2.18K 100%    3.27kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_683_Fast/Run_683_Fast_log/Run_683_Fast_MID_4_buffer.txt
+       2.17K 100%    3.25kB/s    0:00:00
+       2.17K 100%    3.25kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_683_Fast/Run_683_Fast_log/Run_683_Fast_MID_5_buffer.txt
+       2.63K 100%    3.79kB/s    0:00:00
+       2.63K 100%    3.79kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_683_Fast/Run_683_Fast_log/Run_683_Fast_MID_6_buffer.txt
+       2.13K 100%    3.07kB/s    0:00:00
+       2.13K 100%    3.07kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_683_Fast/Run_683_Fast_log/Run_683_Fast_MID_7_buffer.txt
+       2.18K 100%    3.13kB/s    0:00:00
+       2.18K 100%    3.13kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_683_Fast/Run_683_Fast_log/Run_683_Fast_MID_8_buffer.txt
+       2.58K 100%    3.56kB/s    0:00:00
+       2.58K 100%    3.56kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_683_Fast/Run_683_Fast_log/Run_683_Fast_MID_9_buffer.txt
+       2.18K 100%    3.01kB/s    0:00:00
+       2.18K 100%    3.01kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_683_Wave/
+cd+++++++ Run_683_Wave/Run_683_Wave_MID_1/
+>f+++++++ Run_683_Wave/Run_683_Wave_MID_1/Run_683_Wave_MID_1_FILE_0.dat
+      32.77K   0%   41.56kB/s   13:41:57
+      23.82M   1%   22.72MB/s    0:01:27
+     129.01M   6%   61.52MB/s    0:00:30
+     227.31M  11%   72.26MB/s    0:00:24
+     310.94M  15%   74.08MB/s    0:00:22
+     417.82M  20%   93.87MB/s    0:00:16
+     514.10M  25%   91.77MB/s    0:00:16
+     612.40M  29%   91.77MB/s    0:00:15
+     724.34M  35%   98.59MB/s    0:00:13
+     843.02M  41%  101.40MB/s    0:00:11
+     948.80M  46%  103.69MB/s    0:00:10
+       1.05G  51%  104.75MB/s    0:00:09
+       1.16G  56%  104.05MB/s    0:00:08
+       1.26G  61%   98.80MB/s    0:00:07
+       1.38G  67%  103.12MB/s    0:00:06
+       1.52G  74%  110.80MB/s    0:00:04
+       1.65G  80%  117.63MB/s    0:00:03
+       1.79G  87%  127.62MB/s    0:00:01
+       1.93G  94%  130.31MB/s    0:00:00
+       2.05G 100%  103.33MB/s    0:00:18 (xfer#31, to-check=44/95)
+cd+++++++ Run_683_Wave/Run_683_Wave_MID_10/
+>f+++++++ Run_683_Wave/Run_683_Wave_MID_10/Run_683_Wave_MID_10_FILE_0.dat
+      32.77K   0%   35.05kB/s   16:14:35
+       1.80M   0%    1.72MB/s    0:19:23
+     138.44M   6%   66.05MB/s    0:00:28
+     260.87M  12%   82.95MB/s    0:00:21
+     382.80M  18%   91.31MB/s    0:00:17
+     508.85M  24%  120.92MB/s    0:00:12
+     608.99M  29%  112.22MB/s    0:00:12
+     716.93M  34%  108.79MB/s    0:00:11
+     830.05M  40%  106.69MB/s    0:00:11
+     934.58M  45%  101.58MB/s    0:00:10
+       1.05G  51%  104.24MB/s    0:00:09
+       1.18G  57%  110.51MB/s    0:00:07
+       1.32G  64%  116.32MB/s    0:00:06
+       1.45G  70%  124.12MB/s    0:00:04
+       1.59G  77%  129.56MB/s    0:00:03
+       1.73G  84%  130.44MB/s    0:00:02
+       1.86G  90%  129.05MB/s    0:00:01
+       2.00G  97%  129.06MB/s    0:00:00
+       2.05G 100%  112.49MB/s    0:00:17 (xfer#32, to-check=42/95)
+cd+++++++ Run_683_Wave/Run_683_Wave_MID_11/
+>f+++++++ Run_683_Wave/Run_683_Wave_MID_11/Run_683_Wave_MID_11_FILE_0.dat
+      32.77K   0%   82.69kB/s    6:53:06
+      75.01M   3%   71.53MB/s    0:00:26
+     200.93M   9%   95.86MB/s    0:00:18
+     322.73M  15%  102.66MB/s    0:00:16
+     432.05M  21%  103.06MB/s    0:00:15
+     534.54M  26%  109.62MB/s    0:00:13
+     644.38M  31%  105.78MB/s    0:00:12
+     749.76M  36%  101.84MB/s    0:00:12
+     844.66M  41%   98.33MB/s    0:00:11
+     973.11M  47%  104.51MB/s    0:00:10
+       1.11G  54%  110.32MB/s    0:00:08
+       1.24G  60%  115.99MB/s    0:00:06
+       1.37G  66%  125.06MB/s    0:00:05
+       1.50G  73%  126.59MB/s    0:00:04
+       1.64G  80%  127.63MB/s    0:00:03
+       1.78G  86%  129.98MB/s    0:00:02
+       1.92G  93%  131.53MB/s    0:00:00
+       2.05G 100%  115.33MB/s    0:00:16 (xfer#33, to-check=40/95)
+cd+++++++ Run_683_Wave/Run_683_Wave_MID_12/
+>f+++++++ Run_683_Wave/Run_683_Wave_MID_12/Run_683_Wave_MID_12_FILE_0.dat
+      32.77K   0%   33.33kB/s   17:04:46
+       2.65M   0%    2.53MB/s    0:13:09
+     112.75M   5%   53.79MB/s    0:00:35
+     212.76M  10%   67.68MB/s    0:00:26
+     322.21M  15%   76.88MB/s    0:00:21
+     420.25M  20%   99.61MB/s    0:00:15
+     544.24M  26%  102.93MB/s    0:00:14
+     680.59M  33%  111.59MB/s    0:00:11
+     819.23M  39%  118.53MB/s    0:00:10
+     934.31M  45%  122.59MB/s    0:00:08
+       1.07G  52%  126.09MB/s    0:00:07
+       1.21G  59%  126.23MB/s    0:00:06
+       1.35G  65%  125.94MB/s    0:00:05
+       1.47G  71%  128.63MB/s    0:00:04
+       1.61G  78%  128.62MB/s    0:00:03
+       1.75G  85%  129.01MB/s    0:00:02
+       1.87G  91%  123.81MB/s    0:00:01
+       1.97G  96%  119.25MB/s    0:00:00
+       2.05G 100%  110.04MB/s    0:00:17 (xfer#34, to-check=38/95)
+cd+++++++ Run_683_Wave/Run_683_Wave_MID_13/
+>f+++++++ Run_683_Wave/Run_683_Wave_MID_13/Run_683_Wave_MID_13_FILE_0.dat
+      32.77K   0%   40.82kB/s   13:56:53
+      20.74M   1%   19.78MB/s    0:01:40
+     128.22M   6%   61.14MB/s    0:00:30
+     226.89M  11%   72.15MB/s    0:00:24
+     356.81M  17%   85.11MB/s    0:00:19
+     482.64M  23%  110.10MB/s    0:00:13
+     602.44M  29%  113.03MB/s    0:00:12
+     705.20M  34%  114.01MB/s    0:00:11
+     843.09M  41%  115.91MB/s    0:00:10
+     963.67M  47%  114.72MB/s    0:00:09
+       1.10G  53%  118.78MB/s    0:00:07
+       1.23G  60%  126.09MB/s    0:00:06
+       1.29G  63%  107.37MB/s    0:00:06
+       1.31G  63%   82.44MB/s    0:00:08
+       1.33G  64%   53.93MB/s    0:00:13
+       1.34G  65%   26.15MB/s    0:00:26
+       1.36G  66%   16.04MB/s    0:00:41
+       1.38G  67%   16.04MB/s    0:00:40
+       1.40G  68%   16.00MB/s    0:00:39
+       1.41G  68%   15.70MB/s    0:00:39
+       1.43G  69%   15.40MB/s    0:00:39
+       1.44G  70%   15.07MB/s    0:00:39
+       1.46G  71%   14.67MB/s    0:00:39
+       1.47G  71%   14.68MB/s    0:00:38
+       1.49G  72%   14.68MB/s    0:00:37
+       1.50G  73%   14.65MB/s    0:00:36
+       1.52G  74%   14.74MB/s    0:00:35
+       1.54G  74%   14.77MB/s    0:00:33
+       1.55G  75%   14.77MB/s    0:00:32
+       1.57G  76%   14.75MB/s    0:00:31
+       1.59G  77%   14.79MB/s    0:00:30
+       1.60G  78%   14.87MB/s    0:00:29
+       1.62G  78%   14.86MB/s    0:00:28
+       1.63G  79%   14.96MB/s    0:00:27
+       1.65G  80%   14.91MB/s    0:00:26
+       1.66G  81%   14.89MB/s    0:00:25
+       1.68G  82%   15.22MB/s    0:00:23
+       1.70G  82%   15.16MB/s    0:00:22
+       1.71G  83%   15.16MB/s    0:00:21
+       1.73G  84%   15.11MB/s    0:00:20
+       1.74G  85%   14.78MB/s    0:00:20
+       1.76G  85%   14.83MB/s    0:00:19
+       1.78G  86%   14.85MB/s    0:00:18
+       1.79G  87%   14.80MB/s    0:00:17
+       1.81G  88%   14.81MB/s    0:00:15
+       1.82G  89%   15.00MB/s    0:00:14
+       1.88G  91%   23.96MB/s    0:00:06
+       2.02G  98%   52.52MB/s    0:00:00
+       2.05G 100%   40.87MB/s    0:00:47 (xfer#35, to-check=36/95)
+cd+++++++ Run_683_Wave/Run_683_Wave_MID_14/
+>f+++++++ Run_683_Wave/Run_683_Wave_MID_14/Run_683_Wave_MID_14_FILE_0.dat
+      32.77K   0%  125.00kB/s    4:33:16
+      84.71M   4%   80.78MB/s    0:00:23
+     196.12M   9%   92.45MB/s    0:00:19
+     324.57M  15%  102.43MB/s    0:00:16
+     434.83M  21%  103.13MB/s    0:00:15
+     569.41M  27%  114.93MB/s    0:00:12
+     681.08M  33%  115.65MB/s    0:00:11
+     790.40M  38%  111.06MB/s    0:00:11
+     922.52M  45%  116.27MB/s    0:00:09
+       1.04G  50%  112.80MB/s    0:00:08
+       1.15G  56%  112.09MB/s    0:00:07
+       1.25G  61%  110.40MB/s    0:00:07
+       1.36G  66%  105.39MB/s    0:00:06
+       1.47G  71%  102.09MB/s    0:00:05
+       1.58G  77%  103.26MB/s    0:00:04
+       1.72G  83%  111.34MB/s    0:00:02
+       1.86G  90%  118.00MB/s    0:00:01
+       2.00G  97%  125.70MB/s    0:00:00
+       2.05G 100%  112.19MB/s    0:00:17 (xfer#36, to-check=34/95)
+cd+++++++ Run_683_Wave/Run_683_Wave_MID_15/
+>f+++++++ Run_683_Wave/Run_683_Wave_MID_15/Run_683_Wave_MID_15_FILE_0.dat
+      32.77K   0%   73.06kB/s    7:47:33
+      65.04M   3%   62.03MB/s    0:00:31
+     187.73M   9%   89.52MB/s    0:00:20
+     321.95M  15%  102.38MB/s    0:00:16
+     454.07M  22%  108.31MB/s    0:00:14
+     588.12M  28%  124.77MB/s    0:00:11
+     717.23M  34%  126.34MB/s    0:00:10
+     817.14M  39%  118.15MB/s    0:00:10
+     877.17M  42%  100.95MB/s    0:00:11
+     933.00M  45%   82.27MB/s    0:00:13
+     987.00M  48%   64.29MB/s    0:00:16
+       1.07G  51%   59.22MB/s    0:00:16
+       1.12G  54%   57.99MB/s    0:00:15
+       1.21G  59%   66.23MB/s    0:00:12
+       1.33G  64%   81.16MB/s    0:00:08
+       1.46G  71%   94.77MB/s    0:00:06
+       1.59G  77%  112.58MB/s    0:00:03
+       1.72G  84%  122.14MB/s    0:00:02
+       1.85G  90%  124.86MB/s    0:00:01
+       1.99G  96%  124.52MB/s    0:00:00
+       2.05G 100%  100.44MB/s    0:00:19 (xfer#37, to-check=32/95)
+cd+++++++ Run_683_Wave/Run_683_Wave_MID_2/
+>f+++++++ Run_683_Wave/Run_683_Wave_MID_2/Run_683_Wave_MID_2_FILE_0.dat
+      32.77K   0%   67.09kB/s    8:29:10
+      52.95M   2%   50.50MB/s    0:00:38
+     149.98M   7%   71.09MB/s    0:00:26
+     242.78M  11%   76.87MB/s    0:00:22
+     350.42M  17%   83.32MB/s    0:00:19
+     450.92M  22%   94.58MB/s    0:00:16
+     553.42M  27%   96.19MB/s    0:00:15
+     674.17M  32%  102.85MB/s    0:00:13
+     811.14M  39%  109.84MB/s    0:00:11
+     948.14M  46%  118.61MB/s    0:00:09
+       1.08G  52%  126.78MB/s    0:00:07
+       1.22G  59%  130.66MB/s    0:00:06
+       1.33G  65%  124.52MB/s    0:00:05
+       1.47G  71%  124.89MB/s    0:00:04
+       1.61G  78%  125.38MB/s    0:00:03
+       1.73G  84%  122.16MB/s    0:00:02
+       1.85G  90%  124.00MB/s    0:00:01
+       1.96G  95%  117.25MB/s    0:00:00
+       2.05G 100%  109.59MB/s    0:00:17 (xfer#38, to-check=30/95)
+cd+++++++ Run_683_Wave/Run_683_Wave_MID_3/
+>f+++++++ Run_683_Wave/Run_683_Wave_MID_3/Run_683_Wave_MID_3_FILE_0.dat
+      32.77K   0%   38.42kB/s   14:49:12
+      15.50M   0%   14.78MB/s    0:02:14
+     122.78M   5%   58.55MB/s    0:00:32
+     228.62M  11%   72.70MB/s    0:00:24
+     347.64M  16%   82.90MB/s    0:00:20
+     486.57M  23%  112.34MB/s    0:00:13
+     594.84M  29%  112.58MB/s    0:00:12
+     733.51M  35%  120.41MB/s    0:00:10
+     861.37M  42%  122.55MB/s    0:00:09
+       1.00G  48%  122.50MB/s    0:00:08
+       1.13G  55%  127.28MB/s    0:00:07
+       1.25G  60%  122.15MB/s    0:00:06
+       1.38G  67%  124.61MB/s    0:00:05
+       1.51G  73%  122.25MB/s    0:00:04
+       1.61G  78%  115.81MB/s    0:00:03
+       1.72G  84%  114.16MB/s    0:00:02
+       1.83G  89%  106.09MB/s    0:00:02
+       1.94G  94%  101.69MB/s    0:00:01
+       2.05G 100%  108.97MB/s    0:00:17 (xfer#39, to-check=28/95)
+cd+++++++ Run_683_Wave/Run_683_Wave_MID_4/
+>f+++++++ Run_683_Wave/Run_683_Wave_MID_4/Run_683_Wave_MID_4_FILE_0.dat
+      32.77K   0%   33.37kB/s   17:03:42
+       3.96M   0%    3.78MB/s    0:08:48
+     119.05M   5%   56.77MB/s    0:00:33
+     243.83M  11%   77.54MB/s    0:00:22
+     381.98M  18%   91.09MB/s    0:00:17
+     516.98M  25%  122.37MB/s    0:00:12
+     655.92M  32%  128.06MB/s    0:00:10
+     794.62M  38%  131.39MB/s    0:00:09
+     900.50M  43%  123.72MB/s    0:00:09
+       1.04G  50%  124.66MB/s    0:00:07
+       1.17G  57%  123.22MB/s    0:00:06
+       1.29G  62%  117.52MB/s    0:00:06
+       1.40G  68%  118.84MB/s    0:00:05
+       1.51G  73%  111.55MB/s    0:00:04
+       1.61G  78%  104.18MB/s    0:00:04
+       1.72G  83%  103.24MB/s    0:00:03
+       1.85G  90%  108.01MB/s    0:00:01
+       1.98G  96%  112.07MB/s    0:00:00
+       2.05G 100%  111.46MB/s    0:00:17 (xfer#40, to-check=26/95)
+cd+++++++ Run_683_Wave/Run_683_Wave_MID_5/
+>f+++++++ Run_683_Wave/Run_683_Wave_MID_5/Run_683_Wave_MID_5_FILE_0.dat
+      32.77K   0%   58.39kB/s    9:44:58
+      38.83M   1%   37.03MB/s    0:00:53
+     154.47M   7%   73.66MB/s    0:00:25
+     288.39M  14%   91.71MB/s    0:00:18
+     427.20M  20%  101.90MB/s    0:00:15
+     547.16M  26%  121.29MB/s    0:00:12
+     682.66M  33%  125.99MB/s    0:00:10
+     804.81M  39%  123.19MB/s    0:00:09
+     929.04M  45%  119.71MB/s    0:00:09
+       1.04G  50%  116.53MB/s    0:00:08
+       1.14G  55%  108.81MB/s    0:00:08
+       1.25G  60%  105.96MB/s    0:00:07
+       1.35G  65%  100.63MB/s    0:00:06
+       1.47G  71%  103.20MB/s    0:00:05
+       1.60G  78%  110.64MB/s    0:00:03
+       1.73G  84%  113.79MB/s    0:00:02
+       1.87G  91%  122.64MB/s    0:00:01
+       1.99G  97%  125.57MB/s    0:00:00
+       2.05G 100%  112.40MB/s    0:00:17 (xfer#41, to-check=24/95)
+cd+++++++ Run_683_Wave/Run_683_Wave_MID_6/
+>f+++++++ Run_683_Wave/Run_683_Wave_MID_6/Run_683_Wave_MID_6_FILE_0.dat
+      32.77K   0%   79.60kB/s    7:09:07
+      78.09M   3%   74.47MB/s    0:00:25
+     203.46M   9%   97.06MB/s    0:00:18
+     335.58M  16%  106.71MB/s    0:00:15
+     446.56M  21%  106.52MB/s    0:00:14
+     575.18M  28%  118.57MB/s    0:00:12
+     690.81M  33%  116.25MB/s    0:00:11
+     797.47M  38%  110.12MB/s    0:00:11
+     907.02M  44%  109.78MB/s    0:00:10
+       1.01G  49%  103.25MB/s    0:00:09
+       1.12G  54%  101.79MB/s    0:00:08
+       1.24G  60%  105.05MB/s    0:00:07
+       1.38G  67%  112.00MB/s    0:00:05
+       1.50G  73%  118.46MB/s    0:00:04
+       1.64G  80%  125.22MB/s    0:00:03
+       1.78G  86%  129.68MB/s    0:00:02
+       1.91G  93%  126.55MB/s    0:00:01
+       2.03G  99%  126.41MB/s    0:00:00
+       2.05G 100%  114.33MB/s    0:00:17 (xfer#42, to-check=22/95)
+cd+++++++ Run_683_Wave/Run_683_Wave_MID_7/
+>f+++++++ Run_683_Wave/Run_683_Wave_MID_7/Run_683_Wave_MID_7_FILE_0.dat
+      32.77K   0%  293.58kB/s    1:56:21
+     117.60M   5%  112.16MB/s    0:00:16
+     244.88M  11%  116.77MB/s    0:00:15
+     364.18M  17%  115.81MB/s    0:00:14
+     471.27M  22%  112.42MB/s    0:00:13
+     578.32M  28%  109.90MB/s    0:00:13
+     681.87M  33%  104.24MB/s    0:00:12
+     785.84M  38%  100.58MB/s    0:00:12
+     914.42M  44%  105.71MB/s    0:00:10
+       1.03G  50%  108.24MB/s    0:00:09
+       1.17G  57%  116.68MB/s    0:00:07
+       1.30G  63%  123.73MB/s    0:00:05
+       1.44G  70%  126.10MB/s    0:00:04
+       1.58G  77%  131.20MB/s    0:00:03
+       1.72G  83%  131.14MB/s    0:00:02
+       1.84G  89%  128.53MB/s    0:00:01
+       1.97G  96%  125.73MB/s    0:00:00
+       2.05G 100%  117.59MB/s    0:00:16 (xfer#43, to-check=20/95)
+cd+++++++ Run_683_Wave/Run_683_Wave_MID_8/
+>f+++++++ Run_683_Wave/Run_683_Wave_MID_8/Run_683_Wave_MID_8_FILE_0.dat
+      32.77K   0%   49.77kB/s   11:26:22
+      36.21M   1%   34.53MB/s    0:00:56
+     138.81M   6%   66.22MB/s    0:00:28
+     244.58M  11%   77.80MB/s    0:00:22
+     354.19M  17%   84.47MB/s    0:00:19
+     456.69M  22%  100.30MB/s    0:00:15
+     570.98M  27%  103.06MB/s    0:00:14
+     697.34M  34%  107.97MB/s    0:00:12
+     836.27M  40%  114.97MB/s    0:00:10
+     972.59M  47%  123.03MB/s    0:00:08
+       1.11G  54%  128.91MB/s    0:00:07
+       1.24G  60%  130.38MB/s    0:00:06
+       1.38G  67%  130.41MB/s    0:00:04
+       1.50G  73%  125.06MB/s    0:00:04
+       1.62G  79%  121.88MB/s    0:00:03
+       1.73G  84%  115.51MB/s    0:00:02
+       1.85G  90%  111.68MB/s    0:00:01
+       1.95G  95%  109.12MB/s    0:00:00
+       2.05G 100%  109.40MB/s    0:00:17 (xfer#44, to-check=18/95)
+cd+++++++ Run_683_Wave/Run_683_Wave_MID_9/
+>f+++++++ Run_683_Wave/Run_683_Wave_MID_9/Run_683_Wave_MID_9_FILE_0.dat
+      32.77K   0%   36.57kB/s   15:34:02
+      10.26M   0%    9.78MB/s    0:03:23
+     124.78M   6%   59.50MB/s    0:00:31
+     222.07M  10%   70.59MB/s    0:00:25
+     249.63M  12%   59.53MB/s    0:00:29
+     266.60M  13%   61.16MB/s    0:00:28
+     283.41M  13%   37.74MB/s    0:00:45
+     300.45M  14%   18.59MB/s    0:01:31
+     317.49M  15%   16.04MB/s    0:01:45
+     372.54M  18%   25.03MB/s    0:01:05
+     503.71M  24%   52.21MB/s    0:00:28
+     632.68M  30%   79.01MB/s    0:00:17
+     769.69M  37%  107.87MB/s    0:00:11
+     902.14M  44%  126.36MB/s    0:00:08
+     989.95M  48%  116.02MB/s    0:00:08
+       1.10G  53%  111.04MB/s    0:00:08
+       1.21G  58%  104.04MB/s    0:00:07
+       1.31G  63%   96.87MB/s    0:00:07
+       1.43G  69%  105.63MB/s    0:00:05
+       1.57G  76%  112.92MB/s    0:00:04
+       1.71G  83%  120.20MB/s    0:00:02
+       1.83G  89%  125.29MB/s    0:00:01
+       1.96G  95%  126.38MB/s    0:00:00
+       2.05G 100%   86.16MB/s    0:00:22 (xfer#45, to-check=16/95)
+cd+++++++ Run_683_Wave/Run_683_Wave_log/
+>f+++++++ Run_683_Wave/Run_683_Wave_log/Run_683_Wave_MID_10_buffer.txt
+       8.23K 100%   12.12kB/s    0:00:00
+       8.23K 100%   12.12kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_683_Wave/Run_683_Wave_log/Run_683_Wave_MID_11_buffer.txt
+       8.42K 100%   12.32kB/s    0:00:00
+       8.42K 100%   12.32kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_683_Wave/Run_683_Wave_log/Run_683_Wave_MID_12_buffer.txt
+       6.81K 100%    8.32kB/s    0:00:00
+       6.81K 100%    8.32kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_683_Wave/Run_683_Wave_log/Run_683_Wave_MID_13_buffer.txt
+       8.42K 100%   10.15kB/s    0:00:00
+       8.42K 100%   10.15kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_683_Wave/Run_683_Wave_log/Run_683_Wave_MID_14_buffer.txt
+       8.63K 100%   10.27kB/s    0:00:00
+       8.63K 100%   10.27kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_683_Wave/Run_683_Wave_log/Run_683_Wave_MID_15_buffer.txt
+       6.60K 100%    7.76kB/s    0:00:00
+       6.60K 100%    7.76kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_683_Wave/Run_683_Wave_log/Run_683_Wave_MID_1_buffer.txt
+       6.66K 100%    7.75kB/s    0:00:00
+       6.66K 100%    7.75kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_683_Wave/Run_683_Wave_log/Run_683_Wave_MID_2_buffer.txt
+       8.24K 100%    9.46kB/s    0:00:00
+       8.24K 100%    9.46kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_683_Wave/Run_683_Wave_log/Run_683_Wave_MID_3_buffer.txt
+       6.73K 100%    7.64kB/s    0:00:00
+       6.73K 100%    7.64kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_683_Wave/Run_683_Wave_log/Run_683_Wave_MID_4_buffer.txt
+       6.60K 100%    7.42kB/s    0:00:00
+       6.60K 100%    7.42kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_683_Wave/Run_683_Wave_log/Run_683_Wave_MID_5_buffer.txt
+       8.41K 100%    9.36kB/s    0:00:00
+       8.41K 100%    9.36kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_683_Wave/Run_683_Wave_log/Run_683_Wave_MID_6_buffer.txt
+       6.69K 100%    7.27kB/s    0:00:00
+       6.69K 100%    7.27kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_683_Wave/Run_683_Wave_log/Run_683_Wave_MID_7_buffer.txt
+       6.72K 100%    7.14kB/s    0:00:00
+       6.72K 100%    7.14kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_683_Wave/Run_683_Wave_log/Run_683_Wave_MID_8_buffer.txt
+       8.59K 100%    9.03kB/s    0:00:00
+       8.59K 100%    9.03kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_683_Wave/Run_683_Wave_log/Run_683_Wave_MID_9_buffer.txt
+       6.67K 100%    6.95kB/s    0:00:00
+       6.67K 100%    6.95kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 30.87G bytes  received 1.55K bytes  104.46M bytes/sec
+total size is 30.86G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_683/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_683_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

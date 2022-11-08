@@ -1,0 +1,445 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_492/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_492[0m
+[94m[INFO][0m SSD data folder size = [96m[1m9.205 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [--------------------------------------------------][0m [92m[1m0.777 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 115.828 GB / Free : [4m14785.724 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_492/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_492/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_492.txt --progress /Volumes/HDD_16TB_1/HDD_Run_492/ /Volumes/HDD_16TB_2/HDD_Run_492/[0m`? [y/n] building file list ... 
+ 0 files...
+ 100 files...
+110 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_492
+cd+++++++ ./
+cd+++++++ Run_492_Fast/
+cd+++++++ Run_492_Fast/Run_492_Fast_MID_1/
+>f+++++++ Run_492_Fast/Run_492_Fast_MID_1/Run_492_Fast_MID_1_FILE_0.dat
+      32.77K   1%    0.00kB/s    0:00:00
+       2.56M 100%   42.21MB/s    0:00:00 (xfer#1, to-check=106/110)
+cd+++++++ Run_492_Fast/Run_492_Fast_MID_10/
+>f+++++++ Run_492_Fast/Run_492_Fast_MID_10/Run_492_Fast_MID_10_FILE_0.dat
+      32.77K   1%   51.53kB/s    0:00:48
+       2.56M 100%    3.39MB/s    0:00:00 (xfer#2, to-check=104/110)
+cd+++++++ Run_492_Fast/Run_492_Fast_MID_11/
+>f+++++++ Run_492_Fast/Run_492_Fast_MID_11/Run_492_Fast_MID_11_FILE_0.dat
+      32.77K   1%   44.44kB/s    0:00:56
+       2.56M 100%    3.27MB/s    0:00:00 (xfer#3, to-check=102/110)
+cd+++++++ Run_492_Fast/Run_492_Fast_MID_12/
+>f+++++++ Run_492_Fast/Run_492_Fast_MID_12/Run_492_Fast_MID_12_FILE_0.dat
+      32.77K   1%   42.72kB/s    0:00:59
+       2.56M 100%    3.14MB/s    0:00:00 (xfer#4, to-check=100/110)
+cd+++++++ Run_492_Fast/Run_492_Fast_MID_13/
+>f+++++++ Run_492_Fast/Run_492_Fast_MID_13/Run_492_Fast_MID_13_FILE_0.dat
+      32.77K   1%   41.13kB/s    0:01:01
+       2.56M 100%    3.03MB/s    0:00:00 (xfer#5, to-check=98/110)
+cd+++++++ Run_492_Fast/Run_492_Fast_MID_14/
+>f+++++++ Run_492_Fast/Run_492_Fast_MID_14/Run_492_Fast_MID_14_FILE_0.dat
+      32.77K   1%   39.65kB/s    0:01:03
+       2.56M 100%    2.92MB/s    0:00:00 (xfer#6, to-check=96/110)
+cd+++++++ Run_492_Fast/Run_492_Fast_MID_15/
+>f+++++++ Run_492_Fast/Run_492_Fast_MID_15/Run_492_Fast_MID_15_FILE_0.dat
+      32.77K   1%   38.23kB/s    0:01:05
+       2.56M 100%    2.82MB/s    0:00:00 (xfer#7, to-check=94/110)
+cd+++++++ Run_492_Fast/Run_492_Fast_MID_2/
+>f+++++++ Run_492_Fast/Run_492_Fast_MID_2/Run_492_Fast_MID_2_FILE_0.dat
+      32.77K   1%   36.95kB/s    0:01:08
+       2.56M 100%    2.73MB/s    0:00:00 (xfer#8, to-check=92/110)
+cd+++++++ Run_492_Fast/Run_492_Fast_MID_3/
+>f+++++++ Run_492_Fast/Run_492_Fast_MID_3/Run_492_Fast_MID_3_FILE_0.dat
+      32.77K   1%   35.71kB/s    0:01:10
+       2.56M 100%    2.64MB/s    0:00:00 (xfer#9, to-check=90/110)
+cd+++++++ Run_492_Fast/Run_492_Fast_MID_4/
+>f+++++++ Run_492_Fast/Run_492_Fast_MID_4/Run_492_Fast_MID_4_FILE_0.dat
+      32.77K   1%   34.56kB/s    0:01:13
+       2.56M 100%    2.55MB/s    0:00:00 (xfer#10, to-check=88/110)
+cd+++++++ Run_492_Fast/Run_492_Fast_MID_5/
+>f+++++++ Run_492_Fast/Run_492_Fast_MID_5/Run_492_Fast_MID_5_FILE_0.dat
+      32.77K   1%   33.44kB/s    0:01:15
+       2.56M 100%    2.47MB/s    0:00:00 (xfer#11, to-check=86/110)
+cd+++++++ Run_492_Fast/Run_492_Fast_MID_6/
+>f+++++++ Run_492_Fast/Run_492_Fast_MID_6/Run_492_Fast_MID_6_FILE_0.dat
+      32.77K   1%   32.39kB/s    0:01:17
+       1.25M  48%    1.19MB/s    0:00:01
+       2.56M 100%    2.40MB/s    0:00:01 (xfer#12, to-check=84/110)
+cd+++++++ Run_492_Fast/Run_492_Fast_MID_7/
+>f+++++++ Run_492_Fast/Run_492_Fast_MID_7/Run_492_Fast_MID_7_FILE_0.dat
+      32.77K   1%    1.74MB/s    0:00:01
+       2.56M 100%   52.99MB/s    0:00:00 (xfer#13, to-check=82/110)
+cd+++++++ Run_492_Fast/Run_492_Fast_MID_8/
+>f+++++++ Run_492_Fast/Run_492_Fast_MID_8/Run_492_Fast_MID_8_FILE_0.dat
+      32.77K   1%  666.67kB/s    0:00:03
+       2.56M 100%   31.66MB/s    0:00:00 (xfer#14, to-check=80/110)
+cd+++++++ Run_492_Fast/Run_492_Fast_MID_9/
+>f+++++++ Run_492_Fast/Run_492_Fast_MID_9/Run_492_Fast_MID_9_FILE_0.dat
+      32.77K   1%  400.00kB/s    0:00:06
+       2.56M 100%   22.57MB/s    0:00:00 (xfer#15, to-check=78/110)
+cd+++++++ Run_492_Fast/Run_492_Fast_log/
+>f+++++++ Run_492_Fast/Run_492_Fast_log/Run_492_Fast_MID_10_buffer.txt
+       2.51K 100%   22.46kB/s    0:00:00
+       2.51K 100%   22.46kB/s    0:00:00 (xfer#16, to-check=76/110)
+>f+++++++ Run_492_Fast/Run_492_Fast_log/Run_492_Fast_MID_11_buffer.txt
+       2.51K 100%   22.46kB/s    0:00:00
+       2.51K 100%   22.46kB/s    0:00:00 (xfer#17, to-check=75/110)
+>f+++++++ Run_492_Fast/Run_492_Fast_log/Run_492_Fast_MID_12_buffer.txt
+       2.51K 100%   22.26kB/s    0:00:00
+       2.51K 100%   22.26kB/s    0:00:00 (xfer#18, to-check=74/110)
+>f+++++++ Run_492_Fast/Run_492_Fast_log/Run_492_Fast_MID_13_buffer.txt
+       2.51K 100%   22.06kB/s    0:00:00
+       2.51K 100%   22.06kB/s    0:00:00 (xfer#19, to-check=73/110)
+>f+++++++ Run_492_Fast/Run_492_Fast_log/Run_492_Fast_MID_14_buffer.txt
+       2.51K 100%   21.86kB/s    0:00:00
+       2.51K 100%   21.86kB/s    0:00:00 (xfer#20, to-check=72/110)
+>f+++++++ Run_492_Fast/Run_492_Fast_log/Run_492_Fast_MID_15_buffer.txt
+       2.51K 100%   21.86kB/s    0:00:00
+       2.51K 100%   21.86kB/s    0:00:00 (xfer#21, to-check=71/110)
+>f+++++++ Run_492_Fast/Run_492_Fast_log/Run_492_Fast_MID_1_buffer.txt
+       2.51K 100%   21.48kB/s    0:00:00
+       2.51K 100%   21.48kB/s    0:00:00 (xfer#22, to-check=70/110)
+>f+++++++ Run_492_Fast/Run_492_Fast_log/Run_492_Fast_MID_2_buffer.txt
+       2.51K 100%   21.48kB/s    0:00:00
+       2.51K 100%   21.48kB/s    0:00:00 (xfer#23, to-check=69/110)
+>f+++++++ Run_492_Fast/Run_492_Fast_log/Run_492_Fast_MID_3_buffer.txt
+       2.51K 100%   21.29kB/s    0:00:00
+       2.51K 100%   21.29kB/s    0:00:00 (xfer#24, to-check=68/110)
+>f+++++++ Run_492_Fast/Run_492_Fast_log/Run_492_Fast_MID_4_buffer.txt
+       2.51K 100%   21.11kB/s    0:00:00
+       2.51K 100%   21.11kB/s    0:00:00 (xfer#25, to-check=67/110)
+>f+++++++ Run_492_Fast/Run_492_Fast_log/Run_492_Fast_MID_5_buffer.txt
+       2.51K 100%   20.93kB/s    0:00:00
+       2.51K 100%   20.93kB/s    0:00:00 (xfer#26, to-check=66/110)
+>f+++++++ Run_492_Fast/Run_492_Fast_log/Run_492_Fast_MID_6_buffer.txt
+       2.51K 100%   20.57kB/s    0:00:00
+       2.51K 100%   20.57kB/s    0:00:00 (xfer#27, to-check=65/110)
+>f+++++++ Run_492_Fast/Run_492_Fast_log/Run_492_Fast_MID_7_buffer.txt
+       2.51K 100%   20.57kB/s    0:00:00
+       2.51K 100%   20.57kB/s    0:00:00 (xfer#28, to-check=64/110)
+>f+++++++ Run_492_Fast/Run_492_Fast_log/Run_492_Fast_MID_8_buffer.txt
+       2.51K 100%   20.40kB/s    0:00:00
+       2.51K 100%   20.40kB/s    0:00:00 (xfer#29, to-check=63/110)
+>f+++++++ Run_492_Fast/Run_492_Fast_log/Run_492_Fast_MID_9_buffer.txt
+       2.51K 100%   20.23kB/s    0:00:00
+       2.51K 100%   20.23kB/s    0:00:00 (xfer#30, to-check=62/110)
+cd+++++++ Run_492_Wave/
+cd+++++++ Run_492_Wave/Run_492_Wave_MID_1/
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_1/Run_492_Wave_MID_1_FILE_0.dat
+      32.77K   0%  258.06kB/s    0:42:19
+      51.41M   7%   48.50MB/s    0:00:12
+     110.66M  16%   51.45MB/s    0:00:10
+     173.57M  26%   54.25MB/s    0:00:08
+     245.14M  37%   57.67MB/s    0:00:06
+     305.43M  46%   59.93MB/s    0:00:05
+     370.70M  56%   61.37MB/s    0:00:04
+     428.64M  65%   60.20MB/s    0:00:03
+     502.30M  76%   60.74MB/s    0:00:02
+     564.95M  86%   61.31MB/s    0:00:01
+     621.61M  94%   59.82MB/s    0:00:00
+     655.43M 100%   58.83MB/s    0:00:10 (xfer#31, to-check=59/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_1/Run_492_Wave_MID_1_FILE_1.dat
+      32.77K   4%   59.70kB/s    0:00:12
+     786.43K 100%    1.37MB/s    0:00:00 (xfer#32, to-check=58/110)
+cd+++++++ Run_492_Wave/Run_492_Wave_MID_10/
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_10/Run_492_Wave_MID_10_FILE_0.dat
+      32.77K   0%   58.18kB/s    3:07:44
+      25.10M   3%   23.94MB/s    0:00:25
+      83.92M  12%   40.02MB/s    0:00:13
+     147.36M  22%   46.78MB/s    0:00:10
+     207.52M  31%   49.44MB/s    0:00:08
+     264.80M  40%   57.08MB/s    0:00:06
+     322.99M  49%   56.94MB/s    0:00:05
+     386.43M  58%   56.05MB/s    0:00:04
+     450.66M  68%   57.00MB/s    0:00:03
+     505.94M  77%   56.56MB/s    0:00:02
+     566.53M  86%   57.11MB/s    0:00:01
+     624.46M  95%   56.68MB/s    0:00:00
+     655.43M 100%   54.18MB/s    0:00:11 (xfer#33, to-check=56/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_10/Run_492_Wave_MID_10_FILE_1.dat
+      32.77K   4%   69.41kB/s    0:00:10
+     786.43K 100%    1.59MB/s    0:00:00 (xfer#34, to-check=55/110)
+cd+++++++ Run_492_Wave/Run_492_Wave_MID_11/
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_11/Run_492_Wave_MID_11_FILE_0.dat
+      32.77K   0%   67.65kB/s    2:41:27
+      32.54M   4%   31.03MB/s    0:00:19
+      87.33M  13%   41.62MB/s    0:00:13
+     154.40M  23%   49.07MB/s    0:00:09
+     212.89M  32%   50.76MB/s    0:00:08
+     270.83M  41%   56.36MB/s    0:00:06
+     335.05M  51%   58.61MB/s    0:00:05
+     391.68M  59%   56.14MB/s    0:00:04
+     452.49M  69%   55.73MB/s    0:00:03
+     515.93M  78%   57.46MB/s    0:00:02
+     572.62M  87%   55.72MB/s    0:00:01
+     634.16M  96%   56.03MB/s    0:00:00
+     655.43M 100%   54.44MB/s    0:00:11 (xfer#35, to-check=53/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_11/Run_492_Wave_MID_11_FILE_1.dat
+      32.77K   4%   98.46kB/s    0:00:07
+     786.43K 100%    2.25MB/s    0:00:00 (xfer#36, to-check=52/110)
+cd+++++++ Run_492_Wave/Run_492_Wave_MID_12/
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_12/Run_492_Wave_MID_12_FILE_0.dat
+      32.77K   0%   95.24kB/s    1:54:41
+      42.76M   6%   40.74MB/s    0:00:14
+     101.74M  15%   48.32MB/s    0:00:11
+     161.48M  24%   51.21MB/s    0:00:09
+     218.66M  33%   52.05MB/s    0:00:08
+     282.89M  43%   57.16MB/s    0:00:06
+     340.79M  51%   57.01MB/s    0:00:05
+     399.80M  60%   56.30MB/s    0:00:04
+     463.50M  70%   57.81MB/s    0:00:03
+     518.03M  79%   55.52MB/s    0:00:02
+     580.94M  88%   56.70MB/s    0:00:01
+     638.09M  97%   56.47MB/s    0:00:00
+     655.43M 100%   55.22MB/s    0:00:11 (xfer#37, to-check=50/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_12/Run_492_Wave_MID_12_FILE_1.dat
+      32.77K   4%  126.48kB/s    0:00:05
+     786.43K 100%    2.84MB/s    0:00:00 (xfer#38, to-check=49/110)
+cd+++++++ Run_492_Wave/Run_492_Wave_MID_13/
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_13/Run_492_Wave_MID_13_FILE_0.dat
+      32.77K   0%  120.30kB/s    1:30:47
+      41.71M   6%   39.78MB/s    0:00:15
+     102.69M  15%   48.97MB/s    0:00:11
+     164.66M  25%   52.34MB/s    0:00:09
+     222.00M  33%   52.93MB/s    0:00:07
+     281.05M  42%   56.88MB/s    0:00:06
+     345.28M  52%   57.65MB/s    0:00:05
+     401.11M  61%   56.21MB/s    0:00:04
+     462.72M  70%   56.47MB/s    0:00:03
+     523.01M  79%   56.93MB/s    0:00:02
+     579.11M  88%   55.03MB/s    0:00:01
+     644.64M  98%   56.81MB/s    0:00:00
+     655.43M 100%   55.66MB/s    0:00:11 (xfer#39, to-check=47/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_13/Run_492_Wave_MID_13_FILE_1.dat
+      32.77K   4%  242.42kB/s    0:00:03
+     786.43K 100%    5.28MB/s    0:00:00 (xfer#40, to-check=46/110)
+cd+++++++ Run_492_Wave/Run_492_Wave_MID_14/
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_14/Run_492_Wave_MID_14_FILE_0.dat
+      32.77K   0%  220.69kB/s    0:49:29
+      53.77M   8%   47.93MB/s    0:00:12
+     115.97M  17%   53.45MB/s    0:00:09
+     178.55M  27%   54.96MB/s    0:00:08
+     242.61M  37%   56.47MB/s    0:00:07
+     299.34M  45%   58.18MB/s    0:00:05
+     358.65M  54%   57.49MB/s    0:00:05
+     415.27M  63%   56.47MB/s    0:00:04
+     477.13M  72%   55.64MB/s    0:00:03
+     535.59M  81%   56.03MB/s    0:00:02
+     598.25M  91%   56.03MB/s    0:00:00
+     655.43M 100%   56.08MB/s    0:00:11 (xfer#41, to-check=44/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_14/Run_492_Wave_MID_14_FILE_1.dat
+      32.77K   4%   32.79kB/s    0:00:22
+     786.43K 100%  780.49kB/s    0:00:00 (xfer#42, to-check=43/110)
+cd+++++++ Run_492_Wave/Run_492_Wave_MID_15/
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_15/Run_492_Wave_MID_15_FILE_0.dat
+      32.77K   0%   32.42kB/s    5:36:54
+       1.11M   0%    1.06MB/s    0:10:01
+      64.00M   9%   29.87MB/s    0:00:19
+     126.39M  19%   39.62MB/s    0:00:13
+     185.89M  28%   43.84MB/s    0:00:10
+     249.07M  38%   58.16MB/s    0:00:06
+     308.31M  47%   57.92MB/s    0:00:05
+     366.51M  55%   56.89MB/s    0:00:04
+     425.49M  64%   56.78MB/s    0:00:03
+     490.24M  74%   57.24MB/s    0:00:02
+     547.98M  83%   56.91MB/s    0:00:01
+     608.21M  92%   57.40MB/s    0:00:00
+     655.43M 100%   52.61MB/s    0:00:11 (xfer#43, to-check=41/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_15/Run_492_Wave_MID_15_FILE_1.dat
+      32.77K   4%   40.10kB/s    0:00:18
+     786.43K 100%  954.04kB/s    0:00:00 (xfer#44, to-check=40/110)
+cd+++++++ Run_492_Wave/Run_492_Wave_MID_2/
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_2/Run_492_Wave_MID_2_FILE_0.dat
+      32.77K   0%   39.65kB/s    4:35:28
+       9.73M   1%    8.86MB/s    0:01:11
+      72.65M  11%   33.70MB/s    0:00:16
+     132.42M  20%   41.32MB/s    0:00:12
+     196.90M  30%   46.30MB/s    0:00:09
+     255.89M  39%   58.29MB/s    0:00:06
+     319.32M  48%   58.53MB/s    0:00:05
+     377.26M  57%   58.13MB/s    0:00:04
+     437.03M  66%   56.98MB/s    0:00:03
+     502.04M  76%   58.05MB/s    0:00:02
+     566.23M  86%   58.24MB/s    0:00:01
+     624.00M  95%   58.20MB/s    0:00:00
+     655.43M 100%   53.59MB/s    0:00:11 (xfer#45, to-check=38/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_2/Run_492_Wave_MID_2_FILE_1.dat
+      32.77K   4%   58.29kB/s    0:00:12
+     786.43K 100%    1.35MB/s    0:00:00 (xfer#46, to-check=37/110)
+cd+++++++ Run_492_Wave/Run_492_Wave_MID_3/
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_3/Run_492_Wave_MID_3_FILE_0.dat
+      32.77K   0%   57.35kB/s    3:10:28
+      27.03M   4%   25.78MB/s    0:00:23
+      84.44M  12%   39.38MB/s    0:00:14
+     149.98M  22%   46.15MB/s    0:00:10
+     214.20M  32%   49.84MB/s    0:00:08
+     278.43M  42%   57.44MB/s    0:00:06
+     340.56M  51%   59.18MB/s    0:00:05
+     398.49M  60%   58.19MB/s    0:00:04
+     460.46M  70%   57.67MB/s    0:00:03
+     517.96M  79%   57.14MB/s    0:00:02
+     581.73M  88%   56.52MB/s    0:00:01
+     645.17M  98%   57.80MB/s    0:00:00
+     655.43M 100%   54.55MB/s    0:00:11 (xfer#47, to-check=35/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_3/Run_492_Wave_MID_3_FILE_1.dat
+      32.77K   4%  147.47kB/s    0:00:05
+     786.43K 100%    3.29MB/s    0:00:00 (xfer#48, to-check=34/110)
+cd+++++++ Run_492_Wave/Run_492_Wave_MID_4/
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_4/Run_492_Wave_MID_4_FILE_0.dat
+      32.77K   0%  139.13kB/s    1:18:30
+      47.48M   7%   45.28MB/s    0:00:13
+     109.61M  16%   52.21MB/s    0:00:10
+     165.97M  25%   52.71MB/s    0:00:09
+     226.79M  34%   54.02MB/s    0:00:07
+     289.18M  44%   56.50MB/s    0:00:06
+     353.14M  53%   56.95MB/s    0:00:05
+     410.55M  62%   57.20MB/s    0:00:04
+     467.57M  71%   56.34MB/s    0:00:03
+     523.80M  79%   55.90MB/s    0:00:02
+     589.07M  89%   56.18MB/s    0:00:01
+     647.00M  98%   56.33MB/s    0:00:00
+     655.43M 100%   55.88MB/s    0:00:11 (xfer#49, to-check=32/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_4/Run_492_Wave_MID_4_FILE_1.dat
+      32.77K   4%  307.69kB/s    0:00:02
+     786.43K 100%    6.76MB/s    0:00:00 (xfer#50, to-check=31/110)
+cd+++++++ Run_492_Wave/Run_492_Wave_MID_5/
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_5/Run_492_Wave_MID_5_FILE_0.dat
+      32.77K   0%  283.19kB/s    0:38:34
+      52.99M   8%   49.40MB/s    0:00:11
+     109.87M  16%   51.79MB/s    0:00:10
+     175.14M  26%   54.91MB/s    0:00:08
+     237.27M  36%   55.98MB/s    0:00:07
+     294.42M  44%   57.30MB/s    0:00:06
+     356.81M  54%   57.98MB/s    0:00:05
+     414.81M  63%   56.55MB/s    0:00:04
+     479.49M  73%   57.12MB/s    0:00:03
+     537.43M  81%   57.07MB/s    0:00:02
+     599.69M  91%   57.69MB/s    0:00:00
+     655.43M 100%   56.35MB/s    0:00:11 (xfer#51, to-check=29/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_5/Run_492_Wave_MID_5_FILE_1.dat
+      32.77K   4%   32.16kB/s    0:00:23
+     294.91K  37%  287.71kB/s    0:00:01
+     786.43K 100%  764.18kB/s    0:00:01 (xfer#52, to-check=28/110)
+cd+++++++ Run_492_Wave/Run_492_Wave_MID_6/
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_6/Run_492_Wave_MID_6_FILE_0.dat
+      32.77K   0%    4.46MB/s    0:02:23
+      54.03M   8%   50.92MB/s    0:00:11
+     108.04M  16%   50.96MB/s    0:00:10
+     171.21M  26%   54.01MB/s    0:00:08
+     227.57M  34%   50.00MB/s    0:00:08
+     282.10M  43%   50.23MB/s    0:00:07
+     361.01M  55%   55.84MB/s    0:00:05
+     419.46M  63%   54.80MB/s    0:00:04
+     446.86M  68%   52.27MB/s    0:00:03
+     502.82M  76%   52.61MB/s    0:00:02
+     585.40M  89%   53.50MB/s    0:00:01
+     652.51M  99%   55.56MB/s    0:00:00
+     655.43M 100%   54.94MB/s    0:00:11 (xfer#53, to-check=26/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_6/Run_492_Wave_MID_6_FILE_1.dat
+      32.77K   4%  864.86kB/s    0:00:00
+     786.43K 100%   16.30MB/s    0:00:00 (xfer#54, to-check=25/110)
+cd+++++++ Run_492_Wave/Run_492_Wave_MID_7/
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_7/Run_492_Wave_MID_7_FILE_0.dat
+      32.77K   0%  653.06kB/s    0:16:43
+      55.15M   8%   52.59MB/s    0:00:11
+     113.54M  17%   54.14MB/s    0:00:09
+     174.36M  26%   55.43MB/s    0:00:08
+     238.06M  36%   56.74MB/s    0:00:07
+     294.16M  44%   56.94MB/s    0:00:06
+     356.55M  54%   57.03MB/s    0:00:05
+     419.99M  64%   57.65MB/s    0:00:03
+     475.56M  72%   55.77MB/s    0:00:03
+     537.53M  82%   57.18MB/s    0:00:02
+     600.34M  91%   58.12MB/s    0:00:00
+     654.08M  99%   55.76MB/s    0:00:00
+     655.43M 100%   56.40MB/s    0:00:11 (xfer#55, to-check=23/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_7/Run_492_Wave_MID_7_FILE_1.dat
+      32.77K   4%    1.74MB/s    0:00:00
+     786.43K 100%   31.25MB/s    0:00:00 (xfer#56, to-check=22/110)
+cd+++++++ Run_492_Wave/Run_492_Wave_MID_8/
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_8/Run_492_Wave_MID_8_FILE_0.dat
+      32.77K   0%    1.16MB/s    0:09:12
+      48.79M   7%   46.53MB/s    0:00:12
+     121.67M  18%   58.02MB/s    0:00:08
+     181.44M  27%   57.70MB/s    0:00:08
+     241.47M  36%   57.58MB/s    0:00:07
+     289.96M  44%   57.50MB/s    0:00:06
+     343.97M  52%   53.00MB/s    0:00:05
+     395.35M  60%   51.00MB/s    0:00:04
+     443.58M  67%   48.19MB/s    0:00:04
+     490.50M  74%   47.79MB/s    0:00:03
+     543.20M  82%   47.46MB/s    0:00:02
+     591.40M  90%   46.72MB/s    0:00:01
+     644.38M  98%   47.83MB/s    0:00:00
+     655.43M 100%   51.23MB/s    0:00:12 (xfer#57, to-check=20/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_8/Run_492_Wave_MID_8_FILE_1.dat
+      32.77K   4%  160.00kB/s    0:00:04
+     786.43K 100%    3.55MB/s    0:00:00 (xfer#58, to-check=19/110)
+cd+++++++ Run_492_Wave/Run_492_Wave_MID_9/
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_9/Run_492_Wave_MID_9_FILE_0.dat
+      32.77K   0%  150.23kB/s    1:12:42
+      38.57M   5%   36.78MB/s    0:00:16
+      92.31M  14%   43.99MB/s    0:00:12
+     136.61M  20%   43.30MB/s    0:00:11
+     185.89M  28%   44.21MB/s    0:00:10
+     230.72M  35%   45.70MB/s    0:00:09
+     281.58M  42%   45.02MB/s    0:00:08
+     333.74M  50%   47.00MB/s    0:00:06
+     384.60M  58%   47.39MB/s    0:00:05
+     434.93M  66%   48.70MB/s    0:00:04
+     482.64M  73%   47.96MB/s    0:00:03
+     533.07M  81%   47.55MB/s    0:00:02
+     583.57M  89%   47.45MB/s    0:00:01
+     655.43M 100%   48.25MB/s    0:00:12 (xfer#59, to-check=17/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_MID_9/Run_492_Wave_MID_9_FILE_1.dat
+      32.77K   4%   33.68kB/s    0:00:22
+     786.43K 100%  795.85kB/s    0:00:00 (xfer#60, to-check=16/110)
+cd+++++++ Run_492_Wave/Run_492_Wave_log/
+>f+++++++ Run_492_Wave/Run_492_Wave_log/Run_492_Wave_MID_10_buffer.txt
+      32.77K  20%   32.72kB/s    0:00:03
+     158.35K 100%  157.96kB/s    0:00:00 (xfer#61, to-check=14/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_log/Run_492_Wave_MID_11_buffer.txt
+      32.77K  20%   32.55kB/s    0:00:03
+     158.41K 100%  157.38kB/s    0:00:00 (xfer#62, to-check=13/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_log/Run_492_Wave_MID_12_buffer.txt
+      32.77K  20%   32.29kB/s    0:00:03
+     158.19K 100%  155.89kB/s    0:00:00 (xfer#63, to-check=12/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_log/Run_492_Wave_MID_13_buffer.txt
+      32.77K  20%   30.62kB/s    0:00:04
+      65.54K  41%   61.24kB/s    0:00:01
+     158.43K 100%  148.05kB/s    0:00:01 (xfer#64, to-check=11/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_log/Run_492_Wave_MID_14_buffer.txt
+      32.77K  20%  507.94kB/s    0:00:00
+     158.52K 100%    2.36MB/s    0:00:00 (xfer#65, to-check=10/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_log/Run_492_Wave_MID_15_buffer.txt
+      32.77K  20%  470.59kB/s    0:00:00
+     158.16K 100%    2.22MB/s    0:00:00 (xfer#66, to-check=9/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_log/Run_492_Wave_MID_1_buffer.txt
+      32.77K  20%  450.70kB/s    0:00:00
+     158.10K 100%    2.12MB/s    0:00:00 (xfer#67, to-check=8/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_log/Run_492_Wave_MID_2_buffer.txt
+      32.77K  20%  290.91kB/s    0:00:00
+     158.46K 100%    1.37MB/s    0:00:00 (xfer#68, to-check=7/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_log/Run_492_Wave_MID_3_buffer.txt
+      32.77K  20%  280.70kB/s    0:00:00
+     158.30K 100%    1.31MB/s    0:00:00 (xfer#69, to-check=6/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_log/Run_492_Wave_MID_4_buffer.txt
+      32.77K  20%  266.67kB/s    0:00:00
+     158.10K 100%    1.26MB/s    0:00:00 (xfer#70, to-check=5/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_log/Run_492_Wave_MID_5_buffer.txt
+      32.77K  20%  260.16kB/s    0:00:00
+     158.47K 100%    1.23MB/s    0:00:00 (xfer#71, to-check=4/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_log/Run_492_Wave_MID_6_buffer.txt
+      32.77K  20%  251.97kB/s    0:00:00
+     158.08K 100%    1.18MB/s    0:00:00 (xfer#72, to-check=3/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_log/Run_492_Wave_MID_7_buffer.txt
+      32.77K  20%  242.42kB/s    0:00:00
+     157.99K 100%    1.14MB/s    0:00:00 (xfer#73, to-check=2/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_log/Run_492_Wave_MID_8_buffer.txt
+      32.77K  20%  233.58kB/s    0:00:00
+     158.38K 100%    1.10MB/s    0:00:00 (xfer#74, to-check=1/110)
+>f+++++++ Run_492_Wave/Run_492_Wave_log/Run_492_Wave_MID_9_buffer.txt
+      32.77K  20%  226.95kB/s    0:00:00
+     158.03K 100%    1.06MB/s    0:00:00 (xfer#75, to-check=0/110)
+
+sent 9.89G bytes  received 1.88K bytes  58.32M bytes/sec
+total size is 9.88G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_492/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_492_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

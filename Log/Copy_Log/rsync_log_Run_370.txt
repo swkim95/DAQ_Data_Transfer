@@ -1,0 +1,24 @@
+2022/08/20 03:48:59 [96125] receiving file list
+2022/08/20 03:48:59 [96125] created directory /Volumes/HDD_16TB_1/HDD_Run_370
+2022/08/20 03:49:00 [96125] cd+++++++ ./
+2022/08/20 03:49:00 [96125] cd+++++++ Run_370_Fast/
+2022/08/20 03:49:00 [96125] cd+++++++ Run_370_Fast/Run_370_Fast_MID_1/
+2022/08/20 03:49:00 [96125] >f+++++++ Run_370_Fast/Run_370_Fast_MID_1/Run_370_Fast_MID_1_FILE_0.dat
+2022/08/20 03:49:00 [96125] >f+++++++ Run_370_Fast/Run_370_Fast_MID_1/Run_370_Fast_MID_1_FILE_1.dat
+2022/08/20 03:49:00 [96125] cd+++++++ Run_370_Fast/Run_370_Fast_MID_2/
+2022/08/20 03:49:00 [96125] >f+++++++ Run_370_Fast/Run_370_Fast_MID_2/Run_370_Fast_MID_2_FILE_0.dat
+2022/08/20 03:49:00 [96125] >f+++++++ Run_370_Fast/Run_370_Fast_MID_2/Run_370_Fast_MID_2_FILE_1.dat
+2022/08/20 03:49:00 [96125] cd+++++++ Run_370_Fast/Run_370_Fast_log/
+2022/08/20 03:49:00 [96125] >f+++++++ Run_370_Fast/Run_370_Fast_log/Run_370_Fast_MID_1_buffer.txt
+2022/08/20 03:49:00 [96125] >f+++++++ Run_370_Fast/Run_370_Fast_log/Run_370_Fast_MID_2_buffer.txt
+2022/08/20 03:49:00 [96125] cd+++++++ Run_370_Wave/
+2022/08/20 03:49:00 [96125] cd+++++++ Run_370_Wave/Run_370_Wave_MID_1/
+2022/08/20 03:49:00 [96125] >f+++++++ Run_370_Wave/Run_370_Wave_MID_1/Run_370_Wave_MID_1_FILE_0.dat
+2022/08/20 03:49:00 [96125] >f+++++++ Run_370_Wave/Run_370_Wave_MID_1/Run_370_Wave_MID_1_FILE_1.dat
+2022/08/20 03:49:00 [96125] cd+++++++ Run_370_Wave/Run_370_Wave_MID_2/
+2022/08/20 03:49:01 [96125] >f+++++++ Run_370_Wave/Run_370_Wave_MID_2/Run_370_Wave_MID_2_FILE_0.dat
+2022/08/20 03:49:01 [96125] >f+++++++ Run_370_Wave/Run_370_Wave_MID_2/Run_370_Wave_MID_2_FILE_1.dat
+2022/08/20 03:49:01 [96125] cd+++++++ Run_370_Wave/Run_370_Wave_log/
+2022/08/20 03:49:01 [96125] >f+++++++ Run_370_Wave/Run_370_Wave_log/Run_370_Wave_MID_1_buffer.txt
+2022/08/20 03:49:01 [96125] >f+++++++ Run_370_Wave/Run_370_Wave_log/Run_370_Wave_MID_2_buffer.txt
+2022/08/20 03:49:01 [96125] sent 396 bytes  received 549 bytes  total size 136414158

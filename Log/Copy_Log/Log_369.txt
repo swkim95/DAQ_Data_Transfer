@@ -1,0 +1,61 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_369/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_369[0m
+[94m[INFO][0m SSD data folder size = [96m[1m0.127 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [##------------------------------------------------][0m [92m[1m3.315 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 493.976 GB / Free : [4m14407.576 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_369/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_369/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_369.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_369/ /Volumes/HDD_16TB_1/HDD_Run_369/[0m`? [y/n] building file list ... 
+ 0 files...
+21 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_369
+cd+++++++ ./
+cd+++++++ Run_369_Fast/
+cd+++++++ Run_369_Fast/Run_369_Fast_MID_1/
+>f+++++++ Run_369_Fast/Run_369_Fast_MID_1/Run_369_Fast_MID_1_FILE_0.dat
+      32.77K   1%    0.00kB/s    0:00:00
+       2.06M 100%  121.09MB/s    0:00:00 (xfer#1, to-check=17/21)
+>f+++++++ Run_369_Fast/Run_369_Fast_MID_1/Run_369_Fast_MID_1_FILE_1.dat
+           0 100%    0.00kB/s    0:00:00 (xfer#2, to-check=16/21)
+cd+++++++ Run_369_Fast/Run_369_Fast_MID_2/
+>f+++++++ Run_369_Fast/Run_369_Fast_MID_2/Run_369_Fast_MID_2_FILE_0.dat
+      32.77K   1%    1.84MB/s    0:00:01
+       2.06M 100%   57.90MB/s    0:00:00 (xfer#3, to-check=14/21)
+>f+++++++ Run_369_Fast/Run_369_Fast_MID_2/Run_369_Fast_MID_2_FILE_1.dat
+           0 100%    0.00kB/s    0:00:00 (xfer#4, to-check=13/21)
+cd+++++++ Run_369_Fast/Run_369_Fast_log/
+>f+++++++ Run_369_Fast/Run_369_Fast_log/Run_369_Fast_MID_1_buffer.txt
+       1.87K 100%   53.83kB/s    0:00:00
+       1.87K 100%   53.83kB/s    0:00:00 (xfer#5, to-check=11/21)
+>f+++++++ Run_369_Fast/Run_369_Fast_log/Run_369_Fast_MID_2_buffer.txt
+       1.87K 100%   53.83kB/s    0:00:00
+       1.87K 100%   53.83kB/s    0:00:00 (xfer#6, to-check=10/21)
+cd+++++++ Run_369_Wave/
+cd+++++++ Run_369_Wave/Run_369_Wave_MID_1/
+>f+++++++ Run_369_Wave/Run_369_Wave_MID_1/Run_369_Wave_MID_1_FILE_0.dat
+      32.77K   0%  167.54kB/s    0:06:31
+      65.60M 100%   83.19MB/s    0:00:00 (xfer#7, to-check=7/21)
+>f+++++++ Run_369_Wave/Run_369_Wave_MID_1/Run_369_Wave_MID_1_FILE_1.dat
+      32.77K   6%   42.50kB/s    0:00:11
+     524.29K 100%  676.35kB/s    0:00:00 (xfer#8, to-check=6/21)
+cd+++++++ Run_369_Wave/Run_369_Wave_MID_2/
+>f+++++++ Run_369_Wave/Run_369_Wave_MID_2/Run_369_Wave_MID_2_FILE_0.dat
+      32.77K   0%   42.22kB/s    0:25:53
+      18.38M  28%   17.50MB/s    0:00:02
+      65.60M 100%   42.97MB/s    0:00:01 (xfer#9, to-check=4/21)
+>f+++++++ Run_369_Wave/Run_369_Wave_MID_2/Run_369_Wave_MID_2_FILE_1.dat
+      32.77K   6%   70.48kB/s    0:00:06
+     524.29K 100%    1.08MB/s    0:00:00 (xfer#10, to-check=3/21)
+cd+++++++ Run_369_Wave/Run_369_Wave_log/
+>f+++++++ Run_369_Wave/Run_369_Wave_log/Run_369_Wave_MID_1_buffer.txt
+      15.00K 100%   31.43kB/s    0:00:00
+      15.00K 100%   31.43kB/s    0:00:00 (xfer#11, to-check=1/21)
+>f+++++++ Run_369_Wave/Run_369_Wave_log/Run_369_Wave_MID_2_buffer.txt
+      15.00K 100%   31.29kB/s    0:00:00
+      15.00K 100%   31.29kB/s    0:00:00 (xfer#12, to-check=0/21)
+
+sent 136.43M bytes  received 338 bytes  90.95M bytes/sec
+total size is 136.41M  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_369/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_369_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

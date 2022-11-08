@@ -276,14 +276,16 @@ def get_data_dir(SSD_DIR, HDD_DIR) :
     for SSD_ROOT_DIR, _, SSD_files in os.walk(SSD_DIR) :
         for SSD_file_name in SSD_files :
             SSD_FILE_LIST.append(os.path.join(SSD_ROOT_DIR,SSD_file_name))
-    SSD_DATA_LIST = [x for x in SSD_FILE_LIST if not "log" in x]
+    SSD_DATA_LIST = [x for x in SSD_FILE_LIST if not "log" in x and not "png" in x and not "root" in x]
+    #SSD_DATA_LIST = [x for x in SSD_FILE_LIST if "dat" in x]
     SSD_DATA_LIST.sort()
 
     HDD_FILE_LIST = []
     for HDD_ROOT_DIR, _, HDD_files in os.walk(HDD_DIR) :
         for HDD_file_name in HDD_files :
             HDD_FILE_LIST.append(os.path.join(HDD_ROOT_DIR,HDD_file_name))
-    HDD_DATA_LIST = [x for x in HDD_FILE_LIST if not "log" in x]
+    HDD_DATA_LIST = [x for x in HDD_FILE_LIST if not "log" in x and not "png" in x and not "root" in x]
+    #HDD_DATA_LIST = [x for x in HDD_FILE_LIST if "dat" in x]
     HDD_DATA_LIST.sort()
 
     return SSD_DATA_LIST, HDD_DATA_LIST

@@ -1,0 +1,14 @@
+2022/09/05 07:58:44 [2036] receiving file list
+2022/09/05 07:58:44 [2036] created directory /Volumes/HDD_16TB_1/HDD_Run_359
+2022/09/05 07:58:44 [2036] cd+++++++ ./
+2022/09/05 07:58:44 [2036] cd+++++++ Run_359_Fast/
+2022/09/05 07:58:44 [2036] cd+++++++ Run_359_Fast/Run_359_Fast_MID_1/
+2022/09/05 07:58:44 [2036] >f+++++++ Run_359_Fast/Run_359_Fast_MID_1/Run_359_Fast_MID_1_FILE_0.dat
+2022/09/05 07:58:44 [2036] cd+++++++ Run_359_Fast/Run_359_Fast_log/
+2022/09/05 07:58:44 [2036] >f+++++++ Run_359_Fast/Run_359_Fast_log/Run_359_Fast_MID_1_buffer.txt
+2022/09/05 07:58:44 [2036] cd+++++++ Run_359_Wave/
+2022/09/05 07:58:44 [2036] cd+++++++ Run_359_Wave/Run_359_Wave_MID_1/
+2022/09/05 07:58:44 [2036] >f+++++++ Run_359_Wave/Run_359_Wave_MID_1/Run_359_Wave_MID_1_FILE_0.dat
+2022/09/05 07:58:44 [2036] cd+++++++ Run_359_Wave/Run_359_Wave_log/
+2022/09/05 07:58:44 [2036] >f+++++++ Run_359_Wave/Run_359_Wave_log/Run_359_Wave_MID_1_buffer.txt
+2022/09/05 07:58:44 [2036] sent 208 bytes  received 343 bytes  total size 7636708

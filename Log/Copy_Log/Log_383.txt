@@ -1,0 +1,306 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_383/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_383[0m
+[94m[INFO][0m SSD data folder size = [96m[1m0.93 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [##------------------------------------------------][0m [92m[1m3.345 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 498.486 GB / Free : [4m14403.066 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_383/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_383/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_383.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_383/ /Volumes/HDD_16TB_1/HDD_Run_383/[0m`? [y/n] building file list ... 
+ 0 files...
+ 100 files...
+116 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_383
+cd+++++++ ./
+cd+++++++ Run_383_Fast/
+cd+++++++ Run_383_Fast/Run_383_Fast_MID_1/
+>f+++++++ Run_383_Fast/Run_383_Fast_MID_1/Run_383_Fast_MID_1_FILE_0.dat
+      32.77K  13%    0.00kB/s    0:00:00
+     245.76K 100%  203.12MB/s    0:00:00 (xfer#1, to-check=112/116)
+cd+++++++ Run_383_Fast/Run_383_Fast_MID_10/
+>f+++++++ Run_383_Fast/Run_383_Fast_MID_10/Run_383_Fast_MID_10_FILE_0.dat
+      32.77K  13%    5.21MB/s    0:00:00
+     245.76K 100%   33.48MB/s    0:00:00 (xfer#2, to-check=110/116)
+cd+++++++ Run_383_Fast/Run_383_Fast_MID_11/
+>f+++++++ Run_383_Fast/Run_383_Fast_MID_11/Run_383_Fast_MID_11_FILE_0.dat
+      32.77K  13%    2.60MB/s    0:00:00
+     245.76K 100%   18.03MB/s    0:00:00 (xfer#3, to-check=108/116)
+cd+++++++ Run_383_Fast/Run_383_Fast_MID_12/
+>f+++++++ Run_383_Fast/Run_383_Fast_MID_12/Run_383_Fast_MID_12_FILE_0.dat
+      32.77K  13%    1.74MB/s    0:00:00
+     245.76K 100%   12.34MB/s    0:00:00 (xfer#4, to-check=106/116)
+cd+++++++ Run_383_Fast/Run_383_Fast_MID_13/
+>f+++++++ Run_383_Fast/Run_383_Fast_MID_13/Run_383_Fast_MID_13_FILE_0.dat
+      32.77K  13%    1.42MB/s    0:00:00
+     245.76K 100%   10.19MB/s    0:00:00 (xfer#5, to-check=104/116)
+cd+++++++ Run_383_Fast/Run_383_Fast_MID_14/
+>f+++++++ Run_383_Fast/Run_383_Fast_MID_14/Run_383_Fast_MID_14_FILE_0.dat
+      32.77K  13%    1.20MB/s    0:00:00
+     245.76K 100%    8.68MB/s    0:00:00 (xfer#6, to-check=102/116)
+cd+++++++ Run_383_Fast/Run_383_Fast_MID_15/
+>f+++++++ Run_383_Fast/Run_383_Fast_MID_15/Run_383_Fast_MID_15_FILE_0.dat
+      32.77K  13%  253.97kB/s    0:00:00
+     245.76K 100%    1.85MB/s    0:00:00 (xfer#7, to-check=100/116)
+cd+++++++ Run_383_Fast/Run_383_Fast_MID_2/
+>f+++++++ Run_383_Fast/Run_383_Fast_MID_2/Run_383_Fast_MID_2_FILE_0.dat
+      32.77K  13%  238.81kB/s    0:00:00
+     245.76K 100%    1.74MB/s    0:00:00 (xfer#8, to-check=98/116)
+cd+++++++ Run_383_Fast/Run_383_Fast_MID_3/
+>f+++++++ Run_383_Fast/Run_383_Fast_MID_3/Run_383_Fast_MID_3_FILE_0.dat
+      32.77K  13%  226.95kB/s    0:00:00
+     245.76K 100%    1.65MB/s    0:00:00 (xfer#9, to-check=96/116)
+cd+++++++ Run_383_Fast/Run_383_Fast_MID_4/
+>f+++++++ Run_383_Fast/Run_383_Fast_MID_4/Run_383_Fast_MID_4_FILE_0.dat
+      32.77K  13%  217.69kB/s    0:00:00
+     245.76K 100%    1.58MB/s    0:00:00 (xfer#10, to-check=94/116)
+cd+++++++ Run_383_Fast/Run_383_Fast_MID_5/
+>f+++++++ Run_383_Fast/Run_383_Fast_MID_5/Run_383_Fast_MID_5_FILE_0.dat
+      32.77K  13%  209.15kB/s    0:00:01
+     245.76K 100%    1.52MB/s    0:00:00 (xfer#11, to-check=92/116)
+cd+++++++ Run_383_Fast/Run_383_Fast_MID_6/
+>f+++++++ Run_383_Fast/Run_383_Fast_MID_6/Run_383_Fast_MID_6_FILE_0.dat
+      32.77K  13%  201.26kB/s    0:00:01
+     245.76K 100%    1.46MB/s    0:00:00 (xfer#12, to-check=90/116)
+cd+++++++ Run_383_Fast/Run_383_Fast_MID_7/
+>f+++++++ Run_383_Fast/Run_383_Fast_MID_7/Run_383_Fast_MID_7_FILE_0.dat
+      32.77K  13%  195.12kB/s    0:00:01
+     245.76K 100%    1.43MB/s    0:00:00 (xfer#13, to-check=88/116)
+cd+++++++ Run_383_Fast/Run_383_Fast_MID_8/
+>f+++++++ Run_383_Fast/Run_383_Fast_MID_8/Run_383_Fast_MID_8_FILE_0.dat
+      32.77K  13%  189.35kB/s    0:00:01
+     245.76K 100%    1.38MB/s    0:00:00 (xfer#14, to-check=86/116)
+cd+++++++ Run_383_Fast/Run_383_Fast_MID_9/
+>f+++++++ Run_383_Fast/Run_383_Fast_MID_9/Run_383_Fast_MID_9_FILE_0.dat
+      32.77K  13%  181.82kB/s    0:00:01
+     245.76K 100%    1.32MB/s    0:00:00 (xfer#15, to-check=84/116)
+cd+++++++ Run_383_Fast/Run_383_Fast_log/
+>f+++++++ Run_383_Fast/Run_383_Fast_log/Run_383_Fast_MID_10_buffer.txt
+         209 100%    1.13kB/s    0:00:00
+         209 100%    1.13kB/s    0:00:00 (xfer#16, to-check=82/116)
+>f+++++++ Run_383_Fast/Run_383_Fast_log/Run_383_Fast_MID_11_buffer.txt
+         209 100%    1.11kB/s    0:00:00
+         209 100%    1.11kB/s    0:00:00 (xfer#17, to-check=81/116)
+>f+++++++ Run_383_Fast/Run_383_Fast_log/Run_383_Fast_MID_12_buffer.txt
+         209 100%    1.09kB/s    0:00:00
+         209 100%    1.09kB/s    0:00:00 (xfer#18, to-check=80/116)
+>f+++++++ Run_383_Fast/Run_383_Fast_log/Run_383_Fast_MID_13_buffer.txt
+         209 100%    1.07kB/s    0:00:00
+         209 100%    1.07kB/s    0:00:00 (xfer#19, to-check=79/116)
+>f+++++++ Run_383_Fast/Run_383_Fast_log/Run_383_Fast_MID_14_buffer.txt
+         209 100%    1.05kB/s    0:00:00
+         209 100%    1.05kB/s    0:00:00 (xfer#20, to-check=78/116)
+>f+++++++ Run_383_Fast/Run_383_Fast_log/Run_383_Fast_MID_15_buffer.txt
+         209 100%    1.04kB/s    0:00:00
+         209 100%    1.04kB/s    0:00:00 (xfer#21, to-check=77/116)
+>f+++++++ Run_383_Fast/Run_383_Fast_log/Run_383_Fast_MID_1_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#22, to-check=76/116)
+>f+++++++ Run_383_Fast/Run_383_Fast_log/Run_383_Fast_MID_2_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#23, to-check=75/116)
+>f+++++++ Run_383_Fast/Run_383_Fast_log/Run_383_Fast_MID_3_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#24, to-check=74/116)
+>f+++++++ Run_383_Fast/Run_383_Fast_log/Run_383_Fast_MID_4_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#25, to-check=73/116)
+>f+++++++ Run_383_Fast/Run_383_Fast_log/Run_383_Fast_MID_5_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#26, to-check=72/116)
+>f+++++++ Run_383_Fast/Run_383_Fast_log/Run_383_Fast_MID_6_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#27, to-check=71/116)
+>f+++++++ Run_383_Fast/Run_383_Fast_log/Run_383_Fast_MID_7_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#28, to-check=70/116)
+>f+++++++ Run_383_Fast/Run_383_Fast_log/Run_383_Fast_MID_8_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#29, to-check=69/116)
+>f+++++++ Run_383_Fast/Run_383_Fast_log/Run_383_Fast_MID_9_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#30, to-check=68/116)
+cd+++++++ Run_383_Wave/
+cd+++++++ Run_383_Wave/Run_383_Wave_MID_1/
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_1/Run_383_Wave_MID_1_FILE_0.dat
+      32.77K   0%  142.86kB/s    0:07:38
+      65.60M 100%   69.36MB/s    0:00:00 (xfer#31, to-check=65/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_1/Run_383_Wave_MID_1_FILE_1.dat
+      32.77K   4%   35.40kB/s    0:00:19
+     720.90K 100%  771.93kB/s    0:00:00 (xfer#32, to-check=64/116)
+cd+++++++ Run_383_Wave/Run_383_Wave_MID_10/
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_10/Run_383_Wave_MID_10_FILE_0.dat
+      32.77K   0%   35.01kB/s    0:31:12
+       9.24M  14%    8.81MB/s    0:00:06
+      65.60M 100%   38.36MB/s    0:00:01 (xfer#33, to-check=62/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_10/Run_383_Wave_MID_10_FILE_1.dat
+      32.77K   4%   50.55kB/s    0:00:13
+     720.90K 100%    1.07MB/s    0:00:00 (xfer#34, to-check=61/116)
+cd+++++++ Run_383_Wave/Run_383_Wave_MID_11/
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_11/Run_383_Wave_MID_11_FILE_0.dat
+      32.77K   0%   49.61kB/s    0:22:01
+      29.39M  44%   27.59MB/s    0:00:01
+      65.60M 100%   41.74MB/s    0:00:01 (xfer#35, to-check=59/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_11/Run_383_Wave_MID_11_FILE_1.dat
+      32.77K   4%   66.12kB/s    0:00:10
+     720.90K 100%    1.39MB/s    0:00:00 (xfer#36, to-check=58/116)
+cd+++++++ Run_383_Wave/Run_383_Wave_MID_12/
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_12/Run_383_Wave_MID_12_FILE_0.dat
+      32.77K   0%   64.78kB/s    0:16:52
+      43.16M  65%   41.16MB/s    0:00:00
+      65.60M 100%   50.05MB/s    0:00:01 (xfer#37, to-check=56/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_12/Run_383_Wave_MID_12_FILE_1.dat
+      32.77K   4%  127.49kB/s    0:00:05
+     720.90K 100%    2.59MB/s    0:00:00 (xfer#38, to-check=55/116)
+cd+++++++ Run_383_Wave/Run_383_Wave_MID_13/
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_13/Run_383_Wave_MID_13_FILE_0.dat
+      32.77K   0%  120.30kB/s    0:09:05
+      65.60M 100%   64.50MB/s    0:00:00 (xfer#39, to-check=53/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_13/Run_383_Wave_MID_13_FILE_1.dat
+      32.77K   4%   32.96kB/s    0:00:20
+     720.90K 100%  718.37kB/s    0:00:00 (xfer#40, to-check=52/116)
+cd+++++++ Run_383_Wave/Run_383_Wave_MID_14/
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_14/Run_383_Wave_MID_14_FILE_0.dat
+      32.77K   0%   32.62kB/s    0:33:30
+       1.61M   2%    1.53MB/s    0:00:40
+      65.60M 100%   36.10MB/s    0:00:01 (xfer#41, to-check=50/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_14/Run_383_Wave_MID_14_FILE_1.dat
+      32.77K   4%   43.60kB/s    0:00:15
+     720.90K 100%  943.70kB/s    0:00:00 (xfer#42, to-check=49/116)
+cd+++++++ Run_383_Wave/Run_383_Wave_MID_15/
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_15/Run_383_Wave_MID_15_FILE_0.dat
+      32.77K   0%   42.84kB/s    0:25:30
+      30.77M  46%   29.34MB/s    0:00:01
+      65.60M 100%   49.22MB/s    0:00:01 (xfer#43, to-check=47/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_15/Run_383_Wave_MID_15_FILE_0.dat_AllchSpectrum.png
+      32.77K  36%  117.65kB/s    0:00:00
+      90.27K 100%  322.91kB/s    0:00:00 (xfer#44, to-check=46/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_15/Run_383_Wave_MID_15_FILE_0.dat_Allch_noiseLevel.png
+      31.86K 100%  112.32kB/s    0:00:00
+      31.86K 100%  112.32kB/s    0:00:00 (xfer#45, to-check=45/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_15/Run_383_Wave_MID_15_FILE_0.dat_SpectrumAllCh_.root
+      24.46K 100%   83.54kB/s    0:00:00
+      24.46K 100%   83.54kB/s    0:00:00 (xfer#46, to-check=44/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_15/Run_383_Wave_MID_15_FILE_1.dat
+      32.77K   4%  108.47kB/s    0:00:06
+     720.90K 100%    2.24MB/s    0:00:00 (xfer#47, to-check=43/116)
+cd+++++++ Run_383_Wave/Run_383_Wave_MID_2/
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_2/Run_383_Wave_MID_2_FILE_0.dat
+      32.77K   0%  103.90kB/s    0:10:31
+      65.60M 100%   66.70MB/s    0:00:00 (xfer#48, to-check=41/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_2/Run_383_Wave_MID_2_FILE_1.dat
+      32.77K   4%   34.12kB/s    0:00:20
+     720.90K 100%  744.97kB/s    0:00:00 (xfer#49, to-check=40/116)
+cd+++++++ Run_383_Wave/Run_383_Wave_MID_3/
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_3/Run_383_Wave_MID_3_FILE_0.dat
+      32.77K   0%   33.83kB/s    0:32:18
+       6.59M  10%    6.28MB/s    0:00:09
+      65.60M 100%   39.62MB/s    0:00:01 (xfer#50, to-check=38/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_3/Run_383_Wave_MID_3_FILE_1.dat
+      32.77K   4%   55.17kB/s    0:00:12
+     720.90K 100%    1.17MB/s    0:00:00 (xfer#51, to-check=37/116)
+cd+++++++ Run_383_Wave/Run_383_Wave_MID_4/
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_4/Run_383_Wave_MID_4_FILE_0.dat
+      32.77K   0%   54.42kB/s    0:20:04
+      41.03M  62%   39.12MB/s    0:00:00
+      65.60M 100%   49.46MB/s    0:00:01 (xfer#52, to-check=35/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_4/Run_383_Wave_MID_4_FILE_1.dat
+      32.77K   4%  119.85kB/s    0:00:05
+     720.90K 100%    2.52MB/s    0:00:00 (xfer#53, to-check=34/116)
+cd+++++++ Run_383_Wave/Run_383_Wave_MID_5/
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_5/Run_383_Wave_MID_5_FILE_0.dat
+      32.77K   0%  116.79kB/s    0:09:21
+      65.60M 100%   74.93MB/s    0:00:00 (xfer#54, to-check=32/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_5/Run_383_Wave_MID_5_FILE_1.dat
+      32.77K   4%   38.28kB/s    0:00:17
+     720.90K 100%  836.10kB/s    0:00:00 (xfer#55, to-check=31/116)
+cd+++++++ Run_383_Wave/Run_383_Wave_MID_6/
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_6/Run_383_Wave_MID_6_FILE_0.dat
+      32.77K   0%   37.91kB/s    0:28:49
+      13.93M  21%   13.28MB/s    0:00:03
+      65.60M 100%   42.82MB/s    0:00:01 (xfer#56, to-check=29/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_6/Run_383_Wave_MID_6_FILE_1.dat
+      32.77K   4%   69.26kB/s    0:00:09
+     720.90K 100%    1.44MB/s    0:00:00 (xfer#57, to-check=28/116)
+cd+++++++ Run_383_Wave/Run_383_Wave_MID_7/
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_7/Run_383_Wave_MID_7_FILE_0.dat
+      32.77K   0%   66.53kB/s    0:16:25
+      46.96M  71%   44.78MB/s    0:00:00
+      65.60M 100%   53.61MB/s    0:00:01 (xfer#58, to-check=26/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_7/Run_383_Wave_MID_7_FILE_1.dat
+      32.77K   4%  190.48kB/s    0:00:03
+     720.90K 100%    3.95MB/s    0:00:00 (xfer#59, to-check=25/116)
+cd+++++++ Run_383_Wave/Run_383_Wave_MID_8/
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_8/Run_383_Wave_MID_8_FILE_0.dat
+      32.77K   0%  181.82kB/s    0:06:00
+      65.60M 100%   74.48MB/s    0:00:00 (xfer#60, to-check=23/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_8/Run_383_Wave_MID_8_FILE_1.dat
+      32.77K   4%   38.05kB/s    0:00:18
+     720.90K 100%  830.19kB/s    0:00:00 (xfer#61, to-check=22/116)
+cd+++++++ Run_383_Wave/Run_383_Wave_MID_9/
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_9/Run_383_Wave_MID_9_FILE_0.dat
+      32.77K   0%   37.69kB/s    0:28:59
+      11.30M  17%   10.78MB/s    0:00:04
+      65.60M 100%   39.13MB/s    0:00:01 (xfer#62, to-check=20/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_9/Run_383_Wave_MID_9_FILE_0.dat_AllchSpectrum.png
+      32.77K  34%   53.24kB/s    0:00:01
+      93.69K 100%  152.23kB/s    0:00:00 (xfer#63, to-check=19/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_9/Run_383_Wave_MID_9_FILE_0.dat_Allch_noiseLevel.png
+      31.84K 100%   50.16kB/s    0:00:00
+      31.84K 100%   50.16kB/s    0:00:00 (xfer#64, to-check=18/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_9/Run_383_Wave_MID_9_FILE_0.dat_SpectrumAllCh_.root
+      23.94K 100%   37.46kB/s    0:00:00
+      23.94K 100%   37.46kB/s    0:00:00 (xfer#65, to-check=17/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_MID_9/Run_383_Wave_MID_9_FILE_1.dat
+      32.77K   4%   50.87kB/s    0:00:13
+     720.90K 100%    1.08MB/s    0:00:00 (xfer#66, to-check=16/116)
+cd+++++++ Run_383_Wave/Run_383_Wave_log/
+>f+++++++ Run_383_Wave/Run_383_Wave_log/Run_383_Wave_MID_10_buffer.txt
+      14.03K 100%   21.54kB/s    0:00:00
+      14.03K 100%   21.54kB/s    0:00:00 (xfer#67, to-check=14/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_log/Run_383_Wave_MID_11_buffer.txt
+      14.03K 100%   21.48kB/s    0:00:00
+      14.03K 100%   21.48kB/s    0:00:00 (xfer#68, to-check=13/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_log/Run_383_Wave_MID_12_buffer.txt
+      13.99K 100%   21.35kB/s    0:00:00
+      13.99K 100%   21.35kB/s    0:00:00 (xfer#69, to-check=12/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_log/Run_383_Wave_MID_13_buffer.txt
+      14.04K 100%   21.36kB/s    0:00:00
+      14.04K 100%   21.36kB/s    0:00:00 (xfer#70, to-check=11/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_log/Run_383_Wave_MID_14_buffer.txt
+      14.04K 100%   21.29kB/s    0:00:00
+      14.04K 100%   21.29kB/s    0:00:00 (xfer#71, to-check=10/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_log/Run_383_Wave_MID_15_buffer.txt
+      14.03K 100%   21.21kB/s    0:00:00
+      14.03K 100%   21.21kB/s    0:00:00 (xfer#72, to-check=9/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_log/Run_383_Wave_MID_1_buffer.txt
+      13.99K 100%   21.08kB/s    0:00:00
+      13.99K 100%   21.08kB/s    0:00:00 (xfer#73, to-check=8/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_log/Run_383_Wave_MID_2_buffer.txt
+      14.04K 100%   21.10kB/s    0:00:00
+      14.04K 100%   21.10kB/s    0:00:00 (xfer#74, to-check=7/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_log/Run_383_Wave_MID_3_buffer.txt
+      13.98K 100%   20.93kB/s    0:00:00
+      13.98K 100%   20.93kB/s    0:00:00 (xfer#75, to-check=6/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_log/Run_383_Wave_MID_4_buffer.txt
+      13.99K 100%   20.86kB/s    0:00:00
+      13.99K 100%   20.86kB/s    0:00:00 (xfer#76, to-check=5/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_log/Run_383_Wave_MID_5_buffer.txt
+      14.04K 100%   20.84kB/s    0:00:00
+      14.04K 100%   20.84kB/s    0:00:00 (xfer#77, to-check=4/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_log/Run_383_Wave_MID_6_buffer.txt
+      14.00K 100%   20.69kB/s    0:00:00
+      14.00K 100%   20.69kB/s    0:00:00 (xfer#78, to-check=3/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_log/Run_383_Wave_MID_7_buffer.txt
+      13.99K 100%   20.64kB/s    0:00:00
+      13.99K 100%   20.64kB/s    0:00:00 (xfer#79, to-check=2/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_log/Run_383_Wave_MID_8_buffer.txt
+      14.04K 100%   20.56kB/s    0:00:00
+      14.04K 100%   20.56kB/s    0:00:00 (xfer#80, to-check=1/116)
+>f+++++++ Run_383_Wave/Run_383_Wave_log/Run_383_Wave_MID_9_buffer.txt
+      13.99K 100%   20.42kB/s    0:00:00
+      13.99K 100%   20.42kB/s    0:00:00 (xfer#81, to-check=0/116)
+
+sent 999.16M bytes  received 2.01K bytes  86.88M bytes/sec
+total size is 999.03M  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_383/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_383_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

@@ -1,0 +1,281 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_745/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_745[0m
+[94m[INFO][0m SSD data folder size = [96m[1m2.807 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [##############------------------------------------][0m [92m[1m27.969 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 4167.781 GB / Free : [4m10733.771 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_745/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_745/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_745.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_745/ /Volumes/HDD_16TB_1/HDD_Run_745/[0m`? [y/n] 
+building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_745
+cd+++++++ ./
+cd+++++++ Run_745_Fast/
+cd+++++++ Run_745_Fast/Run_745_Fast_MID_1/
+>f+++++++ Run_745_Fast/Run_745_Fast_MID_1/Run_745_Fast_MID_1_FILE_0.dat
+      32.77K   4%    0.00kB/s    0:00:00
+     770.05K 100%   37.01MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_745_Fast/Run_745_Fast_MID_10/
+>f+++++++ Run_745_Fast/Run_745_Fast_MID_10/Run_745_Fast_MID_10_FILE_0.dat
+      32.77K   4%  592.59kB/s    0:00:01
+     770.05K 100%    9.07MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_745_Fast/Run_745_Fast_MID_11/
+>f+++++++ Run_745_Fast/Run_745_Fast_MID_11/Run_745_Fast_MID_11_FILE_0.dat
+      32.77K   4%  376.47kB/s    0:00:01
+     770.05K 100%    6.93MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_745_Fast/Run_745_Fast_MID_12/
+>f+++++++ Run_745_Fast/Run_745_Fast_MID_12/Run_745_Fast_MID_12_FILE_0.dat
+      32.77K   4%  296.30kB/s    0:00:02
+     770.05K 100%    5.61MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_745_Fast/Run_745_Fast_MID_13/
+>f+++++++ Run_745_Fast/Run_745_Fast_MID_13/Run_745_Fast_MID_13_FILE_0.dat
+      32.77K   4%  240.60kB/s    0:00:03
+     770.05K 100%    4.80MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_745_Fast/Run_745_Fast_MID_14/
+>f+++++++ Run_745_Fast/Run_745_Fast_MID_14/Run_745_Fast_MID_14_FILE_0.dat
+      32.77K   4%  203.82kB/s    0:00:03
+     770.05K 100%    4.13MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_745_Fast/Run_745_Fast_MID_15/
+>f+++++++ Run_745_Fast/Run_745_Fast_MID_15/Run_745_Fast_MID_15_FILE_0.dat
+      32.77K   4%  176.80kB/s    0:00:04
+     770.05K 100%    3.67MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_745_Fast/Run_745_Fast_MID_2/
+>f+++++++ Run_745_Fast/Run_745_Fast_MID_2/Run_745_Fast_MID_2_FILE_0.dat
+      32.77K   4%  156.86kB/s    0:00:04
+     770.05K 100%    3.29MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_745_Fast/Run_745_Fast_MID_3/
+>f+++++++ Run_745_Fast/Run_745_Fast_MID_3/Run_745_Fast_MID_3_FILE_0.dat
+      32.77K   4%  141.59kB/s    0:00:05
+     770.05K 100%    2.97MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_745_Fast/Run_745_Fast_MID_4/
+>f+++++++ Run_745_Fast/Run_745_Fast_MID_4/Run_745_Fast_MID_4_FILE_0.dat
+      32.77K   4%  127.49kB/s    0:00:05
+     770.05K 100%    2.71MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_745_Fast/Run_745_Fast_MID_5/
+>f+++++++ Run_745_Fast/Run_745_Fast_MID_5/Run_745_Fast_MID_5_FILE_0.dat
+      32.77K   4%  117.22kB/s    0:00:06
+     770.05K 100%    2.40MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_745_Fast/Run_745_Fast_MID_6/
+>f+++++++ Run_745_Fast/Run_745_Fast_MID_6/Run_745_Fast_MID_6_FILE_0.dat
+      32.77K   4%  103.90kB/s    0:00:07
+     770.05K 100%    2.20MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_745_Fast/Run_745_Fast_MID_7/
+>f+++++++ Run_745_Fast/Run_745_Fast_MID_7/Run_745_Fast_MID_7_FILE_0.dat
+      32.77K   4%   95.24kB/s    0:00:07
+     770.05K 100%    2.04MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_745_Fast/Run_745_Fast_MID_8/
+>f+++++++ Run_745_Fast/Run_745_Fast_MID_8/Run_745_Fast_MID_8_FILE_0.dat
+      32.77K   4%   88.15kB/s    0:00:08
+     770.05K 100%    1.92MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_745_Fast/Run_745_Fast_MID_9/
+>f+++++++ Run_745_Fast/Run_745_Fast_MID_9/Run_745_Fast_MID_9_FILE_0.dat
+      32.77K   4%   82.90kB/s    0:00:08
+     770.05K 100%    1.81MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_745_Fast/Run_745_Fast_log/
+>f+++++++ Run_745_Fast/Run_745_Fast_log/Run_745_Fast_MID_10_buffer.txt
+         718 100%    1.73kB/s    0:00:00
+         718 100%    1.73kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_745_Fast/Run_745_Fast_log/Run_745_Fast_MID_11_buffer.txt
+         718 100%    1.73kB/s    0:00:00
+         718 100%    1.73kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_745_Fast/Run_745_Fast_log/Run_745_Fast_MID_12_buffer.txt
+         718 100%    1.73kB/s    0:00:00
+         718 100%    1.73kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_745_Fast/Run_745_Fast_log/Run_745_Fast_MID_13_buffer.txt
+         718 100%    1.72kB/s    0:00:00
+         718 100%    1.72kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_745_Fast/Run_745_Fast_log/Run_745_Fast_MID_14_buffer.txt
+         718 100%    1.72kB/s    0:00:00
+         718 100%    1.72kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_745_Fast/Run_745_Fast_log/Run_745_Fast_MID_15_buffer.txt
+         718 100%    1.72kB/s    0:00:00
+         718 100%    1.72kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_745_Fast/Run_745_Fast_log/Run_745_Fast_MID_1_buffer.txt
+         718 100%    1.72kB/s    0:00:00
+         718 100%    1.72kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_745_Fast/Run_745_Fast_log/Run_745_Fast_MID_2_buffer.txt
+         718 100%    1.72kB/s    0:00:00
+         718 100%    1.72kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_745_Fast/Run_745_Fast_log/Run_745_Fast_MID_3_buffer.txt
+         718 100%    1.67kB/s    0:00:00
+         718 100%    1.67kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_745_Fast/Run_745_Fast_log/Run_745_Fast_MID_4_buffer.txt
+         718 100%    1.67kB/s    0:00:00
+         718 100%    1.67kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_745_Fast/Run_745_Fast_log/Run_745_Fast_MID_5_buffer.txt
+         718 100%    1.67kB/s    0:00:00
+         718 100%    1.67kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_745_Fast/Run_745_Fast_log/Run_745_Fast_MID_6_buffer.txt
+         718 100%    1.67kB/s    0:00:00
+         718 100%    1.67kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_745_Fast/Run_745_Fast_log/Run_745_Fast_MID_7_buffer.txt
+         718 100%    1.67kB/s    0:00:00
+         718 100%    1.67kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_745_Fast/Run_745_Fast_log/Run_745_Fast_MID_8_buffer.txt
+         718 100%    1.67kB/s    0:00:00
+         718 100%    1.67kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_745_Fast/Run_745_Fast_log/Run_745_Fast_MID_9_buffer.txt
+         718 100%    1.67kB/s    0:00:00
+         718 100%    1.67kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_745_Wave/
+cd+++++++ Run_745_Wave/Run_745_Wave_MID_1/
+>f+++++++ Run_745_Wave/Run_745_Wave_MID_1/Run_745_Wave_MID_1_FILE_0.dat
+      32.77K   0%   49.00kB/s    1:08:03
+      20.48M  10%   19.53MB/s    0:00:08
+     102.53M  51%   48.92MB/s    0:00:01
+     135.04M  67%   42.96MB/s    0:00:01
+     200.15M 100%   47.92MB/s    0:00:03 (xfer#31, to-check=44/95)
+cd+++++++ Run_745_Wave/Run_745_Wave_MID_10/
+>f+++++++ Run_745_Wave/Run_745_Wave_MID_10/Run_745_Wave_MID_10_FILE_0.dat
+      32.77K   0%   32.45kB/s    1:42:46
+     294.91K   0%  288.00kB/s    0:11:33
+      87.59M  43%   41.43MB/s    0:00:02
+     147.62M  73%   46.69MB/s    0:00:01
+     200.15M 100%   48.72MB/s    0:00:03 (xfer#32, to-check=42/95)
+cd+++++++ Run_745_Wave/Run_745_Wave_MID_11/
+>f+++++++ Run_745_Wave/Run_745_Wave_MID_11/Run_745_Wave_MID_11_FILE_0.dat
+      32.77K   0%   35.40kB/s    1:34:13
+       7.11M   3%    6.78MB/s    0:00:27
+      60.33M  30%   28.78MB/s    0:00:04
+     125.60M  62%   39.95MB/s    0:00:01
+     188.48M  94%   44.97MB/s    0:00:00
+     200.15M 100%   45.59MB/s    0:00:04 (xfer#33, to-check=40/95)
+cd+++++++ Run_745_Wave/Run_745_Wave_MID_12/
+>f+++++++ Run_745_Wave/Run_745_Wave_MID_12/Run_745_Wave_MID_12_FILE_0.dat
+      32.77K   0%  166.67kB/s    0:20:00
+      53.51M  26%   48.55MB/s    0:00:02
+     116.95M  58%   54.38MB/s    0:00:01
+     179.34M  89%   56.04MB/s    0:00:00
+     200.15M 100%   55.62MB/s    0:00:03 (xfer#34, to-check=38/95)
+cd+++++++ Run_745_Wave/Run_745_Wave_MID_13/
+>f+++++++ Run_745_Wave/Run_745_Wave_MID_13/Run_745_Wave_MID_13_FILE_0.dat
+      32.77K   0%   83.77kB/s    0:39:48
+      39.88M  19%   38.03MB/s    0:00:04
+      71.86M  35%   32.54MB/s    0:00:03
+     124.81M  62%   38.34MB/s    0:00:01
+     175.93M  87%   40.31MB/s    0:00:00
+     200.15M 100%   43.03MB/s    0:00:04 (xfer#35, to-check=36/95)
+cd+++++++ Run_745_Wave/Run_745_Wave_MID_14/
+>f+++++++ Run_745_Wave/Run_745_Wave_MID_14/Run_745_Wave_MID_14_FILE_0.dat
+      32.77K   0%  115.94kB/s    0:28:45
+      59.54M  29%   56.78MB/s    0:00:02
+     124.13M  62%   59.19MB/s    0:00:01
+     196.12M  97%   61.58MB/s    0:00:00
+     200.15M 100%   61.97MB/s    0:00:03 (xfer#36, to-check=34/95)
+cd+++++++ Run_745_Wave/Run_745_Wave_MID_15/
+>f+++++++ Run_745_Wave/Run_745_Wave_MID_15/Run_745_Wave_MID_15_FILE_0.dat
+      32.77K   0%  711.11kB/s    0:04:41
+      58.23M  29%   54.76MB/s    0:00:02
+     117.21M  58%   54.26MB/s    0:00:01
+     183.27M  91%   56.88MB/s    0:00:00
+     200.15M 100%   57.95MB/s    0:00:03 (xfer#37, to-check=32/95)
+cd+++++++ Run_745_Wave/Run_745_Wave_MID_2/
+>f+++++++ Run_745_Wave/Run_745_Wave_MID_2/Run_745_Wave_MID_2_FILE_0.dat
+      32.77K   0%  143.50kB/s    0:23:14
+      45.65M  22%   43.53MB/s    0:00:03
+      86.02M  42%   41.02MB/s    0:00:02
+     171.44M  85%   54.50MB/s    0:00:00
+     200.15M 100%   56.04MB/s    0:00:03 (xfer#38, to-check=30/95)
+cd+++++++ Run_745_Wave/Run_745_Wave_MID_3/
+>f+++++++ Run_745_Wave/Run_745_Wave_MID_3/Run_745_Wave_MID_3_FILE_0.dat
+      32.77K   0%   78.43kB/s    0:42:31
+      36.21M  18%   32.36MB/s    0:00:04
+      98.07M  49%   45.23MB/s    0:00:02
+     168.07M  83%   52.12MB/s    0:00:00
+     200.15M 100%   53.35MB/s    0:00:03 (xfer#39, to-check=28/95)
+cd+++++++ Run_745_Wave/Run_745_Wave_MID_4/
+>f+++++++ Run_745_Wave/Run_745_Wave_MID_4/Run_745_Wave_MID_4_FILE_0.dat
+      32.77K   0%   63.37kB/s    0:52:38
+      28.87M  14%   27.53MB/s    0:00:06
+      81.30M  40%   38.77MB/s    0:00:02
+     153.91M  76%   48.46MB/s    0:00:00
+     200.15M 100%   51.69MB/s    0:00:03 (xfer#40, to-check=26/95)
+cd+++++++ Run_745_Wave/Run_745_Wave_MID_5/
+>f+++++++ Run_745_Wave/Run_745_Wave_MID_5/Run_745_Wave_MID_5_FILE_0.dat
+      32.77K   0%   48.12kB/s    1:09:18
+      19.69M   9%   17.87MB/s    0:00:09
+      82.08M  41%   37.98MB/s    0:00:03
+     154.04M  76%   48.01MB/s    0:00:00
+     200.15M 100%   51.28MB/s    0:00:03 (xfer#41, to-check=24/95)
+cd+++++++ Run_745_Wave/Run_745_Wave_MID_6/
+>f+++++++ Run_745_Wave/Run_745_Wave_MID_6/Run_745_Wave_MID_6_FILE_0.dat
+      32.77K   0%   48.27kB/s    1:09:06
+      18.12M   9%   17.28MB/s    0:00:10
+      87.06M  43%   41.52MB/s    0:00:02
+     165.97M  82%   52.76MB/s    0:00:00
+     200.15M 100%   53.36MB/s    0:00:03 (xfer#42, to-check=22/95)
+cd+++++++ Run_745_Wave/Run_745_Wave_MID_7/
+>f+++++++ Run_745_Wave/Run_745_Wave_MID_7/Run_745_Wave_MID_7_FILE_0.dat
+      32.77K   0%   55.36kB/s    1:00:14
+      28.80M  14%   27.47MB/s    0:00:06
+      82.08M  41%   38.81MB/s    0:00:02
+     153.91M  76%   48.36MB/s    0:00:00
+     200.15M 100%   51.39MB/s    0:00:03 (xfer#43, to-check=20/95)
+cd+++++++ Run_745_Wave/Run_745_Wave_MID_8/
+>f+++++++ Run_745_Wave/Run_745_Wave_MID_8/Run_745_Wave_MID_8_FILE_0.dat
+      32.77K   0%   46.99kB/s    1:10:58
+      19.69M   9%   17.55MB/s    0:00:10
+      79.20M  39%   35.85MB/s    0:00:03
+     153.98M  76%   47.28MB/s    0:00:00
+     200.15M 100%   49.03MB/s    0:00:03 (xfer#44, to-check=18/95)
+cd+++++++ Run_745_Wave/Run_745_Wave_MID_9/
+>f+++++++ Run_745_Wave/Run_745_Wave_MID_9/Run_745_Wave_MID_9_FILE_0.dat
+      32.77K   0%   40.56kB/s    1:22:14
+       9.83M   4%    9.38MB/s    0:00:19
+      72.65M  36%   34.55MB/s    0:00:03
+     138.18M  69%   43.85MB/s    0:00:01
+     200.15M 100%   47.87MB/s    0:00:03 (xfer#45, to-check=16/95)
+cd+++++++ Run_745_Wave/Run_745_Wave_log/
+>f+++++++ Run_745_Wave/Run_745_Wave_log/Run_745_Wave_MID_10_buffer.txt
+      32.77K  73%   32.52kB/s    0:00:00
+      44.70K 100%   44.36kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_745_Wave/Run_745_Wave_log/Run_745_Wave_MID_11_buffer.txt
+      32.77K  73%   32.06kB/s    0:00:00
+      44.70K 100%   43.74kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_745_Wave/Run_745_Wave_log/Run_745_Wave_MID_12_buffer.txt
+      32.77K  73%   31.43kB/s    0:00:00
+      44.43K 100%   42.62kB/s    0:00:00
+      44.43K 100%   42.62kB/s    0:00:01 (xfer#48, to-check=12/95)
+>f+++++++ Run_745_Wave/Run_745_Wave_log/Run_745_Wave_MID_13_buffer.txt
+      32.77K  73%    1.64MB/s    0:00:00
+      44.68K 100%    2.24MB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_745_Wave/Run_745_Wave_log/Run_745_Wave_MID_14_buffer.txt
+      32.77K  73% 1000.00kB/s    0:00:00
+      44.70K 100%    1.33MB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_745_Wave/Run_745_Wave_log/Run_745_Wave_MID_15_buffer.txt
+      32.77K  74%  615.38kB/s    0:00:00
+      44.23K 100%  830.72kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_745_Wave/Run_745_Wave_log/Run_745_Wave_MID_1_buffer.txt
+      32.77K  74%  484.85kB/s    0:00:00
+      44.24K 100%  654.65kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_745_Wave/Run_745_Wave_log/Run_745_Wave_MID_2_buffer.txt
+      32.77K  72%  340.43kB/s    0:00:00
+      44.89K 100%  466.36kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_745_Wave/Run_745_Wave_log/Run_745_Wave_MID_3_buffer.txt
+      32.77K  74%  296.30kB/s    0:00:00
+      44.18K 100%  399.46kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_745_Wave/Run_745_Wave_log/Run_745_Wave_MID_4_buffer.txt
+      32.77K  74%  264.46kB/s    0:00:00
+      44.16K 100%  356.36kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_745_Wave/Run_745_Wave_log/Run_745_Wave_MID_5_buffer.txt
+      32.77K  73%  237.04kB/s    0:00:00
+      44.70K 100%  323.34kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_745_Wave/Run_745_Wave_log/Run_745_Wave_MID_6_buffer.txt
+      32.77K  74%  207.79kB/s    0:00:00
+      44.25K 100%  280.60kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_745_Wave/Run_745_Wave_log/Run_745_Wave_MID_7_buffer.txt
+      32.77K  74%  191.62kB/s    0:00:00
+      44.16K 100%  258.22kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_745_Wave/Run_745_Wave_log/Run_745_Wave_MID_8_buffer.txt
+      32.77K  73%  177.78kB/s    0:00:00
+      44.84K 100%  243.28kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_745_Wave/Run_745_Wave_log/Run_745_Wave_MID_9_buffer.txt
+      32.77K  74%  165.80kB/s    0:00:00
+      44.10K 100%  223.15kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 3.01G bytes  received 1.55K bytes  59.70M bytes/sec
+total size is 3.01G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_745/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_745_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

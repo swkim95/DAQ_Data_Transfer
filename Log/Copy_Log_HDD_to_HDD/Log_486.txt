@@ -1,0 +1,294 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_486/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_486[0m
+[94m[INFO][0m SSD data folder size = [96m[1m0.922 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [--------------------------------------------------][0m [92m[1m0.683 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 101.83 GB / Free : [4m14799.722 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_486/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_486/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_486.txt --progress /Volumes/HDD_16TB_1/HDD_Run_486/ /Volumes/HDD_16TB_2/HDD_Run_486/[0m`? [y/n] building file list ... 
+ 0 files...
+ 100 files...
+110 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_486
+cd+++++++ ./
+cd+++++++ Run_486_Fast/
+cd+++++++ Run_486_Fast/Run_486_Fast_MID_1/
+>f+++++++ Run_486_Fast/Run_486_Fast_MID_1/Run_486_Fast_MID_1_FILE_0.dat
+      32.77K  13%    0.00kB/s    0:00:00
+     245.76K 100%  203.12MB/s    0:00:00 (xfer#1, to-check=106/110)
+cd+++++++ Run_486_Fast/Run_486_Fast_MID_10/
+>f+++++++ Run_486_Fast/Run_486_Fast_MID_10/Run_486_Fast_MID_10_FILE_0.dat
+      32.77K  13%   15.62MB/s    0:00:00
+     245.76K 100%   78.12MB/s    0:00:00 (xfer#2, to-check=104/110)
+cd+++++++ Run_486_Fast/Run_486_Fast_MID_11/
+>f+++++++ Run_486_Fast/Run_486_Fast_MID_11/Run_486_Fast_MID_11_FILE_0.dat
+      32.77K  13%    6.25MB/s    0:00:00
+     245.76K 100%   39.06MB/s    0:00:00 (xfer#3, to-check=102/110)
+cd+++++++ Run_486_Fast/Run_486_Fast_MID_12/
+>f+++++++ Run_486_Fast/Run_486_Fast_MID_12/Run_486_Fast_MID_12_FILE_0.dat
+      32.77K  13%    3.47MB/s    0:00:00
+     245.76K 100%   23.44MB/s    0:00:00 (xfer#4, to-check=100/110)
+cd+++++++ Run_486_Fast/Run_486_Fast_MID_13/
+>f+++++++ Run_486_Fast/Run_486_Fast_MID_13/Run_486_Fast_MID_13_FILE_0.dat
+      32.77K  13%    1.08MB/s    0:00:00
+     245.76K 100%    7.81MB/s    0:00:00 (xfer#5, to-check=98/110)
+cd+++++++ Run_486_Fast/Run_486_Fast_MID_14/
+>f+++++++ Run_486_Fast/Run_486_Fast_MID_14/Run_486_Fast_MID_14_FILE_0.dat
+      32.77K  13%   52.55kB/s    0:00:04
+     245.76K 100%  392.80kB/s    0:00:00 (xfer#6, to-check=96/110)
+cd+++++++ Run_486_Fast/Run_486_Fast_MID_15/
+>f+++++++ Run_486_Fast/Run_486_Fast_MID_15/Run_486_Fast_MID_15_FILE_0.dat
+      32.77K  13%   52.03kB/s    0:00:04
+     245.76K 100%  388.98kB/s    0:00:00 (xfer#7, to-check=94/110)
+cd+++++++ Run_486_Fast/Run_486_Fast_MID_2/
+>f+++++++ Run_486_Fast/Run_486_Fast_MID_2/Run_486_Fast_MID_2_FILE_0.dat
+      32.77K  13%   51.61kB/s    0:00:04
+     245.76K 100%  385.85kB/s    0:00:00 (xfer#8, to-check=92/110)
+cd+++++++ Run_486_Fast/Run_486_Fast_MID_3/
+>f+++++++ Run_486_Fast/Run_486_Fast_MID_3/Run_486_Fast_MID_3_FILE_0.dat
+      32.77K  13%   51.20kB/s    0:00:04
+     245.76K 100%  383.39kB/s    0:00:00 (xfer#9, to-check=90/110)
+cd+++++++ Run_486_Fast/Run_486_Fast_MID_4/
+>f+++++++ Run_486_Fast/Run_486_Fast_MID_4/Run_486_Fast_MID_4_FILE_0.dat
+      32.77K  13%   47.27kB/s    0:00:04
+     245.76K 100%  353.46kB/s    0:00:00 (xfer#10, to-check=88/110)
+cd+++++++ Run_486_Fast/Run_486_Fast_MID_5/
+>f+++++++ Run_486_Fast/Run_486_Fast_MID_5/Run_486_Fast_MID_5_FILE_0.dat
+      32.77K  13%   46.99kB/s    0:00:04
+     245.76K 100%  351.91kB/s    0:00:00 (xfer#11, to-check=86/110)
+cd+++++++ Run_486_Fast/Run_486_Fast_MID_6/
+>f+++++++ Run_486_Fast/Run_486_Fast_MID_6/Run_486_Fast_MID_6_FILE_0.dat
+      32.77K  13%   46.78kB/s    0:00:04
+     245.76K 100%  350.36kB/s    0:00:00 (xfer#12, to-check=84/110)
+cd+++++++ Run_486_Fast/Run_486_Fast_MID_7/
+>f+++++++ Run_486_Fast/Run_486_Fast_MID_7/Run_486_Fast_MID_7_FILE_0.dat
+      32.77K  13%   45.98kB/s    0:00:04
+     245.76K 100%  344.83kB/s    0:00:00 (xfer#13, to-check=82/110)
+cd+++++++ Run_486_Fast/Run_486_Fast_MID_8/
+>f+++++++ Run_486_Fast/Run_486_Fast_MID_8/Run_486_Fast_MID_8_FILE_0.dat
+      32.77K  13%   45.58kB/s    0:00:04
+     245.76K 100%  341.39kB/s    0:00:00 (xfer#14, to-check=80/110)
+cd+++++++ Run_486_Fast/Run_486_Fast_MID_9/
+>f+++++++ Run_486_Fast/Run_486_Fast_MID_9/Run_486_Fast_MID_9_FILE_0.dat
+      32.77K  13%   45.33kB/s    0:00:04
+     245.76K 100%  339.94kB/s    0:00:00 (xfer#15, to-check=78/110)
+cd+++++++ Run_486_Fast/Run_486_Fast_log/
+>f+++++++ Run_486_Fast/Run_486_Fast_log/Run_486_Fast_MID_10_buffer.txt
+         228 100%    0.31kB/s    0:00:00
+         228 100%    0.31kB/s    0:00:00 (xfer#16, to-check=76/110)
+>f+++++++ Run_486_Fast/Run_486_Fast_log/Run_486_Fast_MID_11_buffer.txt
+         228 100%    0.31kB/s    0:00:00
+         228 100%    0.31kB/s    0:00:00 (xfer#17, to-check=75/110)
+>f+++++++ Run_486_Fast/Run_486_Fast_log/Run_486_Fast_MID_12_buffer.txt
+         228 100%    0.31kB/s    0:00:00
+         228 100%    0.31kB/s    0:00:00 (xfer#18, to-check=74/110)
+>f+++++++ Run_486_Fast/Run_486_Fast_log/Run_486_Fast_MID_13_buffer.txt
+         228 100%    0.31kB/s    0:00:00
+         228 100%    0.31kB/s    0:00:00 (xfer#19, to-check=73/110)
+>f+++++++ Run_486_Fast/Run_486_Fast_log/Run_486_Fast_MID_14_buffer.txt
+         228 100%    0.31kB/s    0:00:00
+         228 100%    0.31kB/s    0:00:00 (xfer#20, to-check=72/110)
+>f+++++++ Run_486_Fast/Run_486_Fast_log/Run_486_Fast_MID_15_buffer.txt
+         228 100%    0.31kB/s    0:00:00
+         228 100%    0.31kB/s    0:00:00 (xfer#21, to-check=71/110)
+>f+++++++ Run_486_Fast/Run_486_Fast_log/Run_486_Fast_MID_1_buffer.txt
+         228 100%    0.31kB/s    0:00:00
+         228 100%    0.31kB/s    0:00:00 (xfer#22, to-check=70/110)
+>f+++++++ Run_486_Fast/Run_486_Fast_log/Run_486_Fast_MID_2_buffer.txt
+         228 100%    0.31kB/s    0:00:00
+         228 100%    0.31kB/s    0:00:00 (xfer#23, to-check=69/110)
+>f+++++++ Run_486_Fast/Run_486_Fast_log/Run_486_Fast_MID_3_buffer.txt
+         228 100%    0.31kB/s    0:00:00
+         228 100%    0.31kB/s    0:00:00 (xfer#24, to-check=68/110)
+>f+++++++ Run_486_Fast/Run_486_Fast_log/Run_486_Fast_MID_4_buffer.txt
+         228 100%    0.31kB/s    0:00:00
+         228 100%    0.31kB/s    0:00:00 (xfer#25, to-check=67/110)
+>f+++++++ Run_486_Fast/Run_486_Fast_log/Run_486_Fast_MID_5_buffer.txt
+         228 100%    0.31kB/s    0:00:00
+         228 100%    0.31kB/s    0:00:00 (xfer#26, to-check=66/110)
+>f+++++++ Run_486_Fast/Run_486_Fast_log/Run_486_Fast_MID_6_buffer.txt
+         228 100%    0.31kB/s    0:00:00
+         228 100%    0.31kB/s    0:00:00 (xfer#27, to-check=65/110)
+>f+++++++ Run_486_Fast/Run_486_Fast_log/Run_486_Fast_MID_7_buffer.txt
+         228 100%    0.31kB/s    0:00:00
+         228 100%    0.31kB/s    0:00:00 (xfer#28, to-check=64/110)
+>f+++++++ Run_486_Fast/Run_486_Fast_log/Run_486_Fast_MID_8_buffer.txt
+         228 100%    0.31kB/s    0:00:00
+         228 100%    0.31kB/s    0:00:00 (xfer#29, to-check=63/110)
+>f+++++++ Run_486_Fast/Run_486_Fast_log/Run_486_Fast_MID_9_buffer.txt
+         228 100%    0.31kB/s    0:00:00
+         228 100%    0.31kB/s    0:00:00 (xfer#30, to-check=62/110)
+cd+++++++ Run_486_Wave/
+cd+++++++ Run_486_Wave/Run_486_Wave_MID_1/
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_1/Run_486_Wave_MID_1_FILE_0.dat
+      32.77K   0%   44.38kB/s    0:24:37
+      17.86M  27%   16.91MB/s    0:00:02
+      65.60M 100%   35.61MB/s    0:00:01 (xfer#31, to-check=59/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_1/Run_486_Wave_MID_1_FILE_1.dat
+      32.77K  25%   42.55kB/s    0:00:02
+     131.07K 100%  170.21kB/s    0:00:00 (xfer#32, to-check=58/110)
+cd+++++++ Run_486_Wave/Run_486_Wave_MID_10/
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_10/Run_486_Wave_MID_10_FILE_0.dat
+      32.77K   0%   42.44kB/s    0:25:44
+      16.55M  25%   15.78MB/s    0:00:03
+      65.60M 100%   36.39MB/s    0:00:01 (xfer#33, to-check=56/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_10/Run_486_Wave_MID_10_FILE_1.dat
+      32.77K  25%   44.38kB/s    0:00:02
+     131.07K 100%  177.29kB/s    0:00:00 (xfer#34, to-check=55/110)
+cd+++++++ Run_486_Wave/Run_486_Wave_MID_11/
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_11/Run_486_Wave_MID_11_FILE_0.dat
+      32.77K   0%   44.20kB/s    0:24:43
+      18.64M  28%   17.54MB/s    0:00:02
+      65.60M 100%   33.82MB/s    0:00:01 (xfer#35, to-check=53/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_11/Run_486_Wave_MID_11_FILE_1.dat
+      32.77K  25%   38.14kB/s    0:00:02
+     131.07K 100%  152.56kB/s    0:00:00 (xfer#36, to-check=52/110)
+cd+++++++ Run_486_Wave/Run_486_Wave_MID_12/
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_12/Run_486_Wave_MID_12_FILE_0.dat
+      32.77K   0%   36.24kB/s    0:30:09
+       9.73M  14%    9.28MB/s    0:00:05
+      65.60M 100%   35.87MB/s    0:00:01 (xfer#37, to-check=50/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_12/Run_486_Wave_MID_12_FILE_1.dat
+      32.77K  25%   42.27kB/s    0:00:02
+     131.07K 100%  169.09kB/s    0:00:00 (xfer#38, to-check=49/110)
+cd+++++++ Run_486_Wave/Run_486_Wave_MID_13/
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_13/Run_486_Wave_MID_13_FILE_0.dat
+      32.77K   0%   42.16kB/s    0:25:55
+      10.78M  16%   10.22MB/s    0:00:05
+      65.54M  99%   31.17MB/s    0:00:00
+      65.60M 100%   31.17MB/s    0:00:02 (xfer#39, to-check=47/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_13/Run_486_Wave_MID_13_FILE_1.dat
+      32.77K  25%    7.81MB/s    0:00:00
+     131.07K 100%   31.25MB/s    0:00:00 (xfer#40, to-check=46/110)
+cd+++++++ Run_486_Wave/Run_486_Wave_MID_14/
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_14/Run_486_Wave_MID_14_FILE_0.dat
+      32.77K   0%    4.46MB/s    0:00:14
+      65.60M 100%   63.45MB/s    0:00:00 (xfer#41, to-check=44/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_14/Run_486_Wave_MID_14_FILE_1.dat
+      32.77K  25%   32.39kB/s    0:00:03
+     131.07K 100%  129.55kB/s    0:00:00 (xfer#42, to-check=43/110)
+cd+++++++ Run_486_Wave/Run_486_Wave_MID_15/
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_15/Run_486_Wave_MID_15_FILE_0.dat
+      32.77K   0%   32.29kB/s    0:33:50
+     819.20K   1%  799.20kB/s    0:01:21
+      49.58M  75%   23.61MB/s    0:00:00
+      65.60M 100%   28.50MB/s    0:00:02 (xfer#43, to-check=41/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_15/Run_486_Wave_MID_15_FILE_1.dat
+      32.77K  25%  164.95kB/s    0:00:00
+     131.07K 100%  659.79kB/s    0:00:00 (xfer#44, to-check=40/110)
+cd+++++++ Run_486_Wave/Run_486_Wave_MID_2/
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_2/Run_486_Wave_MID_2_FILE_0.dat
+      32.77K   0%  162.44kB/s    0:06:43
+      45.38M  69%   43.28MB/s    0:00:00
+      65.60M 100%   46.24MB/s    0:00:01 (xfer#45, to-check=38/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_2/Run_486_Wave_MID_2_FILE_1.dat
+      32.77K  25%   90.40kB/s    0:00:01
+     131.07K 100%  361.58kB/s    0:00:00 (xfer#46, to-check=37/110)
+cd+++++++ Run_486_Wave/Run_486_Wave_MID_3/
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_3/Run_486_Wave_MID_3_FILE_0.dat
+      32.77K   0%   89.64kB/s    0:12:11
+      53.51M  81%   51.03MB/s    0:00:00
+      65.60M 100%   51.70MB/s    0:00:01 (xfer#47, to-check=35/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_3/Run_486_Wave_MID_3_FILE_1.dat
+      32.77K  25%  150.23kB/s    0:00:00
+     131.07K 100%  598.13kB/s    0:00:00 (xfer#48, to-check=34/110)
+cd+++++++ Run_486_Wave/Run_486_Wave_MID_4/
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_4/Run_486_Wave_MID_4_FILE_0.dat
+      32.77K   0%  148.15kB/s    0:07:22
+      41.71M  63%   39.74MB/s    0:00:00
+      65.60M 100%   48.50MB/s    0:00:01 (xfer#49, to-check=32/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_4/Run_486_Wave_MID_4_FILE_1.dat
+      32.77K  25%  109.97kB/s    0:00:00
+     131.07K 100%  438.36kB/s    0:00:00 (xfer#50, to-check=31/110)
+cd+++++++ Run_486_Wave/Run_486_Wave_MID_5/
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_5/Run_486_Wave_MID_5_FILE_0.dat
+      32.77K   0%  108.84kB/s    0:10:02
+      44.60M  67%   42.53MB/s    0:00:00
+      65.60M 100%   47.43MB/s    0:00:01 (xfer#51, to-check=29/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_5/Run_486_Wave_MID_5_FILE_1.dat
+      32.77K  25%   99.69kB/s    0:00:00
+     131.07K 100%  398.75kB/s    0:00:00 (xfer#52, to-check=28/110)
+cd+++++++ Run_486_Wave/Run_486_Wave_MID_6/
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_6/Run_486_Wave_MID_6_FILE_0.dat
+      32.77K   0%   98.46kB/s    0:11:05
+      41.45M  63%   39.53MB/s    0:00:00
+      65.60M 100%   43.51MB/s    0:00:01 (xfer#53, to-check=26/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_6/Run_486_Wave_MID_6_FILE_1.dat
+      32.77K  25%   72.89kB/s    0:00:01
+     131.07K 100%  291.57kB/s    0:00:00 (xfer#54, to-check=25/110)
+cd+++++++ Run_486_Wave/Run_486_Wave_MID_7/
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_7/Run_486_Wave_MID_7_FILE_0.dat
+      32.77K   0%   70.80kB/s    0:15:26
+      23.36M  35%   21.32MB/s    0:00:01
+      65.60M 100%   35.45MB/s    0:00:01 (xfer#55, to-check=23/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_7/Run_486_Wave_MID_7_FILE_1.dat
+      32.77K  25%   44.32kB/s    0:00:02
+     131.07K 100%  177.29kB/s    0:00:00 (xfer#56, to-check=22/110)
+cd+++++++ Run_486_Wave/Run_486_Wave_MID_8/
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_8/Run_486_Wave_MID_8_FILE_0.dat
+      32.77K   0%   44.14kB/s    0:24:45
+      18.38M  28%   17.53MB/s    0:00:02
+      65.60M 100%   37.60MB/s    0:00:01 (xfer#57, to-check=20/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_8/Run_486_Wave_MID_8_FILE_1.dat
+      32.77K  25%   47.98kB/s    0:00:02
+     131.07K 100%  191.90kB/s    0:00:00 (xfer#58, to-check=19/110)
+cd+++++++ Run_486_Wave/Run_486_Wave_MID_9/
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_9/Run_486_Wave_MID_9_FILE_0.dat
+      32.77K   0%   47.76kB/s    0:22:52
+      15.01M  22%   14.31MB/s    0:00:03
+      65.60M 100%   36.08MB/s    0:00:01 (xfer#59, to-check=17/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_MID_9/Run_486_Wave_MID_9_FILE_1.dat
+      32.77K  25%   43.42kB/s    0:00:02
+     131.07K 100%  173.68kB/s    0:00:00 (xfer#60, to-check=16/110)
+cd+++++++ Run_486_Wave/Run_486_Wave_log/
+>f+++++++ Run_486_Wave/Run_486_Wave_log/Run_486_Wave_MID_10_buffer.txt
+      15.03K 100%   19.71kB/s    0:00:00
+      15.03K 100%   19.71kB/s    0:00:00 (xfer#61, to-check=14/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_log/Run_486_Wave_MID_11_buffer.txt
+      14.96K 100%   19.23kB/s    0:00:00
+      14.96K 100%   19.23kB/s    0:00:00 (xfer#62, to-check=13/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_log/Run_486_Wave_MID_12_buffer.txt
+      15.01K 100%   19.23kB/s    0:00:00
+      15.01K 100%   19.23kB/s    0:00:00 (xfer#63, to-check=12/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_log/Run_486_Wave_MID_13_buffer.txt
+      14.96K 100%   19.13kB/s    0:00:00
+      14.96K 100%   19.13kB/s    0:00:00 (xfer#64, to-check=11/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_log/Run_486_Wave_MID_14_buffer.txt
+      15.05K 100%   19.21kB/s    0:00:00
+      15.05K 100%   19.21kB/s    0:00:00 (xfer#65, to-check=10/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_log/Run_486_Wave_MID_15_buffer.txt
+      14.95K 100%   19.06kB/s    0:00:00
+      14.95K 100%   19.06kB/s    0:00:00 (xfer#66, to-check=9/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_log/Run_486_Wave_MID_1_buffer.txt
+      15.01K 100%   19.11kB/s    0:00:00
+      15.01K 100%   19.11kB/s    0:00:00 (xfer#67, to-check=8/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_log/Run_486_Wave_MID_2_buffer.txt
+      15.02K 100%   19.10kB/s    0:00:00
+      15.02K 100%   19.10kB/s    0:00:00 (xfer#68, to-check=7/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_log/Run_486_Wave_MID_3_buffer.txt
+      14.98K 100%   17.68kB/s    0:00:00
+      14.98K 100%   17.68kB/s    0:00:00 (xfer#69, to-check=6/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_log/Run_486_Wave_MID_4_buffer.txt
+      14.95K 100%   17.61kB/s    0:00:00
+      14.95K 100%   17.61kB/s    0:00:00 (xfer#70, to-check=5/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_log/Run_486_Wave_MID_5_buffer.txt
+      14.99K 100%   17.62kB/s    0:00:00
+      14.99K 100%   17.62kB/s    0:00:00 (xfer#71, to-check=4/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_log/Run_486_Wave_MID_6_buffer.txt
+      15.02K 100%   17.63kB/s    0:00:00
+      15.02K 100%   17.63kB/s    0:00:00 (xfer#72, to-check=3/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_log/Run_486_Wave_MID_7_buffer.txt
+      14.95K 100%   17.53kB/s    0:00:00
+      14.95K 100%   17.53kB/s    0:00:00 (xfer#73, to-check=2/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_log/Run_486_Wave_MID_8_buffer.txt
+      15.02K 100%   17.59kB/s    0:00:00
+      15.02K 100%   17.59kB/s    0:00:00 (xfer#74, to-check=1/110)
+>f+++++++ Run_486_Wave/Run_486_Wave_log/Run_486_Wave_MID_9_buffer.txt
+      14.99K 100%   17.53kB/s    0:00:00
+      14.99K 100%   17.53kB/s    0:00:00 (xfer#75, to-check=0/110)
+
+sent 990.03M bytes  received 1.88K bytes  56.57M bytes/sec
+total size is 989.90M  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_486/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_486_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

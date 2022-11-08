@@ -1,0 +1,324 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_707/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_707[0m
+[94m[INFO][0m SSD data folder size = [96m[1m9.346 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [############--------------------------------------][0m [92m[1m24.966 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 3720.338 GB / Free : [4m11181.214 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_707/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_707/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_707.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_707/ /Volumes/HDD_16TB_1/HDD_Run_707/[0m`? [y/n] [94m[INFO][0m Execution of command `[35m[1mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_707.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_707/ /Volumes/HDD_16TB_1/HDD_Run_707/[0m` canceled, exiting...
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_707/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_707[0m
+[94m[INFO][0m SSD data folder size = [96m[1m9.346 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [############--------------------------------------][0m [92m[1m24.966 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 3720.338 GB / Free : [4m11181.214 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_707/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_707/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_707.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_707/ /Volumes/HDD_16TB_1/HDD_Run_707/[0m`? [y/n] building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_707
+cd+++++++ ./
+cd+++++++ Run_707_Fast/
+cd+++++++ Run_707_Fast/Run_707_Fast_MID_1/
+>f+++++++ Run_707_Fast/Run_707_Fast_MID_1/Run_707_Fast_MID_1_FILE_0.dat
+      32.77K   0%    0.00kB/s    0:00:00
+      10.29M 100%   74.67MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_707_Fast/Run_707_Fast_MID_10/
+>f+++++++ Run_707_Fast/Run_707_Fast_MID_10/Run_707_Fast_MID_10_FILE_0.dat
+      32.77K   0%  242.42kB/s    0:00:42
+      10.29M 100%   32.07MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_707_Fast/Run_707_Fast_MID_11/
+>f+++++++ Run_707_Fast/Run_707_Fast_MID_11/Run_707_Fast_MID_11_FILE_0.dat
+      32.77K   0%  104.23kB/s    0:01:38
+      10.29M 100%   24.35MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_707_Fast/Run_707_Fast_MID_12/
+>f+++++++ Run_707_Fast/Run_707_Fast_MID_12/Run_707_Fast_MID_12_FILE_0.dat
+      32.77K   0%   78.43kB/s    0:02:10
+      10.29M 100%   18.80MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_707_Fast/Run_707_Fast_MID_13/
+>f+++++++ Run_707_Fast/Run_707_Fast_MID_13/Run_707_Fast_MID_13_FILE_0.dat
+      32.77K   0%   61.19kB/s    0:02:47
+      10.29M 100%   15.48MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_707_Fast/Run_707_Fast_MID_14/
+>f+++++++ Run_707_Fast/Run_707_Fast_MID_14/Run_707_Fast_MID_14_FILE_0.dat
+      32.77K   0%   50.39kB/s    0:03:23
+      10.29M 100%   12.63MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_707_Fast/Run_707_Fast_MID_15/
+>f+++++++ Run_707_Fast/Run_707_Fast_MID_15/Run_707_Fast_MID_15_FILE_0.dat
+      32.77K   0%   41.13kB/s    0:04:09
+      10.29M 100%   10.87MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_707_Fast/Run_707_Fast_MID_2/
+>f+++++++ Run_707_Fast/Run_707_Fast_MID_2/Run_707_Fast_MID_2_FILE_0.dat
+      32.77K   0%   35.40kB/s    0:04:49
+       7.63M  74%    7.28MB/s    0:00:00
+      10.29M 100%    9.54MB/s    0:00:01 (xfer#8, to-check=77/95)
+cd+++++++ Run_707_Fast/Run_707_Fast_MID_3/
+>f+++++++ Run_707_Fast/Run_707_Fast_MID_3/Run_707_Fast_MID_3_FILE_0.dat
+      32.77K   0%    1.01MB/s    0:00:09
+      10.29M 100%   62.50MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_707_Fast/Run_707_Fast_MID_4/
+>f+++++++ Run_707_Fast/Run_707_Fast_MID_4/Run_707_Fast_MID_4_FILE_0.dat
+      32.77K   0%  202.53kB/s    0:00:50
+      10.29M 100%   31.45MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_707_Fast/Run_707_Fast_MID_5/
+>f+++++++ Run_707_Fast/Run_707_Fast_MID_5/Run_707_Fast_MID_5_FILE_0.dat
+      32.77K   0%  101.91kB/s    0:01:40
+      10.29M 100%   22.51MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_707_Fast/Run_707_Fast_MID_6/
+>f+++++++ Run_707_Fast/Run_707_Fast_MID_6/Run_707_Fast_MID_6_FILE_0.dat
+      32.77K   0%   73.06kB/s    0:02:20
+      10.29M 100%   17.21MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_707_Fast/Run_707_Fast_MID_7/
+>f+++++++ Run_707_Fast/Run_707_Fast_MID_7/Run_707_Fast_MID_7_FILE_0.dat
+      32.77K   0%   56.04kB/s    0:03:03
+      10.29M 100%   14.37MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_707_Fast/Run_707_Fast_MID_8/
+>f+++++++ Run_707_Fast/Run_707_Fast_MID_8/Run_707_Fast_MID_8_FILE_0.dat
+      32.77K   0%   46.24kB/s    0:03:41
+      10.29M 100%   11.59MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_707_Fast/Run_707_Fast_MID_9/
+>f+++++++ Run_707_Fast/Run_707_Fast_MID_9/Run_707_Fast_MID_9_FILE_0.dat
+      32.77K   0%   37.74kB/s    0:04:31
+      10.29M 100%   10.10MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_707_Fast/Run_707_Fast_log/
+>f+++++++ Run_707_Fast/Run_707_Fast_log/Run_707_Fast_MID_10_buffer.txt
+       9.86K 100%    9.90kB/s    0:00:00
+       9.86K 100%    9.90kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_707_Fast/Run_707_Fast_log/Run_707_Fast_MID_11_buffer.txt
+       9.86K 100%    9.79kB/s    0:00:00
+       9.86K 100%    9.79kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_707_Fast/Run_707_Fast_log/Run_707_Fast_MID_12_buffer.txt
+       9.86K 100%    9.68kB/s    0:00:00
+       9.86K 100%    9.68kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_707_Fast/Run_707_Fast_log/Run_707_Fast_MID_13_buffer.txt
+       9.86K 100%    9.67kB/s    0:00:00
+       9.86K 100%    9.67kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_707_Fast/Run_707_Fast_log/Run_707_Fast_MID_14_buffer.txt
+       9.86K 100%    9.57kB/s    0:00:00
+       9.86K 100%    9.57kB/s    0:00:01 (xfer#20, to-check=57/95)
+>f+++++++ Run_707_Fast/Run_707_Fast_log/Run_707_Fast_MID_15_buffer.txt
+       9.86K 100%    9.35kB/s    0:00:00
+       9.86K 100%    9.35kB/s    0:00:01 (xfer#21, to-check=56/95)
+>f+++++++ Run_707_Fast/Run_707_Fast_log/Run_707_Fast_MID_1_buffer.txt
+       9.86K 100%    9.14kB/s    0:00:00
+       9.86K 100%    9.14kB/s    0:00:01 (xfer#22, to-check=55/95)
+>f+++++++ Run_707_Fast/Run_707_Fast_log/Run_707_Fast_MID_2_buffer.txt
+       9.86K 100%    9.04kB/s    0:00:00
+       9.86K 100%    9.04kB/s    0:00:01 (xfer#23, to-check=54/95)
+>f+++++++ Run_707_Fast/Run_707_Fast_log/Run_707_Fast_MID_3_buffer.txt
+       9.86K 100%    8.94kB/s    0:00:00
+       9.86K 100%    8.94kB/s    0:00:01 (xfer#24, to-check=53/95)
+>f+++++++ Run_707_Fast/Run_707_Fast_log/Run_707_Fast_MID_4_buffer.txt
+       9.86K 100%    8.85kB/s    0:00:00
+       9.86K 100%    8.85kB/s    0:00:01 (xfer#25, to-check=52/95)
+>f+++++++ Run_707_Fast/Run_707_Fast_log/Run_707_Fast_MID_5_buffer.txt
+       9.86K 100%    8.84kB/s    0:00:00
+       9.86K 100%    8.84kB/s    0:00:01 (xfer#26, to-check=51/95)
+>f+++++++ Run_707_Fast/Run_707_Fast_log/Run_707_Fast_MID_6_buffer.txt
+       9.86K 100%    8.75kB/s    0:00:00
+       9.86K 100%    8.75kB/s    0:00:01 (xfer#27, to-check=50/95)
+>f+++++++ Run_707_Fast/Run_707_Fast_log/Run_707_Fast_MID_7_buffer.txt
+       9.86K 100%    8.57kB/s    0:00:00
+       9.86K 100%    8.57kB/s    0:00:01 (xfer#28, to-check=49/95)
+>f+++++++ Run_707_Fast/Run_707_Fast_log/Run_707_Fast_MID_8_buffer.txt
+       9.86K 100%    8.37kB/s    0:00:00
+       9.86K 100%    8.37kB/s    0:00:01 (xfer#29, to-check=48/95)
+>f+++++++ Run_707_Fast/Run_707_Fast_log/Run_707_Fast_MID_9_buffer.txt
+       9.86K 100%    8.28kB/s    0:00:00
+       9.86K 100%    8.28kB/s    0:00:01 (xfer#30, to-check=47/95)
+cd+++++++ Run_707_Wave/
+cd+++++++ Run_707_Wave/Run_707_Wave_MID_1/
+>f+++++++ Run_707_Wave/Run_707_Wave_MID_1/Run_707_Wave_MID_1_FILE_0.dat
+      32.77K   0%   27.10kB/s    6:45:04
+      65.54K   0%   54.15kB/s    3:22:41
+      95.72M  14%   41.85MB/s    0:00:13
+     216.69M  32%   64.97MB/s    0:00:06
+     311.95M  47%   71.17MB/s    0:00:04
+     410.03M  62%   97.74MB/s    0:00:02
+     511.21M  77%   99.06MB/s    0:00:01
+     630.19M  95%   98.59MB/s    0:00:00
+     658.57M 100%   84.91MB/s    0:00:07 (xfer#31, to-check=44/95)
+cd+++++++ Run_707_Wave/Run_707_Wave_MID_10/
+>f+++++++ Run_707_Wave/Run_707_Wave_MID_10/Run_707_Wave_MID_10_FILE_0.dat
+      32.77K   0%  146.79kB/s    1:14:46
+      84.44M  12%   80.53MB/s    0:00:06
+     200.31M  30%   95.52MB/s    0:00:04
+     331.91M  50%  105.51MB/s    0:00:03
+     462.29M  70%  110.25MB/s    0:00:01
+     592.48M  89%  121.16MB/s    0:00:00
+     658.57M 100%  114.07MB/s    0:00:05 (xfer#32, to-check=42/95)
+cd+++++++ Run_707_Wave/Run_707_Wave_MID_11/
+>f+++++++ Run_707_Wave/Run_707_Wave_MID_11/Run_707_Wave_MID_11_FILE_0.dat
+      32.77K   0%   62.75kB/s    2:54:55
+      54.00M   8%   51.50MB/s    0:00:11
+     177.47M  26%   84.67MB/s    0:00:05
+     308.25M  46%   98.05MB/s    0:00:03
+     438.60M  66%  104.65MB/s    0:00:02
+     560.96M  85%  120.96MB/s    0:00:00
+     658.57M 100%  108.55MB/s    0:00:05 (xfer#33, to-check=40/95)
+cd+++++++ Run_707_Wave/Run_707_Wave_MID_12/
+>f+++++++ Run_707_Wave/Run_707_Wave_MID_12/Run_707_Wave_MID_12_FILE_0.dat
+      32.77K   0%   40.46kB/s    4:31:18
+      18.15M   2%   17.31MB/s    0:00:36
+     127.37M  19%   60.76MB/s    0:00:08
+     234.03M  35%   74.45MB/s    0:00:05
+     353.93M  53%   84.45MB/s    0:00:03
+     483.85M  73%  111.11MB/s    0:00:01
+     614.56M  93%  116.24MB/s    0:00:00
+     658.57M 100%   99.19MB/s    0:00:06 (xfer#34, to-check=38/95)
+cd+++++++ Run_707_Wave/Run_707_Wave_MID_13/
+>f+++++++ Run_707_Wave/Run_707_Wave_MID_13/Run_707_Wave_MID_13_FILE_0.dat
+      32.77K   0%   94.67kB/s    1:55:55
+      81.56M  12%   77.78MB/s    0:00:07
+     199.52M  30%   95.19MB/s    0:00:04
+     329.55M  50%  104.80MB/s    0:00:03
+     457.74M  69%  109.19MB/s    0:00:01
+     587.24M  89%  120.59MB/s    0:00:00
+     658.57M 100%  113.29MB/s    0:00:05 (xfer#35, to-check=36/95)
+cd+++++++ Run_707_Wave/Run_707_Wave_MID_14/
+>f+++++++ Run_707_Wave/Run_707_Wave_MID_14/Run_707_Wave_MID_14_FILE_0.dat
+      32.77K   0%   58.50kB/s    3:07:36
+      48.82M   7%   46.56MB/s    0:00:12
+     168.07M  25%   79.74MB/s    0:00:06
+     298.42M  45%   94.58MB/s    0:00:03
+     403.47M  61%   95.98MB/s    0:00:02
+     533.76M  81%  115.36MB/s    0:00:01
+     658.57M 100%  105.29MB/s    0:00:05 (xfer#36, to-check=34/95)
+cd+++++++ Run_707_Wave/Run_707_Wave_MID_15/
+>f+++++++ Run_707_Wave/Run_707_Wave_MID_15/Run_707_Wave_MID_15_FILE_0.dat
+      32.77K   0%   33.44kB/s    5:28:14
+       3.57M   0%    3.41MB/s    0:03:07
+     127.50M  19%   60.83MB/s    0:00:08
+     249.07M  37%   79.23MB/s    0:00:05
+     379.88M  57%   90.62MB/s    0:00:03
+     509.90M  77%  120.78MB/s    0:00:01
+     640.19M  97%  122.26MB/s    0:00:00
+     658.57M 100%  102.34MB/s    0:00:06 (xfer#37, to-check=32/95)
+cd+++++++ Run_707_Wave/Run_707_Wave_MID_2/
+>f+++++++ Run_707_Wave/Run_707_Wave_MID_2/Run_707_Wave_MID_2_FILE_0.dat
+      32.77K   0%  226.95kB/s    0:48:21
+     101.32M  15%   96.62MB/s    0:00:05
+     222.95M  33%  106.37MB/s    0:00:03
+     345.28M  52%  109.83MB/s    0:00:02
+     471.86M  71%  112.58MB/s    0:00:01
+     574.46M  87%  112.89MB/s    0:00:00
+     658.57M 100%  107.88MB/s    0:00:05 (xfer#38, to-check=30/95)
+cd+++++++ Run_707_Wave/Run_707_Wave_MID_3/
+>f+++++++ Run_707_Wave/Run_707_Wave_MID_3/Run_707_Wave_MID_3_FILE_0.dat
+      32.77K   0%   38.69kB/s    4:43:39
+      12.09M   1%   11.53MB/s    0:00:54
+     125.86M  19%   60.05MB/s    0:00:08
+     247.50M  37%   78.70MB/s    0:00:05
+     378.31M  57%   90.22MB/s    0:00:03
+     508.85M  77%  118.47MB/s    0:00:01
+     639.14M  97%  122.41MB/s    0:00:00
+     658.57M 100%  102.19MB/s    0:00:06 (xfer#39, to-check=28/95)
+cd+++++++ Run_707_Wave/Run_707_Wave_MID_4/
+>f+++++++ Run_707_Wave/Run_707_Wave_MID_4/Run_707_Wave_MID_4_FILE_0.dat
+      32.77K   0%  214.77kB/s    0:51:06
+     103.51M  15%   98.72MB/s    0:00:05
+     224.69M  34%  107.19MB/s    0:00:03
+     354.58M  53%  112.79MB/s    0:00:02
+     484.97M  73%  115.71MB/s    0:00:01
+     615.28M  93%  122.08MB/s    0:00:00
+     658.57M 100%  117.90MB/s    0:00:05 (xfer#40, to-check=26/95)
+cd+++++++ Run_707_Wave/Run_707_Wave_MID_5/
+>f+++++++ Run_707_Wave/Run_707_Wave_MID_5/Run_707_Wave_MID_5_FILE_0.dat
+      32.77K   0%   96.68kB/s    1:53:31
+      78.84M  11%   75.19MB/s    0:00:07
+     199.79M  30%   95.31MB/s    0:00:04
+     323.22M  49%  102.82MB/s    0:00:03
+     454.07M  68%  108.31MB/s    0:00:01
+     584.65M  88%  120.65MB/s    0:00:00
+     658.57M 100%  112.86MB/s    0:00:05 (xfer#41, to-check=24/95)
+cd+++++++ Run_707_Wave/Run_707_Wave_MID_6/
+>f+++++++ Run_707_Wave/Run_707_Wave_MID_6/Run_707_Wave_MID_6_FILE_0.dat
+      32.77K   0%   56.14kB/s    3:15:30
+      48.27M   7%   46.03MB/s    0:00:12
+     158.47M  24%   75.60MB/s    0:00:06
+     277.28M  42%   88.20MB/s    0:00:04
+     407.31M  61%   97.18MB/s    0:00:02
+     537.69M  81%  116.78MB/s    0:00:01
+     658.57M 100%  106.04MB/s    0:00:05 (xfer#42, to-check=22/95)
+cd+++++++ Run_707_Wave/Run_707_Wave_MID_7/
+>f+++++++ Run_707_Wave/Run_707_Wave_MID_7/Run_707_Wave_MID_7_FILE_0.dat
+      32.77K   0%   34.48kB/s    5:18:17
+       3.44M   0%    3.21MB/s    0:03:19
+     116.42M  17%   54.94MB/s    0:00:09
+     242.32M  36%   76.52MB/s    0:00:05
+     373.00M  56%   88.51MB/s    0:00:03
+     498.76M  75%  118.15MB/s    0:00:01
+     625.25M  94%  121.37MB/s    0:00:00
+     658.57M 100%   98.94MB/s    0:00:06 (xfer#43, to-check=20/95)
+cd+++++++ Run_707_Wave/Run_707_Wave_MID_8/
+>f+++++++ Run_707_Wave/Run_707_Wave_MID_8/Run_707_Wave_MID_8_FILE_0.dat
+      32.77K   0%   96.68kB/s    1:53:31
+      67.04M  10%   63.94MB/s    0:00:09
+     174.36M  26%   83.10MB/s    0:00:05
+     287.87M  43%   91.51MB/s    0:00:03
+     418.61M  63%   99.80MB/s    0:00:02
+     550.01M  83%  115.15MB/s    0:00:00
+     658.57M 100%  107.75MB/s    0:00:05 (xfer#44, to-check=18/95)
+cd+++++++ Run_707_Wave/Run_707_Wave_MID_9/
+>f+++++++ Run_707_Wave/Run_707_Wave_MID_9/Run_707_Wave_MID_9_FILE_0.dat
+      32.77K   0%   38.55kB/s    4:44:40
+      10.42M   1%    9.94MB/s    0:01:03
+     136.12M  20%   64.94MB/s    0:00:07
+     256.93M  39%   81.73MB/s    0:00:04
+     387.22M  58%   92.39MB/s    0:00:02
+     517.51M  78%  120.96MB/s    0:00:01
+     648.31M  98%  122.15MB/s    0:00:00
+     658.57M 100%  103.40MB/s    0:00:06 (xfer#45, to-check=16/95)
+cd+++++++ Run_707_Wave/Run_707_Wave_log/
+>f+++++++ Run_707_Wave/Run_707_Wave_log/Run_707_Wave_MID_10_buffer.txt
+      32.77K  20%  405.06kB/s    0:00:00
+     157.32K 100%    1.90MB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_707_Wave/Run_707_Wave_log/Run_707_Wave_MID_11_buffer.txt
+      32.77K  20%  307.69kB/s    0:00:00
+     157.35K 100%    1.43MB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_707_Wave/Run_707_Wave_log/Run_707_Wave_MID_12_buffer.txt
+      32.77K  20%  162.44kB/s    0:00:00
+     157.10K 100%  778.76kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_707_Wave/Run_707_Wave_log/Run_707_Wave_MID_13_buffer.txt
+      32.77K  20%  150.94kB/s    0:00:00
+     157.32K 100%  721.27kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_707_Wave/Run_707_Wave_log/Run_707_Wave_MID_14_buffer.txt
+      32.77K  20%  140.97kB/s    0:00:00
+     157.34K 100%  673.89kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_707_Wave/Run_707_Wave_log/Run_707_Wave_MID_15_buffer.txt
+      32.77K  20%  133.33kB/s    0:00:00
+     157.04K 100%  636.33kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_707_Wave/Run_707_Wave_log/Run_707_Wave_MID_1_buffer.txt
+      32.77K  20%  125.98kB/s    0:00:00
+     156.99K 100%  601.23kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_707_Wave/Run_707_Wave_log/Run_707_Wave_MID_2_buffer.txt
+      32.77K  20%  119.85kB/s    0:00:01
+     157.40K 100%  573.53kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_707_Wave/Run_707_Wave_log/Run_707_Wave_MID_3_buffer.txt
+      32.77K  20%  111.89kB/s    0:00:01
+     157.04K 100%  534.36kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_707_Wave/Run_707_Wave_log/Run_707_Wave_MID_4_buffer.txt
+      32.77K  20%  107.02kB/s    0:00:01
+     157.04K 100%  511.20kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_707_Wave/Run_707_Wave_log/Run_707_Wave_MID_5_buffer.txt
+      32.77K  20%  101.27kB/s    0:00:01
+     157.29K 100%  484.55kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_707_Wave/Run_707_Wave_log/Run_707_Wave_MID_6_buffer.txt
+      32.77K  20%   97.26kB/s    0:00:01
+     156.89K 100%  465.68kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_707_Wave/Run_707_Wave_log/Run_707_Wave_MID_7_buffer.txt
+      32.77K  20%   90.40kB/s    0:00:01
+     157.02K 100%  431.95kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_707_Wave/Run_707_Wave_log/Run_707_Wave_MID_8_buffer.txt
+      32.77K  20%   86.96kB/s    0:00:01
+     157.34K 100%  417.53kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_707_Wave/Run_707_Wave_log/Run_707_Wave_MID_9_buffer.txt
+      32.77K  20%   78.24kB/s    0:00:01
+     157.02K 100%  374.92kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 10.04G bytes  received 1.55K bytes  104.01M bytes/sec
+total size is 10.04G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_707/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_707_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

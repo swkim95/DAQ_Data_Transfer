@@ -1,0 +1,237 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_407/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_407[0m
+[94m[INFO][0m SSD data folder size = [96m[1m0.474 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [--------------------------------------------------][0m [92m[1m0.143 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 21.26 GB / Free : [4m14880.292 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_407/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_407/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_407.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_407/ /Volumes/HDD_16TB_1/HDD_Run_407/[0m`? [y/n] building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_407
+cd+++++++ ./
+cd+++++++ Run_407_Fast/
+cd+++++++ Run_407_Fast/Run_407_Fast_MID_1/
+>f+++++++ Run_407_Fast/Run_407_Fast_MID_1/Run_407_Fast_MID_1_FILE_0.dat
+      32.77K   3%    0.00kB/s    0:00:00
+       1.02M 100%  156.25MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_407_Fast/Run_407_Fast_MID_10/
+>f+++++++ Run_407_Fast/Run_407_Fast_MID_10/Run_407_Fast_MID_10_FILE_0.dat
+      32.77K   3%    4.46MB/s    0:00:00
+       1.02M 100%   69.20MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_407_Fast/Run_407_Fast_MID_11/
+>f+++++++ Run_407_Fast/Run_407_Fast_MID_11/Run_407_Fast_MID_11_FILE_0.dat
+      32.77K   3%    2.08MB/s    0:00:00
+       1.02M 100%   46.13MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_407_Fast/Run_407_Fast_MID_12/
+>f+++++++ Run_407_Fast/Run_407_Fast_MID_12/Run_407_Fast_MID_12_FILE_0.dat
+      32.77K   3%  820.51kB/s    0:00:01
+       1.02M 100%   19.38MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_407_Fast/Run_407_Fast_MID_13/
+>f+++++++ Run_407_Fast/Run_407_Fast_MID_13/Run_407_Fast_MID_13_FILE_0.dat
+      32.77K   3%   55.46kB/s    0:00:17
+       1.02M 100%    1.58MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_407_Fast/Run_407_Fast_MID_14/
+>f+++++++ Run_407_Fast/Run_407_Fast_MID_14/Run_407_Fast_MID_14_FILE_0.dat
+      32.77K   3%   51.86kB/s    0:00:18
+       1.02M 100%    1.54MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_407_Fast/Run_407_Fast_MID_15/
+>f+++++++ Run_407_Fast/Run_407_Fast_MID_15/Run_407_Fast_MID_15_FILE_0.dat
+      32.77K   3%   50.63kB/s    0:00:19
+       1.02M 100%    1.52MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_407_Fast/Run_407_Fast_MID_2/
+>f+++++++ Run_407_Fast/Run_407_Fast_MID_2/Run_407_Fast_MID_2_FILE_0.dat
+      32.77K   3%   50.08kB/s    0:00:19
+       1.02M 100%    1.50MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_407_Fast/Run_407_Fast_MID_3/
+>f+++++++ Run_407_Fast/Run_407_Fast_MID_3/Run_407_Fast_MID_3_FILE_0.dat
+      32.77K   3%   49.54kB/s    0:00:19
+       1.02M 100%    1.49MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_407_Fast/Run_407_Fast_MID_4/
+>f+++++++ Run_407_Fast/Run_407_Fast_MID_4/Run_407_Fast_MID_4_FILE_0.dat
+      32.77K   3%   49.00kB/s    0:00:20
+       1.02M 100%    1.47MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_407_Fast/Run_407_Fast_MID_5/
+>f+++++++ Run_407_Fast/Run_407_Fast_MID_5/Run_407_Fast_MID_5_FILE_0.dat
+      32.77K   3%   48.41kB/s    0:00:20
+       1.02M 100%    1.40MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_407_Fast/Run_407_Fast_MID_6/
+>f+++++++ Run_407_Fast/Run_407_Fast_MID_6/Run_407_Fast_MID_6_FILE_0.dat
+      32.77K   3%   45.71kB/s    0:00:21
+       1.02M 100%    1.36MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_407_Fast/Run_407_Fast_MID_7/
+>f+++++++ Run_407_Fast/Run_407_Fast_MID_7/Run_407_Fast_MID_7_FILE_0.dat
+      32.77K   3%   44.76kB/s    0:00:21
+       1.02M 100%    1.34MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_407_Fast/Run_407_Fast_MID_8/
+>f+++++++ Run_407_Fast/Run_407_Fast_MID_8/Run_407_Fast_MID_8_FILE_0.dat
+      32.77K   3%   44.20kB/s    0:00:22
+       1.02M 100%    1.33MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_407_Fast/Run_407_Fast_MID_9/
+>f+++++++ Run_407_Fast/Run_407_Fast_MID_9/Run_407_Fast_MID_9_FILE_0.dat
+      32.77K   3%   43.78kB/s    0:00:22
+       1.02M 100%    1.31MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_407_Fast/Run_407_Fast_log/
+>f+++++++ Run_407_Fast/Run_407_Fast_log/Run_407_Fast_MID_10_buffer.txt
+         979 100%    1.30kB/s    0:00:00
+         979 100%    1.30kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_407_Fast/Run_407_Fast_log/Run_407_Fast_MID_11_buffer.txt
+         979 100%    1.30kB/s    0:00:00
+         979 100%    1.30kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_407_Fast/Run_407_Fast_log/Run_407_Fast_MID_12_buffer.txt
+         979 100%    1.30kB/s    0:00:00
+         979 100%    1.30kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_407_Fast/Run_407_Fast_log/Run_407_Fast_MID_13_buffer.txt
+         979 100%    1.30kB/s    0:00:00
+         979 100%    1.30kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_407_Fast/Run_407_Fast_log/Run_407_Fast_MID_14_buffer.txt
+         979 100%    1.30kB/s    0:00:00
+         979 100%    1.30kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_407_Fast/Run_407_Fast_log/Run_407_Fast_MID_15_buffer.txt
+         979 100%    1.29kB/s    0:00:00
+         979 100%    1.29kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_407_Fast/Run_407_Fast_log/Run_407_Fast_MID_1_buffer.txt
+         979 100%    1.29kB/s    0:00:00
+         979 100%    1.29kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_407_Fast/Run_407_Fast_log/Run_407_Fast_MID_2_buffer.txt
+         979 100%    1.29kB/s    0:00:00
+         979 100%    1.29kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_407_Fast/Run_407_Fast_log/Run_407_Fast_MID_3_buffer.txt
+         979 100%    1.29kB/s    0:00:00
+         979 100%    1.29kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_407_Fast/Run_407_Fast_log/Run_407_Fast_MID_4_buffer.txt
+         979 100%    1.29kB/s    0:00:00
+         979 100%    1.29kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_407_Fast/Run_407_Fast_log/Run_407_Fast_MID_5_buffer.txt
+         979 100%    1.29kB/s    0:00:00
+         979 100%    1.29kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_407_Fast/Run_407_Fast_log/Run_407_Fast_MID_6_buffer.txt
+         979 100%    1.29kB/s    0:00:00
+         979 100%    1.29kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_407_Fast/Run_407_Fast_log/Run_407_Fast_MID_7_buffer.txt
+         979 100%    1.29kB/s    0:00:00
+         979 100%    1.29kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_407_Fast/Run_407_Fast_log/Run_407_Fast_MID_8_buffer.txt
+         979 100%    1.29kB/s    0:00:00
+         979 100%    1.29kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_407_Fast/Run_407_Fast_log/Run_407_Fast_MID_9_buffer.txt
+         979 100%    1.29kB/s    0:00:00
+         979 100%    1.29kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_407_Wave/
+cd+++++++ Run_407_Wave/Run_407_Wave_MID_1/
+>f+++++++ Run_407_Wave/Run_407_Wave_MID_1/Run_407_Wave_MID_1_FILE_0.dat
+      32.77K   0%   42.95kB/s    0:12:45
+      22.81M  69%   21.75MB/s    0:00:00
+      32.90M 100%   29.00MB/s    0:00:01 (xfer#31, to-check=44/95)
+cd+++++++ Run_407_Wave/Run_407_Wave_MID_10/
+>f+++++++ Run_407_Wave/Run_407_Wave_MID_10/Run_407_Wave_MID_10_FILE_0.dat
+      32.77K   0%  380.95kB/s    0:01:26
+      32.90M 100%   75.24MB/s    0:00:00 (xfer#32, to-check=42/95)
+cd+++++++ Run_407_Wave/Run_407_Wave_MID_11/
+>f+++++++ Run_407_Wave/Run_407_Wave_MID_11/Run_407_Wave_MID_11_FILE_0.dat
+      32.77K   0%   76.37kB/s    0:07:10
+      32.90M 100%   45.01MB/s    0:00:00 (xfer#33, to-check=40/95)
+cd+++++++ Run_407_Wave/Run_407_Wave_MID_12/
+>f+++++++ Run_407_Wave/Run_407_Wave_MID_12/Run_407_Wave_MID_12_FILE_0.dat
+      32.77K   0%   45.85kB/s    0:11:56
+      28.34M  86%   27.00MB/s    0:00:00
+      32.90M 100%   29.66MB/s    0:00:01 (xfer#34, to-check=38/95)
+cd+++++++ Run_407_Wave/Run_407_Wave_MID_13/
+>f+++++++ Run_407_Wave/Run_407_Wave_MID_13/Run_407_Wave_MID_13_FILE_0.dat
+      32.77K   0%  551.72kB/s    0:00:59
+      32.90M 100%   77.66MB/s    0:00:00 (xfer#35, to-check=36/95)
+cd+++++++ Run_407_Wave/Run_407_Wave_MID_14/
+>f+++++++ Run_407_Wave/Run_407_Wave_MID_14/Run_407_Wave_MID_14_FILE_0.dat
+      32.77K   0%   76.56kB/s    0:07:09
+      32.90M 100%   42.51MB/s    0:00:00 (xfer#36, to-check=34/95)
+cd+++++++ Run_407_Wave/Run_407_Wave_MID_15/
+>f+++++++ Run_407_Wave/Run_407_Wave_MID_15/Run_407_Wave_MID_15_FILE_0.dat
+      32.77K   0%   43.30kB/s    0:12:39
+      32.01M  97%   30.53MB/s    0:00:00
+      32.90M 100%   31.22MB/s    0:00:01 (xfer#37, to-check=32/95)
+cd+++++++ Run_407_Wave/Run_407_Wave_MID_2/
+>f+++++++ Run_407_Wave/Run_407_Wave_MID_2/Run_407_Wave_MID_2_FILE_0.dat
+      32.77K   0%    4.46MB/s    0:00:07
+      32.90M 100%   90.42MB/s    0:00:00 (xfer#38, to-check=30/95)
+cd+++++++ Run_407_Wave/Run_407_Wave_MID_3/
+>f+++++++ Run_407_Wave/Run_407_Wave_MID_3/Run_407_Wave_MID_3_FILE_0.dat
+      32.77K   0%   91.95kB/s    0:05:57
+      32.90M 100%   45.54MB/s    0:00:00 (xfer#39, to-check=28/95)
+cd+++++++ Run_407_Wave/Run_407_Wave_MID_4/
+>f+++++++ Run_407_Wave/Run_407_Wave_MID_4/Run_407_Wave_MID_4_FILE_0.dat
+      32.77K   0%   46.38kB/s    0:11:48
+      32.90M 100%   31.44MB/s    0:00:00 (xfer#40, to-check=26/95)
+cd+++++++ Run_407_Wave/Run_407_Wave_MID_5/
+>f+++++++ Run_407_Wave/Run_407_Wave_MID_5/Run_407_Wave_MID_5_FILE_0.dat
+      32.77K   0%   31.65kB/s    0:17:18
+      65.54K   0%   63.30kB/s    0:08:38
+      32.90M 100%   24.13MB/s    0:00:01 (xfer#41, to-check=24/95)
+cd+++++++ Run_407_Wave/Run_407_Wave_MID_6/
+>f+++++++ Run_407_Wave/Run_407_Wave_MID_6/Run_407_Wave_MID_6_FILE_0.dat
+      32.77K   0%  110.73kB/s    0:04:56
+      32.90M 100%   48.05MB/s    0:00:00 (xfer#42, to-check=22/95)
+cd+++++++ Run_407_Wave/Run_407_Wave_MID_7/
+>f+++++++ Run_407_Wave/Run_407_Wave_MID_7/Run_407_Wave_MID_7_FILE_0.dat
+      32.77K   0%   48.93kB/s    0:11:11
+      32.90M 100%   34.07MB/s    0:00:00 (xfer#43, to-check=20/95)
+cd+++++++ Run_407_Wave/Run_407_Wave_MID_8/
+>f+++++++ Run_407_Wave/Run_407_Wave_MID_8/Run_407_Wave_MID_8_FILE_0.dat
+      32.77K   0%   34.71kB/s    0:15:46
+       7.11M  21%    6.78MB/s    0:00:03
+      32.90M 100%   25.76MB/s    0:00:01 (xfer#44, to-check=18/95)
+cd+++++++ Run_407_Wave/Run_407_Wave_MID_9/
+>f+++++++ Run_407_Wave/Run_407_Wave_MID_9/Run_407_Wave_MID_9_FILE_0.dat
+      32.77K   0%  146.12kB/s    0:03:44
+      32.90M 100%   55.14MB/s    0:00:00 (xfer#45, to-check=16/95)
+cd+++++++ Run_407_Wave/Run_407_Wave_log/
+>f+++++++ Run_407_Wave/Run_407_Wave_log/Run_407_Wave_MID_10_buffer.txt
+       7.92K 100%   13.60kB/s    0:00:00
+       7.92K 100%   13.60kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_407_Wave/Run_407_Wave_log/Run_407_Wave_MID_11_buffer.txt
+       7.92K 100%   13.41kB/s    0:00:00
+       7.92K 100%   13.41kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_407_Wave/Run_407_Wave_log/Run_407_Wave_MID_12_buffer.txt
+       7.92K 100%   13.20kB/s    0:00:00
+       7.92K 100%   13.20kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_407_Wave/Run_407_Wave_log/Run_407_Wave_MID_13_buffer.txt
+       7.92K 100%   13.00kB/s    0:00:00
+       7.92K 100%   13.00kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_407_Wave/Run_407_Wave_log/Run_407_Wave_MID_14_buffer.txt
+       7.92K 100%   12.98kB/s    0:00:00
+       7.92K 100%   12.98kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_407_Wave/Run_407_Wave_log/Run_407_Wave_MID_15_buffer.txt
+       7.92K 100%   12.77kB/s    0:00:00
+       7.92K 100%   12.77kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_407_Wave/Run_407_Wave_log/Run_407_Wave_MID_1_buffer.txt
+       7.92K 100%   12.58kB/s    0:00:00
+       7.92K 100%   12.58kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_407_Wave/Run_407_Wave_log/Run_407_Wave_MID_2_buffer.txt
+       7.92K 100%   12.20kB/s    0:00:00
+       7.92K 100%   12.20kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_407_Wave/Run_407_Wave_log/Run_407_Wave_MID_3_buffer.txt
+       7.92K 100%   12.20kB/s    0:00:00
+       7.92K 100%   12.20kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_407_Wave/Run_407_Wave_log/Run_407_Wave_MID_4_buffer.txt
+       7.92K 100%   12.18kB/s    0:00:00
+       7.92K 100%   12.18kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_407_Wave/Run_407_Wave_log/Run_407_Wave_MID_5_buffer.txt
+       7.92K 100%   12.18kB/s    0:00:00
+       7.92K 100%   12.18kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_407_Wave/Run_407_Wave_log/Run_407_Wave_MID_6_buffer.txt
+       7.92K 100%   12.17kB/s    0:00:00
+       7.92K 100%   12.17kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_407_Wave/Run_407_Wave_log/Run_407_Wave_MID_7_buffer.txt
+       7.92K 100%   12.17kB/s    0:00:00
+       7.92K 100%   12.17kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_407_Wave/Run_407_Wave_log/Run_407_Wave_MID_8_buffer.txt
+       7.92K 100%   12.15kB/s    0:00:00
+       7.92K 100%   12.15kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_407_Wave/Run_407_Wave_log/Run_407_Wave_MID_9_buffer.txt
+       7.92K 100%   12.15kB/s    0:00:00
+       7.92K 100%   12.15kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 508.92M bytes  received 1.55K bytes  78.30M bytes/sec
+total size is 508.86M  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_407/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_407_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

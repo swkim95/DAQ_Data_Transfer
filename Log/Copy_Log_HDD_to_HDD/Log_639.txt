@@ -1,0 +1,284 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_639/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_639[0m
+[94m[INFO][0m SSD data folder size = [96m[1m4.633 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [#####---------------------------------------------][0m [92m[1m10.155 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 1513.306 GB / Free : [4m13388.247 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_639/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_639/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_639.txt --progress /Volumes/HDD_16TB_1/HDD_Run_639/ /Volumes/HDD_16TB_2/HDD_Run_639/[0m`? [y/n] 
+building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_639
+cd+++++++ ./
+cd+++++++ Run_639_Fast/
+cd+++++++ Run_639_Fast/Run_639_Fast_MID_1/
+>f+++++++ Run_639_Fast/Run_639_Fast_MID_1/Run_639_Fast_MID_1_FILE_0.dat
+      32.77K   2%    0.00kB/s    0:00:00
+       1.28M 100%   42.41MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_639_Fast/Run_639_Fast_MID_10/
+>f+++++++ Run_639_Fast/Run_639_Fast_MID_10/Run_639_Fast_MID_10_FILE_0.dat
+      32.77K   2%  359.55kB/s    0:00:03
+       1.28M 100%   11.28MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_639_Fast/Run_639_Fast_MID_11/
+>f+++++++ Run_639_Fast/Run_639_Fast_MID_11/Run_639_Fast_MID_11_FILE_0.dat
+      32.77K   2%  271.19kB/s    0:00:04
+       1.28M 100%    8.96MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_639_Fast/Run_639_Fast_MID_12/
+>f+++++++ Run_639_Fast/Run_639_Fast_MID_12/Run_639_Fast_MID_12_FILE_0.dat
+      32.77K   2%  230.22kB/s    0:00:05
+       1.28M 100%    7.81MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_639_Fast/Run_639_Fast_MID_13/
+>f+++++++ Run_639_Fast/Run_639_Fast_MID_13/Run_639_Fast_MID_13_FILE_0.dat
+      32.77K   2%  203.82kB/s    0:00:06
+       1.28M 100%    6.96MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_639_Fast/Run_639_Fast_MID_14/
+>f+++++++ Run_639_Fast/Run_639_Fast_MID_14/Run_639_Fast_MID_14_FILE_0.dat
+      32.77K   2%  180.79kB/s    0:00:06
+       1.28M 100%    6.12MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_639_Fast/Run_639_Fast_MID_15/
+>f+++++++ Run_639_Fast/Run_639_Fast_MID_15/Run_639_Fast_MID_15_FILE_0.dat
+      32.77K   2%  159.20kB/s    0:00:07
+       1.28M 100%    5.47MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_639_Fast/Run_639_Fast_MID_2/
+>f+++++++ Run_639_Fast/Run_639_Fast_MID_2/Run_639_Fast_MID_2_FILE_0.dat
+      32.77K   2%  142.22kB/s    0:00:08
+       1.28M 100%    4.82MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_639_Fast/Run_639_Fast_MID_3/
+>f+++++++ Run_639_Fast/Run_639_Fast_MID_3/Run_639_Fast_MID_3_FILE_0.dat
+      32.77K   2%  125.49kB/s    0:00:09
+       1.28M 100%    4.20MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_639_Fast/Run_639_Fast_MID_4/
+>f+++++++ Run_639_Fast/Run_639_Fast_MID_4/Run_639_Fast_MID_4_FILE_0.dat
+      32.77K   2%  107.02kB/s    0:00:11
+       1.28M 100%    3.80MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_639_Fast/Run_639_Fast_MID_5/
+>f+++++++ Run_639_Fast/Run_639_Fast_MID_5/Run_639_Fast_MID_5_FILE_0.dat
+      32.77K   2%   99.07kB/s    0:00:12
+       1.28M 100%    3.62MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_639_Fast/Run_639_Fast_MID_6/
+>f+++++++ Run_639_Fast/Run_639_Fast_MID_6/Run_639_Fast_MID_6_FILE_0.dat
+      32.77K   2%   94.40kB/s    0:00:13
+       1.28M 100%    3.41MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_639_Fast/Run_639_Fast_MID_7/
+>f+++++++ Run_639_Fast/Run_639_Fast_MID_7/Run_639_Fast_MID_7_FILE_0.dat
+      32.77K   2%   89.14kB/s    0:00:13
+       1.28M 100%    3.17MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_639_Fast/Run_639_Fast_MID_8/
+>f+++++++ Run_639_Fast/Run_639_Fast_MID_8/Run_639_Fast_MID_8_FILE_0.dat
+      32.77K   2%   82.90kB/s    0:00:15
+       1.28M 100%    2.95MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_639_Fast/Run_639_Fast_MID_9/
+>f+++++++ Run_639_Fast/Run_639_Fast_MID_9/Run_639_Fast_MID_9_FILE_0.dat
+      32.77K   2%   77.11kB/s    0:00:16
+       1.28M 100%    2.80MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_639_Fast/Run_639_Fast_log/
+>f+++++++ Run_639_Fast/Run_639_Fast_log/Run_639_Fast_MID_10_buffer.txt
+       1.24K 100%    2.77kB/s    0:00:00
+       1.24K 100%    2.77kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_639_Fast/Run_639_Fast_log/Run_639_Fast_MID_11_buffer.txt
+       1.24K 100%    2.77kB/s    0:00:00
+       1.24K 100%    2.77kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_639_Fast/Run_639_Fast_log/Run_639_Fast_MID_12_buffer.txt
+       1.24K 100%    2.77kB/s    0:00:00
+       1.24K 100%    2.77kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_639_Fast/Run_639_Fast_log/Run_639_Fast_MID_13_buffer.txt
+       1.24K 100%    2.76kB/s    0:00:00
+       1.24K 100%    2.76kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_639_Fast/Run_639_Fast_log/Run_639_Fast_MID_14_buffer.txt
+       1.24K 100%    2.76kB/s    0:00:00
+       1.24K 100%    2.76kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_639_Fast/Run_639_Fast_log/Run_639_Fast_MID_15_buffer.txt
+       1.24K 100%    2.75kB/s    0:00:00
+       1.24K 100%    2.75kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_639_Fast/Run_639_Fast_log/Run_639_Fast_MID_1_buffer.txt
+       1.24K 100%    2.75kB/s    0:00:00
+       1.24K 100%    2.75kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_639_Fast/Run_639_Fast_log/Run_639_Fast_MID_2_buffer.txt
+       1.24K 100%    2.68kB/s    0:00:00
+       1.24K 100%    2.68kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_639_Fast/Run_639_Fast_log/Run_639_Fast_MID_3_buffer.txt
+       1.24K 100%    2.68kB/s    0:00:00
+       1.24K 100%    2.68kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_639_Fast/Run_639_Fast_log/Run_639_Fast_MID_4_buffer.txt
+       1.24K 100%    2.67kB/s    0:00:00
+       1.24K 100%    2.67kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_639_Fast/Run_639_Fast_log/Run_639_Fast_MID_5_buffer.txt
+       1.24K 100%    2.67kB/s    0:00:00
+       1.24K 100%    2.67kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_639_Fast/Run_639_Fast_log/Run_639_Fast_MID_6_buffer.txt
+       1.24K 100%    2.67kB/s    0:00:00
+       1.24K 100%    2.67kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_639_Fast/Run_639_Fast_log/Run_639_Fast_MID_7_buffer.txt
+       1.24K 100%    2.50kB/s    0:00:00
+       1.24K 100%    2.50kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_639_Fast/Run_639_Fast_log/Run_639_Fast_MID_8_buffer.txt
+       1.24K 100%    2.50kB/s    0:00:00
+       1.24K 100%    2.50kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_639_Fast/Run_639_Fast_log/Run_639_Fast_MID_9_buffer.txt
+       1.24K 100%    2.50kB/s    0:00:00
+       1.24K 100%    2.50kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_639_Wave/
+cd+++++++ Run_639_Wave/Run_639_Wave_MID_1/
+>f+++++++ Run_639_Wave/Run_639_Wave_MID_1/Run_639_Wave_MID_1_FILE_0.dat
+      32.77K   0%   49.08kB/s    1:52:09
+      30.97M   9%   29.53MB/s    0:00:09
+     126.91M  38%   60.46MB/s    0:00:03
+     228.62M  69%   72.39MB/s    0:00:01
+     321.42M  97%   76.23MB/s    0:00:00
+     330.30M 100%   76.94MB/s    0:00:04 (xfer#31, to-check=44/95)
+cd+++++++ Run_639_Wave/Run_639_Wave_MID_10/
+>f+++++++ Run_639_Wave/Run_639_Wave_MID_10/Run_639_Wave_MID_10_FILE_0.dat
+      32.77K   0%  432.43kB/s    0:12:43
+      90.73M  27%   85.00MB/s    0:00:02
+     197.95M  59%   93.60MB/s    0:00:01
+     297.57M  90%   94.06MB/s    0:00:00
+     330.30M 100%   93.33MB/s    0:00:03 (xfer#32, to-check=42/95)
+cd+++++++ Run_639_Wave/Run_639_Wave_MID_11/
+>f+++++++ Run_639_Wave/Run_639_Wave_MID_11/Run_639_Wave_MID_11_FILE_0.dat
+      32.77K   0%   88.89kB/s    1:01:55
+      62.16M  18%   58.69MB/s    0:00:04
+     171.02M  51%   81.18MB/s    0:00:01
+     272.92M  82%   86.50MB/s    0:00:00
+     330.30M 100%   88.21MB/s    0:00:03 (xfer#33, to-check=40/95)
+cd+++++++ Run_639_Wave/Run_639_Wave_MID_12/
+>f+++++++ Run_639_Wave/Run_639_Wave_MID_12/Run_639_Wave_MID_12_FILE_0.dat
+      32.77K   0%   56.74kB/s    1:37:00
+      35.78M  10%   34.12MB/s    0:00:08
+     121.41M  36%   57.80MB/s    0:00:03
+     219.48M  66%   69.72MB/s    0:00:01
+     330.30M 100%   78.89MB/s    0:00:03 (xfer#34, to-check=38/95)
+cd+++++++ Run_639_Wave/Run_639_Wave_MID_13/
+>f+++++++ Run_639_Wave/Run_639_Wave_MID_13/Run_639_Wave_MID_13_FILE_0.dat
+      32.77K   0%   32.23kB/s    2:50:48
+     327.68K   0%  320.00kB/s    0:17:11
+      91.78M  27%   43.77MB/s    0:00:05
+     198.21M  60%   63.03MB/s    0:00:02
+     314.67M  95%   75.06MB/s    0:00:00
+     330.30M 100%   76.38MB/s    0:00:04 (xfer#35, to-check=36/95)
+cd+++++++ Run_639_Wave/Run_639_Wave_MID_14/
+>f+++++++ Run_639_Wave/Run_639_Wave_MID_14/Run_639_Wave_MID_14_FILE_0.dat
+      32.77K   0%  226.95kB/s    0:24:15
+      76.84M  23%   72.63MB/s    0:00:03
+     175.41M  53%   83.27MB/s    0:00:01
+     247.23M  74%   78.38MB/s    0:00:01
+     305.43M  92%   72.67MB/s    0:00:00
+     330.30M 100%   72.31MB/s    0:00:04 (xfer#36, to-check=34/95)
+cd+++++++ Run_639_Wave/Run_639_Wave_MID_15/
+>f+++++++ Run_639_Wave/Run_639_Wave_MID_15/Run_639_Wave_MID_15_FILE_0.dat
+      32.77K   0%   91.69kB/s    1:00:01
+      37.26M  11%   35.53MB/s    0:00:08
+     119.05M  36%   56.74MB/s    0:00:03
+     213.78M  64%   67.96MB/s    0:00:01
+     316.96M  95%   75.57MB/s    0:00:00
+     330.30M 100%   76.51MB/s    0:00:04 (xfer#37, to-check=32/95)
+cd+++++++ Run_639_Wave/Run_639_Wave_MID_2/
+>f+++++++ Run_639_Wave/Run_639_Wave_MID_2/Run_639_Wave_MID_2_FILE_0.dat
+      32.77K   0%  268.91kB/s    0:20:28
+      87.59M  26%   83.53MB/s    0:00:02
+     187.53M  56%   89.47MB/s    0:00:01
+     301.76M  91%   95.99MB/s    0:00:00
+     330.30M 100%   96.89MB/s    0:00:03 (xfer#38, to-check=30/95)
+cd+++++++ Run_639_Wave/Run_639_Wave_MID_3/
+>f+++++++ Run_639_Wave/Run_639_Wave_MID_3/Run_639_Wave_MID_3_FILE_0.dat
+      32.77K   0%  125.00kB/s    0:44:02
+      73.70M  22%   70.28MB/s    0:00:03
+     169.38M  51%   79.81MB/s    0:00:01
+     271.35M  82%   85.58MB/s    0:00:00
+     330.30M 100%   87.94MB/s    0:00:03 (xfer#39, to-check=28/95)
+cd+++++++ Run_639_Wave/Run_639_Wave_MID_4/
+>f+++++++ Run_639_Wave/Run_639_Wave_MID_4/Run_639_Wave_MID_4_FILE_0.dat
+      32.77K   0%   57.14kB/s    1:36:19
+      46.96M  14%   44.78MB/s    0:00:06
+     147.88M  44%   70.52MB/s    0:00:02
+     244.88M  74%   77.84MB/s    0:00:01
+     330.30M 100%   80.83MB/s    0:00:03 (xfer#40, to-check=26/95)
+cd+++++++ Run_639_Wave/Run_639_Wave_MID_5/
+>f+++++++ Run_639_Wave/Run_639_Wave_MID_5/Run_639_Wave_MID_5_FILE_0.dat
+      32.77K   0%   35.63kB/s    2:34:28
+       8.00M   2%    7.62MB/s    0:00:41
+     110.62M  33%   52.78MB/s    0:00:04
+     219.68M  66%   69.88MB/s    0:00:01
+     321.81M  97%   76.78MB/s    0:00:00
+     330.30M 100%   77.15MB/s    0:00:04 (xfer#41, to-check=24/95)
+cd+++++++ Run_639_Wave/Run_639_Wave_MID_6/
+>f+++++++ Run_639_Wave/Run_639_Wave_MID_6/Run_639_Wave_MID_6_FILE_0.dat
+      32.77K   0%  329.90kB/s    0:16:41
+      84.97M  25%   80.31MB/s    0:00:02
+     190.09M  57%   90.23MB/s    0:00:01
+     292.06M  88%   92.60MB/s    0:00:00
+     330.30M 100%   93.56MB/s    0:00:03 (xfer#42, to-check=22/95)
+cd+++++++ Run_639_Wave/Run_639_Wave_MID_7/
+>f+++++++ Run_639_Wave/Run_639_Wave_MID_7/Run_639_Wave_MID_7_FILE_0.dat
+      32.77K   0%   88.89kB/s    1:01:55
+      61.11M  18%   58.28MB/s    0:00:04
+     130.84M  39%   62.39MB/s    0:00:03
+     231.77M  70%   73.70MB/s    0:00:01
+     330.30M 100%   79.71MB/s    0:00:03 (xfer#43, to-check=20/95)
+cd+++++++ Run_639_Wave/Run_639_Wave_MID_8/
+>f+++++++ Run_639_Wave/Run_639_Wave_MID_8/Run_639_Wave_MID_8_FILE_0.dat
+      32.77K   0%   33.51kB/s    2:44:16
+       2.33M   0%    2.22MB/s    0:02:24
+     108.82M  32%   51.92MB/s    0:00:04
+     214.79M  65%   68.33MB/s    0:00:01
+     320.54M  97%   76.48MB/s    0:00:00
+     330.30M 100%   76.61MB/s    0:00:04 (xfer#44, to-check=18/95)
+cd+++++++ Run_639_Wave/Run_639_Wave_MID_9/
+>f+++++++ Run_639_Wave/Run_639_Wave_MID_9/Run_639_Wave_MID_9_FILE_0.dat
+      32.77K   0%  271.19kB/s    0:20:17
+      87.85M  26%   83.78MB/s    0:00:02
+     182.75M  55%   86.88MB/s    0:00:01
+     287.60M  87%   91.24MB/s    0:00:00
+     330.30M 100%   91.15MB/s    0:00:03 (xfer#45, to-check=16/95)
+cd+++++++ Run_639_Wave/Run_639_Wave_log/
+>f+++++++ Run_639_Wave/Run_639_Wave_log/Run_639_Wave_MID_10_buffer.txt
+      32.77K  42%   70.95kB/s    0:00:00
+      77.47K 100%  167.76kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_639_Wave/Run_639_Wave_log/Run_639_Wave_MID_11_buffer.txt
+      32.77K  42%   70.02kB/s    0:00:00
+      77.61K 100%  165.84kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_639_Wave/Run_639_Wave_log/Run_639_Wave_MID_12_buffer.txt
+      32.77K  42%   68.09kB/s    0:00:00
+      77.11K 100%  160.22kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_639_Wave/Run_639_Wave_log/Run_639_Wave_MID_13_buffer.txt
+      32.77K  42%   66.25kB/s    0:00:00
+      77.59K 100%  156.56kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_639_Wave/Run_639_Wave_log/Run_639_Wave_MID_14_buffer.txt
+      32.77K  42%   64.91kB/s    0:00:00
+      77.64K 100%  153.48kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_639_Wave/Run_639_Wave_log/Run_639_Wave_MID_15_buffer.txt
+      32.77K  42%   63.87kB/s    0:00:00
+      77.14K 100%  150.37kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_639_Wave/Run_639_Wave_log/Run_639_Wave_MID_1_buffer.txt
+      32.77K  42%   63.24kB/s    0:00:00
+      77.23K 100%  148.76kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_639_Wave/Run_639_Wave_log/Run_639_Wave_MID_2_buffer.txt
+      32.77K  42%   62.50kB/s    0:00:00
+      77.60K 100%  148.02kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_639_Wave/Run_639_Wave_log/Run_639_Wave_MID_3_buffer.txt
+      32.77K  42%   61.78kB/s    0:00:00
+      77.32K 100%  145.77kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_639_Wave/Run_639_Wave_log/Run_639_Wave_MID_4_buffer.txt
+      32.77K  42%   60.49kB/s    0:00:00
+      77.16K 100%  142.44kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_639_Wave/Run_639_Wave_log/Run_639_Wave_MID_5_buffer.txt
+      32.77K  42%   59.93kB/s    0:00:00
+      77.55K 100%  141.82kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_639_Wave/Run_639_Wave_log/Run_639_Wave_MID_6_buffer.txt
+      32.77K  42%   59.26kB/s    0:00:00
+      77.24K 100%  139.68kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_639_Wave/Run_639_Wave_log/Run_639_Wave_MID_7_buffer.txt
+      32.77K  42%   58.72kB/s    0:00:00
+      77.28K 100%  138.47kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_639_Wave/Run_639_Wave_log/Run_639_Wave_MID_8_buffer.txt
+      32.77K  42%   58.08kB/s    0:00:00
+      77.64K 100%  137.61kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_639_Wave/Run_639_Wave_log/Run_639_Wave_MID_9_buffer.txt
+      32.77K  42%   57.55kB/s    0:00:00
+      77.32K 100%  135.56kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 4.98G bytes  received 1.55K bytes  94.77M bytes/sec
+total size is 4.97G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_639/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_639_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

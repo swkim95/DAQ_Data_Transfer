@@ -1,0 +1,37 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_357/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_357[0m
+[94m[INFO][0m SSD data folder size = [96m[1m0.001 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [###############-----------------------------------][0m [92m[1m29.665 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 4420.605 GB / Free : [4m10480.948 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_357/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_357/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_357.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_357/ /Volumes/HDD_16TB_1/HDD_Run_357/[0m`? [y/n] 
+building file list ... 
+ 0 files...
+11 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_357
+cd+++++++ ./
+cd+++++++ Run_357_Fast/
+cd+++++++ Run_357_Fast/Run_357_Fast_MID_1/
+>f+++++++ Run_357_Fast/Run_357_Fast_MID_1/Run_357_Fast_MID_1_FILE_0.dat
+      16.38K 100%    0.00kB/s    0:00:00
+      16.38K 100%    0.00kB/s    0:00:00 (xfer#1, to-check=7/11)
+cd+++++++ Run_357_Fast/Run_357_Fast_log/
+>f+++++++ Run_357_Fast/Run_357_Fast_log/Run_357_Fast_MID_1_buffer.txt
+          13 100%   12.70kB/s    0:00:00
+          13 100%   12.70kB/s    0:00:00 (xfer#2, to-check=5/11)
+cd+++++++ Run_357_Wave/
+cd+++++++ Run_357_Wave/Run_357_Wave_MID_1/
+>f+++++++ Run_357_Wave/Run_357_Wave_MID_1/Run_357_Wave_MID_1_FILE_0.dat
+      32.77K   4%  450.70kB/s    0:00:01
+     786.43K 100%    8.43MB/s    0:00:00 (xfer#3, to-check=2/11)
+cd+++++++ Run_357_Wave/Run_357_Wave_log/
+>f+++++++ Run_357_Wave/Run_357_Wave_log/Run_357_Wave_MID_1_buffer.txt
+         155 100%    1.70kB/s    0:00:00
+         155 100%    1.70kB/s    0:00:00 (xfer#4, to-check=0/11)
+
+sent 803.66K bytes  received 150 bytes  1.61M bytes/sec
+total size is 802.98K  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_357/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_357_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

@@ -1,0 +1,471 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_690/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_690[0m
+[94m[INFO][0m SSD data folder size = [96m[1m10.742 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [###########---------------------------------------][0m [92m[1m22.657 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 3376.234 GB / Free : [4m11525.319 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_690/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_690/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_690.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_690/ /Volumes/HDD_16TB_1/HDD_Run_690/[0m`? [y/n] building file list ... 
+ 0 files...
+ 100 files...
+140 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_690
+cd+++++++ ./
+cd+++++++ Run_690_Fast/
+cd+++++++ Run_690_Fast/Run_690_Fast_MID_1/
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_1/Run_690_Fast_MID_1_FILE_0.dat
+      32.77K   0%    0.00kB/s    0:00:00
+      25.99M 100%   67.62MB/s    0:00:00 (xfer#1, to-check=136/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_1/Run_690_Fast_MID_1_FILE_1.dat
+      32.77K   0%   87.19kB/s    0:05:22
+      28.15M 100%   32.90MB/s    0:00:00 (xfer#2, to-check=135/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_1/Run_690_Fast_MID_1_FILE_2.dat
+      32.77K   0%   39.17kB/s    0:11:00
+      16.55M  63%   15.78MB/s    0:00:00
+      25.92M 100%   22.51MB/s    0:00:01 (xfer#3, to-check=134/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_1/Run_690_Fast_MID_1_FILE_3.dat
+      32.77K   0%  323.23kB/s    0:00:16
+       5.37M 100%   33.94MB/s    0:00:00 (xfer#4, to-check=133/140)
+cd+++++++ Run_690_Fast/Run_690_Fast_MID_10/
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_10/Run_690_Fast_MID_10_FILE_0.dat
+      32.77K   0%  192.77kB/s    0:02:13
+      25.77M 100%   52.63MB/s    0:00:00 (xfer#5, to-check=131/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_10/Run_690_Fast_MID_10_FILE_1.dat
+      32.77K   0%   68.52kB/s    0:06:20
+      26.10M 100%   31.87MB/s    0:00:00 (xfer#6, to-check=130/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_10/Run_690_Fast_MID_10_FILE_2.dat
+      32.77K   0%   40.92kB/s    0:10:53
+      15.73M  58%   15.00MB/s    0:00:00
+      26.77M 100%   23.68MB/s    0:00:01 (xfer#7, to-check=129/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_10/Run_690_Fast_MID_10_FILE_3.dat
+      32.77K   0%  405.06kB/s    0:00:16
+       6.78M 100%   36.75MB/s    0:00:00 (xfer#8, to-check=128/140)
+cd+++++++ Run_690_Fast/Run_690_Fast_MID_11/
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_11/Run_690_Fast_MID_11_FILE_0.dat
+      32.77K   0%  179.78kB/s    0:02:24
+      25.97M 100%   47.81MB/s    0:00:00 (xfer#9, to-check=126/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_11/Run_690_Fast_MID_11_FILE_1.dat
+      32.77K   0%   61.66kB/s    0:07:15
+      26.87M 100%   27.58MB/s    0:00:00 (xfer#10, to-check=125/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_11/Run_690_Fast_MID_11_FILE_2.dat
+      32.77K   0%   34.41kB/s    0:12:26
+       7.63M  29%    7.28MB/s    0:00:02
+      25.71M 100%   21.08MB/s    0:00:01 (xfer#11, to-check=124/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_11/Run_690_Fast_MID_11_FILE_3.dat
+      32.77K   0%  196.32kB/s    0:00:34
+       6.88M 100%   24.95MB/s    0:00:00 (xfer#12, to-check=123/140)
+cd+++++++ Run_690_Fast/Run_690_Fast_MID_12/
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_12/Run_690_Fast_MID_12_FILE_0.dat
+      32.77K   0%  121.21kB/s    0:03:35
+      26.20M 100%   44.22MB/s    0:00:00 (xfer#13, to-check=121/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_12/Run_690_Fast_MID_12_FILE_1.dat
+      32.77K   0%   56.54kB/s    0:07:42
+      26.17M 100%   29.08MB/s    0:00:00 (xfer#14, to-check=120/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_12/Run_690_Fast_MID_12_FILE_2.dat
+      32.77K   0%   37.12kB/s    0:11:46
+       8.95M  34%    8.53MB/s    0:00:01
+      26.25M 100%   22.13MB/s    0:00:01 (xfer#15, to-check=119/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_12/Run_690_Fast_MID_12_FILE_3.dat
+      32.77K   0%  242.42kB/s    0:00:27
+       6.82M 100%   28.63MB/s    0:00:00 (xfer#16, to-check=118/140)
+cd+++++++ Run_690_Fast/Run_690_Fast_MID_13/
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_13/Run_690_Fast_MID_13_FILE_0.dat
+      32.77K   0%  137.34kB/s    0:03:09
+      26.00M 100%   51.55MB/s    0:00:00 (xfer#17, to-check=116/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_13/Run_690_Fast_MID_13_FILE_1.dat
+      32.77K   0%   66.39kB/s    0:06:26
+      25.72M 100%   31.41MB/s    0:00:00 (xfer#18, to-check=115/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_13/Run_690_Fast_MID_13_FILE_2.dat
+      32.77K   0%   40.97kB/s    0:10:52
+      14.19M  52%   13.50MB/s    0:00:00
+      26.79M 100%   21.91MB/s    0:00:01 (xfer#19, to-check=114/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_13/Run_690_Fast_MID_13_FILE_3.dat
+      32.77K   0%  193.94kB/s    0:00:35
+       6.91M 100%   23.30MB/s    0:00:00 (xfer#20, to-check=113/140)
+cd+++++++ Run_690_Fast/Run_690_Fast_MID_14/
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_14/Run_690_Fast_MID_14_FILE_0.dat
+      32.77K   0%  110.34kB/s    0:03:54
+      25.94M 100%   45.14MB/s    0:00:00 (xfer#21, to-check=111/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_14/Run_690_Fast_MID_14_FILE_1.dat
+      32.77K   0%   58.29kB/s    0:07:31
+      26.36M 100%   31.35MB/s    0:00:00 (xfer#22, to-check=110/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_14/Run_690_Fast_MID_14_FILE_2.dat
+      32.77K   0%   39.85kB/s    0:10:56
+      13.66M  52%   13.03MB/s    0:00:00
+      26.20M 100%   21.92MB/s    0:00:01 (xfer#23, to-check=109/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_14/Run_690_Fast_MID_14_FILE_3.dat
+      32.77K   0%  225.35kB/s    0:00:30
+       6.93M 100%   25.62MB/s    0:00:00 (xfer#24, to-check=108/140)
+cd+++++++ Run_690_Fast/Run_690_Fast_MID_15/
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_15/Run_690_Fast_MID_15_FILE_0.dat
+      32.77K   0%  123.08kB/s    0:03:33
+      26.30M 100%   42.94MB/s    0:00:00 (xfer#25, to-check=106/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_15/Run_690_Fast_MID_15_FILE_1.dat
+      32.77K   0%   54.79kB/s    0:07:55
+      26.07M 100%   27.71MB/s    0:00:00 (xfer#26, to-check=105/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_15/Run_690_Fast_MID_15_FILE_2.dat
+      32.77K   0%   35.63kB/s    0:12:56
+       7.37M  26%    7.03MB/s    0:00:02
+      27.69M 100%   21.07MB/s    0:00:01 (xfer#27, to-check=104/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_15/Run_690_Fast_MID_15_FILE_3.dat
+      32.77K   0%  125.98kB/s    0:00:42
+       5.37M 100%   16.17MB/s    0:00:00 (xfer#28, to-check=103/140)
+cd+++++++ Run_690_Fast/Run_690_Fast_MID_2/
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_2/Run_690_Fast_MID_2_FILE_0.dat
+      32.77K   0%  100.63kB/s    0:04:17
+      25.92M 100%   40.32MB/s    0:00:00 (xfer#29, to-check=101/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_2/Run_690_Fast_MID_2_FILE_1.dat
+      32.77K   0%   52.03kB/s    0:08:33
+      26.74M 100%   25.78MB/s    0:00:00 (xfer#30, to-check=100/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_2/Run_690_Fast_MID_2_FILE_2.dat
+      32.77K   0%   32.29kB/s    0:13:29
+     294.91K   1%  287.71kB/s    0:01:29
+      26.18M 100%   19.57MB/s    0:00:01 (xfer#31, to-check=99/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_2/Run_690_Fast_MID_2_FILE_3.dat
+      32.77K   0%  116.36kB/s    0:00:56
+       6.59M 100%   15.86MB/s    0:00:00 (xfer#32, to-check=98/140)
+cd+++++++ Run_690_Fast/Run_690_Fast_MID_3/
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_3/Run_690_Fast_MID_3_FILE_0.dat
+      32.77K   0%   80.00kB/s    0:05:22
+      25.82M 100%   34.15MB/s    0:00:00 (xfer#33, to-check=96/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_3/Run_690_Fast_MID_3_FILE_1.dat
+      32.77K   0%   44.32kB/s    0:10:22
+      19.86M  71%   18.94MB/s    0:00:00
+      27.64M 100%   23.62MB/s    0:00:01 (xfer#34, to-check=95/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_3/Run_690_Fast_MID_3_FILE_2.dat
+      32.77K   0%  273.50kB/s    0:01:37
+      26.59M 100%   54.77MB/s    0:00:00 (xfer#35, to-check=94/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_3/Run_690_Fast_MID_3_FILE_3.dat
+      32.77K   0%   68.82kB/s    0:01:17
+       5.37M 100%    8.81MB/s    0:00:00 (xfer#36, to-check=93/140)
+cd+++++++ Run_690_Fast/Run_690_Fast_MID_4/
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_4/Run_690_Fast_MID_4_FILE_0.dat
+      32.77K   0%   54.61kB/s    0:07:54
+      25.95M 100%   28.32MB/s    0:00:00 (xfer#37, to-check=91/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_4/Run_690_Fast_MID_4_FILE_1.dat
+      32.77K   0%   36.57kB/s    0:12:15
+       9.86M  36%    9.41MB/s    0:00:01
+      26.94M 100%   22.26MB/s    0:00:01 (xfer#38, to-check=90/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_4/Run_690_Fast_MID_4_FILE_2.dat
+      32.77K   0%  205.13kB/s    0:02:08
+      26.43M 100%   56.64MB/s    0:00:00 (xfer#39, to-check=89/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_4/Run_690_Fast_MID_4_FILE_3.dat
+      32.77K   0%   71.75kB/s    0:01:24
+       6.11M 100%   10.10MB/s    0:00:00 (xfer#40, to-check=88/140)
+cd+++++++ Run_690_Fast/Run_690_Fast_MID_5/
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_5/Run_690_Fast_MID_5_FILE_0.dat
+      32.77K   0%   55.27kB/s    0:07:50
+      26.05M 100%   25.45MB/s    0:00:00 (xfer#41, to-check=86/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_5/Run_690_Fast_MID_5_FILE_1.dat
+      32.77K   0%   32.75kB/s    0:13:27
+     294.91K   1%  286.57kB/s    0:01:31
+      26.49M 100%   19.24MB/s    0:00:01 (xfer#42, to-check=85/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_5/Run_690_Fast_MID_5_FILE_2.dat
+      32.77K   0%  103.90kB/s    0:04:24
+      27.51M 100%   43.65MB/s    0:00:00 (xfer#43, to-check=84/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_5/Run_690_Fast_MID_5_FILE_3.dat
+      32.77K   0%   53.07kB/s    0:01:40
+       5.37M 100%    7.34MB/s    0:00:00 (xfer#44, to-check=83/140)
+cd+++++++ Run_690_Fast/Run_690_Fast_MID_6/
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_6/Run_690_Fast_MID_6_FILE_0.dat
+      32.77K   0%   45.78kB/s    0:09:26
+      25.99M 100%   25.13MB/s    0:00:00 (xfer#45, to-check=81/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_6/Run_690_Fast_MID_6_FILE_1.dat
+      32.77K   0%   32.42kB/s    0:13:15
+     294.91K   1%  286.28kB/s    0:01:29
+      25.82M 100%   18.97MB/s    0:00:01 (xfer#46, to-check=80/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_6/Run_690_Fast_MID_6_FILE_2.dat
+      32.77K   0%  109.22kB/s    0:04:18
+      28.25M 100%   39.27MB/s    0:00:00 (xfer#47, to-check=79/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_6/Run_690_Fast_MID_6_FILE_3.dat
+      32.77K   0%   46.51kB/s    0:01:54
+       5.37M 100%    6.48MB/s    0:00:00 (xfer#48, to-check=78/140)
+cd+++++++ Run_690_Fast/Run_690_Fast_MID_7/
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_7/Run_690_Fast_MID_7_FILE_0.dat
+      32.77K   0%   40.35kB/s    0:11:03
+      18.12M  67%   17.28MB/s    0:00:00
+      26.82M 100%   24.04MB/s    0:00:01 (xfer#49, to-check=76/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_7/Run_690_Fast_MID_7_FILE_1.dat
+      32.77K   0%  492.31kB/s    0:00:54
+      26.92M 100%   72.72MB/s    0:00:00 (xfer#50, to-check=75/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_7/Run_690_Fast_MID_7_FILE_2.dat
+      32.77K   0%   90.40kB/s    0:04:50
+      26.31M 100%   42.39MB/s    0:00:00 (xfer#51, to-check=74/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_7/Run_690_Fast_MID_7_FILE_3.dat
+      32.77K   0%   53.96kB/s    0:01:38
+       5.37M 100%    7.87MB/s    0:00:00 (xfer#52, to-check=73/140)
+cd+++++++ Run_690_Fast/Run_690_Fast_MID_8/
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_8/Run_690_Fast_MID_8_FILE_0.dat
+      32.77K   0%   49.08kB/s    0:08:45
+      25.80M 100%   25.96MB/s    0:00:00 (xfer#53, to-check=71/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_8/Run_690_Fast_MID_8_FILE_1.dat
+      32.77K   0%   33.72kB/s    0:12:40
+       2.98M  11%    2.84MB/s    0:00:07
+      25.69M 100%   19.84MB/s    0:00:01 (xfer#54, to-check=70/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_8/Run_690_Fast_MID_8_FILE_2.dat
+      32.77K   0%  134.45kB/s    0:03:21
+      27.15M 100%   48.30MB/s    0:00:00 (xfer#55, to-check=69/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_8/Run_690_Fast_MID_8_FILE_3.dat
+      32.77K   0%   59.59kB/s    0:01:53
+       6.78M 100%    9.67MB/s    0:00:00 (xfer#56, to-check=68/140)
+cd+++++++ Run_690_Fast/Run_690_Fast_MID_9/
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_9/Run_690_Fast_MID_9_FILE_0.dat
+      32.77K   0%   47.76kB/s    0:09:07
+      26.18M 100%   26.23MB/s    0:00:00 (xfer#57, to-check=66/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_9/Run_690_Fast_MID_9_FILE_1.dat
+      32.77K   0%   33.58kB/s    0:13:49
+       3.34M  11%    3.19MB/s    0:00:07
+      27.87M 100%   21.37MB/s    0:00:01 (xfer#58, to-check=65/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_9/Run_690_Fast_MID_9_FILE_2.dat
+      32.77K   0%  130.08kB/s    0:03:19
+      26.00M 100%   49.79MB/s    0:00:00 (xfer#59, to-check=64/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_MID_9/Run_690_Fast_MID_9_FILE_3.dat
+      32.77K   0%   64.13kB/s    0:01:23
+       5.37M 100%    9.12MB/s    0:00:00 (xfer#60, to-check=63/140)
+cd+++++++ Run_690_Fast/Run_690_Fast_log/
+>f+++++++ Run_690_Fast/Run_690_Fast_log/Run_690_Fast_MID_10_buffer.txt
+       4.14K 100%    7.19kB/s    0:00:00
+       4.14K 100%    7.19kB/s    0:00:00 (xfer#61, to-check=61/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_log/Run_690_Fast_MID_11_buffer.txt
+       4.11K 100%    7.13kB/s    0:00:00
+       4.11K 100%    7.13kB/s    0:00:00 (xfer#62, to-check=60/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_log/Run_690_Fast_MID_12_buffer.txt
+       2.99K 100%    5.19kB/s    0:00:00
+       2.99K 100%    5.19kB/s    0:00:00 (xfer#63, to-check=59/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_log/Run_690_Fast_MID_13_buffer.txt
+       4.22K 100%    7.20kB/s    0:00:00
+       4.22K 100%    7.20kB/s    0:00:00 (xfer#64, to-check=58/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_log/Run_690_Fast_MID_14_buffer.txt
+       4.11K 100%    6.99kB/s    0:00:00
+       4.11K 100%    6.99kB/s    0:00:00 (xfer#65, to-check=57/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_log/Run_690_Fast_MID_15_buffer.txt
+       3.10K 100%    4.89kB/s    0:00:00
+       3.10K 100%    4.89kB/s    0:00:00 (xfer#66, to-check=56/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_log/Run_690_Fast_MID_1_buffer.txt
+       2.95K 100%    4.65kB/s    0:00:00
+       2.95K 100%    4.65kB/s    0:00:00 (xfer#67, to-check=55/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_log/Run_690_Fast_MID_2_buffer.txt
+       4.19K 100%    6.39kB/s    0:00:00
+       4.19K 100%    6.39kB/s    0:00:00 (xfer#68, to-check=54/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_log/Run_690_Fast_MID_3_buffer.txt
+       2.96K 100%    4.52kB/s    0:00:00
+       2.96K 100%    4.52kB/s    0:00:00 (xfer#69, to-check=53/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_log/Run_690_Fast_MID_4_buffer.txt
+       3.02K 100%    4.61kB/s    0:00:00
+       3.02K 100%    4.61kB/s    0:00:00 (xfer#70, to-check=52/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_log/Run_690_Fast_MID_5_buffer.txt
+       4.09K 100%    5.93kB/s    0:00:00
+       4.09K 100%    5.93kB/s    0:00:00 (xfer#71, to-check=51/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_log/Run_690_Fast_MID_6_buffer.txt
+       3.02K 100%    4.38kB/s    0:00:00
+       3.02K 100%    4.38kB/s    0:00:00 (xfer#72, to-check=50/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_log/Run_690_Fast_MID_7_buffer.txt
+       2.98K 100%    4.12kB/s    0:00:00
+       2.98K 100%    4.12kB/s    0:00:00 (xfer#73, to-check=49/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_log/Run_690_Fast_MID_8_buffer.txt
+       4.13K 100%    5.71kB/s    0:00:00
+       4.13K 100%    5.71kB/s    0:00:00 (xfer#74, to-check=48/140)
+>f+++++++ Run_690_Fast/Run_690_Fast_log/Run_690_Fast_MID_9_buffer.txt
+       2.98K 100%    4.00kB/s    0:00:00
+       2.98K 100%    4.00kB/s    0:00:00 (xfer#75, to-check=47/140)
+cd+++++++ Run_690_Wave/
+cd+++++++ Run_690_Wave/Run_690_Wave_MID_1/
+>f+++++++ Run_690_Wave/Run_690_Wave_MID_1/Run_690_Wave_MID_1_FILE_0.dat
+      32.77K   0%   42.16kB/s    4:30:10
+      19.01M   2%   18.12MB/s    0:00:35
+     142.31M  20%   67.89MB/s    0:00:07
+     256.93M  37%   81.73MB/s    0:00:05
+     369.95M  54%   88.27MB/s    0:00:03
+     479.76M  70%  109.91MB/s    0:00:01
+     580.16M  84%  104.44MB/s    0:00:00
+     683.47M 100%   94.63MB/s    0:00:06 (xfer#76, to-check=44/140)
+cd+++++++ Run_690_Wave/Run_690_Wave_MID_10/
+>f+++++++ Run_690_Wave/Run_690_Wave_MID_10/Run_690_Wave_MID_10_FILE_0.dat
+      32.77K   0%   35.83kB/s    5:17:52
+       6.82M   0%    6.50MB/s    0:01:41
+     129.27M  18%   61.67MB/s    0:00:08
+     252.28M  36%   80.25MB/s    0:00:05
+     385.91M  56%   92.05MB/s    0:00:03
+     519.60M  76%  122.29MB/s    0:00:01
+     632.98M  92%  120.12MB/s    0:00:00
+     683.47M 100%  100.93MB/s    0:00:06 (xfer#77, to-check=42/140)
+cd+++++++ Run_690_Wave/Run_690_Wave_MID_11/
+>f+++++++ Run_690_Wave/Run_690_Wave_MID_11/Run_690_Wave_MID_11_FILE_0.dat
+      32.77K   0%   69.26kB/s    2:44:27
+      62.42M   9%   59.53MB/s    0:00:10
+     164.40M  24%   77.88MB/s    0:00:06
+     295.99M  43%   93.69MB/s    0:00:04
+     426.54M  62%  101.37MB/s    0:00:02
+     537.69M  78%  112.95MB/s    0:00:01
+     671.58M  98%  120.98MB/s    0:00:00
+     683.47M 100%  106.82MB/s    0:00:06 (xfer#78, to-check=40/140)
+cd+++++++ Run_690_Wave/Run_690_Wave_MID_12/
+>f+++++++ Run_690_Wave/Run_690_Wave_MID_12/Run_690_Wave_MID_12_FILE_0.dat
+      32.77K   0%  351.65kB/s    0:32:23
+     111.80M  16%  106.62MB/s    0:00:05
+     230.98M  33%  110.20MB/s    0:00:04
+     364.68M  53%  116.00MB/s    0:00:02
+     495.32M  72%  118.18MB/s    0:00:01
+     628.92M  92%  123.35MB/s    0:00:00
+     683.47M 100%  120.57MB/s    0:00:05 (xfer#79, to-check=38/140)
+cd+++++++ Run_690_Wave/Run_690_Wave_MID_13/
+>f+++++++ Run_690_Wave/Run_690_Wave_MID_13/Run_690_Wave_MID_13_FILE_0.dat
+      32.77K   0%   78.05kB/s    2:25:56
+      67.67M   9%   64.53MB/s    0:00:09
+     174.36M  25%   83.14MB/s    0:00:05
+     285.25M  41%   90.68MB/s    0:00:04
+     402.98M  58%   96.10MB/s    0:00:02
+     531.76M  77%  110.73MB/s    0:00:01
+     652.08M  95%  113.98MB/s    0:00:00
+     683.47M 100%  103.12MB/s    0:00:06 (xfer#80, to-check=36/140)
+cd+++++++ Run_690_Wave/Run_690_Wave_MID_14/
+>f+++++++ Run_690_Wave/Run_690_Wave_MID_14/Run_690_Wave_MID_14_FILE_0.dat
+      32.77K   0%   98.46kB/s    1:55:41
+      75.27M  11%   71.78MB/s    0:00:08
+     202.67M  29%   96.64MB/s    0:00:04
+     317.23M  46%  100.84MB/s    0:00:03
+     443.19M  64%  105.69MB/s    0:00:02
+     546.73M  79%  112.46MB/s    0:00:01
+     649.23M  94%  106.52MB/s    0:00:00
+     683.47M 100%  103.28MB/s    0:00:06 (xfer#81, to-check=34/140)
+cd+++++++ Run_690_Wave/Run_690_Wave_MID_15/
+>f+++++++ Run_690_Wave/Run_690_Wave_MID_15/Run_690_Wave_MID_15_FILE_0.dat
+      32.77K   0%  101.59kB/s    1:52:07
+      61.47M   8%   58.62MB/s    0:00:10
+     153.29M  22%   73.13MB/s    0:00:07
+     263.75M  38%   83.87MB/s    0:00:04
+     396.07M  57%   94.48MB/s    0:00:02
+     529.66M  77%  111.68MB/s    0:00:01
+     660.47M  96%  120.98MB/s    0:00:00
+     683.47M 100%  104.98MB/s    0:00:06 (xfer#82, to-check=32/140)
+cd+++++++ Run_690_Wave/Run_690_Wave_MID_2/
+>f+++++++ Run_690_Wave/Run_690_Wave_MID_2/Run_690_Wave_MID_2_FILE_0.dat
+      32.77K   0%  149.53kB/s    1:16:10
+      96.83M  14%   92.34MB/s    0:00:06
+     224.00M  32%  106.87MB/s    0:00:04
+     333.97M  48%  106.24MB/s    0:00:03
+     462.98M  67%  110.44MB/s    0:00:01
+     596.93M  87%  119.29MB/s    0:00:00
+     683.47M 100%  115.45MB/s    0:00:05 (xfer#83, to-check=30/140)
+cd+++++++ Run_690_Wave/Run_690_Wave_MID_3/
+>f+++++++ Run_690_Wave/Run_690_Wave_MID_3/Run_690_Wave_MID_3_FILE_0.dat
+      32.77K   0%   49.23kB/s    3:51:22
+      35.42M   5%   33.78MB/s    0:00:18
+     163.87M  23%   78.14MB/s    0:00:06
+     287.08M  42%   91.26MB/s    0:00:04
+     409.24M  59%   97.57MB/s    0:00:02
+     543.26M  79%  121.11MB/s    0:00:01
+     674.10M  98%  121.71MB/s    0:00:00
+     683.47M 100%  107.44MB/s    0:00:06 (xfer#84, to-check=28/140)
+cd+++++++ Run_690_Wave/Run_690_Wave_MID_4/
+>f+++++++ Run_690_Wave/Run_690_Wave_MID_4/Run_690_Wave_MID_4_FILE_0.dat
+      32.77K   0%  457.14kB/s    0:24:55
+     101.48M  14%   96.78MB/s    0:00:05
+     225.31M  32%  107.49MB/s    0:00:04
+     359.01M  52%  114.20MB/s    0:00:02
+     484.21M  70%  115.47MB/s    0:00:01
+     617.91M  90%  123.19MB/s    0:00:00
+     683.47M 100%  118.75MB/s    0:00:05 (xfer#85, to-check=26/140)
+cd+++++++ Run_690_Wave/Run_690_Wave_MID_5/
+>f+++++++ Run_690_Wave/Run_690_Wave_MID_5/Run_690_Wave_MID_5_FILE_0.dat
+      32.77K   0%   65.04kB/s    2:55:07
+      49.81M   7%   47.50MB/s    0:00:13
+     161.74M  23%   77.16MB/s    0:00:06
+     276.33M  40%   87.90MB/s    0:00:04
+     380.73M  55%   90.84MB/s    0:00:03
+     500.53M  73%  107.54MB/s    0:00:01
+     615.81M  90%  108.31MB/s    0:00:00
+     683.47M 100%   98.80MB/s    0:00:06 (xfer#86, to-check=24/140)
+cd+++++++ Run_690_Wave/Run_690_Wave_MID_6/
+>f+++++++ Run_690_Wave/Run_690_Wave_MID_6/Run_690_Wave_MID_6_FILE_0.dat
+      32.77K   0%   53.07kB/s    3:34:38
+      35.00M   5%   33.38MB/s    0:00:18
+     148.41M  21%   70.80MB/s    0:00:07
+     268.01M  39%   85.25MB/s    0:00:04
+     378.99M  55%   90.43MB/s    0:00:03
+     495.75M  72%  109.93MB/s    0:00:01
+     613.29M  89%  110.92MB/s    0:00:00
+     683.47M 100%   98.21MB/s    0:00:06 (xfer#87, to-check=22/140)
+cd+++++++ Run_690_Wave/Run_690_Wave_MID_7/
+>f+++++++ Run_690_Wave/Run_690_Wave_MID_7/Run_690_Wave_MID_7_FILE_0.dat
+      32.77K   0%   49.77kB/s    3:48:52
+      28.61M   4%   27.28MB/s    0:00:23
+     132.15M  19%   63.02MB/s    0:00:08
+     235.96M  34%   75.04MB/s    0:00:05
+     341.61M  49%   81.47MB/s    0:00:04
+     444.24M  64%   99.12MB/s    0:00:02
+     560.76M  82%  102.21MB/s    0:00:01
+     670.43M  98%  103.61MB/s    0:00:00
+     683.47M 100%   91.57MB/s    0:00:07 (xfer#88, to-check=20/140)
+cd+++++++ Run_690_Wave/Run_690_Wave_MID_8/
+>f+++++++ Run_690_Wave/Run_690_Wave_MID_8/Run_690_Wave_MID_8_FILE_0.dat
+      32.77K   0%  262.30kB/s    0:43:25
+      83.66M  12%   79.78MB/s    0:00:07
+     182.75M  26%   87.18MB/s    0:00:05
+     284.10M  41%   90.34MB/s    0:00:04
+     390.96M  57%   93.26MB/s    0:00:03
+     512.26M  74%  102.24MB/s    0:00:01
+     622.69M  91%  104.94MB/s    0:00:00
+     683.47M 100%  100.53MB/s    0:00:06 (xfer#89, to-check=18/140)
+cd+++++++ Run_690_Wave/Run_690_Wave_MID_9/
+>f+++++++ Run_690_Wave/Run_690_Wave_MID_9/Run_690_Wave_MID_9_FILE_0.dat
+      32.77K   0%   65.44kB/s    2:54:03
+      51.05M   7%   48.69MB/s    0:00:12
+     156.79M  22%   74.80MB/s    0:00:06
+     272.37M  39%   86.64MB/s    0:00:04
+     387.22M  56%   92.37MB/s    0:00:03
+     494.04M  72%  105.67MB/s    0:00:01
+     608.21M  88%  107.71MB/s    0:00:00
+     683.47M 100%   97.80MB/s    0:00:06 (xfer#90, to-check=16/140)
+cd+++++++ Run_690_Wave/Run_690_Wave_log/
+>f+++++++ Run_690_Wave/Run_690_Wave_log/Run_690_Wave_MID_10_buffer.txt
+       5.55K 100%    8.09kB/s    0:00:00
+       5.55K 100%    8.09kB/s    0:00:00 (xfer#91, to-check=14/140)
+>f+++++++ Run_690_Wave/Run_690_Wave_log/Run_690_Wave_MID_11_buffer.txt
+       5.45K 100%    7.94kB/s    0:00:00
+       5.45K 100%    7.94kB/s    0:00:00 (xfer#92, to-check=13/140)
+>f+++++++ Run_690_Wave/Run_690_Wave_log/Run_690_Wave_MID_12_buffer.txt
+       3.99K 100%    5.71kB/s    0:00:00
+       3.99K 100%    5.71kB/s    0:00:00 (xfer#93, to-check=12/140)
+>f+++++++ Run_690_Wave/Run_690_Wave_log/Run_690_Wave_MID_13_buffer.txt
+       5.67K 100%    8.13kB/s    0:00:00
+       5.67K 100%    8.13kB/s    0:00:00 (xfer#94, to-check=11/140)
+>f+++++++ Run_690_Wave/Run_690_Wave_log/Run_690_Wave_MID_14_buffer.txt
+       5.46K 100%    7.61kB/s    0:00:00
+       5.46K 100%    7.61kB/s    0:00:00 (xfer#95, to-check=10/140)
+>f+++++++ Run_690_Wave/Run_690_Wave_log/Run_690_Wave_MID_15_buffer.txt
+       4.14K 100%    5.31kB/s    0:00:00
+       4.14K 100%    5.31kB/s    0:00:00 (xfer#96, to-check=9/140)
+>f+++++++ Run_690_Wave/Run_690_Wave_log/Run_690_Wave_MID_1_buffer.txt
+       3.99K 100%    5.11kB/s    0:00:00
+       3.99K 100%    5.11kB/s    0:00:00 (xfer#97, to-check=8/140)
+>f+++++++ Run_690_Wave/Run_690_Wave_log/Run_690_Wave_MID_2_buffer.txt
+       5.59K 100%    7.00kB/s    0:00:00
+       5.59K 100%    7.00kB/s    0:00:00 (xfer#98, to-check=7/140)
+>f+++++++ Run_690_Wave/Run_690_Wave_log/Run_690_Wave_MID_3_buffer.txt
+       3.99K 100%    4.99kB/s    0:00:00
+       3.99K 100%    4.99kB/s    0:00:00 (xfer#99, to-check=6/140)
+>f+++++++ Run_690_Wave/Run_690_Wave_log/Run_690_Wave_MID_4_buffer.txt
+       4.07K 100%    4.92kB/s    0:00:00
+       4.07K 100%    4.92kB/s    0:00:00 (xfer#100, to-check=5/140)
+>f+++++++ Run_690_Wave/Run_690_Wave_log/Run_690_Wave_MID_5_buffer.txt
+       5.47K 100%    6.45kB/s    0:00:00
+       5.47K 100%    6.45kB/s    0:00:00 (xfer#101, to-check=4/140)
+>f+++++++ Run_690_Wave/Run_690_Wave_log/Run_690_Wave_MID_6_buffer.txt
+       4.06K 100%    4.77kB/s    0:00:00
+       4.06K 100%    4.77kB/s    0:00:00 (xfer#102, to-check=3/140)
+>f+++++++ Run_690_Wave/Run_690_Wave_log/Run_690_Wave_MID_7_buffer.txt
+       4.07K 100%    4.73kB/s    0:00:00
+       4.07K 100%    4.73kB/s    0:00:00 (xfer#103, to-check=2/140)
+>f+++++++ Run_690_Wave/Run_690_Wave_log/Run_690_Wave_MID_8_buffer.txt
+       5.47K 100%    6.36kB/s    0:00:00
+       5.47K 100%    6.36kB/s    0:00:00 (xfer#104, to-check=1/140)
+>f+++++++ Run_690_Wave/Run_690_Wave_log/Run_690_Wave_MID_9_buffer.txt
+       3.96K 100%    4.50kB/s    0:00:00
+       3.96K 100%    4.50kB/s    0:00:00 (xfer#105, to-check=0/140)
+
+sent 11.54G bytes  received 2.54K bytes  109.34M bytes/sec
+total size is 11.53G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_690/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_690_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

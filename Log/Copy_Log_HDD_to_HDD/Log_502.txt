@@ -1,0 +1,249 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_502/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_502[0m
+[94m[INFO][0m SSD data folder size = [96m[1m1.85 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [#-------------------------------------------------][0m [92m[1m1.196 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 178.192 GB / Free : [4m14723.361 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_502/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_502/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_502.txt --progress /Volumes/HDD_16TB_1/HDD_Run_502/ /Volumes/HDD_16TB_2/HDD_Run_502/[0m`? [y/n] building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_502
+cd+++++++ ./
+cd+++++++ Run_502_Fast/
+cd+++++++ Run_502_Fast/Run_502_Fast_MID_1/
+>f+++++++ Run_502_Fast/Run_502_Fast_MID_1/Run_502_Fast_MID_1_FILE_0.dat
+      32.77K   6%    0.00kB/s    0:00:00
+     507.90K 100%  151.04MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_502_Fast/Run_502_Fast_MID_10/
+>f+++++++ Run_502_Fast/Run_502_Fast_MID_10/Run_502_Fast_MID_10_FILE_0.dat
+      32.77K   6%    7.81MB/s    0:00:00
+     507.90K 100%   69.20MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_502_Fast/Run_502_Fast_MID_11/
+>f+++++++ Run_502_Fast/Run_502_Fast_MID_11/Run_502_Fast_MID_11_FILE_0.dat
+      32.77K   6%    3.47MB/s    0:00:00
+     507.90K 100%   16.70MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_502_Fast/Run_502_Fast_MID_12/
+>f+++++++ Run_502_Fast/Run_502_Fast_MID_12/Run_502_Fast_MID_12_FILE_0.dat
+      32.77K   6%   56.14kB/s    0:00:08
+     507.90K 100%  856.65kB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_502_Fast/Run_502_Fast_MID_13/
+>f+++++++ Run_502_Fast/Run_502_Fast_MID_13/Run_502_Fast_MID_13_FILE_0.dat
+      32.77K   6%   54.98kB/s    0:00:08
+     507.90K 100%  843.54kB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_502_Fast/Run_502_Fast_MID_14/
+>f+++++++ Run_502_Fast/Run_502_Fast_MID_14/Run_502_Fast_MID_14_FILE_0.dat
+      32.77K   6%   52.46kB/s    0:00:09
+     507.90K 100%  797.43kB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_502_Fast/Run_502_Fast_MID_15/
+>f+++++++ Run_502_Fast/Run_502_Fast_MID_15/Run_502_Fast_MID_15_FILE_0.dat
+      32.77K   6%   51.28kB/s    0:00:09
+     507.90K 100%  791.07kB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_502_Fast/Run_502_Fast_MID_2/
+>f+++++++ Run_502_Fast/Run_502_Fast_MID_2/Run_502_Fast_MID_2_FILE_0.dat
+      32.77K   6%   50.96kB/s    0:00:09
+     507.90K 100%  784.81kB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_502_Fast/Run_502_Fast_MID_3/
+>f+++++++ Run_502_Fast/Run_502_Fast_MID_3/Run_502_Fast_MID_3_FILE_0.dat
+      32.77K   6%   50.55kB/s    0:00:09
+     507.90K 100%  765.43kB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_502_Fast/Run_502_Fast_MID_4/
+>f+++++++ Run_502_Fast/Run_502_Fast_MID_4/Run_502_Fast_MID_4_FILE_0.dat
+      32.77K   6%   49.23kB/s    0:00:09
+     507.90K 100%  759.57kB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_502_Fast/Run_502_Fast_MID_5/
+>f+++++++ Run_502_Fast/Run_502_Fast_MID_5/Run_502_Fast_MID_5_FILE_0.dat
+      32.77K   6%   48.93kB/s    0:00:09
+     507.90K 100%  754.95kB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_502_Fast/Run_502_Fast_MID_6/
+>f+++++++ Run_502_Fast/Run_502_Fast_MID_6/Run_502_Fast_MID_6_FILE_0.dat
+      32.77K   6%   48.56kB/s    0:00:09
+     507.90K 100%  749.24kB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_502_Fast/Run_502_Fast_MID_7/
+>f+++++++ Run_502_Fast/Run_502_Fast_MID_7/Run_502_Fast_MID_7_FILE_0.dat
+      32.77K   6%   48.27kB/s    0:00:09
+     507.90K 100%  744.74kB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_502_Fast/Run_502_Fast_MID_8/
+>f+++++++ Run_502_Fast/Run_502_Fast_MID_8/Run_502_Fast_MID_8_FILE_0.dat
+      32.77K   6%   47.98kB/s    0:00:09
+     507.90K 100%  740.30kB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_502_Fast/Run_502_Fast_MID_9/
+>f+++++++ Run_502_Fast/Run_502_Fast_MID_9/Run_502_Fast_MID_9_FILE_0.dat
+      32.77K   6%   47.62kB/s    0:00:09
+     507.90K 100%  734.81kB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_502_Fast/Run_502_Fast_log/
+>f+++++++ Run_502_Fast/Run_502_Fast_log/Run_502_Fast_MID_10_buffer.txt
+         458 100%    0.66kB/s    0:00:00
+         458 100%    0.66kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_502_Fast/Run_502_Fast_log/Run_502_Fast_MID_11_buffer.txt
+         458 100%    0.66kB/s    0:00:00
+         458 100%    0.66kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_502_Fast/Run_502_Fast_log/Run_502_Fast_MID_12_buffer.txt
+         458 100%    0.66kB/s    0:00:00
+         458 100%    0.66kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_502_Fast/Run_502_Fast_log/Run_502_Fast_MID_13_buffer.txt
+         458 100%    0.66kB/s    0:00:00
+         458 100%    0.66kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_502_Fast/Run_502_Fast_log/Run_502_Fast_MID_14_buffer.txt
+         458 100%    0.66kB/s    0:00:00
+         458 100%    0.66kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_502_Fast/Run_502_Fast_log/Run_502_Fast_MID_15_buffer.txt
+         458 100%    0.66kB/s    0:00:00
+         458 100%    0.66kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_502_Fast/Run_502_Fast_log/Run_502_Fast_MID_1_buffer.txt
+         458 100%    0.66kB/s    0:00:00
+         458 100%    0.66kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_502_Fast/Run_502_Fast_log/Run_502_Fast_MID_2_buffer.txt
+         458 100%    0.66kB/s    0:00:00
+         458 100%    0.66kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_502_Fast/Run_502_Fast_log/Run_502_Fast_MID_3_buffer.txt
+         458 100%    0.66kB/s    0:00:00
+         458 100%    0.66kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_502_Fast/Run_502_Fast_log/Run_502_Fast_MID_4_buffer.txt
+         458 100%    0.65kB/s    0:00:00
+         458 100%    0.65kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_502_Fast/Run_502_Fast_log/Run_502_Fast_MID_5_buffer.txt
+         458 100%    0.65kB/s    0:00:00
+         458 100%    0.65kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_502_Fast/Run_502_Fast_log/Run_502_Fast_MID_6_buffer.txt
+         458 100%    0.65kB/s    0:00:00
+         458 100%    0.65kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_502_Fast/Run_502_Fast_log/Run_502_Fast_MID_7_buffer.txt
+         458 100%    0.65kB/s    0:00:00
+         458 100%    0.65kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_502_Fast/Run_502_Fast_log/Run_502_Fast_MID_8_buffer.txt
+         458 100%    0.65kB/s    0:00:00
+         458 100%    0.65kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_502_Fast/Run_502_Fast_log/Run_502_Fast_MID_9_buffer.txt
+         458 100%    0.65kB/s    0:00:00
+         458 100%    0.65kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_502_Wave/
+cd+++++++ Run_502_Wave/Run_502_Wave_MID_1/
+>f+++++++ Run_502_Wave/Run_502_Wave_MID_1/Run_502_Wave_MID_1_FILE_0.dat
+      32.77K   0%   44.69kB/s    0:49:11
+      32.80M  24%   31.28MB/s    0:00:03
+     131.92M 100%   69.86MB/s    0:00:01 (xfer#31, to-check=44/95)
+cd+++++++ Run_502_Wave/Run_502_Wave_MID_10/
+>f+++++++ Run_502_Wave/Run_502_Wave_MID_10/Run_502_Wave_MID_10_FILE_0.dat
+      32.77K   0%   39.85kB/s    0:55:09
+      20.22M  15%   19.28MB/s    0:00:05
+     127.70M  96%   60.35MB/s    0:00:00
+     131.92M 100%   61.13MB/s    0:00:02 (xfer#32, to-check=42/95)
+cd+++++++ Run_502_Wave/Run_502_Wave_MID_11/
+>f+++++++ Run_502_Wave/Run_502_Wave_MID_11/Run_502_Wave_MID_11_FILE_0.dat
+      32.77K   0%  780.49kB/s    0:02:48
+     113.02M  85%  107.78MB/s    0:00:00
+     131.92M 100%  108.55MB/s    0:00:01 (xfer#33, to-check=40/95)
+cd+++++++ Run_502_Wave/Run_502_Wave_MID_12/
+>f+++++++ Run_502_Wave/Run_502_Wave_MID_12/Run_502_Wave_MID_12_FILE_0.dat
+      32.77K   0%  198.76kB/s    0:11:03
+      93.19M  70%   88.88MB/s    0:00:00
+     131.92M 100%   96.19MB/s    0:00:01 (xfer#34, to-check=38/95)
+cd+++++++ Run_502_Wave/Run_502_Wave_MID_13/
+>f+++++++ Run_502_Wave/Run_502_Wave_MID_13/Run_502_Wave_MID_13_FILE_0.dat
+      32.77K   0%  103.23kB/s    0:21:17
+      70.81M  53%   67.53MB/s    0:00:00
+     131.92M 100%   80.96MB/s    0:00:01 (xfer#35, to-check=36/95)
+cd+++++++ Run_502_Wave/Run_502_Wave_MID_14/
+>f+++++++ Run_502_Wave/Run_502_Wave_MID_14/Run_502_Wave_MID_14_FILE_0.dat
+      32.77K   0%   57.66kB/s    0:38:07
+      50.07M  37%   47.75MB/s    0:00:01
+     131.92M 100%   72.02MB/s    0:00:01 (xfer#36, to-check=34/95)
+cd+++++++ Run_502_Wave/Run_502_Wave_MID_15/
+>f+++++++ Run_502_Wave/Run_502_Wave_MID_15/Run_502_Wave_MID_15_FILE_0.dat
+      32.77K   0%   42.72kB/s    0:51:27
+      25.99M  19%   24.78MB/s    0:00:04
+     131.92M 100%   64.26MB/s    0:00:01 (xfer#37, to-check=32/95)
+cd+++++++ Run_502_Wave/Run_502_Wave_MID_2/
+>f+++++++ Run_502_Wave/Run_502_Wave_MID_2/Run_502_Wave_MID_2_FILE_0.dat
+      32.77K   0%   33.33kB/s    1:05:56
+       3.18M   2%    3.02MB/s    0:00:41
+     118.78M  90%   56.50MB/s    0:00:00
+     131.92M 100%   59.07MB/s    0:00:02 (xfer#38, to-check=30/95)
+cd+++++++ Run_502_Wave/Run_502_Wave_MID_3/
+>f+++++++ Run_502_Wave/Run_502_Wave_MID_3/Run_502_Wave_MID_3_FILE_0.dat
+      32.77K   0%  251.97kB/s    0:08:43
+      92.31M  69%   88.03MB/s    0:00:00
+     131.92M 100%   97.08MB/s    0:00:01 (xfer#39, to-check=28/95)
+cd+++++++ Run_502_Wave/Run_502_Wave_MID_4/
+>f+++++++ Run_502_Wave/Run_502_Wave_MID_4/Run_502_Wave_MID_4_FILE_0.dat
+      32.77K   0%  107.74kB/s    0:20:24
+      85.23M  64%   81.28MB/s    0:00:00
+     131.92M 100%   89.23MB/s    0:00:01 (xfer#40, to-check=26/95)
+cd+++++++ Run_502_Wave/Run_502_Wave_MID_5/
+>f+++++++ Run_502_Wave/Run_502_Wave_MID_5/Run_502_Wave_MID_5_FILE_0.dat
+      32.77K   0%   77.67kB/s    0:28:18
+      68.85M  52%   65.66MB/s    0:00:00
+     131.92M 100%   85.53MB/s    0:00:01 (xfer#41, to-check=24/95)
+cd+++++++ Run_502_Wave/Run_502_Wave_MID_6/
+>f+++++++ Run_502_Wave/Run_502_Wave_MID_6/Run_502_Wave_MID_6_FILE_0.dat
+      32.77K   0%   67.51kB/s    0:32:33
+      59.02M  44%   56.28MB/s    0:00:01
+     131.92M 100%   81.43MB/s    0:00:01 (xfer#42, to-check=22/95)
+cd+++++++ Run_502_Wave/Run_502_Wave_MID_7/
+>f+++++++ Run_502_Wave/Run_502_Wave_MID_7/Run_502_Wave_MID_7_FILE_0.dat
+      32.77K   0%   58.61kB/s    0:37:30
+      49.05M  37%   46.78MB/s    0:00:01
+     131.92M 100%   77.66MB/s    0:00:01 (xfer#43, to-check=20/95)
+cd+++++++ Run_502_Wave/Run_502_Wave_MID_8/
+>f+++++++ Run_502_Wave/Run_502_Wave_MID_8/Run_502_Wave_MID_8_FILE_0.dat
+      32.77K   0%   51.45kB/s    0:42:43
+      43.55M  33%   41.53MB/s    0:00:02
+     131.92M 100%   75.75MB/s    0:00:01 (xfer#44, to-check=18/95)
+cd+++++++ Run_502_Wave/Run_502_Wave_MID_9/
+>f+++++++ Run_502_Wave/Run_502_Wave_MID_9/Run_502_Wave_MID_9_FILE_0.dat
+      32.77K   0%   48.27kB/s    0:45:32
+      37.52M  28%   35.78MB/s    0:00:02
+     131.92M 100%   73.75MB/s    0:00:01 (xfer#45, to-check=16/95)
+cd+++++++ Run_502_Wave/Run_502_Wave_log/
+>f+++++++ Run_502_Wave/Run_502_Wave_log/Run_502_Wave_MID_10_buffer.txt
+      29.64K 100%   40.94kB/s    0:00:00
+      29.64K 100%   40.94kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_502_Wave/Run_502_Wave_log/Run_502_Wave_MID_11_buffer.txt
+      29.64K 100%   40.82kB/s    0:00:00
+      29.64K 100%   40.77kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_502_Wave/Run_502_Wave_log/Run_502_Wave_MID_12_buffer.txt
+      29.64K 100%   40.31kB/s    0:00:00
+      29.64K 100%   40.31kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_502_Wave/Run_502_Wave_log/Run_502_Wave_MID_13_buffer.txt
+      29.64K 100%   39.76kB/s    0:00:00
+      29.64K 100%   39.76kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_502_Wave/Run_502_Wave_log/Run_502_Wave_MID_14_buffer.txt
+      29.64K 100%   39.65kB/s    0:00:00
+      29.64K 100%   39.65kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_502_Wave/Run_502_Wave_log/Run_502_Wave_MID_15_buffer.txt
+      29.64K 100%   39.54kB/s    0:00:00
+      29.64K 100%   39.54kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_502_Wave/Run_502_Wave_log/Run_502_Wave_MID_1_buffer.txt
+      29.64K 100%   39.43kB/s    0:00:00
+      29.64K 100%   39.43kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_502_Wave/Run_502_Wave_log/Run_502_Wave_MID_2_buffer.txt
+      29.64K 100%   39.33kB/s    0:00:00
+      29.64K 100%   39.33kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_502_Wave/Run_502_Wave_log/Run_502_Wave_MID_3_buffer.txt
+      29.64K 100%   39.27kB/s    0:00:00
+      29.64K 100%   39.22kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_502_Wave/Run_502_Wave_log/Run_502_Wave_MID_4_buffer.txt
+      29.64K 100%   39.17kB/s    0:00:00
+      29.64K 100%   39.17kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_502_Wave/Run_502_Wave_log/Run_502_Wave_MID_5_buffer.txt
+      29.64K 100%   39.11kB/s    0:00:00
+      29.64K 100%   39.11kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_502_Wave/Run_502_Wave_log/Run_502_Wave_MID_6_buffer.txt
+      29.64K 100%   39.06kB/s    0:00:00
+      29.64K 100%   39.06kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_502_Wave/Run_502_Wave_log/Run_502_Wave_MID_7_buffer.txt
+      29.64K 100%   38.96kB/s    0:00:00
+      29.64K 100%   38.96kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_502_Wave/Run_502_Wave_log/Run_502_Wave_MID_8_buffer.txt
+      29.64K 100%   38.90kB/s    0:00:00
+      29.64K 100%   38.90kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_502_Wave/Run_502_Wave_log/Run_502_Wave_MID_9_buffer.txt
+      29.64K 100%   38.85kB/s    0:00:00
+      29.64K 100%   38.85kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 1.99G bytes  received 1.55K bytes  113.55M bytes/sec
+total size is 1.99G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_502/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_502_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

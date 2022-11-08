@@ -1,0 +1,237 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_520/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_520[0m
+[94m[INFO][0m SSD data folder size = [96m[1m0.486 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [#-------------------------------------------------][0m [92m[1m1.548 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 230.696 GB / Free : [4m14670.856 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_520/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_520/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_520.txt --progress /Volumes/HDD_16TB_1/HDD_Run_520/ /Volumes/HDD_16TB_2/HDD_Run_520/[0m`? [y/n] building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_520
+cd+++++++ ./
+cd+++++++ Run_520_Fast/
+cd+++++++ Run_520_Fast/Run_520_Fast_MID_1/
+>f+++++++ Run_520_Fast/Run_520_Fast_MID_1/Run_520_Fast_MID_1_FILE_0.dat
+      32.77K  25%    0.00kB/s    0:00:00
+     131.07K 100%   93.75MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_520_Fast/Run_520_Fast_MID_10/
+>f+++++++ Run_520_Fast/Run_520_Fast_MID_10/Run_520_Fast_MID_10_FILE_0.dat
+      32.77K  25%    6.25MB/s    0:00:00
+     131.07K 100%   20.83MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_520_Fast/Run_520_Fast_MID_11/
+>f+++++++ Run_520_Fast/Run_520_Fast_MID_11/Run_520_Fast_MID_11_FILE_0.dat
+      32.77K  25%    3.12MB/s    0:00:00
+     131.07K 100%   11.36MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_520_Fast/Run_520_Fast_MID_12/
+>f+++++++ Run_520_Fast/Run_520_Fast_MID_12/Run_520_Fast_MID_12_FILE_0.dat
+      32.77K  25%    2.23MB/s    0:00:00
+     131.07K 100%    8.33MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_520_Fast/Run_520_Fast_MID_13/
+>f+++++++ Run_520_Fast/Run_520_Fast_MID_13/Run_520_Fast_MID_13_FILE_0.dat
+      32.77K  25%    1.74MB/s    0:00:00
+     131.07K 100%    6.58MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_520_Fast/Run_520_Fast_MID_14/
+>f+++++++ Run_520_Fast/Run_520_Fast_MID_14/Run_520_Fast_MID_14_FILE_0.dat
+      32.77K  25%    1.01MB/s    0:00:00
+     131.07K 100%    4.03MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_520_Fast/Run_520_Fast_MID_15/
+>f+++++++ Run_520_Fast/Run_520_Fast_MID_15/Run_520_Fast_MID_15_FILE_0.dat
+      32.77K  25%  969.70kB/s    0:00:00
+     131.07K 100%    3.79MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_520_Fast/Run_520_Fast_MID_2/
+>f+++++++ Run_520_Fast/Run_520_Fast_MID_2/Run_520_Fast_MID_2_FILE_0.dat
+      32.77K  25%  914.29kB/s    0:00:00
+     131.07K 100%    3.57MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_520_Fast/Run_520_Fast_MID_3/
+>f+++++++ Run_520_Fast/Run_520_Fast_MID_3/Run_520_Fast_MID_3_FILE_0.dat
+      32.77K  25%  864.86kB/s    0:00:00
+     131.07K 100%    3.38MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_520_Fast/Run_520_Fast_MID_4/
+>f+++++++ Run_520_Fast/Run_520_Fast_MID_4/Run_520_Fast_MID_4_FILE_0.dat
+      32.77K  25%  820.51kB/s    0:00:00
+     131.07K 100%    3.21MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_520_Fast/Run_520_Fast_MID_5/
+>f+++++++ Run_520_Fast/Run_520_Fast_MID_5/Run_520_Fast_MID_5_FILE_0.dat
+      32.77K  25%  780.49kB/s    0:00:00
+     131.07K 100%    3.05MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_520_Fast/Run_520_Fast_MID_6/
+>f+++++++ Run_520_Fast/Run_520_Fast_MID_6/Run_520_Fast_MID_6_FILE_0.dat
+      32.77K  25%  744.19kB/s    0:00:00
+     131.07K 100%    2.91MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_520_Fast/Run_520_Fast_MID_7/
+>f+++++++ Run_520_Fast/Run_520_Fast_MID_7/Run_520_Fast_MID_7_FILE_0.dat
+      32.77K  25%  711.11kB/s    0:00:00
+     131.07K 100%    2.72MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_520_Fast/Run_520_Fast_MID_8/
+>f+++++++ Run_520_Fast/Run_520_Fast_MID_8/Run_520_Fast_MID_8_FILE_0.dat
+      32.77K  25%  542.37kB/s    0:00:00
+     131.07K 100%    2.12MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_520_Fast/Run_520_Fast_MID_9/
+>f+++++++ Run_520_Fast/Run_520_Fast_MID_9/Run_520_Fast_MID_9_FILE_0.dat
+      32.77K  25%  507.94kB/s    0:00:00
+     131.07K 100%    1.98MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_520_Fast/Run_520_Fast_log/
+>f+++++++ Run_520_Fast/Run_520_Fast_log/Run_520_Fast_MID_10_buffer.txt
+         115 100%    1.75kB/s    0:00:00
+         115 100%    1.75kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_520_Fast/Run_520_Fast_log/Run_520_Fast_MID_11_buffer.txt
+         115 100%    1.75kB/s    0:00:00
+         115 100%    1.75kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_520_Fast/Run_520_Fast_log/Run_520_Fast_MID_12_buffer.txt
+         115 100%    1.75kB/s    0:00:00
+         115 100%    1.75kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_520_Fast/Run_520_Fast_log/Run_520_Fast_MID_13_buffer.txt
+         115 100%    1.73kB/s    0:00:00
+         115 100%    1.73kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_520_Fast/Run_520_Fast_log/Run_520_Fast_MID_14_buffer.txt
+         115 100%    1.73kB/s    0:00:00
+         115 100%    1.73kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_520_Fast/Run_520_Fast_log/Run_520_Fast_MID_15_buffer.txt
+         115 100%    1.65kB/s    0:00:00
+         115 100%    1.65kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_520_Fast/Run_520_Fast_log/Run_520_Fast_MID_1_buffer.txt
+         115 100%    1.63kB/s    0:00:00
+         115 100%    1.63kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_520_Fast/Run_520_Fast_log/Run_520_Fast_MID_2_buffer.txt
+         115 100%    1.60kB/s    0:00:00
+         115 100%    1.60kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_520_Fast/Run_520_Fast_log/Run_520_Fast_MID_3_buffer.txt
+         115 100%    1.58kB/s    0:00:00
+         115 100%    1.58kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_520_Fast/Run_520_Fast_log/Run_520_Fast_MID_4_buffer.txt
+         115 100%    1.58kB/s    0:00:00
+         115 100%    1.58kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_520_Fast/Run_520_Fast_log/Run_520_Fast_MID_5_buffer.txt
+         115 100%    1.54kB/s    0:00:00
+         115 100%    1.54kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_520_Fast/Run_520_Fast_log/Run_520_Fast_MID_6_buffer.txt
+         115 100%    1.52kB/s    0:00:00
+         115 100%    1.52kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_520_Fast/Run_520_Fast_log/Run_520_Fast_MID_7_buffer.txt
+         115 100%    1.52kB/s    0:00:00
+         115 100%    1.52kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_520_Fast/Run_520_Fast_log/Run_520_Fast_MID_8_buffer.txt
+         115 100%    1.50kB/s    0:00:00
+         115 100%    1.50kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_520_Fast/Run_520_Fast_log/Run_520_Fast_MID_9_buffer.txt
+         115 100%    1.48kB/s    0:00:00
+         115 100%    1.48kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_520_Wave/
+cd+++++++ Run_520_Wave/Run_520_Wave_MID_1/
+>f+++++++ Run_520_Wave/Run_520_Wave_MID_1/Run_520_Wave_MID_1_FILE_0.dat
+      32.77K   0%  395.06kB/s    0:01:27
+      34.67M 100%   83.49MB/s    0:00:00 (xfer#31, to-check=44/95)
+cd+++++++ Run_520_Wave/Run_520_Wave_MID_10/
+>f+++++++ Run_520_Wave/Run_520_Wave_MID_10/Run_520_Wave_MID_10_FILE_0.dat
+      32.77K   0%   80.40kB/s    0:07:10
+      34.67M 100%   45.79MB/s    0:00:00 (xfer#32, to-check=42/95)
+cd+++++++ Run_520_Wave/Run_520_Wave_MID_11/
+>f+++++++ Run_520_Wave/Run_520_Wave_MID_11/Run_520_Wave_MID_11_FILE_0.dat
+      32.77K   0%   44.26kB/s    0:13:02
+      21.79M  62%   20.78MB/s    0:00:00
+      34.67M 100%   30.11MB/s    0:00:01 (xfer#33, to-check=40/95)
+cd+++++++ Run_520_Wave/Run_520_Wave_MID_12/
+>f+++++++ Run_520_Wave/Run_520_Wave_MID_12/Run_520_Wave_MID_12_FILE_0.dat
+      32.77K   0%  323.23kB/s    0:01:47
+      34.67M 100%   71.10MB/s    0:00:00 (xfer#34, to-check=38/95)
+cd+++++++ Run_520_Wave/Run_520_Wave_MID_13/
+>f+++++++ Run_520_Wave/Run_520_Wave_MID_13/Run_520_Wave_MID_13_FILE_0.dat
+      32.77K   0%   68.52kB/s    0:08:25
+      34.67M 100%   42.06MB/s    0:00:00 (xfer#35, to-check=36/95)
+cd+++++++ Run_520_Wave/Run_520_Wave_MID_14/
+>f+++++++ Run_520_Wave/Run_520_Wave_MID_14/Run_520_Wave_MID_14_FILE_0.dat
+      32.77K   0%   40.66kB/s    0:14:11
+      24.51M  70%   23.38MB/s    0:00:00
+      34.67M 100%   30.73MB/s    0:00:01 (xfer#36, to-check=34/95)
+cd+++++++ Run_520_Wave/Run_520_Wave_MID_15/
+>f+++++++ Run_520_Wave/Run_520_Wave_MID_15/Run_520_Wave_MID_15_FILE_0.dat
+      32.77K   0%  410.26kB/s    0:01:24
+      34.67M 100%   92.61MB/s    0:00:00 (xfer#37, to-check=32/95)
+cd+++++++ Run_520_Wave/Run_520_Wave_MID_2/
+>f+++++++ Run_520_Wave/Run_520_Wave_MID_2/Run_520_Wave_MID_2_FILE_0.dat
+      32.77K   0%   89.14kB/s    0:06:28
+      34.67M 100%   47.85MB/s    0:00:00 (xfer#38, to-check=30/95)
+cd+++++++ Run_520_Wave/Run_520_Wave_MID_3/
+>f+++++++ Run_520_Wave/Run_520_Wave_MID_3/Run_520_Wave_MID_3_FILE_0.dat
+      32.77K   0%   46.24kB/s    0:12:28
+      31.23M  90%   29.78MB/s    0:00:00
+      34.67M 100%   32.26MB/s    0:00:01 (xfer#39, to-check=28/95)
+cd+++++++ Run_520_Wave/Run_520_Wave_MID_4/
+>f+++++++ Run_520_Wave/Run_520_Wave_MID_4/Run_520_Wave_MID_4_FILE_0.dat
+      32.77K   0%  914.29kB/s    0:00:37
+      34.67M 100%   79.67MB/s    0:00:00 (xfer#40, to-check=26/95)
+cd+++++++ Run_520_Wave/Run_520_Wave_MID_5/
+>f+++++++ Run_520_Wave/Run_520_Wave_MID_5/Run_520_Wave_MID_5_FILE_0.dat
+      32.77K   0%   76.92kB/s    0:07:30
+      34.67M 100%   47.10MB/s    0:00:00 (xfer#41, to-check=24/95)
+cd+++++++ Run_520_Wave/Run_520_Wave_MID_6/
+>f+++++++ Run_520_Wave/Run_520_Wave_MID_6/Run_520_Wave_MID_6_FILE_0.dat
+      32.77K   0%   45.45kB/s    0:12:41
+      31.20M  89%   29.75MB/s    0:00:00
+      34.67M 100%   32.22MB/s    0:00:01 (xfer#42, to-check=22/95)
+cd+++++++ Run_520_Wave/Run_520_Wave_MID_7/
+>f+++++++ Run_520_Wave/Run_520_Wave_MID_7/Run_520_Wave_MID_7_FILE_0.dat
+      32.77K   0%    1.12MB/s    0:00:30
+      34.67M 100%   85.43MB/s    0:00:00 (xfer#43, to-check=20/95)
+cd+++++++ Run_520_Wave/Run_520_Wave_MID_8/
+>f+++++++ Run_520_Wave/Run_520_Wave_MID_8/Run_520_Wave_MID_8_FILE_0.dat
+      32.77K   0%   82.26kB/s    0:07:01
+      34.67M 100%   44.98MB/s    0:00:00 (xfer#44, to-check=18/95)
+cd+++++++ Run_520_Wave/Run_520_Wave_MID_9/
+>f+++++++ Run_520_Wave/Run_520_Wave_MID_9/Run_520_Wave_MID_9_FILE_0.dat
+      32.77K   0%   43.48kB/s    0:13:16
+      26.15M  75%   24.94MB/s    0:00:00
+      34.67M 100%   31.07MB/s    0:00:01 (xfer#45, to-check=16/95)
+cd+++++++ Run_520_Wave/Run_520_Wave_log/
+>f+++++++ Run_520_Wave/Run_520_Wave_log/Run_520_Wave_MID_10_buffer.txt
+       7.17K 100%  107.78kB/s    0:00:00
+       7.17K 100%  107.78kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_520_Wave/Run_520_Wave_log/Run_520_Wave_MID_11_buffer.txt
+       7.19K 100%   98.84kB/s    0:00:00
+       7.19K 100%   98.84kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_520_Wave/Run_520_Wave_log/Run_520_Wave_MID_12_buffer.txt
+       7.11K 100%   96.37kB/s    0:00:00
+       7.11K 100%   96.37kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_520_Wave/Run_520_Wave_log/Run_520_Wave_MID_13_buffer.txt
+       7.16K 100%   86.31kB/s    0:00:00
+       7.16K 100%   86.31kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_520_Wave/Run_520_Wave_log/Run_520_Wave_MID_14_buffer.txt
+       7.16K 100%   77.66kB/s    0:00:00
+       7.16K 100%   77.66kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_520_Wave/Run_520_Wave_log/Run_520_Wave_MID_15_buffer.txt
+       7.01K 100%   69.14kB/s    0:00:00
+       7.01K 100%   69.14kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_520_Wave/Run_520_Wave_log/Run_520_Wave_MID_1_buffer.txt
+       7.01K 100%   63.38kB/s    0:00:00
+       7.01K 100%   63.38kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_520_Wave/Run_520_Wave_log/Run_520_Wave_MID_2_buffer.txt
+       7.11K 100%   50.29kB/s    0:00:00
+       7.11K 100%   50.29kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_520_Wave/Run_520_Wave_log/Run_520_Wave_MID_3_buffer.txt
+       7.06K 100%   49.63kB/s    0:00:00
+       7.06K 100%   49.63kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_520_Wave/Run_520_Wave_log/Run_520_Wave_MID_4_buffer.txt
+       7.01K 100%   48.88kB/s    0:00:00
+       7.01K 100%   48.88kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_520_Wave/Run_520_Wave_log/Run_520_Wave_MID_5_buffer.txt
+       7.21K 100%   49.94kB/s    0:00:00
+       7.21K 100%   49.94kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_520_Wave/Run_520_Wave_log/Run_520_Wave_MID_6_buffer.txt
+       7.07K 100%   48.59kB/s    0:00:00
+       7.07K 100%   48.59kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_520_Wave/Run_520_Wave_log/Run_520_Wave_MID_7_buffer.txt
+       7.00K 100%   47.77kB/s    0:00:00
+       7.00K 100%   47.77kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_520_Wave/Run_520_Wave_log/Run_520_Wave_MID_8_buffer.txt
+       7.14K 100%   48.45kB/s    0:00:00
+       7.14K 100%   48.45kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_520_Wave/Run_520_Wave_log/Run_520_Wave_MID_9_buffer.txt
+       7.06K 100%   46.60kB/s    0:00:00
+       7.06K 100%   46.60kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 522.17M bytes  received 1.55K bytes  80.33M bytes/sec
+total size is 522.10M  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_520/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_520_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

@@ -1,0 +1,288 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_480/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_480[0m
+[94m[INFO][0m SSD data folder size = [96m[1m0.934 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [--------------------------------------------------][0m [92m[1m0.645 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 96.076 GB / Free : [4m14805.477 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_480/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_480/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_480.txt --progress /Volumes/HDD_16TB_1/HDD_Run_480/ /Volumes/HDD_16TB_2/HDD_Run_480/[0m`? [y/n] building file list ... 
+ 0 files...
+ 100 files...
+110 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_480
+cd+++++++ ./
+cd+++++++ Run_480_Fast/
+cd+++++++ Run_480_Fast/Run_480_Fast_MID_1/
+>f+++++++ Run_480_Fast/Run_480_Fast_MID_1/Run_480_Fast_MID_1_FILE_0.dat
+      32.77K  13%    0.00kB/s    0:00:00
+     245.76K 100%  203.12MB/s    0:00:00 (xfer#1, to-check=106/110)
+cd+++++++ Run_480_Fast/Run_480_Fast_MID_10/
+>f+++++++ Run_480_Fast/Run_480_Fast_MID_10/Run_480_Fast_MID_10_FILE_0.dat
+      32.77K  13%   61.78kB/s    0:00:03
+     245.76K 100%  461.54kB/s    0:00:00 (xfer#2, to-check=104/110)
+cd+++++++ Run_480_Fast/Run_480_Fast_MID_11/
+>f+++++++ Run_480_Fast/Run_480_Fast_MID_11/Run_480_Fast_MID_11_FILE_0.dat
+      32.77K  13%   61.07kB/s    0:00:03
+     245.76K 100%  456.27kB/s    0:00:00 (xfer#3, to-check=102/110)
+cd+++++++ Run_480_Fast/Run_480_Fast_MID_12/
+>f+++++++ Run_480_Fast/Run_480_Fast_MID_12/Run_480_Fast_MID_12_FILE_0.dat
+      32.77K  13%   60.49kB/s    0:00:03
+     245.76K 100%  451.98kB/s    0:00:00 (xfer#4, to-check=100/110)
+cd+++++++ Run_480_Fast/Run_480_Fast_MID_13/
+>f+++++++ Run_480_Fast/Run_480_Fast_MID_13/Run_480_Fast_MID_13_FILE_0.dat
+      32.77K  13%   59.93kB/s    0:00:03
+     245.76K 100%  448.60kB/s    0:00:00 (xfer#5, to-check=98/110)
+cd+++++++ Run_480_Fast/Run_480_Fast_MID_14/
+>f+++++++ Run_480_Fast/Run_480_Fast_MID_14/Run_480_Fast_MID_14_FILE_0.dat
+      32.77K  13%   59.48kB/s    0:00:03
+     245.76K 100%  445.27kB/s    0:00:00 (xfer#6, to-check=96/110)
+cd+++++++ Run_480_Fast/Run_480_Fast_MID_15/
+>f+++++++ Run_480_Fast/Run_480_Fast_MID_15/Run_480_Fast_MID_15_FILE_0.dat
+      32.77K  13%   59.04kB/s    0:00:03
+     245.76K 100%  441.99kB/s    0:00:00 (xfer#7, to-check=94/110)
+cd+++++++ Run_480_Fast/Run_480_Fast_MID_2/
+>f+++++++ Run_480_Fast/Run_480_Fast_MID_2/Run_480_Fast_MID_2_FILE_0.dat
+      32.77K  13%   58.72kB/s    0:00:03
+     245.76K 100%  439.56kB/s    0:00:00 (xfer#8, to-check=92/110)
+cd+++++++ Run_480_Fast/Run_480_Fast_MID_3/
+>f+++++++ Run_480_Fast/Run_480_Fast_MID_3/Run_480_Fast_MID_3_FILE_0.dat
+      32.77K  13%   56.54kB/s    0:00:03
+     245.76K 100%  424.03kB/s    0:00:00 (xfer#9, to-check=90/110)
+cd+++++++ Run_480_Fast/Run_480_Fast_MID_4/
+>f+++++++ Run_480_Fast/Run_480_Fast_MID_4/Run_480_Fast_MID_4_FILE_0.dat
+      32.77K  13%   56.24kB/s    0:00:03
+     245.76K 100%  421.05kB/s    0:00:00 (xfer#10, to-check=88/110)
+cd+++++++ Run_480_Fast/Run_480_Fast_MID_5/
+>f+++++++ Run_480_Fast/Run_480_Fast_MID_5/Run_480_Fast_MID_5_FILE_0.dat
+      32.77K  13%   55.94kB/s    0:00:03
+     245.76K 100%  418.85kB/s    0:00:00 (xfer#11, to-check=86/110)
+cd+++++++ Run_480_Fast/Run_480_Fast_MID_6/
+>f+++++++ Run_480_Fast/Run_480_Fast_MID_6/Run_480_Fast_MID_6_FILE_0.dat
+      32.77K  13%   55.56kB/s    0:00:03
+     245.76K 100%  416.67kB/s    0:00:00 (xfer#12, to-check=84/110)
+cd+++++++ Run_480_Fast/Run_480_Fast_MID_7/
+>f+++++++ Run_480_Fast/Run_480_Fast_MID_7/Run_480_Fast_MID_7_FILE_0.dat
+      32.77K  13%   55.36kB/s    0:00:03
+     245.76K 100%  414.51kB/s    0:00:00 (xfer#13, to-check=82/110)
+cd+++++++ Run_480_Fast/Run_480_Fast_MID_8/
+>f+++++++ Run_480_Fast/Run_480_Fast_MID_8/Run_480_Fast_MID_8_FILE_0.dat
+      32.77K  13%   55.17kB/s    0:00:03
+     245.76K 100%  413.08kB/s    0:00:00 (xfer#14, to-check=80/110)
+cd+++++++ Run_480_Fast/Run_480_Fast_MID_9/
+>f+++++++ Run_480_Fast/Run_480_Fast_MID_9/Run_480_Fast_MID_9_FILE_0.dat
+      32.77K  13%   54.89kB/s    0:00:03
+     245.76K 100%  410.96kB/s    0:00:00 (xfer#15, to-check=78/110)
+cd+++++++ Run_480_Fast/Run_480_Fast_log/
+>f+++++++ Run_480_Fast/Run_480_Fast_log/Run_480_Fast_MID_10_buffer.txt
+         237 100%    0.40kB/s    0:00:00
+         237 100%    0.40kB/s    0:00:00 (xfer#16, to-check=76/110)
+>f+++++++ Run_480_Fast/Run_480_Fast_log/Run_480_Fast_MID_11_buffer.txt
+         237 100%    0.40kB/s    0:00:00
+         237 100%    0.40kB/s    0:00:00 (xfer#17, to-check=75/110)
+>f+++++++ Run_480_Fast/Run_480_Fast_log/Run_480_Fast_MID_12_buffer.txt
+         237 100%    0.40kB/s    0:00:00
+         237 100%    0.40kB/s    0:00:00 (xfer#18, to-check=74/110)
+>f+++++++ Run_480_Fast/Run_480_Fast_log/Run_480_Fast_MID_13_buffer.txt
+         237 100%    0.40kB/s    0:00:00
+         237 100%    0.40kB/s    0:00:00 (xfer#19, to-check=73/110)
+>f+++++++ Run_480_Fast/Run_480_Fast_log/Run_480_Fast_MID_14_buffer.txt
+         237 100%    0.40kB/s    0:00:00
+         237 100%    0.40kB/s    0:00:00 (xfer#20, to-check=72/110)
+>f+++++++ Run_480_Fast/Run_480_Fast_log/Run_480_Fast_MID_15_buffer.txt
+         237 100%    0.39kB/s    0:00:00
+         237 100%    0.39kB/s    0:00:00 (xfer#21, to-check=71/110)
+>f+++++++ Run_480_Fast/Run_480_Fast_log/Run_480_Fast_MID_1_buffer.txt
+         237 100%    0.39kB/s    0:00:00
+         237 100%    0.39kB/s    0:00:00 (xfer#22, to-check=70/110)
+>f+++++++ Run_480_Fast/Run_480_Fast_log/Run_480_Fast_MID_2_buffer.txt
+         237 100%    0.39kB/s    0:00:00
+         237 100%    0.39kB/s    0:00:00 (xfer#23, to-check=69/110)
+>f+++++++ Run_480_Fast/Run_480_Fast_log/Run_480_Fast_MID_3_buffer.txt
+         237 100%    0.39kB/s    0:00:00
+         237 100%    0.39kB/s    0:00:00 (xfer#24, to-check=68/110)
+>f+++++++ Run_480_Fast/Run_480_Fast_log/Run_480_Fast_MID_4_buffer.txt
+         237 100%    0.39kB/s    0:00:00
+         237 100%    0.39kB/s    0:00:00 (xfer#25, to-check=67/110)
+>f+++++++ Run_480_Fast/Run_480_Fast_log/Run_480_Fast_MID_5_buffer.txt
+         237 100%    0.39kB/s    0:00:00
+         237 100%    0.39kB/s    0:00:00 (xfer#26, to-check=66/110)
+>f+++++++ Run_480_Fast/Run_480_Fast_log/Run_480_Fast_MID_6_buffer.txt
+         237 100%    0.39kB/s    0:00:00
+         237 100%    0.39kB/s    0:00:00 (xfer#27, to-check=65/110)
+>f+++++++ Run_480_Fast/Run_480_Fast_log/Run_480_Fast_MID_7_buffer.txt
+         237 100%    0.39kB/s    0:00:00
+         237 100%    0.39kB/s    0:00:00 (xfer#28, to-check=64/110)
+>f+++++++ Run_480_Fast/Run_480_Fast_log/Run_480_Fast_MID_8_buffer.txt
+         237 100%    0.39kB/s    0:00:00
+         237 100%    0.39kB/s    0:00:00 (xfer#29, to-check=63/110)
+>f+++++++ Run_480_Fast/Run_480_Fast_log/Run_480_Fast_MID_9_buffer.txt
+         237 100%    0.39kB/s    0:00:00
+         237 100%    0.39kB/s    0:00:00 (xfer#30, to-check=62/110)
+cd+++++++ Run_480_Wave/
+cd+++++++ Run_480_Wave/Run_480_Wave_MID_1/
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_1/Run_480_Wave_MID_1_FILE_0.dat
+      32.77K   0%   52.37kB/s    0:20:51
+      43.38M  66%   41.38MB/s    0:00:00
+      65.60M 100%   50.17MB/s    0:00:01 (xfer#31, to-check=59/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_1/Run_480_Wave_MID_1_FILE_1.dat
+      32.77K   3%  128.51kB/s    0:00:07
+     983.04K 100%    3.62MB/s    0:00:00 (xfer#32, to-check=58/110)
+cd+++++++ Run_480_Wave/Run_480_Wave_MID_10/
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_10/Run_480_Wave_MID_10_FILE_0.dat
+      32.77K   0%  122.61kB/s    0:08:54
+      65.60M 100%   68.00MB/s    0:00:00 (xfer#33, to-check=56/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_10/Run_480_Wave_MID_10_FILE_1.dat
+      32.77K   3%   34.74kB/s    0:00:27
+     983.04K 100%    1.00MB/s    0:00:00 (xfer#34, to-check=55/110)
+cd+++++++ Run_480_Wave/Run_480_Wave_MID_11/
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_11/Run_480_Wave_MID_11_FILE_0.dat
+      32.77K   0%   34.19kB/s    0:31:57
+       5.24M   7%    5.00MB/s    0:00:11
+      65.60M 100%   42.70MB/s    0:00:01 (xfer#35, to-check=53/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_11/Run_480_Wave_MID_11_FILE_1.dat
+      32.77K   3%   68.52kB/s    0:00:13
+     983.04K 100%    1.98MB/s    0:00:00 (xfer#36, to-check=52/110)
+cd+++++++ Run_480_Wave/Run_480_Wave_MID_12/
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_12/Run_480_Wave_MID_12_FILE_0.dat
+      32.77K   0%   67.37kB/s    0:16:13
+      56.03M  85%   53.44MB/s    0:00:00
+      65.60M 100%   57.13MB/s    0:00:01 (xfer#37, to-check=50/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_12/Run_480_Wave_MID_12_FILE_1.dat
+      32.77K   3%  329.90kB/s    0:00:02
+     983.04K 100%    8.45MB/s    0:00:00 (xfer#38, to-check=49/110)
+cd+++++++ Run_480_Wave/Run_480_Wave_MID_13/
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_13/Run_480_Wave_MID_13_FILE_0.dat
+      32.77K   0%  285.71kB/s    0:03:49
+      65.60M 100%   78.20MB/s    0:00:00 (xfer#39, to-check=47/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_13/Run_480_Wave_MID_13_FILE_1.dat
+      32.77K   3%   39.95kB/s    0:00:23
+     983.04K 100%    1.15MB/s    0:00:00 (xfer#40, to-check=46/110)
+cd+++++++ Run_480_Wave/Run_480_Wave_MID_14/
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_14/Run_480_Wave_MID_14_FILE_0.dat
+      32.77K   0%   39.31kB/s    0:27:47
+      19.69M  30%   18.78MB/s    0:00:02
+      65.60M 100%   46.34MB/s    0:00:01 (xfer#41, to-check=44/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_14/Run_480_Wave_MID_14_FILE_1.dat
+      32.77K   3%   90.91kB/s    0:00:10
+     983.04K 100%    2.58MB/s    0:00:00 (xfer#42, to-check=43/110)
+cd+++++++ Run_480_Wave/Run_480_Wave_MID_15/
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_15/Run_480_Wave_MID_15_FILE_0.dat
+      32.77K   0%   87.67kB/s    0:12:27
+      65.60M 100%   63.71MB/s    0:00:00 (xfer#43, to-check=41/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_15/Run_480_Wave_MID_15_FILE_1.dat
+      32.77K   3%   32.52kB/s    0:00:29
+     983.04K 100%  962.89kB/s    0:00:00 (xfer#44, to-check=40/110)
+cd+++++++ Run_480_Wave/Run_480_Wave_MID_2/
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_2/Run_480_Wave_MID_2_FILE_0.dat
+      32.77K   0%   32.06kB/s    0:34:04
+     294.91K   0%  286.57kB/s    0:03:47
+      65.60M 100%   39.62MB/s    0:00:01 (xfer#45, to-check=38/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_2/Run_480_Wave_MID_2_FILE_1.dat
+      32.77K   3%   55.65kB/s    0:00:17
+     983.04K 100%    1.61MB/s    0:00:00 (xfer#46, to-check=37/110)
+cd+++++++ Run_480_Wave/Run_480_Wave_MID_3/
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_3/Run_480_Wave_MID_3_FILE_0.dat
+      32.77K   0%   54.61kB/s    0:20:00
+      44.07M  67%   41.66MB/s    0:00:00
+      65.60M 100%   53.38MB/s    0:00:01 (xfer#47, to-check=35/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_3/Run_480_Wave_MID_3_FILE_1.dat
+      32.77K   3%  195.12kB/s    0:00:04
+     983.04K 100%    5.39MB/s    0:00:00 (xfer#48, to-check=34/110)
+cd+++++++ Run_480_Wave/Run_480_Wave_MID_4/
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_4/Run_480_Wave_MID_4_FILE_0.dat
+      32.77K   0%  181.82kB/s    0:06:00
+      65.60M 100%   78.01MB/s    0:00:00 (xfer#49, to-check=32/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_4/Run_480_Wave_MID_4_FILE_1.dat
+      32.77K   3%   39.85kB/s    0:00:23
+     983.04K 100%    1.15MB/s    0:00:00 (xfer#50, to-check=31/110)
+cd+++++++ Run_480_Wave/Run_480_Wave_MID_5/
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_5/Run_480_Wave_MID_5_FILE_0.dat
+      32.77K   0%   39.12kB/s    0:27:56
+      20.22M  30%   19.28MB/s    0:00:02
+      65.60M 100%   44.72MB/s    0:00:01 (xfer#51, to-check=29/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_5/Run_480_Wave_MID_5_FILE_1.dat
+      32.77K   3%   79.60kB/s    0:00:11
+     983.04K 100%    2.29MB/s    0:00:00 (xfer#52, to-check=28/110)
+cd+++++++ Run_480_Wave/Run_480_Wave_MID_6/
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_6/Run_480_Wave_MID_6_FILE_0.dat
+      32.77K   0%   77.86kB/s    0:14:02
+      62.42M  95%   59.53MB/s    0:00:00
+      65.60M 100%   61.16MB/s    0:00:01 (xfer#53, to-check=26/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_6/Run_480_Wave_MID_6_FILE_1.dat
+      32.77K   3%    1.25MB/s    0:00:00
+     983.04K 100%   26.79MB/s    0:00:00 (xfer#54, to-check=25/110)
+cd+++++++ Run_480_Wave/Run_480_Wave_MID_7/
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_7/Run_480_Wave_MID_7_FILE_0.dat
+      32.77K   0%  888.89kB/s    0:01:13
+      65.60M 100%   91.20MB/s    0:00:00 (xfer#55, to-check=23/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_7/Run_480_Wave_MID_7_FILE_1.dat
+      32.77K   3%   46.58kB/s    0:00:20
+     983.04K 100%    1.35MB/s    0:00:00 (xfer#56, to-check=22/110)
+cd+++++++ Run_480_Wave/Run_480_Wave_MID_8/
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_8/Run_480_Wave_MID_8_FILE_0.dat
+      32.77K   0%   45.98kB/s    0:23:46
+      34.37M  52%   32.17MB/s    0:00:00
+      65.60M 100%   47.72MB/s    0:00:01 (xfer#57, to-check=20/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_8/Run_480_Wave_MID_8_FILE_1.dat
+      32.77K   3%  109.22kB/s    0:00:08
+     983.04K 100%    3.14MB/s    0:00:00 (xfer#58, to-check=19/110)
+cd+++++++ Run_480_Wave/Run_480_Wave_MID_9/
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_9/Run_480_Wave_MID_9_FILE_0.dat
+      32.77K   0%  106.31kB/s    0:10:16
+      30.44M  46%   29.00MB/s    0:00:01
+      65.60M 100%   41.43MB/s    0:00:01 (xfer#59, to-check=17/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_MID_9/Run_480_Wave_MID_9_FILE_1.dat
+      32.77K   3%   62.62kB/s    0:00:15
+     983.04K 100%    1.80MB/s    0:00:00 (xfer#60, to-check=16/110)
+cd+++++++ Run_480_Wave/Run_480_Wave_log/
+>f+++++++ Run_480_Wave/Run_480_Wave_log/Run_480_Wave_MID_10_buffer.txt
+      15.81K 100%   29.58kB/s    0:00:00
+      15.81K 100%   29.58kB/s    0:00:00 (xfer#61, to-check=14/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_log/Run_480_Wave_MID_11_buffer.txt
+      15.78K 100%   29.47kB/s    0:00:00
+      15.78K 100%   29.47kB/s    0:00:00 (xfer#62, to-check=13/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_log/Run_480_Wave_MID_12_buffer.txt
+      15.78K 100%   29.41kB/s    0:00:00
+      15.78K 100%   29.41kB/s    0:00:00 (xfer#63, to-check=12/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_log/Run_480_Wave_MID_13_buffer.txt
+      15.77K 100%   29.27kB/s    0:00:00
+      15.77K 100%   29.27kB/s    0:00:00 (xfer#64, to-check=11/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_log/Run_480_Wave_MID_14_buffer.txt
+      15.75K 100%   29.19kB/s    0:00:00
+      15.75K 100%   29.19kB/s    0:00:00 (xfer#65, to-check=10/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_log/Run_480_Wave_MID_15_buffer.txt
+      15.79K 100%   29.20kB/s    0:00:00
+      15.79K 100%   29.20kB/s    0:00:00 (xfer#66, to-check=9/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_log/Run_480_Wave_MID_1_buffer.txt
+      15.75K 100%   29.08kB/s    0:00:00
+      15.75K 100%   29.08kB/s    0:00:00 (xfer#67, to-check=8/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_log/Run_480_Wave_MID_2_buffer.txt
+      15.78K 100%   29.08kB/s    0:00:00
+      15.78K 100%   29.08kB/s    0:00:00 (xfer#68, to-check=7/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_log/Run_480_Wave_MID_3_buffer.txt
+      15.75K 100%   28.97kB/s    0:00:00
+      15.75K 100%   28.97kB/s    0:00:00 (xfer#69, to-check=6/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_log/Run_480_Wave_MID_4_buffer.txt
+      15.75K 100%   28.92kB/s    0:00:00
+      15.75K 100%   28.92kB/s    0:00:00 (xfer#70, to-check=5/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_log/Run_480_Wave_MID_5_buffer.txt
+      15.84K 100%   29.02kB/s    0:00:00
+      15.84K 100%   29.02kB/s    0:00:00 (xfer#71, to-check=4/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_log/Run_480_Wave_MID_6_buffer.txt
+      15.72K 100%   28.75kB/s    0:00:00
+      15.72K 100%   28.75kB/s    0:00:00 (xfer#72, to-check=3/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_log/Run_480_Wave_MID_7_buffer.txt
+      15.71K 100%   28.67kB/s    0:00:00
+      15.71K 100%   28.67kB/s    0:00:00 (xfer#73, to-check=2/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_log/Run_480_Wave_MID_8_buffer.txt
+      15.74K 100%   28.67kB/s    0:00:00
+      15.74K 100%   28.67kB/s    0:00:00 (xfer#74, to-check=1/110)
+>f+++++++ Run_480_Wave/Run_480_Wave_log/Run_480_Wave_MID_9_buffer.txt
+      15.75K 100%   28.64kB/s    0:00:00
+      15.75K 100%   28.64kB/s    0:00:00 (xfer#75, to-check=0/110)
+
+sent 1.00G bytes  received 1.88K bytes  87.20M bytes/sec
+total size is 1.00G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_480/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_480_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

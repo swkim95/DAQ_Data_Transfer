@@ -1,0 +1,504 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_753/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_753[0m
+[94m[INFO][0m SSD data folder size = [96m[1m18.428 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [##############------------------------------------][0m [92m[1m28.285 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 4214.924 GB / Free : [4m10686.629 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_753/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_753/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_753.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_753/ /Volumes/HDD_16TB_1/HDD_Run_753/[0m`? [y/n] 
+building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_753
+cd+++++++ ./
+cd+++++++ Run_753_Fast/
+cd+++++++ Run_753_Fast/Run_753_Fast_MID_1/
+>f+++++++ Run_753_Fast/Run_753_Fast_MID_1/Run_753_Fast_MID_1_FILE_0.dat
+      32.77K   0%    0.00kB/s    0:00:00
+       5.13M 100%   14.91MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_753_Fast/Run_753_Fast_MID_10/
+>f+++++++ Run_753_Fast/Run_753_Fast_MID_10/Run_753_Fast_MID_10_FILE_0.dat
+      32.77K   0%   87.43kB/s    0:00:58
+       5.13M 100%    6.32MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_753_Fast/Run_753_Fast_MID_11/
+>f+++++++ Run_753_Fast/Run_753_Fast_MID_11/Run_753_Fast_MID_11_FILE_0.dat
+      32.77K   0%   39.80kB/s    0:02:08
+       3.28M  63%    3.12MB/s    0:00:00
+       5.13M 100%    4.34MB/s    0:00:01 (xfer#3, to-check=87/95)
+cd+++++++ Run_753_Fast/Run_753_Fast_MID_12/
+>f+++++++ Run_753_Fast/Run_753_Fast_MID_12/Run_753_Fast_MID_12_FILE_0.dat
+      32.77K   0%  181.82kB/s    0:00:28
+       5.13M 100%    8.43MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_753_Fast/Run_753_Fast_MID_13/
+>f+++++++ Run_753_Fast/Run_753_Fast_MID_13/Run_753_Fast_MID_13_FILE_0.dat
+      32.77K   0%   52.37kB/s    0:01:37
+       5.13M 100%    5.23MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_753_Fast/Run_753_Fast_MID_14/
+>f+++++++ Run_753_Fast/Run_753_Fast_MID_14/Run_753_Fast_MID_14_FILE_0.dat
+      32.77K   0%   33.09kB/s    0:02:33
+     557.06K  10%  544.00kB/s    0:00:08
+       5.13M 100%    3.73MB/s    0:00:01 (xfer#6, to-check=81/95)
+cd+++++++ Run_753_Fast/Run_753_Fast_MID_15/
+>f+++++++ Run_753_Fast/Run_753_Fast_MID_15/Run_753_Fast_MID_15_FILE_0.dat
+      32.77K   0%   92.75kB/s    0:00:54
+       5.13M 100%    6.85MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_753_Fast/Run_753_Fast_MID_2/
+>f+++++++ Run_753_Fast/Run_753_Fast_MID_2/Run_753_Fast_MID_2_FILE_0.dat
+      32.77K   0%   42.90kB/s    0:01:58
+       3.70M  72%    3.52MB/s    0:00:00
+       5.13M 100%    4.50MB/s    0:00:01 (xfer#8, to-check=77/95)
+cd+++++++ Run_753_Fast/Run_753_Fast_MID_3/
+>f+++++++ Run_753_Fast/Run_753_Fast_MID_3/Run_753_Fast_MID_3_FILE_0.dat
+      32.77K   0%  285.71kB/s    0:00:17
+       5.13M 100%   11.14MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_753_Fast/Run_753_Fast_MID_4/
+>f+++++++ Run_753_Fast/Run_753_Fast_MID_4/Run_753_Fast_MID_4_FILE_0.dat
+      32.77K   0%   66.12kB/s    0:01:17
+       5.13M 100%    6.01MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_753_Fast/Run_753_Fast_MID_5/
+>f+++++++ Run_753_Fast/Run_753_Fast_MID_5/Run_753_Fast_MID_5_FILE_0.dat
+      32.77K   0%   38.60kB/s    0:02:12
+       2.65M  51%    2.52MB/s    0:00:00
+       5.13M 100%    4.12MB/s    0:00:01 (xfer#11, to-check=71/95)
+cd+++++++ Run_753_Fast/Run_753_Fast_MID_6/
+>f+++++++ Run_753_Fast/Run_753_Fast_MID_6/Run_753_Fast_MID_6_FILE_0.dat
+      32.77K   0%  164.10kB/s    0:00:31
+       5.13M 100%    8.86MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_753_Fast/Run_753_Fast_MID_7/
+>f+++++++ Run_753_Fast/Run_753_Fast_MID_7/Run_753_Fast_MID_7_FILE_0.dat
+      32.77K   0%   56.34kB/s    0:01:30
+       5.13M 100%    5.47MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_753_Fast/Run_753_Fast_MID_8/
+>f+++++++ Run_753_Fast/Run_753_Fast_MID_8/Run_753_Fast_MID_8_FILE_0.dat
+      32.77K   0%   35.20kB/s    0:02:24
+       1.61M  31%    1.52MB/s    0:00:02
+       5.13M 100%    3.92MB/s    0:00:01 (xfer#14, to-check=65/95)
+cd+++++++ Run_753_Fast/Run_753_Fast_MID_9/
+>f+++++++ Run_753_Fast/Run_753_Fast_MID_9/Run_753_Fast_MID_9_FILE_0.dat
+      32.77K   0%  124.03kB/s    0:00:41
+       5.13M 100%    8.15MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_753_Fast/Run_753_Fast_log/
+>f+++++++ Run_753_Fast/Run_753_Fast_log/Run_753_Fast_MID_10_buffer.txt
+       5.00K 100%    8.14kB/s    0:00:00
+       5.00K 100%    8.14kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_753_Fast/Run_753_Fast_log/Run_753_Fast_MID_11_buffer.txt
+       5.00K 100%    7.94kB/s    0:00:00
+       5.00K 100%    7.94kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_753_Fast/Run_753_Fast_log/Run_753_Fast_MID_12_buffer.txt
+       5.00K 100%    7.56kB/s    0:00:00
+       5.00K 100%    7.56kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_753_Fast/Run_753_Fast_log/Run_753_Fast_MID_13_buffer.txt
+       5.00K 100%    7.56kB/s    0:00:00
+       5.00K 100%    7.56kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_753_Fast/Run_753_Fast_log/Run_753_Fast_MID_14_buffer.txt
+       5.00K 100%    7.39kB/s    0:00:00
+       5.00K 100%    7.39kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_753_Fast/Run_753_Fast_log/Run_753_Fast_MID_15_buffer.txt
+       5.00K 100%    6.89kB/s    0:00:00
+       5.00K 100%    6.89kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_753_Fast/Run_753_Fast_log/Run_753_Fast_MID_1_buffer.txt
+       5.00K 100%    6.88kB/s    0:00:00
+       5.00K 100%    6.88kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_753_Fast/Run_753_Fast_log/Run_753_Fast_MID_2_buffer.txt
+       5.00K 100%    6.60kB/s    0:00:00
+       5.00K 100%    6.60kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_753_Fast/Run_753_Fast_log/Run_753_Fast_MID_3_buffer.txt
+       5.00K 100%    6.09kB/s    0:00:00
+       5.00K 100%    6.09kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_753_Fast/Run_753_Fast_log/Run_753_Fast_MID_4_buffer.txt
+       5.00K 100%    6.09kB/s    0:00:00
+       5.00K 100%    6.09kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_753_Fast/Run_753_Fast_log/Run_753_Fast_MID_5_buffer.txt
+       5.00K 100%    5.88kB/s    0:00:00
+       5.00K 100%    5.88kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_753_Fast/Run_753_Fast_log/Run_753_Fast_MID_6_buffer.txt
+       5.00K 100%    5.37kB/s    0:00:00
+       5.00K 100%    5.37kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_753_Fast/Run_753_Fast_log/Run_753_Fast_MID_7_buffer.txt
+       5.00K 100%    5.37kB/s    0:00:00
+       5.00K 100%    5.37kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_753_Fast/Run_753_Fast_log/Run_753_Fast_MID_8_buffer.txt
+       5.00K 100%    5.11kB/s    0:00:00
+       5.00K 100%    5.11kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_753_Fast/Run_753_Fast_log/Run_753_Fast_MID_9_buffer.txt
+       5.00K 100%    4.94kB/s    0:00:00
+       5.00K 100%    4.94kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_753_Wave/
+cd+++++++ Run_753_Wave/Run_753_Wave_MID_1/
+>f+++++++ Run_753_Wave/Run_753_Wave_MID_1/Run_753_Wave_MID_1_FILE_0.dat
+      32.77K   0%   30.48kB/s   11:58:23
+      65.54K   0%   60.89kB/s    5:59:31
+      16.55M   1%    7.69MB/s    0:02:44
+      48.01M   3%   15.01MB/s    0:01:22
+     118.26M   9%   27.84MB/s    0:00:41
+     220.53M  16%   52.58MB/s    0:00:20
+     326.53M  24%   73.94MB/s    0:00:13
+     447.77M  34%   95.36MB/s    0:00:08
+     562.92M  42%  106.10MB/s    0:00:06
+     672.89M  51%  107.93MB/s    0:00:05
+     777.22M  59%  107.53MB/s    0:00:04
+     883.92M  67%  104.06MB/s    0:00:04
+     996.18M  75%  103.37MB/s    0:00:02
+       1.12G  85%  106.94MB/s    0:00:01
+       1.24G  94%  110.32MB/s    0:00:00
+       1.31G 100%   85.32MB/s    0:00:14 (xfer#31, to-check=44/95)
+cd+++++++ Run_753_Wave/Run_753_Wave_MID_10/
+>f+++++++ Run_753_Wave/Run_753_Wave_MID_10/Run_753_Wave_MID_10_FILE_0.dat
+      32.77K   0%   49.92kB/s    7:18:33
+      39.62M   3%   37.78MB/s    0:00:32
+     164.13M  12%   78.27MB/s    0:00:14
+     285.87M  21%   90.91MB/s    0:00:11
+     414.88M  31%   98.96MB/s    0:00:08
+     543.59M  41%  120.22MB/s    0:00:06
+     668.47M  50%  120.33MB/s    0:00:05
+     797.70M  60%  122.12MB/s    0:00:04
+     877.69M  66%  110.40MB/s    0:00:03
+     985.96M  75%  105.50MB/s    0:00:03
+       1.09G  83%  100.95MB/s    0:00:02
+       1.20G  91%   95.07MB/s    0:00:01
+       1.29G  98%   98.97MB/s    0:00:00
+       1.31G 100%  103.06MB/s    0:00:12 (xfer#32, to-check=42/95)
+cd+++++++ Run_753_Wave/Run_753_Wave_MID_11/
+>f+++++++ Run_753_Wave/Run_753_Wave_MID_11/Run_753_Wave_MID_11_FILE_0.dat
+      32.77K   0%  197.53kB/s    1:50:50
+     103.32M   7%   98.53MB/s    0:00:11
+     216.96M  16%  103.45MB/s    0:00:10
+     345.77M  26%  109.95MB/s    0:00:08
+     444.92M  33%  106.13MB/s    0:00:07
+     461.67M  35%   85.33MB/s    0:00:09
+     478.45M  36%   62.13MB/s    0:00:13
+     495.22M  37%   35.42MB/s    0:00:22
+     512.00M  38%   15.86MB/s    0:00:49
+     529.04M  40%   15.91MB/s    0:00:48
+     546.08M  41%   15.97MB/s    0:00:46
+     562.86M  42%   16.00MB/s    0:00:45
+     577.27M  43%   15.43MB/s    0:00:46
+     591.95M  45%   14.88MB/s    0:00:47
+     607.42M  46%   14.55MB/s    0:00:47
+     622.89M  47%   14.20MB/s    0:00:47
+     638.62M  48%   14.53MB/s    0:00:45
+     654.08M  49%   14.72MB/s    0:00:43
+     670.33M  51%   14.76MB/s    0:00:42
+     686.85M  52%   14.80MB/s    0:00:41
+     703.37M  53%   14.80MB/s    0:00:40
+     719.88M  54%   14.85MB/s    0:00:39
+     736.40M  56%   14.82MB/s    0:00:38
+     752.91M  57%   14.82MB/s    0:00:36
+     769.43M  58%   14.82MB/s    0:00:35
+     784.37M  59%   14.62MB/s    0:00:35
+     801.41M  61%   14.93MB/s    0:00:33
+     816.61M  62%   14.86MB/s    0:00:32
+     832.08M  63%   14.81MB/s    0:00:31
+     847.81M  64%   15.02MB/s    0:00:30
+     862.75M  65%   14.55MB/s    0:00:30
+     878.22M  66%   14.62MB/s    0:00:29
+     893.94M  68%   14.65MB/s    0:00:27
+     908.62M  69%   14.39MB/s    0:00:27
+     924.09M  70%   14.51MB/s    0:00:26
+     939.56M  71%   14.47MB/s    0:00:25
+     955.55M  72%   14.47MB/s    0:00:24
+     972.06M  73%   14.70MB/s    0:00:22
+     988.58M  75%   14.97MB/s    0:00:21
+       1.08G  82%   32.40MB/s    0:00:07
+       1.18G  89%   52.97MB/s    0:00:02
+       1.29G  98%   75.33MB/s    0:00:00
+       1.31G 100%   29.87MB/s    0:00:41 (xfer#33, to-check=40/95)
+cd+++++++ Run_753_Wave/Run_753_Wave_MID_12/
+>f+++++++ Run_753_Wave/Run_753_Wave_MID_12/Run_753_Wave_MID_12_FILE_0.dat
+      32.77K   0%  126.48kB/s    2:53:05
+      71.07M   5%   67.78MB/s    0:00:17
+     160.63M  12%   76.63MB/s    0:00:14
+     289.96M  22%   92.24MB/s    0:00:10
+     419.23M  31%  100.03MB/s    0:00:08
+     547.13M  41%  113.59MB/s    0:00:06
+     672.96M  51%  122.21MB/s    0:00:05
+     801.14M  60%  121.94MB/s    0:00:04
+     930.12M  70%  121.84MB/s    0:00:03
+       1.06G  80%  122.13MB/s    0:00:02
+       1.19G  90%  122.90MB/s    0:00:00
+       1.31G 100%  114.22MB/s    0:00:10 (xfer#34, to-check=38/95)
+cd+++++++ Run_753_Wave/Run_753_Wave_MID_13/
+>f+++++++ Run_753_Wave/Run_753_Wave_MID_13/Run_753_Wave_MID_13_FILE_0.dat
+      32.77K   0%   32.79kB/s   11:07:45
+       1.08M   0%    1.03MB/s    0:20:42
+      97.98M   7%   46.72MB/s    0:00:25
+     197.07M  15%   62.67MB/s    0:00:17
+     295.67M  22%   70.53MB/s    0:00:14
+     397.02M  30%   94.47MB/s    0:00:09
+     504.92M  38%   97.07MB/s    0:00:08
+     613.71M  46%   99.39MB/s    0:00:06
+     742.42M  56%  106.57MB/s    0:00:05
+     871.24M  66%  113.12MB/s    0:00:03
+       1.00G  76%  118.12MB/s    0:00:02
+       1.13G  85%  122.81MB/s    0:00:01
+       1.25G  95%  120.94MB/s    0:00:00
+       1.31G 100%  100.31MB/s    0:00:12 (xfer#35, to-check=36/95)
+cd+++++++ Run_753_Wave/Run_753_Wave_MID_14/
+>f+++++++ Run_753_Wave/Run_753_Wave_MID_14/Run_753_Wave_MID_14_FILE_0.dat
+      32.77K   0%   64.13kB/s    5:41:24
+      58.23M   4%   55.53MB/s    0:00:22
+     174.36M  13%   83.14MB/s    0:00:13
+     201.36M  15%   64.01MB/s    0:00:16
+     218.40M  16%   51.94MB/s    0:00:20
+     235.44M  17%   42.03MB/s    0:00:25
+     252.22M  19%   18.47MB/s    0:00:56
+     269.25M  20%   16.06MB/s    0:01:03
+     286.29M  21%   16.05MB/s    0:01:02
+     303.33M  23%   16.05MB/s    0:01:01
+     318.80M  24%   15.74MB/s    0:01:01
+     334.00M  25%   15.33MB/s    0:01:02
+     349.21M  26%   14.93MB/s    0:01:03
+     364.41M  27%   14.52MB/s    0:01:03
+     378.83M  28%   14.23MB/s    0:01:04
+     395.08M  30%   14.45MB/s    0:01:02
+     410.55M  31%   14.49MB/s    0:01:00
+     425.75M  32%   14.51MB/s    0:00:59
+     440.96M  33%   14.71MB/s    0:00:57
+     456.16M  34%   14.50MB/s    0:00:57
+     471.24M  35%   14.45MB/s    0:00:56
+     486.57M  37%   14.46MB/s    0:00:55
+     499.15M  37%   13.83MB/s    0:00:57
+     515.93M  39%   14.18MB/s    0:00:54
+     532.71M  40%   14.54MB/s    0:00:52
+     548.70M  41%   14.67MB/s    0:00:50
+     563.90M  42%   15.27MB/s    0:00:47
+     579.31M  44%   14.98MB/s    0:00:47
+     589.86M  44%   13.53MB/s    0:00:52
+     606.63M  46%   13.72MB/s    0:00:50
+     622.10M  47%   13.78MB/s    0:00:49
+     637.04M  48%   13.65MB/s    0:00:48
+     652.77M  49%   14.78MB/s    0:00:43
+     669.45M  50%   14.81MB/s    0:00:42
+     685.28M  52%   14.79MB/s    0:00:41
+     698.38M  53%   14.35MB/s    0:00:41
+     714.90M  54%   14.64MB/s    0:00:39
+     730.10M  55%   14.29MB/s    0:00:39
+     788.56M  60%   24.58MB/s    0:00:20
+     902.33M  68%   48.61MB/s    0:00:08
+       1.03G  78%   75.37MB/s    0:00:03
+       1.16G  88%  102.30MB/s    0:00:01
+       1.27G  96%  114.78MB/s    0:00:00
+       1.31G 100%   29.35MB/s    0:00:42 (xfer#36, to-check=34/95)
+cd+++++++ Run_753_Wave/Run_753_Wave_MID_15/
+>f+++++++ Run_753_Wave/Run_753_Wave_MID_15/Run_753_Wave_MID_15_FILE_0.dat
+      32.77K   0%   71.75kB/s    5:05:08
+      45.51M   3%   43.41MB/s    0:00:28
+     151.81M  11%   72.32MB/s    0:00:15
+     257.46M  19%   81.82MB/s    0:00:12
+     361.46M  27%   86.18MB/s    0:00:10
+     442.86M  33%   94.73MB/s    0:00:08
+     509.64M  38%   82.93MB/s    0:00:09
+     580.42M  44%   74.85MB/s    0:00:09
+     648.58M  49%   66.52MB/s    0:00:09
+     722.50M  54%   64.76MB/s    0:00:08
+     818.45M  62%   73.62MB/s    0:00:06
+     929.92M  70%   83.35MB/s    0:00:04
+       1.03G  78%   90.14MB/s    0:00:03
+       1.13G  86%   98.21MB/s    0:00:01
+       1.21G  92%   93.51MB/s    0:00:01
+       1.31G 100%   83.00MB/s    0:00:15 (xfer#37, to-check=32/95)
+cd+++++++ Run_753_Wave/Run_753_Wave_MID_2/
+>f+++++++ Run_753_Wave/Run_753_Wave_MID_2/Run_753_Wave_MID_2_FILE_0.dat
+      32.77K   0%   32.16kB/s   11:20:45
+     294.91K   0%  262.77kB/s    1:23:18
+      99.39M   7%   45.22MB/s    0:00:26
+     205.26M  15%   63.25MB/s    0:00:17
+     308.31M  23%   71.80MB/s    0:00:13
+     422.08M  32%  100.59MB/s    0:00:08
+     516.46M  39%   99.49MB/s    0:00:07
+     605.88M  46%   95.56MB/s    0:00:07
+     698.91M  53%   93.15MB/s    0:00:06
+     718.31M  54%   70.59MB/s    0:00:08
+     728.27M  55%   50.34MB/s    0:00:11
+     743.21M  56%   32.62MB/s    0:00:17
+     759.99M  57%   14.48MB/s    0:00:37
+     776.77M  59%   13.85MB/s    0:00:37
+     793.54M  60%   15.45MB/s    0:00:32
+     810.32M  61%   15.87MB/s    0:00:30
+     827.10M  62%   15.87MB/s    0:00:29
+     843.87M  64%   15.86MB/s    0:00:28
+     859.87M  65%   15.67MB/s    0:00:28
+     875.23M  66%   15.37MB/s    0:00:27
+     890.27M  67%   14.96MB/s    0:00:27
+     905.74M  68%   14.67MB/s    0:00:27
+     921.21M  70%   14.58MB/s    0:00:26
+     936.67M  71%   14.56MB/s    0:00:25
+     952.14M  72%   14.68MB/s    0:00:24
+     965.25M  73%   14.05MB/s    0:00:24
+     981.76M  74%   14.28MB/s    0:00:22
+     998.54M  76%   14.63MB/s    0:00:21
+       1.01G  77%   14.48MB/s    0:00:20
+       1.03G  78%   15.08MB/s    0:00:18
+       1.04G  79%   14.71MB/s    0:00:17
+       1.06G  80%   14.51MB/s    0:00:17
+       1.08G  81%   14.68MB/s    0:00:15
+       1.09G  83%   14.63MB/s    0:00:14
+       1.11G  84%   14.83MB/s    0:00:13
+       1.12G  85%   14.66MB/s    0:00:12
+       1.14G  86%   14.79MB/s    0:00:11
+       1.15G  87%   14.94MB/s    0:00:10
+       1.17G  88%   14.81MB/s    0:00:09
+       1.18G  90%   14.86MB/s    0:00:08
+       1.20G  91%   14.52MB/s    0:00:07
+       1.21G  92%   14.44MB/s    0:00:06
+       1.23G  93%   14.42MB/s    0:00:05
+       1.25G  94%   14.42MB/s    0:00:04
+       1.30G  98%   23.51MB/s    0:00:00
+       1.31G 100%   28.18MB/s    0:00:44 (xfer#38, to-check=30/95)
+cd+++++++ Run_753_Wave/Run_753_Wave_MID_3/
+>f+++++++ Run_753_Wave/Run_753_Wave_MID_3/Run_753_Wave_MID_3_FILE_0.dat
+      32.77K   0%  250.00kB/s    1:27:34
+      58.36M   4%   55.66MB/s    0:00:22
+     168.98M  12%   80.62MB/s    0:00:13
+     292.13M  22%   92.93MB/s    0:00:10
+     415.30M  31%   99.09MB/s    0:00:08
+     524.55M  39%  111.23MB/s    0:00:06
+     614.92M  46%  106.40MB/s    0:00:06
+     723.12M  55%  102.83MB/s    0:00:05
+     824.71M  62%   97.68MB/s    0:00:04
+     943.00M  71%   99.84MB/s    0:00:03
+       1.07G  81%  108.91MB/s    0:00:02
+       1.18G  89%  108.84MB/s    0:00:01
+       1.31G  99%  114.88MB/s    0:00:00
+       1.31G 100%  103.99MB/s    0:00:12 (xfer#39, to-check=28/95)
+cd+++++++ Run_753_Wave/Run_753_Wave_MID_4/
+>f+++++++ Run_753_Wave/Run_753_Wave_MID_4/Run_753_Wave_MID_4_FILE_0.dat
+      32.77K   0%  470.59kB/s    0:46:31
+     103.74M   7%   98.94MB/s    0:00:11
+     212.11M  16%  101.14MB/s    0:00:10
+     341.08M  25%  108.43MB/s    0:00:08
+     469.53M  35%  111.95MB/s    0:00:07
+     597.92M  45%  117.82MB/s    0:00:05
+     720.93M  54%  121.31MB/s    0:00:04
+     838.04M  63%  118.51MB/s    0:00:03
+     940.61M  71%  112.34MB/s    0:00:03
+       1.04G  79%  106.17MB/s    0:00:02
+       1.15G  87%  102.67MB/s    0:00:01
+       1.26G  95%   99.48MB/s    0:00:00
+       1.31G 100%  109.42MB/s    0:00:11 (xfer#40, to-check=26/95)
+cd+++++++ Run_753_Wave/Run_753_Wave_MID_5/
+>f+++++++ Run_753_Wave/Run_753_Wave_MID_5/Run_753_Wave_MID_5_FILE_0.dat
+      32.77K   0%   70.33kB/s    5:11:18
+      64.03M   4%   61.06MB/s    0:00:19
+     179.08M  13%   85.43MB/s    0:00:12
+     307.79M  23%   97.88MB/s    0:00:10
+     361.99M  27%   86.33MB/s    0:00:10
+     412.65M  31%   82.91MB/s    0:00:10
+     543.46M  41%   86.66MB/s    0:00:08
+     671.35M  51%   86.49MB/s    0:00:07
+     800.88M  60%  104.38MB/s    0:00:04
+     930.64M  70%  123.56MB/s    0:00:03
+       1.06G  80%  123.50MB/s    0:00:01
+       1.18G  89%  121.10MB/s    0:00:01
+       1.30G  99%  119.68MB/s    0:00:00
+       1.31G 100%  103.62MB/s    0:00:12 (xfer#41, to-check=24/95)
+cd+++++++ Run_753_Wave/Run_753_Wave_MID_6/
+>f+++++++ Run_753_Wave/Run_753_Wave_MID_6/Run_753_Wave_MID_6_FILE_0.dat
+      32.77K   0%  340.43kB/s    1:04:18
+     102.73M   7%   97.97MB/s    0:00:12
+     218.66M  16%  104.27MB/s    0:00:10
+     348.42M  26%  110.80MB/s    0:00:08
+     478.18M  36%  114.06MB/s    0:00:07
+     607.68M  46%  120.42MB/s    0:00:05
+     715.95M  54%  118.59MB/s    0:00:04
+     845.97M  64%  118.65MB/s    0:00:03
+     975.60M  74%  118.62MB/s    0:00:02
+       1.11G  84%  118.72MB/s    0:00:01
+       1.24G  94%  123.88MB/s    0:00:00
+       1.31G 100%  118.22MB/s    0:00:10 (xfer#42, to-check=22/95)
+cd+++++++ Run_753_Wave/Run_753_Wave_MID_7/
+>f+++++++ Run_753_Wave/Run_753_Wave_MID_7/Run_753_Wave_MID_7_FILE_0.dat
+      32.77K   0%   53.07kB/s    6:52:33
+      46.17M   3%   44.03MB/s    0:00:28
+     168.89M  12%   80.57MB/s    0:00:13
+     291.01M  22%   92.54MB/s    0:00:10
+     416.32M  31%   99.31MB/s    0:00:08
+     526.68M  40%  114.62MB/s    0:00:06
+     659.06M  50%  116.93MB/s    0:00:05
+     760.45M  57%  112.01MB/s    0:00:04
+     889.72M  67%  112.95MB/s    0:00:03
+       1.02G  77%  117.60MB/s    0:00:02
+       1.15G  87%  116.96MB/s    0:00:01
+       1.28G  97%  123.73MB/s    0:00:00
+       1.31G 100%  111.27MB/s    0:00:11 (xfer#43, to-check=20/95)
+cd+++++++ Run_753_Wave/Run_753_Wave_MID_8/
+>f+++++++ Run_753_Wave/Run_753_Wave_MID_8/Run_753_Wave_MID_8_FILE_0.dat
+      32.77K   0%  119.85kB/s    3:02:40
+      91.00M   6%   86.78MB/s    0:00:13
+     205.36M  15%   97.97MB/s    0:00:11
+     334.86M  25%  106.52MB/s    0:00:08
+     464.55M  35%  110.81MB/s    0:00:07
+     594.84M  45%  120.19MB/s    0:00:05
+     721.19M  54%  123.05MB/s    0:00:04
+     852.26M  64%  123.39MB/s    0:00:03
+     967.02M  73%  119.86MB/s    0:00:02
+       1.08G  82%  116.56MB/s    0:00:01
+       1.21G  92%  116.54MB/s    0:00:00
+       1.31G 100%  116.10MB/s    0:00:10 (xfer#44, to-check=18/95)
+cd+++++++ Run_753_Wave/Run_753_Wave_MID_9/
+>f+++++++ Run_753_Wave/Run_753_Wave_MID_9/Run_753_Wave_MID_9_FILE_0.dat
+      32.77K   0%   40.05kB/s    9:06:39
+      17.86M   1%   17.03MB/s    0:01:14
+     145.39M  11%   69.36MB/s    0:00:16
+     267.42M  20%   85.04MB/s    0:00:12
+     397.18M  30%   94.72MB/s    0:00:09
+     508.33M  38%  116.97MB/s    0:00:06
+     638.71M  48%  117.65MB/s    0:00:05
+     768.64M  58%  119.53MB/s    0:00:04
+     898.66M  68%  119.59MB/s    0:00:03
+       1.03G  78%  124.16MB/s    0:00:02
+       1.16G  88%  124.04MB/s    0:00:01
+       1.29G  98%  123.81MB/s    0:00:00
+       1.31G 100%  111.97MB/s    0:00:11 (xfer#45, to-check=16/95)
+cd+++++++ Run_753_Wave/Run_753_Wave_log/
+>f+++++++ Run_753_Wave/Run_753_Wave_log/Run_753_Wave_MID_10_buffer.txt
+      32.77K  10%  160.00kB/s    0:00:01
+     304.60K 100%    1.35MB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_753_Wave/Run_753_Wave_log/Run_753_Wave_MID_11_buffer.txt
+      32.77K  10%  147.47kB/s    0:00:01
+     304.10K 100%    1.19MB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_753_Wave/Run_753_Wave_log/Run_753_Wave_MID_12_buffer.txt
+      32.77K  10%  130.61kB/s    0:00:02
+     301.95K 100%    1.11MB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_753_Wave/Run_753_Wave_log/Run_753_Wave_MID_13_buffer.txt
+      32.77K  10%  122.61kB/s    0:00:02
+     304.56K 100%    1.05MB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_753_Wave/Run_753_Wave_log/Run_753_Wave_MID_14_buffer.txt
+      32.77K  10%  115.52kB/s    0:00:02
+     304.31K 100% 1003.98kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_753_Wave/Run_753_Wave_log/Run_753_Wave_MID_15_buffer.txt
+      32.77K  10%  107.74kB/s    0:00:02
+     301.74K 100%  947.47kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_753_Wave/Run_753_Wave_log/Run_753_Wave_MID_1_buffer.txt
+      32.77K  10%  102.56kB/s    0:00:02
+     301.57K 100%  900.62kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_753_Wave/Run_753_Wave_log/Run_753_Wave_MID_2_buffer.txt
+      32.77K  10%   97.26kB/s    0:00:02
+     304.81K 100%  867.84kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_753_Wave/Run_753_Wave_log/Run_753_Wave_MID_3_buffer.txt
+      32.77K  10%   92.75kB/s    0:00:02
+     301.11K 100%  816.82kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_753_Wave/Run_753_Wave_log/Run_753_Wave_MID_4_buffer.txt
+      32.77K  10%   88.64kB/s    0:00:03
+     301.43K 100%  784.97kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_753_Wave/Run_753_Wave_log/Run_753_Wave_MID_5_buffer.txt
+      32.77K  10%   85.11kB/s    0:00:03
+     304.39K 100%  758.31kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_753_Wave/Run_753_Wave_log/Run_753_Wave_MID_6_buffer.txt
+      32.77K  10%   81.42kB/s    0:00:03
+     301.65K 100%  694.77kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_753_Wave/Run_753_Wave_log/Run_753_Wave_MID_7_buffer.txt
+      32.77K  10%   75.29kB/s    0:00:03
+     301.67K 100%  669.54kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_753_Wave/Run_753_Wave_log/Run_753_Wave_MID_8_buffer.txt
+      32.77K  10%   72.56kB/s    0:00:03
+     304.36K 100%  651.81kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_753_Wave/Run_753_Wave_log/Run_753_Wave_MID_9_buffer.txt
+      32.77K  10%   69.87kB/s    0:00:03
+     301.55K 100%  619.97kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 19.79G bytes  received 1.55K bytes  70.80M bytes/sec
+total size is 19.79G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_753/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_753_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

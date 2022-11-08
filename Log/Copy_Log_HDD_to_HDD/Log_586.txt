@@ -1,0 +1,327 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_586/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_586[0m
+[94m[INFO][0m SSD data folder size = [96m[1m2.789 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [####----------------------------------------------][0m [92m[1m7.357 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 1096.316 GB / Free : [4m13805.237 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_586/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_586/[0m
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_586/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_586[0m
+[94m[INFO][0m SSD data folder size = [96m[1m2.789 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [####----------------------------------------------][0m [92m[1m7.376 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 1099.112 GB / Free : [4m13802.441 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_586/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_586/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_586.txt --progress /Volumes/HDD_16TB_1/HDD_Run_586/ /Volumes/HDD_16TB_2/HDD_Run_586/[0m`? [y/n] 
+building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_586
+cd+++++++ ./
+cd+++++++ Run_586_Fast/
+cd+++++++ Run_586_Fast/Run_586_Fast_MID_1/
+>f+++++++ Run_586_Fast/Run_586_Fast_MID_1/Run_586_Fast_MID_1_FILE_0.dat
+      32.77K   4%    0.00kB/s    0:00:00
+     770.05K 100%   14.35MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_586_Fast/Run_586_Fast_MID_10/
+>f+++++++ Run_586_Fast/Run_586_Fast_MID_10/Run_586_Fast_MID_10_FILE_0.dat
+      32.77K   4%  405.06kB/s    0:00:01
+     770.05K 100%    6.02MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_586_Fast/Run_586_Fast_MID_11/
+>f+++++++ Run_586_Fast/Run_586_Fast_MID_11/Run_586_Fast_MID_11_FILE_0.dat
+      32.77K   4%  200.00kB/s    0:00:03
+     770.05K 100%    3.81MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_586_Fast/Run_586_Fast_MID_12/
+>f+++++++ Run_586_Fast/Run_586_Fast_MID_12/Run_586_Fast_MID_12_FILE_0.dat
+      32.77K   4%  142.86kB/s    0:00:05
+     770.05K 100%    2.85MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_586_Fast/Run_586_Fast_MID_13/
+>f+++++++ Run_586_Fast/Run_586_Fast_MID_13/Run_586_Fast_MID_13_FILE_0.dat
+      32.77K   4%  105.61kB/s    0:00:06
+     770.05K 100%    2.11MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_586_Fast/Run_586_Fast_MID_14/
+>f+++++++ Run_586_Fast/Run_586_Fast_MID_14/Run_586_Fast_MID_14_FILE_0.dat
+      32.77K   4%   84.88kB/s    0:00:08
+     770.05K 100%    1.69MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_586_Fast/Run_586_Fast_MID_15/
+>f+++++++ Run_586_Fast/Run_586_Fast_MID_15/Run_586_Fast_MID_15_FILE_0.dat
+      32.77K   4%   68.97kB/s    0:00:10
+     770.05K 100%    1.48MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_586_Fast/Run_586_Fast_MID_2/
+>f+++++++ Run_586_Fast/Run_586_Fast_MID_2/Run_586_Fast_MID_2_FILE_0.dat
+      32.77K   4%   57.87kB/s    0:00:12
+     770.05K 100%    1.23MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_586_Fast/Run_586_Fast_MID_3/
+>f+++++++ Run_586_Fast/Run_586_Fast_MID_3/Run_586_Fast_MID_3_FILE_0.dat
+      32.77K   4%   49.61kB/s    0:00:14
+     770.05K 100%    1.08MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_586_Fast/Run_586_Fast_MID_4/
+>f+++++++ Run_586_Fast/Run_586_Fast_MID_4/Run_586_Fast_MID_4_FILE_0.dat
+      32.77K   4%   44.14kB/s    0:00:16
+     770.05K 100%  944.72kB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_586_Fast/Run_586_Fast_MID_5/
+>f+++++++ Run_586_Fast/Run_586_Fast_MID_5/Run_586_Fast_MID_5_FILE_0.dat
+      32.77K   4%   38.69kB/s    0:00:19
+     770.05K 100%  874.42kB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_586_Fast/Run_586_Fast_MID_6/
+>f+++++++ Run_586_Fast/Run_586_Fast_MID_6/Run_586_Fast_MID_6_FILE_0.dat
+      32.77K   4%   35.91kB/s    0:00:20
+     770.05K 100%  805.14kB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_586_Fast/Run_586_Fast_MID_7/
+>f+++++++ Run_586_Fast/Run_586_Fast_MID_7/Run_586_Fast_MID_7_FILE_0.dat
+      32.77K   4%   32.85kB/s    0:00:22
+     557.06K  72%  540.76kB/s    0:00:00
+     770.05K 100%  747.51kB/s    0:00:01 (xfer#13, to-check=67/95)
+cd+++++++ Run_586_Fast/Run_586_Fast_MID_8/
+>f+++++++ Run_586_Fast/Run_586_Fast_MID_8/Run_586_Fast_MID_8_FILE_0.dat
+      32.77K   4%  695.65kB/s    0:00:01
+     770.05K 100%    8.96MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_586_Fast/Run_586_Fast_MID_9/
+>f+++++++ Run_586_Fast/Run_586_Fast_MID_9/Run_586_Fast_MID_9_FILE_0.dat
+      32.77K   4%  256.00kB/s    0:00:02
+     770.05K 100%    4.42MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_586_Fast/Run_586_Fast_log/
+>f+++++++ Run_586_Fast/Run_586_Fast_log/Run_586_Fast_MID_10_buffer.txt
+         727 100%    3.64kB/s    0:00:00
+         727 100%    3.64kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_586_Fast/Run_586_Fast_log/Run_586_Fast_MID_11_buffer.txt
+         727 100%    3.11kB/s    0:00:00
+         727 100%    3.11kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_586_Fast/Run_586_Fast_log/Run_586_Fast_MID_12_buffer.txt
+         727 100%    2.90kB/s    0:00:00
+         727 100%    2.90kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_586_Fast/Run_586_Fast_log/Run_586_Fast_MID_13_buffer.txt
+         727 100%    2.71kB/s    0:00:00
+         727 100%    2.71kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_586_Fast/Run_586_Fast_log/Run_586_Fast_MID_14_buffer.txt
+         727 100%    2.46kB/s    0:00:00
+         727 100%    2.46kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_586_Fast/Run_586_Fast_log/Run_586_Fast_MID_15_buffer.txt
+         727 100%    2.20kB/s    0:00:00
+         727 100%    2.20kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_586_Fast/Run_586_Fast_log/Run_586_Fast_MID_1_buffer.txt
+         727 100%    2.11kB/s    0:00:00
+         727 100%    2.11kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_586_Fast/Run_586_Fast_log/Run_586_Fast_MID_2_buffer.txt
+         727 100%    2.01kB/s    0:00:00
+         727 100%    2.01kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_586_Fast/Run_586_Fast_log/Run_586_Fast_MID_3_buffer.txt
+         727 100%    1.88kB/s    0:00:00
+         727 100%    1.88kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_586_Fast/Run_586_Fast_log/Run_586_Fast_MID_4_buffer.txt
+         727 100%    1.69kB/s    0:00:00
+         727 100%    1.69kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_586_Fast/Run_586_Fast_log/Run_586_Fast_MID_5_buffer.txt
+         727 100%    1.63kB/s    0:00:00
+         727 100%    1.63kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_586_Fast/Run_586_Fast_log/Run_586_Fast_MID_6_buffer.txt
+         727 100%    1.58kB/s    0:00:00
+         727 100%    1.58kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_586_Fast/Run_586_Fast_log/Run_586_Fast_MID_7_buffer.txt
+         727 100%    1.52kB/s    0:00:00
+         727 100%    1.52kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_586_Fast/Run_586_Fast_log/Run_586_Fast_MID_8_buffer.txt
+         727 100%    1.48kB/s    0:00:00
+         727 100%    1.48kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_586_Fast/Run_586_Fast_log/Run_586_Fast_MID_9_buffer.txt
+         727 100%    1.38kB/s    0:00:00
+         727 100%    1.38kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_586_Wave/
+cd+++++++ Run_586_Wave/Run_586_Wave_MID_1/
+>f+++++++ Run_586_Wave/Run_586_Wave_MID_1/Run_586_Wave_MID_1_FILE_0.dat
+      32.77K   0%   58.72kB/s    0:56:25
+       6.06M   3%    5.74MB/s    0:00:32
+      18.64M   9%    8.74MB/s    0:00:20
+      30.18M  15%    9.47MB/s    0:00:17
+      42.76M  21%   10.10MB/s    0:00:15
+      55.35M  27%   11.64MB/s    0:00:12
+      67.93M  34%   11.71MB/s    0:00:10
+      79.99M  40%   11.77MB/s    0:00:09
+     128.22M  64%   20.17MB/s    0:00:03
+     198.84M 100%   21.18MB/s    0:00:08 (xfer#31, to-check=44/95)
+cd+++++++ Run_586_Wave/Run_586_Wave_MID_10/
+>f+++++++ Run_586_Wave/Run_586_Wave_MID_10/Run_586_Wave_MID_10_FILE_0.dat
+      32.77K   0%   36.04kB/s    1:31:56
+       7.63M   3%    7.28MB/s    0:00:25
+      55.87M  28%   26.52MB/s    0:00:05
+      66.36M  33%   20.92MB/s    0:00:06
+      78.68M  39%   18.58MB/s    0:00:06
+      91.00M  45%   19.67MB/s    0:00:05
+     104.10M  52%   11.32MB/s    0:00:08
+     116.95M  58%   11.91MB/s    0:00:06
+     128.22M  64%   11.66MB/s    0:00:05
+     140.80M  70%   11.73MB/s    0:00:04
+     154.17M  77%   11.80MB/s    0:00:03
+     167.02M  83%   11.74MB/s    0:00:02
+     179.34M  90%   12.00MB/s    0:00:01
+     191.66M  96%   11.84MB/s    0:00:00
+     198.84M 100%   13.77MB/s    0:00:13 (xfer#32, to-check=42/95)
+cd+++++++ Run_586_Wave/Run_586_Wave_MID_11/
+>f+++++++ Run_586_Wave/Run_586_Wave_MID_11/Run_586_Wave_MID_11_FILE_0.dat
+      32.77K   0%   53.24kB/s    1:02:13
+       5.54M   2%    5.25MB/s    0:00:35
+      30.44M  15%   14.48MB/s    0:00:11
+     124.55M  62%   39.54MB/s    0:00:01
+     192.45M  96%   45.59MB/s    0:00:00
+     198.84M 100%   41.52MB/s    0:00:04 (xfer#33, to-check=40/95)
+cd+++++++ Run_586_Wave/Run_586_Wave_MID_12/
+>f+++++++ Run_586_Wave/Run_586_Wave_MID_12/Run_586_Wave_MID_12_FILE_0.dat
+      32.77K   0%   52.12kB/s    1:03:34
+       4.75M   2%    4.49MB/s    0:00:42
+      17.60M   8%    8.31MB/s    0:00:21
+      30.70M  15%    9.66MB/s    0:00:16
+      43.29M  21%   10.23MB/s    0:00:14
+      56.39M  28%   12.24MB/s    0:00:11
+      69.50M  34%   12.30MB/s    0:00:10
+      82.51M  41%   12.31MB/s    0:00:09
+      95.72M  48%   12.43MB/s    0:00:08
+     108.30M  54%   12.25MB/s    0:00:07
+     121.41M  61%   12.27MB/s    0:00:06
+     134.51M  67%   12.27MB/s    0:00:05
+     148.14M  74%   12.39MB/s    0:00:03
+     198.84M 100%   14.61MB/s    0:00:12 (xfer#34, to-check=38/95)
+cd+++++++ Run_586_Wave/Run_586_Wave_MID_13/
+>f+++++++ Run_586_Wave/Run_586_Wave_MID_13/Run_586_Wave_MID_13_FILE_0.dat
+      32.77K   0%   35.87kB/s    1:32:21
+       6.09M   3%    5.81MB/s    0:00:32
+      98.07M  49%   46.77MB/s    0:00:02
+     128.22M  64%   40.53MB/s    0:00:01
+     141.85M  71%   33.68MB/s    0:00:01
+     154.44M  77%   35.10MB/s    0:00:01
+     167.80M  84%   16.49MB/s    0:00:01
+     180.13M  90%   12.33MB/s    0:00:01
+     191.40M  96%   11.77MB/s    0:00:00
+     198.84M 100%   22.02MB/s    0:00:08 (xfer#35, to-check=36/95)
+cd+++++++ Run_586_Wave/Run_586_Wave_MID_14/
+>f+++++++ Run_586_Wave/Run_586_Wave_MID_14/Run_586_Wave_MID_14_FILE_0.dat
+      32.77K   0%   53.78kB/s    1:01:36
+       5.54M   2%    5.22MB/s    0:00:36
+      18.91M   9%    8.94MB/s    0:00:19
+      31.88M  16%   10.08MB/s    0:00:16
+      45.12M  22%   10.69MB/s    0:00:14
+      57.97M  29%   12.45MB/s    0:00:11
+      71.34M  35%   12.45MB/s    0:00:09
+      84.97M  42%   12.56MB/s    0:00:08
+     116.16M  58%   16.82MB/s    0:00:04
+     162.82M  81%   24.85MB/s    0:00:01
+     198.84M 100%   19.56MB/s    0:00:09 (xfer#36, to-check=34/95)
+cd+++++++ Run_586_Wave/Run_586_Wave_MID_15/
+>f+++++++ Run_586_Wave/Run_586_Wave_MID_15/Run_586_Wave_MID_15_FILE_0.dat
+      32.77K   0%   48.71kB/s    1:08:01
+      19.43M   9%   18.51MB/s    0:00:09
+      74.48M  37%   35.27MB/s    0:00:03
+     136.35M  68%   43.11MB/s    0:00:01
+     194.54M  97%   45.61MB/s    0:00:00
+     198.84M 100%   45.81MB/s    0:00:04 (xfer#37, to-check=32/95)
+cd+++++++ Run_586_Wave/Run_586_Wave_MID_2/
+>f+++++++ Run_586_Wave/Run_586_Wave_MID_2/Run_586_Wave_MID_2_FILE_0.dat
+      32.77K   0%  376.47kB/s    0:08:48
+      53.51M  26%   48.51MB/s    0:00:02
+     104.63M  52%   48.60MB/s    0:00:01
+     165.38M  83%   51.68MB/s    0:00:00
+     198.84M 100%   51.22MB/s    0:00:03 (xfer#38, to-check=30/95)
+cd+++++++ Run_586_Wave/Run_586_Wave_MID_3/
+>f+++++++ Run_586_Wave/Run_586_Wave_MID_3/Run_586_Wave_MID_3_FILE_0.dat
+      32.77K   0%   48.19kB/s    1:08:45
+      24.74M  12%   23.59MB/s    0:00:07
+      82.35M  41%   39.27MB/s    0:00:02
+     146.31M  73%   46.31MB/s    0:00:01
+     194.28M  97%   46.08MB/s    0:00:00
+     198.84M 100%   46.49MB/s    0:00:04 (xfer#39, to-check=28/95)
+cd+++++++ Run_586_Wave/Run_586_Wave_MID_4/
+>f+++++++ Run_586_Wave/Run_586_Wave_MID_4/Run_586_Wave_MID_4_FILE_0.dat
+      32.77K   0%  470.59kB/s    0:07:02
+      41.19M  20%   39.12MB/s    0:00:03
+      99.12M  49%   47.05MB/s    0:00:02
+     158.53M  79%   50.26MB/s    0:00:00
+     198.84M 100%   52.40MB/s    0:00:03 (xfer#40, to-check=26/95)
+cd+++++++ Run_586_Wave/Run_586_Wave_MID_5/
+>f+++++++ Run_586_Wave/Run_586_Wave_MID_5/Run_586_Wave_MID_5_FILE_0.dat
+      32.77K   0%   51.70kB/s    1:04:05
+      20.12M  10%   19.19MB/s    0:00:09
+      79.46M  39%   37.76MB/s    0:00:03
+     145.26M  73%   45.78MB/s    0:00:01
+     198.84M 100%   48.28MB/s    0:00:03 (xfer#41, to-check=24/95)
+cd+++++++ Run_586_Wave/Run_586_Wave_MID_6/
+>f+++++++ Run_586_Wave/Run_586_Wave_MID_6/Run_586_Wave_MID_6_FILE_0.dat
+      32.77K   0%   35.01kB/s    1:34:38
+       3.44M   1%    3.28MB/s    0:00:58
+      69.76M  35%   33.27MB/s    0:00:03
+     120.88M  60%   38.43MB/s    0:00:01
+     196.38M  98%   46.72MB/s    0:00:00
+     198.84M 100%   46.32MB/s    0:00:04 (xfer#42, to-check=22/95)
+cd+++++++ Run_586_Wave/Run_586_Wave_MID_7/
+>f+++++++ Run_586_Wave/Run_586_Wave_MID_7/Run_586_Wave_MID_7_FILE_0.dat
+      32.77K   0%  367.82kB/s    0:09:00
+      60.03M  30%   57.25MB/s    0:00:02
+     125.86M  63%   60.05MB/s    0:00:01
+     175.14M  88%   54.84MB/s    0:00:00
+     198.84M 100%   50.82MB/s    0:00:03 (xfer#43, to-check=20/95)
+cd+++++++ Run_586_Wave/Run_586_Wave_MID_8/
+>f+++++++ Run_586_Wave/Run_586_Wave_MID_8/Run_586_Wave_MID_8_FILE_0.dat
+      32.77K   0%   45.78kB/s    1:12:22
+      24.67M  12%   23.53MB/s    0:00:07
+      79.72M  40%   38.02MB/s    0:00:03
+     143.16M  72%   45.42MB/s    0:00:01
+     194.81M  97%   46.23MB/s    0:00:00
+     198.84M 100%   46.25MB/s    0:00:04 (xfer#44, to-check=18/95)
+cd+++++++ Run_586_Wave/Run_586_Wave_MID_9/
+>f+++++++ Run_586_Wave/Run_586_Wave_MID_9/Run_586_Wave_MID_9_FILE_0.dat
+      32.77K   0%  333.33kB/s    0:09:56
+      52.46M  26%   49.39MB/s    0:00:02
+     124.35M  62%   58.94MB/s    0:00:01
+     198.84M 100%   63.21MB/s    0:00:03 (xfer#45, to-check=16/95)
+cd+++++++ Run_586_Wave/Run_586_Wave_log/
+>f+++++++ Run_586_Wave/Run_586_Wave_log/Run_586_Wave_MID_10_buffer.txt
+      32.77K  72%   32.16kB/s    0:00:00
+      45.14K 100%   44.30kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_586_Wave/Run_586_Wave_log/Run_586_Wave_MID_11_buffer.txt
+      32.77K  72%   32.03kB/s    0:00:00
+      45.22K 100%   44.21kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_586_Wave/Run_586_Wave_log/Run_586_Wave_MID_12_buffer.txt
+      32.77K  72%   31.94kB/s    0:00:00
+      44.92K 100%   43.78kB/s    0:00:00
+      44.92K 100%   43.78kB/s    0:00:01 (xfer#48, to-check=12/95)
+>f+++++++ Run_586_Wave/Run_586_Wave_log/Run_586_Wave_MID_13_buffer.txt
+      32.77K  72%    7.81MB/s    0:00:00
+      45.24K 100%   10.79MB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_586_Wave/Run_586_Wave_log/Run_586_Wave_MID_14_buffer.txt
+      32.77K  72%    2.40MB/s    0:00:00
+      45.13K 100%    3.31MB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_586_Wave/Run_586_Wave_log/Run_586_Wave_MID_15_buffer.txt
+      32.77K  73%  367.82kB/s    0:00:00
+      44.89K 100%  503.85kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_586_Wave/Run_586_Wave_log/Run_586_Wave_MID_1_buffer.txt
+      32.77K  73%  351.65kB/s    0:00:00
+      44.86K 100%  481.40kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_586_Wave/Run_586_Wave_log/Run_586_Wave_MID_2_buffer.txt
+      32.77K  72%  326.53kB/s    0:00:00
+      45.37K 100%  452.13kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_586_Wave/Run_586_Wave_log/Run_586_Wave_MID_3_buffer.txt
+      32.77K  72%  313.73kB/s    0:00:00
+      44.99K 100%  430.77kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_586_Wave/Run_586_Wave_log/Run_586_Wave_MID_4_buffer.txt
+      32.77K  73%  301.89kB/s    0:00:00
+      44.79K 100%  412.68kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_586_Wave/Run_586_Wave_log/Run_586_Wave_MID_5_buffer.txt
+      32.77K  72%  290.91kB/s    0:00:00
+      45.22K 100%  401.43kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_586_Wave/Run_586_Wave_log/Run_586_Wave_MID_6_buffer.txt
+      32.77K  73%  280.70kB/s    0:00:00
+      44.87K 100%  384.40kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_586_Wave/Run_586_Wave_log/Run_586_Wave_MID_7_buffer.txt
+      32.77K  72%  271.19kB/s    0:00:00
+      45.02K 100%  372.60kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_586_Wave/Run_586_Wave_log/Run_586_Wave_MID_8_buffer.txt
+      32.77K  72%  260.16kB/s    0:00:00
+      45.28K 100%  359.53kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_586_Wave/Run_586_Wave_log/Run_586_Wave_MID_9_buffer.txt
+      32.77K  73%  251.97kB/s    0:00:00
+      44.84K 100%  344.83kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 3.00G bytes  received 1.55K bytes  34.23M bytes/sec
+total size is 2.99G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_586/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_586_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

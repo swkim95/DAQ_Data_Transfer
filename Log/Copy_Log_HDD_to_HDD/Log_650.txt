@@ -1,0 +1,318 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_650/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_650[0m
+[94m[INFO][0m SSD data folder size = [96m[1m9.216 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [#######-------------------------------------------][0m [92m[1m13.029 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 1941.526 GB / Free : [4m12960.026 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_650/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_650/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_650.txt --progress /Volumes/HDD_16TB_1/HDD_Run_650/ /Volumes/HDD_16TB_2/HDD_Run_650/[0m`? [y/n] 
+building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_650
+cd+++++++ ./
+cd+++++++ Run_650_Fast/
+cd+++++++ Run_650_Fast/Run_650_Fast_MID_1/
+>f+++++++ Run_650_Fast/Run_650_Fast_MID_1/Run_650_Fast_MID_1_FILE_0.dat
+      32.77K   1%    0.00kB/s    0:00:00
+       2.56M 100%   25.07MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_650_Fast/Run_650_Fast_MID_10/
+>f+++++++ Run_650_Fast/Run_650_Fast_MID_10/Run_650_Fast_MID_10_FILE_0.dat
+      32.77K   1%  231.88kB/s    0:00:10
+       2.56M 100%   11.44MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_650_Fast/Run_650_Fast_MID_11/
+>f+++++++ Run_650_Fast/Run_650_Fast_MID_11/Run_650_Fast_MID_11_FILE_0.dat
+      32.77K   1%  148.15kB/s    0:00:17
+       2.56M 100%    9.87MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_650_Fast/Run_650_Fast_MID_12/
+>f+++++++ Run_650_Fast/Run_650_Fast_MID_12/Run_650_Fast_MID_12_FILE_0.dat
+      32.77K   1%  128.51kB/s    0:00:19
+       2.56M 100%    8.41MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_650_Fast/Run_650_Fast_MID_13/
+>f+++++++ Run_650_Fast/Run_650_Fast_MID_13/Run_650_Fast_MID_13_FILE_0.dat
+      32.77K   1%  109.97kB/s    0:00:22
+       2.56M 100%    7.52MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_650_Fast/Run_650_Fast_MID_14/
+>f+++++++ Run_650_Fast/Run_650_Fast_MID_14/Run_650_Fast_MID_14_FILE_0.dat
+      32.77K   1%   98.16kB/s    0:00:25
+       2.56M 100%    6.50MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_650_Fast/Run_650_Fast_MID_15/
+>f+++++++ Run_650_Fast/Run_650_Fast_MID_15/Run_650_Fast_MID_15_FILE_0.dat
+      32.77K   1%   84.88kB/s    0:00:29
+       2.56M 100%    5.95MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_650_Fast/Run_650_Fast_MID_2/
+>f+++++++ Run_650_Fast/Run_650_Fast_MID_2/Run_650_Fast_MID_2_FILE_0.dat
+      32.77K   1%   77.86kB/s    0:00:32
+       2.56M 100%    5.38MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_650_Fast/Run_650_Fast_MID_3/
+>f+++++++ Run_650_Fast/Run_650_Fast_MID_3/Run_650_Fast_MID_3_FILE_0.dat
+      32.77K   1%   69.72kB/s    0:00:36
+       2.56M 100%    4.97MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_650_Fast/Run_650_Fast_MID_4/
+>f+++++++ Run_650_Fast/Run_650_Fast_MID_4/Run_650_Fast_MID_4_FILE_0.dat
+      32.77K   1%   65.04kB/s    0:00:38
+       2.56M 100%    4.53MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_650_Fast/Run_650_Fast_MID_5/
+>f+++++++ Run_650_Fast/Run_650_Fast_MID_5/Run_650_Fast_MID_5_FILE_0.dat
+      32.77K   1%   59.26kB/s    0:00:42
+       2.56M 100%    4.25MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_650_Fast/Run_650_Fast_MID_6/
+>f+++++++ Run_650_Fast/Run_650_Fast_MID_6/Run_650_Fast_MID_6_FILE_0.dat
+      32.77K   1%   55.75kB/s    0:00:45
+       2.56M 100%    3.91MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_650_Fast/Run_650_Fast_MID_7/
+>f+++++++ Run_650_Fast/Run_650_Fast_MID_7/Run_650_Fast_MID_7_FILE_0.dat
+      32.77K   1%   51.12kB/s    0:00:49
+       2.56M 100%    3.70MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_650_Fast/Run_650_Fast_MID_8/
+>f+++++++ Run_650_Fast/Run_650_Fast_MID_8/Run_650_Fast_MID_8_FILE_0.dat
+      32.77K   1%   48.41kB/s    0:00:52
+       2.56M 100%    3.50MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_650_Fast/Run_650_Fast_MID_9/
+>f+++++++ Run_650_Fast/Run_650_Fast_MID_9/Run_650_Fast_MID_9_FILE_0.dat
+      32.77K   1%   45.78kB/s    0:00:55
+       2.56M 100%    3.26MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_650_Fast/Run_650_Fast_log/
+>f+++++++ Run_650_Fast/Run_650_Fast_log/Run_650_Fast_MID_10_buffer.txt
+       2.47K 100%    3.22kB/s    0:00:00
+       2.47K 100%    3.22kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_650_Fast/Run_650_Fast_log/Run_650_Fast_MID_11_buffer.txt
+       2.47K 100%    3.22kB/s    0:00:00
+       2.47K 100%    3.22kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_650_Fast/Run_650_Fast_log/Run_650_Fast_MID_12_buffer.txt
+       2.47K 100%    3.22kB/s    0:00:00
+       2.47K 100%    3.22kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_650_Fast/Run_650_Fast_log/Run_650_Fast_MID_13_buffer.txt
+       2.47K 100%    3.16kB/s    0:00:00
+       2.47K 100%    3.16kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_650_Fast/Run_650_Fast_log/Run_650_Fast_MID_14_buffer.txt
+       2.47K 100%    3.16kB/s    0:00:00
+       2.47K 100%    3.16kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_650_Fast/Run_650_Fast_log/Run_650_Fast_MID_15_buffer.txt
+       2.47K 100%    3.16kB/s    0:00:00
+       2.47K 100%    3.16kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_650_Fast/Run_650_Fast_log/Run_650_Fast_MID_1_buffer.txt
+       2.47K 100%    3.11kB/s    0:00:00
+       2.47K 100%    3.11kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_650_Fast/Run_650_Fast_log/Run_650_Fast_MID_2_buffer.txt
+       2.47K 100%    3.11kB/s    0:00:00
+       2.47K 100%    3.11kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_650_Fast/Run_650_Fast_log/Run_650_Fast_MID_3_buffer.txt
+       2.47K 100%    3.11kB/s    0:00:00
+       2.47K 100%    3.11kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_650_Fast/Run_650_Fast_log/Run_650_Fast_MID_4_buffer.txt
+       2.47K 100%    3.02kB/s    0:00:00
+       2.47K 100%    3.02kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_650_Fast/Run_650_Fast_log/Run_650_Fast_MID_5_buffer.txt
+       2.47K 100%    3.01kB/s    0:00:00
+       2.47K 100%    3.01kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_650_Fast/Run_650_Fast_log/Run_650_Fast_MID_6_buffer.txt
+       2.47K 100%    3.01kB/s    0:00:00
+       2.47K 100%    3.01kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_650_Fast/Run_650_Fast_log/Run_650_Fast_MID_7_buffer.txt
+       2.47K 100%    2.95kB/s    0:00:00
+       2.47K 100%    2.95kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_650_Fast/Run_650_Fast_log/Run_650_Fast_MID_8_buffer.txt
+       2.47K 100%    2.95kB/s    0:00:00
+       2.47K 100%    2.95kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_650_Fast/Run_650_Fast_log/Run_650_Fast_MID_9_buffer.txt
+       2.47K 100%    2.95kB/s    0:00:00
+       2.47K 100%    2.95kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_650_Wave/
+cd+++++++ Run_650_Wave/Run_650_Wave_MID_1/
+>f+++++++ Run_650_Wave/Run_650_Wave_MID_1/Run_650_Wave_MID_1_FILE_0.dat
+      32.77K   0%   37.38kB/s    4:52:53
+      10.52M   1%   10.03MB/s    0:01:02
+     105.35M  16%   50.23MB/s    0:00:10
+     205.03M  31%   65.18MB/s    0:00:06
+     300.52M  45%   71.67MB/s    0:00:04
+     395.61M  60%   91.81MB/s    0:00:02
+     494.31M  75%   92.73MB/s    0:00:01
+     590.64M  89%   91.46MB/s    0:00:00
+     657.00M 100%   82.45MB/s    0:00:07 (xfer#31, to-check=44/95)
+cd+++++++ Run_650_Wave/Run_650_Wave_MID_10/
+>f+++++++ Run_650_Wave/Run_650_Wave_MID_10/Run_650_Wave_MID_10_FILE_0.dat
+      32.77K   0%   55.17kB/s    3:18:27
+      30.70M   4%   28.59MB/s    0:00:21
+     131.10M  19%   61.80MB/s    0:00:08
+     250.12M  38%   78.88MB/s    0:00:05
+     372.28M  56%   88.25MB/s    0:00:03
+     494.44M  75%  110.59MB/s    0:00:01
+     616.86M  93%  115.81MB/s    0:00:00
+     657.00M 100%   98.66MB/s    0:00:06 (xfer#32, to-check=42/95)
+cd+++++++ Run_650_Wave/Run_650_Wave_MID_11/
+>f+++++++ Run_650_Wave/Run_650_Wave_MID_11/Run_650_Wave_MID_11_FILE_0.dat
+      32.77K   0%   94.67kB/s    1:55:39
+      70.81M  10%   67.53MB/s    0:00:08
+     185.11M  28%   88.27MB/s    0:00:05
+     307.27M  46%   97.68MB/s    0:00:03
+     429.95M  65%  102.53MB/s    0:00:02
+     552.11M  84%  114.78MB/s    0:00:00
+     657.00M 100%  107.29MB/s    0:00:05 (xfer#33, to-check=40/95)
+cd+++++++ Run_650_Wave/Run_650_Wave_MID_12/
+>f+++++++ Run_650_Wave/Run_650_Wave_MID_12/Run_650_Wave_MID_12_FILE_0.dat
+      32.77K   0%   37.91kB/s    4:48:47
+       5.80M   0%    5.53MB/s    0:01:54
+     125.60M  19%   59.89MB/s    0:00:08
+     241.47M  36%   76.79MB/s    0:00:05
+     360.84M  54%   86.07MB/s    0:00:03
+     479.49M  72%  112.99MB/s    0:00:01
+     601.85M  91%  113.63MB/s    0:00:00
+     657.00M 100%   97.19MB/s    0:00:06 (xfer#34, to-check=38/95)
+cd+++++++ Run_650_Wave/Run_650_Wave_MID_13/
+>f+++++++ Run_650_Wave/Run_650_Wave_MID_13/Run_650_Wave_MID_13_FILE_0.dat
+      32.77K   0%   70.80kB/s    2:34:39
+      62.32M   9%   59.44MB/s    0:00:09
+     175.93M  26%   83.93MB/s    0:00:05
+     298.45M  45%   94.94MB/s    0:00:03
+     421.27M  64%  100.51MB/s    0:00:02
+     543.20M  82%  114.71MB/s    0:00:00
+     657.00M 100%  105.70MB/s    0:00:05 (xfer#35, to-check=36/95)
+cd+++++++ Run_650_Wave/Run_650_Wave_MID_14/
+>f+++++++ Run_650_Wave/Run_650_Wave_MID_14/Run_650_Wave_MID_14_FILE_0.dat
+      32.77K   0%   34.30kB/s    5:19:14
+       4.75M   0%    4.44MB/s    0:02:23
+     122.45M  18%   57.76MB/s    0:00:09
+     218.14M  33%   68.86MB/s    0:00:06
+     338.72M  51%   80.34MB/s    0:00:03
+     458.78M  69%  108.25MB/s    0:00:01
+     577.67M  87%  108.56MB/s    0:00:00
+     657.00M 100%   94.13MB/s    0:00:06 (xfer#36, to-check=34/95)
+cd+++++++ Run_650_Wave/Run_650_Wave_MID_15/
+>f+++++++ Run_650_Wave/Run_650_Wave_MID_15/Run_650_Wave_MID_15_FILE_0.dat
+      32.77K   0%   50.16kB/s    3:38:18
+      37.00M   5%   35.28MB/s    0:00:17
+     143.43M  21%   68.39MB/s    0:00:07
+     251.43M  38%   79.95MB/s    0:00:04
+     373.62M  56%   89.12MB/s    0:00:03
+     496.01M  75%  109.46MB/s    0:00:01
+     619.12M  94%  113.47MB/s    0:00:00
+     657.00M 100%   99.33MB/s    0:00:06 (xfer#37, to-check=32/95)
+cd+++++++ Run_650_Wave/Run_650_Wave_MID_2/
+>f+++++++ Run_650_Wave/Run_650_Wave_MID_2/Run_650_Wave_MID_2_FILE_0.dat
+      32.77K   0%  102.56kB/s    1:46:45
+      77.10M  11%   73.53MB/s    0:00:07
+     189.66M  28%   90.48MB/s    0:00:05
+     311.72M  47%   99.16MB/s    0:00:03
+     434.04M  66%  103.56MB/s    0:00:02
+     556.30M  84%  114.31MB/s    0:00:00
+     657.00M 100%  107.62MB/s    0:00:05 (xfer#38, to-check=30/95)
+cd+++++++ Run_650_Wave/Run_650_Wave_MID_3/
+>f+++++++ Run_650_Wave/Run_650_Wave_MID_3/Run_650_Wave_MID_3_FILE_0.dat
+      32.77K   0%   38.69kB/s    4:42:58
+      11.83M   1%   11.28MB/s    0:00:55
+     129.24M  19%   61.66MB/s    0:00:08
+     239.63M  36%   76.20MB/s    0:00:05
+     364.05M  55%   86.84MB/s    0:00:03
+     480.02M  73%  111.68MB/s    0:00:01
+     599.29M  91%  112.10MB/s    0:00:00
+     657.00M 100%   96.87MB/s    0:00:06 (xfer#39, to-check=28/95)
+cd+++++++ Run_650_Wave/Run_650_Wave_MID_4/
+>f+++++++ Run_650_Wave/Run_650_Wave_MID_4/Run_650_Wave_MID_4_FILE_0.dat
+      32.77K   0%   67.65kB/s    2:41:50
+      52.99M   8%   50.53MB/s    0:00:11
+     169.12M  25%   80.64MB/s    0:00:05
+     291.21M  44%   92.60MB/s    0:00:03
+     413.34M  62%   98.60MB/s    0:00:02
+     535.56M  81%  115.11MB/s    0:00:01
+     657.00M 100%  104.53MB/s    0:00:05 (xfer#40, to-check=26/95)
+cd+++++++ Run_650_Wave/Run_650_Wave_MID_5/
+>f+++++++ Run_650_Wave/Run_650_Wave_MID_5/Run_650_Wave_MID_5_FILE_0.dat
+      32.77K   0%   32.03kB/s    5:41:49
+     294.91K   0%  286.00kB/s    0:38:16
+     115.38M  17%   54.82MB/s    0:00:09
+     229.15M  34%   72.67MB/s    0:00:05
+     351.83M  53%   83.74MB/s    0:00:03
+     459.31M  69%  109.46MB/s    0:00:01
+     583.04M  88%  111.53MB/s    0:00:00
+     657.00M 100%   94.89MB/s    0:00:06 (xfer#41, to-check=24/95)
+cd+++++++ Run_650_Wave/Run_650_Wave_MID_6/
+>f+++++++ Run_650_Wave/Run_650_Wave_MID_6/Run_650_Wave_MID_6_FILE_0.dat
+      32.77K   0%   53.51kB/s    3:24:37
+      41.06M   6%   39.16MB/s    0:00:15
+     154.70M  23%   73.80MB/s    0:00:06
+     257.56M  39%   81.93MB/s    0:00:04
+     379.45M  57%   90.54MB/s    0:00:02
+     501.51M  76%  109.84MB/s    0:00:01
+     623.94M  94%  111.93MB/s    0:00:00
+     657.00M 100%   99.99MB/s    0:00:06 (xfer#42, to-check=22/95)
+cd+++++++ Run_650_Wave/Run_650_Wave_MID_7/
+>f+++++++ Run_650_Wave/Run_650_Wave_MID_7/Run_650_Wave_MID_7_FILE_0.dat
+      32.77K   0%  117.65kB/s    1:33:04
+      85.33M  12%   81.38MB/s    0:00:06
+     200.08M  30%   95.45MB/s    0:00:04
+     321.78M  48%  102.36MB/s    0:00:03
+     442.27M  67%  105.52MB/s    0:00:01
+     564.20M  85%  114.26MB/s    0:00:00
+     657.00M 100%  108.91MB/s    0:00:05 (xfer#43, to-check=20/95)
+cd+++++++ Run_650_Wave/Run_650_Wave_MID_8/
+>f+++++++ Run_650_Wave/Run_650_Wave_MID_8/Run_650_Wave_MID_8_FILE_0.dat
+      32.77K   0%   40.71kB/s    4:28:56
+      18.91M   2%   18.03MB/s    0:00:34
+     140.94M  21%   67.24MB/s    0:00:07
+     254.28M  38%   80.89MB/s    0:00:04
+     375.82M  57%   89.67MB/s    0:00:03
+     488.47M  74%  112.04MB/s    0:00:01
+     611.61M  93%  112.27MB/s    0:00:00
+     657.00M 100%   98.41MB/s    0:00:06 (xfer#44, to-check=18/95)
+cd+++++++ Run_650_Wave/Run_650_Wave_MID_9/
+>f+++++++ Run_650_Wave/Run_650_Wave_MID_9/Run_650_Wave_MID_9_FILE_0.dat
+      32.77K   0%   85.79kB/s    2:07:37
+      73.53M  11%   70.12MB/s    0:00:08
+     189.04M  28%   90.19MB/s    0:00:05
+     311.20M  47%   98.96MB/s    0:00:03
+     433.36M  65%  103.35MB/s    0:00:02
+     555.78M  84%  115.01MB/s    0:00:00
+     657.00M 100%  107.55MB/s    0:00:05 (xfer#45, to-check=16/95)
+cd+++++++ Run_650_Wave/Run_650_Wave_log/
+>f+++++++ Run_650_Wave/Run_650_Wave_log/Run_650_Wave_MID_10_buffer.txt
+      32.77K  21%   38.55kB/s    0:00:03
+     153.38K 100%  180.25kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_650_Wave/Run_650_Wave_log/Run_650_Wave_MID_11_buffer.txt
+      32.77K  21%   38.19kB/s    0:00:03
+     153.54K 100%  178.72kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_650_Wave/Run_650_Wave_log/Run_650_Wave_MID_12_buffer.txt
+      32.77K  21%   37.83kB/s    0:00:03
+     152.62K 100%  175.97kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_650_Wave/Run_650_Wave_log/Run_650_Wave_MID_13_buffer.txt
+      32.77K  21%   37.47kB/s    0:00:03
+     153.87K 100%  175.75kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_650_Wave/Run_650_Wave_log/Run_650_Wave_MID_14_buffer.txt
+      32.77K  21%   37.04kB/s    0:00:03
+     153.59K 100%  173.39kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_650_Wave/Run_650_Wave_log/Run_650_Wave_MID_15_buffer.txt
+      32.77K  21%   36.70kB/s    0:00:03
+     152.53K 100%  170.63kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_650_Wave/Run_650_Wave_log/Run_650_Wave_MID_1_buffer.txt
+      32.77K  21%   36.36kB/s    0:00:03
+     152.35K 100%  168.87kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_650_Wave/Run_650_Wave_log/Run_650_Wave_MID_2_buffer.txt
+      32.77K  21%   36.00kB/s    0:00:03
+     153.60K 100%  168.73kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_650_Wave/Run_650_Wave_log/Run_650_Wave_MID_3_buffer.txt
+      32.77K  21%   35.71kB/s    0:00:03
+     152.72K 100%  166.26kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_650_Wave/Run_650_Wave_log/Run_650_Wave_MID_4_buffer.txt
+      32.77K  21%   35.40kB/s    0:00:03
+     152.81K 100%  164.89kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_650_Wave/Run_650_Wave_log/Run_650_Wave_MID_5_buffer.txt
+      32.77K  21%   35.01kB/s    0:00:03
+     153.28K 100%  163.60kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_650_Wave/Run_650_Wave_log/Run_650_Wave_MID_6_buffer.txt
+      32.77K  21%   34.71kB/s    0:00:03
+     152.39K 100%  161.23kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_650_Wave/Run_650_Wave_log/Run_650_Wave_MID_7_buffer.txt
+      32.77K  21%   34.41kB/s    0:00:03
+     152.52K 100%  159.98kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_650_Wave/Run_650_Wave_log/Run_650_Wave_MID_8_buffer.txt
+      32.77K  21%   34.08kB/s    0:00:03
+     153.49K 100%  159.46kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_650_Wave/Run_650_Wave_log/Run_650_Wave_MID_9_buffer.txt
+      32.77K  21%   33.54kB/s    0:00:03
+     152.56K 100%  156.01kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 9.90G bytes  received 1.55K bytes  113.11M bytes/sec
+total size is 9.90G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_650/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_650_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

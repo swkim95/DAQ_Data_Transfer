@@ -1,0 +1,18 @@
+2022/08/20 03:50:48 [96878] receiving file list
+2022/08/20 03:50:48 [96878] created directory /Volumes/HDD_16TB_1/HDD_Run_381
+2022/08/20 03:50:48 [96878] cd+++++++ ./
+2022/08/20 03:50:48 [96878] cd+++++++ Run_381_Fast/
+2022/08/20 03:50:48 [96878] cd+++++++ Run_381_Fast/Run_381_Fast_MID_9/
+2022/08/20 03:50:48 [96878] >f+++++++ Run_381_Fast/Run_381_Fast_MID_9/Run_381_Fast_MID_9_FILE_0.dat
+2022/08/20 03:50:48 [96878] cd+++++++ Run_381_Fast/Run_381_Fast_log/
+2022/08/20 03:50:48 [96878] >f+++++++ Run_381_Fast/Run_381_Fast_log/Run_381_Fast_MID_9_buffer.txt
+2022/08/20 03:50:48 [96878] cd+++++++ Run_381_Wave/
+2022/08/20 03:50:48 [96878] cd+++++++ Run_381_Wave/Run_381_Wave_MID_9/
+2022/08/20 03:50:48 [96878] >f+++++++ Run_381_Wave/Run_381_Wave_MID_9/Run_381_Wave_MID_9_FILE_0.dat
+2022/08/20 03:50:48 [96878] >f+++++++ Run_381_Wave/Run_381_Wave_MID_9/Run_381_Wave_MID_9_FILE_0.dat_AllchSpectrum.png
+2022/08/20 03:50:48 [96878] >f+++++++ Run_381_Wave/Run_381_Wave_MID_9/Run_381_Wave_MID_9_FILE_0.dat_Allch_noiseLevel.png
+2022/08/20 03:50:48 [96878] >f+++++++ Run_381_Wave/Run_381_Wave_MID_9/Run_381_Wave_MID_9_FILE_0.dat_SpectrumAllCh_.root
+2022/08/20 03:50:48 [96878] >f+++++++ Run_381_Wave/Run_381_Wave_MID_9/Run_381_Wave_MID_9_FILE_1.dat
+2022/08/20 03:50:48 [96878] cd+++++++ Run_381_Wave/Run_381_Wave_log/
+2022/08/20 03:50:48 [96878] >f+++++++ Run_381_Wave/Run_381_Wave_log/Run_381_Wave_MID_9_buffer.txt
+2022/08/20 03:50:48 [96878] sent 296 bytes  received 459 bytes  total size 66347097

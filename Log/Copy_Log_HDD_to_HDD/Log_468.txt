@@ -1,0 +1,310 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_468/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_468[0m
+[94m[INFO][0m SSD data folder size = [96m[1m0.927 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [--------------------------------------------------][0m [92m[1m0.568 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 84.635 GB / Free : [4m14816.917 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_468/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_468/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_468.txt --progress /Volumes/HDD_16TB_1/HDD_Run_468/ /Volumes/HDD_16TB_2/HDD_Run_468/[0m`? [y/n] building file list ... 
+ 0 files...
+ 100 files...
+110 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_468
+cd+++++++ ./
+cd+++++++ Run_468_Fast/
+cd+++++++ Run_468_Fast/Run_468_Fast_MID_1/
+>f+++++++ Run_468_Fast/Run_468_Fast_MID_1/Run_468_Fast_MID_1_FILE_0.dat
+      32.77K  13%    0.00kB/s    0:00:00
+     245.76K 100%  203.12MB/s    0:00:00 (xfer#1, to-check=106/110)
+cd+++++++ Run_468_Fast/Run_468_Fast_MID_10/
+>f+++++++ Run_468_Fast/Run_468_Fast_MID_10/Run_468_Fast_MID_10_FILE_0.dat
+      32.77K  13%    2.08MB/s    0:00:00
+     245.76K 100%   14.65MB/s    0:00:00 (xfer#2, to-check=104/110)
+cd+++++++ Run_468_Fast/Run_468_Fast_MID_11/
+>f+++++++ Run_468_Fast/Run_468_Fast_MID_11/Run_468_Fast_MID_11_FILE_0.dat
+      32.77K  13%  695.65kB/s    0:00:00
+     245.76K 100%    4.99MB/s    0:00:00 (xfer#3, to-check=102/110)
+cd+++++++ Run_468_Fast/Run_468_Fast_MID_12/
+>f+++++++ Run_468_Fast/Run_468_Fast_MID_12/Run_468_Fast_MID_12_FILE_0.dat
+      32.77K  13%   57.66kB/s    0:00:03
+     245.76K 100%  430.88kB/s    0:00:00 (xfer#4, to-check=100/110)
+cd+++++++ Run_468_Fast/Run_468_Fast_MID_13/
+>f+++++++ Run_468_Fast/Run_468_Fast_MID_13/Run_468_Fast_MID_13_FILE_0.dat
+      32.77K  13%   56.94kB/s    0:00:03
+     245.76K 100%  425.53kB/s    0:00:00 (xfer#5, to-check=98/110)
+cd+++++++ Run_468_Fast/Run_468_Fast_MID_14/
+>f+++++++ Run_468_Fast/Run_468_Fast_MID_14/Run_468_Fast_MID_14_FILE_0.dat
+      32.77K  13%   55.36kB/s    0:00:03
+     245.76K 100%  413.79kB/s    0:00:00 (xfer#6, to-check=96/110)
+cd+++++++ Run_468_Fast/Run_468_Fast_MID_15/
+>f+++++++ Run_468_Fast/Run_468_Fast_MID_15/Run_468_Fast_MID_15_FILE_0.dat
+      32.77K  13%   53.78kB/s    0:00:03
+     245.76K 100%  402.68kB/s    0:00:00 (xfer#7, to-check=94/110)
+cd+++++++ Run_468_Fast/Run_468_Fast_MID_2/
+>f+++++++ Run_468_Fast/Run_468_Fast_MID_2/Run_468_Fast_MID_2_FILE_0.dat
+      32.77K  13%   52.46kB/s    0:00:04
+     245.76K 100%  392.16kB/s    0:00:00 (xfer#8, to-check=92/110)
+cd+++++++ Run_468_Fast/Run_468_Fast_MID_3/
+>f+++++++ Run_468_Fast/Run_468_Fast_MID_3/Run_468_Fast_MID_3_FILE_0.dat
+      32.77K  13%   49.61kB/s    0:00:04
+     245.76K 100%  371.52kB/s    0:00:00 (xfer#9, to-check=90/110)
+cd+++++++ Run_468_Fast/Run_468_Fast_MID_4/
+>f+++++++ Run_468_Fast/Run_468_Fast_MID_4/Run_468_Fast_MID_4_FILE_0.dat
+      32.77K  13%   47.55kB/s    0:00:04
+     245.76K 100%  356.08kB/s    0:00:00 (xfer#10, to-check=88/110)
+cd+++++++ Run_468_Fast/Run_468_Fast_MID_5/
+>f+++++++ Run_468_Fast/Run_468_Fast_MID_5/Run_468_Fast_MID_5_FILE_0.dat
+      32.77K  13%   46.31kB/s    0:00:04
+     245.76K 100%  346.82kB/s    0:00:00 (xfer#11, to-check=86/110)
+cd+++++++ Run_468_Fast/Run_468_Fast_MID_6/
+>f+++++++ Run_468_Fast/Run_468_Fast_MID_6/Run_468_Fast_MID_6_FILE_0.dat
+      32.77K  13%   45.26kB/s    0:00:04
+     245.76K 100%  339.46kB/s    0:00:00 (xfer#12, to-check=84/110)
+cd+++++++ Run_468_Fast/Run_468_Fast_MID_7/
+>f+++++++ Run_468_Fast/Run_468_Fast_MID_7/Run_468_Fast_MID_7_FILE_0.dat
+      32.77K  13%   43.72kB/s    0:00:04
+     245.76K 100%  327.42kB/s    0:00:00 (xfer#13, to-check=82/110)
+cd+++++++ Run_468_Fast/Run_468_Fast_MID_8/
+>f+++++++ Run_468_Fast/Run_468_Fast_MID_8/Run_468_Fast_MID_8_FILE_0.dat
+      32.77K  13%   42.55kB/s    0:00:05
+     245.76K 100%  319.15kB/s    0:00:00 (xfer#14, to-check=80/110)
+cd+++++++ Run_468_Fast/Run_468_Fast_MID_9/
+>f+++++++ Run_468_Fast/Run_468_Fast_MID_9/Run_468_Fast_MID_9_FILE_0.dat
+      32.77K  13%   41.61kB/s    0:00:05
+     245.76K 100%  312.09kB/s    0:00:00 (xfer#15, to-check=78/110)
+cd+++++++ Run_468_Fast/Run_468_Fast_log/
+>f+++++++ Run_468_Fast/Run_468_Fast_log/Run_468_Fast_MID_10_buffer.txt
+         224 100%    0.28kB/s    0:00:00
+         224 100%    0.28kB/s    0:00:00 (xfer#16, to-check=76/110)
+>f+++++++ Run_468_Fast/Run_468_Fast_log/Run_468_Fast_MID_11_buffer.txt
+         224 100%    0.27kB/s    0:00:00
+         224 100%    0.27kB/s    0:00:00 (xfer#17, to-check=75/110)
+>f+++++++ Run_468_Fast/Run_468_Fast_log/Run_468_Fast_MID_12_buffer.txt
+         224 100%    0.27kB/s    0:00:00
+         224 100%    0.27kB/s    0:00:00 (xfer#18, to-check=74/110)
+>f+++++++ Run_468_Fast/Run_468_Fast_log/Run_468_Fast_MID_13_buffer.txt
+         224 100%    0.26kB/s    0:00:00
+         224 100%    0.26kB/s    0:00:00 (xfer#19, to-check=73/110)
+>f+++++++ Run_468_Fast/Run_468_Fast_log/Run_468_Fast_MID_14_buffer.txt
+         224 100%    0.25kB/s    0:00:00
+         224 100%    0.25kB/s    0:00:00 (xfer#20, to-check=72/110)
+>f+++++++ Run_468_Fast/Run_468_Fast_log/Run_468_Fast_MID_15_buffer.txt
+         224 100%    0.24kB/s    0:00:00
+         224 100%    0.24kB/s    0:00:00 (xfer#21, to-check=71/110)
+>f+++++++ Run_468_Fast/Run_468_Fast_log/Run_468_Fast_MID_1_buffer.txt
+         224 100%    0.24kB/s    0:00:00
+         224 100%    0.24kB/s    0:00:00 (xfer#22, to-check=70/110)
+>f+++++++ Run_468_Fast/Run_468_Fast_log/Run_468_Fast_MID_2_buffer.txt
+         224 100%    0.23kB/s    0:00:00
+         224 100%    0.23kB/s    0:00:00 (xfer#23, to-check=69/110)
+>f+++++++ Run_468_Fast/Run_468_Fast_log/Run_468_Fast_MID_3_buffer.txt
+         224 100%    0.23kB/s    0:00:00
+         224 100%    0.23kB/s    0:00:00 (xfer#24, to-check=68/110)
+>f+++++++ Run_468_Fast/Run_468_Fast_log/Run_468_Fast_MID_4_buffer.txt
+         224 100%    0.22kB/s    0:00:00
+         224 100%    0.22kB/s    0:00:00 (xfer#25, to-check=67/110)
+>f+++++++ Run_468_Fast/Run_468_Fast_log/Run_468_Fast_MID_5_buffer.txt
+         224 100%    0.22kB/s    0:00:00
+         224 100%    0.22kB/s    0:00:01 (xfer#26, to-check=66/110)
+>f+++++++ Run_468_Fast/Run_468_Fast_log/Run_468_Fast_MID_6_buffer.txt
+         224 100%    0.22kB/s    0:00:00
+         224 100%    0.22kB/s    0:00:01 (xfer#27, to-check=65/110)
+>f+++++++ Run_468_Fast/Run_468_Fast_log/Run_468_Fast_MID_7_buffer.txt
+         224 100%    0.21kB/s    0:00:00
+         224 100%    0.21kB/s    0:00:01 (xfer#28, to-check=64/110)
+>f+++++++ Run_468_Fast/Run_468_Fast_log/Run_468_Fast_MID_8_buffer.txt
+         224 100%    0.21kB/s    0:00:00
+         224 100%    0.21kB/s    0:00:01 (xfer#29, to-check=63/110)
+>f+++++++ Run_468_Fast/Run_468_Fast_log/Run_468_Fast_MID_9_buffer.txt
+         224 100%    0.21kB/s    0:00:00
+         224 100%    0.21kB/s    0:00:01 (xfer#30, to-check=62/110)
+cd+++++++ Run_468_Wave/
+cd+++++++ Run_468_Wave/Run_468_Wave_MID_1/
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_1/Run_468_Wave_MID_1_FILE_0.dat
+      32.77K   0%   29.14kB/s    0:37:29
+      65.54K   0%   58.29kB/s    0:18:44
+      13.40M  20%    6.03MB/s    0:00:08
+      45.65M  69%   13.92MB/s    0:00:01
+      59.54M  90%   13.74MB/s    0:00:00
+      65.60M 100%   13.64MB/s    0:00:04 (xfer#31, to-check=59/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_1/Run_468_Wave_MID_1_FILE_1.dat
+      32.77K   6%   66.53kB/s    0:00:07
+     524.29K 100% 1013.86kB/s    0:00:00 (xfer#32, to-check=58/110)
+cd+++++++ Run_468_Wave/Run_468_Wave_MID_10/
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_10/Run_468_Wave_MID_10_FILE_0.dat
+      32.77K   0%   61.30kB/s    0:17:49
+      22.05M  33%   20.78MB/s    0:00:02
+      35.95M  54%   17.00MB/s    0:00:01
+      65.60M 100%   20.78MB/s    0:00:03 (xfer#33, to-check=56/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_10/Run_468_Wave_MID_10_FILE_1.dat
+      32.77K   6%   32.13kB/s    0:00:15
+     524.29K 100%  512.51kB/s    0:00:00 (xfer#34, to-check=55/110)
+cd+++++++ Run_468_Wave/Run_468_Wave_MID_11/
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_11/Run_468_Wave_MID_11_FILE_0.dat
+      32.77K   0%   32.00kB/s    0:34:09
+      65.54K   0%   64.00kB/s    0:17:04
+      16.29M  24%    7.74MB/s    0:00:06
+      29.92M  45%    9.38MB/s    0:00:03
+      62.69M  95%   14.72MB/s    0:00:00
+      65.60M 100%   14.66MB/s    0:00:04 (xfer#35, to-check=53/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_11/Run_468_Wave_MID_11_FILE_1.dat
+      32.77K   6%  144.80kB/s    0:00:03
+     524.29K 100%    2.10MB/s    0:00:00 (xfer#36, to-check=52/110)
+cd+++++++ Run_468_Wave/Run_468_Wave_MID_12/
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_12/Run_468_Wave_MID_12_FILE_0.dat
+      32.77K   0%  118.08kB/s    0:09:15
+       9.99M  15%    9.46MB/s    0:00:05
+      46.69M  71%   22.08MB/s    0:00:00
+      60.85M  92%   19.23MB/s    0:00:00
+      65.60M 100%   18.63MB/s    0:00:03 (xfer#37, to-check=50/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_12/Run_468_Wave_MID_12_FILE_1.dat
+      32.77K   6%   89.39kB/s    0:00:05
+     524.29K 100%    1.34MB/s    0:00:00 (xfer#38, to-check=49/110)
+cd+++++++ Run_468_Wave/Run_468_Wave_MID_13/
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_13/Run_468_Wave_MID_13_FILE_0.dat
+      32.77K   0%   82.05kB/s    0:13:19
+      30.70M  46%   28.85MB/s    0:00:01
+      44.86M  68%   21.01MB/s    0:00:00
+      65.60M 100%   22.97MB/s    0:00:02 (xfer#39, to-check=47/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_13/Run_468_Wave_MID_13_FILE_1.dat
+      32.77K   6%   46.44kB/s    0:00:10
+     524.29K 100%  739.88kB/s    0:00:00 (xfer#40, to-check=46/110)
+cd+++++++ Run_468_Wave/Run_468_Wave_MID_14/
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_14/Run_468_Wave_MID_14_FILE_0.dat
+      32.77K   0%   46.11kB/s    0:23:42
+      14.71M  22%   13.77MB/s    0:00:03
+      28.87M  44%   13.56MB/s    0:00:02
+      62.42M  95%   19.63MB/s    0:00:00
+      65.60M 100%   19.14MB/s    0:00:03 (xfer#41, to-check=44/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_14/Run_468_Wave_MID_14_FILE_1.dat
+      32.77K   6%  126.98kB/s    0:00:03
+     524.29K 100%    1.85MB/s    0:00:00 (xfer#42, to-check=43/110)
+cd+++++++ Run_468_Wave/Run_468_Wave_MID_15/
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_15/Run_468_Wave_MID_15_FILE_0.dat
+      32.77K   0%  112.28kB/s    0:09:43
+       9.99M  15%    9.42MB/s    0:00:05
+      27.03M  41%   12.81MB/s    0:00:02
+      56.92M  86%   17.97MB/s    0:00:00
+      65.60M 100%   17.16MB/s    0:00:03 (xfer#43, to-check=41/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_15/Run_468_Wave_MID_15_FILE_1.dat
+      32.77K   6%   49.23kB/s    0:00:09
+     524.29K 100%  766.47kB/s    0:00:00 (xfer#44, to-check=40/110)
+cd+++++++ Run_468_Wave/Run_468_Wave_MID_2/
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_2/Run_468_Wave_MID_2_FILE_0.dat
+      32.77K   0%   46.85kB/s    0:23:19
+       4.23M   6%    4.00MB/s    0:00:14
+      38.04M  57%   17.99MB/s    0:00:01
+      51.94M  79%   16.31MB/s    0:00:00
+      65.60M 100%   18.03MB/s    0:00:03 (xfer#45, to-check=38/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_2/Run_468_Wave_MID_2_FILE_1.dat
+      32.77K   6%   73.90kB/s    0:00:06
+     524.29K 100%    1.13MB/s    0:00:00 (xfer#46, to-check=37/110)
+cd+++++++ Run_468_Wave/Run_468_Wave_MID_3/
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_3/Run_468_Wave_MID_3_FILE_0.dat
+      32.77K   0%   72.07kB/s    0:15:09
+      16.02M  24%   15.21MB/s    0:00:03
+      29.92M  45%   14.16MB/s    0:00:02
+      65.60M 100%   21.16MB/s    0:00:02 (xfer#47, to-check=35/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_3/Run_468_Wave_MID_3_FILE_1.dat
+      32.77K   6%   33.40kB/s    0:00:14
+     524.29K 100%  518.74kB/s    0:00:00 (xfer#48, to-check=34/110)
+cd+++++++ Run_468_Wave/Run_468_Wave_MID_4/
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_4/Run_468_Wave_MID_4_FILE_0.dat
+      32.77K   0%   31.87kB/s    0:34:17
+      65.54K   0%   63.68kB/s    0:17:09
+      14.19M  21%    6.65MB/s    0:00:07
+      33.33M  50%   10.46MB/s    0:00:03
+      65.60M 100%   18.29MB/s    0:00:03 (xfer#49, to-check=32/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_4/Run_468_Wave_MID_4_FILE_1.dat
+      32.77K   6%   83.33kB/s    0:00:05
+     524.29K 100%    1.29MB/s    0:00:00 (xfer#50, to-check=31/110)
+cd+++++++ Run_468_Wave/Run_468_Wave_MID_5/
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_5/Run_468_Wave_MID_5_FILE_0.dat
+      32.77K   0%   82.26kB/s    0:13:17
+      65.60M 100%   67.42MB/s    0:00:00 (xfer#51, to-check=29/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_5/Run_468_Wave_MID_5_FILE_1.dat
+      32.77K   6%   34.45kB/s    0:00:14
+     524.29K 100%  548.77kB/s    0:00:00 (xfer#52, to-check=28/110)
+cd+++++++ Run_468_Wave/Run_468_Wave_MID_6/
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_6/Run_468_Wave_MID_6_FILE_0.dat
+      32.77K   0%   34.22kB/s    0:31:55
+       6.06M   9%    5.78MB/s    0:00:10
+      65.60M 100%   40.97MB/s    0:00:01 (xfer#53, to-check=26/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_6/Run_468_Wave_MID_6_FILE_1.dat
+      32.77K   6%   60.61kB/s    0:00:08
+     524.29K 100%  957.01kB/s    0:00:00 (xfer#54, to-check=25/110)
+cd+++++++ Run_468_Wave/Run_468_Wave_MID_7/
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_7/Run_468_Wave_MID_7_FILE_0.dat
+      32.77K   0%   59.59kB/s    0:18:20
+      54.03M  82%   51.53MB/s    0:00:00
+      65.60M 100%   57.61MB/s    0:00:01 (xfer#55, to-check=23/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_7/Run_468_Wave_MID_7_FILE_1.dat
+      32.77K   6%  363.64kB/s    0:00:01
+     524.29K 100%    5.15MB/s    0:00:00 (xfer#56, to-check=22/110)
+cd+++++++ Run_468_Wave/Run_468_Wave_MID_8/
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_8/Run_468_Wave_MID_8_FILE_0.dat
+      32.77K   0%  326.53kB/s    0:03:20
+      65.60M 100%   84.66MB/s    0:00:00 (xfer#57, to-check=20/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_8/Run_468_Wave_MID_8_FILE_1.dat
+      32.77K   6%   43.18kB/s    0:00:11
+     524.29K 100%  687.25kB/s    0:00:00 (xfer#58, to-check=19/110)
+cd+++++++ Run_468_Wave/Run_468_Wave_MID_9/
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_9/Run_468_Wave_MID_9_FILE_0.dat
+      32.77K   0%   42.90kB/s    0:25:28
+      23.89M  36%   22.78MB/s    0:00:01
+      65.60M 100%   45.07MB/s    0:00:01 (xfer#59, to-check=17/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_MID_9/Run_468_Wave_MID_9_FILE_1.dat
+      32.77K   6%   82.26kB/s    0:00:05
+     524.29K 100%    1.26MB/s    0:00:00 (xfer#60, to-check=16/110)
+cd+++++++ Run_468_Wave/Run_468_Wave_log/
+>f+++++++ Run_468_Wave/Run_468_Wave_log/Run_468_Wave_MID_10_buffer.txt
+      14.77K 100%   36.25kB/s    0:00:00
+      14.77K 100%   36.25kB/s    0:00:00 (xfer#61, to-check=14/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_log/Run_468_Wave_MID_11_buffer.txt
+      14.80K 100%   36.23kB/s    0:00:00
+      14.80K 100%   36.23kB/s    0:00:00 (xfer#62, to-check=13/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_log/Run_468_Wave_MID_12_buffer.txt
+      14.89K 100%   35.81kB/s    0:00:00
+      14.89K 100%   35.81kB/s    0:00:00 (xfer#63, to-check=12/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_log/Run_468_Wave_MID_13_buffer.txt
+      14.79K 100%   34.63kB/s    0:00:00
+      14.79K 100%   34.63kB/s    0:00:00 (xfer#64, to-check=11/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_log/Run_468_Wave_MID_14_buffer.txt
+      14.79K 100%   34.47kB/s    0:00:00
+      14.79K 100%   34.47kB/s    0:00:00 (xfer#65, to-check=10/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_log/Run_468_Wave_MID_15_buffer.txt
+      14.80K 100%   34.34kB/s    0:00:00
+      14.80K 100%   34.34kB/s    0:00:00 (xfer#66, to-check=9/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_log/Run_468_Wave_MID_1_buffer.txt
+      14.76K 100%   34.07kB/s    0:00:00
+      14.76K 100%   34.07kB/s    0:00:00 (xfer#67, to-check=8/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_log/Run_468_Wave_MID_2_buffer.txt
+      14.82K 100%   34.12kB/s    0:00:00
+      14.82K 100%   34.12kB/s    0:00:00 (xfer#68, to-check=7/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_log/Run_468_Wave_MID_3_buffer.txt
+      14.74K 100%   33.88kB/s    0:00:00
+      14.74K 100%   33.88kB/s    0:00:00 (xfer#69, to-check=6/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_log/Run_468_Wave_MID_4_buffer.txt
+      14.76K 100%   33.13kB/s    0:00:00
+      14.76K 100%   33.13kB/s    0:00:00 (xfer#70, to-check=5/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_log/Run_468_Wave_MID_5_buffer.txt
+      14.85K 100%   33.25kB/s    0:00:00
+      14.85K 100%   33.25kB/s    0:00:00 (xfer#71, to-check=4/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_log/Run_468_Wave_MID_6_buffer.txt
+      14.76K 100%   32.98kB/s    0:00:00
+      14.76K 100%   32.98kB/s    0:00:00 (xfer#72, to-check=3/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_log/Run_468_Wave_MID_7_buffer.txt
+      14.74K 100%   32.88kB/s    0:00:00
+      14.74K 100%   32.88kB/s    0:00:00 (xfer#73, to-check=2/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_log/Run_468_Wave_MID_8_buffer.txt
+      14.84K 100%   33.09kB/s    0:00:00
+      14.84K 100%   33.09kB/s    0:00:00 (xfer#74, to-check=1/110)
+>f+++++++ Run_468_Wave/Run_468_Wave_log/Run_468_Wave_MID_9_buffer.txt
+      14.74K 100%   32.80kB/s    0:00:00
+      14.74K 100%   32.80kB/s    0:00:00 (xfer#75, to-check=0/110)
+
+sent 995.93M bytes  received 1.88K bytes  29.73M bytes/sec
+total size is 995.80M  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_468/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_468_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

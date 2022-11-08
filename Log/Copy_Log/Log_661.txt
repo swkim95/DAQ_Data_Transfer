@@ -1,0 +1,323 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_661/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_661[0m
+[94m[INFO][0m SSD data folder size = [96m[1m9.2 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [#######-------------------------------------------][0m [92m[1m13.75 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 2048.942 GB / Free : [4m12852.61 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_661/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_661/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_661.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_661/ /Volumes/HDD_16TB_1/HDD_Run_661/[0m`? [y/n] building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_661
+cd+++++++ ./
+cd+++++++ Run_661_Fast/
+cd+++++++ Run_661_Fast/Run_661_Fast_MID_1/
+>f+++++++ Run_661_Fast/Run_661_Fast_MID_1/Run_661_Fast_MID_1_FILE_0.dat
+      32.77K   1%    0.00kB/s    0:00:00
+       2.56M 100%   75.20MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_661_Fast/Run_661_Fast_MID_10/
+>f+++++++ Run_661_Fast/Run_661_Fast_MID_10/Run_661_Fast_MID_10_FILE_0.dat
+      32.77K   1%  969.70kB/s    0:00:02
+       2.56M 100%   29.37MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_661_Fast/Run_661_Fast_MID_11/
+>f+++++++ Run_661_Fast/Run_661_Fast_MID_11/Run_661_Fast_MID_11_FILE_0.dat
+      32.77K   1%  380.95kB/s    0:00:06
+       2.56M 100%   20.66MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_661_Fast/Run_661_Fast_MID_12/
+>f+++++++ Run_661_Fast/Run_661_Fast_MID_12/Run_661_Fast_MID_12_FILE_0.dat
+      32.77K   1%  268.91kB/s    0:00:09
+       2.56M 100%   15.73MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_661_Fast/Run_661_Fast_MID_13/
+>f+++++++ Run_661_Fast/Run_661_Fast_MID_13/Run_661_Fast_MID_13_FILE_0.dat
+      32.77K   1%  205.13kB/s    0:00:12
+       2.56M 100%   12.90MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_661_Fast/Run_661_Fast_MID_14/
+>f+++++++ Run_661_Fast/Run_661_Fast_MID_14/Run_661_Fast_MID_14_FILE_0.dat
+      32.77K   1%  167.54kB/s    0:00:15
+       2.56M 100%   10.88MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_661_Fast/Run_661_Fast_MID_15/
+>f+++++++ Run_661_Fast/Run_661_Fast_MID_15/Run_661_Fast_MID_15_FILE_0.dat
+      32.77K   1%  142.22kB/s    0:00:17
+       2.56M 100%    9.23MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_661_Fast/Run_661_Fast_MID_2/
+>f+++++++ Run_661_Fast/Run_661_Fast_MID_2/Run_661_Fast_MID_2_FILE_0.dat
+      32.77K   1%  120.30kB/s    0:00:20
+       2.56M 100%    8.02MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_661_Fast/Run_661_Fast_MID_3/
+>f+++++++ Run_661_Fast/Run_661_Fast_MID_3/Run_661_Fast_MID_3_FILE_0.dat
+      32.77K   1%  104.58kB/s    0:00:24
+       2.56M 100%    7.19MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_661_Fast/Run_661_Fast_MID_4/
+>f+++++++ Run_661_Fast/Run_661_Fast_MID_4/Run_661_Fast_MID_4_FILE_0.dat
+      32.77K   1%   93.84kB/s    0:00:26
+       2.56M 100%    6.55MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_661_Fast/Run_661_Fast_MID_5/
+>f+++++++ Run_661_Fast/Run_661_Fast_MID_5/Run_661_Fast_MID_5_FILE_0.dat
+      32.77K   1%   85.56kB/s    0:00:29
+       2.56M 100%    5.93MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_661_Fast/Run_661_Fast_MID_6/
+>f+++++++ Run_661_Fast/Run_661_Fast_MID_6/Run_661_Fast_MID_6_FILE_0.dat
+      32.77K   1%   77.67kB/s    0:00:32
+       2.56M 100%    5.50MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_661_Fast/Run_661_Fast_MID_7/
+>f+++++++ Run_661_Fast/Run_661_Fast_MID_7/Run_661_Fast_MID_7_FILE_0.dat
+      32.77K   1%   72.07kB/s    0:00:35
+       2.56M 100%    5.14MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_661_Fast/Run_661_Fast_MID_8/
+>f+++++++ Run_661_Fast/Run_661_Fast_MID_8/Run_661_Fast_MID_8_FILE_0.dat
+      32.77K   1%   67.37kB/s    0:00:37
+       2.56M 100%    4.81MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_661_Fast/Run_661_Fast_MID_9/
+>f+++++++ Run_661_Fast/Run_661_Fast_MID_9/Run_661_Fast_MID_9_FILE_0.dat
+      32.77K   1%   62.99kB/s    0:00:40
+       2.56M 100%    4.48MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_661_Fast/Run_661_Fast_log/
+>f+++++++ Run_661_Fast/Run_661_Fast_log/Run_661_Fast_MID_10_buffer.txt
+       2.47K 100%    4.44kB/s    0:00:00
+       2.47K 100%    4.44kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_661_Fast/Run_661_Fast_log/Run_661_Fast_MID_11_buffer.txt
+       2.47K 100%    4.44kB/s    0:00:00
+       2.47K 100%    4.44kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_661_Fast/Run_661_Fast_log/Run_661_Fast_MID_12_buffer.txt
+       2.47K 100%    4.43kB/s    0:00:00
+       2.47K 100%    4.43kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_661_Fast/Run_661_Fast_log/Run_661_Fast_MID_13_buffer.txt
+       2.47K 100%    4.43kB/s    0:00:00
+       2.47K 100%    4.43kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_661_Fast/Run_661_Fast_log/Run_661_Fast_MID_14_buffer.txt
+       2.47K 100%    4.43kB/s    0:00:00
+       2.47K 100%    4.43kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_661_Fast/Run_661_Fast_log/Run_661_Fast_MID_15_buffer.txt
+       2.47K 100%    4.33kB/s    0:00:00
+       2.47K 100%    4.33kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_661_Fast/Run_661_Fast_log/Run_661_Fast_MID_1_buffer.txt
+       2.47K 100%    4.33kB/s    0:00:00
+       2.47K 100%    4.33kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_661_Fast/Run_661_Fast_log/Run_661_Fast_MID_2_buffer.txt
+       2.47K 100%    4.33kB/s    0:00:00
+       2.47K 100%    4.33kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_661_Fast/Run_661_Fast_log/Run_661_Fast_MID_3_buffer.txt
+       2.47K 100%    4.18kB/s    0:00:00
+       2.47K 100%    4.18kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_661_Fast/Run_661_Fast_log/Run_661_Fast_MID_4_buffer.txt
+       2.47K 100%    4.18kB/s    0:00:00
+       2.47K 100%    4.18kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_661_Fast/Run_661_Fast_log/Run_661_Fast_MID_5_buffer.txt
+       2.47K 100%    4.18kB/s    0:00:00
+       2.47K 100%    4.18kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_661_Fast/Run_661_Fast_log/Run_661_Fast_MID_6_buffer.txt
+       2.47K 100%    4.04kB/s    0:00:00
+       2.47K 100%    4.04kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_661_Fast/Run_661_Fast_log/Run_661_Fast_MID_7_buffer.txt
+       2.47K 100%    4.04kB/s    0:00:00
+       2.47K 100%    4.04kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_661_Fast/Run_661_Fast_log/Run_661_Fast_MID_8_buffer.txt
+       2.47K 100%    4.04kB/s    0:00:00
+       2.47K 100%    4.04kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_661_Fast/Run_661_Fast_log/Run_661_Fast_MID_9_buffer.txt
+       2.47K 100%    3.87kB/s    0:00:00
+       2.47K 100%    3.87kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_661_Wave/
+cd+++++++ Run_661_Wave/Run_661_Wave_MID_1/
+>f+++++++ Run_661_Wave/Run_661_Wave_MID_1/Run_661_Wave_MID_1_FILE_0.dat
+      32.77K   0%   48.71kB/s    3:44:24
+      34.90M   5%   33.28MB/s    0:00:18
+     110.92M  16%   52.89MB/s    0:00:10
+     207.65M  31%   66.01MB/s    0:00:06
+     313.03M  47%   71.75MB/s    0:00:04
+     427.95M  65%   90.09MB/s    0:00:02
+     525.11M  80%   94.93MB/s    0:00:01
+     592.48M  90%   88.22MB/s    0:00:00
+     655.82M 100%   81.80MB/s    0:00:07 (xfer#31, to-check=44/95)
+cd+++++++ Run_661_Wave/Run_661_Wave_MID_10/
+>f+++++++ Run_661_Wave/Run_661_Wave_MID_10/Run_661_Wave_MID_10_FILE_0.dat
+      32.77K   0%   65.71kB/s    2:46:20
+      54.85M   8%   52.31MB/s    0:00:11
+     164.66M  25%   78.40MB/s    0:00:06
+     253.26M  38%   80.46MB/s    0:00:04
+     389.84M  59%   92.92MB/s    0:00:02
+     481.85M  73%  101.75MB/s    0:00:01
+     619.32M  94%  108.45MB/s    0:00:00
+     655.82M 100%   99.85MB/s    0:00:06 (xfer#32, to-check=42/95)
+cd+++++++ Run_661_Wave/Run_661_Wave_MID_11/
+>f+++++++ Run_661_Wave/Run_661_Wave_MID_11/Run_661_Wave_MID_11_FILE_0.dat
+      32.77K   0%  120.75kB/s    1:30:30
+      83.92M  12%   64.86MB/s    0:00:08
+     208.44M  31%   88.98MB/s    0:00:04
+     333.94M  50%   98.51MB/s    0:00:03
+     422.61M  64%   95.23MB/s    0:00:02
+     556.83M  84%  112.81MB/s    0:00:00
+     655.82M 100%  104.64MB/s    0:00:05 (xfer#33, to-check=40/95)
+cd+++++++ Run_661_Wave/Run_661_Wave_MID_12/
+>f+++++++ Run_661_Wave/Run_661_Wave_MID_12/Run_661_Wave_MID_12_FILE_0.dat
+      32.77K   0%   42.90kB/s    4:14:48
+      21.10M   3%   20.12MB/s    0:00:30
+     110.85M  16%   52.89MB/s    0:00:10
+     227.05M  34%   72.23MB/s    0:00:05
+     298.88M  45%   70.82MB/s    0:00:04
+     436.24M  66%   98.34MB/s    0:00:02
+     564.69M  86%  107.48MB/s    0:00:00
+     653.33M  99%  100.98MB/s    0:00:00
+     655.82M 100%   88.76MB/s    0:00:07 (xfer#34, to-check=38/95)
+cd+++++++ Run_661_Wave/Run_661_Wave_MID_13/
+>f+++++++ Run_661_Wave/Run_661_Wave_MID_13/Run_661_Wave_MID_13_FILE_0.dat
+      32.77K   0%    1.36MB/s    0:07:51
+     101.06M  15%   96.38MB/s    0:00:05
+     195.13M  29%   93.09MB/s    0:00:04
+     265.32M  40%   84.40MB/s    0:00:04
+     373.00M  56%   89.00MB/s    0:00:03
+     499.42M  76%   95.05MB/s    0:00:01
+     589.92M  89%   94.20MB/s    0:00:00
+     655.82M 100%   96.25MB/s    0:00:06 (xfer#35, to-check=36/95)
+cd+++++++ Run_661_Wave/Run_661_Wave_MID_14/
+>f+++++++ Run_661_Wave/Run_661_Wave_MID_14/Run_661_Wave_MID_14_FILE_0.dat
+      32.77K   0%   63.49kB/s    2:52:08
+      43.84M   6%   41.81MB/s    0:00:14
+     152.34M  23%   67.10MB/s    0:00:07
+     278.43M  42%   83.90MB/s    0:00:04
+     405.73M  61%   92.92MB/s    0:00:02
+     497.06M  75%  103.77MB/s    0:00:01
+     629.44M  95%  113.81MB/s    0:00:00
+     655.82M 100%   97.16MB/s    0:00:06 (xfer#36, to-check=34/95)
+cd+++++++ Run_661_Wave/Run_661_Wave_MID_15/
+>f+++++++ Run_661_Wave/Run_661_Wave_MID_15/Run_661_Wave_MID_15_FILE_0.dat
+      32.77K   0%  113.88kB/s    1:35:58
+      70.03M  10%   57.82MB/s    0:00:09
+     195.85M  29%   86.67MB/s    0:00:05
+     322.83M  49%   97.61MB/s    0:00:03
+     397.08M  60%   91.18MB/s    0:00:02
+     535.86M  81%  111.12MB/s    0:00:01
+     643.33M  98%  104.93MB/s    0:00:00
+     655.82M 100%   98.59MB/s    0:00:06 (xfer#37, to-check=32/95)
+cd+++++++ Run_661_Wave/Run_661_Wave_MID_2/
+>f+++++++ Run_661_Wave/Run_661_Wave_MID_2/Run_661_Wave_MID_2_FILE_0.dat
+      32.77K   0%  264.46kB/s    0:41:19
+     104.92M  15%  100.06MB/s    0:00:05
+     221.71M  33%  105.77MB/s    0:00:04
+     315.13M  48%  100.24MB/s    0:00:03
+     442.53M  67%  105.59MB/s    0:00:01
+     580.68M  88%  113.49MB/s    0:00:00
+     655.82M 100%  106.55MB/s    0:00:05 (xfer#38, to-check=30/95)
+cd+++++++ Run_661_Wave/Run_661_Wave_MID_3/
+>f+++++++ Run_661_Wave/Run_661_Wave_MID_3/Run_661_Wave_MID_3_FILE_0.dat
+      32.77K   0%   36.53kB/s    4:59:12
+      10.26M   1%    9.78MB/s    0:01:04
+     147.10M  22%   70.18MB/s    0:00:07
+     227.31M  34%   72.26MB/s    0:00:05
+     350.91M  53%   83.66MB/s    0:00:03
+     469.79M  71%  104.77MB/s    0:00:01
+     603.49M  92%  104.03MB/s    0:00:00
+     655.82M 100%   95.36MB/s    0:00:06 (xfer#39, to-check=28/95)
+cd+++++++ Run_661_Wave/Run_661_Wave_MID_4/
+>f+++++++ Run_661_Wave/Run_661_Wave_MID_4/Run_661_Wave_MID_4_FILE_0.dat
+      32.77K   0%   84.88kB/s    2:08:45
+      78.18M  11%   74.56MB/s    0:00:07
+     162.40M  24%   77.48MB/s    0:00:06
+     300.71M  45%   95.63MB/s    0:00:03
+     394.04M  60%   93.45MB/s    0:00:02
+     523.67M  79%  105.66MB/s    0:00:01
+     655.82M 100%  104.71MB/s    0:00:05 (xfer#40, to-check=26/95)
+cd+++++++ Run_661_Wave/Run_661_Wave_MID_5/
+>f+++++++ Run_661_Wave/Run_661_Wave_MID_5/Run_661_Wave_MID_5_FILE_0.dat
+      32.77K   0%   33.20kB/s    5:29:15
+       3.70M   0%    3.53MB/s    0:03:00
+      92.34M  14%   44.05MB/s    0:00:12
+     221.02M  33%   70.28MB/s    0:00:06
+     307.33M  46%   73.31MB/s    0:00:04
+     410.91M  62%   97.16MB/s    0:00:02
+     518.55M  79%  101.67MB/s    0:00:01
+     608.47M  92%   89.45MB/s    0:00:00
+     655.82M 100%   81.47MB/s    0:00:07 (xfer#41, to-check=24/95)
+cd+++++++ Run_661_Wave/Run_661_Wave_MID_6/
+>f+++++++ Run_661_Wave/Run_661_Wave_MID_6/Run_661_Wave_MID_6_FILE_0.dat
+      32.77K   0%   57.25kB/s    3:10:55
+      42.60M   6%   40.62MB/s    0:00:14
+     163.87M  24%   77.18MB/s    0:00:06
+     255.62M  38%   80.62MB/s    0:00:04
+     393.90M  60%   93.38MB/s    0:00:02
+     529.86M  80%  115.51MB/s    0:00:01
+     617.74M  94%  108.29MB/s    0:00:00
+     655.82M 100%   99.32MB/s    0:00:06 (xfer#42, to-check=22/95)
+cd+++++++ Run_661_Wave/Run_661_Wave_MID_7/
+>f+++++++ Run_661_Wave/Run_661_Wave_MID_7/Run_661_Wave_MID_7_FILE_0.dat
+      32.77K   0%  112.28kB/s    1:37:20
+      95.32M  14%   90.91MB/s    0:00:06
+     177.93M  27%   84.89MB/s    0:00:05
+     299.93M  45%   95.38MB/s    0:00:03
+     426.02M  64%  101.62MB/s    0:00:02
+     514.52M  78%  100.00MB/s    0:00:01
+     651.95M  99%  113.07MB/s    0:00:00
+     655.82M 100%  103.67MB/s    0:00:06 (xfer#43, to-check=20/95)
+cd+++++++ Run_661_Wave/Run_661_Wave_MID_8/
+>f+++++++ Run_661_Wave/Run_661_Wave_MID_8/Run_661_Wave_MID_8_FILE_0.dat
+      32.77K   0%  680.85kB/s    0:16:03
+     111.44M  16%  106.28MB/s    0:00:05
+     191.33M  29%   91.28MB/s    0:00:04
+     318.54M  48%  101.29MB/s    0:00:03
+     404.78M  61%   96.56MB/s    0:00:02
+     543.39M  82%  103.04MB/s    0:00:01
+     655.82M 100%  107.33MB/s    0:00:05 (xfer#44, to-check=18/95)
+cd+++++++ Run_661_Wave/Run_661_Wave_MID_9/
+>f+++++++ Run_661_Wave/Run_661_Wave_MID_9/Run_661_Wave_MID_9_FILE_0.dat
+      32.77K   0%   38.00kB/s    4:47:35
+      11.57M   1%   11.02MB/s    0:00:57
+     104.63M  15%   49.89MB/s    0:00:10
+     231.83M  35%   73.70MB/s    0:00:05
+     322.83M  49%   76.97MB/s    0:00:04
+     428.64M  65%   99.49MB/s    0:00:02
+     567.05M  86%  110.33MB/s    0:00:00
+     655.82M 100%   89.68MB/s    0:00:06 (xfer#45, to-check=16/95)
+cd+++++++ Run_661_Wave/Run_661_Wave_log/
+>f+++++++ Run_661_Wave/Run_661_Wave_log/Run_661_Wave_MID_10_buffer.txt
+      32.77K  21%   32.19kB/s    0:00:03
+     153.49K 100%  150.79kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_661_Wave/Run_661_Wave_log/Run_661_Wave_MID_11_buffer.txt
+      32.77K  21%   31.97kB/s    0:00:03
+      65.54K  42%   63.87kB/s    0:00:01
+     153.67K 100%  149.76kB/s    0:00:01 (xfer#47, to-check=13/95)
+>f+++++++ Run_661_Wave/Run_661_Wave_log/Run_661_Wave_MID_12_buffer.txt
+      32.77K  21%    3.91MB/s    0:00:00
+     152.96K 100%   16.21MB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_661_Wave/Run_661_Wave_log/Run_661_Wave_MID_13_buffer.txt
+      32.77K  21%    1.84MB/s    0:00:00
+     153.71K 100%    8.62MB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_661_Wave/Run_661_Wave_log/Run_661_Wave_MID_14_buffer.txt
+      32.77K  21%    1.16MB/s    0:00:00
+     153.39K 100%    5.22MB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_661_Wave/Run_661_Wave_log/Run_661_Wave_MID_15_buffer.txt
+      32.77K  21%  761.90kB/s    0:00:00
+     152.89K 100%    3.39MB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_661_Wave/Run_661_Wave_log/Run_661_Wave_MID_1_buffer.txt
+      32.77K  21%  571.43kB/s    0:00:00
+     153.05K 100%    2.56MB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_661_Wave/Run_661_Wave_log/Run_661_Wave_MID_2_buffer.txt
+      32.77K  21%  500.00kB/s    0:00:00
+     153.97K 100%    2.26MB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_661_Wave/Run_661_Wave_log/Run_661_Wave_MID_3_buffer.txt
+      32.77K  21%  432.43kB/s    0:00:00
+     153.26K 100%    1.98MB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_661_Wave/Run_661_Wave_log/Run_661_Wave_MID_4_buffer.txt
+      32.77K  21%  359.55kB/s    0:00:00
+     153.07K 100%    1.64MB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_661_Wave/Run_661_Wave_log/Run_661_Wave_MID_5_buffer.txt
+      32.77K  21%  329.90kB/s    0:00:00
+     153.73K 100%    1.50MB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_661_Wave/Run_661_Wave_log/Run_661_Wave_MID_6_buffer.txt
+      32.77K  21%  299.07kB/s    0:00:00
+     152.93K 100%    1.35MB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_661_Wave/Run_661_Wave_log/Run_661_Wave_MID_7_buffer.txt
+      32.77K  21%  262.30kB/s    0:00:00
+     152.80K 100%    1.18MB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_661_Wave/Run_661_Wave_log/Run_661_Wave_MID_8_buffer.txt
+      32.77K  21%  233.58kB/s    0:00:00
+     153.34K 100%    1.07MB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_661_Wave/Run_661_Wave_log/Run_661_Wave_MID_9_buffer.txt
+      32.77K  21%  211.92kB/s    0:00:00
+     152.97K 100%  982.79kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 9.88G bytes  received 1.55K bytes  106.80M bytes/sec
+total size is 9.88G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_661/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_661_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m
+[91m[ERROR][0m Source folder [1m"/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_661/"[0m [91mdoes not exist[0m, please check

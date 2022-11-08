@@ -1,0 +1,300 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_379/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_379[0m
+[94m[INFO][0m SSD data folder size = [96m[1m0.936 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [##------------------------------------------------][0m [92m[1m3.331 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 496.444 GB / Free : [4m14405.109 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_379/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_379/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_379.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_379/ /Volumes/HDD_16TB_1/HDD_Run_379/[0m`? [y/n] building file list ... 
+ 0 files...
+ 100 files...
+114 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_379
+cd+++++++ ./
+cd+++++++ Run_379_Fast/
+cd+++++++ Run_379_Fast/Run_379_Fast_MID_1/
+>f+++++++ Run_379_Fast/Run_379_Fast_MID_1/Run_379_Fast_MID_1_FILE_0.dat
+      32.77K  13%    0.00kB/s    0:00:00
+     245.76K 100%  203.12MB/s    0:00:00 (xfer#1, to-check=110/114)
+cd+++++++ Run_379_Fast/Run_379_Fast_MID_10/
+>f+++++++ Run_379_Fast/Run_379_Fast_MID_10/Run_379_Fast_MID_10_FILE_0.dat
+      32.77K  13%    7.81MB/s    0:00:00
+     245.76K 100%   46.88MB/s    0:00:00 (xfer#2, to-check=108/114)
+cd+++++++ Run_379_Fast/Run_379_Fast_MID_11/
+>f+++++++ Run_379_Fast/Run_379_Fast_MID_11/Run_379_Fast_MID_11_FILE_0.dat
+      32.77K  13%    3.91MB/s    0:00:00
+     245.76K 100%   26.04MB/s    0:00:00 (xfer#3, to-check=106/114)
+cd+++++++ Run_379_Fast/Run_379_Fast_MID_12/
+>f+++++++ Run_379_Fast/Run_379_Fast_MID_12/Run_379_Fast_MID_12_FILE_0.dat
+      32.77K  13%    2.23MB/s    0:00:00
+     245.76K 100%   15.62MB/s    0:00:00 (xfer#4, to-check=104/114)
+cd+++++++ Run_379_Fast/Run_379_Fast_MID_13/
+>f+++++++ Run_379_Fast/Run_379_Fast_MID_13/Run_379_Fast_MID_13_FILE_0.dat
+      32.77K  13%  225.35kB/s    0:00:00
+     245.76K 100%    1.63MB/s    0:00:00 (xfer#5, to-check=102/114)
+cd+++++++ Run_379_Fast/Run_379_Fast_MID_14/
+>f+++++++ Run_379_Fast/Run_379_Fast_MID_14/Run_379_Fast_MID_14_FILE_0.dat
+      32.77K  13%  214.77kB/s    0:00:00
+     245.76K 100%    1.56MB/s    0:00:00 (xfer#6, to-check=100/114)
+cd+++++++ Run_379_Fast/Run_379_Fast_MID_15/
+>f+++++++ Run_379_Fast/Run_379_Fast_MID_15/Run_379_Fast_MID_15_FILE_0.dat
+      32.77K  13%  203.82kB/s    0:00:01
+     245.76K 100%    1.48MB/s    0:00:00 (xfer#7, to-check=98/114)
+cd+++++++ Run_379_Fast/Run_379_Fast_MID_2/
+>f+++++++ Run_379_Fast/Run_379_Fast_MID_2/Run_379_Fast_MID_2_FILE_0.dat
+      32.77K  13%  195.12kB/s    0:00:01
+     245.76K 100%    1.42MB/s    0:00:00 (xfer#8, to-check=96/114)
+cd+++++++ Run_379_Fast/Run_379_Fast_MID_3/
+>f+++++++ Run_379_Fast/Run_379_Fast_MID_3/Run_379_Fast_MID_3_FILE_0.dat
+      32.77K  13%  187.13kB/s    0:00:01
+     245.76K 100%    1.36MB/s    0:00:00 (xfer#9, to-check=94/114)
+cd+++++++ Run_379_Fast/Run_379_Fast_MID_4/
+>f+++++++ Run_379_Fast/Run_379_Fast_MID_4/Run_379_Fast_MID_4_FILE_0.dat
+      32.77K  13%  180.79kB/s    0:00:01
+     245.76K 100%    1.32MB/s    0:00:00 (xfer#10, to-check=92/114)
+cd+++++++ Run_379_Fast/Run_379_Fast_MID_5/
+>f+++++++ Run_379_Fast/Run_379_Fast_MID_5/Run_379_Fast_MID_5_FILE_0.dat
+      32.77K  13%  177.78kB/s    0:00:01
+     245.76K 100%    1.29MB/s    0:00:00 (xfer#11, to-check=90/114)
+cd+++++++ Run_379_Fast/Run_379_Fast_MID_6/
+>f+++++++ Run_379_Fast/Run_379_Fast_MID_6/Run_379_Fast_MID_6_FILE_0.dat
+      32.77K  13%  173.91kB/s    0:00:01
+     245.76K 100%    1.27MB/s    0:00:00 (xfer#12, to-check=88/114)
+cd+++++++ Run_379_Fast/Run_379_Fast_MID_7/
+>f+++++++ Run_379_Fast/Run_379_Fast_MID_7/Run_379_Fast_MID_7_FILE_0.dat
+      32.77K  13%  171.12kB/s    0:00:01
+     245.76K 100%    1.25MB/s    0:00:00 (xfer#13, to-check=86/114)
+cd+++++++ Run_379_Fast/Run_379_Fast_MID_8/
+>f+++++++ Run_379_Fast/Run_379_Fast_MID_8/Run_379_Fast_MID_8_FILE_0.dat
+      32.77K  13%  167.54kB/s    0:00:01
+     245.76K 100%    1.23MB/s    0:00:00 (xfer#14, to-check=84/114)
+cd+++++++ Run_379_Fast/Run_379_Fast_MID_9/
+>f+++++++ Run_379_Fast/Run_379_Fast_MID_9/Run_379_Fast_MID_9_FILE_0.dat
+      32.77K  13%  164.10kB/s    0:00:01
+     245.76K 100%    1.20MB/s    0:00:00 (xfer#15, to-check=82/114)
+cd+++++++ Run_379_Fast/Run_379_Fast_log/
+>f+++++++ Run_379_Fast/Run_379_Fast_log/Run_379_Fast_MID_10_buffer.txt
+         209 100%    1.04kB/s    0:00:00
+         209 100%    1.04kB/s    0:00:00 (xfer#16, to-check=80/114)
+>f+++++++ Run_379_Fast/Run_379_Fast_log/Run_379_Fast_MID_11_buffer.txt
+         209 100%    1.04kB/s    0:00:00
+         209 100%    1.04kB/s    0:00:00 (xfer#17, to-check=79/114)
+>f+++++++ Run_379_Fast/Run_379_Fast_log/Run_379_Fast_MID_12_buffer.txt
+         209 100%    1.04kB/s    0:00:00
+         209 100%    1.04kB/s    0:00:00 (xfer#18, to-check=78/114)
+>f+++++++ Run_379_Fast/Run_379_Fast_log/Run_379_Fast_MID_13_buffer.txt
+         209 100%    1.04kB/s    0:00:00
+         209 100%    1.04kB/s    0:00:00 (xfer#19, to-check=77/114)
+>f+++++++ Run_379_Fast/Run_379_Fast_log/Run_379_Fast_MID_14_buffer.txt
+         209 100%    1.04kB/s    0:00:00
+         209 100%    1.04kB/s    0:00:00 (xfer#20, to-check=76/114)
+>f+++++++ Run_379_Fast/Run_379_Fast_log/Run_379_Fast_MID_15_buffer.txt
+         209 100%    1.04kB/s    0:00:00
+         209 100%    1.04kB/s    0:00:00 (xfer#21, to-check=75/114)
+>f+++++++ Run_379_Fast/Run_379_Fast_log/Run_379_Fast_MID_1_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#22, to-check=74/114)
+>f+++++++ Run_379_Fast/Run_379_Fast_log/Run_379_Fast_MID_2_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#23, to-check=73/114)
+>f+++++++ Run_379_Fast/Run_379_Fast_log/Run_379_Fast_MID_3_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#24, to-check=72/114)
+>f+++++++ Run_379_Fast/Run_379_Fast_log/Run_379_Fast_MID_4_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#25, to-check=71/114)
+>f+++++++ Run_379_Fast/Run_379_Fast_log/Run_379_Fast_MID_5_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#26, to-check=70/114)
+>f+++++++ Run_379_Fast/Run_379_Fast_log/Run_379_Fast_MID_6_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#27, to-check=69/114)
+>f+++++++ Run_379_Fast/Run_379_Fast_log/Run_379_Fast_MID_7_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#28, to-check=68/114)
+>f+++++++ Run_379_Fast/Run_379_Fast_log/Run_379_Fast_MID_8_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#29, to-check=67/114)
+>f+++++++ Run_379_Fast/Run_379_Fast_log/Run_379_Fast_MID_9_buffer.txt
+         209 100%    1.03kB/s    0:00:00
+         209 100%    1.03kB/s    0:00:00 (xfer#30, to-check=66/114)
+cd+++++++ Run_379_Wave/
+cd+++++++ Run_379_Wave/Run_379_Wave_MID_1/
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_1/Run_379_Wave_MID_1_FILE_0.dat
+      32.77K   0%  130.08kB/s    0:08:24
+      65.60M 100%   75.93MB/s    0:00:00 (xfer#31, to-check=63/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_1/Run_379_Wave_MID_1_FILE_1.dat
+      32.77K   4%   38.79kB/s    0:00:17
+     720.90K 100%  845.14kB/s    0:00:00 (xfer#32, to-check=62/114)
+cd+++++++ Run_379_Wave/Run_379_Wave_MID_10/
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_10/Run_379_Wave_MID_10_FILE_0.dat
+      32.77K   0%   38.37kB/s    0:28:28
+      16.81M  25%   16.03MB/s    0:00:02
+      65.60M 100%   44.75MB/s    0:00:01 (xfer#33, to-check=60/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_10/Run_379_Wave_MID_10_FILE_1.dat
+      32.77K   4%   80.00kB/s    0:00:08
+     720.90K 100%    1.69MB/s    0:00:00 (xfer#34, to-check=59/114)
+cd+++++++ Run_379_Wave/Run_379_Wave_MID_11/
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_11/Run_379_Wave_MID_11_FILE_0.dat
+      32.77K   0%   78.62kB/s    0:13:53
+      65.60M 100%   62.81MB/s    0:00:00 (xfer#35, to-check=57/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_11/Run_379_Wave_MID_11_FILE_1.dat
+      32.77K   4%   32.10kB/s    0:00:21
+     294.91K  40%  288.00kB/s    0:00:01
+     720.90K 100%  701.20kB/s    0:00:01 (xfer#36, to-check=56/114)
+cd+++++++ Run_379_Wave/Run_379_Wave_MID_12/
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_12/Run_379_Wave_MID_12_FILE_0.dat
+      32.77K   0%    6.25MB/s    0:00:10
+      65.60M 100%   98.52MB/s    0:00:00 (xfer#37, to-check=54/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_12/Run_379_Wave_MID_12_FILE_1.dat
+      32.77K   4%   50.31kB/s    0:00:13
+     720.90K 100%    1.07MB/s    0:00:00 (xfer#38, to-check=53/114)
+cd+++++++ Run_379_Wave/Run_379_Wave_MID_13/
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_13/Run_379_Wave_MID_13_FILE_0.dat
+      32.77K   0%   49.69kB/s    0:21:59
+      39.09M  59%   36.84MB/s    0:00:00
+      65.60M 100%   48.24MB/s    0:00:01 (xfer#39, to-check=51/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_13/Run_379_Wave_MID_13_FILE_1.dat
+      32.77K   4%  112.28kB/s    0:00:06
+     720.90K 100%    2.34MB/s    0:00:00 (xfer#40, to-check=50/114)
+cd+++++++ Run_379_Wave/Run_379_Wave_MID_14/
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_14/Run_379_Wave_MID_14_FILE_0.dat
+      32.77K   0%  108.47kB/s    0:10:04
+      65.57M  99%   61.79MB/s    0:00:00
+      65.60M 100%   61.82MB/s    0:00:01 (xfer#41, to-check=48/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_14/Run_379_Wave_MID_14_FILE_1.dat
+      32.77K   4%   31.25MB/s    0:00:00
+     720.90K 100%   76.39MB/s    0:00:00 (xfer#42, to-check=47/114)
+cd+++++++ Run_379_Wave/Run_379_Wave_MID_15/
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_15/Run_379_Wave_MID_15_FILE_0.dat
+      32.77K   0%    3.12MB/s    0:00:20
+      65.60M 100%   89.76MB/s    0:00:00 (xfer#43, to-check=45/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_15/Run_379_Wave_MID_15_FILE_1.dat
+      32.77K   4%   45.85kB/s    0:00:15
+     720.90K 100%  997.17kB/s    0:00:00 (xfer#44, to-check=44/114)
+cd+++++++ Run_379_Wave/Run_379_Wave_MID_2/
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_2/Run_379_Wave_MID_2_FILE_0.dat
+      32.77K   0%   45.20kB/s    0:24:10
+      33.33M  50%   31.78MB/s    0:00:00
+      65.60M 100%   50.21MB/s    0:00:01 (xfer#45, to-check=42/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_2/Run_379_Wave_MID_2_FILE_1.dat
+      32.77K   4%  129.55kB/s    0:00:05
+     720.90K 100%    2.69MB/s    0:00:00 (xfer#46, to-check=41/114)
+cd+++++++ Run_379_Wave/Run_379_Wave_MID_3/
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_3/Run_379_Wave_MID_3_FILE_0.dat
+      32.77K   0%  124.51kB/s    0:08:46
+      65.60M 100%   76.39MB/s    0:00:00 (xfer#47, to-check=39/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_3/Run_379_Wave_MID_3_FILE_1.dat
+      32.77K   4%   39.02kB/s    0:00:17
+     720.90K 100%  848.19kB/s    0:00:00 (xfer#48, to-check=38/114)
+cd+++++++ Run_379_Wave/Run_379_Wave_MID_4/
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_4/Run_379_Wave_MID_4_FILE_0.dat
+      32.77K   0%   36.82kB/s    0:29:40
+      11.57M  17%   11.02MB/s    0:00:04
+      65.60M 100%   42.42MB/s    0:00:01 (xfer#49, to-check=36/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_4/Run_379_Wave_MID_4_FILE_1.dat
+      32.77K   4%   67.51kB/s    0:00:10
+     720.90K 100%    1.41MB/s    0:00:00 (xfer#50, to-check=35/114)
+cd+++++++ Run_379_Wave/Run_379_Wave_MID_5/
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_5/Run_379_Wave_MID_5_FILE_0.dat
+      32.77K   0%   65.57kB/s    0:16:39
+      51.15M  77%   48.78MB/s    0:00:00
+      65.60M 100%   53.02MB/s    0:00:01 (xfer#51, to-check=33/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_5/Run_379_Wave_MID_5_FILE_1.dat
+      32.77K   4%  176.80kB/s    0:00:03
+     720.90K 100%    3.56MB/s    0:00:00 (xfer#52, to-check=32/114)
+cd+++++++ Run_379_Wave/Run_379_Wave_MID_6/
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_6/Run_379_Wave_MID_6_FILE_0.dat
+      32.77K   0%  164.95kB/s    0:06:37
+      65.60M 100%   71.17MB/s    0:00:00 (xfer#53, to-check=30/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_6/Run_379_Wave_MID_6_FILE_1.dat
+      32.77K   4%   36.36kB/s    0:00:18
+     720.90K 100%  794.58kB/s    0:00:00 (xfer#54, to-check=29/114)
+cd+++++++ Run_379_Wave/Run_379_Wave_MID_7/
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_7/Run_379_Wave_MID_7_FILE_0.dat
+      32.77K   0%   36.08kB/s    0:30:17
+      11.50M  17%   10.97MB/s    0:00:04
+      65.60M 100%   41.05MB/s    0:00:01 (xfer#55, to-check=27/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_7/Run_379_Wave_MID_7_FILE_1.dat
+      32.77K   4%   60.95kB/s    0:00:11
+     720.90K 100%    1.28MB/s    0:00:00 (xfer#56, to-check=26/114)
+cd+++++++ Run_379_Wave/Run_379_Wave_MID_8/
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_8/Run_379_Wave_MID_8_FILE_0.dat
+      32.77K   0%   59.59kB/s    0:18:20
+      38.83M  59%   37.03MB/s    0:00:00
+      65.60M 100%   49.46MB/s    0:00:01 (xfer#57, to-check=24/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_8/Run_379_Wave_MID_8_FILE_1.dat
+      32.77K   4%  120.30kB/s    0:00:05
+     720.90K 100%    2.47MB/s    0:00:00 (xfer#58, to-check=23/114)
+cd+++++++ Run_379_Wave/Run_379_Wave_MID_9/
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_9/Run_379_Wave_MID_9_FILE_0.dat
+      32.77K   0%  114.70kB/s    0:09:31
+      58.52M  89%   55.81MB/s    0:00:00
+      65.60M 100%   57.40MB/s    0:00:01 (xfer#59, to-check=21/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_9/Run_379_Wave_MID_9_FILE_0.dat_AllchSpectrum.png
+      32.77K  31%  347.83kB/s    0:00:00
+     102.85K 100%    1.07MB/s    0:00:00 (xfer#60, to-check=20/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_9/Run_379_Wave_MID_9_FILE_0.dat_Allch_noiseLevel.png
+      31.80K 100%  326.92kB/s    0:00:00
+      31.80K 100%  326.92kB/s    0:00:00 (xfer#61, to-check=19/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_9/Run_379_Wave_MID_9_FILE_0.dat_SpectrumAllCh_.root
+      24.38K 100%  245.45kB/s    0:00:00
+      24.38K 100%  245.45kB/s    0:00:00 (xfer#62, to-check=18/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_9/Run_379_Wave_MID_9_FILE_0.dat_WaveformAllCh.root
+      32.77K   0%  313.73kB/s    0:00:20
+       6.52M 100%   37.04MB/s    0:00:00 (xfer#63, to-check=17/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_MID_9/Run_379_Wave_MID_9_FILE_1.dat
+      32.77K   4%  188.24kB/s    0:00:03
+     720.90K 100%    3.88MB/s    0:00:00 (xfer#64, to-check=16/114)
+cd+++++++ Run_379_Wave/Run_379_Wave_log/
+>f+++++++ Run_379_Wave/Run_379_Wave_log/Run_379_Wave_MID_10_buffer.txt
+      14.07K 100%   76.76kB/s    0:00:00
+      14.07K 100%   76.76kB/s    0:00:00 (xfer#65, to-check=14/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_log/Run_379_Wave_MID_11_buffer.txt
+      14.07K 100%   75.91kB/s    0:00:00
+      14.07K 100%   75.91kB/s    0:00:00 (xfer#66, to-check=13/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_log/Run_379_Wave_MID_12_buffer.txt
+      14.00K 100%   75.14kB/s    0:00:00
+      14.00K 100%   74.73kB/s    0:00:00 (xfer#67, to-check=12/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_log/Run_379_Wave_MID_13_buffer.txt
+      14.07K 100%   74.27kB/s    0:00:00
+      14.07K 100%   74.27kB/s    0:00:00 (xfer#68, to-check=11/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_log/Run_379_Wave_MID_14_buffer.txt
+      14.05K 100%   73.40kB/s    0:00:00
+      14.05K 100%   73.40kB/s    0:00:00 (xfer#69, to-check=10/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_log/Run_379_Wave_MID_15_buffer.txt
+      13.99K 100%   67.31kB/s    0:00:00
+      13.99K 100%   67.31kB/s    0:00:00 (xfer#70, to-check=9/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_log/Run_379_Wave_MID_1_buffer.txt
+      14.03K 100%   66.83kB/s    0:00:00
+      14.03K 100%   66.83kB/s    0:00:00 (xfer#71, to-check=8/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_log/Run_379_Wave_MID_2_buffer.txt
+      14.07K 100%   66.05kB/s    0:00:00
+      14.07K 100%   66.05kB/s    0:00:00 (xfer#72, to-check=7/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_log/Run_379_Wave_MID_3_buffer.txt
+      14.02K 100%   65.49kB/s    0:00:00
+      14.02K 100%   65.49kB/s    0:00:00 (xfer#73, to-check=6/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_log/Run_379_Wave_MID_4_buffer.txt
+      14.02K 100%   64.87kB/s    0:00:00
+      14.02K 100%   64.87kB/s    0:00:00 (xfer#74, to-check=5/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_log/Run_379_Wave_MID_5_buffer.txt
+      14.06K 100%   64.44kB/s    0:00:00
+      14.06K 100%   64.44kB/s    0:00:00 (xfer#75, to-check=4/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_log/Run_379_Wave_MID_6_buffer.txt
+      14.03K 100%   63.72kB/s    0:00:00
+      14.03K 100%   63.72kB/s    0:00:00 (xfer#76, to-check=3/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_log/Run_379_Wave_MID_7_buffer.txt
+      14.03K 100%   63.43kB/s    0:00:00
+      14.03K 100%   63.43kB/s    0:00:00 (xfer#77, to-check=2/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_log/Run_379_Wave_MID_8_buffer.txt
+      14.07K 100%   63.02kB/s    0:00:00
+      14.07K 100%   63.02kB/s    0:00:00 (xfer#78, to-check=1/114)
+>f+++++++ Run_379_Wave/Run_379_Wave_log/Run_379_Wave_MID_9_buffer.txt
+      14.04K 100%   62.34kB/s    0:00:00
+      14.04K 100%   62.34kB/s    0:00:00 (xfer#79, to-check=0/114)
+
+sent 1.01G bytes  received 1.97K bytes  95.77M bytes/sec
+total size is 1.01G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_379/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_379_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

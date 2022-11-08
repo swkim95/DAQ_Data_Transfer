@@ -1,0 +1,302 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_528/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_528[0m
+[94m[INFO][0m SSD data folder size = [96m[1m4.63 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [#-------------------------------------------------][0m [92m[1m1.722 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 256.675 GB / Free : [4m14644.878 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_528/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_528/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_528.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_528/ /Volumes/HDD_16TB_1/HDD_Run_528/[0m`? [y/n] building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_528
+cd+++++++ ./
+cd+++++++ Run_528_Fast/
+cd+++++++ Run_528_Fast/Run_528_Fast_MID_1/
+>f+++++++ Run_528_Fast/Run_528_Fast_MID_1/Run_528_Fast_MID_1_FILE_0.dat
+      32.77K   2%    0.00kB/s    0:00:00
+       1.28M 100%   16.27MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_528_Fast/Run_528_Fast_MID_10/
+>f+++++++ Run_528_Fast/Run_528_Fast_MID_10/Run_528_Fast_MID_10_FILE_0.dat
+      32.77K   2%   39.46kB/s    0:00:31
+       1.28M 100%    1.42MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_528_Fast/Run_528_Fast_MID_11/
+>f+++++++ Run_528_Fast/Run_528_Fast_MID_11/Run_528_Fast_MID_11_FILE_0.dat
+      32.77K   2%   37.30kB/s    0:00:33
+       1.28M 100%    1.40MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_528_Fast/Run_528_Fast_MID_12/
+>f+++++++ Run_528_Fast/Run_528_Fast_MID_12/Run_528_Fast_MID_12_FILE_0.dat
+      32.77K   2%   36.66kB/s    0:00:33
+       1.28M 100%    1.38MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_528_Fast/Run_528_Fast_MID_13/
+>f+++++++ Run_528_Fast/Run_528_Fast_MID_13/Run_528_Fast_MID_13_FILE_0.dat
+      32.77K   2%   36.24kB/s    0:00:34
+       1.28M 100%    1.37MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_528_Fast/Run_528_Fast_MID_14/
+>f+++++++ Run_528_Fast/Run_528_Fast_MID_14/Run_528_Fast_MID_14_FILE_0.dat
+      32.77K   2%   35.83kB/s    0:00:34
+       1.28M 100%    1.35MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_528_Fast/Run_528_Fast_MID_15/
+>f+++++++ Run_528_Fast/Run_528_Fast_MID_15/Run_528_Fast_MID_15_FILE_0.dat
+      32.77K   2%   35.44kB/s    0:00:35
+       1.28M 100%    1.34MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_528_Fast/Run_528_Fast_MID_2/
+>f+++++++ Run_528_Fast/Run_528_Fast_MID_2/Run_528_Fast_MID_2_FILE_0.dat
+      32.77K   2%   35.01kB/s    0:00:35
+       1.28M 100%    1.32MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_528_Fast/Run_528_Fast_MID_3/
+>f+++++++ Run_528_Fast/Run_528_Fast_MID_3/Run_528_Fast_MID_3_FILE_0.dat
+      32.77K   2%   34.63kB/s    0:00:35
+       1.28M 100%    1.31MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_528_Fast/Run_528_Fast_MID_4/
+>f+++++++ Run_528_Fast/Run_528_Fast_MID_4/Run_528_Fast_MID_4_FILE_0.dat
+      32.77K   2%   34.22kB/s    0:00:36
+       1.28M 100%    1.29MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_528_Fast/Run_528_Fast_MID_5/
+>f+++++++ Run_528_Fast/Run_528_Fast_MID_5/Run_528_Fast_MID_5_FILE_0.dat
+      32.77K   2%   33.86kB/s    0:00:36
+       1.28M 100%    1.28MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_528_Fast/Run_528_Fast_MID_6/
+>f+++++++ Run_528_Fast/Run_528_Fast_MID_6/Run_528_Fast_MID_6_FILE_0.dat
+      32.77K   2%   33.51kB/s    0:00:37
+       1.28M 100%    1.26MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_528_Fast/Run_528_Fast_MID_7/
+>f+++++++ Run_528_Fast/Run_528_Fast_MID_7/Run_528_Fast_MID_7_FILE_0.dat
+      32.77K   2%   33.16kB/s    0:00:37
+       1.28M 100%    1.25MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_528_Fast/Run_528_Fast_MID_8/
+>f+++++++ Run_528_Fast/Run_528_Fast_MID_8/Run_528_Fast_MID_8_FILE_0.dat
+      32.77K   2%   32.82kB/s    0:00:37
+       1.28M 100%    1.24MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_528_Fast/Run_528_Fast_MID_9/
+>f+++++++ Run_528_Fast/Run_528_Fast_MID_9/Run_528_Fast_MID_9_FILE_0.dat
+      32.77K   2%   32.45kB/s    0:00:38
+       1.28M 100%    1.22MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_528_Fast/Run_528_Fast_log/
+>f+++++++ Run_528_Fast/Run_528_Fast_log/Run_528_Fast_MID_10_buffer.txt
+       1.21K 100%    1.19kB/s    0:00:00
+       1.21K 100%    1.19kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_528_Fast/Run_528_Fast_log/Run_528_Fast_MID_11_buffer.txt
+       1.21K 100%    1.19kB/s    0:00:00
+       1.21K 100%    1.19kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_528_Fast/Run_528_Fast_log/Run_528_Fast_MID_12_buffer.txt
+       1.21K 100%    1.19kB/s    0:00:00
+       1.21K 100%    1.19kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_528_Fast/Run_528_Fast_log/Run_528_Fast_MID_13_buffer.txt
+       1.21K 100%    1.19kB/s    0:00:00
+       1.21K 100%    1.19kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_528_Fast/Run_528_Fast_log/Run_528_Fast_MID_14_buffer.txt
+       1.21K 100%    1.19kB/s    0:00:00
+       1.21K 100%    1.19kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_528_Fast/Run_528_Fast_log/Run_528_Fast_MID_15_buffer.txt
+       1.21K 100%    1.19kB/s    0:00:00
+       1.21K 100%    1.19kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_528_Fast/Run_528_Fast_log/Run_528_Fast_MID_1_buffer.txt
+       1.21K 100%    1.19kB/s    0:00:00
+       1.21K 100%    1.19kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_528_Fast/Run_528_Fast_log/Run_528_Fast_MID_2_buffer.txt
+       1.21K 100%    1.19kB/s    0:00:00
+       1.21K 100%    1.19kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_528_Fast/Run_528_Fast_log/Run_528_Fast_MID_3_buffer.txt
+       1.21K 100%    1.19kB/s    0:00:00
+       1.21K 100%    1.19kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_528_Fast/Run_528_Fast_log/Run_528_Fast_MID_4_buffer.txt
+       1.21K 100%    1.19kB/s    0:00:00
+       1.21K 100%    1.19kB/s    0:00:01 (xfer#25, to-check=52/95)
+>f+++++++ Run_528_Fast/Run_528_Fast_log/Run_528_Fast_MID_5_buffer.txt
+       1.21K 100%    1.19kB/s    0:00:00
+       1.21K 100%    1.19kB/s    0:00:01 (xfer#26, to-check=51/95)
+>f+++++++ Run_528_Fast/Run_528_Fast_log/Run_528_Fast_MID_6_buffer.txt
+       1.21K 100%    1.19kB/s    0:00:00
+       1.21K 100%    1.19kB/s    0:00:01 (xfer#27, to-check=50/95)
+>f+++++++ Run_528_Fast/Run_528_Fast_log/Run_528_Fast_MID_7_buffer.txt
+       1.21K 100%    1.19kB/s    0:00:00
+       1.21K 100%    1.19kB/s    0:00:01 (xfer#28, to-check=49/95)
+>f+++++++ Run_528_Fast/Run_528_Fast_log/Run_528_Fast_MID_8_buffer.txt
+       1.21K 100%    1.18kB/s    0:00:00
+       1.21K 100%    1.18kB/s    0:00:01 (xfer#29, to-check=48/95)
+>f+++++++ Run_528_Fast/Run_528_Fast_log/Run_528_Fast_MID_9_buffer.txt
+       1.21K 100%    1.18kB/s    0:00:00
+       1.21K 100%    1.18kB/s    0:00:01 (xfer#30, to-check=47/95)
+cd+++++++ Run_528_Wave/
+cd+++++++ Run_528_Wave/Run_528_Wave_MID_1/
+>f+++++++ Run_528_Wave/Run_528_Wave_MID_1/Run_528_Wave_MID_1_FILE_0.dat
+      32.77K   0%   31.53kB/s    2:54:29
+      65.54K   0%   62.99kB/s    1:27:19
+      51.15M  15%   24.11MB/s    0:00:11
+      95.45M  28%   30.02MB/s    0:00:07
+     161.09M  48%   38.11MB/s    0:00:04
+     202.93M  61%   48.14MB/s    0:00:02
+     264.01M  79%   50.57MB/s    0:00:01
+     317.75M  96%   52.85MB/s    0:00:00
+     330.10M 100%   43.20MB/s    0:00:07 (xfer#31, to-check=44/95)
+cd+++++++ Run_528_Wave/Run_528_Wave_MID_10/
+>f+++++++ Run_528_Wave/Run_528_Wave_MID_10/Run_528_Wave_MID_10_FILE_0.dat
+      32.77K   0%  130.08kB/s    0:42:17
+      44.60M  13%   42.53MB/s    0:00:06
+      93.36M  28%   44.21MB/s    0:00:05
+     152.86M  46%   48.37MB/s    0:00:03
+     205.82M  62%   48.85MB/s    0:00:02
+     273.19M  82%   54.17MB/s    0:00:01
+     319.06M  96%   53.71MB/s    0:00:00
+     330.10M 100%   51.06MB/s    0:00:06 (xfer#32, to-check=42/95)
+cd+++++++ Run_528_Wave/Run_528_Wave_MID_11/
+>f+++++++ Run_528_Wave/Run_528_Wave_MID_11/Run_528_Wave_MID_11_FILE_0.dat
+      32.77K   0%  222.22kB/s    0:24:45
+      59.54M  18%   56.22MB/s    0:00:04
+     104.37M  31%   49.47MB/s    0:00:04
+     188.25M  57%   59.33MB/s    0:00:02
+     237.40M  71%   56.25MB/s    0:00:01
+     312.25M  94%   59.94MB/s    0:00:00
+     330.10M 100%   57.88MB/s    0:00:05 (xfer#33, to-check=40/95)
+cd+++++++ Run_528_Wave/Run_528_Wave_MID_12/
+>f+++++++ Run_528_Wave/Run_528_Wave_MID_12/Run_528_Wave_MID_12_FILE_0.dat
+      32.77K   0%   78.62kB/s    1:09:58
+      35.42M  10%   33.68MB/s    0:00:08
+     111.18M  33%   52.91MB/s    0:00:04
+     162.30M  49%   51.37MB/s    0:00:03
+     243.56M  73%   57.77MB/s    0:00:01
+     294.16M  89%   61.43MB/s    0:00:00
+     330.10M 100%   58.42MB/s    0:00:05 (xfer#34, to-check=38/95)
+cd+++++++ Run_528_Wave/Run_528_Wave_MID_13/
+>f+++++++ Run_528_Wave/Run_528_Wave_MID_13/Run_528_Wave_MID_13_FILE_0.dat
+      32.77K   0%   83.12kB/s    1:06:11
+      33.85M  10%   31.87MB/s    0:00:09
+      86.80M  26%   41.06MB/s    0:00:05
+     166.23M  50%   52.56MB/s    0:00:03
+     220.50M  66%   52.36MB/s    0:00:02
+     292.06M  88%   61.36MB/s    0:00:00
+     330.10M 100%   56.83MB/s    0:00:05 (xfer#35, to-check=36/95)
+cd+++++++ Run_528_Wave/Run_528_Wave_MID_14/
+>f+++++++ Run_528_Wave/Run_528_Wave_MID_14/Run_528_Wave_MID_14_FILE_0.dat
+      32.77K   0%   61.07kB/s    1:30:04
+      18.12M   5%   17.28MB/s    0:00:17
+      78.41M  23%   37.15MB/s    0:00:06
+     142.84M  43%   45.23MB/s    0:00:04
+     206.34M  62%   48.91MB/s    0:00:02
+     260.34M  78%   57.26MB/s    0:00:01
+     318.54M  96%   56.97MB/s    0:00:00
+     330.10M 100%   50.58MB/s    0:00:06 (xfer#36, to-check=34/95)
+cd+++++++ Run_528_Wave/Run_528_Wave_MID_15/
+>f+++++++ Run_528_Wave/Run_528_Wave_MID_15/Run_528_Wave_MID_15_FILE_0.dat
+      32.77K   0%  167.54kB/s    0:32:50
+      41.71M  12%   39.58MB/s    0:00:07
+     152.34M  46%   72.46MB/s    0:00:02
+     291.54M  88%   92.55MB/s    0:00:00
+     330.10M 100%   95.86MB/s    0:00:03 (xfer#37, to-check=32/95)
+cd+++++++ Run_528_Wave/Run_528_Wave_MID_2/
+>f+++++++ Run_528_Wave/Run_528_Wave_MID_2/Run_528_Wave_MID_2_FILE_0.dat
+      32.77K   0%  114.70kB/s    0:47:57
+      95.52M  28%   91.09MB/s    0:00:02
+     224.03M  67%  106.88MB/s    0:00:00
+     330.10M 100%  112.71MB/s    0:00:02 (xfer#38, to-check=30/95)
+cd+++++++ Run_528_Wave/Run_528_Wave_MID_3/
+>f+++++++ Run_528_Wave/Run_528_Wave_MID_3/Run_528_Wave_MID_3_FILE_0.dat
+      32.77K   0%   40.20kB/s    2:16:50
+      23.36M   7%   22.28MB/s    0:00:13
+     111.97M  33%   52.06MB/s    0:00:04
+     178.81M  54%   55.88MB/s    0:00:02
+     260.60M  78%   61.31MB/s    0:00:01
+     330.10M 100%   63.20MB/s    0:00:04 (xfer#39, to-check=28/95)
+cd+++++++ Run_528_Wave/Run_528_Wave_MID_4/
+>f+++++++ Run_528_Wave/Run_528_Wave_MID_4/Run_528_Wave_MID_4_FILE_0.dat
+      32.77K   0%   34.45kB/s    2:39:42
+       2.65M   0%    2.47MB/s    0:02:09
+      75.27M  22%   35.48MB/s    0:00:07
+     146.05M  44%   46.06MB/s    0:00:03
+     212.63M  64%   50.06MB/s    0:00:02
+     293.11M  88%   68.73MB/s    0:00:00
+     330.10M 100%   56.06MB/s    0:00:05 (xfer#40, to-check=26/95)
+cd+++++++ Run_528_Wave/Run_528_Wave_MID_5/
+>f+++++++ Run_528_Wave/Run_528_Wave_MID_5/Run_528_Wave_MID_5_FILE_0.dat
+      32.77K   0%   56.64kB/s    1:37:07
+      34.64M  10%   33.03MB/s    0:00:08
+     101.74M  30%   48.54MB/s    0:00:04
+     164.13M  49%   51.59MB/s    0:00:03
+     239.63M  72%   56.65MB/s    0:00:01
+     299.47M  90%   62.61MB/s    0:00:00
+     330.10M 100%   57.98MB/s    0:00:05 (xfer#41, to-check=24/95)
+cd+++++++ Run_528_Wave/Run_528_Wave_MID_6/
+>f+++++++ Run_528_Wave/Run_528_Wave_MID_6/Run_528_Wave_MID_6_FILE_0.dat
+      32.77K   0%   80.40kB/s    1:08:25
+      46.17M  13%   44.03MB/s    0:00:06
+     105.94M  32%   50.52MB/s    0:00:04
+     186.16M  56%   59.18MB/s    0:00:02
+     241.83M  73%   57.67MB/s    0:00:01
+     294.94M  89%   59.28MB/s    0:00:00
+     330.10M 100%   53.88MB/s    0:00:05 (xfer#42, to-check=22/95)
+cd+++++++ Run_528_Wave/Run_528_Wave_MID_7/
+>f+++++++ Run_528_Wave/Run_528_Wave_MID_7/Run_528_Wave_MID_7_FILE_0.dat
+      32.77K   0%   38.05kB/s    2:24:34
+      15.24M   4%   14.53MB/s    0:00:21
+      71.86M  21%   34.16MB/s    0:00:07
+     122.19M  37%   38.77MB/s    0:00:05
+     189.56M  57%   45.05MB/s    0:00:03
+     237.27M  71%   52.57MB/s    0:00:01
+     296.78M  89%   53.20MB/s    0:00:00
+     330.10M 100%   48.53MB/s    0:00:06 (xfer#43, to-check=20/95)
+cd+++++++ Run_528_Wave/Run_528_Wave_MID_8/
+>f+++++++ Run_528_Wave/Run_528_Wave_MID_8/Run_528_Wave_MID_8_FILE_0.dat
+      32.77K   0%   71.27kB/s    1:17:11
+      18.38M   5%   17.53MB/s    0:00:17
+      70.03M  21%   33.24MB/s    0:00:07
+     137.07M  41%   43.46MB/s    0:00:04
+     274.89M  83%   65.42MB/s    0:00:00
+     330.10M 100%   71.42MB/s    0:00:04 (xfer#44, to-check=18/95)
+cd+++++++ Run_528_Wave/Run_528_Wave_MID_9/
+>f+++++++ Run_528_Wave/Run_528_Wave_MID_9/Run_528_Wave_MID_9_FILE_0.dat
+      32.77K   0%   79.80kB/s    1:08:56
+      78.15M  23%   74.53MB/s    0:00:03
+     206.08M  62%   98.31MB/s    0:00:01
+     330.10M 100%  108.74MB/s    0:00:02 (xfer#45, to-check=16/95)
+cd+++++++ Run_528_Wave/Run_528_Wave_log/
+>f+++++++ Run_528_Wave/Run_528_Wave_log/Run_528_Wave_MID_10_buffer.txt
+      32.77K  43%   35.67kB/s    0:00:01
+      74.49K 100%   81.01kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_528_Wave/Run_528_Wave_log/Run_528_Wave_MID_11_buffer.txt
+      32.77K  43%   35.40kB/s    0:00:01
+      74.66K 100%   80.65kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_528_Wave/Run_528_Wave_log/Run_528_Wave_MID_12_buffer.txt
+      32.77K  44%   35.05kB/s    0:00:01
+      73.82K 100%   78.96kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_528_Wave/Run_528_Wave_log/Run_528_Wave_MID_13_buffer.txt
+      32.77K  43%   34.67kB/s    0:00:01
+      74.48K 100%   78.80kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_528_Wave/Run_528_Wave_log/Run_528_Wave_MID_14_buffer.txt
+      32.77K  43%   34.33kB/s    0:00:01
+      74.61K 100%   78.17kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_528_Wave/Run_528_Wave_log/Run_528_Wave_MID_15_buffer.txt
+      32.77K  44%   33.20kB/s    0:00:01
+      73.86K 100%   74.82kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_528_Wave/Run_528_Wave_log/Run_528_Wave_MID_1_buffer.txt
+      32.77K  44%   33.13kB/s    0:00:01
+      73.73K 100%   74.54kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_528_Wave/Run_528_Wave_log/Run_528_Wave_MID_2_buffer.txt
+      32.77K  43%   33.06kB/s    0:00:01
+      74.50K 100%   75.16kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_528_Wave/Run_528_Wave_log/Run_528_Wave_MID_3_buffer.txt
+      32.77K  44%   32.99kB/s    0:00:01
+      73.64K 100%   74.13kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_528_Wave/Run_528_Wave_log/Run_528_Wave_MID_4_buffer.txt
+      32.77K  44%   32.92kB/s    0:00:01
+      73.68K 100%   74.03kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_528_Wave/Run_528_Wave_log/Run_528_Wave_MID_5_buffer.txt
+      32.77K  44%   32.85kB/s    0:00:01
+      74.41K 100%   74.60kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_528_Wave/Run_528_Wave_log/Run_528_Wave_MID_6_buffer.txt
+      32.77K  44%   32.79kB/s    0:00:01
+      73.69K 100%   73.74kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_528_Wave/Run_528_Wave_log/Run_528_Wave_MID_7_buffer.txt
+      32.77K  44%   32.75kB/s    0:00:01
+      73.81K 100%   73.70kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_528_Wave/Run_528_Wave_log/Run_528_Wave_MID_8_buffer.txt
+      32.77K  43%   32.69kB/s    0:00:01
+      74.63K 100%   74.44kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_528_Wave/Run_528_Wave_log/Run_528_Wave_MID_9_buffer.txt
+      32.77K  44%   32.62kB/s    0:00:01
+      73.91K 100%   73.58kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 4.97G bytes  received 1.55K bytes  69.55M bytes/sec
+total size is 4.97G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_528/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_528_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

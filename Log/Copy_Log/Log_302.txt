@@ -1,0 +1,252 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_302/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_302[0m
+[94m[INFO][0m SSD data folder size = [96m[1m9.23 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [###############-----------------------------------][0m [92m[1m29.504 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 4396.612 GB / Free : [4m10504.941 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_302/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_302/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_302.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_302/ /Volumes/HDD_16TB_1/HDD_Run_302/[0m`? [y/n] 
+building file list ... 
+ 0 files...
+63 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_302
+cd+++++++ ./
+cd+++++++ Run_302_Fast/
+cd+++++++ Run_302_Fast/Run_302_Fast_MID_1/
+>f+++++++ Run_302_Fast/Run_302_Fast_MID_1/Run_302_Fast_MID_1_FILE_0.dat
+      32.77K   1%    0.00kB/s    0:00:00
+       2.56M 100%   35.91MB/s    0:00:00 (xfer#1, to-check=59/63)
+cd+++++++ Run_302_Fast/Run_302_Fast_MID_10/
+>f+++++++ Run_302_Fast/Run_302_Fast_MID_10/Run_302_Fast_MID_10_FILE_0.dat
+      32.77K   1%  405.06kB/s    0:00:06
+       2.56M 100%   12.90MB/s    0:00:00 (xfer#2, to-check=57/63)
+cd+++++++ Run_302_Fast/Run_302_Fast_MID_11/
+>f+++++++ Run_302_Fast/Run_302_Fast_MID_11/Run_302_Fast_MID_11_FILE_0.dat
+      32.77K   1%  168.42kB/s    0:00:14
+       2.56M 100%   11.13MB/s    0:00:00 (xfer#3, to-check=55/63)
+cd+++++++ Run_302_Fast/Run_302_Fast_MID_12/
+>f+++++++ Run_302_Fast/Run_302_Fast_MID_12/Run_302_Fast_MID_12_FILE_0.dat
+      32.77K   1%  145.45kB/s    0:00:17
+       2.56M 100%    7.97MB/s    0:00:00 (xfer#4, to-check=53/63)
+cd+++++++ Run_302_Fast/Run_302_Fast_MID_13/
+>f+++++++ Run_302_Fast/Run_302_Fast_MID_13/Run_302_Fast_MID_13_FILE_0.dat
+      32.77K   1%  103.90kB/s    0:00:24
+       2.56M 100%    7.15MB/s    0:00:00 (xfer#5, to-check=51/63)
+cd+++++++ Run_302_Fast/Run_302_Fast_MID_14/
+>f+++++++ Run_302_Fast/Run_302_Fast_MID_14/Run_302_Fast_MID_14_FILE_0.dat
+      32.77K   1%   93.57kB/s    0:00:26
+       2.56M 100%    6.41MB/s    0:00:00 (xfer#6, to-check=49/63)
+cd+++++++ Run_302_Fast/Run_302_Fast_MID_15/
+>f+++++++ Run_302_Fast/Run_302_Fast_MID_15/Run_302_Fast_MID_15_FILE_0.dat
+      32.77K   1%   83.77kB/s    0:00:30
+       2.56M 100%    5.79MB/s    0:00:00 (xfer#7, to-check=47/63)
+cd+++++++ Run_302_Fast/Run_302_Fast_MID_2/
+>f+++++++ Run_302_Fast/Run_302_Fast_MID_2/Run_302_Fast_MID_2_FILE_0.dat
+      32.77K   1%   75.47kB/s    0:00:33
+       2.56M 100%    4.65MB/s    0:00:00 (xfer#8, to-check=45/63)
+cd+++++++ Run_302_Fast/Run_302_Fast_MID_3/
+>f+++++++ Run_302_Fast/Run_302_Fast_MID_3/Run_302_Fast_MID_3_FILE_0.dat
+      32.77K   1%   60.72kB/s    0:00:41
+       2.56M 100%    4.31MB/s    0:00:00 (xfer#9, to-check=43/63)
+cd+++++++ Run_302_Fast/Run_302_Fast_MID_4/
+>f+++++++ Run_302_Fast/Run_302_Fast_MID_4/Run_302_Fast_MID_4_FILE_0.dat
+      32.77K   1%   56.34kB/s    0:00:44
+       2.56M 100%    4.00MB/s    0:00:00 (xfer#10, to-check=41/63)
+cd+++++++ Run_302_Fast/Run_302_Fast_MID_5/
+>f+++++++ Run_302_Fast/Run_302_Fast_MID_5/Run_302_Fast_MID_5_FILE_0.dat
+      32.77K   1%   52.20kB/s    0:00:48
+       2.56M 100%    3.73MB/s    0:00:00 (xfer#11, to-check=39/63)
+cd+++++++ Run_302_Fast/Run_302_Fast_MID_6/
+>f+++++++ Run_302_Fast/Run_302_Fast_MID_6/Run_302_Fast_MID_6_FILE_0.dat
+      32.77K   1%    0.00kB/s    0:00:00
+       2.56M 100%   44.56MB/s    0:00:00 (xfer#12, to-check=37/63)
+cd+++++++ Run_302_Fast/Run_302_Fast_MID_7/
+>f+++++++ Run_302_Fast/Run_302_Fast_MID_7/Run_302_Fast_MID_7_FILE_0.dat
+      32.77K   1%  571.43kB/s    0:00:04
+       2.56M 100%   23.90MB/s    0:00:00 (xfer#13, to-check=35/63)
+cd+++++++ Run_302_Fast/Run_302_Fast_MID_8/
+>f+++++++ Run_302_Fast/Run_302_Fast_MID_8/Run_302_Fast_MID_8_FILE_0.dat
+      32.77K   1%  304.76kB/s    0:00:08
+       2.56M 100%   16.81MB/s    0:00:00 (xfer#14, to-check=33/63)
+cd+++++++ Run_302_Fast/Run_302_Fast_MID_9/
+>f+++++++ Run_302_Fast/Run_302_Fast_MID_9/Run_302_Fast_MID_9_FILE_0.dat
+      32.77K   1%  216.22kB/s    0:00:11
+       2.56M 100%   13.25MB/s    0:00:00 (xfer#15, to-check=31/63)
+cd+++++++ Run_302_Wave/
+cd+++++++ Run_302_Wave/Run_302_Wave_MID_1/
+>f+++++++ Run_302_Wave/Run_302_Wave_MID_1/Run_302_Wave_MID_1_FILE_0.dat
+      32.77K   0%  171.12kB/s    1:04:06
+      52.99M   8%   50.08MB/s    0:00:11
+     102.53M  15%   48.45MB/s    0:00:11
+     151.81M  23%   47.97MB/s    0:00:10
+     196.38M  29%   45.90MB/s    0:00:09
+     238.85M  36%   43.54MB/s    0:00:09
+     259.82M  39%   36.38MB/s    0:00:10
+     293.37M  44%   32.57MB/s    0:00:10
+     294.94M  44%   23.02MB/s    0:00:15
+     346.06M  52%   25.03MB/s    0:00:12
+     375.42M  57%   27.39MB/s    0:00:10
+     412.91M  62%   28.48MB/s    0:00:08
+     441.22M  67%   28.04MB/s    0:00:07
+     574.13M  87%   43.74MB/s    0:00:01
+     658.18M 100%   42.52MB/s    0:00:14 (xfer#16, to-check=28/63)
+cd+++++++ Run_302_Wave/Run_302_Wave_MID_10/
+>f+++++++ Run_302_Wave/Run_302_Wave_MID_10/Run_302_Wave_MID_10_FILE_0.dat
+      32.77K   0%   51.12kB/s    3:34:34
+      39.35M   5%   37.53MB/s    0:00:16
+     165.18M  25%   78.61MB/s    0:00:06
+     283.15M  43%   89.89MB/s    0:00:04
+     420.51M  63%  100.18MB/s    0:00:02
+     554.21M  84%  122.69MB/s    0:00:00
+     658.18M 100%  109.62MB/s    0:00:05 (xfer#17, to-check=26/63)
+cd+++++++ Run_302_Wave/Run_302_Wave_MID_11/
+>f+++++++ Run_302_Wave/Run_302_Wave_MID_11/Run_302_Wave_MID_11_FILE_0.dat
+      32.77K   0%   44.20kB/s    4:08:10
+      19.96M   3%   19.03MB/s    0:00:32
+     158.11M  24%   75.39MB/s    0:00:06
+     284.98M  43%   90.59MB/s    0:00:04
+     412.65M  62%   98.41MB/s    0:00:02
+     551.32M  83%  126.75MB/s    0:00:00
+     658.18M 100%  107.68MB/s    0:00:05 (xfer#18, to-check=24/63)
+cd+++++++ Run_302_Wave/Run_302_Wave_MID_12/
+>f+++++++ Run_302_Wave/Run_302_Wave_MID_12/Run_302_Wave_MID_12_FILE_0.dat
+      32.77K   0%   38.42kB/s    4:45:32
+      13.89M   2%   13.25MB/s    0:00:47
+     157.84M  23%   75.30MB/s    0:00:06
+     284.16M  43%   90.39MB/s    0:00:04
+     425.49M  64%  101.50MB/s    0:00:02
+     561.81M  85%  130.70MB/s    0:00:00
+     647.53M  98%  116.78MB/s    0:00:00
+     658.18M 100%  102.20MB/s    0:00:06 (xfer#19, to-check=22/63)
+cd+++++++ Run_302_Wave/Run_302_Wave_MID_13/
+>f+++++++ Run_302_Wave/Run_302_Wave_MID_13/Run_302_Wave_MID_13_FILE_0.dat
+      32.77K   0%  217.69kB/s    0:50:23
+      59.28M   9%   56.53MB/s    0:00:10
+     127.43M  19%   60.74MB/s    0:00:08
+     200.31M  30%   63.68MB/s    0:00:07
+     277.12M  42%   66.04MB/s    0:00:05
+     352.62M  53%   69.92MB/s    0:00:04
+     426.54M  64%   71.28MB/s    0:00:03
+     499.15M  75%   71.18MB/s    0:00:02
+     575.44M  87%   71.09MB/s    0:00:01
+     649.10M  98%   70.60MB/s    0:00:00
+     658.18M 100%   68.23MB/s    0:00:09 (xfer#20, to-check=20/63)
+cd+++++++ Run_302_Wave/Run_302_Wave_MID_14/
+>f+++++++ Run_302_Wave/Run_302_Wave_MID_14/Run_302_Wave_MID_14_FILE_0.dat
+      32.77K   0%  164.10kB/s    1:06:50
+      54.03M   8%   51.33MB/s    0:00:11
+     129.27M  19%   61.49MB/s    0:00:08
+     198.67M  30%   63.07MB/s    0:00:07
+     257.72M  39%   61.35MB/s    0:00:06
+     317.75M  48%   62.81MB/s    0:00:05
+     379.62M  57%   59.67MB/s    0:00:04
+     460.91M  70%   62.51MB/s    0:00:03
+     559.19M  84%   71.88MB/s    0:00:01
+     641.24M  97%   75.78MB/s    0:00:00
+     658.18M 100%   67.88MB/s    0:00:09 (xfer#21, to-check=18/63)
+cd+++++++ Run_302_Wave/Run_302_Wave_MID_15/
+>f+++++++ Run_302_Wave/Run_302_Wave_MID_15/Run_302_Wave_MID_15_FILE_0.dat
+      32.77K   0%  189.35kB/s    0:57:55
+      69.93M  10%   66.69MB/s    0:00:08
+     159.15M  24%   75.89MB/s    0:00:06
+     240.58M  36%   76.50MB/s    0:00:05
+     339.77M  51%   81.05MB/s    0:00:03
+     423.66M  64%   84.23MB/s    0:00:02
+     509.90M  77%   83.52MB/s    0:00:01
+     592.84M  90%   83.88MB/s    0:00:00
+     658.18M 100%   81.50MB/s    0:00:07 (xfer#22, to-check=16/63)
+cd+++++++ Run_302_Wave/Run_302_Wave_MID_2/
+>f+++++++ Run_302_Wave/Run_302_Wave_MID_2/Run_302_Wave_MID_2_FILE_0.dat
+      32.77K   0%   45.78kB/s    3:59:36
+      22.05M   3%   21.03MB/s    0:00:29
+     110.66M  16%   52.77MB/s    0:00:10
+     201.88M  30%   64.20MB/s    0:00:06
+     285.25M  43%   68.01MB/s    0:00:05
+     370.44M  56%   83.06MB/s    0:00:03
+     435.98M  66%   77.23MB/s    0:00:02
+     500.99M  76%   70.82MB/s    0:00:02
+     562.59M  85%   65.29MB/s    0:00:01
+     625.51M  95%   60.05MB/s    0:00:00
+     658.18M 100%   64.96MB/s    0:00:09 (xfer#23, to-check=14/63)
+cd+++++++ Run_302_Wave/Run_302_Wave_MID_3/
+>f+++++++ Run_302_Wave/Run_302_Wave_MID_3/Run_302_Wave_MID_3_FILE_0.dat
+      32.77K   0%   51.95kB/s    3:31:09
+      27.82M   4%   26.53MB/s    0:00:23
+      92.57M  14%   42.92MB/s    0:00:12
+     159.94M  24%   49.88MB/s    0:00:09
+     220.76M  33%   51.88MB/s    0:00:08
+     287.08M  43%   60.94MB/s    0:00:05
+     346.59M  52%   60.56MB/s    0:00:05
+     416.61M  63%   61.21MB/s    0:00:03
+     481.85M  73%   61.91MB/s    0:00:02
+     545.62M  82%   61.32MB/s    0:00:01
+     609.52M  92%   62.31MB/s    0:00:00
+     658.18M 100%   58.17MB/s    0:00:10 (xfer#24, to-check=12/63)
+cd+++++++ Run_302_Wave/Run_302_Wave_MID_4/
+>f+++++++ Run_302_Wave/Run_302_Wave_MID_4/Run_302_Wave_MID_4_FILE_0.dat
+      32.77K   0%   45.01kB/s    4:03:43
+      18.12M   2%   17.26MB/s    0:00:36
+      92.83M  14%   44.24MB/s    0:00:12
+     176.98M  26%   56.24MB/s    0:00:08
+     294.16M  44%   70.13MB/s    0:00:05
+     422.15M  64%   96.38MB/s    0:00:02
+     546.34M  83%  107.99MB/s    0:00:01
+     658.18M 100%   91.93MB/s    0:00:06 (xfer#25, to-check=10/63)
+cd+++++++ Run_302_Wave/Run_302_Wave_MID_5/
+>f+++++++ Run_302_Wave/Run_302_Wave_MID_5/Run_302_Wave_MID_5_FILE_0.dat
+      32.77K   0%   38.88kB/s    4:42:06
+      16.55M   2%   15.78MB/s    0:00:39
+     159.42M  24%   76.05MB/s    0:00:06
+     287.87M  43%   91.30MB/s    0:00:03
+     433.36M  65%  103.17MB/s    0:00:02
+     577.80M  87%  133.58MB/s    0:00:00
+     658.18M 100%  112.27MB/s    0:00:05 (xfer#26, to-check=8/63)
+cd+++++++ Run_302_Wave/Run_302_Wave_MID_6/
+>f+++++++ Run_302_Wave/Run_302_Wave_MID_6/Run_302_Wave_MID_6_FILE_0.dat
+      32.77K   0%   54.61kB/s    3:20:52
+      50.86M   7%   48.50MB/s    0:00:12
+     194.02M  29%   92.56MB/s    0:00:04
+     337.41M  51%  107.33MB/s    0:00:02
+     471.89M  71%  112.56MB/s    0:00:01
+     607.42M  92%  132.76MB/s    0:00:00
+     658.18M 100%  110.49MB/s    0:00:05 (xfer#27, to-check=6/63)
+cd+++++++ Run_302_Wave/Run_302_Wave_MID_7/
+>f+++++++ Run_302_Wave/Run_302_Wave_MID_7/Run_302_Wave_MID_7_FILE_0.dat
+      32.77K   0%   46.58kB/s    3:55:29
+      19.69M   2%   18.78MB/s    0:00:33
+      78.94M  11%   37.64MB/s    0:00:15
+     154.44M  23%   49.09MB/s    0:00:10
+     228.10M  34%   54.37MB/s    0:00:07
+     303.69M  46%   67.69MB/s    0:00:05
+     378.57M  57%   71.42MB/s    0:00:03
+     453.02M  68%   71.15MB/s    0:00:02
+     521.44M  79%   69.92MB/s    0:00:01
+     595.36M  90%   69.49MB/s    0:00:00
+     658.18M 100%   63.49MB/s    0:00:09 (xfer#28, to-check=4/63)
+cd+++++++ Run_302_Wave/Run_302_Wave_MID_8/
+>f+++++++ Run_302_Wave/Run_302_Wave_MID_8/Run_302_Wave_MID_8_FILE_0.dat
+      32.77K   0%   36.04kB/s    5:04:23
+       4.49M   0%    4.28MB/s    0:02:29
+      78.15M  11%   37.23MB/s    0:00:15
+     152.08M  23%   48.30MB/s    0:00:10
+     221.81M  33%   52.83MB/s    0:00:08
+     297.30M  45%   69.78MB/s    0:00:05
+     371.75M  56%   69.95MB/s    0:00:03
+     459.57M  69%   73.18MB/s    0:00:02
+     601.65M  91%   90.45MB/s    0:00:00
+     658.18M 100%   74.69MB/s    0:00:08 (xfer#29, to-check=2/63)
+cd+++++++ Run_302_Wave/Run_302_Wave_MID_9/
+>f+++++++ Run_302_Wave/Run_302_Wave_MID_9/Run_302_Wave_MID_9_FILE_0.dat
+      32.77K   0%   81.01kB/s    2:15:23
+      78.68M  11%   75.03MB/s    0:00:07
+     220.23M  33%  105.07MB/s    0:00:04
+     361.17M  54%  114.89MB/s    0:00:02
+     502.82M  76%  119.94MB/s    0:00:01
+     635.04M  96%  132.71MB/s    0:00:00
+     658.18M 100%  121.72MB/s    0:00:05 (xfer#30, to-check=0/63)
+
+sent 9.91G bytes  received 878 bytes  85.08M bytes/sec
+total size is 9.91G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_302/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_302_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

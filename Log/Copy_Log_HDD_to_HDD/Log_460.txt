@@ -1,0 +1,926 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_460/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_460[0m
+[94m[INFO][0m SSD data folder size = [96m[1m9.207 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [--------------------------------------------------][0m [92m[1m0.461 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 68.725 GB / Free : [4m14832.828 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_460/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_460/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_460.txt --progress /Volumes/HDD_16TB_1/HDD_Run_460/ /Volumes/HDD_16TB_2/HDD_Run_460/[0m`? [y/n] building file list ... 
+ 0 files...
+ 100 files...
+ 200 files...
+260 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_460
+cd+++++++ ./
+cd+++++++ Run_460_Fast/
+cd+++++++ Run_460_Fast/Run_460_Fast_MID_1/
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_1/Run_460_Fast_MID_1_FILE_0.dat
+      32.77K   1%    0.00kB/s    0:00:00
+       2.06M 100%   23.34MB/s    0:00:00 (xfer#1, to-check=256/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_1/Run_460_Fast_MID_1_FILE_1.dat
+      32.77K   6%   54.79kB/s    0:00:08
+     491.52K 100%  796.02kB/s    0:00:00 (xfer#2, to-check=255/260)
+cd+++++++ Run_460_Fast/Run_460_Fast_MID_10/
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_10/Run_460_Fast_MID_10_FILE_0.dat
+      32.77K   1%   51.86kB/s    0:00:39
+       2.06M 100%    2.61MB/s    0:00:00 (xfer#3, to-check=253/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_10/Run_460_Fast_MID_10_FILE_1.dat
+      32.77K   6%   40.97kB/s    0:00:11
+     491.52K 100%  599.25kB/s    0:00:00 (xfer#4, to-check=252/260)
+cd+++++++ Run_460_Fast/Run_460_Fast_MID_11/
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_11/Run_460_Fast_MID_11_FILE_0.dat
+      32.77K   1%   39.12kB/s    0:00:51
+       2.06M 100%    2.08MB/s    0:00:00 (xfer#5, to-check=250/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_11/Run_460_Fast_MID_11_FILE_1.dat
+      32.77K   6%   33.23kB/s    0:00:13
+     491.52K 100%  488.30kB/s    0:00:00 (xfer#6, to-check=249/260)
+cd+++++++ Run_460_Fast/Run_460_Fast_MID_12/
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_12/Run_460_Fast_MID_12_FILE_0.dat
+      32.77K   1%   32.00kB/s    0:01:03
+      65.54K   3%   64.00kB/s    0:00:31
+       2.06M 100%    1.73MB/s    0:00:01 (xfer#7, to-check=247/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_12/Run_460_Fast_MID_12_FILE_1.dat
+      32.77K   6%  192.77kB/s    0:00:02
+     491.52K 100%    2.55MB/s    0:00:00 (xfer#8, to-check=246/260)
+cd+++++++ Run_460_Fast/Run_460_Fast_MID_13/
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_13/Run_460_Fast_MID_13_FILE_0.dat
+      32.77K   1%  160.80kB/s    0:00:12
+       2.06M 100%    5.91MB/s    0:00:00 (xfer#9, to-check=244/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_13/Run_460_Fast_MID_13_FILE_1.dat
+      32.77K   6%   91.43kB/s    0:00:05
+     491.52K 100%    1.27MB/s    0:00:00 (xfer#10, to-check=243/260)
+cd+++++++ Run_460_Fast/Run_460_Fast_MID_14/
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_14/Run_460_Fast_MID_14_FILE_0.dat
+      32.77K   1%   79.60kB/s    0:00:25
+       2.06M 100%    3.63MB/s    0:00:00 (xfer#11, to-check=241/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_14/Run_460_Fast_MID_14_FILE_1.dat
+      32.77K   6%   56.54kB/s    0:00:08
+     491.52K 100%  820.51kB/s    0:00:00 (xfer#12, to-check=240/260)
+cd+++++++ Run_460_Fast/Run_460_Fast_MID_15/
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_15/Run_460_Fast_MID_15_FILE_0.dat
+      32.77K   1%   53.16kB/s    0:00:38
+       2.06M 100%    2.65MB/s    0:00:00 (xfer#13, to-check=238/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_15/Run_460_Fast_MID_15_FILE_1.dat
+      32.77K   6%   42.16kB/s    0:00:10
+     491.52K 100%  618.56kB/s    0:00:00 (xfer#14, to-check=237/260)
+cd+++++++ Run_460_Fast/Run_460_Fast_MID_2/
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_2/Run_460_Fast_MID_2_FILE_0.dat
+      32.77K   1%   39.80kB/s    0:00:51
+       2.06M 100%    2.08MB/s    0:00:00 (xfer#15, to-check=235/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_2/Run_460_Fast_MID_2_FILE_1.dat
+      32.77K   6%   33.26kB/s    0:00:13
+     491.52K 100%  490.80kB/s    0:00:00 (xfer#16, to-check=234/260)
+cd+++++++ Run_460_Fast/Run_460_Fast_MID_3/
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_3/Run_460_Fast_MID_3_FILE_0.dat
+      32.77K   1%   32.19kB/s    0:01:03
+     294.91K  14%  285.15kB/s    0:00:06
+       2.06M 100%    1.75MB/s    0:00:01 (xfer#17, to-check=232/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_3/Run_460_Fast_MID_3_FILE_1.dat
+      32.77K   6%  223.78kB/s    0:00:02
+     491.52K 100%    2.91MB/s    0:00:00 (xfer#18, to-check=231/260)
+cd+++++++ Run_460_Fast/Run_460_Fast_MID_4/
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_4/Run_460_Fast_MID_4_FILE_0.dat
+      32.77K   1%  182.86kB/s    0:00:11
+       2.06M 100%    9.51MB/s    0:00:00 (xfer#19, to-check=229/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_4/Run_460_Fast_MID_4_FILE_1.dat
+      32.77K   6%  153.85kB/s    0:00:02
+     491.52K 100%    2.22MB/s    0:00:00 (xfer#20, to-check=228/260)
+cd+++++++ Run_460_Fast/Run_460_Fast_MID_5/
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_5/Run_460_Fast_MID_5_FILE_0.dat
+      32.77K   1%  150.94kB/s    0:00:13
+       2.06M 100%    8.67MB/s    0:00:00 (xfer#21, to-check=226/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_5/Run_460_Fast_MID_5_FILE_1.dat
+      32.77K   6%  140.35kB/s    0:00:03
+     491.52K 100%    2.03MB/s    0:00:00 (xfer#22, to-check=225/260)
+cd+++++++ Run_460_Fast/Run_460_Fast_MID_6/
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_6/Run_460_Fast_MID_6_FILE_0.dat
+      32.77K   1%  137.34kB/s    0:00:14
+       2.06M 100%    7.94MB/s    0:00:00 (xfer#23, to-check=223/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_6/Run_460_Fast_MID_6_FILE_1.dat
+      32.77K   6%  128.51kB/s    0:00:03
+     491.52K 100%    1.86MB/s    0:00:00 (xfer#24, to-check=222/260)
+cd+++++++ Run_460_Fast/Run_460_Fast_MID_7/
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_7/Run_460_Fast_MID_7_FILE_0.dat
+      32.77K   1%  126.48kB/s    0:00:16
+       2.06M 100%    7.29MB/s    0:00:00 (xfer#25, to-check=220/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_7/Run_460_Fast_MID_7_FILE_1.dat
+      32.77K   6%  117.65kB/s    0:00:03
+     491.52K 100%    1.71MB/s    0:00:00 (xfer#26, to-check=219/260)
+cd+++++++ Run_460_Fast/Run_460_Fast_MID_8/
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_8/Run_460_Fast_MID_8_FILE_0.dat
+      32.77K   1%  115.94kB/s    0:00:17
+       2.06M 100%    6.77MB/s    0:00:00 (xfer#27, to-check=217/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_8/Run_460_Fast_MID_8_FILE_1.dat
+      32.77K   6%  109.59kB/s    0:00:04
+     491.52K 100%    1.59MB/s    0:00:00 (xfer#28, to-check=216/260)
+cd+++++++ Run_460_Fast/Run_460_Fast_MID_9/
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_9/Run_460_Fast_MID_9_FILE_0.dat
+      32.77K   1%  108.11kB/s    0:00:18
+       2.06M 100%    6.33MB/s    0:00:00 (xfer#29, to-check=214/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_MID_9/Run_460_Fast_MID_9_FILE_1.dat
+      32.77K   6%  102.56kB/s    0:00:04
+     491.52K 100%    1.49MB/s    0:00:00 (xfer#30, to-check=213/260)
+cd+++++++ Run_460_Fast/Run_460_Fast_log/
+>f+++++++ Run_460_Fast/Run_460_Fast_log/Run_460_Fast_MID_10_buffer.txt
+       2.51K 100%    7.76kB/s    0:00:00
+       2.51K 100%    7.76kB/s    0:00:00 (xfer#31, to-check=211/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_log/Run_460_Fast_MID_11_buffer.txt
+       2.51K 100%    7.76kB/s    0:00:00
+       2.51K 100%    7.76kB/s    0:00:00 (xfer#32, to-check=210/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_log/Run_460_Fast_MID_12_buffer.txt
+       2.51K 100%    7.76kB/s    0:00:00
+       2.51K 100%    7.76kB/s    0:00:00 (xfer#33, to-check=209/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_log/Run_460_Fast_MID_13_buffer.txt
+       2.51K 100%    7.74kB/s    0:00:00
+       2.51K 100%    7.74kB/s    0:00:00 (xfer#34, to-check=208/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_log/Run_460_Fast_MID_14_buffer.txt
+       2.51K 100%    7.69kB/s    0:00:00
+       2.51K 100%    7.69kB/s    0:00:00 (xfer#35, to-check=207/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_log/Run_460_Fast_MID_15_buffer.txt
+       2.51K 100%    7.66kB/s    0:00:00
+       2.51K 100%    7.66kB/s    0:00:00 (xfer#36, to-check=206/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_log/Run_460_Fast_MID_1_buffer.txt
+       2.51K 100%    7.64kB/s    0:00:00
+       2.51K 100%    7.64kB/s    0:00:00 (xfer#37, to-check=205/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_log/Run_460_Fast_MID_2_buffer.txt
+       2.51K 100%    7.62kB/s    0:00:00
+       2.51K 100%    7.62kB/s    0:00:00 (xfer#38, to-check=204/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_log/Run_460_Fast_MID_3_buffer.txt
+       2.51K 100%    7.59kB/s    0:00:00
+       2.51K 100%    7.59kB/s    0:00:00 (xfer#39, to-check=203/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_log/Run_460_Fast_MID_4_buffer.txt
+       2.51K 100%    7.57kB/s    0:00:00
+       2.51K 100%    7.57kB/s    0:00:00 (xfer#40, to-check=202/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_log/Run_460_Fast_MID_5_buffer.txt
+       2.51K 100%    7.55kB/s    0:00:00
+       2.51K 100%    7.55kB/s    0:00:00 (xfer#41, to-check=201/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_log/Run_460_Fast_MID_6_buffer.txt
+       2.51K 100%    7.52kB/s    0:00:00
+       2.51K 100%    7.52kB/s    0:00:00 (xfer#42, to-check=200/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_log/Run_460_Fast_MID_7_buffer.txt
+       2.51K 100%    7.50kB/s    0:00:00
+       2.51K 100%    7.50kB/s    0:00:00 (xfer#43, to-check=199/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_log/Run_460_Fast_MID_8_buffer.txt
+       2.51K 100%    7.50kB/s    0:00:00
+       2.51K 100%    7.50kB/s    0:00:00 (xfer#44, to-check=198/260)
+>f+++++++ Run_460_Fast/Run_460_Fast_log/Run_460_Fast_MID_9_buffer.txt
+       2.51K 100%    7.48kB/s    0:00:00
+       2.51K 100%    7.48kB/s    0:00:00 (xfer#45, to-check=197/260)
+cd+++++++ Run_460_Wave/
+cd+++++++ Run_460_Wave/Run_460_Wave_MID_1/
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_1/Run_460_Wave_MID_1_FILE_0.dat
+      32.77K   0%   96.97kB/s    0:11:16
+      13.93M  21%   13.02MB/s    0:00:03
+      27.30M  41%   12.80MB/s    0:00:02
+      56.39M  85%   17.66MB/s    0:00:00
+      65.60M 100%   16.80MB/s    0:00:03 (xfer#46, to-check=194/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_1/Run_460_Wave_MID_1_FILE_1.dat
+      32.77K   0%   45.91kB/s    0:23:48
+       4.23M   6%    4.03MB/s    0:00:14
+      38.57M  58%   18.34MB/s    0:00:01
+      52.72M  80%   16.72MB/s    0:00:00
+      65.60M 100%   16.82MB/s    0:00:03 (xfer#47, to-check=193/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_1/Run_460_Wave_MID_1_FILE_10.dat
+      32.77K  10%   44.88kB/s    0:00:06
+     327.68K 100%  447.55kB/s    0:00:00 (xfer#48, to-check=192/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_1/Run_460_Wave_MID_1_FILE_2.dat
+      32.77K   0%   44.69kB/s    0:24:27
+      20.74M  31%   19.76MB/s    0:00:02
+      34.90M  53%   16.63MB/s    0:00:01
+      64.00M  97%   20.34MB/s    0:00:00
+      65.60M 100%   20.53MB/s    0:00:03 (xfer#49, to-check=191/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_1/Run_460_Wave_MID_1_FILE_3.dat
+      32.77K   0%  507.94kB/s    0:02:09
+      12.91M  19%   12.31MB/s    0:00:04
+      30.18M  46%   14.39MB/s    0:00:02
+      64.78M  98%   20.50MB/s    0:00:00
+      65.60M 100%   20.44MB/s    0:00:03 (xfer#50, to-check=190/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_1/Run_460_Wave_MID_1_FILE_4.dat
+      32.77K   0%  507.94kB/s    0:02:09
+      12.88M  19%   12.15MB/s    0:00:04
+      50.63M  77%   24.00MB/s    0:00:00
+      64.52M  98%   20.43MB/s    0:00:00
+      65.60M 100%   20.34MB/s    0:00:03 (xfer#51, to-check=189/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_1/Run_460_Wave_MID_1_FILE_5.dat
+      32.77K   0%  400.00kB/s    0:02:43
+      36.47M  55%   34.75MB/s    0:00:00
+      50.89M  77%   24.04MB/s    0:00:00
+      65.60M 100%   24.87MB/s    0:00:02 (xfer#52, to-check=188/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_1/Run_460_Wave_MID_1_FILE_6.dat
+      32.77K   0%   64.26kB/s    0:17:00
+      18.38M  28%   17.29MB/s    0:00:02
+      32.80M  50%   15.39MB/s    0:00:02
+      65.60M 100%   22.55MB/s    0:00:02 (xfer#53, to-check=187/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_1/Run_460_Wave_MID_1_FILE_7.dat
+      32.77K   0%   43.13kB/s    0:25:20
+       3.96M   6%    3.76MB/s    0:00:15
+      18.38M  28%    8.70MB/s    0:00:05
+      55.08M  83%   17.35MB/s    0:00:00
+      65.60M 100%   16.49MB/s    0:00:03 (xfer#54, to-check=186/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_1/Run_460_Wave_MID_1_FILE_8.dat
+      32.77K   0%   40.66kB/s    0:26:52
+       3.18M   4%    3.00MB/s    0:00:20
+      29.13M  44%   13.81MB/s    0:00:02
+      51.68M  78%   16.30MB/s    0:00:00
+      65.60M 100%   15.64MB/s    0:00:04 (xfer#55, to-check=185/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_1/Run_460_Wave_MID_1_FILE_9.dat
+      32.77K   0%   32.23kB/s    0:33:54
+     294.91K   0%  286.28kB/s    0:03:48
+      65.60M 100%   34.47MB/s    0:00:01 (xfer#56, to-check=184/260)
+cd+++++++ Run_460_Wave/Run_460_Wave_MID_10/
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_10/Run_460_Wave_MID_10_FILE_0.dat
+      32.77K   0%   39.51kB/s    0:27:39
+      18.91M  28%   18.03MB/s    0:00:02
+      65.60M 100%   46.10MB/s    0:00:01 (xfer#57, to-check=182/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_10/Run_460_Wave_MID_10_FILE_1.dat
+      32.77K   0%   88.89kB/s    0:12:17
+      65.60M 100%   68.75MB/s    0:00:00 (xfer#58, to-check=181/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_10/Run_460_Wave_MID_10_FILE_10.dat
+      32.77K  10%   35.09kB/s    0:00:08
+     327.68K 100%  348.20kB/s    0:00:00 (xfer#59, to-check=180/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_10/Run_460_Wave_MID_10_FILE_2.dat
+      32.77K   0%   34.78kB/s    0:31:25
+       9.47M  14%    9.03MB/s    0:00:06
+      65.60M 100%   42.73MB/s    0:00:01 (xfer#60, to-check=179/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_10/Run_460_Wave_MID_10_FILE_3.dat
+      32.77K   0%   68.82kB/s    0:15:52
+      62.69M  95%   59.78MB/s    0:00:00
+      65.60M 100%   61.28MB/s    0:00:01 (xfer#61, to-check=178/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_10/Run_460_Wave_MID_10_FILE_4.dat
+      32.77K   0%    1.36MB/s    0:00:47
+      65.60M 100%   99.46MB/s    0:00:00 (xfer#62, to-check=177/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_10/Run_460_Wave_MID_10_FILE_5.dat
+      32.77K   0%   50.79kB/s    0:21:30
+      31.75M  48%   30.16MB/s    0:00:01
+      65.60M 100%   36.78MB/s    0:00:01 (xfer#63, to-check=176/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_10/Run_460_Wave_MID_10_FILE_6.dat
+      32.77K   0%   45.78kB/s    0:23:52
+      18.38M  28%   17.22MB/s    0:00:02
+      65.60M 100%   34.34MB/s    0:00:01 (xfer#64, to-check=175/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_10/Run_460_Wave_MID_10_FILE_7.dat
+      32.77K   0%   39.70kB/s    0:27:31
+      10.26M  15%    9.77MB/s    0:00:05
+      62.16M  94%   29.61MB/s    0:00:00
+      65.60M 100%   30.64MB/s    0:00:02 (xfer#65, to-check=174/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_10/Run_460_Wave_MID_10_FILE_8.dat
+      32.77K   0%  761.90kB/s    0:01:26
+      65.60M 100%   66.98MB/s    0:00:00 (xfer#66, to-check=173/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_10/Run_460_Wave_MID_10_FILE_9.dat
+      32.77K   0%   34.19kB/s    0:31:57
+       4.49M   6%    4.27MB/s    0:00:13
+      65.60M 100%   33.76MB/s    0:00:01 (xfer#67, to-check=172/260)
+cd+++++++ Run_460_Wave/Run_460_Wave_MID_11/
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_11/Run_460_Wave_MID_11_FILE_0.dat
+      32.77K   0%   37.60kB/s    0:29:03
+       5.01M   7%    4.78MB/s    0:00:12
+      64.49M  98%   30.77MB/s    0:00:00
+      65.60M 100%   31.08MB/s    0:00:02 (xfer#68, to-check=170/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_11/Run_460_Wave_MID_11_FILE_1.dat
+      32.77K   0%    1.95MB/s    0:00:32
+      65.60M 100%   69.51MB/s    0:00:00 (xfer#69, to-check=169/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_11/Run_460_Wave_MID_11_FILE_10.dat
+      32.77K  10%   35.48kB/s    0:00:08
+     327.68K 100%  353.59kB/s    0:00:00 (xfer#70, to-check=168/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_11/Run_460_Wave_MID_11_FILE_2.dat
+      32.77K   0%   35.28kB/s    0:30:58
+       1.08M   1%    1.03MB/s    0:01:01
+      53.77M  81%   25.63MB/s    0:00:00
+      65.60M 100%   27.24MB/s    0:00:02 (xfer#71, to-check=167/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_11/Run_460_Wave_MID_11_FILE_3.dat
+      32.77K   0%  103.56kB/s    0:10:33
+      52.99M  80%   50.53MB/s    0:00:00
+      65.60M 100%   52.97MB/s    0:00:01 (xfer#72, to-check=166/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_11/Run_460_Wave_MID_11_FILE_4.dat
+      32.77K   0%  174.86kB/s    0:06:14
+      60.95M  92%   58.12MB/s    0:00:00
+      65.60M 100%   59.41MB/s    0:00:01 (xfer#73, to-check=165/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_11/Run_460_Wave_MID_11_FILE_5.dat
+      32.77K   0%  561.40kB/s    0:01:56
+      65.60M 100%   63.13MB/s    0:00:00 (xfer#74, to-check=164/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_11/Run_460_Wave_MID_11_FILE_6.dat
+      32.77K   0%   32.19kB/s    0:33:56
+     393.22K   0%  384.00kB/s    0:02:49
+      59.02M  89%   28.14MB/s    0:00:00
+      65.60M 100%   29.37MB/s    0:00:02 (xfer#75, to-check=163/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_11/Run_460_Wave_MID_11_FILE_7.dat
+      32.77K   0%  240.60kB/s    0:04:32
+      62.95M  95%   60.03MB/s    0:00:00
+      65.60M 100%   60.68MB/s    0:00:01 (xfer#76, to-check=162/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_11/Run_460_Wave_MID_11_FILE_8.dat
+      32.77K   0%  969.70kB/s    0:01:07
+      57.44M  87%   53.13MB/s    0:00:00
+      65.60M 100%   55.61MB/s    0:00:01 (xfer#77, to-check=161/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_11/Run_460_Wave_MID_11_FILE_9.dat
+      32.77K   0%  333.33kB/s    0:03:16
+      60.33M  91%   57.53MB/s    0:00:00
+      65.60M 100%   56.88MB/s    0:00:01 (xfer#78, to-check=160/260)
+cd+++++++ Run_460_Wave/Run_460_Wave_MID_12/
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_12/Run_460_Wave_MID_12_FILE_0.dat
+      32.77K   0%  313.73kB/s    0:03:29
+      55.35M  84%   52.73MB/s    0:00:00
+      65.60M 100%   55.86MB/s    0:00:01 (xfer#79, to-check=158/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_12/Run_460_Wave_MID_12_FILE_1.dat
+      32.77K   0%  264.46kB/s    0:04:07
+      41.71M  63%   39.12MB/s    0:00:00
+      65.60M 100%   48.24MB/s    0:00:01 (xfer#80, to-check=157/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_12/Run_460_Wave_MID_12_FILE_10.dat
+      32.77K  10%  113.48kB/s    0:00:02
+     327.68K 100%    1.10MB/s    0:00:00 (xfer#81, to-check=156/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_12/Run_460_Wave_MID_12_FILE_2.dat
+      32.77K   0%  111.50kB/s    0:09:48
+      50.99M  77%   48.62MB/s    0:00:00
+      65.60M 100%   50.49MB/s    0:00:01 (xfer#82, to-check=155/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_12/Run_460_Wave_MID_12_FILE_3.dat
+      32.77K   0%  131.69kB/s    0:08:17
+      49.84M  75%   47.53MB/s    0:00:00
+      65.60M 100%   49.65MB/s    0:00:01 (xfer#83, to-check=154/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_12/Run_460_Wave_MID_12_FILE_4.dat
+      32.77K   0%  121.67kB/s    0:08:58
+      49.58M  75%   47.28MB/s    0:00:00
+      65.60M 100%   49.69MB/s    0:00:01 (xfer#84, to-check=153/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_12/Run_460_Wave_MID_12_FILE_5.dat
+      32.77K   0%  122.61kB/s    0:08:54
+      41.98M  63%   39.71MB/s    0:00:00
+      65.60M 100%   46.07MB/s    0:00:01 (xfer#85, to-check=152/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_12/Run_460_Wave_MID_12_FILE_6.dat
+      32.77K   0%   91.17kB/s    0:11:59
+      25.72M  39%   24.53MB/s    0:00:01
+      65.60M 100%   42.53MB/s    0:00:01 (xfer#86, to-check=151/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_12/Run_460_Wave_MID_12_FILE_7.dat
+      32.77K   0%   67.65kB/s    0:16:09
+      35.42M  53%   33.78MB/s    0:00:00
+      65.60M 100%   46.14MB/s    0:00:01 (xfer#87, to-check=150/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_12/Run_460_Wave_MID_12_FILE_8.dat
+      32.77K   0%   89.14kB/s    0:12:15
+      40.73M  62%   38.84MB/s    0:00:00
+      65.60M 100%   43.60MB/s    0:00:01 (xfer#88, to-check=149/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_12/Run_460_Wave_MID_12_FILE_9.dat
+      32.77K   0%   72.89kB/s    0:14:59
+      32.54M  49%   31.03MB/s    0:00:01
+      65.60M 100%   43.60MB/s    0:00:01 (xfer#89, to-check=148/260)
+cd+++++++ Run_460_Wave/Run_460_Wave_MID_13/
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_13/Run_460_Wave_MID_13_FILE_0.dat
+      32.77K   0%   73.39kB/s    0:14:53
+      31.69M  48%   30.22MB/s    0:00:01
+      65.60M 100%   39.90MB/s    0:00:01 (xfer#90, to-check=146/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_13/Run_460_Wave_MID_13_FILE_1.dat
+      32.77K   0%   55.94kB/s    0:19:32
+      21.27M  32%   20.28MB/s    0:00:02
+      65.60M 100%   39.55MB/s    0:00:01 (xfer#91, to-check=145/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_13/Run_460_Wave_MID_13_FILE_10.dat
+      32.77K  10%   54.79kB/s    0:00:05
+     327.68K 100%  544.22kB/s    0:00:00 (xfer#92, to-check=144/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_13/Run_460_Wave_MID_13_FILE_2.dat
+      32.77K   0%   54.24kB/s    0:20:08
+      23.89M  36%   22.78MB/s    0:00:01
+      65.60M 100%   37.17MB/s    0:00:01 (xfer#93, to-check=143/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_13/Run_460_Wave_MID_13_FILE_3.dat
+      32.77K   0%   46.72kB/s    0:23:23
+      16.29M  24%   15.53MB/s    0:00:03
+      65.60M 100%   38.19MB/s    0:00:01 (xfer#94, to-check=142/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_13/Run_460_Wave_MID_13_FILE_4.dat
+      32.77K   0%   50.00kB/s    0:21:51
+      16.55M  25%   15.78MB/s    0:00:03
+      65.60M 100%   37.96MB/s    0:00:01 (xfer#95, to-check=141/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_13/Run_460_Wave_MID_13_FILE_5.dat
+      32.77K   0%   49.16kB/s    0:22:13
+      14.71M  22%   13.91MB/s    0:00:03
+      65.60M 100%   33.47MB/s    0:00:01 (xfer#96, to-check=140/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_13/Run_460_Wave_MID_13_FILE_6.dat
+      32.77K   0%   37.17kB/s    0:29:24
+       6.59M  10%    6.27MB/s    0:00:09
+      65.60M 100%   35.23MB/s    0:00:01 (xfer#97, to-check=139/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_13/Run_460_Wave_MID_13_FILE_7.dat
+      32.77K   0%   41.29kB/s    0:26:27
+       9.47M  14%    9.03MB/s    0:00:06
+      65.60M 100%   35.13MB/s    0:00:01 (xfer#98, to-check=138/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_13/Run_460_Wave_MID_13_FILE_8.dat
+      32.77K   0%   40.76kB/s    0:26:48
+       8.39M  12%    8.00MB/s    0:00:06
+      65.60M 100%   34.85MB/s    0:00:01 (xfer#99, to-check=137/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_13/Run_460_Wave_MID_13_FILE_9.dat
+      32.77K   0%   40.10kB/s    0:27:15
+      11.21M  17%   10.69MB/s    0:00:04
+      65.60M 100%   33.05MB/s    0:00:01 (xfer#100, to-check=136/260)
+cd+++++++ Run_460_Wave/Run_460_Wave_MID_14/
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_14/Run_460_Wave_MID_14_FILE_0.dat
+      32.77K   0%   35.71kB/s    0:30:35
+       6.32M   9%    5.85MB/s    0:00:09
+      65.60M 100%   30.90MB/s    0:00:02 (xfer#101, to-check=134/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_14/Run_460_Wave_MID_14_FILE_1.dat
+      32.77K   0%   32.06kB/s    0:34:04
+     294.91K   0%  288.00kB/s    0:03:46
+      65.60M 100%   32.93MB/s    0:00:01 (xfer#102, to-check=133/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_14/Run_460_Wave_MID_14_FILE_10.dat
+      32.77K  10%   35.44kB/s    0:00:08
+     327.68K 100%  353.20kB/s    0:00:00 (xfer#103, to-check=132/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_14/Run_460_Wave_MID_14_FILE_2.dat
+      32.77K   0%   35.24kB/s    0:31:00
+       2.65M   4%    2.53MB/s    0:00:24
+      65.60M 100%   31.97MB/s    0:00:01 (xfer#104, to-check=131/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_14/Run_460_Wave_MID_14_FILE_3.dat
+      32.77K   0%   33.37kB/s    0:32:45
+       2.13M   3%    1.97MB/s    0:00:31
+      65.60M 100%   31.27MB/s    0:00:02 (xfer#105, to-check=130/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_14/Run_460_Wave_MID_14_FILE_4.dat
+      32.77K   0%   32.89kB/s    0:33:13
+       1.61M   2%    1.53MB/s    0:00:40
+      65.60M 100%   31.34MB/s    0:00:01 (xfer#106, to-check=129/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_14/Run_460_Wave_MID_14_FILE_5.dat
+      32.77K   0%   32.03kB/s    0:34:06
+     294.91K   0%  287.14kB/s    0:03:47
+      58.59M  89%   27.91MB/s    0:00:00
+      65.60M 100%   30.01MB/s    0:00:02 (xfer#107, to-check=128/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_14/Run_460_Wave_MID_14_FILE_6.dat
+      32.77K   0%  376.47kB/s    0:02:54
+      57.44M  87%   54.78MB/s    0:00:00
+      65.60M 100%   57.19MB/s    0:00:01 (xfer#108, to-check=127/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_14/Run_460_Wave_MID_14_FILE_7.dat
+      32.77K   0%  329.90kB/s    0:03:18
+      54.30M  82%   51.78MB/s    0:00:00
+      65.60M 100%   55.37MB/s    0:00:01 (xfer#109, to-check=126/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_14/Run_460_Wave_MID_14_FILE_8.dat
+      32.77K   0%  238.81kB/s    0:04:34
+      50.10M  76%   45.94MB/s    0:00:00
+      65.60M 100%   46.14MB/s    0:00:01 (xfer#110, to-check=125/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_14/Run_460_Wave_MID_14_FILE_9.dat
+      32.77K   0%  100.31kB/s    0:10:53
+      42.76M  65%   40.78MB/s    0:00:00
+      65.60M 100%   44.62MB/s    0:00:01 (xfer#111, to-check=124/260)
+cd+++++++ Run_460_Wave/Run_460_Wave_MID_15/
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_15/Run_460_Wave_MID_15_FILE_0.dat
+      32.77K   0%   79.01kB/s    0:13:49
+      46.17M  70%   42.71MB/s    0:00:00
+      65.60M 100%   47.36MB/s    0:00:01 (xfer#112, to-check=122/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_15/Run_460_Wave_MID_15_FILE_1.dat
+      32.77K   0%  109.97kB/s    0:09:56
+      46.69M  71%   44.53MB/s    0:00:00
+      65.60M 100%   46.58MB/s    0:00:01 (xfer#113, to-check=121/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_15/Run_460_Wave_MID_15_FILE_10.dat
+      32.77K  10%   92.49kB/s    0:00:03
+     327.68K 100%  903.95kB/s    0:00:00 (xfer#114, to-check=120/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_15/Run_460_Wave_MID_15_FILE_2.dat
+      32.77K   0%   90.14kB/s    0:12:07
+      43.29M  65%   41.28MB/s    0:00:00
+      65.60M 100%   45.27MB/s    0:00:01 (xfer#115, to-check=119/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_15/Run_460_Wave_MID_15_FILE_3.dat
+      32.77K   0%   83.55kB/s    0:13:04
+      27.03M  41%   25.78MB/s    0:00:01
+      65.60M 100%   42.94MB/s    0:00:01 (xfer#116, to-check=118/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_15/Run_460_Wave_MID_15_FILE_4.dat
+      32.77K   0%   69.72kB/s    0:15:40
+      32.18M  49%   30.69MB/s    0:00:01
+      65.60M 100%   40.23MB/s    0:00:01 (xfer#117, to-check=117/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_15/Run_460_Wave_MID_15_FILE_5.dat
+      32.77K   0%   57.35kB/s    0:19:03
+      26.51M  40%   25.28MB/s    0:00:01
+      65.60M 100%   41.00MB/s    0:00:01 (xfer#118, to-check=116/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_15/Run_460_Wave_MID_15_FILE_6.dat
+      32.77K   0%   60.49kB/s    0:18:03
+      24.94M  38%   23.78MB/s    0:00:01
+      65.60M 100%   39.20MB/s    0:00:01 (xfer#119, to-check=115/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_15/Run_460_Wave_MID_15_FILE_7.dat
+      32.77K   0%   53.51kB/s    0:20:25
+      23.36M  35%   22.28MB/s    0:00:01
+      65.60M 100%   38.24MB/s    0:00:01 (xfer#120, to-check=114/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_15/Run_460_Wave_MID_15_FILE_8.dat
+      32.77K   0%   50.24kB/s    0:21:45
+      20.48M  31%   19.53MB/s    0:00:02
+      65.60M 100%   34.74MB/s    0:00:01 (xfer#121, to-check=113/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_15/Run_460_Wave_MID_15_FILE_9.dat
+      32.77K   0%   39.80kB/s    0:27:27
+      14.19M  21%   13.53MB/s    0:00:03
+      65.60M 100%   34.34MB/s    0:00:01 (xfer#122, to-check=112/260)
+cd+++++++ Run_460_Wave/Run_460_Wave_MID_2/
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_2/Run_460_Wave_MID_2_FILE_0.dat
+      32.77K   0%   38.74kB/s    0:28:12
+       6.32M   9%    5.92MB/s    0:00:09
+      65.60M 100%   32.79MB/s    0:00:01 (xfer#123, to-check=110/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_2/Run_460_Wave_MID_2_FILE_1.dat
+      32.77K   0%   35.83kB/s    0:30:29
+       6.32M   9%    5.91MB/s    0:00:09
+      65.60M 100%   32.77MB/s    0:00:01 (xfer#124, to-check=109/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_2/Run_460_Wave_MID_2_FILE_10.dat
+      32.77K  10%   35.91kB/s    0:00:08
+     327.68K 100%  356.74kB/s    0:00:00 (xfer#125, to-check=108/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_2/Run_460_Wave_MID_2_FILE_2.dat
+      32.77K   0%   35.56kB/s    0:30:44
+       3.44M   5%    3.28MB/s    0:00:18
+      65.60M 100%   31.98MB/s    0:00:01 (xfer#126, to-check=107/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_2/Run_460_Wave_MID_2_FILE_3.dat
+      32.77K   0%   33.40kB/s    0:32:42
+       2.13M   3%    1.97MB/s    0:00:31
+      51.94M  79%   24.40MB/s    0:00:00
+      65.60M 100%   27.55MB/s    0:00:02 (xfer#127, to-check=106/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_2/Run_460_Wave_MID_2_FILE_4.dat
+      32.77K   0%  131.69kB/s    0:08:17
+      52.99M  80%   50.53MB/s    0:00:00
+      65.60M 100%   54.59MB/s    0:00:01 (xfer#128, to-check=105/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_2/Run_460_Wave_MID_2_FILE_5.dat
+      32.77K   0%  213.33kB/s    0:05:07
+      60.85M  92%   58.03MB/s    0:00:00
+      65.60M 100%   55.66MB/s    0:00:01 (xfer#129, to-check=104/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_2/Run_460_Wave_MID_2_FILE_6.dat
+      32.77K   0%  256.00kB/s    0:04:16
+      58.23M  88%   52.34MB/s    0:00:00
+      65.60M 100%   54.59MB/s    0:00:01 (xfer#130, to-check=103/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_2/Run_460_Wave_MID_2_FILE_7.dat
+      32.77K   0%  367.82kB/s    0:02:58
+      57.70M  87%   53.53MB/s    0:00:00
+      65.60M 100%   55.86MB/s    0:00:01 (xfer#131, to-check=102/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_2/Run_460_Wave_MID_2_FILE_8.dat
+      32.77K   0%  336.84kB/s    0:03:14
+      48.27M  73%   46.03MB/s    0:00:00
+      65.60M 100%   52.01MB/s    0:00:01 (xfer#132, to-check=101/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_2/Run_460_Wave_MID_2_FILE_9.dat
+      32.77K   0%  156.10kB/s    0:07:00
+      51.87M  79%   49.47MB/s    0:00:00
+      65.60M 100%   53.84MB/s    0:00:01 (xfer#133, to-check=100/260)
+cd+++++++ Run_460_Wave/Run_460_Wave_MID_3/
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_3/Run_460_Wave_MID_3_FILE_0.dat
+      32.77K   0%  192.77kB/s    0:05:40
+      48.59M  74%   46.34MB/s    0:00:00
+      65.60M 100%   52.14MB/s    0:00:01 (xfer#134, to-check=98/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_3/Run_460_Wave_MID_3_FILE_1.dat
+      32.77K   0%  157.64kB/s    0:06:55
+      48.30M  73%   46.06MB/s    0:00:00
+      65.60M 100%   49.26MB/s    0:00:01 (xfer#135, to-check=97/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_3/Run_460_Wave_MID_3_FILE_10.dat
+      32.77K  10%  116.79kB/s    0:00:02
+     327.68K 100%    1.12MB/s    0:00:00 (xfer#136, to-check=96/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_3/Run_460_Wave_MID_3_FILE_2.dat
+      32.77K   0%  114.70kB/s    0:09:31
+      41.19M  62%   38.44MB/s    0:00:00
+      65.60M 100%   47.83MB/s    0:00:01 (xfer#137, to-check=95/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_3/Run_460_Wave_MID_3_FILE_3.dat
+      32.77K   0%  110.73kB/s    0:09:52
+      37.06M  56%   35.34MB/s    0:00:00
+      65.60M 100%   44.78MB/s    0:00:01 (xfer#138, to-check=94/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_3/Run_460_Wave_MID_3_FILE_4.dat
+      32.77K   0%   80.00kB/s    0:13:39
+      35.95M  54%   34.28MB/s    0:00:00
+      65.60M 100%   43.78MB/s    0:00:01 (xfer#139, to-check=93/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_3/Run_460_Wave_MID_3_FILE_5.dat
+      32.77K   0%   74.07kB/s    0:14:45
+      37.26M  56%   35.53MB/s    0:00:00
+      65.60M 100%   42.85MB/s    0:00:01 (xfer#140, to-check=92/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_3/Run_460_Wave_MID_3_FILE_6.dat
+      32.77K   0%   69.11kB/s    0:15:48
+      32.80M  50%   31.28MB/s    0:00:01
+      65.31M  99%   30.31MB/s    0:00:00
+      65.60M 100%   30.24MB/s    0:00:02 (xfer#141, to-check=91/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_3/Run_460_Wave_MID_3_FILE_7.dat
+      32.77K   0%  524.59kB/s    0:02:04
+      22.05M  33%   20.91MB/s    0:00:02
+      33.33M  50%   15.68MB/s    0:00:02
+      65.60M 100%   21.90MB/s    0:00:02 (xfer#142, to-check=90/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_3/Run_460_Wave_MID_3_FILE_8.dat
+      32.77K   0%   38.51kB/s    0:28:22
+       3.44M   5%    3.27MB/s    0:00:18
+      17.07M  26%    8.07MB/s    0:00:05
+      37.78M  57%   11.94MB/s    0:00:02
+      64.00M  97%   15.14MB/s    0:00:00
+      65.60M 100%   15.13MB/s    0:00:04 (xfer#143, to-check=89/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_3/Run_460_Wave_MID_3_FILE_9.dat
+      32.77K   0%  242.42kB/s    0:04:30
+      10.26M  15%    9.63MB/s    0:00:05
+      41.71M  63%   19.60MB/s    0:00:01
+      55.35M  84%   17.30MB/s    0:00:00
+      65.60M 100%   17.39MB/s    0:00:03 (xfer#144, to-check=88/260)
+cd+++++++ Run_460_Wave/Run_460_Wave_MID_4/
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_4/Run_460_Wave_MID_4_FILE_0.dat
+      32.77K   0%   58.39kB/s    0:18:42
+      22.84M  34%   21.63MB/s    0:00:01
+      35.68M  54%   16.71MB/s    0:00:01
+      58.52M  89%   18.39MB/s    0:00:00
+      65.60M 100%   20.25MB/s    0:00:03 (xfer#145, to-check=86/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_4/Run_460_Wave_MID_4_FILE_1.dat
+      32.77K   0%  581.82kB/s    0:01:52
+      12.88M  19%   12.06MB/s    0:00:04
+      24.67M  37%   11.63MB/s    0:00:03
+      56.66M  86%   17.74MB/s    0:00:00
+      65.60M 100%   16.76MB/s    0:00:03 (xfer#146, to-check=85/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_4/Run_460_Wave_MID_4_FILE_10.dat
+      32.77K  10%   44.26kB/s    0:00:06
+     327.68K 100%  433.02kB/s    0:00:00 (xfer#147, to-check=84/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_4/Run_460_Wave_MID_4_FILE_2.dat
+      32.77K   0%   41.50kB/s    0:26:19
+       2.92M   4%    2.77MB/s    0:00:22
+      39.88M  60%   18.91MB/s    0:00:01
+      52.99M  80%   16.78MB/s    0:00:00
+      65.57M  99%   15.58MB/s    0:00:00
+      65.60M 100%   15.59MB/s    0:00:04 (xfer#148, to-check=83/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_4/Run_460_Wave_MID_4_FILE_3.dat
+      32.77K   0%    1.04MB/s    0:01:01
+      27.03M  41%   25.78MB/s    0:00:01
+      39.62M  60%   18.79MB/s    0:00:01
+      65.60M 100%   23.48MB/s    0:00:02 (xfer#149, to-check=82/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_4/Run_460_Wave_MID_4_FILE_4.dat
+      32.77K   0%   48.85kB/s    0:22:22
+       8.16M  12%    7.63MB/s    0:00:07
+      21.27M  32%    9.98MB/s    0:00:04
+      54.82M  83%   17.23MB/s    0:00:00
+      65.60M 100%   16.09MB/s    0:00:03 (xfer#150, to-check=81/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_4/Run_460_Wave_MID_4_FILE_5.dat
+      32.77K   0%   36.78kB/s    0:29:42
+       1.87M   2%    1.75MB/s    0:00:35
+      14.45M  22%    6.80MB/s    0:00:07
+      37.26M  56%   11.71MB/s    0:00:02
+      50.63M  77%   11.97MB/s    0:00:01
+      65.60M 100%   13.65MB/s    0:00:04 (xfer#151, to-check=80/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_4/Run_460_Wave_MID_4_FILE_6.dat
+      32.77K   0%   58.08kB/s    0:18:49
+      18.64M  28%   17.69MB/s    0:00:02
+      31.75M  48%   15.10MB/s    0:00:02
+      57.70M  87%   18.29MB/s    0:00:00
+      65.60M 100%   17.50MB/s    0:00:03 (xfer#152, to-check=79/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_4/Run_460_Wave_MID_4_FILE_7.dat
+      32.77K   0%   54.89kB/s    0:19:54
+       5.54M   8%    5.28MB/s    0:00:11
+      18.91M  28%    8.99MB/s    0:00:05
+      47.22M  71%   14.92MB/s    0:00:01
+      60.85M  92%   14.37MB/s    0:00:00
+      65.60M 100%   14.69MB/s    0:00:04 (xfer#153, to-check=78/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_4/Run_460_Wave_MID_4_FILE_8.dat
+      32.77K   0%  142.86kB/s    0:07:38
+      43.29M  65%   40.95MB/s    0:00:00
+      65.60M 100%   49.42MB/s    0:00:01 (xfer#154, to-check=77/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_4/Run_460_Wave_MID_4_FILE_9.dat
+      32.77K   0%  123.08kB/s    0:08:52
+      58.23M  88%   55.53MB/s    0:00:00
+      65.60M 100%   56.82MB/s    0:00:01 (xfer#155, to-check=76/260)
+cd+++++++ Run_460_Wave/Run_460_Wave_MID_5/
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_5/Run_460_Wave_MID_5_FILE_0.dat
+      32.77K   0%  290.91kB/s    0:03:45
+      65.60M 100%   73.78MB/s    0:00:00 (xfer#156, to-check=74/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_5/Run_460_Wave_MID_5_FILE_1.dat
+      32.77K   0%   37.60kB/s    0:29:03
+      12.09M  18%   11.53MB/s    0:00:04
+      65.60M 100%   41.35MB/s    0:00:01 (xfer#157, to-check=73/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_5/Run_460_Wave_MID_5_FILE_10.dat
+      32.77K  10%   62.14kB/s    0:00:04
+     327.68K 100%  617.76kB/s    0:00:00 (xfer#158, to-check=72/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_5/Run_460_Wave_MID_5_FILE_2.dat
+      32.77K   0%   61.54kB/s    0:17:45
+      44.60M  67%   42.53MB/s    0:00:00
+      65.60M 100%   49.03MB/s    0:00:01 (xfer#159, to-check=71/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_5/Run_460_Wave_MID_5_FILE_3.dat
+      32.77K   0%  115.52kB/s    0:09:27
+      65.18M  99%   62.16MB/s    0:00:00
+      65.60M 100%   62.44MB/s    0:00:01 (xfer#160, to-check=70/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_5/Run_460_Wave_MID_5_FILE_4.dat
+      32.77K   0%    2.23MB/s    0:00:28
+      65.60M 100%   87.75MB/s    0:00:00 (xfer#161, to-check=69/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_5/Run_460_Wave_MID_5_FILE_5.dat
+      32.77K   0%   44.82kB/s    0:24:23
+      25.99M  39%   24.42MB/s    0:00:01
+      65.60M 100%   45.60MB/s    0:00:01 (xfer#162, to-check=68/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_5/Run_460_Wave_MID_5_FILE_6.dat
+      32.77K   0%   89.39kB/s    0:12:13
+      65.60M 100%   64.56MB/s    0:00:00 (xfer#163, to-check=67/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_5/Run_460_Wave_MID_5_FILE_7.dat
+      32.77K   0%   32.96kB/s    0:33:09
+       2.13M   3%    2.03MB/s    0:00:30
+      49.74M  75%   23.70MB/s    0:00:00
+      65.60M 100%   27.14MB/s    0:00:02 (xfer#164, to-check=66/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_5/Run_460_Wave_MID_5_FILE_8.dat
+      32.77K   0%  104.92kB/s    0:10:24
+      39.35M  59%   37.53MB/s    0:00:00
+      65.60M 100%   44.40MB/s    0:00:01 (xfer#165, to-check=65/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_5/Run_460_Wave_MID_5_FILE_9.dat
+      32.77K   0%   72.07kB/s    0:15:09
+      24.41M  37%   23.07MB/s    0:00:01
+      65.60M 100%   35.49MB/s    0:00:01 (xfer#166, to-check=64/260)
+cd+++++++ Run_460_Wave/Run_460_Wave_MID_6/
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_6/Run_460_Wave_MID_6_FILE_0.dat
+      32.77K   0%   42.33kB/s    0:25:49
+      13.93M  21%   13.02MB/s    0:00:03
+      65.60M 100%   33.00MB/s    0:00:01 (xfer#167, to-check=62/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_6/Run_460_Wave_MID_6_FILE_1.dat
+      32.77K   0%   36.49kB/s    0:29:56
+       6.32M   9%    6.03MB/s    0:00:09
+      62.29M  94%   29.70MB/s    0:00:00
+      65.60M 100%   30.30MB/s    0:00:02 (xfer#168, to-check=61/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_6/Run_460_Wave_MID_6_FILE_10.dat
+      32.77K  10%  470.59kB/s    0:00:00
+     327.68K 100%    4.46MB/s    0:00:00 (xfer#169, to-check=60/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_6/Run_460_Wave_MID_6_FILE_2.dat
+      32.77K   0%  438.36kB/s    0:02:29
+      50.36M  76%   48.03MB/s    0:00:00
+      65.60M 100%   45.73MB/s    0:00:01 (xfer#170, to-check=59/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_6/Run_460_Wave_MID_6_FILE_3.dat
+      32.77K   0%   86.72kB/s    0:12:36
+      38.04M  57%   36.28MB/s    0:00:00
+      65.60M 100%   42.65MB/s    0:00:01 (xfer#171, to-check=58/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_6/Run_460_Wave_MID_6_FILE_4.dat
+      32.77K   0%   68.09kB/s    0:16:03
+      30.70M  46%   29.14MB/s    0:00:01
+      65.60M 100%   38.17MB/s    0:00:01 (xfer#172, to-check=57/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_6/Run_460_Wave_MID_6_FILE_5.dat
+      32.77K   0%   50.39kB/s    0:21:41
+      23.27M  35%   22.19MB/s    0:00:01
+      65.60M 100%   36.72MB/s    0:00:01 (xfer#173, to-check=56/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_6/Run_460_Wave_MID_6_FILE_6.dat
+      32.77K   0%   45.26kB/s    0:24:08
+      19.43M  29%   18.53MB/s    0:00:02
+      65.60M 100%   33.46MB/s    0:00:01 (xfer#174, to-check=55/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_6/Run_460_Wave_MID_6_FILE_7.dat
+      32.77K   0%   36.66kB/s    0:29:48
+       6.00M   9%    5.72MB/s    0:00:10
+      65.60M 100%   31.89MB/s    0:00:01 (xfer#175, to-check=54/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_6/Run_460_Wave_MID_6_FILE_8.dat
+      32.77K   0%   33.16kB/s    0:32:57
+       2.75M   4%    2.62MB/s    0:00:23
+      57.34M  87%   27.36MB/s    0:00:00
+      65.60M 100%   29.54MB/s    0:00:02 (xfer#176, to-check=53/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_6/Run_460_Wave_MID_6_FILE_9.dat
+      32.77K   0%  260.16kB/s    0:04:12
+      56.39M  85%   53.78MB/s    0:00:00
+      65.60M 100%   55.56MB/s    0:00:01 (xfer#177, to-check=52/260)
+cd+++++++ Run_460_Wave/Run_460_Wave_MID_7/
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_7/Run_460_Wave_MID_7_FILE_0.dat
+      32.77K   0%  182.86kB/s    0:05:58
+      43.02M  65%   41.03MB/s    0:00:00
+      65.60M 100%   45.11MB/s    0:00:01 (xfer#178, to-check=50/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_7/Run_460_Wave_MID_7_FILE_1.dat
+      32.77K   0%   82.26kB/s    0:13:17
+      35.91M  54%   34.25MB/s    0:00:00
+      65.60M 100%   42.27MB/s    0:00:01 (xfer#179, to-check=49/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_7/Run_460_Wave_MID_7_FILE_10.dat
+      32.77K  10%   66.12kB/s    0:00:04
+     327.68K 100%  653.06kB/s    0:00:00 (xfer#180, to-check=48/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_7/Run_460_Wave_MID_7_FILE_2.dat
+      32.77K   0%   65.04kB/s    0:16:48
+      29.23M  44%   27.88MB/s    0:00:01
+      65.60M 100%   38.86MB/s    0:00:01 (xfer#181, to-check=47/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_7/Run_460_Wave_MID_7_FILE_3.dat
+      32.77K   0%   52.29kB/s    0:20:54
+      21.27M  32%   20.28MB/s    0:00:02
+      65.60M 100%   35.85MB/s    0:00:01 (xfer#182, to-check=46/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_7/Run_460_Wave_MID_7_FILE_4.dat
+      32.77K   0%   41.03kB/s    0:26:38
+      16.97M  25%   16.19MB/s    0:00:02
+      65.60M 100%   32.77MB/s    0:00:01 (xfer#183, to-check=45/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_7/Run_460_Wave_MID_7_FILE_5.dat
+      32.77K   0%   35.05kB/s    0:31:10
+       4.75M   7%    4.53MB/s    0:00:13
+      57.70M  87%   27.46MB/s    0:00:00
+      65.60M 100%   29.40MB/s    0:00:02 (xfer#184, to-check=44/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_7/Run_460_Wave_MID_7_FILE_6.dat
+      32.77K   0%  256.00kB/s    0:04:16
+      51.68M  78%   49.28MB/s    0:00:00
+      65.60M 100%   50.29MB/s    0:00:01 (xfer#185, to-check=43/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_7/Run_460_Wave_MID_7_FILE_7.dat
+      32.77K   0%  129.55kB/s    0:08:26
+      44.07M  67%   41.99MB/s    0:00:00
+      65.60M 100%   44.91MB/s    0:00:01 (xfer#186, to-check=42/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_7/Run_460_Wave_MID_7_FILE_8.dat
+      32.77K   0%   81.22kB/s    0:13:27
+      31.23M  47%   29.78MB/s    0:00:01
+      65.60M 100%   39.35MB/s    0:00:01 (xfer#187, to-check=41/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_7/Run_460_Wave_MID_7_FILE_9.dat
+      32.77K   0%   53.87kB/s    0:20:17
+      22.58M  34%   21.53MB/s    0:00:01
+      65.60M 100%   35.98MB/s    0:00:01 (xfer#188, to-check=40/260)
+cd+++++++ Run_460_Wave/Run_460_Wave_MID_8/
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_8/Run_460_Wave_MID_8_FILE_0.dat
+      32.77K   0%   42.90kB/s    0:25:28
+      14.35M  21%   13.69MB/s    0:00:03
+      65.60M 100%   33.12MB/s    0:00:01 (xfer#189, to-check=38/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_8/Run_460_Wave_MID_8_FILE_1.dat
+      32.77K   0%   35.83kB/s    0:30:29
+       8.42M  12%    8.03MB/s    0:00:06
+      62.42M  95%   29.63MB/s    0:00:00
+      65.60M 100%   30.41MB/s    0:00:02 (xfer#190, to-check=37/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_8/Run_460_Wave_MID_8_FILE_10.dat
+      32.77K  10%  627.45kB/s    0:00:00
+     327.68K 100%    5.79MB/s    0:00:00 (xfer#191, to-check=36/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_8/Run_460_Wave_MID_8_FILE_2.dat
+      32.77K   0%  561.40kB/s    0:01:56
+      53.25M  81%   50.23MB/s    0:00:00
+      65.60M 100%   51.70MB/s    0:00:01 (xfer#192, to-check=35/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_8/Run_460_Wave_MID_8_FILE_3.dat
+      32.77K   0%  155.34kB/s    0:07:02
+      45.65M  69%   43.53MB/s    0:00:00
+      65.60M 100%   49.11MB/s    0:00:01 (xfer#193, to-check=34/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_8/Run_460_Wave_MID_8_FILE_4.dat
+      32.77K   0%  113.07kB/s    0:09:39
+      37.26M  56%   35.53MB/s    0:00:00
+      65.60M 100%   39.57MB/s    0:00:01 (xfer#194, to-check=33/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_8/Run_460_Wave_MID_8_FILE_5.dat
+      32.77K   0%   54.79kB/s    0:19:56
+      28.34M  43%   27.03MB/s    0:00:01
+      65.60M 100%   43.21MB/s    0:00:01 (xfer#195, to-check=32/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_8/Run_460_Wave_MID_8_FILE_6.dat
+      32.77K   0%   71.11kB/s    0:15:22
+      29.92M  45%   28.50MB/s    0:00:01
+      65.60M 100%   43.75MB/s    0:00:01 (xfer#196, to-check=31/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_8/Run_460_Wave_MID_8_FILE_7.dat
+      32.77K   0%   74.07kB/s    0:14:45
+      34.37M  52%   32.78MB/s    0:00:00
+      65.60M 100%   45.47MB/s    0:00:01 (xfer#197, to-check=30/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_8/Run_460_Wave_MID_8_FILE_8.dat
+      32.77K   0%   84.66kB/s    0:12:54
+      40.14M  61%   38.28MB/s    0:00:00
+      65.60M 100%   42.97MB/s    0:00:01 (xfer#198, to-check=29/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_8/Run_460_Wave_MID_8_FILE_9.dat
+      32.77K   0%   69.72kB/s    0:15:40
+      28.87M  44%   27.53MB/s    0:00:01
+      65.60M 100%   39.80MB/s    0:00:01 (xfer#199, to-check=28/260)
+cd+++++++ Run_460_Wave/Run_460_Wave_MID_9/
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_9/Run_460_Wave_MID_9_FILE_0.dat
+      32.77K   0%   55.75kB/s    0:19:36
+      26.51M  40%   25.28MB/s    0:00:01
+      65.60M 100%   38.48MB/s    0:00:01 (xfer#200, to-check=26/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_9/Run_460_Wave_MID_9_FILE_1.dat
+      32.77K   0%   50.87kB/s    0:21:28
+      21.53M  32%   20.53MB/s    0:00:02
+      65.60M 100%   33.40MB/s    0:00:01 (xfer#201, to-check=25/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_9/Run_460_Wave_MID_9_FILE_10.dat
+      32.77K  10%   36.49kB/s    0:00:08
+     327.68K 100%  363.22kB/s    0:00:00 (xfer#202, to-check=24/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_9/Run_460_Wave_MID_9_FILE_2.dat
+      32.77K   0%   36.28kB/s    0:30:07
+       5.54M   8%    5.24MB/s    0:00:11
+      65.60M 100%   34.80MB/s    0:00:01 (xfer#203, to-check=23/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_9/Run_460_Wave_MID_9_FILE_3.dat
+      32.77K   0%   40.35kB/s    0:27:04
+      12.35M  18%   11.70MB/s    0:00:04
+      65.60M 100%   34.81MB/s    0:00:01 (xfer#204, to-check=22/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_9/Run_460_Wave_MID_9_FILE_4.dat
+      32.77K   0%   40.35kB/s    0:27:04
+      13.14M  20%   12.39MB/s    0:00:04
+      65.60M 100%   34.58MB/s    0:00:01 (xfer#205, to-check=21/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_9/Run_460_Wave_MID_9_FILE_5.dat
+      32.77K   0%   40.00kB/s    0:27:19
+      12.09M  18%   11.53MB/s    0:00:04
+      65.60M 100%   33.89MB/s    0:00:01 (xfer#206, to-check=20/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_9/Run_460_Wave_MID_9_FILE_6.dat
+      32.77K   0%   37.78kB/s    0:28:55
+       6.59M  10%    6.28MB/s    0:00:09
+      65.60M 100%   32.86MB/s    0:00:01 (xfer#207, to-check=19/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_9/Run_460_Wave_MID_9_FILE_7.dat
+      32.77K   0%   35.28kB/s    0:30:58
+       2.13M   3%    2.03MB/s    0:00:30
+      65.31M  99%   31.13MB/s    0:00:00
+      65.60M 100%   31.23MB/s    0:00:02 (xfer#208, to-check=18/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_9/Run_460_Wave_MID_9_FILE_8.dat
+      32.77K   0%   10.42MB/s    0:00:06
+      61.64M  93%   58.78MB/s    0:00:00
+      65.60M 100%   59.81MB/s    0:00:01 (xfer#209, to-check=17/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_MID_9/Run_460_Wave_MID_9_FILE_9.dat
+      32.77K   0%  653.06kB/s    0:01:40
+      60.06M  91%   57.28MB/s    0:00:00
+      65.60M 100%   58.74MB/s    0:00:01 (xfer#210, to-check=16/260)
+cd+++++++ Run_460_Wave/Run_460_Wave_log/
+>f+++++++ Run_460_Wave/Run_460_Wave_log/Run_460_Wave_MID_10_buffer.txt
+      32.77K  20%  463.77kB/s    0:00:00
+     159.13K 100%    2.20MB/s    0:00:00 (xfer#211, to-check=14/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_log/Run_460_Wave_MID_11_buffer.txt
+      32.77K  20%  438.36kB/s    0:00:00
+     159.16K 100%    2.08MB/s    0:00:00 (xfer#212, to-check=13/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_log/Run_460_Wave_MID_12_buffer.txt
+      32.77K  20%  400.00kB/s    0:00:00
+     158.64K 100%    1.87MB/s    0:00:00 (xfer#213, to-check=12/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_log/Run_460_Wave_MID_13_buffer.txt
+      32.77K  20%  355.56kB/s    0:00:00
+     158.93K 100%    1.67MB/s    0:00:00 (xfer#214, to-check=11/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_log/Run_460_Wave_MID_14_buffer.txt
+      32.77K  20%  209.15kB/s    0:00:00
+     158.97K 100% 1008.07kB/s    0:00:00 (xfer#215, to-check=10/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_log/Run_460_Wave_MID_15_buffer.txt
+      32.77K  20%  202.53kB/s    0:00:00
+     158.66K 100%  974.45kB/s    0:00:00 (xfer#216, to-check=9/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_log/Run_460_Wave_MID_1_buffer.txt
+      32.77K  20%  196.32kB/s    0:00:00
+     158.69K 100%  950.75kB/s    0:00:00 (xfer#217, to-check=8/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_log/Run_460_Wave_MID_2_buffer.txt
+      32.77K  20%  192.77kB/s    0:00:00
+     158.81K 100%  928.65kB/s    0:00:00 (xfer#218, to-check=7/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_log/Run_460_Wave_MID_3_buffer.txt
+      32.77K  20%  187.13kB/s    0:00:00
+     158.53K 100%  905.32kB/s    0:00:00 (xfer#219, to-check=6/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_log/Run_460_Wave_MID_4_buffer.txt
+      32.77K  20%  181.82kB/s    0:00:00
+     158.69K 100%  880.52kB/s    0:00:00 (xfer#220, to-check=5/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_log/Run_460_Wave_MID_5_buffer.txt
+      32.77K  20%  178.77kB/s    0:00:00
+     159.10K 100%  868.01kB/s    0:00:00 (xfer#221, to-check=4/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_log/Run_460_Wave_MID_6_buffer.txt
+      32.77K  20%  174.86kB/s    0:00:00
+     158.68K 100%  842.17kB/s    0:00:00 (xfer#222, to-check=3/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_log/Run_460_Wave_MID_7_buffer.txt
+      32.77K  20%  165.80kB/s    0:00:00
+     158.82K 100%  803.64kB/s    0:00:00 (xfer#223, to-check=2/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_log/Run_460_Wave_MID_8_buffer.txt
+      32.77K  20%  162.44kB/s    0:00:00
+     158.93K 100%  787.86kB/s    0:00:00 (xfer#224, to-check=1/260)
+>f+++++++ Run_460_Wave/Run_460_Wave_log/Run_460_Wave_MID_9_buffer.txt
+      32.77K  20%  158.42kB/s    0:00:00
+     158.75K 100%  767.47kB/s    0:00:00 (xfer#225, to-check=0/260)
+
+sent 9.89G bytes  received 5.18K bytes  49.56M bytes/sec
+total size is 9.89G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_460/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_460_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

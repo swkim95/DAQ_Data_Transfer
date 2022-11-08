@@ -1,0 +1,274 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_609/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_609[0m
+[94m[INFO][0m SSD data folder size = [96m[1m4.621 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [####----------------------------------------------][0m [92m[1m8.12 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 1210.031 GB / Free : [4m13691.522 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_609/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_609/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_609.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_609/ /Volumes/HDD_16TB_1/HDD_Run_609/[0m`? [y/n] building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_609
+cd+++++++ ./
+cd+++++++ Run_609_Fast/
+cd+++++++ Run_609_Fast/Run_609_Fast_MID_1/
+>f+++++++ Run_609_Fast/Run_609_Fast_MID_1/Run_609_Fast_MID_1_FILE_0.dat
+      32.77K   2%    0.00kB/s    0:00:00
+       1.28M 100%   33.93MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_609_Fast/Run_609_Fast_MID_10/
+>f+++++++ Run_609_Fast/Run_609_Fast_MID_10/Run_609_Fast_MID_10_FILE_0.dat
+      32.77K   2%  347.83kB/s    0:00:03
+       1.28M 100%   11.50MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_609_Fast/Run_609_Fast_MID_11/
+>f+++++++ Run_609_Fast/Run_609_Fast_MID_11/Run_609_Fast_MID_11_FILE_0.dat
+      32.77K   2%  296.30kB/s    0:00:04
+       1.28M 100%   10.16MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_609_Fast/Run_609_Fast_MID_12/
+>f+++++++ Run_609_Fast/Run_609_Fast_MID_12/Run_609_Fast_MID_12_FILE_0.dat
+      32.77K   2%  262.30kB/s    0:00:04
+       1.28M 100%    8.83MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_609_Fast/Run_609_Fast_MID_13/
+>f+++++++ Run_609_Fast/Run_609_Fast_MID_13/Run_609_Fast_MID_13_FILE_0.dat
+      32.77K   2%  228.57kB/s    0:00:05
+       1.28M 100%    7.71MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_609_Fast/Run_609_Fast_MID_14/
+>f+++++++ Run_609_Fast/Run_609_Fast_MID_14/Run_609_Fast_MID_14_FILE_0.dat
+      32.77K   2%  201.26kB/s    0:00:06
+       1.28M 100%    7.09MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_609_Fast/Run_609_Fast_MID_15/
+>f+++++++ Run_609_Fast/Run_609_Fast_MID_15/Run_609_Fast_MID_15_FILE_0.dat
+      32.77K   2%  184.97kB/s    0:00:06
+       1.28M 100%    6.52MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_609_Fast/Run_609_Fast_MID_2/
+>f+++++++ Run_609_Fast/Run_609_Fast_MID_2/Run_609_Fast_MID_2_FILE_0.dat
+      32.77K   2%  170.21kB/s    0:00:07
+       1.28M 100%    6.03MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_609_Fast/Run_609_Fast_MID_3/
+>f+++++++ Run_609_Fast/Run_609_Fast_MID_3/Run_609_Fast_MID_3_FILE_0.dat
+      32.77K   2%  157.64kB/s    0:00:07
+       1.28M 100%    5.64MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_609_Fast/Run_609_Fast_MID_4/
+>f+++++++ Run_609_Fast/Run_609_Fast_MID_4/Run_609_Fast_MID_4_FILE_0.dat
+      32.77K   2%  146.79kB/s    0:00:08
+       1.28M 100%    5.28MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_609_Fast/Run_609_Fast_MID_5/
+>f+++++++ Run_609_Fast/Run_609_Fast_MID_5/Run_609_Fast_MID_5_FILE_0.dat
+      32.77K   2%  137.93kB/s    0:00:09
+       1.28M 100%    4.97MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_609_Fast/Run_609_Fast_MID_6/
+>f+++++++ Run_609_Fast/Run_609_Fast_MID_6/Run_609_Fast_MID_6_FILE_0.dat
+      32.77K   2%  129.55kB/s    0:00:09
+       1.28M 100%    4.69MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_609_Fast/Run_609_Fast_MID_7/
+>f+++++++ Run_609_Fast/Run_609_Fast_MID_7/Run_609_Fast_MID_7_FILE_0.dat
+      32.77K   2%  122.61kB/s    0:00:10
+       1.28M 100%    4.43MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_609_Fast/Run_609_Fast_MID_8/
+>f+++++++ Run_609_Fast/Run_609_Fast_MID_8/Run_609_Fast_MID_8_FILE_0.dat
+      32.77K   2%  115.94kB/s    0:00:10
+       1.28M 100%    4.20MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_609_Fast/Run_609_Fast_MID_9/
+>f+++++++ Run_609_Fast/Run_609_Fast_MID_9/Run_609_Fast_MID_9_FILE_0.dat
+      32.77K   2%  109.97kB/s    0:00:11
+       1.28M 100%    4.01MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_609_Fast/Run_609_Fast_log/
+>f+++++++ Run_609_Fast/Run_609_Fast_log/Run_609_Fast_MID_10_buffer.txt
+       1.23K 100%    3.92kB/s    0:00:00
+       1.23K 100%    3.92kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_609_Fast/Run_609_Fast_log/Run_609_Fast_MID_11_buffer.txt
+       1.23K 100%    3.92kB/s    0:00:00
+       1.23K 100%    3.92kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_609_Fast/Run_609_Fast_log/Run_609_Fast_MID_12_buffer.txt
+       1.23K 100%    3.92kB/s    0:00:00
+       1.23K 100%    3.92kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_609_Fast/Run_609_Fast_log/Run_609_Fast_MID_13_buffer.txt
+       1.23K 100%    3.92kB/s    0:00:00
+       1.23K 100%    3.92kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_609_Fast/Run_609_Fast_log/Run_609_Fast_MID_14_buffer.txt
+       1.23K 100%    3.91kB/s    0:00:00
+       1.23K 100%    3.91kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_609_Fast/Run_609_Fast_log/Run_609_Fast_MID_15_buffer.txt
+       1.23K 100%    3.91kB/s    0:00:00
+       1.23K 100%    3.91kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_609_Fast/Run_609_Fast_log/Run_609_Fast_MID_1_buffer.txt
+       1.23K 100%    3.91kB/s    0:00:00
+       1.23K 100%    3.91kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_609_Fast/Run_609_Fast_log/Run_609_Fast_MID_2_buffer.txt
+       1.23K 100%    3.91kB/s    0:00:00
+       1.23K 100%    3.91kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_609_Fast/Run_609_Fast_log/Run_609_Fast_MID_3_buffer.txt
+       1.23K 100%    3.91kB/s    0:00:00
+       1.23K 100%    3.91kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_609_Fast/Run_609_Fast_log/Run_609_Fast_MID_4_buffer.txt
+       1.23K 100%    3.66kB/s    0:00:00
+       1.23K 100%    3.66kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_609_Fast/Run_609_Fast_log/Run_609_Fast_MID_5_buffer.txt
+       1.23K 100%    3.66kB/s    0:00:00
+       1.23K 100%    3.66kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_609_Fast/Run_609_Fast_log/Run_609_Fast_MID_6_buffer.txt
+       1.23K 100%    3.66kB/s    0:00:00
+       1.23K 100%    3.66kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_609_Fast/Run_609_Fast_log/Run_609_Fast_MID_7_buffer.txt
+       1.23K 100%    3.66kB/s    0:00:00
+       1.23K 100%    3.66kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_609_Fast/Run_609_Fast_log/Run_609_Fast_MID_8_buffer.txt
+       1.23K 100%    3.66kB/s    0:00:00
+       1.23K 100%    3.66kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_609_Fast/Run_609_Fast_log/Run_609_Fast_MID_9_buffer.txt
+       1.23K 100%    3.36kB/s    0:00:00
+       1.23K 100%    3.36kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_609_Wave/
+cd+++++++ Run_609_Wave/Run_609_Wave_MID_1/
+>f+++++++ Run_609_Wave/Run_609_Wave_MID_1/Run_609_Wave_MID_1_FILE_0.dat
+      32.77K   0%   84.43kB/s    1:05:01
+      65.31M  19%   62.28MB/s    0:00:04
+     170.43M  51%   81.27MB/s    0:00:01
+     273.45M  83%   86.96MB/s    0:00:00
+     329.45M 100%   89.51MB/s    0:00:03 (xfer#31, to-check=44/95)
+cd+++++++ Run_609_Wave/Run_609_Wave_MID_10/
+>f+++++++ Run_609_Wave/Run_609_Wave_MID_10/Run_609_Wave_MID_10_FILE_0.dat
+      32.77K   0%   62.50kB/s    1:27:50
+      48.01M  14%   45.15MB/s    0:00:06
+     159.15M  48%   75.40MB/s    0:00:02
+     263.23M  79%   83.32MB/s    0:00:00
+     329.45M 100%   86.27MB/s    0:00:03 (xfer#32, to-check=42/95)
+cd+++++++ Run_609_Wave/Run_609_Wave_MID_11/
+>f+++++++ Run_609_Wave/Run_609_Wave_MID_11/Run_609_Wave_MID_11_FILE_0.dat
+      32.77K   0%   50.79kB/s    1:48:05
+      27.82M   8%   26.53MB/s    0:00:11
+     126.55M  38%   60.34MB/s    0:00:03
+     236.49M  71%   75.18MB/s    0:00:01
+     329.45M 100%   84.32MB/s    0:00:03 (xfer#33, to-check=40/95)
+cd+++++++ Run_609_Wave/Run_609_Wave_MID_12/
+>f+++++++ Run_609_Wave/Run_609_Wave_MID_12/Run_609_Wave_MID_12_FILE_0.dat
+      32.77K   0%   43.96kB/s    2:04:54
+      25.53M   7%   24.34MB/s    0:00:12
+     152.60M  46%   72.80MB/s    0:00:02
+     277.68M  84%   88.33MB/s    0:00:00
+     329.45M 100%   92.44MB/s    0:00:03 (xfer#34, to-check=38/95)
+cd+++++++ Run_609_Wave/Run_609_Wave_MID_13/
+>f+++++++ Run_609_Wave/Run_609_Wave_MID_13/Run_609_Wave_MID_13_FILE_0.dat
+      32.77K   0%   79.60kB/s    1:08:58
+      70.58M  21%   67.31MB/s    0:00:03
+     181.17M  54%   86.39MB/s    0:00:01
+     311.00M  94%   98.90MB/s    0:00:00
+     329.45M 100%  100.06MB/s    0:00:03 (xfer#35, to-check=36/95)
+cd+++++++ Run_609_Wave/Run_609_Wave_MID_14/
+>f+++++++ Run_609_Wave/Run_609_Wave_MID_14/Run_609_Wave_MID_14_FILE_0.dat
+      32.77K   0%  223.78kB/s    0:24:32
+     106.04M  32%  101.12MB/s    0:00:02
+     232.03M  70%  110.64MB/s    0:00:00
+     329.45M 100%  114.42MB/s    0:00:02 (xfer#36, to-check=34/95)
+cd+++++++ Run_609_Wave/Run_609_Wave_MID_15/
+>f+++++++ Run_609_Wave/Run_609_Wave_MID_15/Run_609_Wave_MID_15_FILE_0.dat
+      32.77K   0%   42.78kB/s    2:08:20
+      26.35M   7%   25.12MB/s    0:00:11
+     154.17M  46%   73.11MB/s    0:00:02
+     278.86M  84%   88.35MB/s    0:00:00
+     329.45M 100%   92.46MB/s    0:00:03 (xfer#37, to-check=32/95)
+cd+++++++ Run_609_Wave/Run_609_Wave_MID_2/
+>f+++++++ Run_609_Wave/Run_609_Wave_MID_2/Run_609_Wave_MID_2_FILE_0.dat
+      32.77K   0%   82.26kB/s    1:06:44
+      67.14M  20%   63.46MB/s    0:00:04
+     180.65M  54%   85.75MB/s    0:00:01
+     310.67M  94%   98.50MB/s    0:00:00
+     329.45M 100%   99.65MB/s    0:00:03 (xfer#38, to-check=30/95)
+cd+++++++ Run_609_Wave/Run_609_Wave_MID_3/
+>f+++++++ Run_609_Wave/Run_609_Wave_MID_3/Run_609_Wave_MID_3_FILE_0.dat
+      32.77K   0%  220.69kB/s    0:24:52
+     102.79M  31%   98.03MB/s    0:00:02
+     222.59M  67%  106.19MB/s    0:00:00
+     329.45M 100%  107.56MB/s    0:00:02 (xfer#39, to-check=28/95)
+cd+++++++ Run_609_Wave/Run_609_Wave_MID_4/
+>f+++++++ Run_609_Wave/Run_609_Wave_MID_4/Run_609_Wave_MID_4_FILE_0.dat
+      32.77K   0%   34.63kB/s    2:38:31
+       5.01M   1%    4.77MB/s    0:01:06
+     131.37M  39%   62.55MB/s    0:00:03
+     242.25M  73%   76.96MB/s    0:00:01
+     329.45M 100%   85.63MB/s    0:00:03 (xfer#40, to-check=26/95)
+cd+++++++ Run_609_Wave/Run_609_Wave_MID_5/
+>f+++++++ Run_609_Wave/Run_609_Wave_MID_5/Run_609_Wave_MID_5_FILE_0.dat
+      32.77K   0%   47.98kB/s    1:54:26
+      39.88M  12%   38.03MB/s    0:00:07
+     166.49M  50%   79.39MB/s    0:00:02
+     292.98M  88%   93.17MB/s    0:00:00
+     329.45M 100%   95.82MB/s    0:00:03 (xfer#41, to-check=24/95)
+cd+++++++ Run_609_Wave/Run_609_Wave_MID_6/
+>f+++++++ Run_609_Wave/Run_609_Wave_MID_6/Run_609_Wave_MID_6_FILE_0.dat
+      32.77K   0%  113.88kB/s    0:48:12
+      68.19M  20%   65.03MB/s    0:00:03
+     186.68M  56%   89.06MB/s    0:00:01
+     316.70M  96%  100.71MB/s    0:00:00
+     329.45M 100%  101.51MB/s    0:00:03 (xfer#42, to-check=22/95)
+cd+++++++ Run_609_Wave/Run_609_Wave_MID_7/
+>f+++++++ Run_609_Wave/Run_609_Wave_MID_7/Run_609_Wave_MID_7_FILE_0.dat
+      32.77K   0%  326.53kB/s    0:16:48
+     109.61M  33%  104.53MB/s    0:00:02
+     234.65M  71%  111.89MB/s    0:00:00
+     329.45M 100%  115.21MB/s    0:00:02 (xfer#43, to-check=20/95)
+cd+++++++ Run_609_Wave/Run_609_Wave_MID_8/
+>f+++++++ Run_609_Wave/Run_609_Wave_MID_8/Run_609_Wave_MID_8_FILE_0.dat
+      32.77K   0%   43.90kB/s    2:05:04
+      24.31M   7%   23.19MB/s    0:00:12
+     152.86M  46%   72.93MB/s    0:00:02
+     275.32M  83%   87.58MB/s    0:00:00
+     329.45M 100%   92.00MB/s    0:00:03 (xfer#44, to-check=18/95)
+cd+++++++ Run_609_Wave/Run_609_Wave_MID_9/
+>f+++++++ Run_609_Wave/Run_609_Wave_MID_9/Run_609_Wave_MID_9_FILE_0.dat
+      32.77K   0%   76.56kB/s    1:11:43
+      68.98M  20%   65.78MB/s    0:00:03
+     189.04M  57%   90.14MB/s    0:00:01
+     305.17M  92%   97.01MB/s    0:00:00
+     329.45M 100%   96.94MB/s    0:00:03 (xfer#45, to-check=16/95)
+cd+++++++ Run_609_Wave/Run_609_Wave_log/
+>f+++++++ Run_609_Wave/Run_609_Wave_log/Run_609_Wave_MID_10_buffer.txt
+      32.77K  43%  132.23kB/s    0:00:00
+      76.18K 100%  307.42kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_609_Wave/Run_609_Wave_log/Run_609_Wave_MID_11_buffer.txt
+      32.77K  43%  129.03kB/s    0:00:00
+      76.08K 100%  299.59kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_609_Wave/Run_609_Wave_log/Run_609_Wave_MID_12_buffer.txt
+      32.77K  43%  126.48kB/s    0:00:00
+      75.73K 100%  291.15kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_609_Wave/Run_609_Wave_log/Run_609_Wave_MID_13_buffer.txt
+      32.77K  42%  124.03kB/s    0:00:00
+      76.35K 100%  289.00kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_609_Wave/Run_609_Wave_log/Run_609_Wave_MID_14_buffer.txt
+      32.77K  43%  119.40kB/s    0:00:00
+      76.04K 100%  277.08kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_609_Wave/Run_609_Wave_log/Run_609_Wave_MID_15_buffer.txt
+      32.77K  43%  117.22kB/s    0:00:00
+      75.67K 100%  270.67kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_609_Wave/Run_609_Wave_log/Run_609_Wave_MID_1_buffer.txt
+      32.77K  43%  115.11kB/s    0:00:00
+      75.71K 100%  265.96kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_609_Wave/Run_609_Wave_log/Run_609_Wave_MID_2_buffer.txt
+      32.77K  43%  113.48kB/s    0:00:00
+      76.09K 100%  262.58kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_609_Wave/Run_609_Wave_log/Run_609_Wave_MID_3_buffer.txt
+      32.77K  43%  111.11kB/s    0:00:00
+      75.70K 100%  256.69kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_609_Wave/Run_609_Wave_log/Run_609_Wave_MID_4_buffer.txt
+      32.77K  43%  107.38kB/s    0:00:00
+      75.70K 100%  248.07kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_609_Wave/Run_609_Wave_log/Run_609_Wave_MID_5_buffer.txt
+      32.77K  43%  105.61kB/s    0:00:00
+      76.05K 100%  245.12kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_609_Wave/Run_609_Wave_log/Run_609_Wave_MID_6_buffer.txt
+      32.77K  43%  103.90kB/s    0:00:00
+      75.74K 100%  239.37kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_609_Wave/Run_609_Wave_log/Run_609_Wave_MID_7_buffer.txt
+      32.77K  43%  100.95kB/s    0:00:00
+      75.82K 100%  233.57kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_609_Wave/Run_609_Wave_log/Run_609_Wave_MID_8_buffer.txt
+      32.77K  43%   99.38kB/s    0:00:00
+      76.01K 100%  230.51kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_609_Wave/Run_609_Wave_log/Run_609_Wave_MID_9_buffer.txt
+      32.77K  43%   97.86kB/s    0:00:00
+      75.74K 100%  226.18kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 4.96G bytes  received 1.55K bytes  114.08M bytes/sec
+total size is 4.96G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_609/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_609_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

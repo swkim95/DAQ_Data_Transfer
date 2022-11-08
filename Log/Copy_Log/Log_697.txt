@@ -1,0 +1,259 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_697/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_697[0m
+[94m[INFO][0m SSD data folder size = [96m[1m2.797 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [############--------------------------------------][0m [92m[1m23.884 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 3559.026 GB / Free : [4m11342.527 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_697/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_697/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_697.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_697/ /Volumes/HDD_16TB_1/HDD_Run_697/[0m`? [y/n] building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_697
+cd+++++++ ./
+cd+++++++ Run_697_Fast/
+cd+++++++ Run_697_Fast/Run_697_Fast_MID_1/
+>f+++++++ Run_697_Fast/Run_697_Fast_MID_1/Run_697_Fast_MID_1_FILE_0.dat
+      32.77K   4%    0.00kB/s    0:00:00
+     770.05K 100%   20.68MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_697_Fast/Run_697_Fast_MID_10/
+>f+++++++ Run_697_Fast/Run_697_Fast_MID_10/Run_697_Fast_MID_10_FILE_0.dat
+      32.77K   4%  450.70kB/s    0:00:01
+     770.05K 100%    7.34MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_697_Fast/Run_697_Fast_MID_11/
+>f+++++++ Run_697_Fast/Run_697_Fast_MID_11/Run_697_Fast_MID_11_FILE_0.dat
+      32.77K   4%  316.83kB/s    0:00:02
+     770.05K 100%    6.22MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_697_Fast/Run_697_Fast_MID_12/
+>f+++++++ Run_697_Fast/Run_697_Fast_MID_12/Run_697_Fast_MID_12_FILE_0.dat
+      32.77K   4%  264.46kB/s    0:00:02
+     770.05K 100%    5.32MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_697_Fast/Run_697_Fast_MID_13/
+>f+++++++ Run_697_Fast/Run_697_Fast_MID_13/Run_697_Fast_MID_13_FILE_0.dat
+      32.77K   4%  228.57kB/s    0:00:03
+     770.05K 100%    4.40MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_697_Fast/Run_697_Fast_MID_14/
+>f+++++++ Run_697_Fast/Run_697_Fast_MID_14/Run_697_Fast_MID_14_FILE_0.dat
+      32.77K   4%  190.48kB/s    0:00:03
+     770.05K 100%    3.71MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_697_Fast/Run_697_Fast_MID_15/
+>f+++++++ Run_697_Fast/Run_697_Fast_MID_15/Run_697_Fast_MID_15_FILE_0.dat
+      32.77K   4%  160.80kB/s    0:00:04
+     770.05K 100%    3.25MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_697_Fast/Run_697_Fast_MID_2/
+>f+++++++ Run_697_Fast/Run_697_Fast_MID_2/Run_697_Fast_MID_2_FILE_0.dat
+      32.77K   4%  140.35kB/s    0:00:05
+     770.05K 100%    3.00MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_697_Fast/Run_697_Fast_MID_3/
+>f+++++++ Run_697_Fast/Run_697_Fast_MID_3/Run_697_Fast_MID_3_FILE_0.dat
+      32.77K   4%  129.55kB/s    0:00:05
+     770.05K 100%    2.77MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_697_Fast/Run_697_Fast_MID_4/
+>f+++++++ Run_697_Fast/Run_697_Fast_MID_4/Run_697_Fast_MID_4_FILE_0.dat
+      32.77K   4%  120.30kB/s    0:00:06
+     770.05K 100%    2.59MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_697_Fast/Run_697_Fast_MID_5/
+>f+++++++ Run_697_Fast/Run_697_Fast_MID_5/Run_697_Fast_MID_5_FILE_0.dat
+      32.77K   4%  111.89kB/s    0:00:06
+     770.05K 100%    2.38MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_697_Fast/Run_697_Fast_MID_6/
+>f+++++++ Run_697_Fast/Run_697_Fast_MID_6/Run_697_Fast_MID_6_FILE_0.dat
+      32.77K   4%  102.89kB/s    0:00:07
+     770.05K 100%    2.15MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_697_Fast/Run_697_Fast_MID_7/
+>f+++++++ Run_697_Fast/Run_697_Fast_MID_7/Run_697_Fast_MID_7_FILE_0.dat
+      32.77K   4%   93.57kB/s    0:00:07
+     770.05K 100%    2.04MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_697_Fast/Run_697_Fast_MID_8/
+>f+++++++ Run_697_Fast/Run_697_Fast_MID_8/Run_697_Fast_MID_8_FILE_0.dat
+      32.77K   4%   88.40kB/s    0:00:08
+     770.05K 100%    1.94MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_697_Fast/Run_697_Fast_MID_9/
+>f+++++++ Run_697_Fast/Run_697_Fast_MID_9/Run_697_Fast_MID_9_FILE_0.dat
+      32.77K   4%   84.21kB/s    0:00:08
+     770.05K 100%    1.83MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_697_Fast/Run_697_Fast_log/
+>f+++++++ Run_697_Fast/Run_697_Fast_log/Run_697_Fast_MID_10_buffer.txt
+         735 100%    1.79kB/s    0:00:00
+         735 100%    1.79kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_697_Fast/Run_697_Fast_log/Run_697_Fast_MID_11_buffer.txt
+         735 100%    1.79kB/s    0:00:00
+         735 100%    1.79kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_697_Fast/Run_697_Fast_log/Run_697_Fast_MID_12_buffer.txt
+         735 100%    1.79kB/s    0:00:00
+         735 100%    1.79kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_697_Fast/Run_697_Fast_log/Run_697_Fast_MID_13_buffer.txt
+         735 100%    1.78kB/s    0:00:00
+         735 100%    1.78kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_697_Fast/Run_697_Fast_log/Run_697_Fast_MID_14_buffer.txt
+         735 100%    1.78kB/s    0:00:00
+         735 100%    1.78kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_697_Fast/Run_697_Fast_log/Run_697_Fast_MID_15_buffer.txt
+         735 100%    1.78kB/s    0:00:00
+         735 100%    1.78kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_697_Fast/Run_697_Fast_log/Run_697_Fast_MID_1_buffer.txt
+         735 100%    1.78kB/s    0:00:00
+         735 100%    1.78kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_697_Fast/Run_697_Fast_log/Run_697_Fast_MID_2_buffer.txt
+         735 100%    1.78kB/s    0:00:00
+         735 100%    1.78kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_697_Fast/Run_697_Fast_log/Run_697_Fast_MID_3_buffer.txt
+         735 100%    1.78kB/s    0:00:00
+         735 100%    1.78kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_697_Fast/Run_697_Fast_log/Run_697_Fast_MID_4_buffer.txt
+         735 100%    1.78kB/s    0:00:00
+         735 100%    1.78kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_697_Fast/Run_697_Fast_log/Run_697_Fast_MID_5_buffer.txt
+         735 100%    1.78kB/s    0:00:00
+         735 100%    1.78kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_697_Fast/Run_697_Fast_log/Run_697_Fast_MID_6_buffer.txt
+         735 100%    1.78kB/s    0:00:00
+         735 100%    1.78kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_697_Fast/Run_697_Fast_log/Run_697_Fast_MID_7_buffer.txt
+         735 100%    1.78kB/s    0:00:00
+         735 100%    1.78kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_697_Fast/Run_697_Fast_log/Run_697_Fast_MID_8_buffer.txt
+         735 100%    1.78kB/s    0:00:00
+         735 100%    1.78kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_697_Fast/Run_697_Fast_log/Run_697_Fast_MID_9_buffer.txt
+         735 100%    1.78kB/s    0:00:00
+         735 100%    1.78kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_697_Wave/
+cd+++++++ Run_697_Wave/Run_697_Wave_MID_1/
+>f+++++++ Run_697_Wave/Run_697_Wave_MID_1/Run_697_Wave_MID_1_FILE_0.dat
+      32.77K   0%   52.72kB/s    1:03:02
+      44.07M  22%   42.03MB/s    0:00:03
+     155.48M  77%   73.52MB/s    0:00:00
+     199.43M 100%   79.94MB/s    0:00:02 (xfer#31, to-check=44/95)
+cd+++++++ Run_697_Wave/Run_697_Wave_MID_10/
+>f+++++++ Run_697_Wave/Run_697_Wave_MID_10/Run_697_Wave_MID_10_FILE_0.dat
+      32.77K   0%   88.40kB/s    0:37:35
+      66.88M  33%   63.78MB/s    0:00:02
+     175.57M  88%   83.72MB/s    0:00:00
+     199.43M 100%   85.06MB/s    0:00:02 (xfer#32, to-check=42/95)
+cd+++++++ Run_697_Wave/Run_697_Wave_MID_11/
+>f+++++++ Run_697_Wave/Run_697_Wave_MID_11/Run_697_Wave_MID_11_FILE_0.dat
+      32.77K   0%  134.45kB/s    0:24:42
+      77.17M  38%   73.59MB/s    0:00:01
+     171.11M  85%   81.63MB/s    0:00:00
+     199.43M 100%   84.68MB/s    0:00:02 (xfer#33, to-check=40/95)
+cd+++++++ Run_697_Wave/Run_697_Wave_MID_12/
+>f+++++++ Run_697_Wave/Run_697_Wave_MID_12/Run_697_Wave_MID_12_FILE_0.dat
+      32.77K   0%  128.51kB/s    0:25:51
+      78.68M  39%   73.63MB/s    0:00:01
+     179.63M  90%   84.89MB/s    0:00:00
+     199.43M 100%   86.33MB/s    0:00:02 (xfer#34, to-check=38/95)
+cd+++++++ Run_697_Wave/Run_697_Wave_MID_13/
+>f+++++++ Run_697_Wave/Run_697_Wave_MID_13/Run_697_Wave_MID_13_FILE_0.dat
+      32.77K   0%  172.04kB/s    0:19:18
+      91.26M  45%   87.03MB/s    0:00:01
+     188.25M  94%   89.77MB/s    0:00:00
+     199.43M 100%   88.62MB/s    0:00:02 (xfer#35, to-check=36/95)
+cd+++++++ Run_697_Wave/Run_697_Wave_MID_14/
+>f+++++++ Run_697_Wave/Run_697_Wave_MID_14/Run_697_Wave_MID_14_FILE_0.dat
+      32.77K   0%  217.69kB/s    0:15:15
+      95.49M  47%   91.06MB/s    0:00:01
+     199.43M 100%  102.20MB/s    0:00:01 (xfer#36, to-check=34/95)
+cd+++++++ Run_697_Wave/Run_697_Wave_MID_15/
+>f+++++++ Run_697_Wave/Run_697_Wave_MID_15/Run_697_Wave_MID_15_FILE_0.dat
+      32.77K   0%   37.08kB/s    1:29:37
+       9.18M   4%    8.75MB/s    0:00:21
+     131.63M  66%   62.77MB/s    0:00:01
+     199.43M 100%   74.26MB/s    0:00:02 (xfer#37, to-check=32/95)
+cd+++++++ Run_697_Wave/Run_697_Wave_MID_2/
+>f+++++++ Run_697_Wave/Run_697_Wave_MID_2/Run_697_Wave_MID_2_FILE_0.dat
+      32.77K   0%   56.84kB/s    0:58:28
+      43.55M  21%   41.53MB/s    0:00:03
+     169.12M  84%   80.64MB/s    0:00:00
+     199.43M 100%   84.34MB/s    0:00:02 (xfer#38, to-check=30/95)
+cd+++++++ Run_697_Wave/Run_697_Wave_MID_3/
+>f+++++++ Run_697_Wave/Run_697_Wave_MID_3/Run_697_Wave_MID_3_FILE_0.dat
+      32.77K   0%  124.51kB/s    0:26:41
+      70.81M  35%   67.53MB/s    0:00:01
+     190.87M  95%   91.02MB/s    0:00:00
+     199.43M 100%   92.15MB/s    0:00:02 (xfer#39, to-check=28/95)
+cd+++++++ Run_697_Wave/Run_697_Wave_MID_4/
+>f+++++++ Run_697_Wave/Run_697_Wave_MID_4/Run_697_Wave_MID_4_FILE_0.dat
+      32.77K   0%  484.85kB/s    0:06:51
+     103.61M  51%   98.81MB/s    0:00:00
+     199.43M 100%  106.19MB/s    0:00:01 (xfer#40, to-check=26/95)
+cd+++++++ Run_697_Wave/Run_697_Wave_MID_5/
+>f+++++++ Run_697_Wave/Run_697_Wave_MID_5/Run_697_Wave_MID_5_FILE_0.dat
+      32.77K   0%   40.30kB/s    1:22:27
+      12.45M   6%   11.88MB/s    0:00:15
+     136.61M  68%   65.14MB/s    0:00:00
+     199.43M 100%   74.35MB/s    0:00:02 (xfer#41, to-check=24/95)
+cd+++++++ Run_697_Wave/Run_697_Wave_MID_6/
+>f+++++++ Run_697_Wave/Run_697_Wave_MID_6/Run_697_Wave_MID_6_FILE_0.dat
+      32.77K   0%   57.14kB/s    0:58:09
+      48.86M  24%   46.59MB/s    0:00:03
+     171.21M  85%   81.68MB/s    0:00:00
+     199.43M 100%   85.86MB/s    0:00:02 (xfer#42, to-check=22/95)
+cd+++++++ Run_697_Wave/Run_697_Wave_MID_7/
+>f+++++++ Run_697_Wave/Run_697_Wave_MID_7/Run_697_Wave_MID_7_FILE_0.dat
+      32.77K   0%  146.79kB/s    0:22:38
+      83.62M  41%   79.75MB/s    0:00:01
+     199.43M 100%   95.96MB/s    0:00:01 (xfer#43, to-check=20/95)
+cd+++++++ Run_697_Wave/Run_697_Wave_MID_8/
+>f+++++++ Run_697_Wave/Run_697_Wave_MID_8/Run_697_Wave_MID_8_FILE_0.dat
+      32.77K   0%   32.52kB/s    1:42:11
+     294.91K   0%  286.00kB/s    0:11:36
+     119.24M  59%   56.69MB/s    0:00:01
+     199.43M 100%   71.61MB/s    0:00:02 (xfer#44, to-check=18/95)
+cd+++++++ Run_697_Wave/Run_697_Wave_MID_9/
+>f+++++++ Run_697_Wave/Run_697_Wave_MID_9/Run_697_Wave_MID_9_FILE_0.dat
+      32.77K   0%   49.16kB/s    1:07:36
+      29.13M  14%   27.78MB/s    0:00:05
+     153.91M  77%   73.39MB/s    0:00:00
+     199.43M 100%   79.31MB/s    0:00:02 (xfer#45, to-check=16/95)
+cd+++++++ Run_697_Wave/Run_697_Wave_log/
+>f+++++++ Run_697_Wave/Run_697_Wave_log/Run_697_Wave_MID_10_buffer.txt
+      32.77K  72%   80.20kB/s    0:00:00
+      44.90K 100%  109.89kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_697_Wave/Run_697_Wave_log/Run_697_Wave_MID_11_buffer.txt
+      32.77K  72%   77.86kB/s    0:00:00
+      45.31K 100%  107.66kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_697_Wave/Run_697_Wave_log/Run_697_Wave_MID_12_buffer.txt
+      32.77K  73%   75.29kB/s    0:00:00
+      44.59K 100%  102.46kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_697_Wave/Run_697_Wave_log/Run_697_Wave_MID_13_buffer.txt
+      32.77K  72%   71.11kB/s    0:00:00
+      45.00K 100%   97.65kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_697_Wave/Run_697_Wave_log/Run_697_Wave_MID_14_buffer.txt
+      32.77K  72%   69.26kB/s    0:00:00
+      45.03K 100%   95.19kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_697_Wave/Run_697_Wave_log/Run_697_Wave_MID_15_buffer.txt
+      32.77K  73%   67.51kB/s    0:00:00
+      44.54K 100%   91.77kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_697_Wave/Run_697_Wave_log/Run_697_Wave_MID_1_buffer.txt
+      32.77K  73%   65.98kB/s    0:00:00
+      44.49K 100%   89.58kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_697_Wave/Run_697_Wave_log/Run_697_Wave_MID_2_buffer.txt
+      32.77K  72%   64.52kB/s    0:00:00
+      44.99K 100%   88.40kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_697_Wave/Run_697_Wave_log/Run_697_Wave_MID_3_buffer.txt
+      32.77K  73%   62.99kB/s    0:00:00
+      44.60K 100%   85.73kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_697_Wave/Run_697_Wave_log/Run_697_Wave_MID_4_buffer.txt
+      32.77K  73%   60.15kB/s    0:00:00
+      44.49K 100%   81.66kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_697_Wave/Run_697_Wave_log/Run_697_Wave_MID_5_buffer.txt
+      32.77K  72%   58.82kB/s    0:00:00
+      45.13K 100%   81.02kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_697_Wave/Run_697_Wave_log/Run_697_Wave_MID_6_buffer.txt
+      32.77K  73%   57.66kB/s    0:00:00
+      44.55K 100%   78.38kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_697_Wave/Run_697_Wave_log/Run_697_Wave_MID_7_buffer.txt
+      32.77K  73%   55.17kB/s    0:00:00
+      44.60K 100%   75.10kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_697_Wave/Run_697_Wave_log/Run_697_Wave_MID_8_buffer.txt
+      32.77K  72%   54.05kB/s    0:00:00
+      45.04K 100%   74.30kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_697_Wave/Run_697_Wave_log/Run_697_Wave_MID_9_buffer.txt
+      32.77K  73%   53.07kB/s    0:00:00
+      44.63K 100%   72.28kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 3.00G bytes  received 1.55K bytes  105.40M bytes/sec
+total size is 3.00G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_697/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_697_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

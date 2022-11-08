@@ -1,0 +1,308 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_445/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_445[0m
+[94m[INFO][0m SSD data folder size = [96m[1m0.934 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [--------------------------------------------------][0m [92m[1m0.365 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 54.366 GB / Free : [4m14847.187 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_445/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_445/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_445.txt --progress /Volumes/HDD_16TB_1/HDD_Run_445/ /Volumes/HDD_16TB_2/HDD_Run_445/[0m`? [y/n] building file list ... 
+ 0 files...
+ 100 files...
+110 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_445
+cd+++++++ ./
+cd+++++++ Run_445_Fast/
+cd+++++++ Run_445_Fast/Run_445_Fast_MID_1/
+>f+++++++ Run_445_Fast/Run_445_Fast_MID_1/Run_445_Fast_MID_1_FILE_0.dat
+      32.77K  13%    0.00kB/s    0:00:00
+     245.76K 100%  203.12MB/s    0:00:00 (xfer#1, to-check=106/110)
+cd+++++++ Run_445_Fast/Run_445_Fast_MID_10/
+>f+++++++ Run_445_Fast/Run_445_Fast_MID_10/Run_445_Fast_MID_10_FILE_0.dat
+      32.77K  13%   60.38kB/s    0:00:03
+     245.76K 100%  451.98kB/s    0:00:00 (xfer#2, to-check=104/110)
+cd+++++++ Run_445_Fast/Run_445_Fast_MID_11/
+>f+++++++ Run_445_Fast/Run_445_Fast_MID_11/Run_445_Fast_MID_11_FILE_0.dat
+      32.77K  13%   59.15kB/s    0:00:03
+     245.76K 100%  441.99kB/s    0:00:00 (xfer#3, to-check=102/110)
+cd+++++++ Run_445_Fast/Run_445_Fast_MID_12/
+>f+++++++ Run_445_Fast/Run_445_Fast_MID_12/Run_445_Fast_MID_12_FILE_0.dat
+      32.77K  13%   56.04kB/s    0:00:03
+     245.76K 100%  419.58kB/s    0:00:00 (xfer#4, to-check=100/110)
+cd+++++++ Run_445_Fast/Run_445_Fast_MID_13/
+>f+++++++ Run_445_Fast/Run_445_Fast_MID_13/Run_445_Fast_MID_13_FILE_0.dat
+      32.77K  13%   53.87kB/s    0:00:03
+     245.76K 100%  402.68kB/s    0:00:00 (xfer#5, to-check=98/110)
+cd+++++++ Run_445_Fast/Run_445_Fast_MID_14/
+>f+++++++ Run_445_Fast/Run_445_Fast_MID_14/Run_445_Fast_MID_14_FILE_0.dat
+      32.77K  13%   52.20kB/s    0:00:04
+     245.76K 100%  390.88kB/s    0:00:00 (xfer#6, to-check=96/110)
+cd+++++++ Run_445_Fast/Run_445_Fast_MID_15/
+>f+++++++ Run_445_Fast/Run_445_Fast_MID_15/Run_445_Fast_MID_15_FILE_0.dat
+      32.77K  13%   50.96kB/s    0:00:04
+     245.76K 100%  382.17kB/s    0:00:00 (xfer#7, to-check=94/110)
+cd+++++++ Run_445_Fast/Run_445_Fast_MID_2/
+>f+++++++ Run_445_Fast/Run_445_Fast_MID_2/Run_445_Fast_MID_2_FILE_0.dat
+      32.77K  13%   48.63kB/s    0:00:04
+     245.76K 100%  364.19kB/s    0:00:00 (xfer#8, to-check=92/110)
+cd+++++++ Run_445_Fast/Run_445_Fast_MID_3/
+>f+++++++ Run_445_Fast/Run_445_Fast_MID_3/Run_445_Fast_MID_3_FILE_0.dat
+      32.77K  13%   46.99kB/s    0:00:04
+     245.76K 100%  351.91kB/s    0:00:00 (xfer#9, to-check=90/110)
+cd+++++++ Run_445_Fast/Run_445_Fast_MID_4/
+>f+++++++ Run_445_Fast/Run_445_Fast_MID_4/Run_445_Fast_MID_4_FILE_0.dat
+      32.77K  13%   45.91kB/s    0:00:04
+     245.76K 100%  343.84kB/s    0:00:00 (xfer#10, to-check=88/110)
+cd+++++++ Run_445_Fast/Run_445_Fast_MID_5/
+>f+++++++ Run_445_Fast/Run_445_Fast_MID_5/Run_445_Fast_MID_5_FILE_0.dat
+      32.77K  13%   44.88kB/s    0:00:04
+     245.76K 100%  336.13kB/s    0:00:00 (xfer#11, to-check=86/110)
+cd+++++++ Run_445_Fast/Run_445_Fast_MID_6/
+>f+++++++ Run_445_Fast/Run_445_Fast_MID_6/Run_445_Fast_MID_6_FILE_0.dat
+      32.77K  13%   43.84kB/s    0:00:04
+     245.76K 100%  328.32kB/s    0:00:00 (xfer#12, to-check=84/110)
+cd+++++++ Run_445_Fast/Run_445_Fast_MID_7/
+>f+++++++ Run_445_Fast/Run_445_Fast_MID_7/Run_445_Fast_MID_7_FILE_0.dat
+      32.77K  13%   42.95kB/s    0:00:04
+     245.76K 100%  321.72kB/s    0:00:00 (xfer#13, to-check=82/110)
+cd+++++++ Run_445_Fast/Run_445_Fast_MID_8/
+>f+++++++ Run_445_Fast/Run_445_Fast_MID_8/Run_445_Fast_MID_8_FILE_0.dat
+      32.77K  13%   42.05kB/s    0:00:05
+     245.76K 100%  314.96kB/s    0:00:00 (xfer#14, to-check=80/110)
+cd+++++++ Run_445_Fast/Run_445_Fast_MID_9/
+>f+++++++ Run_445_Fast/Run_445_Fast_MID_9/Run_445_Fast_MID_9_FILE_0.dat
+      32.77K  13%   40.56kB/s    0:00:05
+     245.76K 100%  304.18kB/s    0:00:00 (xfer#15, to-check=78/110)
+cd+++++++ Run_445_Fast/Run_445_Fast_log/
+>f+++++++ Run_445_Fast/Run_445_Fast_log/Run_445_Fast_MID_10_buffer.txt
+         224 100%    0.27kB/s    0:00:00
+         224 100%    0.27kB/s    0:00:00 (xfer#16, to-check=76/110)
+>f+++++++ Run_445_Fast/Run_445_Fast_log/Run_445_Fast_MID_11_buffer.txt
+         224 100%    0.26kB/s    0:00:00
+         224 100%    0.26kB/s    0:00:00 (xfer#17, to-check=75/110)
+>f+++++++ Run_445_Fast/Run_445_Fast_log/Run_445_Fast_MID_12_buffer.txt
+         224 100%    0.26kB/s    0:00:00
+         224 100%    0.26kB/s    0:00:00 (xfer#18, to-check=74/110)
+>f+++++++ Run_445_Fast/Run_445_Fast_log/Run_445_Fast_MID_13_buffer.txt
+         224 100%    0.25kB/s    0:00:00
+         224 100%    0.25kB/s    0:00:00 (xfer#19, to-check=73/110)
+>f+++++++ Run_445_Fast/Run_445_Fast_log/Run_445_Fast_MID_14_buffer.txt
+         224 100%    0.24kB/s    0:00:00
+         224 100%    0.24kB/s    0:00:00 (xfer#20, to-check=72/110)
+>f+++++++ Run_445_Fast/Run_445_Fast_log/Run_445_Fast_MID_15_buffer.txt
+         224 100%    0.24kB/s    0:00:00
+         224 100%    0.24kB/s    0:00:00 (xfer#21, to-check=71/110)
+>f+++++++ Run_445_Fast/Run_445_Fast_log/Run_445_Fast_MID_1_buffer.txt
+         224 100%    0.24kB/s    0:00:00
+         224 100%    0.24kB/s    0:00:00 (xfer#22, to-check=70/110)
+>f+++++++ Run_445_Fast/Run_445_Fast_log/Run_445_Fast_MID_2_buffer.txt
+         224 100%    0.24kB/s    0:00:00
+         224 100%    0.24kB/s    0:00:00 (xfer#23, to-check=69/110)
+>f+++++++ Run_445_Fast/Run_445_Fast_log/Run_445_Fast_MID_3_buffer.txt
+         224 100%    0.24kB/s    0:00:00
+         224 100%    0.24kB/s    0:00:00 (xfer#24, to-check=68/110)
+>f+++++++ Run_445_Fast/Run_445_Fast_log/Run_445_Fast_MID_4_buffer.txt
+         224 100%    0.24kB/s    0:00:00
+         224 100%    0.24kB/s    0:00:00 (xfer#25, to-check=67/110)
+>f+++++++ Run_445_Fast/Run_445_Fast_log/Run_445_Fast_MID_5_buffer.txt
+         224 100%    0.24kB/s    0:00:00
+         224 100%    0.24kB/s    0:00:00 (xfer#26, to-check=66/110)
+>f+++++++ Run_445_Fast/Run_445_Fast_log/Run_445_Fast_MID_6_buffer.txt
+         224 100%    0.24kB/s    0:00:00
+         224 100%    0.24kB/s    0:00:00 (xfer#27, to-check=65/110)
+>f+++++++ Run_445_Fast/Run_445_Fast_log/Run_445_Fast_MID_7_buffer.txt
+         224 100%    0.24kB/s    0:00:00
+         224 100%    0.24kB/s    0:00:00 (xfer#28, to-check=64/110)
+>f+++++++ Run_445_Fast/Run_445_Fast_log/Run_445_Fast_MID_8_buffer.txt
+         224 100%    0.24kB/s    0:00:00
+         224 100%    0.24kB/s    0:00:00 (xfer#29, to-check=63/110)
+>f+++++++ Run_445_Fast/Run_445_Fast_log/Run_445_Fast_MID_9_buffer.txt
+         224 100%    0.24kB/s    0:00:00
+         224 100%    0.24kB/s    0:00:00 (xfer#30, to-check=62/110)
+cd+++++++ Run_445_Wave/
+cd+++++++ Run_445_Wave/Run_445_Wave_MID_1/
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_1/Run_445_Wave_MID_1_FILE_0.dat
+      32.77K   0%   34.45kB/s    0:31:43
+       5.47M   8%    5.22MB/s    0:00:11
+      40.40M  61%   19.16MB/s    0:00:01
+      54.03M  82%   17.09MB/s    0:00:00
+      65.60M 100%   18.69MB/s    0:00:03 (xfer#31, to-check=59/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_1/Run_445_Wave_MID_1_FILE_1.dat
+      32.77K   3%   96.10kB/s    0:00:09
+     983.04K 100%    2.73MB/s    0:00:00 (xfer#32, to-check=58/110)
+cd+++++++ Run_445_Wave/Run_445_Wave_MID_10/
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_10/Run_445_Wave_MID_10_FILE_0.dat
+      32.77K   0%   92.75kB/s    0:11:46
+      28.08M  42%   26.78MB/s    0:00:01
+      41.71M  63%   19.79MB/s    0:00:01
+      65.60M 100%   21.78MB/s    0:00:02 (xfer#33, to-check=56/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_10/Run_445_Wave_MID_10_FILE_1.dat
+      32.77K   3%   37.04kB/s    0:00:25
+     983.04K 100%    1.07MB/s    0:00:00 (xfer#34, to-check=55/110)
+cd+++++++ Run_445_Wave/Run_445_Wave_MID_11/
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_11/Run_445_Wave_MID_11_FILE_0.dat
+      32.77K   0%   36.57kB/s    0:29:52
+      12.32M  18%   11.75MB/s    0:00:04
+      27.82M  42%   13.25MB/s    0:00:02
+      41.45M  63%   13.17MB/s    0:00:01
+      65.60M 100%   19.05MB/s    0:00:03 (xfer#35, to-check=53/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_11/Run_445_Wave_MID_11_FILE_1.dat
+      32.77K   3%  113.07kB/s    0:00:08
+     983.04K 100%    2.93MB/s    0:00:00 (xfer#36, to-check=52/110)
+cd+++++++ Run_445_Wave/Run_445_Wave_MID_12/
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_12/Run_445_Wave_MID_12_FILE_0.dat
+      32.77K   0%   99.38kB/s    0:10:59
+       8.95M  13%    8.51MB/s    0:00:06
+      21.53M  32%   10.26MB/s    0:00:04
+      62.42M  95%   19.76MB/s    0:00:00
+      65.60M 100%   19.43MB/s    0:00:03 (xfer#37, to-check=50/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_12/Run_445_Wave_MID_12_FILE_1.dat
+      32.77K   3%  143.50kB/s    0:00:06
+     983.04K 100%    3.18MB/s    0:00:00 (xfer#38, to-check=49/110)
+cd+++++++ Run_445_Wave/Run_445_Wave_MID_13/
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_13/Run_445_Wave_MID_13_FILE_0.dat
+      32.77K   0%  103.23kB/s    0:10:35
+       9.99M  15%    9.50MB/s    0:00:05
+      41.19M  62%   19.62MB/s    0:00:01
+      65.04M  99%   20.66MB/s    0:00:00
+      65.60M 100%   20.55MB/s    0:00:03 (xfer#39, to-check=47/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_13/Run_445_Wave_MID_13_FILE_1.dat
+      32.77K   3%  477.61kB/s    0:00:01
+     983.04K 100%    7.88MB/s    0:00:00 (xfer#40, to-check=46/110)
+cd+++++++ Run_445_Wave/Run_445_Wave_MID_14/
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_14/Run_445_Wave_MID_14_FILE_0.dat
+      32.77K   0%  246.15kB/s    0:04:26
+      18.91M  28%   18.03MB/s    0:00:02
+      56.92M  86%   26.99MB/s    0:00:00
+      65.60M 100%   24.01MB/s    0:00:02 (xfer#41, to-check=44/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_14/Run_445_Wave_MID_14_FILE_1.dat
+      32.77K   3%   52.46kB/s    0:00:18
+     983.04K 100%    1.41MB/s    0:00:00 (xfer#42, to-check=43/110)
+cd+++++++ Run_445_Wave/Run_445_Wave_MID_15/
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_15/Run_445_Wave_MID_15_FILE_0.dat
+      32.77K   0%   46.99kB/s    0:23:15
+       4.49M   6%    4.28MB/s    0:00:13
+      42.50M  64%   20.13MB/s    0:00:01
+      57.18M  87%   18.03MB/s    0:00:00
+      65.60M 100%   18.44MB/s    0:00:03 (xfer#43, to-check=41/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_15/Run_445_Wave_MID_15_FILE_1.dat
+      32.77K   3%   86.72kB/s    0:00:10
+     983.04K 100%    2.47MB/s    0:00:00 (xfer#44, to-check=40/110)
+cd+++++++ Run_445_Wave/Run_445_Wave_MID_2/
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_2/Run_445_Wave_MID_2_FILE_0.dat
+      32.77K   0%   84.21kB/s    0:12:58
+      29.39M  44%   28.00MB/s    0:00:01
+      43.81M  66%   20.87MB/s    0:00:01
+      65.60M 100%   21.50MB/s    0:00:02 (xfer#45, to-check=38/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_2/Run_445_Wave_MID_2_FILE_1.dat
+      32.77K   3%   35.16kB/s    0:00:27
+     983.04K 100%    1.01MB/s    0:00:00 (xfer#46, to-check=37/110)
+cd+++++++ Run_445_Wave/Run_445_Wave_MID_3/
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_3/Run_445_Wave_MID_3_FILE_0.dat
+      32.77K   0%   34.41kB/s    0:31:45
+       4.49M   6%    4.28MB/s    0:00:13
+      64.52M  98%   30.75MB/s    0:00:00
+      65.60M 100%   31.13MB/s    0:00:02 (xfer#47, to-check=35/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_3/Run_445_Wave_MID_3_FILE_1.dat
+      32.77K   3%    3.12MB/s    0:00:00
+     983.04K 100%   52.08MB/s    0:00:00 (xfer#48, to-check=34/110)
+cd+++++++ Run_445_Wave/Run_445_Wave_MID_4/
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_4/Run_445_Wave_MID_4_FILE_0.dat
+      32.77K   0%    1.56MB/s    0:00:40
+      65.60M 100%   77.05MB/s    0:00:00 (xfer#49, to-check=32/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_4/Run_445_Wave_MID_4_FILE_1.dat
+      32.77K   3%   39.36kB/s    0:00:24
+     983.04K 100%    1.14MB/s    0:00:00 (xfer#50, to-check=31/110)
+cd+++++++ Run_445_Wave/Run_445_Wave_MID_5/
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_5/Run_445_Wave_MID_5_FILE_0.dat
+      32.77K   0%   38.88kB/s    0:28:06
+      11.89M  18%   11.34MB/s    0:00:04
+      63.73M  97%   30.39MB/s    0:00:00
+      65.60M 100%   30.86MB/s    0:00:02 (xfer#51, to-check=29/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_5/Run_445_Wave_MID_5_FILE_1.dat
+      32.77K   3%  571.43kB/s    0:00:01
+     983.04K 100%   13.59MB/s    0:00:00 (xfer#52, to-check=28/110)
+cd+++++++ Run_445_Wave/Run_445_Wave_MID_6/
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_6/Run_445_Wave_MID_6_FILE_0.dat
+      32.77K   0%  390.24kB/s    0:02:48
+      46.17M  70%   43.99MB/s    0:00:00
+      65.60M 100%   46.14MB/s    0:00:01 (xfer#53, to-check=26/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_6/Run_445_Wave_MID_6_FILE_1.dat
+      32.77K   3%   89.64kB/s    0:00:10
+     983.04K 100%    2.37MB/s    0:00:00 (xfer#54, to-check=25/110)
+cd+++++++ Run_445_Wave/Run_445_Wave_MID_7/
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_7/Run_445_Wave_MID_7_FILE_0.dat
+      32.77K   0%   80.20kB/s    0:13:37
+      27.23M  41%   25.97MB/s    0:00:01
+      65.60M 100%   34.28MB/s    0:00:01 (xfer#55, to-check=23/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_7/Run_445_Wave_MID_7_FILE_1.dat
+      32.77K   3%   38.60kB/s    0:00:24
+     983.04K 100%    1.12MB/s    0:00:00 (xfer#56, to-check=22/110)
+cd+++++++ Run_445_Wave/Run_445_Wave_MID_8/
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_8/Run_445_Wave_MID_8_FILE_0.dat
+      32.77K   0%   38.14kB/s    0:28:39
+       8.72M  13%    8.31MB/s    0:00:06
+      54.82M  83%   26.14MB/s    0:00:00
+      65.60M 100%   29.07MB/s    0:00:02 (xfer#57, to-check=20/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_8/Run_445_Wave_MID_8_FILE_1.dat
+      32.77K   3%  206.45kB/s    0:00:04
+     983.04K 100%    5.72MB/s    0:00:00 (xfer#58, to-check=19/110)
+cd+++++++ Run_445_Wave/Run_445_Wave_MID_9/
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_9/Run_445_Wave_MID_9_FILE_0.dat
+      32.77K   0%  192.77kB/s    0:05:40
+      48.01M  73%   45.78MB/s    0:00:00
+      65.60M 100%   45.40MB/s    0:00:01 (xfer#59, to-check=17/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_MID_9/Run_445_Wave_MID_9_FILE_1.dat
+      32.77K   3%   84.21kB/s    0:00:11
+     983.04K 100%    2.28MB/s    0:00:00 (xfer#60, to-check=16/110)
+cd+++++++ Run_445_Wave/Run_445_Wave_log/
+>f+++++++ Run_445_Wave/Run_445_Wave_log/Run_445_Wave_MID_10_buffer.txt
+      14.98K 100%   35.35kB/s    0:00:00
+      14.98K 100%   35.35kB/s    0:00:00 (xfer#61, to-check=14/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_log/Run_445_Wave_MID_11_buffer.txt
+      15.00K 100%   35.21kB/s    0:00:00
+      15.00K 100%   35.21kB/s    0:00:00 (xfer#62, to-check=13/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_log/Run_445_Wave_MID_12_buffer.txt
+      14.88K 100%   34.85kB/s    0:00:00
+      14.88K 100%   34.85kB/s    0:00:00 (xfer#63, to-check=12/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_log/Run_445_Wave_MID_13_buffer.txt
+      15.04K 100%   35.06kB/s    0:00:00
+      15.04K 100%   35.06kB/s    0:00:00 (xfer#64, to-check=11/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_log/Run_445_Wave_MID_14_buffer.txt
+      15.01K 100%   34.90kB/s    0:00:00
+      15.01K 100%   34.90kB/s    0:00:00 (xfer#65, to-check=10/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_log/Run_445_Wave_MID_15_buffer.txt
+      14.94K 100%   34.57kB/s    0:00:00
+      14.94K 100%   34.57kB/s    0:00:00 (xfer#66, to-check=9/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_log/Run_445_Wave_MID_1_buffer.txt
+      14.93K 100%   34.54kB/s    0:00:00
+      14.93K 100%   34.54kB/s    0:00:00 (xfer#67, to-check=8/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_log/Run_445_Wave_MID_2_buffer.txt
+      14.90K 100%   34.31kB/s    0:00:00
+      14.90K 100%   34.31kB/s    0:00:00 (xfer#68, to-check=7/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_log/Run_445_Wave_MID_3_buffer.txt
+      14.94K 100%   34.41kB/s    0:00:00
+      14.94K 100%   34.41kB/s    0:00:00 (xfer#69, to-check=6/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_log/Run_445_Wave_MID_4_buffer.txt
+      14.94K 100%   34.10kB/s    0:00:00
+      14.94K 100%   34.10kB/s    0:00:00 (xfer#70, to-check=5/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_log/Run_445_Wave_MID_5_buffer.txt
+      14.98K 100%   34.03kB/s    0:00:00
+      14.98K 100%   34.03kB/s    0:00:00 (xfer#71, to-check=4/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_log/Run_445_Wave_MID_6_buffer.txt
+      14.96K 100%   33.81kB/s    0:00:00
+      14.96K 100%   33.81kB/s    0:00:00 (xfer#72, to-check=3/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_log/Run_445_Wave_MID_7_buffer.txt
+      14.94K 100%   33.77kB/s    0:00:00
+      14.94K 100%   33.77kB/s    0:00:00 (xfer#73, to-check=2/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_log/Run_445_Wave_MID_8_buffer.txt
+      15.03K 100%   33.89kB/s    0:00:00
+      15.03K 100%   33.89kB/s    0:00:00 (xfer#74, to-check=1/110)
+>f+++++++ Run_445_Wave/Run_445_Wave_log/Run_445_Wave_MID_9_buffer.txt
+      14.91K 100%   33.56kB/s    0:00:00
+      14.91K 100%   33.56kB/s    0:00:00 (xfer#75, to-check=0/110)
+
+sent 1.00G bytes  received 1.88K bytes  31.84M bytes/sec
+total size is 1.00G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_445/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_445_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

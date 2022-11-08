@@ -1,0 +1,684 @@
+[94m[INFO][0m Transferring SSD folder : [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_403/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_1/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_403[0m
+[94m[INFO][0m SSD data folder size = [96m[1m4.73 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_1[0m
+[94m[INFO][0m[92m Storage usage : [--------------------------------------------------][0m [92m[1m0.037 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 5.499 GB / Free : [4m14896.054 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_403/[0m to [1m[96m/Volumes/HDD_16TB_1/HDD_Run_403/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log_Run_403.txt --progress /Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_403/ /Volumes/HDD_16TB_1/HDD_Run_403/[0m`? [y/n] building file list ... 
+ 0 files...
+ 100 files...
+ 200 files...
+230 files to consider
+created directory /Volumes/HDD_16TB_1/HDD_Run_403
+cd+++++++ ./
+cd+++++++ Run_403_Fast/
+cd+++++++ Run_403_Fast/Run_403_Fast_MID_1/
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_1/Run_403_Fast_MID_1_FILE_0.dat
+      32.77K   1%    0.00kB/s    0:00:00
+       2.06M 100%   58.71MB/s    0:00:00 (xfer#1, to-check=226/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_1/Run_403_Fast_MID_1_FILE_1.dat
+      32.77K   1%  914.29kB/s    0:00:02
+       2.06M 100%   27.34MB/s    0:00:00 (xfer#2, to-check=225/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_1/Run_403_Fast_MID_1_FILE_2.dat
+      32.77K   1%   56.14kB/s    0:00:36
+       2.06M 100%    3.21MB/s    0:00:00 (xfer#3, to-check=224/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_1/Run_403_Fast_MID_1_FILE_3.dat
+      32.77K   1%   51.95kB/s    0:00:39
+       2.06M 100%    3.11MB/s    0:00:00 (xfer#4, to-check=223/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_1/Run_403_Fast_MID_1_FILE_4.dat
+      32.77K   1%   50.39kB/s    0:00:39
+       2.00M 100%    2.94MB/s    0:00:00 (xfer#5, to-check=222/230)
+cd+++++++ Run_403_Fast/Run_403_Fast_MID_10/
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_10/Run_403_Fast_MID_10_FILE_0.dat
+      32.77K   1%   49.16kB/s    0:00:41
+       2.06M 100%    2.96MB/s    0:00:00 (xfer#6, to-check=220/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_10/Run_403_Fast_MID_10_FILE_1.dat
+      32.77K   1%   47.98kB/s    0:00:42
+       2.06M 100%    2.89MB/s    0:00:00 (xfer#7, to-check=219/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_10/Run_403_Fast_MID_10_FILE_2.dat
+      32.77K   1%   46.92kB/s    0:00:43
+       2.06M 100%    2.83MB/s    0:00:00 (xfer#8, to-check=218/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_10/Run_403_Fast_MID_10_FILE_3.dat
+      32.77K   1%   45.91kB/s    0:00:44
+       2.06M 100%    2.77MB/s    0:00:00 (xfer#9, to-check=217/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_10/Run_403_Fast_MID_10_FILE_4.dat
+      32.77K   1%   44.88kB/s    0:00:43
+       2.00M 100%    2.63MB/s    0:00:00 (xfer#10, to-check=216/230)
+cd+++++++ Run_403_Fast/Run_403_Fast_MID_11/
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_11/Run_403_Fast_MID_11_FILE_0.dat
+      32.77K   1%   44.02kB/s    0:00:46
+       2.06M 100%    2.66MB/s    0:00:00 (xfer#11, to-check=214/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_11/Run_403_Fast_MID_11_FILE_1.dat
+      32.77K   1%   43.13kB/s    0:00:47
+       2.06M 100%    2.59MB/s    0:00:00 (xfer#12, to-check=213/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_11/Run_403_Fast_MID_11_FILE_2.dat
+      32.77K   1%   42.05kB/s    0:00:48
+       2.06M 100%    2.54MB/s    0:00:00 (xfer#13, to-check=212/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_11/Run_403_Fast_MID_11_FILE_3.dat
+      32.77K   1%   41.18kB/s    0:00:49
+       2.06M 100%    2.49MB/s    0:00:00 (xfer#14, to-check=211/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_11/Run_403_Fast_MID_11_FILE_4.dat
+      32.77K   1%   40.40kB/s    0:00:48
+       2.00M 100%    2.37MB/s    0:00:00 (xfer#15, to-check=210/230)
+cd+++++++ Run_403_Fast/Run_403_Fast_MID_12/
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_12/Run_403_Fast_MID_12_FILE_0.dat
+      32.77K   1%   39.65kB/s    0:00:51
+       2.06M 100%    2.40MB/s    0:00:00 (xfer#16, to-check=208/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_12/Run_403_Fast_MID_12_FILE_1.dat
+      32.77K   1%   38.93kB/s    0:00:52
+       2.06M 100%    2.35MB/s    0:00:00 (xfer#17, to-check=207/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_12/Run_403_Fast_MID_12_FILE_2.dat
+      32.77K   1%   38.23kB/s    0:00:53
+       2.06M 100%    2.31MB/s    0:00:00 (xfer#18, to-check=206/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_12/Run_403_Fast_MID_12_FILE_3.dat
+      32.77K   1%   37.51kB/s    0:00:54
+       2.06M 100%    2.27MB/s    0:00:00 (xfer#19, to-check=205/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_12/Run_403_Fast_MID_12_FILE_4.dat
+      32.77K   1%   36.82kB/s    0:00:53
+       2.00M 100%    2.15MB/s    0:00:00 (xfer#20, to-check=204/230)
+cd+++++++ Run_403_Fast/Run_403_Fast_MID_13/
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_13/Run_403_Fast_MID_13_FILE_0.dat
+      32.77K   1%   36.08kB/s    0:00:56
+       2.06M 100%    2.19MB/s    0:00:00 (xfer#21, to-check=202/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_13/Run_403_Fast_MID_13_FILE_1.dat
+      32.77K   1%   35.44kB/s    0:00:57
+       2.06M 100%    2.15MB/s    0:00:00 (xfer#22, to-check=201/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_13/Run_403_Fast_MID_13_FILE_2.dat
+      32.77K   1%   34.86kB/s    0:00:58
+       2.06M 100%    2.11MB/s    0:00:00 (xfer#23, to-check=200/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_13/Run_403_Fast_MID_13_FILE_3.dat
+      32.77K   1%   34.26kB/s    0:00:59
+       2.06M 100%    2.08MB/s    0:00:00 (xfer#24, to-check=199/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_13/Run_403_Fast_MID_13_FILE_4.dat
+      32.77K   1%   33.72kB/s    0:00:58
+       2.00M 100%    1.97MB/s    0:00:00 (xfer#25, to-check=198/230)
+cd+++++++ Run_403_Fast/Run_403_Fast_MID_14/
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_14/Run_403_Fast_MID_14_FILE_0.dat
+      32.77K   1%   33.09kB/s    0:01:01
+       2.06M 100%    1.98MB/s    0:00:00 (xfer#26, to-check=196/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_14/Run_403_Fast_MID_14_FILE_1.dat
+      32.77K   1%   32.19kB/s    0:01:03
+     819.20K  39%  800.00kB/s    0:00:01
+       2.06M 100%    1.95MB/s    0:00:01 (xfer#27, to-check=195/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_14/Run_403_Fast_MID_14_FILE_2.dat
+      32.77K   1%    3.12MB/s    0:00:00
+       2.06M 100%   82.03MB/s    0:00:00 (xfer#28, to-check=194/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_14/Run_403_Fast_MID_14_FILE_3.dat
+      32.77K   1%    1.25MB/s    0:00:01
+       2.06M 100%   50.48MB/s    0:00:00 (xfer#29, to-check=193/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_14/Run_403_Fast_MID_14_FILE_4.dat
+      32.77K   1%  780.49kB/s    0:00:02
+       2.00M 100%   34.66MB/s    0:00:00 (xfer#30, to-check=192/230)
+cd+++++++ Run_403_Fast/Run_403_Fast_MID_15/
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_15/Run_403_Fast_MID_15_FILE_0.dat
+      32.77K   1%  571.43kB/s    0:00:03
+       2.06M 100%   25.90MB/s    0:00:00 (xfer#31, to-check=190/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_15/Run_403_Fast_MID_15_FILE_1.dat
+      32.77K   1%  415.58kB/s    0:00:04
+       2.06M 100%   21.40MB/s    0:00:00 (xfer#32, to-check=189/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_15/Run_403_Fast_MID_15_FILE_2.dat
+      32.77K   1%  344.09kB/s    0:00:05
+       2.06M 100%   18.40MB/s    0:00:00 (xfer#33, to-check=188/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_15/Run_403_Fast_MID_15_FILE_3.dat
+      32.77K   1%  293.58kB/s    0:00:06
+       2.06M 100%   16.01MB/s    0:00:00 (xfer#34, to-check=187/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_15/Run_403_Fast_MID_15_FILE_4.dat
+      32.77K   1%  258.06kB/s    0:00:07
+       2.00M 100%   13.71MB/s    0:00:00 (xfer#35, to-check=186/230)
+cd+++++++ Run_403_Fast/Run_403_Fast_MID_2/
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_2/Run_403_Fast_MID_2_FILE_0.dat
+      32.77K   1%  228.57kB/s    0:00:08
+       2.06M 100%   12.62MB/s    0:00:00 (xfer#36, to-check=184/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_2/Run_403_Fast_MID_2_FILE_1.dat
+      32.77K   1%  203.82kB/s    0:00:09
+       2.06M 100%   11.45MB/s    0:00:00 (xfer#37, to-check=183/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_2/Run_403_Fast_MID_2_FILE_2.dat
+      32.77K   1%  184.97kB/s    0:00:10
+       2.06M 100%   10.53MB/s    0:00:00 (xfer#38, to-check=182/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_2/Run_403_Fast_MID_2_FILE_3.dat
+      32.77K   1%  169.31kB/s    0:00:11
+       2.06M 100%    9.65MB/s    0:00:00 (xfer#39, to-check=181/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_2/Run_403_Fast_MID_2_FILE_4.dat
+      32.77K   1%  156.10kB/s    0:00:12
+       2.00M 100%    8.70MB/s    0:00:00 (xfer#40, to-check=180/230)
+cd+++++++ Run_403_Fast/Run_403_Fast_MID_3/
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_3/Run_403_Fast_MID_3_FILE_0.dat
+      32.77K   1%  145.45kB/s    0:00:13
+       2.06M 100%    8.38MB/s    0:00:00 (xfer#41, to-check=178/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_3/Run_403_Fast_MID_3_FILE_1.dat
+      32.77K   1%  135.59kB/s    0:00:14
+       2.06M 100%    7.84MB/s    0:00:00 (xfer#42, to-check=177/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_3/Run_403_Fast_MID_3_FILE_2.dat
+      32.77K   1%  126.48kB/s    0:00:16
+       2.06M 100%    7.35MB/s    0:00:00 (xfer#43, to-check=176/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_3/Run_403_Fast_MID_3_FILE_3.dat
+      32.77K   1%  118.96kB/s    0:00:17
+       2.06M 100%    6.96MB/s    0:00:00 (xfer#44, to-check=175/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_3/Run_403_Fast_MID_3_FILE_4.dat
+      32.77K   1%  112.28kB/s    0:00:17
+       2.00M 100%    6.38MB/s    0:00:00 (xfer#45, to-check=174/230)
+cd+++++++ Run_403_Fast/Run_403_Fast_MID_4/
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_4/Run_403_Fast_MID_4_FILE_0.dat
+      32.77K   1%  106.67kB/s    0:00:19
+       2.06M 100%    6.27MB/s    0:00:00 (xfer#46, to-check=172/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_4/Run_403_Fast_MID_4_FILE_1.dat
+      32.77K   1%  101.59kB/s    0:00:19
+       2.06M 100%    5.97MB/s    0:00:00 (xfer#47, to-check=171/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_4/Run_403_Fast_MID_4_FILE_2.dat
+      32.77K   1%   96.39kB/s    0:00:21
+       2.06M 100%    5.69MB/s    0:00:00 (xfer#48, to-check=170/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_4/Run_403_Fast_MID_4_FILE_3.dat
+      32.77K   1%   92.22kB/s    0:00:22
+       2.06M 100%    5.45MB/s    0:00:00 (xfer#49, to-check=169/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_4/Run_403_Fast_MID_4_FILE_4.dat
+      32.77K   1%   88.40kB/s    0:00:22
+       2.00M 100%    5.07MB/s    0:00:00 (xfer#50, to-check=168/230)
+cd+++++++ Run_403_Fast/Run_403_Fast_MID_5/
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_5/Run_403_Fast_MID_5_FILE_0.dat
+      32.77K   1%   84.88kB/s    0:00:23
+       2.06M 100%    5.02MB/s    0:00:00 (xfer#51, to-check=166/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_5/Run_403_Fast_MID_5_FILE_1.dat
+      32.77K   1%   81.22kB/s    0:00:25
+       2.06M 100%    4.81MB/s    0:00:00 (xfer#52, to-check=165/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_5/Run_403_Fast_MID_5_FILE_2.dat
+      32.77K   1%   77.86kB/s    0:00:26
+       2.06M 100%    4.63MB/s    0:00:00 (xfer#53, to-check=164/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_5/Run_403_Fast_MID_5_FILE_3.dat
+      32.77K   1%   75.12kB/s    0:00:27
+       2.06M 100%    4.46MB/s    0:00:00 (xfer#54, to-check=163/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_5/Run_403_Fast_MID_5_FILE_4.dat
+      32.77K   1%   72.40kB/s    0:00:27
+       2.00M 100%    4.18MB/s    0:00:00 (xfer#55, to-check=162/230)
+cd+++++++ Run_403_Fast/Run_403_Fast_MID_6/
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_6/Run_403_Fast_MID_6_FILE_0.dat
+      32.77K   1%   70.02kB/s    0:00:29
+       2.06M 100%    4.18MB/s    0:00:00 (xfer#56, to-check=160/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_6/Run_403_Fast_MID_6_FILE_1.dat
+      32.77K   1%   67.80kB/s    0:00:29
+       2.06M 100%    4.03MB/s    0:00:00 (xfer#57, to-check=159/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_6/Run_403_Fast_MID_6_FILE_2.dat
+      32.77K   1%   65.44kB/s    0:00:31
+       2.06M 100%    3.91MB/s    0:00:00 (xfer#58, to-check=158/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_6/Run_403_Fast_MID_6_FILE_3.dat
+      32.77K   1%   63.49kB/s    0:00:31
+       2.06M 100%    3.79MB/s    0:00:00 (xfer#59, to-check=157/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_6/Run_403_Fast_MID_6_FILE_4.dat
+      32.77K   1%   61.54kB/s    0:00:31
+       2.00M 100%    3.57MB/s    0:00:00 (xfer#60, to-check=156/230)
+cd+++++++ Run_403_Fast/Run_403_Fast_MID_7/
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_7/Run_403_Fast_MID_7_FILE_0.dat
+      32.77K   1%   59.81kB/s    0:00:33
+       2.06M 100%    3.59MB/s    0:00:00 (xfer#61, to-check=154/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_7/Run_403_Fast_MID_7_FILE_1.dat
+      32.77K   1%   58.18kB/s    0:00:34
+       2.06M 100%    3.49MB/s    0:00:00 (xfer#62, to-check=153/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_7/Run_403_Fast_MID_7_FILE_2.dat
+      32.77K   1%   56.54kB/s    0:00:35
+       2.06M 100%    3.39MB/s    0:00:00 (xfer#63, to-check=152/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_7/Run_403_Fast_MID_7_FILE_3.dat
+      32.77K   1%   54.89kB/s    0:00:37
+       2.06M 100%    3.30MB/s    0:00:00 (xfer#64, to-check=151/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_7/Run_403_Fast_MID_7_FILE_4.dat
+      32.77K   1%   53.51kB/s    0:00:36
+       2.00M 100%    3.11MB/s    0:00:00 (xfer#65, to-check=150/230)
+cd+++++++ Run_403_Fast/Run_403_Fast_MID_8/
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_8/Run_403_Fast_MID_8_FILE_0.dat
+      32.77K   1%   52.20kB/s    0:00:38
+       2.06M 100%    3.14MB/s    0:00:00 (xfer#66, to-check=148/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_8/Run_403_Fast_MID_8_FILE_1.dat
+      32.77K   1%   50.96kB/s    0:00:39
+       2.06M 100%    3.06MB/s    0:00:00 (xfer#67, to-check=147/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_8/Run_403_Fast_MID_8_FILE_2.dat
+      32.77K   1%   49.31kB/s    0:00:41
+       2.06M 100%    2.96MB/s    0:00:00 (xfer#68, to-check=146/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_8/Run_403_Fast_MID_8_FILE_3.dat
+      32.77K   1%   48.05kB/s    0:00:42
+       2.06M 100%    2.87MB/s    0:00:00 (xfer#69, to-check=145/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_8/Run_403_Fast_MID_8_FILE_4.dat
+      32.77K   1%   46.58kB/s    0:00:42
+       2.00M 100%    2.72MB/s    0:00:00 (xfer#70, to-check=144/230)
+cd+++++++ Run_403_Fast/Run_403_Fast_MID_9/
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_9/Run_403_Fast_MID_9_FILE_0.dat
+      32.77K   1%   45.52kB/s    0:00:44
+       2.06M 100%    2.75MB/s    0:00:00 (xfer#71, to-check=142/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_9/Run_403_Fast_MID_9_FILE_1.dat
+      32.77K   1%   44.57kB/s    0:00:45
+       2.06M 100%    2.69MB/s    0:00:00 (xfer#72, to-check=141/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_9/Run_403_Fast_MID_9_FILE_2.dat
+      32.77K   1%   43.60kB/s    0:00:46
+       2.06M 100%    2.63MB/s    0:00:00 (xfer#73, to-check=140/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_9/Run_403_Fast_MID_9_FILE_3.dat
+      32.77K   1%   42.67kB/s    0:00:47
+       2.06M 100%    2.57MB/s    0:00:00 (xfer#74, to-check=139/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_MID_9/Run_403_Fast_MID_9_FILE_4.dat
+      32.77K   1%   41.67kB/s    0:00:47
+       2.00M 100%    2.43MB/s    0:00:00 (xfer#75, to-check=138/230)
+cd+++++++ Run_403_Fast/Run_403_Fast_log/
+>f+++++++ Run_403_Fast/Run_403_Fast_log/Run_403_Fast_MID_10_buffer.txt
+       9.84K 100%   12.25kB/s    0:00:00
+       9.84K 100%   12.25kB/s    0:00:00 (xfer#76, to-check=136/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_log/Run_403_Fast_MID_11_buffer.txt
+       9.84K 100%   12.25kB/s    0:00:00
+       9.84K 100%   12.25kB/s    0:00:00 (xfer#77, to-check=135/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_log/Run_403_Fast_MID_12_buffer.txt
+       9.84K 100%   12.23kB/s    0:00:00
+       9.84K 100%   12.23kB/s    0:00:00 (xfer#78, to-check=134/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_log/Run_403_Fast_MID_13_buffer.txt
+       9.84K 100%   12.23kB/s    0:00:00
+       9.84K 100%   12.23kB/s    0:00:00 (xfer#79, to-check=133/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_log/Run_403_Fast_MID_14_buffer.txt
+       9.84K 100%   12.22kB/s    0:00:00
+       9.84K 100%   12.22kB/s    0:00:00 (xfer#80, to-check=132/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_log/Run_403_Fast_MID_15_buffer.txt
+       9.84K 100%   12.22kB/s    0:00:00
+       9.84K 100%   12.22kB/s    0:00:00 (xfer#81, to-check=131/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_log/Run_403_Fast_MID_1_buffer.txt
+       9.84K 100%   12.22kB/s    0:00:00
+       9.84K 100%   12.22kB/s    0:00:00 (xfer#82, to-check=130/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_log/Run_403_Fast_MID_2_buffer.txt
+       9.84K 100%   12.20kB/s    0:00:00
+       9.84K 100%   12.20kB/s    0:00:00 (xfer#83, to-check=129/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_log/Run_403_Fast_MID_3_buffer.txt
+       9.84K 100%   12.20kB/s    0:00:00
+       9.84K 100%   12.20kB/s    0:00:00 (xfer#84, to-check=128/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_log/Run_403_Fast_MID_4_buffer.txt
+       9.84K 100%   12.18kB/s    0:00:00
+       9.84K 100%   12.18kB/s    0:00:00 (xfer#85, to-check=127/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_log/Run_403_Fast_MID_5_buffer.txt
+       9.84K 100%   12.18kB/s    0:00:00
+       9.84K 100%   12.18kB/s    0:00:00 (xfer#86, to-check=126/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_log/Run_403_Fast_MID_6_buffer.txt
+       9.84K 100%   12.18kB/s    0:00:00
+       9.84K 100%   12.18kB/s    0:00:00 (xfer#87, to-check=125/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_log/Run_403_Fast_MID_7_buffer.txt
+       9.84K 100%   12.17kB/s    0:00:00
+       9.84K 100%   12.17kB/s    0:00:00 (xfer#88, to-check=124/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_log/Run_403_Fast_MID_8_buffer.txt
+       9.84K 100%   12.17kB/s    0:00:00
+       9.84K 100%   12.17kB/s    0:00:00 (xfer#89, to-check=123/230)
+>f+++++++ Run_403_Fast/Run_403_Fast_log/Run_403_Fast_MID_9_buffer.txt
+       9.84K 100%   12.15kB/s    0:00:00
+       9.84K 100%   12.15kB/s    0:00:00 (xfer#90, to-check=122/230)
+cd+++++++ Run_403_Wave/
+cd+++++++ Run_403_Wave/Run_403_Wave_MID_1/
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_1/Run_403_Wave_MID_1_FILE_0.dat
+      32.77K   0%   40.46kB/s    0:27:00
+      26.25M  40%   25.03MB/s    0:00:01
+      65.60M 100%   46.76MB/s    0:00:01 (xfer#91, to-check=119/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_1/Run_403_Wave_MID_1_FILE_1.dat
+      32.77K   0%   94.40kB/s    0:11:34
+      65.60M 100%   68.37MB/s    0:00:00 (xfer#92, to-check=118/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_1/Run_403_Wave_MID_1_FILE_2.dat
+      32.77K   0%   34.93kB/s    0:31:16
+       7.37M  11%    7.00MB/s    0:00:08
+      65.60M 100%   42.85MB/s    0:00:01 (xfer#93, to-check=117/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_1/Run_403_Wave_MID_1_FILE_3.dat
+      32.77K   0%   70.02kB/s    0:15:36
+      64.26M  97%   61.28MB/s    0:00:00
+      65.60M 100%   61.94MB/s    0:00:01 (xfer#94, to-check=116/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_1/Run_403_Wave_MID_1_FILE_4.dat
+      32.77K   0%    2.84MB/s    0:00:22
+      65.60M 100%  105.32MB/s    0:00:00 (xfer#95, to-check=115/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_1/Run_403_Wave_MID_1_FILE_5.dat
+      32.77K  12%   53.87kB/s    0:00:04
+     262.14K 100%  430.25kB/s    0:00:00 (xfer#96, to-check=114/230)
+cd+++++++ Run_403_Wave/Run_403_Wave_MID_10/
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_10/Run_403_Wave_MID_10_FILE_0.dat
+      32.77K   0%   53.16kB/s    0:20:33
+      45.45M  69%   43.34MB/s    0:00:00
+      65.60M 100%   53.06MB/s    0:00:01 (xfer#97, to-check=112/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_10/Run_403_Wave_MID_10_FILE_1.dat
+      32.77K   0%  176.80kB/s    0:06:10
+      65.60M 100%   79.60MB/s    0:00:00 (xfer#98, to-check=111/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_10/Run_403_Wave_MID_10_FILE_2.dat
+      32.77K   0%   40.61kB/s    0:26:54
+      27.00M  41%   25.75MB/s    0:00:01
+      65.60M 100%   45.77MB/s    0:00:01 (xfer#99, to-check=110/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_10/Run_403_Wave_MID_10_FILE_3.dat
+      32.77K   0%   86.49kB/s    0:12:38
+      65.60M 100%   68.15MB/s    0:00:00 (xfer#100, to-check=109/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_10/Run_403_Wave_MID_10_FILE_4.dat
+      32.77K   0%   34.82kB/s    0:31:23
+       9.18M  13%    8.75MB/s    0:00:06
+      65.60M 100%   41.11MB/s    0:00:01 (xfer#101, to-check=108/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_10/Run_403_Wave_MID_10_FILE_5.dat
+      32.77K  12%   61.07kB/s    0:00:03
+     262.14K 100%  487.62kB/s    0:00:00 (xfer#102, to-check=107/230)
+cd+++++++ Run_403_Wave/Run_403_Wave_MID_11/
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_11/Run_403_Wave_MID_11_FILE_0.dat
+      32.77K   0%   60.84kB/s    0:17:57
+      56.75M  86%   54.12MB/s    0:00:00
+      65.60M 100%   58.69MB/s    0:00:01 (xfer#103, to-check=105/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_11/Run_403_Wave_MID_11_FILE_1.dat
+      32.77K   0%  470.59kB/s    0:02:19
+      65.60M 100%   98.68MB/s    0:00:00 (xfer#104, to-check=104/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_11/Run_403_Wave_MID_11_FILE_2.dat
+      32.77K   0%   50.39kB/s    0:21:41
+      44.60M  67%   42.53MB/s    0:00:00
+      65.60M 100%   52.40MB/s    0:00:01 (xfer#105, to-check=103/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_11/Run_403_Wave_MID_11_FILE_3.dat
+      32.77K   0%  163.27kB/s    0:06:41
+      65.60M 100%   84.66MB/s    0:00:00 (xfer#106, to-check=102/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_11/Run_403_Wave_MID_11_FILE_4.dat
+      32.77K   0%   43.18kB/s    0:25:18
+      25.46M  38%   24.28MB/s    0:00:01
+      65.60M 100%   46.14MB/s    0:00:01 (xfer#107, to-check=101/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_11/Run_403_Wave_MID_11_FILE_5.dat
+      32.77K  12%   89.64kB/s    0:00:02
+     262.14K 100%  715.08kB/s    0:00:00 (xfer#108, to-check=100/230)
+cd+++++++ Run_403_Wave/Run_403_Wave_MID_12/
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_12/Run_403_Wave_MID_12_FILE_0.dat
+      32.77K   0%   87.67kB/s    0:12:27
+      65.60M 100%   64.17MB/s    0:00:00 (xfer#109, to-check=98/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_12/Run_403_Wave_MID_12_FILE_1.dat
+      32.77K   0%   32.82kB/s    0:33:17
+       3.18M   4%    3.03MB/s    0:00:20
+      65.60M 100%   40.52MB/s    0:00:01 (xfer#110, to-check=97/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_12/Run_403_Wave_MID_12_FILE_2.dat
+      32.77K   0%   56.64kB/s    0:19:17
+      44.60M  67%   42.28MB/s    0:00:00
+      65.60M 100%   52.53MB/s    0:00:01 (xfer#111, to-check=96/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_12/Run_403_Wave_MID_12_FILE_3.dat
+      32.77K   0%  172.04kB/s    0:06:21
+      65.60M 100%   72.75MB/s    0:00:00 (xfer#112, to-check=95/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_12/Run_403_Wave_MID_12_FILE_4.dat
+      32.77K   0%   37.12kB/s    0:29:26
+      13.40M  20%   12.78MB/s    0:00:03
+      65.60M 100%   42.73MB/s    0:00:01 (xfer#113, to-check=94/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_12/Run_403_Wave_MID_12_FILE_5.dat
+      32.77K  12%   68.82kB/s    0:00:03
+     262.14K 100%  550.54kB/s    0:00:00 (xfer#114, to-check=93/230)
+cd+++++++ Run_403_Wave/Run_403_Wave_MID_13/
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_13/Run_403_Wave_MID_13_FILE_0.dat
+      32.77K   0%   68.52kB/s    0:15:56
+      59.80M  91%   57.03MB/s    0:00:00
+      65.60M 100%   60.04MB/s    0:00:01 (xfer#115, to-check=91/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_13/Run_403_Wave_MID_13_FILE_1.dat
+      32.77K   0%  744.19kB/s    0:01:28
+      65.60M 100%  113.34MB/s    0:00:00 (xfer#116, to-check=90/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_13/Run_403_Wave_MID_13_FILE_2.dat
+      32.77K   0%   57.97kB/s    0:18:51
+      49.38M  75%   47.09MB/s    0:00:00
+      65.60M 100%   53.93MB/s    0:00:01 (xfer#117, to-check=89/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_13/Run_403_Wave_MID_13_FILE_3.dat
+      32.77K   0%  197.53kB/s    0:05:31
+      65.60M 100%   81.14MB/s    0:00:00 (xfer#118, to-check=88/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_13/Run_403_Wave_MID_13_FILE_4.dat
+      32.77K   0%   41.50kB/s    0:26:19
+      25.99M  39%   24.78MB/s    0:00:01
+      65.60M 100%   44.59MB/s    0:00:01 (xfer#119, to-check=87/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_13/Run_403_Wave_MID_13_FILE_5.dat
+      32.77K  12%   79.01kB/s    0:00:02
+     262.14K 100%  632.10kB/s    0:00:00 (xfer#120, to-check=86/230)
+cd+++++++ Run_403_Wave/Run_403_Wave_MID_14/
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_14/Run_403_Wave_MID_14_FILE_0.dat
+      32.77K   0%   77.86kB/s    0:14:02
+      65.60M 100%   63.84MB/s    0:00:00 (xfer#121, to-check=84/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_14/Run_403_Wave_MID_14_FILE_1.dat
+      32.77K   0%   32.62kB/s    0:33:30
+       2.62M   3%    2.50MB/s    0:00:24
+      65.60M 100%   39.62MB/s    0:00:01 (xfer#122, to-check=83/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_14/Run_403_Wave_MID_14_FILE_2.dat
+      32.77K   0%   55.08kB/s    0:19:50
+      46.96M  71%   44.78MB/s    0:00:00
+      65.60M 100%   52.88MB/s    0:00:01 (xfer#123, to-check=82/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_14/Run_403_Wave_MID_14_FILE_3.dat
+      32.77K   0%  174.86kB/s    0:06:14
+      65.60M 100%   77.62MB/s    0:00:00 (xfer#124, to-check=81/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_14/Run_403_Wave_MID_14_FILE_4.dat
+      32.77K   0%   39.65kB/s    0:27:33
+      23.23M  35%   22.16MB/s    0:00:01
+      65.60M 100%   44.82MB/s    0:00:01 (xfer#125, to-check=80/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_14/Run_403_Wave_MID_14_FILE_5.dat
+      32.77K  12%   80.40kB/s    0:00:02
+     262.14K 100%  641.60kB/s    0:00:00 (xfer#126, to-check=79/230)
+cd+++++++ Run_403_Wave/Run_403_Wave_MID_15/
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_15/Run_403_Wave_MID_15_FILE_0.dat
+      32.77K   0%   80.00kB/s    0:13:39
+      53.25M  81%   50.73MB/s    0:00:00
+      65.60M 100%   56.62MB/s    0:00:01 (xfer#127, to-check=77/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_15/Run_403_Wave_MID_15_FILE_1.dat
+      32.77K   0%  304.76kB/s    0:03:35
+      65.60M 100%   89.63MB/s    0:00:00 (xfer#128, to-check=76/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_15/Run_403_Wave_MID_15_FILE_2.dat
+      32.77K   0%   45.85kB/s    0:23:50
+      32.54M  49%   31.03MB/s    0:00:01
+      65.60M 100%   49.22MB/s    0:00:01 (xfer#129, to-check=75/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_15/Run_403_Wave_MID_15_FILE_3.dat
+      32.77K   0%  117.22kB/s    0:09:19
+      65.60M 100%   66.98MB/s    0:00:00 (xfer#130, to-check=74/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_15/Run_403_Wave_MID_15_FILE_4.dat
+      32.77K   0%   34.22kB/s    0:31:55
+       6.59M  10%    6.28MB/s    0:00:09
+      65.60M 100%   40.68MB/s    0:00:01 (xfer#131, to-check=73/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_15/Run_403_Wave_MID_15_FILE_5.dat
+      32.77K  12%   59.37kB/s    0:00:03
+     262.14K 100%  474.07kB/s    0:00:00 (xfer#132, to-check=72/230)
+cd+++++++ Run_403_Wave/Run_403_Wave_MID_2/
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_2/Run_403_Wave_MID_2_FILE_0.dat
+      32.77K   0%   59.15kB/s    0:18:28
+      45.38M  69%   43.28MB/s    0:00:00
+      65.60M 100%   53.43MB/s    0:00:01 (xfer#133, to-check=70/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_2/Run_403_Wave_MID_2_FILE_1.dat
+      32.77K   0%  184.97kB/s    0:05:54
+      65.60M 100%   73.69MB/s    0:00:00 (xfer#134, to-check=69/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_2/Run_403_Wave_MID_2_FILE_2.dat
+      32.77K   0%   37.65kB/s    0:29:01
+      15.50M  23%   14.78MB/s    0:00:03
+      65.60M 100%   43.57MB/s    0:00:01 (xfer#135, to-check=68/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_2/Run_403_Wave_MID_2_FILE_3.dat
+      32.77K   0%   73.23kB/s    0:14:55
+      60.33M  91%   57.53MB/s    0:00:00
+      65.60M 100%   60.21MB/s    0:00:01 (xfer#136, to-check=67/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_2/Run_403_Wave_MID_2_FILE_4.dat
+      32.77K   0%  800.00kB/s    0:01:21
+      65.60M 100%   93.38MB/s    0:00:00 (xfer#137, to-check=66/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_2/Run_403_Wave_MID_2_FILE_5.dat
+      32.77K  12%   47.69kB/s    0:00:04
+     262.14K 100%  381.52kB/s    0:00:00 (xfer#138, to-check=65/230)
+cd+++++++ Run_403_Wave/Run_403_Wave_MID_3/
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_3/Run_403_Wave_MID_3_FILE_0.dat
+      32.77K   0%   47.55kB/s    0:22:58
+      35.42M  53%   33.78MB/s    0:00:00
+      65.60M 100%   47.32MB/s    0:00:01 (xfer#139, to-check=63/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_3/Run_403_Wave_MID_3_FILE_1.dat
+      32.77K   0%   98.77kB/s    0:11:03
+      65.60M 100%   69.13MB/s    0:00:00 (xfer#140, to-check=62/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_3/Run_403_Wave_MID_3_FILE_2.dat
+      32.77K   0%   35.36kB/s    0:30:54
+      11.83M  18%   11.25MB/s    0:00:04
+      65.60M 100%   43.15MB/s    0:00:01 (xfer#141, to-check=61/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_3/Run_403_Wave_MID_3_FILE_3.dat
+      32.77K   0%   71.59kB/s    0:15:15
+      65.60M 100%   65.99MB/s    0:00:00 (xfer#142, to-check=60/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_3/Run_403_Wave_MID_3_FILE_4.dat
+      32.77K   0%   33.72kB/s    0:32:24
+       4.98M   7%    4.75MB/s    0:00:12
+      65.60M 100%   42.62MB/s    0:00:01 (xfer#143, to-check=59/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_3/Run_403_Wave_MID_3_FILE_5.dat
+      32.77K  12%   68.09kB/s    0:00:03
+     262.14K 100%  543.52kB/s    0:00:00 (xfer#144, to-check=58/230)
+cd+++++++ Run_403_Wave/Run_403_Wave_MID_4/
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_4/Run_403_Wave_MID_4_FILE_0.dat
+      32.77K   0%   67.65kB/s    0:16:09
+      65.60M 100%   62.88MB/s    0:00:00 (xfer#145, to-check=56/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_4/Run_403_Wave_MID_4_FILE_1.dat
+      32.77K   0%   32.13kB/s    0:34:00
+     294.91K   0%  286.85kB/s    0:03:47
+      65.60M 100%   39.62MB/s    0:00:01 (xfer#146, to-check=55/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_4/Run_403_Wave_MID_4_FILE_2.dat
+      32.77K   0%   55.65kB/s    0:19:38
+      49.61M  75%   47.31MB/s    0:00:00
+      65.60M 100%   56.26MB/s    0:00:01 (xfer#147, to-check=54/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_4/Run_403_Wave_MID_4_FILE_3.dat
+      32.77K   0%  283.19kB/s    0:03:51
+      65.60M 100%   96.10MB/s    0:00:00 (xfer#148, to-check=53/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_4/Run_403_Wave_MID_4_FILE_4.dat
+      32.77K   0%   49.08kB/s    0:22:15
+      35.68M  54%   34.03MB/s    0:00:00
+      65.60M 100%   51.32MB/s    0:00:01 (xfer#149, to-check=52/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_4/Run_403_Wave_MID_4_FILE_5.dat
+      32.77K  12%  144.80kB/s    0:00:01
+     262.14K 100%    1.13MB/s    0:00:00 (xfer#150, to-check=51/230)
+cd+++++++ Run_403_Wave/Run_403_Wave_MID_5/
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_5/Run_403_Wave_MID_5_FILE_0.dat
+      32.77K   0%  139.74kB/s    0:07:49
+      65.60M 100%   76.67MB/s    0:00:00 (xfer#151, to-check=49/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_5/Run_403_Wave_MID_5_FILE_1.dat
+      32.77K   0%   39.17kB/s    0:27:54
+      19.17M  29%   18.28MB/s    0:00:02
+      65.60M 100%   45.50MB/s    0:00:01 (xfer#152, to-check=48/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_5/Run_403_Wave_MID_5_FILE_2.dat
+      32.77K   0%   85.11kB/s    0:12:50
+      65.60M 100%   67.06MB/s    0:00:00 (xfer#153, to-check=47/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_5/Run_403_Wave_MID_5_FILE_3.dat
+      32.77K   0%   34.26kB/s    0:31:53
+       7.63M  11%    7.28MB/s    0:00:07
+      65.60M 100%   40.86MB/s    0:00:01 (xfer#154, to-check=46/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_5/Run_403_Wave_MID_5_FILE_4.dat
+      32.77K   0%   60.04kB/s    0:18:12
+      51.41M  78%   49.03MB/s    0:00:00
+      65.60M 100%   56.16MB/s    0:00:01 (xfer#155, to-check=45/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_5/Run_403_Wave_MID_5_FILE_5.dat
+      32.77K  12%  278.26kB/s    0:00:00
+     262.14K 100%    2.16MB/s    0:00:00 (xfer#156, to-check=44/230)
+cd+++++++ Run_403_Wave/Run_403_Wave_MID_6/
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_6/Run_403_Wave_MID_6_FILE_0.dat
+      32.77K   0%  260.16kB/s    0:04:12
+      65.60M 100%   87.01MB/s    0:00:00 (xfer#157, to-check=42/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_6/Run_403_Wave_MID_6_FILE_1.dat
+      32.77K   0%   44.44kB/s    0:24:35
+      25.46M  38%   24.28MB/s    0:00:01
+      65.60M 100%   45.20MB/s    0:00:01 (xfer#158, to-check=41/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_6/Run_403_Wave_MID_6_FILE_2.dat
+      32.77K   0%   82.90kB/s    0:13:10
+      65.60M 100%   64.10MB/s    0:00:00 (xfer#159, to-check=40/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_6/Run_403_Wave_MID_6_FILE_3.dat
+      32.77K   0%   32.75kB/s    0:33:21
+     557.06K   0%  537.02kB/s    0:02:01
+      65.60M 100%   39.00MB/s    0:00:01 (xfer#160, to-check=39/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_6/Run_403_Wave_MID_6_FILE_4.dat
+      32.77K   0%   54.15kB/s    0:20:10
+      44.07M  67%   42.03MB/s    0:00:00
+      65.60M 100%   53.52MB/s    0:00:01 (xfer#161, to-check=38/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_6/Run_403_Wave_MID_6_FILE_5.dat
+      32.77K  12%  187.13kB/s    0:00:01
+     262.14K 100%    1.45MB/s    0:00:00 (xfer#162, to-check=37/230)
+cd+++++++ Run_403_Wave/Run_403_Wave_MID_7/
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_7/Run_403_Wave_MID_7_FILE_0.dat
+      32.77K   0%  179.78kB/s    0:06:04
+      65.60M 100%   80.62MB/s    0:00:00 (xfer#163, to-check=35/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_7/Run_403_Wave_MID_7_FILE_1.dat
+      32.77K   0%   41.24kB/s    0:26:30
+      23.10M  35%   22.03MB/s    0:00:01
+      65.60M 100%   46.14MB/s    0:00:01 (xfer#164, to-check=34/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_7/Run_403_Wave_MID_7_FILE_2.dat
+      32.77K   0%   89.89kB/s    0:12:09
+      65.60M 100%   68.37MB/s    0:00:00 (xfer#165, to-check=33/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_7/Run_403_Wave_MID_7_FILE_3.dat
+      32.77K   0%   34.93kB/s    0:31:16
+       6.03M   9%    5.75MB/s    0:00:10
+      65.60M 100%   41.49MB/s    0:00:01 (xfer#166, to-check=32/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_7/Run_403_Wave_MID_7_FILE_4.dat
+      32.77K   0%   62.87kB/s    0:17:22
+      59.15M  90%   56.41MB/s    0:00:00
+      65.60M 100%   59.64MB/s    0:00:01 (xfer#167, to-check=31/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_7/Run_403_Wave_MID_7_FILE_5.dat
+      32.77K  12%  640.00kB/s    0:00:00
+     262.14K 100%    4.90MB/s    0:00:00 (xfer#168, to-check=30/230)
+cd+++++++ Run_403_Wave/Run_403_Wave_MID_8/
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_8/Run_403_Wave_MID_8_FILE_0.dat
+      32.77K   0%  581.82kB/s    0:01:52
+      65.60M 100%  100.10MB/s    0:00:00 (xfer#169, to-check=28/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_8/Run_403_Wave_MID_8_FILE_1.dat
+      32.77K   0%   51.12kB/s    0:21:22
+      39.12M  59%   37.31MB/s    0:00:00
+      65.60M 100%   50.21MB/s    0:00:01 (xfer#170, to-check=27/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_8/Run_403_Wave_MID_8_FILE_2.dat
+      32.77K   0%  129.55kB/s    0:08:26
+      65.60M 100%   74.04MB/s    0:00:00 (xfer#171, to-check=26/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_8/Run_403_Wave_MID_8_FILE_3.dat
+      32.77K   0%   37.87kB/s    0:28:51
+      16.29M  24%   15.53MB/s    0:00:03
+      65.60M 100%   44.50MB/s    0:00:01 (xfer#172, to-check=25/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_8/Run_403_Wave_MID_8_FILE_4.dat
+      32.77K   0%   78.82kB/s    0:13:51
+      65.60M 100%   66.06MB/s    0:00:00 (xfer#173, to-check=24/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_8/Run_403_Wave_MID_8_FILE_5.dat
+      32.77K  12%   33.79kB/s    0:00:06
+     262.14K 100%  270.04kB/s    0:00:00 (xfer#174, to-check=23/230)
+cd+++++++ Run_403_Wave/Run_403_Wave_MID_9/
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_9/Run_403_Wave_MID_9_FILE_0.dat
+      32.77K   0%   33.65kB/s    0:32:28
+       5.80M   8%    5.53MB/s    0:00:10
+      65.60M 100%   40.47MB/s    0:00:01 (xfer#175, to-check=21/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_9/Run_403_Wave_MID_9_FILE_1.dat
+      32.77K   0%   58.39kB/s    0:18:42
+      46.73M  71%   44.56MB/s    0:00:00
+      65.60M 100%   54.69MB/s    0:00:01 (xfer#176, to-check=20/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_9/Run_403_Wave_MID_9_FILE_2.dat
+      32.77K   0%  220.69kB/s    0:04:57
+      65.60M 100%   85.70MB/s    0:00:00 (xfer#177, to-check=19/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_9/Run_403_Wave_MID_9_FILE_3.dat
+      32.77K   0%   43.78kB/s    0:24:57
+      28.87M  44%   27.07MB/s    0:00:01
+      65.60M 100%   48.12MB/s    0:00:01 (xfer#178, to-check=18/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_9/Run_403_Wave_MID_9_FILE_4.dat
+      32.77K   0%  113.48kB/s    0:09:37
+      65.60M 100%   73.09MB/s    0:00:00 (xfer#179, to-check=17/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_MID_9/Run_403_Wave_MID_9_FILE_5.dat
+      32.77K  12%   37.34kB/s    0:00:06
+     262.14K 100%  298.72kB/s    0:00:00 (xfer#180, to-check=16/230)
+cd+++++++ Run_403_Wave/Run_403_Wave_log/
+>f+++++++ Run_403_Wave/Run_403_Wave_log/Run_403_Wave_MID_10_buffer.txt
+      32.77K  41%   36.91kB/s    0:00:01
+      78.76K 100%   88.71kB/s    0:00:00 (xfer#181, to-check=14/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_log/Run_403_Wave_MID_11_buffer.txt
+      32.77K  41%   36.87kB/s    0:00:01
+      78.76K 100%   88.61kB/s    0:00:00 (xfer#182, to-check=13/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_log/Run_403_Wave_MID_12_buffer.txt
+      32.77K  41%   36.49kB/s    0:00:01
+      78.76K 100%   87.70kB/s    0:00:00 (xfer#183, to-check=12/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_log/Run_403_Wave_MID_13_buffer.txt
+      32.77K  41%   36.41kB/s    0:00:01
+      78.76K 100%   87.50kB/s    0:00:00 (xfer#184, to-check=11/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_log/Run_403_Wave_MID_14_buffer.txt
+      32.77K  41%   36.32kB/s    0:00:01
+      78.76K 100%   87.30kB/s    0:00:00 (xfer#185, to-check=10/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_log/Run_403_Wave_MID_15_buffer.txt
+      32.77K  41%   36.24kB/s    0:00:01
+      78.76K 100%   87.10kB/s    0:00:00 (xfer#186, to-check=9/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_log/Run_403_Wave_MID_1_buffer.txt
+      32.77K  41%   36.20kB/s    0:00:01
+      78.76K 100%   86.90kB/s    0:00:00 (xfer#187, to-check=8/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_log/Run_403_Wave_MID_2_buffer.txt
+      32.77K  41%   36.16kB/s    0:00:01
+      78.76K 100%   86.81kB/s    0:00:00 (xfer#188, to-check=7/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_log/Run_403_Wave_MID_3_buffer.txt
+      32.77K  41%   36.08kB/s    0:00:01
+      78.76K 100%   86.71kB/s    0:00:00 (xfer#189, to-check=6/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_log/Run_403_Wave_MID_4_buffer.txt
+      32.77K  41%   36.04kB/s    0:00:01
+      78.76K 100%   86.51kB/s    0:00:00 (xfer#190, to-check=5/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_log/Run_403_Wave_MID_5_buffer.txt
+      32.77K  41%   36.00kB/s    0:00:01
+      78.76K 100%   86.42kB/s    0:00:00 (xfer#191, to-check=4/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_log/Run_403_Wave_MID_6_buffer.txt
+      32.77K  41%   35.91kB/s    0:00:01
+      78.76K 100%   86.32kB/s    0:00:00 (xfer#192, to-check=3/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_log/Run_403_Wave_MID_7_buffer.txt
+      32.77K  41%   35.87kB/s    0:00:01
+      78.76K 100%   86.22kB/s    0:00:00 (xfer#193, to-check=2/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_log/Run_403_Wave_MID_8_buffer.txt
+      32.77K  41%   35.83kB/s    0:00:01
+      78.76K 100%   86.13kB/s    0:00:00 (xfer#194, to-check=1/230)
+>f+++++++ Run_403_Wave/Run_403_Wave_log/Run_403_Wave_MID_9_buffer.txt
+      32.77K  41%   35.79kB/s    0:00:01
+      78.76K 100%   86.03kB/s    0:00:00 (xfer#195, to-check=0/230)
+
+sent 5.08G bytes  received 4.52K bytes  109.24M bytes/sec
+total size is 5.08G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_403/[0m will be renamed to [96m[1m/Users/drc_daq/scratch/Aug2022TB/SSD/SSD_Run_403_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

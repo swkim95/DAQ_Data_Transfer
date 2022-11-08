@@ -1,0 +1,288 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_423/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_423[0m
+[94m[INFO][0m SSD data folder size = [96m[1m0.933 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [--------------------------------------------------][0m [92m[1m0.224 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 33.319 GB / Free : [4m14868.234 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_423/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_423/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_423.txt --progress /Volumes/HDD_16TB_1/HDD_Run_423/ /Volumes/HDD_16TB_2/HDD_Run_423/[0m`? [y/n] building file list ... 
+ 0 files...
+ 100 files...
+110 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_423
+cd+++++++ ./
+cd+++++++ Run_423_Fast/
+cd+++++++ Run_423_Fast/Run_423_Fast_MID_1/
+>f+++++++ Run_423_Fast/Run_423_Fast_MID_1/Run_423_Fast_MID_1_FILE_0.dat
+      32.77K  13%    0.00kB/s    0:00:00
+     245.76K 100%  203.12MB/s    0:00:00 (xfer#1, to-check=106/110)
+cd+++++++ Run_423_Fast/Run_423_Fast_MID_10/
+>f+++++++ Run_423_Fast/Run_423_Fast_MID_10/Run_423_Fast_MID_10_FILE_0.dat
+      32.77K  13%    7.81MB/s    0:00:00
+     245.76K 100%   46.88MB/s    0:00:00 (xfer#2, to-check=104/110)
+cd+++++++ Run_423_Fast/Run_423_Fast_MID_11/
+>f+++++++ Run_423_Fast/Run_423_Fast_MID_11/Run_423_Fast_MID_11_FILE_0.dat
+      32.77K  13%    5.21MB/s    0:00:00
+     245.76K 100%   33.48MB/s    0:00:00 (xfer#3, to-check=102/110)
+cd+++++++ Run_423_Fast/Run_423_Fast_MID_12/
+>f+++++++ Run_423_Fast/Run_423_Fast_MID_12/Run_423_Fast_MID_12_FILE_0.dat
+      32.77K  13%    1.95MB/s    0:00:00
+     245.76K 100%   13.79MB/s    0:00:00 (xfer#4, to-check=100/110)
+cd+++++++ Run_423_Fast/Run_423_Fast_MID_13/
+>f+++++++ Run_423_Fast/Run_423_Fast_MID_13/Run_423_Fast_MID_13_FILE_0.dat
+      32.77K  13%    1.74MB/s    0:00:00
+     245.76K 100%   12.34MB/s    0:00:00 (xfer#5, to-check=98/110)
+cd+++++++ Run_423_Fast/Run_423_Fast_MID_14/
+>f+++++++ Run_423_Fast/Run_423_Fast_MID_14/Run_423_Fast_MID_14_FILE_0.dat
+      32.77K  13%  914.29kB/s    0:00:00
+     245.76K 100%    6.51MB/s    0:00:00 (xfer#6, to-check=96/110)
+cd+++++++ Run_423_Fast/Run_423_Fast_MID_15/
+>f+++++++ Run_423_Fast/Run_423_Fast_MID_15/Run_423_Fast_MID_15_FILE_0.dat
+      32.77K  13%   56.74kB/s    0:00:03
+     245.76K 100%  424.78kB/s    0:00:00 (xfer#7, to-check=94/110)
+cd+++++++ Run_423_Fast/Run_423_Fast_MID_2/
+>f+++++++ Run_423_Fast/Run_423_Fast_MID_2/Run_423_Fast_MID_2_FILE_0.dat
+      32.77K  13%   56.14kB/s    0:00:03
+     245.76K 100%  419.58kB/s    0:00:00 (xfer#8, to-check=92/110)
+cd+++++++ Run_423_Fast/Run_423_Fast_MID_3/
+>f+++++++ Run_423_Fast/Run_423_Fast_MID_3/Run_423_Fast_MID_3_FILE_0.dat
+      32.77K  13%   55.75kB/s    0:00:03
+     245.76K 100%  416.67kB/s    0:00:00 (xfer#9, to-check=90/110)
+cd+++++++ Run_423_Fast/Run_423_Fast_MID_4/
+>f+++++++ Run_423_Fast/Run_423_Fast_MID_4/Run_423_Fast_MID_4_FILE_0.dat
+      32.77K  13%   55.46kB/s    0:00:03
+     245.76K 100%  414.51kB/s    0:00:00 (xfer#10, to-check=88/110)
+cd+++++++ Run_423_Fast/Run_423_Fast_MID_5/
+>f+++++++ Run_423_Fast/Run_423_Fast_MID_5/Run_423_Fast_MID_5_FILE_0.dat
+      32.77K  13%   55.08kB/s    0:00:03
+     245.76K 100%  412.37kB/s    0:00:00 (xfer#11, to-check=86/110)
+cd+++++++ Run_423_Fast/Run_423_Fast_MID_6/
+>f+++++++ Run_423_Fast/Run_423_Fast_MID_6/Run_423_Fast_MID_6_FILE_0.dat
+      32.77K  13%   52.89kB/s    0:00:04
+     245.76K 100%  396.04kB/s    0:00:00 (xfer#12, to-check=84/110)
+cd+++++++ Run_423_Fast/Run_423_Fast_MID_7/
+>f+++++++ Run_423_Fast/Run_423_Fast_MID_7/Run_423_Fast_MID_7_FILE_0.dat
+      32.77K  13%   52.63kB/s    0:00:04
+     245.76K 100%  394.09kB/s    0:00:00 (xfer#13, to-check=82/110)
+cd+++++++ Run_423_Fast/Run_423_Fast_MID_8/
+>f+++++++ Run_423_Fast/Run_423_Fast_MID_8/Run_423_Fast_MID_8_FILE_0.dat
+      32.77K  13%   52.37kB/s    0:00:04
+     245.76K 100%  392.16kB/s    0:00:00 (xfer#14, to-check=80/110)
+cd+++++++ Run_423_Fast/Run_423_Fast_MID_9/
+>f+++++++ Run_423_Fast/Run_423_Fast_MID_9/Run_423_Fast_MID_9_FILE_0.dat
+      32.77K  13%   52.12kB/s    0:00:04
+     245.76K 100%  390.24kB/s    0:00:00 (xfer#15, to-check=78/110)
+cd+++++++ Run_423_Fast/Run_423_Fast_log/
+>f+++++++ Run_423_Fast/Run_423_Fast_log/Run_423_Fast_MID_10_buffer.txt
+         224 100%    0.36kB/s    0:00:00
+         224 100%    0.36kB/s    0:00:00 (xfer#16, to-check=76/110)
+>f+++++++ Run_423_Fast/Run_423_Fast_log/Run_423_Fast_MID_11_buffer.txt
+         224 100%    0.36kB/s    0:00:00
+         224 100%    0.36kB/s    0:00:00 (xfer#17, to-check=75/110)
+>f+++++++ Run_423_Fast/Run_423_Fast_log/Run_423_Fast_MID_12_buffer.txt
+         224 100%    0.35kB/s    0:00:00
+         224 100%    0.35kB/s    0:00:00 (xfer#18, to-check=74/110)
+>f+++++++ Run_423_Fast/Run_423_Fast_log/Run_423_Fast_MID_13_buffer.txt
+         224 100%    0.35kB/s    0:00:00
+         224 100%    0.35kB/s    0:00:00 (xfer#19, to-check=73/110)
+>f+++++++ Run_423_Fast/Run_423_Fast_log/Run_423_Fast_MID_14_buffer.txt
+         224 100%    0.35kB/s    0:00:00
+         224 100%    0.35kB/s    0:00:00 (xfer#20, to-check=72/110)
+>f+++++++ Run_423_Fast/Run_423_Fast_log/Run_423_Fast_MID_15_buffer.txt
+         224 100%    0.35kB/s    0:00:00
+         224 100%    0.35kB/s    0:00:00 (xfer#21, to-check=71/110)
+>f+++++++ Run_423_Fast/Run_423_Fast_log/Run_423_Fast_MID_1_buffer.txt
+         224 100%    0.35kB/s    0:00:00
+         224 100%    0.35kB/s    0:00:00 (xfer#22, to-check=70/110)
+>f+++++++ Run_423_Fast/Run_423_Fast_log/Run_423_Fast_MID_2_buffer.txt
+         224 100%    0.35kB/s    0:00:00
+         224 100%    0.35kB/s    0:00:00 (xfer#23, to-check=69/110)
+>f+++++++ Run_423_Fast/Run_423_Fast_log/Run_423_Fast_MID_3_buffer.txt
+         224 100%    0.34kB/s    0:00:00
+         224 100%    0.34kB/s    0:00:00 (xfer#24, to-check=68/110)
+>f+++++++ Run_423_Fast/Run_423_Fast_log/Run_423_Fast_MID_4_buffer.txt
+         224 100%    0.34kB/s    0:00:00
+         224 100%    0.34kB/s    0:00:00 (xfer#25, to-check=67/110)
+>f+++++++ Run_423_Fast/Run_423_Fast_log/Run_423_Fast_MID_5_buffer.txt
+         224 100%    0.34kB/s    0:00:00
+         224 100%    0.34kB/s    0:00:00 (xfer#26, to-check=66/110)
+>f+++++++ Run_423_Fast/Run_423_Fast_log/Run_423_Fast_MID_6_buffer.txt
+         224 100%    0.34kB/s    0:00:00
+         224 100%    0.34kB/s    0:00:00 (xfer#27, to-check=65/110)
+>f+++++++ Run_423_Fast/Run_423_Fast_log/Run_423_Fast_MID_7_buffer.txt
+         224 100%    0.34kB/s    0:00:00
+         224 100%    0.34kB/s    0:00:00 (xfer#28, to-check=64/110)
+>f+++++++ Run_423_Fast/Run_423_Fast_log/Run_423_Fast_MID_8_buffer.txt
+         224 100%    0.34kB/s    0:00:00
+         224 100%    0.34kB/s    0:00:00 (xfer#29, to-check=63/110)
+>f+++++++ Run_423_Fast/Run_423_Fast_log/Run_423_Fast_MID_9_buffer.txt
+         224 100%    0.34kB/s    0:00:00
+         224 100%    0.34kB/s    0:00:00 (xfer#30, to-check=62/110)
+cd+++++++ Run_423_Wave/
+cd+++++++ Run_423_Wave/Run_423_Wave_MID_1/
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_1/Run_423_Wave_MID_1_FILE_0.dat
+      32.77K   0%   49.84kB/s    0:21:55
+      41.19M  62%   39.01MB/s    0:00:00
+      65.60M 100%   49.81MB/s    0:00:01 (xfer#31, to-check=59/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_1/Run_423_Wave_MID_1_FILE_1.dat
+      32.77K   3%  128.51kB/s    0:00:06
+     917.50K 100%    3.42MB/s    0:00:00 (xfer#32, to-check=58/110)
+cd+++++++ Run_423_Wave/Run_423_Wave_MID_10/
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_10/Run_423_Wave_MID_10_FILE_0.dat
+      32.77K   0%  124.51kB/s    0:08:46
+      65.60M 100%   66.56MB/s    0:00:00 (xfer#33, to-check=56/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_10/Run_423_Wave_MID_10_FILE_1.dat
+      32.77K   3%   33.97kB/s    0:00:26
+     917.50K 100%  944.15kB/s    0:00:00 (xfer#34, to-check=55/110)
+cd+++++++ Run_423_Wave/Run_423_Wave_MID_11/
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_11/Run_423_Wave_MID_11_FILE_0.dat
+      32.77K   0%   33.68kB/s    0:32:26
+       6.06M   9%    5.78MB/s    0:00:10
+      65.60M 100%   38.57MB/s    0:00:01 (xfer#35, to-check=53/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_11/Run_423_Wave_MID_11_FILE_1.dat
+      32.77K   3%   51.36kB/s    0:00:17
+     917.50K 100%    1.39MB/s    0:00:00 (xfer#36, to-check=52/110)
+cd+++++++ Run_423_Wave/Run_423_Wave_MID_12/
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_12/Run_423_Wave_MID_12_FILE_0.dat
+      32.77K   0%   50.71kB/s    0:21:32
+      39.35M  59%   37.38MB/s    0:00:00
+      65.60M 100%   50.09MB/s    0:00:01 (xfer#37, to-check=50/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_12/Run_423_Wave_MID_12_FILE_1.dat
+      32.77K   3%  130.08kB/s    0:00:06
+     917.50K 100%    3.40MB/s    0:00:00 (xfer#38, to-check=49/110)
+cd+++++++ Run_423_Wave/Run_423_Wave_MID_13/
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_13/Run_423_Wave_MID_13_FILE_0.dat
+      32.77K   0%  124.03kB/s    0:08:48
+      65.60M 100%   71.34MB/s    0:00:00 (xfer#39, to-check=47/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_13/Run_423_Wave_MID_13_FILE_1.dat
+      32.77K   3%   36.41kB/s    0:00:24
+     917.50K 100% 1010.15kB/s    0:00:00 (xfer#40, to-check=46/110)
+cd+++++++ Run_423_Wave/Run_423_Wave_MID_14/
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_14/Run_423_Wave_MID_14_FILE_0.dat
+      32.77K   0%   36.04kB/s    0:30:19
+       7.11M  10%    6.78MB/s    0:00:08
+      65.60M 100%   40.42MB/s    0:00:01 (xfer#41, to-check=44/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_14/Run_423_Wave_MID_14_FILE_1.dat
+      32.77K   3%   58.29kB/s    0:00:15
+     917.50K 100%    1.57MB/s    0:00:00 (xfer#42, to-check=43/110)
+cd+++++++ Run_423_Wave/Run_423_Wave_MID_15/
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_15/Run_423_Wave_MID_15_FILE_0.dat
+      32.77K   0%   57.14kB/s    0:19:07
+      41.84M  63%   39.91MB/s    0:00:00
+      65.60M 100%   51.11MB/s    0:00:01 (xfer#43, to-check=41/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_15/Run_423_Wave_MID_15_FILE_1.dat
+      32.77K   3%  140.97kB/s    0:00:06
+     917.50K 100%    3.68MB/s    0:00:00 (xfer#44, to-check=40/110)
+cd+++++++ Run_423_Wave/Run_423_Wave_MID_2/
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_2/Run_423_Wave_MID_2_FILE_0.dat
+      32.77K   0%  133.33kB/s    0:08:11
+      65.60M 100%   68.67MB/s    0:00:00 (xfer#45, to-check=38/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_2/Run_423_Wave_MID_2_FILE_1.dat
+      32.77K   3%   35.05kB/s    0:00:25
+     917.50K 100%  973.91kB/s    0:00:00 (xfer#46, to-check=37/110)
+cd+++++++ Run_423_Wave/Run_423_Wave_MID_3/
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_3/Run_423_Wave_MID_3_FILE_0.dat
+      32.77K   0%   34.71kB/s    0:31:29
+       5.77M   8%    5.50MB/s    0:00:10
+      65.60M 100%   38.19MB/s    0:00:01 (xfer#47, to-check=35/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_3/Run_423_Wave_MID_3_FILE_1.dat
+      32.77K   3%   49.92kB/s    0:00:17
+     917.50K 100%    1.35MB/s    0:00:00 (xfer#48, to-check=34/110)
+cd+++++++ Run_423_Wave/Run_423_Wave_MID_4/
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_4/Run_423_Wave_MID_4_FILE_0.dat
+      32.77K   0%   49.16kB/s    0:22:13
+      30.70M  46%   28.93MB/s    0:00:01
+      65.60M 100%   46.79MB/s    0:00:01 (xfer#49, to-check=32/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_4/Run_423_Wave_MID_4_FILE_1.dat
+      32.77K   3%   98.46kB/s    0:00:08
+     917.50K 100%    2.63MB/s    0:00:00 (xfer#50, to-check=31/110)
+cd+++++++ Run_423_Wave/Run_423_Wave_MID_5/
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_5/Run_423_Wave_MID_5_FILE_0.dat
+      32.77K   0%   95.81kB/s    0:11:24
+      65.60M 100%   64.56MB/s    0:00:00 (xfer#51, to-check=29/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_5/Run_423_Wave_MID_5_FILE_1.dat
+      32.77K   3%   32.99kB/s    0:00:26
+     917.50K 100%  917.09kB/s    0:00:00 (xfer#52, to-check=28/110)
+cd+++++++ Run_423_Wave/Run_423_Wave_MID_6/
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_6/Run_423_Wave_MID_6_FILE_0.dat
+      32.77K   0%   32.69kB/s    0:33:25
+       2.65M   4%    2.53MB/s    0:00:24
+      65.60M 100%   37.28MB/s    0:00:01 (xfer#53, to-check=26/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_6/Run_423_Wave_MID_6_FILE_1.dat
+      32.77K   3%   47.06kB/s    0:00:18
+     917.50K 100%    1.27MB/s    0:00:00 (xfer#54, to-check=25/110)
+cd+++++++ Run_423_Wave/Run_423_Wave_MID_7/
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_7/Run_423_Wave_MID_7_FILE_0.dat
+      32.77K   0%   46.51kB/s    0:23:29
+      33.06M  50%   31.53MB/s    0:00:01
+      65.60M 100%   49.42MB/s    0:00:01 (xfer#55, to-check=23/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_7/Run_423_Wave_MID_7_FILE_1.dat
+      32.77K   3%  118.96kB/s    0:00:07
+     917.50K 100%    3.12MB/s    0:00:00 (xfer#56, to-check=22/110)
+cd+++++++ Run_423_Wave/Run_423_Wave_MID_8/
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_8/Run_423_Wave_MID_8_FILE_0.dat
+      32.77K   0%  113.48kB/s    0:09:37
+      65.60M 100%   67.71MB/s    0:00:00 (xfer#57, to-check=20/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_8/Run_423_Wave_MID_8_FILE_1.dat
+      32.77K   3%   34.59kB/s    0:00:25
+     917.50K 100%  957.26kB/s    0:00:00 (xfer#58, to-check=19/110)
+cd+++++++ Run_423_Wave/Run_423_Wave_MID_9/
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_9/Run_423_Wave_MID_9_FILE_0.dat
+      32.77K   0%   34.15kB/s    0:31:59
+       5.54M   8%    5.28MB/s    0:00:11
+      65.60M 100%   37.99MB/s    0:00:01 (xfer#59, to-check=17/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_MID_9/Run_423_Wave_MID_9_FILE_1.dat
+      32.77K   3%   49.31kB/s    0:00:17
+     917.50K 100%    1.32MB/s    0:00:00 (xfer#60, to-check=16/110)
+cd+++++++ Run_423_Wave/Run_423_Wave_log/
+>f+++++++ Run_423_Wave/Run_423_Wave_log/Run_423_Wave_MID_10_buffer.txt
+      14.95K 100%   21.96kB/s    0:00:00
+      14.95K 100%   21.96kB/s    0:00:00 (xfer#61, to-check=14/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_log/Run_423_Wave_MID_11_buffer.txt
+      14.99K 100%   21.69kB/s    0:00:00
+      14.99K 100%   21.69kB/s    0:00:00 (xfer#62, to-check=13/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_log/Run_423_Wave_MID_12_buffer.txt
+      15.05K 100%   21.74kB/s    0:00:00
+      15.05K 100%   21.74kB/s    0:00:00 (xfer#63, to-check=12/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_log/Run_423_Wave_MID_13_buffer.txt
+      15.02K 100%   21.70kB/s    0:00:00
+      15.02K 100%   21.70kB/s    0:00:00 (xfer#64, to-check=11/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_log/Run_423_Wave_MID_14_buffer.txt
+      15.01K 100%   21.65kB/s    0:00:00
+      15.01K 100%   21.65kB/s    0:00:00 (xfer#65, to-check=10/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_log/Run_423_Wave_MID_15_buffer.txt
+      14.96K 100%   21.59kB/s    0:00:00
+      14.96K 100%   21.59kB/s    0:00:00 (xfer#66, to-check=9/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_log/Run_423_Wave_MID_1_buffer.txt
+      14.96K 100%   21.55kB/s    0:00:00
+      14.96K 100%   21.55kB/s    0:00:00 (xfer#67, to-check=8/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_log/Run_423_Wave_MID_2_buffer.txt
+      14.98K 100%   21.57kB/s    0:00:00
+      14.98K 100%   21.57kB/s    0:00:00 (xfer#68, to-check=7/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_log/Run_423_Wave_MID_3_buffer.txt
+      15.02K 100%   21.57kB/s    0:00:00
+      15.02K 100%   21.57kB/s    0:00:00 (xfer#69, to-check=6/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_log/Run_423_Wave_MID_4_buffer.txt
+      14.96K 100%   21.46kB/s    0:00:00
+      14.96K 100%   21.46kB/s    0:00:00 (xfer#70, to-check=5/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_log/Run_423_Wave_MID_5_buffer.txt
+      15.03K 100%   21.53kB/s    0:00:00
+      15.03K 100%   21.53kB/s    0:00:00 (xfer#71, to-check=4/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_log/Run_423_Wave_MID_6_buffer.txt
+      15.03K 100%   21.50kB/s    0:00:00
+      15.03K 100%   21.50kB/s    0:00:00 (xfer#72, to-check=3/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_log/Run_423_Wave_MID_7_buffer.txt
+      14.98K 100%   21.38kB/s    0:00:00
+      14.98K 100%   21.38kB/s    0:00:00 (xfer#73, to-check=2/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_log/Run_423_Wave_MID_8_buffer.txt
+      15.03K 100%   21.43kB/s    0:00:00
+      15.03K 100%   21.43kB/s    0:00:00 (xfer#74, to-check=1/110)
+>f+++++++ Run_423_Wave/Run_423_Wave_log/Run_423_Wave_MID_9_buffer.txt
+      14.98K 100%   21.32kB/s    0:00:00
+      14.98K 100%   21.32kB/s    0:00:00 (xfer#75, to-check=0/110)
+
+sent 1.00G bytes  received 1.88K bytes  87.12M bytes/sec
+total size is 1.00G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_423/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_423_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

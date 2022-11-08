@@ -1,0 +1,278 @@
+[94m[INFO][0m Transferring HDD folder : [1m[96m/Volumes/HDD_16TB_1/HDD_Run_620/[0m to HDD dir : [1m[96m/Volumes/HDD_16TB_2/[0m
+[94m[INFO][0m Checking folder size...[0m
+[94m[INFO][0m Checking size of SSD data folder : [96m[1m/Volumes/HDD_16TB_1/HDD_Run_620[0m
+[94m[INFO][0m SSD data folder size = [96m[1m4.625 GB[0m
+[94m[INFO][0m Checking HDD storage : [96m[1m/Volumes/HDD_16TB_2[0m
+[94m[INFO][0m[92m Storage usage : [####----------------------------------------------][0m [92m[1m8.422 %[0m
+[94m[INFO][0m[92m[1m Total : 14901.553 GB / Used : 1255.052 GB / Free : [4m13646.5 GB[0m
+[94m[INFO][0m Copying folder [1m[96m/Volumes/HDD_16TB_1/HDD_Run_620/[0m to [1m[96m/Volumes/HDD_16TB_2/HDD_Run_620/[0m
+[94m[INFO][0m Will you execute command `[1m[35mrsync -avh --itemize-changes --log-file=./Log/Copy_Log_HDD_to_HDD/rsync_logHDD_Run_620.txt --progress /Volumes/HDD_16TB_1/HDD_Run_620/ /Volumes/HDD_16TB_2/HDD_Run_620/[0m`? [y/n] 
+building file list ... 
+ 0 files...
+95 files to consider
+created directory /Volumes/HDD_16TB_2/HDD_Run_620
+cd+++++++ ./
+cd+++++++ Run_620_Fast/
+cd+++++++ Run_620_Fast/Run_620_Fast_MID_1/
+>f+++++++ Run_620_Fast/Run_620_Fast_MID_1/Run_620_Fast_MID_1_FILE_0.dat
+      32.77K   2%    0.00kB/s    0:00:00
+       1.28M 100%   26.99MB/s    0:00:00 (xfer#1, to-check=91/95)
+cd+++++++ Run_620_Fast/Run_620_Fast_MID_10/
+>f+++++++ Run_620_Fast/Run_620_Fast_MID_10/Run_620_Fast_MID_10_FILE_0.dat
+      32.77K   2%  551.72kB/s    0:00:02
+       1.28M 100%   13.10MB/s    0:00:00 (xfer#2, to-check=89/95)
+cd+++++++ Run_620_Fast/Run_620_Fast_MID_11/
+>f+++++++ Run_620_Fast/Run_620_Fast_MID_11/Run_620_Fast_MID_11_FILE_0.dat
+      32.77K   2%  275.86kB/s    0:00:04
+       1.28M 100%    8.90MB/s    0:00:00 (xfer#3, to-check=87/95)
+cd+++++++ Run_620_Fast/Run_620_Fast_MID_12/
+>f+++++++ Run_620_Fast/Run_620_Fast_MID_12/Run_620_Fast_MID_12_FILE_0.dat
+      32.77K   2%  226.95kB/s    0:00:05
+       1.28M 100%    7.76MB/s    0:00:00 (xfer#4, to-check=85/95)
+cd+++++++ Run_620_Fast/Run_620_Fast_MID_13/
+>f+++++++ Run_620_Fast/Run_620_Fast_MID_13/Run_620_Fast_MID_13_FILE_0.dat
+      32.77K   2%  201.26kB/s    0:00:06
+       1.28M 100%    7.13MB/s    0:00:00 (xfer#5, to-check=83/95)
+cd+++++++ Run_620_Fast/Run_620_Fast_MID_14/
+>f+++++++ Run_620_Fast/Run_620_Fast_MID_14/Run_620_Fast_MID_14_FILE_0.dat
+      32.77K   2%  184.97kB/s    0:00:06
+       1.28M 100%    5.97MB/s    0:00:00 (xfer#6, to-check=81/95)
+cd+++++++ Run_620_Fast/Run_620_Fast_MID_15/
+>f+++++++ Run_620_Fast/Run_620_Fast_MID_15/Run_620_Fast_MID_15_FILE_0.dat
+      32.77K   2%  155.34kB/s    0:00:08
+       1.28M 100%    5.59MB/s    0:00:00 (xfer#7, to-check=79/95)
+cd+++++++ Run_620_Fast/Run_620_Fast_MID_2/
+>f+++++++ Run_620_Fast/Run_620_Fast_MID_2/Run_620_Fast_MID_2_FILE_0.dat
+      32.77K   2%  145.45kB/s    0:00:08
+       1.28M 100%    5.25MB/s    0:00:00 (xfer#8, to-check=77/95)
+cd+++++++ Run_620_Fast/Run_620_Fast_MID_3/
+>f+++++++ Run_620_Fast/Run_620_Fast_MID_3/Run_620_Fast_MID_3_FILE_0.dat
+      32.77K   2%  136.75kB/s    0:00:09
+       1.28M 100%    4.95MB/s    0:00:00 (xfer#9, to-check=75/95)
+cd+++++++ Run_620_Fast/Run_620_Fast_MID_4/
+>f+++++++ Run_620_Fast/Run_620_Fast_MID_4/Run_620_Fast_MID_4_FILE_0.dat
+      32.77K   2%  129.03kB/s    0:00:09
+       1.28M 100%    4.69MB/s    0:00:00 (xfer#10, to-check=73/95)
+cd+++++++ Run_620_Fast/Run_620_Fast_MID_5/
+>f+++++++ Run_620_Fast/Run_620_Fast_MID_5/Run_620_Fast_MID_5_FILE_0.dat
+      32.77K   2%  117.22kB/s    0:00:10
+       1.28M 100%    4.28MB/s    0:00:00 (xfer#11, to-check=71/95)
+cd+++++++ Run_620_Fast/Run_620_Fast_MID_6/
+>f+++++++ Run_620_Fast/Run_620_Fast_MID_6/Run_620_Fast_MID_6_FILE_0.dat
+      32.77K   2%  111.11kB/s    0:00:11
+       1.28M 100%    4.05MB/s    0:00:00 (xfer#12, to-check=69/95)
+cd+++++++ Run_620_Fast/Run_620_Fast_MID_7/
+>f+++++++ Run_620_Fast/Run_620_Fast_MID_7/Run_620_Fast_MID_7_FILE_0.dat
+      32.77K   2%  105.61kB/s    0:00:11
+       1.28M 100%    3.87MB/s    0:00:00 (xfer#13, to-check=67/95)
+cd+++++++ Run_620_Fast/Run_620_Fast_MID_8/
+>f+++++++ Run_620_Fast/Run_620_Fast_MID_8/Run_620_Fast_MID_8_FILE_0.dat
+      32.77K   2%  100.95kB/s    0:00:12
+       1.28M 100%    3.70MB/s    0:00:00 (xfer#14, to-check=65/95)
+cd+++++++ Run_620_Fast/Run_620_Fast_MID_9/
+>f+++++++ Run_620_Fast/Run_620_Fast_MID_9/Run_620_Fast_MID_9_FILE_0.dat
+      32.77K   2%   96.68kB/s    0:00:12
+       1.28M 100%    3.54MB/s    0:00:00 (xfer#15, to-check=63/95)
+cd+++++++ Run_620_Fast/Run_620_Fast_log/
+>f+++++++ Run_620_Fast/Run_620_Fast_log/Run_620_Fast_MID_10_buffer.txt
+       1.22K 100%    3.46kB/s    0:00:00
+       1.22K 100%    3.46kB/s    0:00:00 (xfer#16, to-check=61/95)
+>f+++++++ Run_620_Fast/Run_620_Fast_log/Run_620_Fast_MID_11_buffer.txt
+       1.22K 100%    3.46kB/s    0:00:00
+       1.22K 100%    3.46kB/s    0:00:00 (xfer#17, to-check=60/95)
+>f+++++++ Run_620_Fast/Run_620_Fast_log/Run_620_Fast_MID_12_buffer.txt
+       1.22K 100%    3.45kB/s    0:00:00
+       1.22K 100%    3.45kB/s    0:00:00 (xfer#18, to-check=59/95)
+>f+++++++ Run_620_Fast/Run_620_Fast_log/Run_620_Fast_MID_13_buffer.txt
+       1.22K 100%    3.45kB/s    0:00:00
+       1.22K 100%    3.45kB/s    0:00:00 (xfer#19, to-check=58/95)
+>f+++++++ Run_620_Fast/Run_620_Fast_log/Run_620_Fast_MID_14_buffer.txt
+       1.22K 100%    3.45kB/s    0:00:00
+       1.22K 100%    3.45kB/s    0:00:00 (xfer#20, to-check=57/95)
+>f+++++++ Run_620_Fast/Run_620_Fast_log/Run_620_Fast_MID_15_buffer.txt
+       1.22K 100%    3.42kB/s    0:00:00
+       1.22K 100%    3.42kB/s    0:00:00 (xfer#21, to-check=56/95)
+>f+++++++ Run_620_Fast/Run_620_Fast_log/Run_620_Fast_MID_1_buffer.txt
+       1.22K 100%    3.39kB/s    0:00:00
+       1.22K 100%    3.39kB/s    0:00:00 (xfer#22, to-check=55/95)
+>f+++++++ Run_620_Fast/Run_620_Fast_log/Run_620_Fast_MID_2_buffer.txt
+       1.22K 100%    3.38kB/s    0:00:00
+       1.22K 100%    3.38kB/s    0:00:00 (xfer#23, to-check=54/95)
+>f+++++++ Run_620_Fast/Run_620_Fast_log/Run_620_Fast_MID_3_buffer.txt
+       1.22K 100%    3.37kB/s    0:00:00
+       1.22K 100%    3.37kB/s    0:00:00 (xfer#24, to-check=53/95)
+>f+++++++ Run_620_Fast/Run_620_Fast_log/Run_620_Fast_MID_4_buffer.txt
+       1.22K 100%    3.36kB/s    0:00:00
+       1.22K 100%    3.36kB/s    0:00:00 (xfer#25, to-check=52/95)
+>f+++++++ Run_620_Fast/Run_620_Fast_log/Run_620_Fast_MID_5_buffer.txt
+       1.22K 100%    3.27kB/s    0:00:00
+       1.22K 100%    3.27kB/s    0:00:00 (xfer#26, to-check=51/95)
+>f+++++++ Run_620_Fast/Run_620_Fast_log/Run_620_Fast_MID_6_buffer.txt
+       1.22K 100%    3.27kB/s    0:00:00
+       1.22K 100%    3.27kB/s    0:00:00 (xfer#27, to-check=50/95)
+>f+++++++ Run_620_Fast/Run_620_Fast_log/Run_620_Fast_MID_7_buffer.txt
+       1.22K 100%    3.27kB/s    0:00:00
+       1.22K 100%    3.27kB/s    0:00:00 (xfer#28, to-check=49/95)
+>f+++++++ Run_620_Fast/Run_620_Fast_log/Run_620_Fast_MID_8_buffer.txt
+       1.22K 100%    3.27kB/s    0:00:00
+       1.22K 100%    3.27kB/s    0:00:00 (xfer#29, to-check=48/95)
+>f+++++++ Run_620_Fast/Run_620_Fast_log/Run_620_Fast_MID_9_buffer.txt
+       1.22K 100%    3.27kB/s    0:00:00
+       1.22K 100%    3.26kB/s    0:00:00 (xfer#30, to-check=47/95)
+cd+++++++ Run_620_Wave/
+cd+++++++ Run_620_Wave/Run_620_Wave_MID_1/
+>f+++++++ Run_620_Wave/Run_620_Wave_MID_1/Run_620_Wave_MID_1_FILE_0.dat
+      32.77K   0%   79.01kB/s    1:09:32
+      62.95M  19%   60.03MB/s    0:00:04
+     175.41M  53%   83.47MB/s    0:00:01
+     278.89M  84%   88.57MB/s    0:00:00
+     329.71M 100%   89.00MB/s    0:00:03 (xfer#31, to-check=44/95)
+cd+++++++ Run_620_Wave/Run_620_Wave_MID_10/
+>f+++++++ Run_620_Wave/Run_620_Wave_MID_10/Run_620_Wave_MID_10_FILE_0.dat
+      32.77K   0%   59.81kB/s    1:31:51
+      48.27M  14%   46.03MB/s    0:00:05
+     150.60M  45%   71.85MB/s    0:00:02
+     258.80M  78%   82.33MB/s    0:00:00
+     329.71M 100%   85.98MB/s    0:00:03 (xfer#32, to-check=42/95)
+cd+++++++ Run_620_Wave/Run_620_Wave_MID_11/
+>f+++++++ Run_620_Wave/Run_620_Wave_MID_11/Run_620_Wave_MID_11_FILE_0.dat
+      32.77K   0%   48.41kB/s    1:53:29
+      39.88M  12%   38.03MB/s    0:00:07
+     147.36M  44%   70.27MB/s    0:00:02
+     269.25M  81%   85.59MB/s    0:00:00
+     329.71M 100%   86.60MB/s    0:00:03 (xfer#33, to-check=40/95)
+cd+++++++ Run_620_Wave/Run_620_Wave_MID_12/
+>f+++++++ Run_620_Wave/Run_620_Wave_MID_12/Run_620_Wave_MID_12_FILE_0.dat
+      32.77K   0%   50.55kB/s    1:48:41
+      23.36M   7%   22.28MB/s    0:00:13
+     138.71M  42%   66.14MB/s    0:00:02
+     253.79M  76%   80.68MB/s    0:00:00
+     329.71M 100%   85.14MB/s    0:00:03 (xfer#34, to-check=38/95)
+cd+++++++ Run_620_Wave/Run_620_Wave_MID_13/
+>f+++++++ Run_620_Wave/Run_620_Wave_MID_13/Run_620_Wave_MID_13_FILE_0.dat
+      32.77K   0%   46.04kB/s    1:59:20
+      33.33M  10%   31.78MB/s    0:00:09
+     138.67M  42%   66.12MB/s    0:00:02
+     246.97M  74%   78.54MB/s    0:00:01
+     329.71M 100%   84.41MB/s    0:00:03 (xfer#35, to-check=36/95)
+cd+++++++ Run_620_Wave/Run_620_Wave_MID_14/
+>f+++++++ Run_620_Wave/Run_620_Wave_MID_14/Run_620_Wave_MID_14_FILE_0.dat
+      32.77K   0%   43.90kB/s    2:05:10
+      24.31M   7%   23.19MB/s    0:00:12
+     138.71M  42%   66.14MB/s    0:00:02
+     234.13M  71%   74.01MB/s    0:00:01
+     329.71M 100%   79.22MB/s    0:00:03 (xfer#36, to-check=34/95)
+cd+++++++ Run_620_Wave/Run_620_Wave_MID_15/
+>f+++++++ Run_620_Wave/Run_620_Wave_MID_15/Run_620_Wave_MID_15_FILE_0.dat
+      32.77K   0%   33.54kB/s    2:43:48
+       5.54M   1%    5.28MB/s    0:00:59
+     112.23M  34%   53.54MB/s    0:00:03
+     220.23M  66%   70.03MB/s    0:00:01
+     329.12M  99%   78.51MB/s    0:00:00
+     329.71M 100%   78.59MB/s    0:00:04 (xfer#37, to-check=32/95)
+cd+++++++ Run_620_Wave/Run_620_Wave_MID_2/
+>f+++++++ Run_620_Wave/Run_620_Wave_MID_2/Run_620_Wave_MID_2_FILE_0.dat
+      32.77K   0%    5.21MB/s    0:01:01
+     111.97M  33%  106.78MB/s    0:00:01
+     216.17M  65%  103.08MB/s    0:00:01
+     329.71M 100%  105.37MB/s    0:00:02 (xfer#38, to-check=30/95)
+cd+++++++ Run_620_Wave/Run_620_Wave_MID_3/
+>f+++++++ Run_620_Wave/Run_620_Wave_MID_3/Run_620_Wave_MID_3_FILE_0.dat
+      32.77K   0%   32.00kB/s    2:51:42
+      65.54K   0%   64.00kB/s    1:25:50
+     107.77M  32%   51.39MB/s    0:00:04
+     219.45M  66%   69.76MB/s    0:00:01
+     329.71M 100%   79.52MB/s    0:00:03 (xfer#39, to-check=28/95)
+cd+++++++ Run_620_Wave/Run_620_Wave_MID_4/
+>f+++++++ Run_620_Wave/Run_620_Wave_MID_4/Run_620_Wave_MID_4_FILE_0.dat
+      32.77K   0%   33.47kB/s    2:44:09
+       5.44M   1%    5.19MB/s    0:01:01
+     109.35M  33%   52.17MB/s    0:00:04
+     219.28M  66%   69.75MB/s    0:00:01
+     329.71M 100%   79.06MB/s    0:00:03 (xfer#40, to-check=26/95)
+cd+++++++ Run_620_Wave/Run_620_Wave_MID_5/
+>f+++++++ Run_620_Wave/Run_620_Wave_MID_5/Run_620_Wave_MID_5_FILE_0.dat
+      32.77K   0%   32.59kB/s    2:48:37
+       1.87M   0%    1.77MB/s    0:03:00
+     111.44M  33%   52.85MB/s    0:00:04
+     222.33M  67%   70.44MB/s    0:00:01
+     329.71M 100%   79.71MB/s    0:00:03 (xfer#41, to-check=24/95)
+cd+++++++ Run_620_Wave/Run_620_Wave_MID_6/
+>f+++++++ Run_620_Wave/Run_620_Wave_MID_6/Run_620_Wave_MID_6_FILE_0.dat
+      32.77K   0%   34.19kB/s    2:40:43
+       3.18M   0%    2.99MB/s    0:01:46
+     109.87M  33%   51.77MB/s    0:00:04
+     221.54M  67%   69.89MB/s    0:00:01
+     303.86M  92%   72.01MB/s    0:00:00
+     329.71M 100%   71.38MB/s    0:00:04 (xfer#42, to-check=22/95)
+cd+++++++ Run_620_Wave/Run_620_Wave_MID_7/
+>f+++++++ Run_620_Wave/Run_620_Wave_MID_7/Run_620_Wave_MID_7_FILE_0.dat
+      32.77K   0%   82.47kB/s    1:06:37
+      48.27M  14%   46.03MB/s    0:00:05
+     159.15M  48%   75.89MB/s    0:00:02
+     274.24M  83%   87.21MB/s    0:00:00
+     329.71M 100%   92.08MB/s    0:00:03 (xfer#43, to-check=20/95)
+cd+++++++ Run_620_Wave/Run_620_Wave_MID_8/
+>f+++++++ Run_620_Wave/Run_620_Wave_MID_8/Run_620_Wave_MID_8_FILE_0.dat
+      32.77K   0%   76.56kB/s    1:11:46
+      68.71M  20%   65.53MB/s    0:00:03
+     191.66M  58%   91.39MB/s    0:00:01
+     318.28M  96%  101.18MB/s    0:00:00
+     329.71M 100%  101.96MB/s    0:00:03 (xfer#44, to-check=18/95)
+cd+++++++ Run_620_Wave/Run_620_Wave_MID_9/
+>f+++++++ Run_620_Wave/Run_620_Wave_MID_9/Run_620_Wave_MID_9_FILE_0.dat
+      32.77K   0%  367.82kB/s    0:14:56
+     114.33M  34%  109.03MB/s    0:00:01
+     239.40M  72%  114.21MB/s    0:00:00
+     329.71M 100%  117.42MB/s    0:00:02 (xfer#45, to-check=16/95)
+cd+++++++ Run_620_Wave/Run_620_Wave_log/
+>f+++++++ Run_620_Wave/Run_620_Wave_log/Run_620_Wave_MID_10_buffer.txt
+      32.77K  43%   46.44kB/s    0:00:00
+      75.87K 100%  107.53kB/s    0:00:00 (xfer#46, to-check=14/95)
+>f+++++++ Run_620_Wave/Run_620_Wave_log/Run_620_Wave_MID_11_buffer.txt
+      32.77K  43%   45.33kB/s    0:00:00
+      75.78K 100%  104.82kB/s    0:00:00 (xfer#47, to-check=13/95)
+>f+++++++ Run_620_Wave/Run_620_Wave_log/Run_620_Wave_MID_12_buffer.txt
+      32.77K  43%   45.01kB/s    0:00:00
+      75.54K 100%  103.61kB/s    0:00:00 (xfer#48, to-check=12/95)
+>f+++++++ Run_620_Wave/Run_620_Wave_log/Run_620_Wave_MID_13_buffer.txt
+      32.77K  43%   44.57kB/s    0:00:00
+      75.85K 100%  103.16kB/s    0:00:00 (xfer#49, to-check=11/95)
+>f+++++++ Run_620_Wave/Run_620_Wave_log/Run_620_Wave_MID_14_buffer.txt
+      32.77K  43%   44.02kB/s    0:00:00
+      75.58K 100%  101.53kB/s    0:00:00 (xfer#50, to-check=10/95)
+>f+++++++ Run_620_Wave/Run_620_Wave_log/Run_620_Wave_MID_15_buffer.txt
+      32.77K  43%   42.90kB/s    0:00:00
+      75.40K 100%   98.70kB/s    0:00:00 (xfer#51, to-check=9/95)
+>f+++++++ Run_620_Wave/Run_620_Wave_log/Run_620_Wave_MID_1_buffer.txt
+      32.77K  43%   42.67kB/s    0:00:00
+      75.37K 100%   98.14kB/s    0:00:00 (xfer#52, to-check=8/95)
+>f+++++++ Run_620_Wave/Run_620_Wave_log/Run_620_Wave_MID_2_buffer.txt
+      32.77K  43%   42.38kB/s    0:00:01
+      75.80K 100%   98.04kB/s    0:00:00 (xfer#53, to-check=7/95)
+>f+++++++ Run_620_Wave/Run_620_Wave_log/Run_620_Wave_MID_3_buffer.txt
+      32.77K  43%   42.16kB/s    0:00:01
+      75.46K 100%   96.96kB/s    0:00:00 (xfer#54, to-check=6/95)
+>f+++++++ Run_620_Wave/Run_620_Wave_log/Run_620_Wave_MID_4_buffer.txt
+      32.77K  43%   41.88kB/s    0:00:01
+      75.47K 100%   96.46kB/s    0:00:00 (xfer#55, to-check=5/95)
+>f+++++++ Run_620_Wave/Run_620_Wave_log/Run_620_Wave_MID_5_buffer.txt
+      32.77K  43%   41.61kB/s    0:00:01
+      75.93K 100%   96.30kB/s    0:00:00 (xfer#56, to-check=4/95)
+>f+++++++ Run_620_Wave/Run_620_Wave_log/Run_620_Wave_MID_6_buffer.txt
+      32.77K  43%   41.34kB/s    0:00:01
+      75.44K 100%   95.19kB/s    0:00:00 (xfer#57, to-check=3/95)
+>f+++++++ Run_620_Wave/Run_620_Wave_log/Run_620_Wave_MID_7_buffer.txt
+      32.77K  43%   41.08kB/s    0:00:01
+      75.48K 100%   94.62kB/s    0:00:00 (xfer#58, to-check=2/95)
+>f+++++++ Run_620_Wave/Run_620_Wave_log/Run_620_Wave_MID_8_buffer.txt
+      32.77K  43%   40.82kB/s    0:00:01
+      75.72K 100%   94.32kB/s    0:00:00 (xfer#59, to-check=1/95)
+>f+++++++ Run_620_Wave/Run_620_Wave_log/Run_620_Wave_MID_9_buffer.txt
+      32.77K  43%   40.61kB/s    0:00:01
+      75.37K 100%   93.41kB/s    0:00:00 (xfer#60, to-check=0/95)
+
+sent 4.97G bytes  received 1.55K bytes  104.56M bytes/sec
+total size is 4.97G  speedup is 1.00
+[94m[INFO][0m Source folder [96m[1m/Volumes/HDD_16TB_1/HDD_Run_620/[0m will be renamed to [96m[1m/Volumes/HDD_16TB_1/HDD_Run_620_copied/[0m
+[94m[INFO][0m [1m[92mTransferring the data completed. PLEASE WRITE LOG & PROCEED TO VALIDATION STEP[0m

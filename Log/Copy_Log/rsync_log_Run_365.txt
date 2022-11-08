@@ -1,0 +1,20 @@
+2022/08/20 03:48:42 [95968] receiving file list
+2022/08/20 03:48:42 [95968] created directory /Volumes/HDD_16TB_1/HDD_Run_365
+2022/08/20 03:48:42 [95968] cd+++++++ ./
+2022/08/20 03:48:42 [95968] cd+++++++ Run_365_Fast/
+2022/08/20 03:48:42 [95968] cd+++++++ Run_365_Fast/Run_365_Fast_MID_1/
+2022/08/20 03:48:42 [95968] >f+++++++ Run_365_Fast/Run_365_Fast_MID_1/Run_365_Fast_MID_1_FILE_0.dat
+2022/08/20 03:48:42 [95968] cd+++++++ Run_365_Fast/Run_365_Fast_MID_2/
+2022/08/20 03:48:42 [95968] >f+++++++ Run_365_Fast/Run_365_Fast_MID_2/Run_365_Fast_MID_2_FILE_0.dat
+2022/08/20 03:48:42 [95968] cd+++++++ Run_365_Fast/Run_365_Fast_log/
+2022/08/20 03:48:42 [95968] >f+++++++ Run_365_Fast/Run_365_Fast_log/Run_365_Fast_MID_1_buffer.txt
+2022/08/20 03:48:42 [95968] >f+++++++ Run_365_Fast/Run_365_Fast_log/Run_365_Fast_MID_2_buffer.txt
+2022/08/20 03:48:42 [95968] cd+++++++ Run_365_Wave/
+2022/08/20 03:48:42 [95968] cd+++++++ Run_365_Wave/Run_365_Wave_MID_1/
+2022/08/20 03:48:43 [95968] >f+++++++ Run_365_Wave/Run_365_Wave_MID_1/Run_365_Wave_MID_1_FILE_0.dat
+2022/08/20 03:48:43 [95968] cd+++++++ Run_365_Wave/Run_365_Wave_MID_2/
+2022/08/20 03:48:43 [95968] >f+++++++ Run_365_Wave/Run_365_Wave_MID_2/Run_365_Wave_MID_2_FILE_0.dat
+2022/08/20 03:48:43 [95968] cd+++++++ Run_365_Wave/Run_365_Wave_log/
+2022/08/20 03:48:43 [95968] >f+++++++ Run_365_Wave/Run_365_Wave_log/Run_365_Wave_MID_1_buffer.txt
+2022/08/20 03:48:43 [95968] >f+++++++ Run_365_Wave/Run_365_Wave_log/Run_365_Wave_MID_2_buffer.txt
+2022/08/20 03:48:43 [95968] sent 308 bytes  received 493 bytes  total size 37430078
