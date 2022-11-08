@@ -105,9 +105,13 @@ def transfer_dirs_to_hdd(source_path, destination_path) :
     copy_cmd_org = ("rsync -avh --itemize-changes --log-file=./Log/Copy_Log/rsync_log%s.txt --progress %s %s" %(source_name.replace("SSD", ""), source_path, destination_path))
     copy_cmd = ["rsync", "-avh", "--itemize-changes", "--log-file=./Log/Copy_Log/rsync_log%s.txt" %(source_name.replace("SSD", "")), "--progress", "%s" %(source_path), "%s" %(destination_path)]
     #execute = ask_command_execution(copy_cmd)
+<<<<<<< HEAD
     print(f"{bcolors.INFO}[INFO]{bcolors.ENDC} Will you execute command `{bcolors.BOLD}{bcolors.CMD}%s{bcolors.ENDC}`? [y/n] " % copy_cmd_org)
     execute = True
     #execute = ask_command_execution(copy_cmd_org)
+=======
+    execute = ask_command_execution(copy_cmd_org)
+>>>>>>> main
     # if execute :
     #     stream = os.popen(copy_cmd_org)
     #     output = f"{bcolors.CMD}[EXECUTING]{bcolors.ENDC} : " + stream.read()
