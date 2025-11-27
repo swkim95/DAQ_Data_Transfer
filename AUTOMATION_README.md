@@ -6,10 +6,10 @@ This automation system monitors the experimental data directory and automaticall
 
 The automation system performs a 4-step process when a new run appears:
 
-1. **Copy SSD → HDD_16TB_3** (Primary backup)
-2. **Validate SSD ↔ HDD_16TB_3** (Ensure integrity)
-3. **Copy HDD_16TB_3 → HDD_16TB_5** (Secondary backup)
-4. **Validate HDD_16TB_3 ↔ HDD_16TB_5** (Ensure backup integrity)
+1. **Copy SSD → HDD_16TB_2** (Primary backup)
+2. **Validate SSD ↔ HDD_16TB_2** (Ensure integrity)
+3. **Copy HDD_16TB_2 → HDD_16TB_4** (Secondary backup)
+4. **Validate HDD_16TB_2 ↔ HDD_16TB_4** (Ensure backup integrity)
 
 ## Key Features
 
@@ -22,7 +22,7 @@ The automation system performs a 4-step process when a new run appears:
 - ✅ **Dry-run mode** - Test operations without executing
 
 ### Smart Processing
-- ✅ **Automatic run detection** - Monitors `/Users/yhep/scratch/YUdaq/` for new runs
+- ✅ **Automatic run detection** - Monitors `/Volumes/SSD_8TB/` for new runs
 - ✅ **Sequential processing** - Processes Run_N-1 when Run_N appears
 - ✅ **State awareness** - Resumes interrupted workflows
 - ✅ **Duplicate prevention** - Checks existing copies before starting transfers
@@ -103,7 +103,7 @@ python3 daq_automation.py --interval 60 --dry-run
 ## How It Works
 
 ### Monitoring Logic
-1. **Scans** `/Users/yhep/scratch/YUdaq/` for `Run_*` directories
+1. **Scans** `/Volumes/SSD_8TB/` for `Run_*` directories
 2. **Identifies** the latest run (still being taken)
 3. **Processes** the second-to-latest run (completed run)
 4. **Tracks** progress using flag files (`COPIED.flag`, `VALIDATED.flag`)
@@ -114,22 +114,22 @@ For each run (e.g., Run_11876):
 ```
 Run_11877 appears → Process Run_11876
 
-Step 1: SSD → HDD_16TB_3
+Step 1: SSD → HDD_16TB_2
 ├── Check: Already copied?
 ├── Execute: ./Transfer_Data.sh 11876
 └── Verify: COPIED.flag created
 
-Step 2: Validate SSD ↔ HDD_16TB_3  
+Step 2: Validate SSD ↔ HDD_16TB_2  
 ├── Check: Already validated?
 ├── Execute: ./Valid_Data.sh 11876
 └── Verify: VALIDATED.flag created
 
-Step 3: HDD_16TB_3 → HDD_16TB_5
+Step 3: HDD_16TB_2 → HDD_16TB_4
 ├── Check: Already copied?
 ├── Execute: ./Transfer_Data_HDD.sh 11876
 └── Verify: COPIED.flag created
 
-Step 4: Validate HDD_16TB_3 ↔ HDD_16TB_5
+Step 4: Validate HDD_16TB_2 ↔ HDD_16TB_4
 ├── Check: Already validated?
 ├── Execute: ./Valid_Data_HDD.sh 11876
 └── Verify: VALIDATED.flag created
@@ -228,8 +228,8 @@ python3 transfer_from_DAQ_PC_to_HDD.py 11876
 #### 4. Storage Issues
 ```bash
 # Check disk space
-df -h /Volumes/HDD_16TB_3
-df -h /Volumes/HDD_16TB_5
+df -h /Volumes/HDD_16TB_2
+df -h /Volumes/HDD_16TB_4
 df -h /Users/yhep/scratch
 
 # Check mount points

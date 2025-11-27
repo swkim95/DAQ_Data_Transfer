@@ -13,7 +13,7 @@ Usage:
     
 Examples:
     python3 transfer_from_HDD_to_HDD.py 999
-    python3 transfer_from_HDD_to_HDD.py 999 /Volumes/HDD_16TB_5/
+    python3 transfer_from_HDD_to_HDD.py 999 /Volumes/HDD_16TB_4/
 
 The script performs the same safety checks as SSD→HDD transfer:
 - Validates source and destination paths
@@ -21,8 +21,8 @@ The script performs the same safety checks as SSD→HDD transfer:
 - Creates transfer logs and completion flags
 - Provides real-time progress monitoring
 
-Source data location: /Volumes/HDD_16TB_3/Run_<run_number>/
-Default destination: /Volumes/HDD_16TB_5/Run_<run_number>/
+Source data location: /Volumes/HDD_16TB_2/Run_<run_number>/
+Default destination: /Volumes/HDD_16TB_4/Run_<run_number>/
 Custom destination: <destination_path>/Run_<run_number>/ (if provided)
 
 Note: This script skips the "already copied" warning since HDD→HDD transfers
@@ -42,7 +42,7 @@ def main():
     
     Arguments:
         run_number: Required - The run number to transfer
-        destination_path: Optional - Custom destination path (defaults to /Volumes/HDD_16TB_5/)
+        destination_path: Optional - Custom destination path (defaults to /Volumes/HDD_16TB_4/)
     """
     # Validate command line arguments (1-2 arguments plus script name)
     validate_args_count_flexible(

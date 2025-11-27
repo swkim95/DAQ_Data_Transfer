@@ -21,8 +21,8 @@ The script performs comprehensive safety checks before deletion:
 - Confirms data exists in HDD before deleting from SSD
 - Displays final storage usage after deletion
 
-Source data location: /Users/yhep/scratch/YUdaq/Run_<run_number>/
-HDD verification path: /Volumes/HDD_16TB_3/Run_<run_number>/ (hardcoded)
+Source data location: /Volumes/SSD_8TB/Run_<run_number>/
+HDD verification path: /Volumes/HDD_16TB_2/Run_<run_number>/ (hardcoded)
 
 Prerequisites: 
 - Data must have been copied (COPIED.flag exists)
@@ -144,7 +144,7 @@ def validate_prerequisites(ssd_dir: str) -> None:
 def display_final_storage_usage() -> None:
     """Display SSD storage usage after data removal."""
     print_info("Checking SSD storage usage after removal...")
-    total, used, free = shutil.disk_usage("/Users/yhep/scratch/YUdaq/")
+    total, used, free = shutil.disk_usage("/Volumes/SSD_8TB/")
     display_storage_usage_bar(total, used, free)
 
 
@@ -170,8 +170,8 @@ def main():
     run_number = sys.argv[1]
     
     # Construct paths with hardcoded HDD verification path
-    ssd_dir_prefix = "/Users/yhep/scratch/YUdaq/Run_"
-    hdd_dir_prefix = "/Volumes/HDD_16TB_3/Run_"
+    ssd_dir_prefix = "/Volumes/SSD_8TB/Run_"
+    hdd_dir_prefix = "/Volumes/HDD_16TB_2/Run_"
     
     ssd_dir = ssd_dir_prefix + run_number
     hdd_dir = hdd_dir_prefix + run_number

@@ -21,8 +21,8 @@ The script performs comprehensive safety checks:
 - Creates transfer logs and completion flags
 - Provides real-time progress monitoring
 
-Source data location: /Users/yhep/scratch/YUdaq/Run_<run_number>/
-Default destination: /Volumes/HDD_16TB_3/Run_<run_number>/
+Source data location: /Volumes/SSD_8TB/Run_<run_number>/
+Default destination: /Volumes/HDD_16TB_2/Run_<run_number>/
 Custom destination: <destination_path>/Run_<run_number>/ (if provided)
 """
 
@@ -39,7 +39,7 @@ def main():
     
     Arguments:
         run_number: Required - The run number to transfer
-        destination_path: Optional - Custom destination path (defaults to /Volumes/HDD_16TB_3/)
+        destination_path: Optional - Custom destination path (defaults to /Volumes/HDD_16TB_2/)
     """
     # Validate command line arguments (1-2 arguments plus script name)
     validate_args_count_flexible(

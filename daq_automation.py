@@ -4,12 +4,12 @@ DAQ Data Processing Automation Script
 This script monitors the experimental data directory and automatically processes
 new runs through the primary backup and validation workflow:
 
-1. Monitors /Users/yhep/scratch/YUdaq/ for new run directories
+1. Monitors /Volumes/SSD_8TB/ for new run directories
 2. When a new run appears (Run_N), processes unprocessed runs starting from the lowest run number:
-   a. Copy SSD → HDD_16TB_3 (primary backup)
-   b. Validate SSD ↔ HDD_16TB_3
+   a. Copy SSD → HDD_16TB_2 (primary backup)
+   b. Validate SSD ↔ HDD_16TB_2
 
-Note: Secondary backup to HDD_16TB_5 is not automated and should be handled separately if needed.
+Note: Secondary backup to HDD_16TB_4 is not automated and should be handled separately if needed.
 
 Safety Features:
 - Checks if data is already copied before starting transfer
@@ -68,9 +68,9 @@ class DAQAutomation:
         self.dry_run = dry_run
         
         # Paths
-        self.source_base = "/Users/yhep/scratch/YUdaq"
-        self.hdd1_base = "/Volumes/HDD_16TB_3"
-        self.hdd2_base = "/Volumes/HDD_16TB_5"
+        self.source_base = "/Volumes/SSD_8TB"
+        self.hdd1_base = "/Volumes/HDD_16TB_2"
+        self.hdd2_base = "/Volumes/HDD_16TB_4"
         
         # Script paths
         self.transfer_ssd_script = "./Transfer_Data.sh"
@@ -307,7 +307,7 @@ class DAQAutomation:
         self.log_message(f"Current status for Run_{run_number}:")
         self.log_message(f"  HDD1 copied: {hdd1_copied}")
         self.log_message(f"  SSD validated: {ssd_validated}")
-        self.log_message(f"  [Secondary backup to HDD_16TB_5 not automated]")
+        self.log_message(f"  [Secondary backup to HDD_16TB_4 not automated]")
         
         # Step 1: Copy SSD → HDD1 (if not already done)
         if not hdd1_copied:
@@ -327,8 +327,8 @@ class DAQAutomation:
         else:
             self.log_message(f"Step 2: Run_{run_number} already validated (SSD↔HDD1), skipping")
         
-        # Secondary backup to HDD_16TB_5 is not automated
-        self.log_message(f"[INFO] Secondary backup to HDD_16TB_5 should be handled manually if needed")
+        # Secondary backup to HDD_16TB_4 is not automated
+        self.log_message(f"[INFO] Secondary backup to HDD_16TB_4 should be handled manually if needed")
         
         self.log_message(f"Successfully completed primary backup and validation for Run_{run_number}", "SUCCESS")
         return True

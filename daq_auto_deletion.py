@@ -73,7 +73,7 @@ class DAQAutoDeletion:
     
     Features:
     - Real-time storage monitoring with event capacity calculations
-    - Event size: 855,296 bytes (0.855 MB) per event
+    - Event size: 197,376 bytes (0.188 MB) per event (3 DAQs active)
     - Visual storage display with color-coded status
     - Sequential deletion starting from lowest run numbers
     - Comprehensive safety verification before each deletion
@@ -96,9 +96,9 @@ class DAQAutoDeletion:
         self.stop_threshold = stop_threshold
         
         # Paths
-        self.source_base = "/Users/yhep/scratch/YUdaq"
-        self.hdd1_base = "/Volumes/HDD_16TB_3"
-        self.hdd2_base = "/Volumes/HDD_16TB_5"
+        self.source_base = "/Volumes/SSD_8TB"
+        self.hdd1_base = "/Volumes/HDD_16TB_2"
+        self.hdd2_base = "/Volumes/HDD_16TB_4"
         
         # Safety limits
         if trigger_threshold > 90.0:
@@ -196,8 +196,9 @@ class DAQAutoDeletion:
         used_gb = storage.used_bytes / (1024**3)
         free_gb = storage.free_bytes / (1024**3)
         
-        # Calculate events (each event = 855296 bytes = 0.855296 MB)
-        event_size_bytes = 855296
+        # Calculate events based on current DAQ configuration:
+        # 3 DAQs × (Waveform 65536 B + Fast 256 B) = 197,376 bytes per event
+        event_size_bytes = 197_376
         total_events_capacity = storage.total_bytes // event_size_bytes
         used_events = storage.used_bytes // event_size_bytes
         free_events = storage.free_bytes // event_size_bytes

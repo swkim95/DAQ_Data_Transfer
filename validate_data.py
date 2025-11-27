@@ -20,8 +20,8 @@ The script performs comprehensive validation:
 - Validates data integrity using SHA256 checksums
 - Creates validation flags upon successful completion
 
-Source data location: /Users/yhep/scratch/YUdaq/Run_<run_number>/
-Destination: /Volumes/HDD_16TB_3/Run_<run_number>/ (hardcoded)
+Source data location: /Volumes/SSD_8TB/Run_<run_number>/
+Destination: /Volumes/HDD_16TB_2/Run_<run_number>/ (hardcoded)
 
 Prerequisites: Data must have been copied and COPIED.flag must exist.
 """

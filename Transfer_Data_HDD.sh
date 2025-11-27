@@ -3,7 +3,7 @@
 # DAQ Data Transfer Script (HDD to HDD)
 # Usage: ./Transfer_Data_HDD.sh <run_number> [destination_path]
 # Example: ./Transfer_Data_HDD.sh 999
-# Example: ./Transfer_Data_HDD.sh 999 /Volumes/HDD_16TB_5/
+# Example: ./Transfer_Data_HDD.sh 999 /Volumes/HDD_16TB_4/
 
 RUN_NUMBER=$1
 DEST_DIR=$2

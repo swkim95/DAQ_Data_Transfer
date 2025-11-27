@@ -1,21 +1,21 @@
 # DAQ Automated Data Deletion System - EXTREMELY DANGEROUS
 
-⚠️ **CRITICAL WARNING: This system PERMANENTLY DELETES experimental data when storage exceeds 40% usage.**
+⚠️ **CRITICAL WARNING: This system PERMANENTLY DELETES experimental data when storage exceeds 60% usage.**
 
 ## Overview
 
-The automated deletion system monitors internal SSD storage and safely deletes validated data when storage exceeds the trigger threshold (40% by default). It includes comprehensive safety checks and logging to prevent accidental data loss.
+The automated deletion system monitors internal SSD storage and safely deletes validated data when storage exceeds the trigger threshold (60% by default). It includes comprehensive safety checks and logging to prevent accidental data loss.
 
 ### How It Works
 
 1. **Continuous Monitoring**: Checks SSD storage usage every 5 minutes (configurable)
-2. **Trigger Point**: When storage exceeds 40%, starts deletion process
+2. **Trigger Point**: When storage exceeds 60%, starts deletion process
 3. **Sequential Deletion**: Deletes runs in order (Run_1, Run_2, Run_3...)
 4. **Safety Verification**: Before each deletion, verifies:
-   - Data exists in both HDD_16TB_3 and HDD_16TB_5
+   - Data exists in both HDD_16TB_2 and HDD_16TB_4
    - All copies have COPIED.flag and VALIDATED.flag
    - Data file counts match between source and backups
-5. **Stop Point**: When storage drops below 40%, stops deletion
+5. **Stop Point**: When storage drops below 30%, stops deletion
 6. **Resume Monitoring**: Returns to monitoring mode
 
 ## Files
@@ -48,11 +48,11 @@ For real deletion mode:
 
 For each run, verifies:
 - ✅ Source directory exists in SSD
-- ✅ Copy exists in HDD_16TB_3 with COPIED.flag
-- ✅ Copy exists in HDD_16TB_5 with COPIED.flag  
+- ✅ Copy exists in HDD_16TB_2 with COPIED.flag
+- ✅ Copy exists in HDD_16TB_4 with COPIED.flag  
 - ✅ Source has VALIDATED.flag
-- ✅ HDD_16TB_3 copy has VALIDATED.flag
-- ✅ HDD_16TB_5 copy has VALIDATED.flag
+- ✅ HDD_16TB_2 copy has VALIDATED.flag
+- ✅ HDD_16TB_4 copy has VALIDATED.flag
 - ✅ Data file counts match across all locations
 
 ## Usage
@@ -93,8 +93,8 @@ For each run, verifies:
 ## Configuration
 
 ### Default Settings
-- **Trigger Threshold**: 40% storage usage
-- **Stop Threshold**: 10% storage usage  
+- **Trigger Threshold**: 60% storage usage
+- **Stop Threshold**: 30% storage usage  
 - **Monitoring Interval**: 300 seconds (5 minutes)
 - **Mode**: Dry-run (safe)
 
@@ -117,14 +117,14 @@ Storage: 72% used (881,671 events used, 340,429 available) → Trigger deletion
 ├── Check Run_2: All safety checks pass  
 ├── Delete Run_2: Success (now 58% used, 462,845 events available)
 ├── Check Run_3: All safety checks pass
-├── Delete Run_3: Success (now 38% used, 734,512 events available)
-└── Stop: Below 40% threshold
+├── Delete Run_3: Success (now 28% used, 734,512 events available)
+└── Stop: Below 30% threshold
 ```
 
 ### Scenario 2: Safety Failure
 ```
 Storage: 75% used → Trigger deletion
-├── Check Run_1: Missing VALIDATED.flag in HDD_16TB_5
+├── Check Run_1: Missing VALIDATED.flag in HDD_16TB_4
 ├── Skip Run_1: Safety check failed
 ├── Check Run_2: All safety checks pass
 ├── Delete Run_2: Success
@@ -170,15 +170,15 @@ The system shows real-time storage status with event capacity calculations:
 │ |████████████████████████████████████▌─────────────| 72.3%                        │
 │ Used: 723.0GB / Total: 1000.0GB / Free: 277.0GB                                    │
 │ Events: 883,710 used / 1,222,100 total / 338,390 available                         │
-│ Event size: 855,296 bytes (0.86 MB each)                                           │
+│ Event size: 197,376 bytes (0.19 MB each)                                           │
 └──────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 Color coding:
 - 🟢 **Green**: < 30% (Good)
-- 🟡 **Yellow**: 30-40% (Moderate) 
-- 🟠 **Orange**: 40-60% (High)
-- 🔴 **Red**: > 60% (Critical)
+- 🟡 **Yellow**: 30-60% (Moderate) 
+- 🟠 **Orange**: 60-80% (High)
+- 🔴 **Red**: > 80% (Critical)
 
 ## Troubleshooting
 
@@ -245,7 +245,7 @@ If auto-deletion fails:
 ### 📞 **Emergency Contacts**
 
 - **Data Recovery**: Contact system administrator
-- **Backup Verification**: Check HDD_16TB_3 and HDD_16TB_5
+- **Backup Verification**: Check HDD_16TB_2 and HDD_16TB_4
 - **Log Analysis**: Review all log files for failure points
 
 ## Performance
@@ -254,7 +254,7 @@ If auto-deletion fails:
 - **CPU**: Minimal during monitoring, moderate during deletion
 - **Memory**: ~100MB Python process
 - **Disk I/O**: High during deletion operations
-- **Storage**: Monitors `/Users/yhep/scratch/YUdaq/`
+- **Storage**: Monitors `/Volumes/SSD_8TB/`
 
 ### Timing Estimates
 - **Storage check**: <1 second

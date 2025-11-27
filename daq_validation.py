@@ -556,10 +556,10 @@ class DAQValidator:
 class SSDValidator(DAQValidator):
     """Validator for SSD to HDD data validation."""
     
-    DEFAULT_HDD_PATH = "/Volumes/HDD_16TB_3/"
+    DEFAULT_HDD_PATH = "/Volumes/HDD_16TB_2/"
     
     def __init__(self):
-        super().__init__("/Users/yhep/scratch/YUdaq/Run_")
+        super().__init__("/Volumes/SSD_8TB/Run_")
     
     def get_default_destination(self, run_number: str) -> str:
         """Return the default HDD destination for SSD validation."""
@@ -569,11 +569,11 @@ class SSDValidator(DAQValidator):
 class HDDValidator(DAQValidator):
     """Validator for HDD to HDD data validation."""
     
-    DEFAULT_SOURCE_PATH = "/Volumes/HDD_16TB_3/"
-    DEFAULT_DEST_PATH = "/Volumes/HDD_16TB_5/"
+    DEFAULT_SOURCE_PATH = "/Volumes/HDD_16TB_2/"
+    DEFAULT_DEST_PATH = "/Volumes/HDD_16TB_4/"
     
     def __init__(self):
-        super().__init__("/Volumes/HDD_16TB_3/Run_")
+        super().__init__("/Volumes/HDD_16TB_2/Run_")
     
     def get_default_destination(self, run_number: str) -> str:
         """Return the default destination HDD for HDD-to-HDD validation."""
