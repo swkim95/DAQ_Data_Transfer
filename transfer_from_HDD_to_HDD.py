@@ -21,7 +21,7 @@ The script performs the same safety checks as SSD→HDD transfer:
 - Creates transfer logs and completion flags
 - Provides real-time progress monitoring
 
-Source data location: /Volumes/HDD_16TB_2/Run_<run_number>/
+Source data location: /Volumes/HDD_24TB_6/Run_<run_number>/
 Default destination: /Volumes/HDD_16TB_4/Run_<run_number>/
 Custom destination: <destination_path>/Run_<run_number>/ (if provided)
 

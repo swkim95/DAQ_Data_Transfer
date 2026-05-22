@@ -22,7 +22,7 @@ The script performs comprehensive safety checks before deletion:
 - Displays final storage usage after deletion
 
 Source data location: /Volumes/SSD_8TB/Run_<run_number>/
-HDD verification path: /Volumes/HDD_16TB_2/Run_<run_number>/ (hardcoded)
+HDD verification path: /Volumes/HDD_24TB_6/Run_<run_number>/ (hardcoded)
 
 Prerequisites: 
 - Data must have been copied (COPIED.flag exists)
@@ -171,7 +171,7 @@ def main():
     
     # Construct paths with hardcoded HDD verification path
     ssd_dir_prefix = "/Volumes/SSD_8TB/Run_"
-    hdd_dir_prefix = "/Volumes/HDD_16TB_2/Run_"
+    hdd_dir_prefix = "/Volumes/HDD_24TB_6/Run_"
     
     ssd_dir = ssd_dir_prefix + run_number
     hdd_dir = hdd_dir_prefix + run_number

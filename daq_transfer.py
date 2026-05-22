@@ -429,10 +429,14 @@ class DAQTransfer:
 
 
 class SSDToHDDTransfer(DAQTransfer):
-    """Transfer handler for SSD to HDD transfers (primary copies)."""
-    
-    DEFAULT_DESTINATION = "/Volumes/HDD_16TB_2/"
-    
+    """Transfer handler for SSD to HDD transfers (primary copies).
+
+    Source:      /Volumes/SSD_8TB/Run_<N>
+    Destination: /Volumes/HDD_24TB_6/Run_<N>
+    """
+
+    DEFAULT_DESTINATION = "/Volumes/HDD_24TB_6/"
+
     def __init__(self):
         super().__init__(
             source_prefix="/Volumes/SSD_8TB/Run_",
@@ -445,14 +449,18 @@ class SSDToHDDTransfer(DAQTransfer):
 
 
 class HDDToHDDTransfer(DAQTransfer):
-    """Transfer handler for HDD to HDD transfers (backup copies)."""
-    
-    DEFAULT_SOURCE = "/Volumes/HDD_16TB_2/"
+    """Transfer handler for HDD to HDD transfers (secondary backup copies).
+
+    Source:      /Volumes/HDD_24TB_6/Run_<N>
+    Destination: /Volumes/HDD_16TB_4/Run_<N>
+    """
+
+    DEFAULT_SOURCE = "/Volumes/HDD_24TB_6/"
     DEFAULT_DESTINATION = "/Volumes/HDD_16TB_4/"
-    
+
     def __init__(self):
         super().__init__(
-            source_prefix="/Volumes/HDD_16TB_2/Run_",
+            source_prefix="/Volumes/HDD_24TB_6/Run_",
             log_dir="./Log_HDD/Copy_Log/"
         )
     

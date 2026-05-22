@@ -12,9 +12,9 @@ The automated deletion system monitors internal SSD storage and safely deletes v
 2. **Trigger Point**: When storage exceeds 60%, starts deletion process
 3. **Sequential Deletion**: Deletes runs in order (Run_1, Run_2, Run_3...)
 4. **Safety Verification**: Before each deletion, verifies:
-   - Data exists in both HDD_16TB_2 and HDD_16TB_4
-   - All copies have COPIED.flag and VALIDATED.flag
-   - Data file counts match between source and backups
+   - Data exists in HDD_24TB_6 (and additionally HDD_16TB_4 when `--require-secondary-backup` is set)
+   - All required copies have COPIED.flag and VALIDATED.flag
+   - Data file counts match between source and the required backup(s)
 5. **Stop Point**: When storage drops below 30%, stops deletion
 6. **Resume Monitoring**: Returns to monitoring mode
 
@@ -48,12 +48,12 @@ For real deletion mode:
 
 For each run, verifies:
 - ✅ Source directory exists in SSD
-- ✅ Copy exists in HDD_16TB_2 with COPIED.flag
-- ✅ Copy exists in HDD_16TB_4 with COPIED.flag  
+- ✅ Copy exists in HDD_24TB_6 with COPIED.flag
+- ✅ Copy exists in HDD_16TB_4 with COPIED.flag  *(only with `--require-secondary-backup`)*
 - ✅ Source has VALIDATED.flag
-- ✅ HDD_16TB_2 copy has VALIDATED.flag
-- ✅ HDD_16TB_4 copy has VALIDATED.flag
-- ✅ Data file counts match across all locations
+- ✅ HDD_24TB_6 copy has VALIDATED.flag
+- ✅ HDD_16TB_4 copy has VALIDATED.flag *(only with `--require-secondary-backup`)*
+- ✅ Data file counts match across all required locations
 
 ## Usage
 
@@ -245,7 +245,7 @@ If auto-deletion fails:
 ### 📞 **Emergency Contacts**
 
 - **Data Recovery**: Contact system administrator
-- **Backup Verification**: Check HDD_16TB_2 and HDD_16TB_4
+- **Backup Verification**: Check HDD_24TB_6 (primary) and HDD_16TB_4 (secondary, if enabled)
 - **Log Analysis**: Review all log files for failure points
 
 ## Performance

@@ -24,8 +24,8 @@ display_status() {
         return
     fi
 
-    # Size of each event in bytes (3 DAQs × (65536 + 256))
-    event_size_bytes=197376
+    # Size of each event in bytes (9 DAQs × (65536 + 256) = 9 × 65792)
+    event_size_bytes=592128
 
     # Get the storage information for the target volume in KB to avoid scientific notation
     df -k "$MONITOR_PATH" | awk 'NR==2 {print $2, $3, $4, $5, $6}' | while read size_kb used_kb avail_kb perc mount

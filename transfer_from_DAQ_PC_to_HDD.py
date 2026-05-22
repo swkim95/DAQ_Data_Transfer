@@ -9,10 +9,10 @@ to external HDDs. This is the first step in the 3-stage data management process:
 
 Usage:
     python3 transfer_from_DAQ_PC_to_HDD.py <run_number> [destination_path]
-    
+
 Examples:
     python3 transfer_from_DAQ_PC_to_HDD.py 999
-    python3 transfer_from_DAQ_PC_to_HDD.py 999 /Volumes/HDD_16TB_1/
+    python3 transfer_from_DAQ_PC_to_HDD.py 999 /Volumes/HDD_24TB_6/
 
 The script performs comprehensive safety checks:
 - Validates source and destination paths
@@ -22,7 +22,7 @@ The script performs comprehensive safety checks:
 - Provides real-time progress monitoring
 
 Source data location: /Volumes/SSD_8TB/Run_<run_number>/
-Default destination: /Volumes/HDD_16TB_2/Run_<run_number>/
+Default destination: /Volumes/HDD_24TB_6/Run_<run_number>/
 Custom destination: <destination_path>/Run_<run_number>/ (if provided)
 """
 
@@ -39,7 +39,7 @@ def main():
     
     Arguments:
         run_number: Required - The run number to transfer
-        destination_path: Optional - Custom destination path (defaults to /Volumes/HDD_16TB_2/)
+        destination_path: Optional - Custom destination path (defaults to /Volumes/HDD_24TB_6/)
     """
     # Validate command line arguments (1-2 arguments plus script name)
     validate_args_count_flexible(

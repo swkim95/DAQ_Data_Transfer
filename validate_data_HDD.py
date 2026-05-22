@@ -17,7 +17,7 @@ The script performs comprehensive validation:
 - Validates data integrity using SHA256 checksums
 - Creates validation flags upon successful completion
 
-Source data location: /Volumes/HDD_16TB_2/Run_<run_number>/
+Source data location: /Volumes/HDD_24TB_6/Run_<run_number>/
 Destination: /Volumes/HDD_16TB_4/Run_<run_number>/ (hardcoded)
 
 Prerequisites: Data must have been copied and COPIED.flag must exist.

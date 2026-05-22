@@ -2,14 +2,21 @@
 DAQ Data Processing Automation Script
 
 This script monitors the experimental data directory and automatically processes
-new runs through the complete dual-backup workflow:
+new runs. There are two possible workflows:
 
-1. Monitors /Volumes/SSD_8TB/ for new run directories
-2. When a new run appears (Run_N), processes unprocessed runs starting from the lowest run number:
-   a. Copy SSD → HDD_16TB_2 (primary backup)
-   b. Validate SSD ↔ HDD_16TB_2
-   c. Copy HDD_16TB_2 → HDD_16TB_4 (secondary backup)
-   d. Validate HDD_16TB_2 ↔ HDD_16TB_4
+Primary backup only (default):
+    1. Copy SSD (/Volumes/SSD_8TB) -> HDD1 (/Volumes/HDD_24TB_6)
+    2. Validate SSD <-> HDD1
+
+Full dual backup (when --enable-secondary-backup is set):
+    1. Copy SSD -> HDD1
+    2. Validate SSD <-> HDD1
+    3. Copy HDD1 -> HDD2 (/Volumes/HDD_16TB_4)
+    4. Validate HDD1 <-> HDD2
+
+The script monitors /Volumes/SSD_8TB/ for new run directories. When a new run
+appears (Run_N), unprocessed runs starting from the lowest run number are
+processed through the workflow above.
 
 Safety Features:
 - Checks if data is already copied before starting transfer
@@ -19,14 +26,16 @@ Safety Features:
 - Validates all prerequisites before each step
 
 Usage:
-    python3 daq_automation.py [--interval SECONDS] [--dry-run]
-    
+    python3 daq_automation.py [--interval SECONDS] [--dry-run] [--enable-secondary-backup]
+
 Arguments:
-    --interval SECONDS  : Monitoring interval in seconds (default: 60)
-    --dry-run          : Show what would be done without executing
-    
+    --interval SECONDS         : Monitoring interval in seconds (default: 60)
+    --dry-run                  : Show what would be done without executing
+    --enable-secondary-backup  : Also run HDD->HDD steps 3 & 4 (off by default)
+
 Example:
     python3 daq_automation.py --interval 30
+    python3 daq_automation.py --enable-secondary-backup
     
 Logging:
     Main log: ./Log/automation_log_YYYYMMDD_HHMMSS.txt
@@ -56,22 +65,28 @@ class DAQAutomation:
     through the complete backup and validation workflow.
     """
     
-    def __init__(self, monitoring_interval: int = 60, dry_run: bool = False):
+    def __init__(self, monitoring_interval: int = 60, dry_run: bool = False,
+                 enable_secondary_backup: bool = False):
         """
         Initialize the automation system.
-        
+
         Args:
             monitoring_interval: Seconds between directory checks
             dry_run: If True, show what would be done without executing
+            enable_secondary_backup: If True, also perform the HDD1 -> HDD2
+                backup (step 3) and HDD1 <-> HDD2 validation (step 4).
+                Default False: a run is considered fully processed once it has
+                been copied from SSD to HDD1 and SSD <-> HDD1 has been validated.
         """
         self.monitoring_interval = monitoring_interval
         self.dry_run = dry_run
-        
+        self.enable_secondary_backup = enable_secondary_backup
+
         # Paths
         self.source_base = "/Volumes/SSD_8TB"
-        self.hdd1_base = "/Volumes/HDD_16TB_2"
+        self.hdd1_base = "/Volumes/HDD_24TB_6"
         self.hdd2_base = "/Volumes/HDD_16TB_4"
-        
+
         # Script paths
         self.transfer_ssd_script = "./Transfer_Data.sh"
         self.validate_ssd_script = "./Valid_Data.sh"
@@ -161,42 +176,52 @@ class DAQAutomation:
     def is_run_already_copied(self, run_number: int) -> Tuple[bool, bool]:
         """
         Check if a run is already copied to HDDs.
-        
+
         Args:
             run_number: Run number to check
-            
+
         Returns:
-            Tuple of (copied_to_hdd1, copied_to_hdd2)
+            Tuple of (copied_to_hdd1, copied_to_hdd2). When secondary backup
+            is disabled, the second value reflects the HDD2 flag if it happens
+            to exist but is otherwise ignored by the workflow.
         """
         hdd1_path = os.path.join(self.hdd1_base, f"Run_{run_number}")
         hdd2_path = os.path.join(self.hdd2_base, f"Run_{run_number}")
-        
+
         hdd1_copied = os.path.exists(hdd1_path) and check_flag_file_exists(hdd1_path, "COPIED.flag")
         hdd2_copied = os.path.exists(hdd2_path) and check_flag_file_exists(hdd2_path, "COPIED.flag")
-        
+
         return hdd1_copied, hdd2_copied
-    
+
     def is_run_validated(self, run_number: int) -> Tuple[bool, bool]:
         """
         Check if a run is already validated.
-        
+
         Args:
             run_number: Run number to check
-            
+
         Returns:
-            Tuple of (ssd_validated, hdd_validated)
+            Tuple of (ssd_validated, hdd_validated).
+            - ssd_validated: True iff SSD's VALIDATED.flag exists.
+            - hdd_validated: True iff HDD1 VALIDATED.flag exists, and (only if
+              secondary backup is enabled) HDD2 VALIDATED.flag also exists.
         """
         source_path = os.path.join(self.source_base, f"Run_{run_number}")
         hdd1_path = os.path.join(self.hdd1_base, f"Run_{run_number}")
         hdd2_path = os.path.join(self.hdd2_base, f"Run_{run_number}")
-        
-        # SSD validation: check if VALIDATED.flag exists in source
+
         ssd_validated = os.path.exists(source_path) and check_flag_file_exists(source_path, "VALIDATED.flag")
-        
-        # HDD validation: check if VALIDATED.flag exists in both HDDs
-        hdd_validated = (os.path.exists(hdd1_path) and check_flag_file_exists(hdd1_path, "VALIDATED.flag") and
-                        os.path.exists(hdd2_path) and check_flag_file_exists(hdd2_path, "VALIDATED.flag"))
-        
+
+        hdd1_validated = (os.path.exists(hdd1_path) and
+                          check_flag_file_exists(hdd1_path, "VALIDATED.flag"))
+
+        if self.enable_secondary_backup:
+            hdd2_validated = (os.path.exists(hdd2_path) and
+                              check_flag_file_exists(hdd2_path, "VALIDATED.flag"))
+            hdd_validated = hdd1_validated and hdd2_validated
+        else:
+            hdd_validated = hdd1_validated
+
         return ssd_validated, hdd_validated
     
     def execute_script(self, script_path: str, run_number: int, additional_args: List[str] = None) -> bool:
@@ -330,33 +355,40 @@ class DAQAutomation:
         else:
             self.log_message(f"Step 2: Run_{run_number} already validated (SSD↔HDD1), skipping")
         
-        # Step 3: Copy HDD1 → HDD2 (secondary backup)
-        if not hdd2_copied:
-            if not hdd1_copied:
-                self.log_message("Cannot start secondary backup before primary copy is complete", "ERROR")
-                return False
-            self.log_message(f"Step 3: Copying Run_{run_number} from HDD1 to HDD2")
-            if not self.execute_script(self.transfer_hdd_script, run_number):
-                self.log_message(f"Failed to copy Run_{run_number} to HDD2", "ERROR")
-                return False
-            hdd2_copied = True
-        else:
-            self.log_message(f"Step 3: Run_{run_number} already copied to HDD2, skipping")
-        
-        # Step 4: Validate HDD1 ↔ HDD2 (if not already done)
-        if not hdd_validated:
+        # Steps 3 & 4 only run when the secondary (HDD->HDD) backup is enabled.
+        if self.enable_secondary_backup:
+            # Step 3: Copy HDD1 → HDD2 (secondary backup)
             if not hdd2_copied:
-                self.log_message("Cannot validate HDD backups before secondary copy is complete", "ERROR")
-                return False
-            self.log_message(f"Step 4: Validating Run_{run_number} between HDD1 and HDD2")
-            if not self.execute_script(self.validate_hdd_script, run_number):
-                self.log_message(f"Failed to validate Run_{run_number} HDD1↔HDD2", "ERROR")
-                return False
-            hdd_validated = True
+                if not hdd1_copied:
+                    self.log_message("Cannot start secondary backup before primary copy is complete", "ERROR")
+                    return False
+                self.log_message(f"Step 3: Copying Run_{run_number} from HDD1 to HDD2")
+                if not self.execute_script(self.transfer_hdd_script, run_number):
+                    self.log_message(f"Failed to copy Run_{run_number} to HDD2", "ERROR")
+                    return False
+                hdd2_copied = True
+            else:
+                self.log_message(f"Step 3: Run_{run_number} already copied to HDD2, skipping")
+
+            # Step 4: Validate HDD1 ↔ HDD2 (if not already done)
+            if not hdd_validated:
+                if not hdd2_copied:
+                    self.log_message("Cannot validate HDD backups before secondary copy is complete", "ERROR")
+                    return False
+                self.log_message(f"Step 4: Validating Run_{run_number} between HDD1 and HDD2")
+                if not self.execute_script(self.validate_hdd_script, run_number):
+                    self.log_message(f"Failed to validate Run_{run_number} HDD1↔HDD2", "ERROR")
+                    return False
+                hdd_validated = True
+            else:
+                self.log_message(f"Step 4: Run_{run_number} already validated (HDD1↔HDD2), skipping")
+
+            self.log_message(f"Successfully completed dual backup and validation for Run_{run_number}", "SUCCESS")
         else:
-            self.log_message(f"Step 4: Run_{run_number} already validated (HDD1↔HDD2), skipping")
-        
-        self.log_message(f"Successfully completed dual backup and validation for Run_{run_number}", "SUCCESS")
+            self.log_message(f"Steps 3 & 4 (HDD->HDD secondary backup) are DISABLED; "
+                             f"Run_{run_number} considered fully processed after SSD<->HDD1 validation",
+                             "INFO")
+            self.log_message(f"Successfully completed primary backup and validation for Run_{run_number}", "SUCCESS")
         return True
     
     def run_monitoring_cycle(self) -> None:
@@ -381,12 +413,17 @@ class DAQAutomation:
             for run_number in sorted(processable_runs):
                 hdd1_copied, hdd2_copied = self.is_run_already_copied(run_number)
                 ssd_validated, hdd_validated = self.is_run_validated(run_number)
-                
-                # If this run is completely processed (primary + secondary), continue to the next
-                if hdd1_copied and hdd2_copied and ssd_validated and hdd_validated:
+
+                # A run is "fully processed" iff:
+                #   - HDD1 has been copied and SSD<->HDD1 validated, AND
+                #   - (only when secondary backup is enabled) HDD2 copy + HDD<->HDD validation is done
+                primary_done = hdd1_copied and ssd_validated and hdd_validated
+                secondary_done = (not self.enable_secondary_backup) or hdd2_copied
+                if primary_done and secondary_done:
                     if self.last_processed_run is None or run_number > self.last_processed_run:
                         self.last_processed_run = run_number
-                    self.log_message(f"Run_{run_number} is already fully processed (dual backup)")
+                    mode = "dual backup" if self.enable_secondary_backup else "primary backup only"
+                    self.log_message(f"Run_{run_number} is already fully processed ({mode})")
                     continue
                 
                 # Process this run
@@ -416,8 +453,14 @@ class DAQAutomation:
         """Run the automation system."""
         self.log_message("Starting DAQ automation system")
         self.log_message(f"Monitoring directory: {self.source_base}")
+        self.log_message(f"HDD1 (primary backup): {self.hdd1_base}")
+        if self.enable_secondary_backup:
+            self.log_message(f"HDD2 (secondary backup): {self.hdd2_base}")
+            self.log_message("Secondary backup (Step 3 & 4) is ENABLED")
+        else:
+            self.log_message("Secondary backup (Step 3 & 4) is DISABLED (primary backup only)")
         self.log_message(f"Check interval: {self.monitoring_interval} seconds")
-        
+
         if self.dry_run:
             self.log_message("DRY RUN MODE - No actual operations will be performed", "WARNING")
         
@@ -443,20 +486,23 @@ def main():
                        help="Monitoring interval in seconds (default: 60)")
     parser.add_argument("--dry-run", action="store_true",
                        help="Show what would be done without executing")
-    
+    parser.add_argument("--enable-secondary-backup", action="store_true",
+                       help="Also run the HDD->HDD secondary backup (HDD_24TB_6 "
+                            "-> HDD_16TB_4) and HDD<->HDD validation. "
+                            "Default: off (primary backup only).")
+
     args = parser.parse_args()
-    
-    # Validate monitoring interval
+
     if args.interval < 1:
         print("Error: Monitoring interval must be at least 1 seconds")
         sys.exit(1)
-    
-    # Create and run automation system
+
     automation = DAQAutomation(
         monitoring_interval=args.interval,
-        dry_run=args.dry_run
+        dry_run=args.dry_run,
+        enable_secondary_backup=args.enable_secondary_backup,
     )
-    
+
     automation.run()
 
 

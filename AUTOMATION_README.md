@@ -1,15 +1,20 @@
 # DAQ Data Processing Automation
 
-This automation system monitors the experimental data directory and automatically processes new runs through the complete backup and validation workflow.
+This automation system monitors the experimental data directory and automatically processes new runs through the backup and validation workflow.
 
 ## Overview
 
-The automation system performs a 4-step process when a new run appears:
+By default the automation runs a 2-step **primary-backup-only** workflow when a new run appears:
 
-1. **Copy SSD → HDD_16TB_2** (Primary backup)
-2. **Validate SSD ↔ HDD_16TB_2** (Ensure integrity)
-3. **Copy HDD_16TB_2 → HDD_16TB_4** (Secondary backup)
-4. **Validate HDD_16TB_2 ↔ HDD_16TB_4** (Ensure backup integrity)
+1. **Copy SSD (`/Volumes/SSD_8TB`) → HDD1 (`/Volumes/HDD_24TB_6`)** (Primary backup)
+2. **Validate SSD ↔ HDD1** (Ensure integrity)
+
+When the `--enable-secondary-backup` flag is passed, two additional steps run:
+
+3. **Copy HDD1 (`/Volumes/HDD_24TB_6`) → HDD2 (`/Volumes/HDD_16TB_4`)** (Secondary backup)
+4. **Validate HDD1 ↔ HDD2** (Ensure backup integrity)
+
+The secondary backup code is always available; only the orchestrator's automatic invocation of it is gated by the flag.
 
 ## Key Features
 
@@ -114,22 +119,24 @@ For each run (e.g., Run_11876):
 ```
 Run_11877 appears → Process Run_11876
 
-Step 1: SSD → HDD_16TB_2
+Step 1: SSD_8TB → HDD_24TB_6
 ├── Check: Already copied?
 ├── Execute: ./Transfer_Data.sh 11876
 └── Verify: COPIED.flag created
 
-Step 2: Validate SSD ↔ HDD_16TB_2  
+Step 2: Validate SSD ↔ HDD_24TB_6
 ├── Check: Already validated?
 ├── Execute: ./Valid_Data.sh 11876
 └── Verify: VALIDATED.flag created
 
-Step 3: HDD_16TB_2 → HDD_16TB_4
+(Only when --enable-secondary-backup is set:)
+
+Step 3: HDD_24TB_6 → HDD_16TB_4
 ├── Check: Already copied?
 ├── Execute: ./Transfer_Data_HDD.sh 11876
 └── Verify: COPIED.flag created
 
-Step 4: Validate HDD_16TB_2 ↔ HDD_16TB_4
+Step 4: Validate HDD_24TB_6 ↔ HDD_16TB_4
 ├── Check: Already validated?
 ├── Execute: ./Valid_Data_HDD.sh 11876
 └── Verify: VALIDATED.flag created
@@ -228,9 +235,9 @@ python3 transfer_from_DAQ_PC_to_HDD.py 11876
 #### 4. Storage Issues
 ```bash
 # Check disk space
-df -h /Volumes/HDD_16TB_2
-df -h /Volumes/HDD_16TB_4
-df -h /Users/yhep/scratch
+df -h /Volumes/SSD_8TB
+df -h /Volumes/HDD_24TB_6
+df -h /Volumes/HDD_16TB_4   # only relevant with --enable-secondary-backup
 
 # Check mount points
 ls -la /Volumes/

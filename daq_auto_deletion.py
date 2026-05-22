@@ -73,31 +73,36 @@ class DAQAutoDeletion:
     
     Features:
     - Real-time storage monitoring with event capacity calculations
-    - Event size: 197,376 bytes (0.188 MB) per event (3 DAQs active)
+    - Event size: 592,128 bytes (~0.565 MB) per event (9 DAQs active)
     - Visual storage display with color-coded status
     - Sequential deletion starting from lowest run numbers
     - Comprehensive safety verification before each deletion
     """
     
-    def __init__(self, real_deletion: bool = False, monitoring_interval: int = 300, 
-                 trigger_threshold: float = 60.0, stop_threshold: float = 30.0):
+    def __init__(self, real_deletion: bool = False, monitoring_interval: int = 300,
+                 trigger_threshold: float = 60.0, stop_threshold: float = 30.0,
+                 require_secondary_backup: bool = False):
         """
         Initialize the auto-deletion system.
-        
+
         Args:
             real_deletion: If True, perform actual deletion (DANGEROUS)
             monitoring_interval: Seconds between storage checks
             trigger_threshold: Storage percentage to trigger deletion
             stop_threshold: Storage percentage to stop deletion
+            require_secondary_backup: If True, also require HDD2 (HDD_16TB_4)
+                COPIED.flag + VALIDATED.flag before a run is considered safe to
+                delete. Default False: only HDD1 (HDD_24TB_6) is required.
         """
         self.real_deletion = real_deletion
         self.monitoring_interval = monitoring_interval
         self.trigger_threshold = trigger_threshold
         self.stop_threshold = stop_threshold
-        
+        self.require_secondary_backup = require_secondary_backup
+
         # Paths
         self.source_base = "/Volumes/SSD_8TB"
-        self.hdd1_base = "/Volumes/HDD_16TB_2"
+        self.hdd1_base = "/Volumes/HDD_24TB_6"
         self.hdd2_base = "/Volumes/HDD_16TB_4"
         
         # Safety limits
@@ -197,8 +202,9 @@ class DAQAutoDeletion:
         free_gb = storage.free_bytes / (1024**3)
         
         # Calculate events based on current DAQ configuration:
-        # 3 DAQs × (Waveform 65536 B + Fast 256 B) = 197,376 bytes per event
-        event_size_bytes = 197_376
+        # 9 DAQs × (Waveform 65536 B + Fast 256 B) = 9 × 65792 = 592,128 bytes per event
+        event_size_bytes = 592_128
+
         total_events_capacity = storage.total_bytes // event_size_bytes
         used_events = storage.used_bytes // event_size_bytes
         free_events = storage.free_bytes // event_size_bytes
@@ -284,48 +290,52 @@ class DAQAutoDeletion:
         source_path = os.path.join(self.source_base, f"Run_{run_number}")
         hdd1_path = os.path.join(self.hdd1_base, f"Run_{run_number}")
         hdd2_path = os.path.join(self.hdd2_base, f"Run_{run_number}")
-        
+
         # Check 1: Source exists
         if not os.path.exists(source_path):
             return False, f"Source directory does not exist: {source_path}"
-        
+
         # Check 2: HDD1 copy exists and has COPIED flag
         if not os.path.exists(hdd1_path):
             return False, f"HDD1 copy does not exist: {hdd1_path}"
         if not check_flag_file_exists(hdd1_path, "COPIED.flag"):
             return False, f"HDD1 copy not flagged as copied: {hdd1_path}/COPIED.flag missing"
-        
-        # # Check 3: HDD2 copy exists and has COPIED flag
-        # if not os.path.exists(hdd2_path):
-        #     return False, f"HDD2 copy does not exist: {hdd2_path}"
-        # if not check_flag_file_exists(hdd2_path, "COPIED.flag"):
-        #     return False, f"HDD2 copy not flagged as copied: {hdd2_path}/COPIED.flag missing"
-        
+
+        # Check 3 (optional): HDD2 copy exists and has COPIED flag
+        if self.require_secondary_backup:
+            if not os.path.exists(hdd2_path):
+                return False, f"HDD2 copy does not exist: {hdd2_path}"
+            if not check_flag_file_exists(hdd2_path, "COPIED.flag"):
+                return False, f"HDD2 copy not flagged as copied: {hdd2_path}/COPIED.flag missing"
+
         # Check 4: Source has VALIDATED flag
         if not check_flag_file_exists(source_path, "VALIDATED.flag"):
             return False, f"Source not flagged as validated: {source_path}/VALIDATED.flag missing"
-        
+
         # Check 5: HDD1 has VALIDATED flag
         if not check_flag_file_exists(hdd1_path, "VALIDATED.flag"):
             return False, f"HDD1 copy not flagged as validated: {hdd1_path}/VALIDATED.flag missing"
-        
-        # # Check 6: HDD2 has VALIDATED flag
-        # if not check_flag_file_exists(hdd2_path, "VALIDATED.flag"):
-        #     return False, f"HDD2 copy not flagged as validated: {hdd2_path}/VALIDATED.flag missing"
-        
+
+        # Check 6 (optional): HDD2 has VALIDATED flag
+        if self.require_secondary_backup:
+            if not check_flag_file_exists(hdd2_path, "VALIDATED.flag"):
+                return False, f"HDD2 copy not flagged as validated: {hdd2_path}/VALIDATED.flag missing"
+
         # Check 7: Data file counts match (extra safety)
         try:
             source_files = get_data_files(source_path)
             hdd1_files = get_data_files(hdd1_path)
-            hdd2_files = get_data_files(hdd2_path)
-            
+
             if len(source_files) != len(hdd1_files):
                 return False, f"Data file count mismatch: Source={len(source_files)}, HDD1={len(hdd1_files)}"
-            # if len(source_files) != len(hdd2_files):
-            #     return False, f"Data file count mismatch: Source={len(source_files)}, HDD2={len(hdd2_files)}"
+
+            if self.require_secondary_backup:
+                hdd2_files = get_data_files(hdd2_path)
+                if len(source_files) != len(hdd2_files):
+                    return False, f"Data file count mismatch: Source={len(source_files)}, HDD2={len(hdd2_files)}"
         except Exception as e:
             return False, f"Error checking data file counts: {e}"
-        
+
         return True, "All safety checks passed"
     
     def calculate_run_size(self, run_number: int) -> int:
@@ -549,6 +559,11 @@ class DAQAutoDeletion:
         self.log_message(f"Trigger threshold: {self.trigger_threshold}%", "INFO")
         self.log_message(f"Stop threshold: {self.stop_threshold}%", "INFO")
         self.log_message(f"Check interval: {self.monitoring_interval} seconds", "INFO")
+        self.log_message(f"HDD1 (primary backup): {self.hdd1_base}", "INFO")
+        if self.require_secondary_backup:
+            self.log_message(f"HDD2 (secondary backup) REQUIRED: {self.hdd2_base}", "INFO")
+        else:
+            self.log_message("HDD2 (secondary backup) NOT required for deletion", "INFO")
         
         if not self.real_deletion:
             self.log_message("DRY RUN MODE - No actual deletions will be performed", "WARNING")
@@ -600,6 +615,10 @@ Examples:
                        help="Monitoring interval in seconds (default: 300)")
     parser.add_argument("--force-threshold", type=float,
                        help="Override 60%% trigger threshold (DANGEROUS)")
+    parser.add_argument("--require-secondary-backup", action="store_true",
+                       help="Also require the secondary (HDD_16TB_4) backup to be "
+                            "copied and validated before deleting from the SSD. "
+                            "Default: off (only HDD_24TB_6 is required).")
     
     args = parser.parse_args()
     
@@ -631,7 +650,8 @@ Examples:
     deletion_system = DAQAutoDeletion(
         real_deletion=args.real_deletion,
         monitoring_interval=args.interval,
-        trigger_threshold=trigger_threshold
+        trigger_threshold=trigger_threshold,
+        require_secondary_backup=args.require_secondary_backup,
     )
     
     deletion_system.run()
