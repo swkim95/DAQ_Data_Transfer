@@ -293,24 +293,32 @@ def print_error_block(message: str) -> None:
 def get_data_files(directory: str) -> List[str]:
     """
     Get a sorted list of data files (.dat files only) from a directory.
-    
-    This function specifically includes only .dat files and excludes all other files
-    including flag files, logs, images, and system files.
-    
+
+    This function specifically includes only real .dat data files and excludes:
+    - flag files, logs, images, and other non-data files
+    - macOS AppleDouble sidecar files (names starting with "._"). These are
+      generated automatically when macOS writes extended-attribute-bearing
+      files to a non-APFS/HFS+ destination (e.g. an exFAT/NTFS HDD), and they
+      also happen to end in ".dat" (e.g. "._Run_<N>_Wave_MID_1_FILE_0.dat").
+      Counting them as real data files makes file lists and sizes appear to
+      mismatch between SSD (APFS, no sidecars) and HDD (sidecars present).
+
     Args:
         directory: Directory to scan for data files
-        
+
     Returns:
-        Sorted list of .dat file paths only
+        Sorted list of real .dat file paths only
     """
     file_list = []
     for root_dir, _, files in os.walk(directory):
         for file_name in files:
-            file_path = os.path.join(root_dir, file_name)
-            # Only include .dat files (actual data files)
-            if file_name.endswith('.dat'):
-                file_list.append(file_path)
-    
+            if not file_name.endswith('.dat'):
+                continue
+            # Skip macOS AppleDouble sidecar files (e.g. "._foo.dat")
+            if file_name.startswith('._'):
+                continue
+            file_list.append(os.path.join(root_dir, file_name))
+
     file_list.sort()
     return file_list
 

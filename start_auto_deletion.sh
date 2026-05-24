@@ -7,19 +7,24 @@
 #
 # Usage:
 #     ./start_auto_deletion.sh [OPTIONS]
-#     
+#
 # Options:
-#     --real-deletion     : Enable real deletion mode (EXTREMELY DANGEROUS)
-#     --interval SECONDS  : Monitoring interval (default: 300 seconds)
-#     --background        : Run in background with nohup
-#     --stop              : Stop running auto-deletion
-#     --status            : Show auto-deletion status
-#     
+#     --real-deletion              : Enable real deletion mode (EXTREMELY DANGEROUS)
+#     --interval SECONDS           : Monitoring interval (default: 300 seconds)
+#     --background                 : Run in background with nohup
+#     --force-threshold PERCENT    : Override the 60% trigger threshold
+#                                    (must be >30 and <=90)
+#     --require-secondary-backup   : Also require HDD_16TB_4 to be copied/validated
+#                                    before a run is eligible for deletion
+#     --stop                       : Stop running auto-deletion
+#     --status                     : Show auto-deletion status
+#
 # Examples:
-#     ./start_auto_deletion.sh                    # Safe dry-run monitoring
-#     ./start_auto_deletion.sh --real-deletion   # DANGEROUS: Real deletion
-#     ./start_auto_deletion.sh --background      # Run in background
-#     ./start_auto_deletion.sh --stop            # Stop auto-deletion
+#     ./start_auto_deletion.sh                                    # Safe dry-run monitoring (60%)
+#     ./start_auto_deletion.sh --force-threshold 85               # Dry-run, trigger at 85%
+#     ./start_auto_deletion.sh --real-deletion --force-threshold 85   # Real deletion, trigger at 85%
+#     ./start_auto_deletion.sh --background                       # Run in background
+#     ./start_auto_deletion.sh --stop                             # Stop auto-deletion
 
 # Color definitions for output
 RED='\033[0;31m'
@@ -120,7 +125,9 @@ start_auto_deletion() {
     local real_deletion=false
     local interval=300
     local background=false
-    
+    local force_threshold=""
+    local require_secondary=false
+
     # Parse arguments
     while [[ $# -gt 0 ]]; do
         case $1 in
@@ -136,12 +143,37 @@ start_auto_deletion() {
                 background=true
                 shift
                 ;;
+            --force-threshold)
+                force_threshold="$2"
+                shift 2
+                ;;
+            --require-secondary-backup)
+                require_secondary=true
+                shift
+                ;;
             *)
                 print_error "Unknown option: $1"
                 exit 1
                 ;;
         esac
     done
+
+    # Validate --force-threshold (numeric, in (stop_threshold, 90])
+    if [[ -n "$force_threshold" ]]; then
+        if ! [[ "$force_threshold" =~ ^[0-9]+(\.[0-9]+)?$ ]]; then
+            print_error "--force-threshold must be a number (got: $force_threshold)"
+            return 1
+        fi
+        # Use awk for float comparison since bash arithmetic is integer-only.
+        if awk -v v="$force_threshold" 'BEGIN { exit !(v > 90.0) }'; then
+            print_error "--force-threshold cannot exceed 90% for safety (got: $force_threshold)"
+            return 1
+        fi
+        if awk -v v="$force_threshold" 'BEGIN { exit !(v <= 30.0) }'; then
+            print_error "--force-threshold must be greater than the 30% stop threshold (got: $force_threshold)"
+            return 1
+        fi
+    fi
     
     # Check if already running
     if is_auto_deletion_running; then
@@ -194,6 +226,12 @@ start_auto_deletion() {
     local cmd="python3 $DELETION_SCRIPT --interval $interval"
     if [[ "$real_deletion" == true ]]; then
         cmd="$cmd --real-deletion"
+    fi
+    if [[ -n "$force_threshold" ]]; then
+        cmd="$cmd --force-threshold $force_threshold"
+    fi
+    if [[ "$require_secondary" == true ]]; then
+        cmd="$cmd --require-secondary-backup"
     fi
     
     if [[ "$background" == true ]]; then
@@ -274,20 +312,25 @@ show_help() {
     echo "Usage: $0 [OPTIONS]"
     echo
     echo "Options:"
-    echo "  --real-deletion     Enable real deletion mode (EXTREMELY DANGEROUS)"
-    echo "  --interval SECONDS  Monitoring interval (default: 300 seconds)"
-    echo "  --background        Run in background with nohup"
-    echo "  --stop              Stop running auto-deletion"
-    echo "  --status            Show auto-deletion status"
-    echo "  --help              Show this help message"
+    echo "  --real-deletion              Enable real deletion mode (EXTREMELY DANGEROUS)"
+    echo "  --interval SECONDS           Monitoring interval (default: 300 seconds)"
+    echo "  --background                 Run in background with nohup"
+    echo "  --force-threshold PERCENT    Override the 60% trigger threshold"
+    echo "                               (must be >30 and <=90)"
+    echo "  --require-secondary-backup   Also require HDD_16TB_4 to be copied/validated"
+    echo "                               before a run is eligible for deletion"
+    echo "  --stop                       Stop running auto-deletion"
+    echo "  --status                     Show auto-deletion status"
+    echo "  --help                       Show this help message"
     echo
     echo "Examples:"
-    echo "  $0                          # Safe dry-run monitoring"
-    echo "  $0 --real-deletion         # DANGEROUS: Real deletion mode"
-    echo "  $0 --background            # Run in background (dry-run)"
-    echo "  $0 --interval 120          # Check every 2 minutes"
-    echo "  $0 --stop                  # Stop auto-deletion"
-    echo "  $0 --status                # Show status"
+    echo "  $0                                                 # Safe dry-run, 60% trigger"
+    echo "  $0 --force-threshold 85                            # Dry-run, 85% trigger"
+    echo "  $0 --real-deletion --force-threshold 85            # Real deletion, 85% trigger"
+    echo "  $0 --background --force-threshold 80               # Background dry-run at 80%"
+    echo "  $0 --interval 120                                  # Check every 2 minutes"
+    echo "  $0 --stop                                          # Stop auto-deletion"
+    echo "  $0 --status                                        # Show status"
     echo
     show_safety_warnings
 }
